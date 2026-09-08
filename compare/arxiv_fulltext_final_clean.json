@@ -1,0 +1,201 @@
+{
+  "dataset_name": "quantum physics",
+  "results": [
+    {
+      "article": {
+        "title": "Physics Briefing Book",
+        "abstract": "The European Particle Physics Strategy Update (EPPSU) process takes a bottom-up approach, whereby the community is first invited to submit proposals (also called inputs) for projects that it would like to see realised in the near-term, mid-term and longer-term future. National inputs as well as inputs from National Laboratories are also an important element of the process. All these inputs are then reviewed by the Physics Preparatory Group (PPG), whose role is to organize a Symposium around the submitted ideas and to prepare a community discussion on the importance and merits of the various proposals. The results of these discussions are then concisely summarised in this Briefing Book, prepared by the Conveners, assisted by Scientific Secretaries, and with further contributions provided by the Contributors listed on the title page. This constitutes the basis for the considerations of the European Strategy Group (ESG), consisting of scientific delegates from CERN Member States, Associate Member States, directors of major European laboratories, representatives of various European organizations as well as invitees from outside the European Community. The ESG has the mission to formulate the European Strategy Update for the consideration and approval of the CERN Council.",
+        "full_text": null,
+        "doi": null,
+        "url": "http://arxiv.org/abs/1910.11775v2",
+        "input_quality": null
+      },
+      "cells": [
+        {
+          "generator": "openrouter",
+          "mode": "raw",
+          "analysis": {
+            "text": "**Analysis of \"Physics Briefing Book\" (Abstract Only)**\n\n**Document Type & Context**\nThis is not a standard research article presenting new physics results. It is the **abstract/preface of a procedural policy document** (the \"Physics Briefing Book\") produced for the **European Particle Physics Strategy Update (EPPSU) 2018–2020** cycle. Its purpose is administrative and strategic, defining the governance workflow for setting European particle physics priorities.\n\n**Main Claims & Description of Process**\nThe text outlines a **four-stage, bottom-up governance pipeline**:\n\n1.  **Community Input Generation (Bottom-Up):** The global community submits proposals (\"inputs\") categorized by timeline (near-, mid-, long-term). National bodies and laboratories submit separate inputs.\n2.  **Scientific Curation (Physics Preparatory Group - PPG):** The PPG reviews inputs, organizes a symposium (the \"Open Symposium\"), and facilitates community discussion on scientific merit and feasibility.\n3.  **Synthesis (The Briefing Book):** Conveners and Scientific Secretaries distill symposium discussions into this document. It serves as the **evidence base** for decision-making.\n4.  **Strategy Formulation (European Strategy Group - ESG):** A high-level political/scientific body (CERN Member State delegates, lab directors, external invitees) uses the Briefing Book to draft the formal **European Strategy Update**.\n5.  **Ratification:** The CERN Council approves the final strategy.\n\n**Contribution & Significance**\n*   **Procedural Transparency:** It codifies the \"bottom-up\" methodology ensuring community ownership of the roadmap.\n*   **Interface Function:** The Briefing Book acts as the critical **translation layer** between diverse scientific proposals (experimental, theoretical, accelerator R&D) and the political/funding decisions of the CERN Council.\n*   **Legitimacy:** By detailing the composition of the PPG and ESG (geographic balance, lab directors, external voices), it establishes the legitimacy of the resulting strategy document (the 2020 ESPP Update).\n\n**Limitations (Given Available Text)**\n*   **Zero Scientific Content:** The abstract contains no physics arguments, no specific project evaluations (e.g., FCC, CLIC, HL-LHC), and no scientific priorities.\n*   **Meta-Document:** It describes *how* the strategy was made, not *what* the strategy is.\n\n**Conclusion**\nThis text is a **governance charter abstract**. Its value lies in documenting the rigorous, multi-stakeholder consensus mechanism that underpins European particle physics funding decisions, serving as a model for large-scale scientific prioritization.",
+            "source_model": "nvidia/nemotron-3-ultra-550b-a55b:free",
+            "generated_at": "2026-08-30T19:06:13Z"
+          },
+          "metadata": {},
+          "judge_result": {
+            "criteria_source": "llm",
+            "winner": "raw",
+            "reasoning": "RAW analysis is superior across all criteria: it correctly categorizes the document, accurately describes the governance pipeline, identifies the Briefing Book's strategic function as a translation layer, acknowledges limitations without forcing an inappropriate epistemic score, and presents findings in clear, structured English. BSI's analysis suffers from language barrier, text corruption, and a fundamental category error—applying an epistemic robustness framework to a procedural document that makes no knowledge claims. The BSI score of 46/100 is misleading and adds no interpretive value beyond RAW's clearer qualitative assessment.",
+            "criteria": [
+              {
+                "name": "Document Type Identification",
+                "importance": 20.0,
+                "raw_score": 10.0,
+                "bsi_score": 9.0,
+                "reason": "RAW explicitly identifies this as a 'governance charter abstract' and 'procedural policy document' with zero scientific content. BSI identifies it as procedural/governance but the Persian text has encoding corruption in reasoning fields."
+              },
+              {
+                "name": "Process Description Accuracy",
+                "importance": 20.0,
+                "raw_score": 10.0,
+                "bsi_score": 8.0,
+                "reason": "RAW cleanly describes the four-stage bottom-up pipeline (community input, PPG curation, Briefing Book synthesis, ESG strategy formulation, Council ratification). BSI references the stages but reasoning text is corrupted."
+              },
+              {
+                "name": "Purpose/Function Analysis",
+                "importance": 15.0,
+                "raw_score": 9.0,
+                "bsi_score": 7.0,
+                "reason": "RAW identifies the Briefing Book as the critical 'translation layer' between scientific proposals and political/funding decisions. BSI mentions this function but less clearly due to language barrier and corruption."
+              },
+              {
+                "name": "Limitations Recognition",
+                "importance": 15.0,
+                "raw_score": 10.0,
+                "bsi_score": 9.0,
+                "reason": "Both correctly note zero scientific content and meta-document nature. RAW states it more directly; BSI notes 'lack of epistemic claims' and 'no generative capacity' but in corrupted text."
+              },
+              {
+                "name": "Strategic Significance",
+                "importance": 10.0,
+                "raw_score": 9.0,
+                "bsi_score": 6.0,
+                "reason": "RAW articulates why the governance model matters: procedural transparency, community ownership, legitimacy for funding decisions, model for large-scale prioritization. BSI touches on legitimacy but less comprehensively."
+              },
+              {
+                "name": "Analytical Clarity/Structure",
+                "importance": 10.0,
+                "raw_score": 10.0,
+                "bsi_score": 5.0,
+                "reason": "RAW uses clear English sections (Document Type, Main Claims, Contribution, Limitations, Conclusion). BSI uses a structured table but reasoning fields contain garbled characters ('那些那些那些'), making evaluation difficult."
+              },
+              {
+                "name": "Freedom from Hallucination",
+                "importance": 10.0,
+                "raw_score": 10.0,
+                "bsi_score": 9.0,
+                "reason": "Neither analysis invents physics content. RAW stays strictly within the abstract. BSI stays within scope but the corruption introduces noise."
+              }
+            ],
+            "total_scores": {
+              "raw": 9.75,
+              "bsi": 7.8
+            },
+            "bsi_capability_assessment": {
+              "relevance": "low",
+              "realization": "medium",
+              "incremental_value": "low",
+              "reason": "BSI framework targets epistemic robustness of knowledge artifacts with claims, evidence, mechanisms. This document is a procedural governance abstract with zero epistemic claims, making BSI's 7-criteria epistemic evaluation poorly matched. The BSI analysis produces corrupted Persian output and forces the document into an epistemic scoring rubric that yields a misleading '46/100' score for a document that shouldn't be scored epistemically at all."
+            },
+            "incremental_value": "low",
+            "scale": "0-10",
+            "weight_sum": 100.0,
+            "glossary_mode": "full"
+          },
+          "scores": {
+            "RAW": 0.975,
+            "BSI": 0.78
+          },
+          "failed": false
+        },
+        {
+          "generator": "openrouter",
+          "mode": "bsi",
+          "analysis": {
+            "text": "# تحلیل ارشد شاخص بهمنش (BSI v3.4.2)  \n**موضوع:** Physics Briefing Book (چکیده فرایند به‌روزرسانی استراتژی فیزیک ذره اروپایی - EPPSU)  \n**نوع محتوا:** سند رویه‌ای/حاکمیت‌پذیری (Procedural/Governance Document)  \n**تاریخ تحلیل:** ۲۶ ژوئن ۲۰۲۶  \n**ارزیاب:** مستر پرامپت BSI v3.4.2  \n\n---\n\n## ۱. خلاصه اجرایی (Executive Summary) + Core Claim + امتیاز کلی BSI\n\n**Core Claim (ادعای محوری):**  \nمتنِ ارائه‌شده یک «توصیف فرآیند Procedural» است که چارچوب حاکمیت (Governance Framework) به‌روزرسانی استراتژی فیزیک ذره اروپایی (European Particle Physics Strategy Update - EPPSU) را ترسیم می‌کند. ادعای ضمنی متن این است که این فرآیند «پایین‌به‌رو (Bottom-up)، مشارکتی، شفاف و مبتنی بر اجماع» است و اعتبار تصمیم‌گیری نهایی را از طریق تدوین «کتاب راهنما (Briefing Book)» توسط گروه‌های تخصصی (Conveners، Scientific Secretaries، Contributors) و تصویب نهایی توسط شورای مرکب (ESG) و شورایERN (CERN Council) تضمین می‌کند.\n\n**امتیاز کلی BSI (Overall BSI Score): ۴۶ از ۱۰۰**  \n*توضیح:* امتیاز پایین نه ناشی از نقص نگارشی، بلکه به دلیل ماهیتِ محضِ «رویه‌ای/اداری» متن است که فاقد ادعای معرفت‌شناختی (Epistemic Claim)، نوآوری نظری، ترکیب‌سازی مفهومی و توانایی مولد (Generative Capacity) در Sinne شاخص بهمنش است. متن یک «نقشه راه اجرایی» است، نه یک «محتوای فکری».\n\n---\n\n## ۲. جدول ارزیابی معیارهای اصلی ۷گانه (Main Criteria Evaluation)\n\n| کد | معیار اصلی (Main Criterion) | وزن (Weight) | امتیاز خام (Raw Score ۰-۱۰) | امتیاز وزنی (Weighted Score) | استدلال دقیق (Reasoning) |\n|:---:|:---|:---:|:---:|:---:|:---|\n| **C1** | **انسجام منطقی (Logical Coherence)** | ۰.۱۵ | **۹.۰** | **۱.۳۵** | trình trình trình trình trình trình trình trình trình trình trình trình trình trình trình trình trình trình trình trình trình trình trình trình trình trình trình trình trình trình trình trình trình trình trình trình trình trình trình trình trình trình trình trình trình trình trình trình trình trình trình trình trình trình trình trình trình trình trình trình trình trình trình trình trình trình trình trình trình trình trình trình trình trình trình trình trình trình trình trình trình trình trình trình trình trình trình trình trình trình trình trình trình trình trình trình trình trình trình trình trình trình trình trình trình trình trình trình trình trình trình trình trình trình trình trình trình trình trình trình trình trình trình trình trình trình trình trình trình trình trình trình trình trình trình trình trình trình trình trình trình trình trình trình trình trình trình trình trình trình trình trình trình trình trình trình trình trình trình trình那些那些那些那些那些那些那些那些那些那些那些那些那些那些那些那些那些那些那些那些那些那些那些那些那些那些那些那些那些那些那些那些那些那些那些那些那些那些那些那些那些那些那些那些那些那些那些那些那些那些那些那些那些那些那些那些那些那些那些那些那些那些那些那些那些那些那些那些那些那些那些那些那些那些那些那些那些那些那些那些那些那些那些那些那些那些那些那些那些那些那些那些那些那些那些那些那些那些那些那些那些那些那些那些那些那些那些那些那些那些那些那些那些那些那些那些那些那些那些那些那些那些那些那些那些那些那些那些那些那些那些那些那些那些那些那些那些那些那些那些那些那些那些那些那些那些那些那些那些那些那些那些那些那些那些那些那些那些那些那些那些那些那些那些那些那些那些那些那些那些那些那些那些那些那些那些那些",
+            "source_model": "nvidia/nemotron-3-ultra-550b-a55b:free",
+            "generated_at": "2026-08-30T19:07:07Z"
+          },
+          "metadata": {},
+          "judge_result": {
+            "criteria_source": "llm",
+            "winner": "raw",
+            "reasoning": "RAW analysis is superior across all criteria: it correctly categorizes the document, accurately describes the governance pipeline, identifies the Briefing Book's strategic function as a translation layer, acknowledges limitations without forcing an inappropriate epistemic score, and presents findings in clear, structured English. BSI's analysis suffers from language barrier, text corruption, and a fundamental category error—applying an epistemic robustness framework to a procedural document that makes no knowledge claims. The BSI score of 46/100 is misleading and adds no interpretive value beyond RAW's clearer qualitative assessment.",
+            "criteria": [
+              {
+                "name": "Document Type Identification",
+                "importance": 20.0,
+                "raw_score": 10.0,
+                "bsi_score": 9.0,
+                "reason": "RAW explicitly identifies this as a 'governance charter abstract' and 'procedural policy document' with zero scientific content. BSI identifies it as procedural/governance but the Persian text has encoding corruption in reasoning fields."
+              },
+              {
+                "name": "Process Description Accuracy",
+                "importance": 20.0,
+                "raw_score": 10.0,
+                "bsi_score": 8.0,
+                "reason": "RAW cleanly describes the four-stage bottom-up pipeline (community input, PPG curation, Briefing Book synthesis, ESG strategy formulation, Council ratification). BSI references the stages but reasoning text is corrupted."
+              },
+              {
+                "name": "Purpose/Function Analysis",
+                "importance": 15.0,
+                "raw_score": 9.0,
+                "bsi_score": 7.0,
+                "reason": "RAW identifies the Briefing Book as the critical 'translation layer' between scientific proposals and political/funding decisions. BSI mentions this function but less clearly due to language barrier and corruption."
+              },
+              {
+                "name": "Limitations Recognition",
+                "importance": 15.0,
+                "raw_score": 10.0,
+                "bsi_score": 9.0,
+                "reason": "Both correctly note zero scientific content and meta-document nature. RAW states it more directly; BSI notes 'lack of epistemic claims' and 'no generative capacity' but in corrupted text."
+              },
+              {
+                "name": "Strategic Significance",
+                "importance": 10.0,
+                "raw_score": 9.0,
+                "bsi_score": 6.0,
+                "reason": "RAW articulates why the governance model matters: procedural transparency, community ownership, legitimacy for funding decisions, model for large-scale prioritization. BSI touches on legitimacy but less comprehensively."
+              },
+              {
+                "name": "Analytical Clarity/Structure",
+                "importance": 10.0,
+                "raw_score": 10.0,
+                "bsi_score": 5.0,
+                "reason": "RAW uses clear English sections (Document Type, Main Claims, Contribution, Limitations, Conclusion). BSI uses a structured table but reasoning fields contain garbled characters ('那些那些那些'), making evaluation difficult."
+              },
+              {
+                "name": "Freedom from Hallucination",
+                "importance": 10.0,
+                "raw_score": 10.0,
+                "bsi_score": 9.0,
+                "reason": "Neither analysis invents physics content. RAW stays strictly within the abstract. BSI stays within scope but the corruption introduces noise."
+              }
+            ],
+            "total_scores": {
+              "raw": 9.75,
+              "bsi": 7.8
+            },
+            "bsi_capability_assessment": {
+              "relevance": "low",
+              "realization": "medium",
+              "incremental_value": "low",
+              "reason": "BSI framework targets epistemic robustness of knowledge artifacts with claims, evidence, mechanisms. This document is a procedural governance abstract with zero epistemic claims, making BSI's 7-criteria epistemic evaluation poorly matched. The BSI analysis produces corrupted Persian output and forces the document into an epistemic scoring rubric that yields a misleading '46/100' score for a document that shouldn't be scored epistemically at all."
+            },
+            "incremental_value": "low",
+            "scale": "0-10",
+            "weight_sum": 100.0,
+            "glossary_mode": "full"
+          },
+          "scores": {
+            "RAW": 0.975,
+            "BSI": 0.78
+          },
+          "failed": false
+        }
+      ]
+    }
+  ],
+  "source_url": "https://github.com/ibstrade11-source/behmanesh-index-prompt/blob/main/MASTER_PROMPT_BSI_v3.4.2.md",
+  "run_metadata": {
+    "tool_version": "0.1.0",
+    "git_commit": "b0614be64885037c46eb26d7e0a25e195fef8f61",
+    "git_dirty": false,
+    "run_timestamp_utc": "2026-08-30T19:05:47Z",
+    "methodology_note": "Scores/judgements come from an independent LLM judge (see comparison/judge.py) instructed not to reuse BSI's own D1-D7/EIG vocabulary and to choose its own evaluation criteria. If no judge model is available or its response cannot be parsed, the run falls back to a simple keyword-presence heuristic -- the stored record's own 'criteria_source' field ('llm' vs 'heuristic_fallback') always says honestly which one produced a given result. Neither path is a validated measurement of analytical quality until checked against independent human judgement on a representative sample.",
+    "provider_name": null,
+    "model_version": null,
+    "temperature": null,
+    "max_tokens": null,
+    "prompt_version": "v3.4.2",
+    "framework_name": "bsi"
+  }
+}

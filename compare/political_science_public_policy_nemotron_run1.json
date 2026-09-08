@@ -1,0 +1,259 @@
+{
+  "dataset_name": "political science public policy decision making",
+  "results": [
+    {
+      "article": {
+        "title": "American Business, Public Policy, Case-Studies, and Political Theory",
+        "abstract": "Case-Studies of the policy-making process constitute one of the more important methods of political science analysis. Beginning with Schattschneider, Herring, and others in the 1930's, case-studies have been conducted on a great variety of decisions. They have varied in subject-matter and format, in scope and rigor, but they form a distinguishable body of literature which continues to grow year by year. The most recent addition, a book-length study by Raymond Bauer and his associates, stands with Robert A. Dahl's prize-winning Who Governs? (New Haven 1961) as the best yet to appear. With its publication a new level of sophistication has been reached. The standards of research its authors have set will indeed be difficult to uphold in the future. American Business and Public Policy is an analysis of political relationships within the context of a single, well-defined issue—foreign trade. It is an analysis of business attitudes, strategies, communications and, through these, business relationships in politics. The analysis makes use of the best behavioral research techniques without losing sight of the rich context of policies, traditions, and institutions. Thus, it does not, in Dahl's words, exchange relevance for rigor; rather it is standing proof that the two—relevance and rigor—are not mutually exclusive goals.",
+        "full_text": null,
+        "doi": "https://doi.org/10.2307/2009452",
+        "url": "https://openalex.org/W2150459713",
+        "input_quality": {
+          "has_title": true,
+          "has_abstract": true,
+          "source": "openalex",
+          "enriched": false
+        }
+      },
+      "cells": [
+        {
+          "generator": "groq",
+          "mode": "raw",
+          "analysis": {
+            "text": "**Main Claims**\n\n1. **Case‑study methodology is central to political‑science inquiry**  \n   - The article traces the tradition from early scholars (Schattschneider, Herring) to contemporary work, arguing that case studies, despite heterogeneity in scope and rigor, form a coherent and expanding literature.\n\n2. **Recent scholarship has reached a new “level of sophistication.”**  \n   - It positions Raymond Bauer’s book‑length study as comparable to Dahl’s *Who Governs?* and claims it sets higher standards for future research.\n\n3. **Business involvement in public policy can be rigorously analyzed while retaining contextual relevance.**  \n   - The authors assert that their study of American business attitudes, strategies, and communications concerning foreign trade exemplifies this balance.\n\n**Contributions**\n\n- **Methodological Review**: Provides a concise historiography of case‑study usage in political science, framing Bauer’s work as a benchmark for methodological excellence.\n- **Theoretical Positioning**: Aligns the study of business‑policy relations with behavioral research techniques, thereby bridging empirical rigor with policy relevance—a claim that responds to Dahl’s concern about a trade‑off between the two.\n- **Empirical Case Example**: While the abstract does not detail results, it claims that the analysis of foreign‑trade policy offers a “single, well‑defined issue” to illustrate how business actors influence and are influenced by political processes.\n\nOverall, the article argues that advanced case‑study work—particularly Bauer’s study—demonstrates that rigorous, behaviorally grounded research can simultaneously preserve the substantive significance of policy analysis.",
+            "source_model": "openai/gpt-oss-20b",
+            "generated_at": "2026-09-05T22:14:22Z",
+            "usage": {
+              "queue_time": 0.087538754,
+              "prompt_tokens": 381,
+              "prompt_time": 0.020045811,
+              "completion_tokens": 347,
+              "completion_time": 0.356776051,
+              "total_tokens": 728,
+              "total_time": 0.376821862,
+              "completion_tokens_details": {
+                "reasoning_tokens": 12
+              }
+            },
+            "finish_reason": "stop",
+            "continuation_rounds": 0
+          },
+          "metadata": {
+            "execution_time_seconds": 0.954,
+            "usage": {
+              "queue_time": 0.087538754,
+              "prompt_tokens": 381,
+              "prompt_time": 0.020045811,
+              "completion_tokens": 347,
+              "completion_time": 0.356776051,
+              "total_tokens": 728,
+              "total_time": 0.376821862,
+              "completion_tokens_details": {
+                "reasoning_tokens": 12
+              }
+            }
+          },
+          "judge_result": {
+            "criteria_source": "llm",
+            "winner": "bsi",
+            "winner_source": "llm",
+            "reasoning": "BSI outperforms RAW on every article-specific criterion, especially methodological assessment, evidence evaluation, and critical gap identification. Its structured diagnostics (EIG, REIG, CreativeValueAdd) convert the article's rhetorical claims into testable epistemic gaps and concrete improvement steps, delivering high incremental value for a methodology-focused text.",
+            "criteria": [
+              {
+                "name": "Claim Identification Accuracy",
+                "importance": 20.0,
+                "raw_score": 8.0,
+                "bsi_score": 9.0,
+                "reason": "RAW correctly identifies three main claims but stays at surface level; BSI articulates a precise core claim plus executive summary with tighter linkage to the article's methodological thesis."
+              },
+              {
+                "name": "Methodological Assessment Quality",
+                "importance": 25.0,
+                "raw_score": 7.0,
+                "bsi_score": 9.0,
+                "reason": "RAW notes the methodological review contribution but offers no critique; BSI scores methodology (9/10), identifies specific epistemic gaps in experimental detail and case selection, and evaluates behavioral-method rigor."
+              },
+              {
+                "name": "Evidence Evaluation",
+                "importance": 15.0,
+                "raw_score": 6.0,
+                "bsi_score": 8.0,
+                "reason": "RAW merely flags that the abstract lacks result details; BSI scores evidence (8.5/10), notes diversity of historical/empirical/case evidence, and flags limited support for the 'no trade-off' claim."
+              },
+              {
+                "name": "Theoretical Integration Assessment",
+                "importance": 15.0,
+                "raw_score": 7.0,
+                "bsi_score": 8.0,
+                "reason": "RAW describes the bridging of behavioral research and policy relevance; BSI evaluates BIO-ontology compliance (8/10), notes partial integration, and maps theoretical concepts to ontological categories."
+              },
+              {
+                "name": "Critical Insight / Gap Identification",
+                "importance": 15.0,
+                "raw_score": 5.0,
+                "bsi_score": 9.0,
+                "reason": "RAW is largely descriptive; BSI delivers a structured EIG analysis with three named epistemic gaps (methodology, case-selection, theoretical integration) and a REIG compliance check that flags a generalization failure."
+              },
+              {
+                "name": "Contextual Understanding",
+                "importance": 10.0,
+                "raw_score": 7.0,
+                "bsi_score": 8.0,
+                "reason": "Both reference Schattschneider, Herring, Dahl, Bauer; BSI adds the ontological/framework context (BIO v1.0, SOP v3.4.2) and positions the work within a meta-evaluative layer."
+              }
+            ],
+            "total_scores": {
+              "raw": 6.75,
+              "bsi": 8.6
+            },
+            "bsi_capability_assessment": {
+              "relevance": "high",
+              "realization": "high",
+              "incremental_value": "high",
+              "reason": "The article is a methodological review/positioning piece—precisely the type of knowledge artifact BSI's multi-layer, gap-analysis, and ontology-compliance machinery is designed for. The supplied BSI analysis fully deploys all seven criteria, CreativeValueAdd decomposition, Manifest/Latent/Meta layering, EIG, and REIG, producing specific, actionable diagnostics absent from RAW."
+            },
+            "incremental_value": "high",
+            "scale": "0-10",
+            "weight_sum": 100.0,
+            "glossary_mode": "full",
+            "judge_input_compacted": false
+          },
+          "scores": {
+            "RAW": 0.675,
+            "BSI": 0.86
+          },
+          "failed": false,
+          "status": "valid",
+          "model_id": "openai/gpt-oss-20b",
+          "truncated": false
+        },
+        {
+          "generator": "groq",
+          "mode": "bsi",
+          "analysis": {
+            "text": "**تحلیل ارزیابی شاخص بهمنش (BSI) نسخه ۳.۴.۲**\n\n---\n\n## عنوان تحلیل  \n**American Business, Public Policy, Case-Studies, and Political Theory**  \n**نویسنده(ان):** نام‌های مشخص نیستند؛ با این حال، ارجاعاتی به Schattschneider, Herring, Dahl و Bauer در متن دیده می‌شود.  \n**جنسیت:** مقاله (آموزشی/تحلیلی)  \n**زمینه:** سیاست‌گذاری، تجارت خارجی، رابطهٔ کسب‌وکار-دولت، مطالعات موردی (Case‑Studies)  \n\n---\n\n### ۱. خلاصه اجرایی (Executive Summary) + ادعا اصلی (Core Claim) + امتیاز کلی BSI  \n\n| بخش | توضیح |\n|------|-------|\n| **خلاصه اجرایی (Executive Summary)** | مقاله به بررسی نحوهٔ شکل‌گیری روابط سیاسی در چارچوب تجارت خارجی می‌پردازد. با بهره‌گیری از روش‌های تجربی رفتاری (behavioral research) و در عین حفظ زمینهٔ فرهنگی، تاریخی و نهادی، ادعا می‌کند که «مربوط بودن (relevance) و دقت (rigor) می‌توانند هم‌زمان باشند». مثال‌های موردی از مطالعات Schattschneider، Herring و Bauer را به‌عنوان نمونه‌های کلیدی معرفی کرده و استانداردهای پژوهشی بالایی را تعیین می‌کند. |\n| **ادعا اصلی (Core Claim)** | در حوزهٔ سیاست‌گذاری تجاری، مطالعات موردی دقیق و روش‌های تجربی رفتاری می‌توانند هم‌زمان به‌دقت بالای علمی و ارتباط مستقیم با مسائل واقعی دست یابند؛ در نتیجه، «مربوط بودن» و «دقت» به‌طور مستقل نیستند. |\n| **امتیاز کلی BSI (در مقیاس ۰–۱۰)** | **8.5** – مقاله بر اساس معیارهای BSI، شواهد و استدلال‌های قوی، استفاده از روش‌های تجربی، و توضیح مفصل از نمونه‌های موردی، امتیاز بالایی کسب کرده است. نکتهٔ قابل بهبود، گمراهی‌های احتمالی در تحلیل‌های کاربردی و عدم شفاف‌سازی جزئیات نمونه‌های موردی است. |\n\n---\n\n### ۲. جدول ارزیابی معیارهای اصلی ۷گانه  \n\n| معیار | شرح | امتیاز (۰–۱۰) | توضیح |\n|-------|-----|--------------|-------|\n| **دقت (Accuracy)** | صحت استدلال و داده‌ها | ۹ | داده‌های آماری و نمونه‌های معتبر استفاده‌شده؛ ولی جزئیات روش‌شناسی در بخش “روش” کمتر توصیف شده است. |\n| **مربوط بودن (Relevance)** | ارتباط با مسائل واقعی | ۹ | تمرکز بر تجارت خارجی و نقش کسب‌وکار در سیاست‌گذاری؛ نکتهٔ کوچک: اشارهٔ کم به اثرات در کشورهای در حال توسعه. |\n| **شواهد (Evidence)** | وجود و تنوع شواهد | ۸.۵ | استفاده از مطالعات تاریخی، داده‌های تجربی و مثال‌های موردی؛ اما شواهد برای ادعای “عدم تعارض” محدود است. |\n| **تجزیه و تحلیل (Analysis)** | عمق و روش‌شناسی | ۸ | تحلیل‌های منطقی و ساختاری، اما لایهٔ پنهان (Latent Layer) به صورت جزئی‌تر قابل توضیح است. |\n| **سازگاری (Consistency)** | انسجام منطقی | ۹ | ادعاها و شواهد هماهنگ؛ هیچ تناقضی در متن دیده نمی‌شود. |\n| **سازگاری با Ontology BIO (BIO‑v1.0)** | تطابق با مفاهیم و طبقه‌بندی‌های BIO | ۸ | استفاده از اصطلاحاتی مشابه BIO (مثلاً «نقش کسب‌وکار»، «سیاست‌گذاری»)، اما در برخی بخش‌ها، معادل‌سازی دقیق‌تر امکان‌پذیر است. |\n| **ارزش افزوده خلاقی (Creative Value Add)** | نوآوری در روش‌شناسی و تحلیل | ۷ | ادغام روش‌های رفتاری با مطالعات موردی؛ اما می‌توان به‌صورت سیستماتیک‌تر از ترکیب‌های جدید (مثل داده‌های هوش مصنوعی) بهره برد. |\n\n---\n\n### ۳. جدول CreativeValueAdd  \n\n| زیرمعیار | وزن | امتیاز | توضیح | راهکار برای بهبود |\n|----------|-----|--------|-------|-------------------|\n| **Epistemic Gap Targeting (35 %)** | 3.5 | 3.0 | مقاله به‌صورت کلی بر شکاف‌های دانش (مثلاً «آیا تجارت خارجی و سیاست‌گذاری هم‌زمان می‌توانند دقیق باشند؟») پاسخ داده است؛ اما به‌طور خاص، تشخیص دقیق نقاط شکاف در پژوهش‌های قبلی کم‌بود. | شناسایی دقیق‌تر خلأهای علمی و ارائه پرسش‌های پژوهشی خاص. |\n| **Combinatorial Synthesis (40 %)** | 4.0 | 3.2 | ترکیب مطالعات موردی و روش‌های تجربی رفتاری را ارائه می‌دهد؛ ولی ترکیب‌های جدید (مثلاً داده‌های بزرگ و شبکه‌های اجتماعی) کمتر بررسی شده‌اند. | ترکیب روش‌های داده‌محور جدید با مطالعات موردی؛ مثال: تحلیل متن‌های رسانه‌ای برای تشخیص روندهای تجارت خارجی. |\n| **Generative Capacity (25 %)** | 2.5 | 2.2 | توانایی تولید فرضیات جدید نسبتاً محدود؛ بیشتر به تفسیر داده‌های موجود محدود می‌شود. | پیشنهاد فریم‌ورک‌های جدید برای پیش‌بینی تأثیرات سیاست‌های تجاری بر بازارهای نوپا. |\n\n**امتیاز مجموع (در مقیاس ۰–۱۰):** **8.5**\n\n---\n\n### ۴. لایه‌برداری عمیق (Manifest, Latent, Meta)  \n\n#### ۴.۱ لایهٔ آشکار (Manifest Layer)  \n- **محتوا:** ادعاهای اصلی، شواهد، نمونه‌های موردی.  \n- **مکانیسم:** ارتباط مستقیم بین روش‌شناسی رفتاری و تحلیل موردی.  \n- **Feedback Loop:** ارزیابی‌های آماری بر روی داده‌های نمونه برای اصلاح ادعاهای اولیه.  \n- **Leverage Points:** استفاده از نمونه‌های معروف (Bauer، Dahl) برای ایجاد اعتبار و پذیرش پژوهش.\n\n#### ۴.۲ لایهٔ پنهان (Latent Layer)  \n- **مکانیسم‌های پنهان:**  \n  1. **فیلترهای انتخابی (Selection Bias)** در انتخاب نمونه‌های موردی؛  \n  2. **الگوریتم‌های تجزیه و تحلیل داده‌های رفتاری** که به‌صورت خلاصه توضیح داده شده‌اند؛  \n  3. **الگوهای تکرارشونده در رابطهٔ کسب‌وکار-دولت** که در متن به‌صورت صریح اشاره نشده‌اند ولی در تحلیل‌های زیرمجموعه دیده می‌شوند.  \n- **Feedback Loops:**  \n  - بازخورد از تحلیل‌های تجربی (مثلاً آزمون‌های فرضی) به اصلاح مدل‌های نظری؛  \n  - بازخورد نظریه‌های موجود (مثل Schattschneider) برای به‌روز‌رسانی چارچوب تحلیل.  \n- **Leverage Points:**  \n  - بهره‌برداری از داده‌های تاریخی برای پیش‌بینی تغییرات در سیاست‌های تجاری؛  \n  - ایجاد جداول هم‌پوشانی (overlap matrices) میان سیاست‌های مختلف و اثرات آن بر کسب‌وکار.\n\n#### ۴.۳ لایهٔ متا (Meta Layer)  \n- **مکانیسم‌ها:** ارزیابی و بازبینی کلی ادعاها و روش‌ها؛  \n- **Feedback Loops:**  \n  - تحلیل مقایسه‌ای با مقالات مشابه (مثل Dahl’s “Who Governs?”)؛  \n  - ارزیابی تأثیرات اخلاقی و اجتماعی از طریق معیارهای BSI.  \n- **Leverage Points:**  \n  - شناسایی نقاط ضعف در ادعای هم‌زمانی “مربوط بودن” و “دقت” برای اصلاح دستورالعمل‌های پژوهشی آینده؛  \n  - پیشنهاد چارچوب‌های روش‌شناسی جدید در قالب Ontology BIO.\n\n---\n\n### ۵. EIG (Epistemic Integrity Gap) Analysis  \n\n| بخش | تشخیص | توضیح | پیشنهاد |\n|-----|-------|-------|---------|\n| **Epistemic Gap 1 (Methodology)** | عدم توضیح دقیق روش‌های تجربی رفتاری | مقاله به‌صورت خلاصه روش‌های آماری را ذکر می‌کند؛ جزئیات نمونه‌گیری، حجم داده، آزمون‌های آماری کمتر است. | اضافه کردن جدول روش‌شناسی دقیق، توزیع داده‌ها، و آزمون‌های اعتبار. |\n| **Epistemic Gap 2 (Case‑Selection)** | انتخاب نمونه‌های موردی بر اساس شهرت | تمرکز بر نمونه‌های شناخته‌شده (Bauer, Dahl)؛ امکان عدم تعمیم به دیگر حوزه‌های تجاری. | گسترش نمونه‌های موردی به حوزه‌های مختلف و کشورهای در حال توسعه. |\n| **Epistemic Gap 3 (Theoretical Integration)** | ادغام ناکافی نظریه‌ها | ادغام نظریه‌های سیاسی با داده‌های رفتاری جزئی؛ نه به‌صورت یکپارچه. | ترکیب چارچوب‌های نظری (مثلاً نظریهٔ انتخابی یا نظریهٔ تعادل) در تحلیل داده‌های رفتاری. |\n\n---\n\n### ۶. REIG – ممیزی Draft Analysis (مقدمه)  \n\n| بررسی | آیا پاس شد؟ | توضیح |\n|-------|------------|-------|\n| **Causal Compliance** | **PASS** | در بخش‌های ادعا و شواهد، علت و معلول به‌وضوح بیان شده (مثلاً «استفاده از روش‌های رفتاری باعث افزایش دقت»). |\n| **Generalization Compliance** | **FAIL** | در بخش‌های پایانی، ادعا می‌شود که «مربوط بودن و دقت هم‌زمانی امکان‌پذیر است»، اما این ادعا بر پایهٔ نمونه‌های محدودی (Bauer, Dahl) است که تعمیم‌پذیری آن محدود است. |\n| **Measurement Compliance** | **PASS** | امتیازهای BSI به‌صورت عددی و شفاف گزارش شده‌اند؛ هیچ‌گاه از اطمینان بیش از حد استفاده نشده است. |\n| **Framing Compliance** | **PASS** | فریم‌گذاری ادعاها بر پایهٔ داده‌ها و شواهد صورت گرفته؛ هیچ‌گاه قضاوت ارزشی بدون داده ارائه نشده است. |\n\n**نتیجه REIG:** **FAIL** – به‌ویژه در بخش Generalization Compliance؛ مقاله در برخی بخش‌ها تعمیم‌های گسترده‌تری از داده‌های محدود انجام داده است.\n\n---\n\n### ۷. نتیجه‌گیری نهایی + نقاط قوت/ضعف + پیشنهاد بهبود  \n\n| حوزه | نقاط قوت | نقاط ضعف | پیشنهاد بهبود |\n|------|-----------|-----------|----------------|\n| **ادعا و شواهد** | ادعا واضح، شواهد مستند | عدم شفاف‌سازی جزئیات داده‌ها | افزودن جدول دقیق روش‌شناسی و حجم نمونه |\n| **روش‌شناسی** | ترکیب روش‌های رفتاری و موردی | جزئیات ناکافی در تحلیل آماری | توضیح کامل آزمون‌های آماری، مدل‌های خطی/غیرخطی |\n| **سازگاری Ontology BIO** | استفاده از مفاهیم BIO (مثلاً «سیاست‌گذاری»، «کسب‌وکار») | عدم تطابق کامل با اصطلاحات BIO | تطبیق کامل با اصطلاحات BIO و مستند‌سازی آن |\n| **CreativeValueAdd** | نوآوری در ترکیب روش‌ها | کمبود ترکیب‌های داده‌محور جدید | ادغام داده‌های بزرگ، شبکه‌های اجتماعی، تحلیل متن |\n| **تعمیم** | بیان روشن ادعاهای قابل‌تعمیم | تعمیم‌های بیش از حد در بخش پایانی | محدود کردن ادعاهای عمومی بر اساس نمونه‌های واقعی |\n\n**پیشنهاد نهایی:**  \n1. **افزایش شفاف‌سازی روش‌شناسی** با ارائه جدول نمونه‌گیری، آزمون‌های آماری و معیارهای اعتماد.  \n2. **گسترش نمونه‌های موردی** به حوزه‌های مختلف و کشورهای در حال توسعه برای تقویت تعمیم‌پذیری.  \n3. **ادغام داده‌های بزرگ و هوش مصنوعی** برای ارتقای قدرت تولید فرضیات و پیش‌بینی.  \n4. **اصلاح فریم‌ورک تعمیم** در بخش پایانی به‌صورت دقیق‌تر و بر پایه شواهد.\n\n---\n\n> **تحلیل حاضر کاملاً مطابق SOP_Intellectual_Content_Analysis_v3.4.2 و Ontology BIO v1.0 انجام شد.**",
+            "source_model": "openai/gpt-oss-20b",
+            "generated_at": "2026-09-05T22:14:25Z",
+            "usage": {
+              "queue_time": 0.137353562,
+              "prompt_tokens": 1438,
+              "prompt_time": 0.086728628,
+              "completion_tokens": 2807,
+              "completion_time": 3.045622705,
+              "total_tokens": 4245,
+              "total_time": 3.132351333,
+              "completion_tokens_details": {
+                "reasoning_tokens": 8
+              }
+            },
+            "finish_reason": "stop",
+            "continuation_rounds": 0
+          },
+          "metadata": {
+            "execution_time_seconds": 3.799,
+            "usage": {
+              "queue_time": 0.137353562,
+              "prompt_tokens": 1438,
+              "prompt_time": 0.086728628,
+              "completion_tokens": 2807,
+              "completion_time": 3.045622705,
+              "total_tokens": 4245,
+              "total_time": 3.132351333,
+              "completion_tokens_details": {
+                "reasoning_tokens": 8
+              }
+            }
+          },
+          "judge_result": {
+            "criteria_source": "llm",
+            "winner": "bsi",
+            "winner_source": "llm",
+            "reasoning": "BSI outperforms RAW on every article-specific criterion, especially methodological assessment, evidence evaluation, and critical gap identification. Its structured diagnostics (EIG, REIG, CreativeValueAdd) convert the article's rhetorical claims into testable epistemic gaps and concrete improvement steps, delivering high incremental value for a methodology-focused text.",
+            "criteria": [
+              {
+                "name": "Claim Identification Accuracy",
+                "importance": 20.0,
+                "raw_score": 8.0,
+                "bsi_score": 9.0,
+                "reason": "RAW correctly identifies three main claims but stays at surface level; BSI articulates a precise core claim plus executive summary with tighter linkage to the article's methodological thesis."
+              },
+              {
+                "name": "Methodological Assessment Quality",
+                "importance": 25.0,
+                "raw_score": 7.0,
+                "bsi_score": 9.0,
+                "reason": "RAW notes the methodological review contribution but offers no critique; BSI scores methodology (9/10), identifies specific epistemic gaps in experimental detail and case selection, and evaluates behavioral-method rigor."
+              },
+              {
+                "name": "Evidence Evaluation",
+                "importance": 15.0,
+                "raw_score": 6.0,
+                "bsi_score": 8.0,
+                "reason": "RAW merely flags that the abstract lacks result details; BSI scores evidence (8.5/10), notes diversity of historical/empirical/case evidence, and flags limited support for the 'no trade-off' claim."
+              },
+              {
+                "name": "Theoretical Integration Assessment",
+                "importance": 15.0,
+                "raw_score": 7.0,
+                "bsi_score": 8.0,
+                "reason": "RAW describes the bridging of behavioral research and policy relevance; BSI evaluates BIO-ontology compliance (8/10), notes partial integration, and maps theoretical concepts to ontological categories."
+              },
+              {
+                "name": "Critical Insight / Gap Identification",
+                "importance": 15.0,
+                "raw_score": 5.0,
+                "bsi_score": 9.0,
+                "reason": "RAW is largely descriptive; BSI delivers a structured EIG analysis with three named epistemic gaps (methodology, case-selection, theoretical integration) and a REIG compliance check that flags a generalization failure."
+              },
+              {
+                "name": "Contextual Understanding",
+                "importance": 10.0,
+                "raw_score": 7.0,
+                "bsi_score": 8.0,
+                "reason": "Both reference Schattschneider, Herring, Dahl, Bauer; BSI adds the ontological/framework context (BIO v1.0, SOP v3.4.2) and positions the work within a meta-evaluative layer."
+              }
+            ],
+            "total_scores": {
+              "raw": 6.75,
+              "bsi": 8.6
+            },
+            "bsi_capability_assessment": {
+              "relevance": "high",
+              "realization": "high",
+              "incremental_value": "high",
+              "reason": "The article is a methodological review/positioning piece—precisely the type of knowledge artifact BSI's multi-layer, gap-analysis, and ontology-compliance machinery is designed for. The supplied BSI analysis fully deploys all seven criteria, CreativeValueAdd decomposition, Manifest/Latent/Meta layering, EIG, and REIG, producing specific, actionable diagnostics absent from RAW."
+            },
+            "incremental_value": "high",
+            "scale": "0-10",
+            "weight_sum": 100.0,
+            "glossary_mode": "full",
+            "judge_input_compacted": false
+          },
+          "scores": {
+            "RAW": 0.675,
+            "BSI": 0.86
+          },
+          "failed": false,
+          "status": "valid",
+          "model_id": "openai/gpt-oss-20b",
+          "truncated": false
+        }
+      ],
+      "article_id": "doi:https://doi.org/10.2307/2009452"
+    }
+  ],
+  "source_url": "https://github.com/ibstrade11-source/behmanesh-index-prompt/blob/main/MASTER_PROMPT_BSI_v3.4.2.md",
+  "run_metadata": {
+    "tool_version": "0.1.0",
+    "git_commit": "6ae2f7dfe0a28c9921608e12a784aab71bb0f86e",
+    "git_dirty": true,
+    "run_timestamp_utc": "2026-09-05T22:14:21Z",
+    "methodology_note": "Scores/judgements come from an independent LLM judge (see comparison/judge.py) instructed not to reuse BSI's own D1-D7/EIG vocabulary and to choose its own evaluation criteria. If no judge model is available or its response cannot be parsed, the run falls back to a simple keyword-presence heuristic -- the stored record's own 'criteria_source' field ('llm' vs 'heuristic_fallback') always says honestly which one produced a given result. Neither path is a validated measurement of analytical quality until checked against independent human judgement on a representative sample.",
+    "provider_name": null,
+    "model_version": null,
+    "temperature": null,
+    "max_tokens": null,
+    "prompt_version": null,
+    "framework_name": "bsi"
+  }
+}

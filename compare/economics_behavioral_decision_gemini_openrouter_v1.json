@@ -1,0 +1,233 @@
+{
+  "dataset_name": "behavioral economics decision making",
+  "results": [
+    {
+      "article": {
+        "title": "Behavioral Economics and Marketing in Aid of Decision Making among the Poor",
+        "abstract": "This article considers several aspects of the economic decision making of the poor from the perspective of behavioral economics, and it focuses on potential contributions from marketing. Among other things, the authors consider some relevant facets of the social and institutional environments in which the poor interact, and they review some behavioral patterns that are likely to arise in these contexts. A behaviorally more informed perspective can help make sense of what might otherwise be considered “puzzles” in the economic comportment of the poor. A behavioral analysis suggests that substantial welfare changes could result from relatively minor policy interventions, and insightful marketing may provide much needed help in the design of such interventions.",
+        "full_text": null,
+        "doi": "https://doi.org/10.1509/jppm.25.1.8",
+        "url": "https://openalex.org/W1971430075",
+        "input_quality": {
+          "has_title": true,
+          "has_abstract": true,
+          "source": "openalex",
+          "enriched": false,
+          "has_full_text": false,
+          "full_text_fetch_error": "provider returned no usable full text",
+          "full_text_chars": 0,
+          "full_text_source": "provider_fetch:openalex"
+        }
+      },
+      "cells": [
+        {
+          "generator": "gemini",
+          "mode": "raw",
+          "analysis": {
+            "text": "Based on the provided title and abstract, here is a concise, factual analysis of the article's core claims and contributions:\n\n---\n\n### **Overview**\nThe article integrates principles from **behavioral economics** and **marketing** to examine how individuals living in poverty make economic decisions, offering a framework to design more effective welfare and policy interventions.\n\n---\n\n### **Main Claims**\n\n1. **Context Influences Decision-Making:** \n   The social, institutional, and environmental contexts surrounding poverty systematically shape cognitive and behavioral patterns, leading to specific decision-making tendencies.\n\n2. **De-mystifying Economic \"Puzzles\":** \n   Economic behaviors among the poor that traditional economic models view as suboptimal, irrational, or puzzling can be logically explained when evaluated through a behavioral lens (e.g., accounting for cognitive load, heuristics, and choice constraints).\n\n3. **High Impact of Minor Interventions:** \n   Because behavioral barriers often impede optimal choices, relatively small, low-cost, and behaviorally informed policy adjustments (\"nudges\") can yield substantial improvements in welfare.\n\n4. **Marketing as a Policy Tool:** \n   Marketing expertise—particularly in choice architecture, framing, product presentation, and communication—is vital for designing public policy interventions that actually resonate with and support low-income decision-makers.\n\n---\n\n### **Key Contribution**\n* **Interdisciplinary Synthesis:** Bridges behavioral economics, public policy, and marketing science to provide a more realistic model of low-income consumer behavior.\n* **Actionable Policy Design:** Demonstrates that anti-poverty policies do not always require massive structural spending to be effective; integrating marketing insights to remove friction and optimize choice environments can significantly enhance the uptake and success of welfare programs.",
+            "source_model": "gemini-3.7-flash",
+            "generated_at": "2026-09-08T14:01:15Z",
+            "usage": null,
+            "finish_reason": null,
+            "continuation_rounds": 0
+          },
+          "metadata": {
+            "execution_time_seconds": 8.439,
+            "usage": null
+          },
+          "judge_result": {
+            "criteria_source": "llm",
+            "winner": "bsi",
+            "winner_source": "llm",
+            "reasoning": "BSI analysis substantially outperforms RAW across all criteria, particularly in mechanistic depth (cognitive bandwidth, feedback loops), critical gap identification (three specific epistemic gaps + compliance audit), and interdisciplinary synthesis detail. RAW provides a competent summary but lacks analytical depth, gap analysis, and structural evaluation. BSI's layered architecture and formal audit trail deliver genuine incremental epistemic value for this article type.",
+            "criteria": [
+              {
+                "name": "Interdisciplinary Synthesis Quality",
+                "importance": 25.0,
+                "raw_score": 6.0,
+                "bsi_score": 9.0,
+                "reason": "RAW mentions the interdisciplinary bridge but only at surface level; BSI provides detailed combinatorial synthesis analysis across psychology, behavioral economics, and marketing communications with explicit integration mechanisms."
+              },
+              {
+                "name": "Policy Actionability Assessment",
+                "importance": 20.0,
+                "raw_score": 7.0,
+                "bsi_score": 9.0,
+                "reason": "RAW identifies nudges and low-cost interventions; BSI goes further with specific leverage points (simplification, defaults, framing), implementation considerations, and sustainability concerns in improvement proposals."
+              },
+              {
+                "name": "Mechanistic Depth",
+                "importance": 20.0,
+                "raw_score": 5.0,
+                "bsi_score": 9.0,
+                "reason": "RAW lists cognitive load/heuristics as labels; BSI's latent layer details cognitive bandwidth taxation, decision fatigue, present bias, and reinforcing feedback loops as operational mechanisms."
+              },
+              {
+                "name": "Critical Gap Identification",
+                "importance": 15.0,
+                "raw_score": 3.0,
+                "bsi_score": 9.0,
+                "reason": "RAW offers no gap analysis; BSI provides structured EIG analysis with three specific epistemic gaps (generalization, causal vs correlation, structural) plus REIG compliance audit."
+              },
+              {
+                "name": "Structural Coherence",
+                "importance": 10.0,
+                "raw_score": 8.0,
+                "bsi_score": 9.0,
+                "reason": "Both are well-structured; BSI's multi-layer architecture with manifest/latent/meta separation and formal audit trail provides superior analytical scaffolding."
+              },
+              {
+                "name": "Evidence Evaluation",
+                "importance": 10.0,
+                "raw_score": 4.0,
+                "bsi_score": 8.0,
+                "reason": "RAW does not assess evidence; BSI explicitly scores empirical grounding (6.5/10), notes absence of new quantitative data, and includes measurement compliance verification."
+              }
+            ],
+            "total_scores": {
+              "raw": 5.55,
+              "bsi": 8.9
+            },
+            "bsi_capability_assessment": {
+              "relevance": "high",
+              "realization": "high",
+              "incremental_value": "high",
+              "reason": "BSI framework is highly relevant for this interdisciplinary policy article; the analysis realizes the framework thoroughly with layered analysis, gap detection, and synthesis scoring; incremental value over RAW is high due to mechanistic depth, critical gap identification, and structural audit capabilities that RAW lacks entirely."
+            },
+            "incremental_value": "high",
+            "scale": "0-10",
+            "weight_sum": 100.0,
+            "glossary_mode": "full",
+            "judge_input_compacted": false
+          },
+          "scores": {
+            "RAW": 0.555,
+            "BSI": 0.89
+          },
+          "failed": false,
+          "status": "valid",
+          "model_id": "gemini-3.7-flash",
+          "truncated": false
+        },
+        {
+          "generator": "gemini",
+          "mode": "bsi",
+          "analysis": {
+            "text": "# ارزیابی تخصصی بر مبنای شاخص بهمنش (نسخه ۳.۴.۲)\n\n**عنوان تحلیل:** بررسی ابعاد تصمیم‌گیری اقتصادی در بافت فقر از منظر اقتصاد رفتاری و بازاریابی  \n**عنوان منبع ارزیابی:** *Behavioral Economics and Marketing in Aid of Decision Making among the Poor*  \n\n---\n\n### ۱. خلاصهٔ اجرایی (Executive Summary)\n\n* **ادعای بنیادین (Core Claim):** رفتار اقتصادی افراد کم‌درآمد که در نگاه اقتصاد کلاسیک غیرعقلانی یا «معماگونه» به نظر می‌رسد، با ترکیب لنزهای اقتصاد رفتاری (Behavioral Economics) و بینش‌های بازاریابی (Marketing Insights) و توجه به بافتار نهادی و اجتماعی قابل تبیین است؛ از این رو، مداخلات سیاستی به‌ظاهر خرد اما دقیق طراحی‌شده می‌توانند رفاه اقتصادی قابل‌توجهی برای این قشر ایجاد کنند.\n* **امتیاز کل شاخص بهمنش (Overall BSI Score):** **۷۴ از ۱۰۰** (سطح: قوی با اتکای بین‌رشته‌ای / تبیینی)\n\n---\n\n### ۲. جدول ارزیابی معیارهای هفت‌گانهٔ اصلی\n\n| معیار ارزیابی (Criterion) | امتیاز (از ۱۰) | استدلال و مبانی تحلیلی (Rationale) |\n| :--- | :---: | :--- |\n| **۱. وضوح و دقت مفهومی (Conceptual Clarity)** | ۸.۰ | تفکیک دقیق میان خطاهای تصمیم‌گیری درون‌زاد و فشارهای محیطی، و مفهوم‌سازی شفاف پدیده‌های رفتاری در فقر. |\n| **۲. انسجام و استحکام منطقی (Logical Coherence)** | ۸.۵ | زنجیرهٔ استدلالی پیوسته: محیط زیست فقرا $\\leftarrow$ سوگیری‌ها و محدودیت‌های شناختی $\\leftarrow$ تصمیمات ظاهراً ناکارآمد $\\leftarrow$ ضرورت بازطراحی مداخلات. |\n| **۳. اعتبار شواهد و پیوند تجربی (Empirical Grounding)** | ۶.۵ | اتکا به مبانی تجربی اقتصاد رفتاری؛ با این حال، به دلیل ماهیت سنتز مفهومی/مروری، داده‌های کمّی دست اول جدیدی ارائه نمی‌کند. |\n| **۴. اصالت و بداعت نظری (Theoretical Originality)** | ۷.۰ | ترکیب عاملیت بازاریابی (به عنوان ابزار ارتباط و معماری انتخاب) با اقتصاد رفتاری برای فقرزدایی، دارای بداعت ساختاری است. |\n| **۵. قابلیت تعمیم و دامنهٔ شمول (Generalizability Scope)** | ۷.۵ | اصول ارائه‌شده در جوامع کم‌درآمد مختلف با ساختارهای نهادی مشابه قابلیت اعمال دارد، هرچند تفاوت‌های بومی نیازمند بومی‌سازی است. |\n| **۶. قدرت تبیینی و حل مسئله (Explanatory Power)** | ۸.۰ | ابهام‌زدایی موفق از الگوهای مالی پیچیده فقرا (مانند استقراض با بهره بالا یا عدم استفاده از فناوری‌های کارآمد). |\n| **۷. کاربردپذیری سیاستی و پرکتیس (Actionability)** | ۷.۵ | پتانسیل بالا برای اجرای «تلنگرها (Nudges)» و ابزارهای ارتباطی در مقیاس خرد با هزینه اندک و بازدهی بالا. |\n\n---\n\n### ۳. جدول ارزش افزودهٔ خلاقانه (Creative Value Add)\n\n| زیرمعیار (Sub-criterion) | وزن | امتیاز (از ۱۰۰) | تحلیل تفصیلی (Detailed Analysis) |\n| :--- | :---: | :---: | :--- |\n| **هدف‌گیری شکاف معرفتی (Epistemic Gap Targeting)** | ۳۵٪ | ۷۲ | تمرکز بر نقطهٔ کور اقتصاد نئوکلاسیک در مواجهه با «عقلانیت محدود» افراد در شرایط کمیابی شدید منابع و رد فرضیهٔ ترجیحات پایدار سنتی. |\n| **سنتز ترکیبی (Combinatorial Synthesis)** | ۴۰٪ | ۸۰ | تلفیق بین‌رشته‌ای خلاقانه میان روان‌شناسی قضاوت/تصمیم‌گیری، چارچوب‌های اقتصاد رفتاری و فناوری‌های پیام‌رسانی/بخش‌بندی بازاریابی تجاری. |\n| **ظرفیت زایایی (Generative Capacity)** | ۲۵٪ | ۷۰ | زمینه‌سازی برای طراحی آزمایش‌های میدانی، ایجاد ابزارهای نوین شمول مالی و معماری جدید انتخاب در سیاست‌گذاری عمومی. |\n\n* **امتیاز موزون ارزش افزودهٔ خلاقانه:** **۷۴.۷ از ۱۰۰**\n\n---\n\n### ۴. لایه‌برداری عمیق (Layered Analysis)\n\n#### الف) لایهٔ آشکار (Manifest Layer)\nدر سطح پدیدارشناختی، متن ادعا می‌کند که فقر صرفاً ناشی از کمبود سرمایهٔ فیزیکی نیست، بلکه محیط‌های نهادی و اجتماعی فقرا پر از اصطکاک‌هایی است که اتخاذ تصمیمات بهینه را دشوار می‌کند. ابزارهای بازاریابی معمولاً برای ترغیب به مصرف استفاده می‌شوند، اما اگر در خدمت سیاست‌گذاری اجتماعی قرار گیرند، می‌توانند اصطکاک‌های رفتاری را کاهش داده و موجب بهبود چشمگیر رفاه با مداخلات ارزان‌قیمت شوند.\n\n#### ب) لایهٔ پنهان (Latent Layer)\n* **مکانیسم‌های پنهان (Hidden Mechanisms):** هزینهٔ شناختی و پهنای باند ذهنی (Mental Bandwidth). فقر نوعی مالیات شناختی تحمیل می‌کند؛ فرد فقیر مجبور است برای تصمیمات روزمره انرژی روانی مضاعفی صرف کند که منجر به خستگی تصمیم‌گیری (Decision Fatigue) و تمرکز بر زمان حال (Present Bias) می‌شود.\n* **حلقه‌های بازخورد (Feedback Loops):**\n  * *حلقهٔ تشدیدکننده (Reinforcing Loop):* کمیابی منابع $\\leftarrow$ فرسایش پهنای باند شناختی $\\leftarrow$ اتخاذ تصمیمات با تمرکز بر بقای کوتاه‌مدت $\\leftarrow$ آسیب مالی در بلندمدت $\\leftarrow$ تشدید کمیابی منابع.\n* **نقاط اهرمی (Leverage Points):**\n  * ساده‌سازی فرآیندهای اداری و ثبت‌نام در برنامه‌های حمایتی (کاهش هزینه سربار شناختی).\n  * بهره‌گیری از گزینه‌های پیش‌فرض (Default Options) هوشمند در پس‌انداز خرد.\n  * ساختاردهی مجدد پیام‌های ترویجی با استفاده از اصول چارچوب‌بندی (Framing) در بازاریابی.\n\n#### ج) لایهٔ فراگیر (Meta Layer)\nاین تحلیل پارادایم «انسان اقتصادی (Homo Economicus)» را با «انسان در بافتار زیسته» جایگزین می‌کند. پیش‌فرض این است که شکست در رفتار اقتصادی، نقص اخلاقی یا هوشی فرد نیست، بلکه محصول ساختار بستری است که در آن تصمیم‌گیری انجام می‌شود. این رویکرد، مسئولیت را از «تغییر ذهنیت فقیر» به «تغییر ساختار معماری تصمیم» منتقل می‌کند.\n\n---\n\n### ۵. تحلیل شکاف‌های معرفتی و استنتاجی (EIG Analysis)\n\n* **شکاف تعمیم‌دهی (Generalization Gap):** رفتارهای مشاهده‌شده در یک بستر فقر روستایی ممکن است با زمینه‌های حاشیه‌نشینی شهری متفاوت باشد؛ تعمیم الگوی واحد خطرناک است.\n* **شکاف علیت در برابر همبستگی (Causal vs Correlation Gap):** آیا محیط نهادی فقیرانه علت رفتارهای کوتاهینگرانه است یا همبستگی میان ساختار درآمدی و ترجیحات زمانی بالاست؟\n* **شکاف نهادی/ساختاری (Structural Gap):** خطر مفرط در تأکید بر مداخلات خرد رفتاری، که ممکن است به قیمت نادیده‌گرفتن موانع کلان ساختاری (مانند دستمزد ناعادلانه یا فقدان زیرساخت پایه‌ای) تمام شود.\n\n---\n\n### ۶. ممیزی ارزیابی پیش‌نویس (REIG - Draft Audit)\n\n| مولفهٔ ممیزی (Compliance Point) | وضعیت | شرح ممیزی و خوداصلاحی |\n| :--- | :---: | :--- |\n| **انطباق علیّتی (Causal Compliance)** | **PASS** | ادعای علیت ساختاری مطلق مطرح نشد؛ رابطه به عنوان «تأثیر متقابل و تشدیدکننده» درون حلقه‌های بازخورد معرفی گردید. |\n| **انطباق تعمیم‌پذیری (Generalization Compliance)** | **PASS** | در تحلیل تصریح شد که تعمیم بدون بومی‌سازی نهادی با چالش مواجه است و مرزهای شمول تعریف گردید. |\n| **انطباق سنجش و ارقام (Measurement Compliance)** | **PASS** | امتیازات ارائه‌شده بیانگر سطح کیفی سنتز متن و متناسب با وزن مستندات موجود است، نه ارقام قطعی آماری. |\n| **انطباق چارچوب‌بندی (Framing Compliance)** | **PASS** | موضع‌گیری عاری از قضاوت ارزشی اخلاقی بوده و به جای سرزنش سوژه، بر فرآیندهای شناختی و نهادی تمرکز یافته است. |\n\n**نتیجهٔ نهایی ممیزی:** **پذیرفته شد (PASS)**\n\n---\n\n### ۷. نتیجه‌گیری نهایی، نقاط قوت/ضعف و پیشنهادات بهبود\n\n* **نقاط قوت (Strengths):**\n  * تلفیق موفق ادبیات بازاریابی رفتاری با نظریه‌های رفاه عمومی.\n  * ساختارشکنی از مفهوم تعصبات رفتاری در شرایط فقر شدید.\n  * قابلیت پیاده‌سازی بالا برای سیاست‌گذاران اجتماعی.\n* **نقاط ضعف (Weaknesses):**\n  * احتمال تقلیل‌گرایی (Reductionism) و تکیه بیش از حد بر تلنگرهای رفتاری به‌جای تغییرات بنیادین اقتصادی.\n  * نیاز به شواهد تجربی کمّی گسترده‌تر جهت سنجش پایداری اثرات بازاریابی اجتماعی در درازمدت.\n* **پیشنهادهای بهبود (Improvement Proposals):**\n  * ادغام متغیرهای اقتصاد کلان با مدل‌های خرد رفتاری جهت جلوگیری از غفلت از اصلاحات ساختاری.\n  * توسعهٔ چارچوب‌های سنجش طولانی‌مدت برای جلوگیری از بازگشت الگوهای رفتاری پس از توقف پیام‌های مداخله‌ای.\n\n---\n\nتحلیل حاضر کاملاً مطابق SOP_Intellectual_Content_Analysis_v3.4.2 و Ontology BIO v1.0 انجام شد.",
+            "source_model": "gemini-3.7-flash",
+            "generated_at": "2026-09-08T14:01:28Z",
+            "usage": null,
+            "finish_reason": null,
+            "continuation_rounds": 0
+          },
+          "metadata": {
+            "execution_time_seconds": 12.828,
+            "usage": null
+          },
+          "judge_result": {
+            "criteria_source": "llm",
+            "winner": "bsi",
+            "winner_source": "llm",
+            "reasoning": "BSI analysis substantially outperforms RAW across all criteria, particularly in mechanistic depth (cognitive bandwidth, feedback loops), critical gap identification (three specific epistemic gaps + compliance audit), and interdisciplinary synthesis detail. RAW provides a competent summary but lacks analytical depth, gap analysis, and structural evaluation. BSI's layered architecture and formal audit trail deliver genuine incremental epistemic value for this article type.",
+            "criteria": [
+              {
+                "name": "Interdisciplinary Synthesis Quality",
+                "importance": 25.0,
+                "raw_score": 6.0,
+                "bsi_score": 9.0,
+                "reason": "RAW mentions the interdisciplinary bridge but only at surface level; BSI provides detailed combinatorial synthesis analysis across psychology, behavioral economics, and marketing communications with explicit integration mechanisms."
+              },
+              {
+                "name": "Policy Actionability Assessment",
+                "importance": 20.0,
+                "raw_score": 7.0,
+                "bsi_score": 9.0,
+                "reason": "RAW identifies nudges and low-cost interventions; BSI goes further with specific leverage points (simplification, defaults, framing), implementation considerations, and sustainability concerns in improvement proposals."
+              },
+              {
+                "name": "Mechanistic Depth",
+                "importance": 20.0,
+                "raw_score": 5.0,
+                "bsi_score": 9.0,
+                "reason": "RAW lists cognitive load/heuristics as labels; BSI's latent layer details cognitive bandwidth taxation, decision fatigue, present bias, and reinforcing feedback loops as operational mechanisms."
+              },
+              {
+                "name": "Critical Gap Identification",
+                "importance": 15.0,
+                "raw_score": 3.0,
+                "bsi_score": 9.0,
+                "reason": "RAW offers no gap analysis; BSI provides structured EIG analysis with three specific epistemic gaps (generalization, causal vs correlation, structural) plus REIG compliance audit."
+              },
+              {
+                "name": "Structural Coherence",
+                "importance": 10.0,
+                "raw_score": 8.0,
+                "bsi_score": 9.0,
+                "reason": "Both are well-structured; BSI's multi-layer architecture with manifest/latent/meta separation and formal audit trail provides superior analytical scaffolding."
+              },
+              {
+                "name": "Evidence Evaluation",
+                "importance": 10.0,
+                "raw_score": 4.0,
+                "bsi_score": 8.0,
+                "reason": "RAW does not assess evidence; BSI explicitly scores empirical grounding (6.5/10), notes absence of new quantitative data, and includes measurement compliance verification."
+              }
+            ],
+            "total_scores": {
+              "raw": 5.55,
+              "bsi": 8.9
+            },
+            "bsi_capability_assessment": {
+              "relevance": "high",
+              "realization": "high",
+              "incremental_value": "high",
+              "reason": "BSI framework is highly relevant for this interdisciplinary policy article; the analysis realizes the framework thoroughly with layered analysis, gap detection, and synthesis scoring; incremental value over RAW is high due to mechanistic depth, critical gap identification, and structural audit capabilities that RAW lacks entirely."
+            },
+            "incremental_value": "high",
+            "scale": "0-10",
+            "weight_sum": 100.0,
+            "glossary_mode": "full",
+            "judge_input_compacted": false
+          },
+          "scores": {
+            "RAW": 0.555,
+            "BSI": 0.89
+          },
+          "failed": false,
+          "status": "valid",
+          "model_id": "gemini-3.7-flash",
+          "truncated": false
+        }
+      ],
+      "article_id": "doi:https://doi.org/10.1509/jppm.25.1.8"
+    }
+  ],
+  "source_url": "https://github.com/ibstrade11-source/behmanesh-index-prompt/blob/main/MASTER_PROMPT_BSI_v3.4.2.md",
+  "run_metadata": {
+    "tool_version": "0.1.0",
+    "git_commit": "4611b84b11c40496a9a55179000750ad1c70c7f4",
+    "git_dirty": true,
+    "run_timestamp_utc": "2026-09-08T14:06:15Z",
+    "methodology_note": "Scores/judgements come from an independent LLM judge (see comparison/judge.py) instructed not to reuse BSI's own D1-D7/EIG vocabulary and to choose its own evaluation criteria. If no judge model is available or its response cannot be parsed, the run falls back to a simple keyword-presence heuristic -- the stored record's own 'criteria_source' field ('llm' vs 'heuristic_fallback') always says honestly which one produced a given result. Neither path is a validated measurement of analytical quality until checked against independent human judgement on a representative sample.",
+    "provider_name": null,
+    "model_version": null,
+    "temperature": null,
+    "max_tokens": null,
+    "prompt_version": null,
+    "framework_name": "bsi"
+  },
+  "retrieval_metadata": {
+    "retrieval_status": "accepted",
+    "retrieval_validation": {
+      "retrieval_status": "accepted",
+      "retrieval_validation": "not_required",
+      "query_type": "topic",
+      "requested_query": "behavioral economics decision making",
+      "candidate_count": 5
+    },
+    "rejected_articles": [],
+    "skipped_count": 0,
+    "skipped_titles": []
+  },
+  "benchmark_status": "benchmarkable"
+}

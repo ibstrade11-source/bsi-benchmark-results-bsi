@@ -1,0 +1,176 @@
+{
+  "dataset_name": "ethics artificial intelligence moral philosophy",
+  "results": [
+    {
+      "article": {
+        "title": "Artificial Intelligence (AI): Multidisciplinary perspectives on emerging challenges, opportunities, and agenda for research, practice and policy",
+        "abstract": "As far back as the industrial revolution, significant development in technical innovation has succeeded in transforming numerous manual tasks and processes that had been in existence for decades where humans had reached the limits of physical capacity. Artificial Intelligence (AI) offers this same transformative potential for the augmentation and potential replacement of human tasks and activities within a wide range of industrial, intellectual and social applications. The pace of change for this new AI technological age is staggering, with new breakthroughs in algorithmic machine learning and autonomous decision-making, engendering new opportunities for continued innovation. The impact of AI could be significant, with industries ranging from: finance , healthcare, manufacturing, retail, supply chain , logistics and utilities, all potentially disrupted by the onset of AI technologies. The study brings together the collective insight from a number of leading expert contributors to highlight the significant opportunities, realistic assessment of impact, challenges and potential research agenda posed by the rapid emergence of AI within a number of domains: business and management, government, public sector, and science and technology . This research offers significant and timely insight to AI technology and its impact on the future of industry and society in general, whilst recognising the societal and industrial influence on pace and direction of AI development.",
+        "full_text": null,
+        "doi": "https://doi.org/10.1016/j.ijinfomgt.2019.08.002",
+        "url": "https://openalex.org/W2969625533",
+        "input_quality": {
+          "has_title": true,
+          "has_abstract": true,
+          "source": "openalex",
+          "enriched": false
+        }
+      },
+      "cells": [
+        {
+          "generator": "openrouter",
+          "mode": "raw",
+          "analysis": {
+            "text": "**Article Analysis**\n\n**Title:** *Artificial Intelligence (AI): Multidisciplinary perspectives on emerging challenges, opportunities, and agenda for research, practice and policy*\n\n**1. Core Thesis & Main Claims**\n*   **Transformative Parity:** AI represents a paradigm shift comparable to the Industrial Revolution, but targeting cognitive and decision-making limits rather than physical ones.\n*   **Dual Trajectory:** AI functions as both an augmentation tool and a potential replacement for human tasks across industrial, intellectual, and social spheres.\n*   **Accelerating Velocity:** Breakthroughs in algorithmic machine learning and autonomous decision-making are driving a \"staggering\" pace of change, creating a continuous cycle of innovation.\n*   **Universal Disruption Potential:** No sector is immune; specific industries identified for significant disruption include finance, healthcare, manufacturing, retail, supply chain, logistics, and utilities.\n*   **Reciprocal Influence:** The development trajectory of AI is not unidirectional; societal and industrial forces actively shape the pace and direction of AI advancement.\n\n**2. Methodological Approach**\n*   **Expert Synthesis / Delphi-style Compilation:** The study does not present primary empirical data or a single theoretical model. Instead, it aggregates \"collective insight from a number of leading expert contributors.\"\n*   **Multidisciplinary Scope:** Analysis spans four distinct domains: **Business and Management, Government, Public Sector, and Science and Technology.**\n\n**3. Key Contributions**\n*   **Holistic Mapping:** Provides a consolidated, cross-domain view of the AI landscape, bridging the gap between technical capabilities and organizational/societal implementation.\n*   **Balanced Realism:** Explicitly aims for a \"realistic assessment of impact,\" countering hype by juxtaposing \"significant opportunities\" with \"challenges.\"\n*   **Actionable Agenda Setting:** Synthesizes a concrete **research, practice, and policy agenda** derived from expert consensus, offering direction for stakeholders.\n*   **Timeliness:** Positions the work as a critical snapshot for navigating the immediate future of industry and society during a period of rapid transition.\n\n**4. Scope & Limitations (Inferred from Abstract)**\n*   **Scope:** Broad/horizontal (cross-industry, cross-sector) rather than deep/vertical (specific use-case analysis).\n*   **Nature:** Conceptual and prospective (agenda-setting), not explanatory or predictive modeling.\n*   **Bias Risk:** Reliance on \"leading expert contributors\" may reflect elite or Western-centric perspectives on AI governance and ethics.\n\n**5. Significance for the Field**\nThis paper serves as a **foundational reference framework** for scholars, policymakers, and practitioners. Its primary value lies in structuring the chaotic early discourse on AI adoption into a structured multidisciplinary agenda, defining the boundaries of the \"AI transformation\" narrative for subsequent research.",
+            "source_model": "nvidia/nemotron-3-ultra-550b-a55b:free",
+            "generated_at": "2026-08-22T20:32:55Z"
+          },
+          "metadata": {},
+          "judge_result": {
+            "criteria_source": "llm",
+            "winner": "tie",
+            "reasoning": "RAW and BSI both provide comparable overall quality. RAW scores slightly higher on practical value, while BSI scores slightly higher on scope and innovation. The differences are marginal, leading to a tie decision.",
+            "criteria": [
+              {
+                "name": "Scope Depth",
+                "importance": 26.32,
+                "raw_score": 7.0,
+                "bsi_score": 8.0,
+                "reason": "The article offers a broad, cross‑disciplinary agenda; BSI explicitly rates it high on scope, while RAW notes its breadth but less depth."
+              },
+              {
+                "name": "Empirical Evidence",
+                "importance": 21.05,
+                "raw_score": 4.0,
+                "bsi_score": 5.0,
+                "reason": "Both analyses acknowledge lack of primary data; RAW assigns a lower score due to absence of empirical methods, BSI scores slightly higher for expert‑synthesis transparency."
+              },
+              {
+                "name": "Logical Coherence",
+                "importance": 15.79,
+                "raw_score": 8.0,
+                "bsi_score": 8.0,
+                "reason": "Both RAW and BSI concur on a clear, linear argumentative structure from AI potential to policy agenda."
+              },
+              {
+                "name": "Innovation & Integration",
+                "importance": 15.79,
+                "raw_score": 7.0,
+                "bsi_score": 8.0,
+                "reason": "BSI emphasizes multidisciplinary synthesis; RAW notes innovative framing but scores slightly lower due to limited mechanistic depth."
+              },
+              {
+                "name": "Practical Value",
+                "importance": 21.05,
+                "raw_score": 9.0,
+                "bsi_score": 8.0,
+                "reason": "RAW highlights actionable agenda; BSI scores it well for policy relevance but slightly lower because it is conceptual, not data‑driven."
+              }
+            ],
+            "total_scores": {
+              "raw": 6.95,
+              "bsi": 7.37
+            },
+            "bsi_capability_assessment": {
+              "relevance": "high",
+              "realization": "medium",
+              "incremental_value": "medium",
+              "reason": "BSI relevance is high because the framework is well suited to evaluate a multidisciplinary agenda; realization is medium because the analysis follows BSI steps but lacks full methodological detail; incremental value is medium as BSI offers additional insight into epistemic gaps but does not dramatically outperform RAW."
+            },
+            "incremental_value": "medium",
+            "scale": "0-10",
+            "weight_sum": 100.0
+          },
+          "scores": {
+            "RAW": 0.695,
+            "BSI": 0.737
+          },
+          "failed": false
+        },
+        {
+          "generator": "openrouter",
+          "mode": "bsi",
+          "analysis": {
+            "text": "# تحلیل مقاله: «هوش مصنوعی (AI): منظرهای چندرشته‌ای بر چالش‌های نوظهور، فرصت‌ها و دستورالعمل تحقیق، ممارسة و سیاست‌گذاری»\n\n**مشخصات مقاله:**  \n**عنوان:** Artificial Intelligence (AI): Multidisciplinary perspectives on emerging challenges, opportunities, and agenda for research, practice and policy  \n**نویسندگان:** یگانه داویدی (Yogesh K. Dwivedi) و همکاران (مجموعه‌ای از محققان پیشرو)  \n**منبع:** International Journal of Information Management (شاید از آنجا که متن کامل ارائه نشده، تحلیل بر مبنای عنوان و چکیده ارائه شده متمرکز است)  \n**نوع محتوا:** مقاله مروری/دستورالعمل تحقیق (Review / Research Agenda) با رویکرد چندرشته‌ای  \n\n---\n\n## ۱. خلاصه اجرایی (Executive Summary) + Core Claim + امتیاز کلی BSI\n\n**خلاصه اجرایی:**  \nمقاله حاضر به‌عنوان یک کار بنیادین (Seminal Work) در حوزۀ مدیریت اطلاعات، سعی دارد با همنشینی دیدگاه‌های گروهی از متخصصان پیشرو، منظر جامع و چندرشته‌ای از تأثیرات trasformative هوش مصنوعی را ترسیم کند. استدلال اصلی بر این استوار است که هوش مصنوعی، همانند انقلاب صنعتی، توانایی افزایش و جایگزینی کارهای انسانی در طیف وسیعی از کاربردهای صنعتی، فکری و اجتماعی را دارد. مقاله با تأکید بر سرعت شگفت‌انگیز پیشرفت در یادگیری ماشین الگوریتمی (Algorithmic Machine Learning) و تصمیم‌گیری خودمختار (Autonomous Decision-Making)، فرصت‌های نوآوری را برجسته می‌سازد، اما بلافاصله دامنه اختلال (Disruption) را در صنایع کلیدی نظیر مالی، بهداشت، تولید، خرده‌فروشی، زنجیرۀ تامین، لجستیک و تسهیلات تشریح می‌کند. خروجی نهایی مقاله، یک دستورالعمل تحقیق (Research Agenda) یکپارچه برای حوزۀ کسب‌وکار و مدیریت، دولت، بخش عمومی و علم و تکنولوژی است که هم چالش‌ها و هم فرصت‌های واقعی را پوشش می‌دهد.\n\n**Core Claim (ادعای مرکزی):**  \n> «هوش مصنوعی یک فناوری تبدیل‌کنندۀ پارادایم (Paradigm-Shifting Technology) با مانندی تاریخی به انقلاب صنعتی است که نیازمند یک دستورالعمل تحقیق و ممارست چندرشته‌ای، پیش‌انگانه و یکپارچه است تا بتواند فرصت‌های افزایشی را بگیرد و ریسک‌های اختلال‌یافته در بخش‌های حیاتی اقتصاد و جامعه را مدیریت کند.»\n\n**امتیاز کلی BSI (Overall BSI Score): ۷۸ / ۱۰۰**  \n*توضیح:* مقاله در معیارهای «関連性 و دامنه» (Relevance & Scope)، «ترکیب نوین» (Synthetic Integration) و «ارزش کاربردی/سیاستی» (Practical/Policy Relevance) امتیاز بسیار بالایی کسب می‌کند. اما به دلیل ماهیت «چکیده/دستورالعمل» بودن و عدم ارائه داده‌های تجربی اولین در همین متن، در معیار «سختی تجربی» (Empirical Rigor) و «شفافیت روش‌شناختی» (Methodological Transparency) از نظر بSI (که بر اثبات و مکانیسم‌گرایی تأکید دارد) امتیاز نسبی دریافت می‌کند.\n\n---\n\n## ۲. جدول ارزیابی معیارهای اصلی ۷‌گانه (BSI v3.4.2 Core Criteria)\n\n| کد | معیار اصلی (Core Criterion) | وزن در BSI | امتیاز (از ۱۰) | امتیاز وزنی | استدلال ارزیابی (Evidence-Based Justification) |\n| :--- | :--- | :---: | :---: | :---: | :--- |\n| **C1** | **نوآوری مفهومی و نظری (Conceptual Novelty)** | ۱۵٪ | ۷.۵ | ۱.۱۲۵ | ارائه چارچوب «چندرشته‌ای» و برچسب‌گذاری «انقلاب صنعتی دوم» برای AI نوآوری مفهومی قوی است، اما در سطح تعریف‌های درونی (مانند تفکیک Augmentation vs Replacement) به عمق فلسفی/تئوری لازم نمی‌رسد و بیشتر توصیفی است. |\n| **C2** | **انسجام منطقی و استدلالی (Logical Coherence)** | ۱۵٪ | ۸.۵ | ۱.۲۷۵ | استدلال از «پتانسیل trasformative» به «اختلال قطاع‌ها» و سپس به «ضرورت دستورالعمل چندرشته‌ای» جریان منطقی صلب، خطی و بدون پرش‌های استدلالی دارد. ساختار استدلال: پتانسیل → سرعت → اثر sektoral → ضرورت راهبرد. |\n| **C3** | **سختی تجربی و شواهدی (Empirical Rigor)** | ۱۵٪ | ۵.۰ | ۰.۷۵۰ | **نکته ضعف کلیدی:** متن ارائه‌شده (چکیده) هیچ داده تجربی اولین (Survey, Case Study, Simulation) را گزارش نمی‌دهد. روش «بینش متخصصان پیشرو» (Expert Insight) بدون تشریح روش‌شناسی انتخاب، نمونه‌گیری و تحلیل مضمون (Thematic Analysis) گزارش شده است. |\n| **C4** | **عمق نظری و مبنای علمی (Theoretical Depth)** | ۱۵٪ | ۷.۰ | ۱.۰۵۰ | بر رویش",
+            "source_model": "nvidia/nemotron-3-ultra-550b-a55b:free",
+            "generated_at": "2026-08-22T20:34:05Z"
+          },
+          "metadata": {},
+          "judge_result": {
+            "criteria_source": "llm",
+            "winner": "tie",
+            "reasoning": "RAW and BSI both provide comparable overall quality. RAW scores slightly higher on practical value, while BSI scores slightly higher on scope and innovation. The differences are marginal, leading to a tie decision.",
+            "criteria": [
+              {
+                "name": "Scope Depth",
+                "importance": 26.32,
+                "raw_score": 7.0,
+                "bsi_score": 8.0,
+                "reason": "The article offers a broad, cross‑disciplinary agenda; BSI explicitly rates it high on scope, while RAW notes its breadth but less depth."
+              },
+              {
+                "name": "Empirical Evidence",
+                "importance": 21.05,
+                "raw_score": 4.0,
+                "bsi_score": 5.0,
+                "reason": "Both analyses acknowledge lack of primary data; RAW assigns a lower score due to absence of empirical methods, BSI scores slightly higher for expert‑synthesis transparency."
+              },
+              {
+                "name": "Logical Coherence",
+                "importance": 15.79,
+                "raw_score": 8.0,
+                "bsi_score": 8.0,
+                "reason": "Both RAW and BSI concur on a clear, linear argumentative structure from AI potential to policy agenda."
+              },
+              {
+                "name": "Innovation & Integration",
+                "importance": 15.79,
+                "raw_score": 7.0,
+                "bsi_score": 8.0,
+                "reason": "BSI emphasizes multidisciplinary synthesis; RAW notes innovative framing but scores slightly lower due to limited mechanistic depth."
+              },
+              {
+                "name": "Practical Value",
+                "importance": 21.05,
+                "raw_score": 9.0,
+                "bsi_score": 8.0,
+                "reason": "RAW highlights actionable agenda; BSI scores it well for policy relevance but slightly lower because it is conceptual, not data‑driven."
+              }
+            ],
+            "total_scores": {
+              "raw": 6.95,
+              "bsi": 7.37
+            },
+            "bsi_capability_assessment": {
+              "relevance": "high",
+              "realization": "medium",
+              "incremental_value": "medium",
+              "reason": "BSI relevance is high because the framework is well suited to evaluate a multidisciplinary agenda; realization is medium because the analysis follows BSI steps but lacks full methodological detail; incremental value is medium as BSI offers additional insight into epistemic gaps but does not dramatically outperform RAW."
+            },
+            "incremental_value": "medium",
+            "scale": "0-10",
+            "weight_sum": 100.0
+          },
+          "scores": {
+            "RAW": 0.695,
+            "BSI": 0.737
+          },
+          "failed": false
+        }
+      ]
+    }
+  ],
+  "source_url": "https://github.com/ibstrade11-source/behmanesh-index-prompt/blob/main/MASTER_PROMPT_BSI_v3.4.2.md",
+  "run_metadata": {
+    "tool_version": "0.1.0",
+    "git_commit": "2a0eed8408670c11a2af47ea82640beba7f5a8e3",
+    "git_dirty": true,
+    "run_timestamp_utc": "2026-08-22T20:32:41Z",
+    "methodology_note": "Scores/judgements come from an independent LLM judge (see comparison/judge.py) instructed not to reuse BSI's own D1-D7/EIG vocabulary and to choose its own evaluation criteria. If no judge model is available or its response cannot be parsed, the run falls back to a simple keyword-presence heuristic -- the stored record's own 'criteria_source' field ('llm' vs 'heuristic_fallback') always says honestly which one produced a given result. Neither path is a validated measurement of analytical quality until checked against independent human judgement on a representative sample.",
+    "provider_name": null,
+    "model_version": null,
+    "temperature": null,
+    "max_tokens": null,
+    "prompt_version": null,
+    "framework_name": "bsi"
+  }
+}

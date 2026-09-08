@@ -1,0 +1,273 @@
+{
+  "dataset_name": "political science public policy decision making",
+  "results": [
+    {
+      "article": {
+        "title": "American Business, Public Policy, Case-Studies, and Political Theory",
+        "abstract": "Case-Studies of the policy-making process constitute one of the more important methods of political science analysis. Beginning with Schattschneider, Herring, and others in the 1930's, case-studies have been conducted on a great variety of decisions. They have varied in subject-matter and format, in scope and rigor, but they form a distinguishable body of literature which continues to grow year by year. The most recent addition, a book-length study by Raymond Bauer and his associates, stands with Robert A. Dahl's prize-winning Who Governs? (New Haven 1961) as the best yet to appear. With its publication a new level of sophistication has been reached. The standards of research its authors have set will indeed be difficult to uphold in the future. American Business and Public Policy is an analysis of political relationships within the context of a single, well-defined issue—foreign trade. It is an analysis of business attitudes, strategies, communications and, through these, business relationships in politics. The analysis makes use of the best behavioral research techniques without losing sight of the rich context of policies, traditions, and institutions. Thus, it does not, in Dahl's words, exchange relevance for rigor; rather it is standing proof that the two—relevance and rigor—are not mutually exclusive goals.",
+        "full_text": null,
+        "doi": "https://doi.org/10.2307/2009452",
+        "url": "https://openalex.org/W2150459713",
+        "input_quality": {
+          "has_title": true,
+          "has_abstract": true,
+          "source": "openalex",
+          "enriched": false
+        }
+      },
+      "cells": [
+        {
+          "generator": "groq",
+          "mode": "raw",
+          "analysis": {
+            "text": "**Main Claims**\n\n1. **Case‑study methodology is central to political science** – The article argues that since the 1930s, scholars such as Schattschneider and Herring have produced a distinct, growing body of case studies that vary in scope but collectively form a coherent literature.\n\n2. **Recent scholarship (Bauer et al.) reaches a new methodological peak** – The author positions the book *American Business and Public Policy* beside Dahl’s *Who Governs?* as the most rigorous and sophisticated case study yet published.\n\n3. **Rigor can coexist with relevance** – By employing “the best behavioral research techniques” while preserving contextual depth (policies, traditions, institutions), the book demonstrates that methodological rigor does not sacrifice practical relevance.\n\n**Contribution to the Field**\n\n- **Methodological benchmark** – The article frames *American Business and Public Policy* as setting new standards for future case‑study research, suggesting that upcoming studies will be judged against its methodological rigor.\n\n- **Thematic focus on foreign trade** – By concentrating on a single issue—foreign trade—the work illustrates how business attitudes, strategies, and communications shape political relationships, offering a detailed, micro‑level view of business‑policy interactions.\n\n- **Bridging behaviorism and context** – It contributes a model that integrates behavioral research techniques (e.g., quantitative analysis, systematic observation) with rich institutional and historical context, thereby challenging the perceived dichotomy between relevance and rigor in political science research.",
+            "source_model": "openai/gpt-oss-20b",
+            "generated_at": "2026-09-06T00:17:27Z",
+            "usage": {
+              "queue_time": 0.046024185,
+              "prompt_tokens": 381,
+              "prompt_time": 0.02124095,
+              "completion_tokens": 316,
+              "completion_time": 0.34052826,
+              "total_tokens": 697,
+              "total_time": 0.36176921,
+              "completion_tokens_details": {
+                "reasoning_tokens": 6
+              }
+            },
+            "finish_reason": "stop",
+            "continuation_rounds": 0
+          },
+          "metadata": {
+            "execution_time_seconds": 1.044,
+            "usage": {
+              "queue_time": 0.046024185,
+              "prompt_tokens": 381,
+              "prompt_time": 0.02124095,
+              "completion_tokens": 316,
+              "completion_time": 0.34052826,
+              "total_tokens": 697,
+              "total_time": 0.36176921,
+              "completion_tokens_details": {
+                "reasoning_tokens": 6
+              }
+            }
+          },
+          "judge_result": {
+            "criteria_source": "llm",
+            "winner": "bsi",
+            "winner_source": "llm",
+            "reasoning": "RAW provides a clean, accurate, and accessible summary of the article's three claims and contribution but is descriptively thin — it does not audit methodology, test causal claims, or identify evidence gaps. BSI goes further by systematically flagging the absence of empirical detail, auditing causal compliance, and identifying latent assumptions. These are genuine analytical additions not present in RAW, even though BSI's presentation is verbose, partially speculative, and wrapped in framework jargon that limits clarity. On balance, BSI's added methodological scrutiny outweighs its presentational weaknesses, giving it a modest but real edge on a review article that lacks substantive empirical content to critique.",
+            "criteria": [
+              {
+                "name": "Identification of Core Claims",
+                "importance": 20.0,
+                "raw_score": 8.0,
+                "bsi_score": 7.0,
+                "reason": "RAW clearly extracts three main claims with page-level grounding. BSI restates the core claim but wraps it in framework jargon without sharper extraction than RAW provides."
+              },
+              {
+                "name": "Methodological and Evidence Appraisal",
+                "importance": 25.0,
+                "raw_score": 6.0,
+                "bsi_score": 7.0,
+                "reason": "RAW notes the rigor-relevance claim but does not interrogate the absence of empirical detail. BSI explicitly flags the lack of statistical/methodological specifics, sample selection, and ethical disclosure — a substantive advantage here."
+              },
+              {
+                "name": "Multi-Layer Structural Analysis (Manifest/Latent/Meta)",
+                "importance": 20.0,
+                "raw_score": 3.0,
+                "bsi_score": 6.0,
+                "reason": "RAW offers no layered analysis. BSI identifies latent assumptions (selective sampling, structural assumptions about behavioral modeling) and meta-level feedback loops (theory↔data↔policy), adding analytical depth."
+              },
+              {
+                "name": "Causal and Logical Consistency Check",
+                "importance": 15.0,
+                "raw_score": 4.0,
+                "bsi_score": 7.0,
+                "reason": "RAW does not audit causal claims. BSI's REIG explicitly tests Causal Compliance and flags the unsubstantiated causal claim that behavioral methods produce rigor without sacrificing relevance — a meaningful contribution."
+              },
+              {
+                "name": "Evidence Gap Analysis (EIG)",
+                "importance": 10.0,
+                "raw_score": 3.0,
+                "bsi_score": 7.0,
+                "reason": "RAW does not address gaps. BSI systematically identifies data, methodological, theoretical, and ethical gaps, providing actionable diagnostic value."
+              },
+              {
+                "name": "Clarity and Readability of Output",
+                "importance": 5.0,
+                "raw_score": 8.0,
+                "bsi_score": 4.0,
+                "reason": "RAW is concise and accessible. BSI is dense, bilingual, heavy with acronyms (EIG, REIG, Causal Compliance), and risks obscuring rather than illuminating for a general reader."
+              },
+              {
+                "name": "Actionable Improvement Suggestions",
+                "importance": 5.0,
+                "raw_score": 4.0,
+                "bsi_score": 6.0,
+                "reason": "RAW mentions contribution to the field but offers no concrete improvement path. BSI provides five specific recommendations (empirical data, network models, ethical transparency), though some feel generic."
+              }
+            ],
+            "total_scores": {
+              "raw": 5.2,
+              "bsi": 6.6
+            },
+            "bsi_capability_assessment": {
+              "relevance": "medium",
+              "realization": "medium",
+              "incremental_value": "low",
+              "reason": "BSI's layered decomposition, EIG gap analysis, and causal compliance audit are conceptually relevant to a short review article. However, realization is moderate because much of the analysis is speculative (e.g., inventing latent sampling bias without textual evidence), the framework score (3.5/5) is asserted rather than derived transparently, and the bilingual presentation and acronym-heavy format reduce clarity. Incremental value over RAW is low-to-moderate: BSI adds structural critique (latent assumptions, causal audit) that RAW lacks, but most added content is interpretive padding rather than grounded analysis."
+            },
+            "incremental_value": "low",
+            "scale": "0-10",
+            "weight_sum": 100.0,
+            "glossary_mode": "full",
+            "judge_input_compacted": false
+          },
+          "scores": {
+            "RAW": 0.52,
+            "BSI": 0.66
+          },
+          "failed": false,
+          "status": "valid",
+          "model_id": "openai/gpt-oss-20b",
+          "truncated": false
+        },
+        {
+          "generator": "groq",
+          "mode": "bsi",
+          "analysis": {
+            "text": "**تحلیل جامع شاخص بهمنش (BSI v3.4.2) بر روی مقاله: «American Business, Public Policy, Case‑Studies, and Political Theory»**\n\n---\n\n### ۱. عنوان تحلیل با مشخصات مقاله/محتوا\n- **عنوان مقاله:** American Business, Public Policy, Case‑Studies, and Political Theory  \n- **نویسنده(ها):** نام نویسنده در متن ذکر نشده است.  \n- **منبع:** ناشناخته (فقط عنوان و چکیده در دسترس)  \n- **زمینهٔ پژوهشی:** بررسی رابطهٔ کسب‌وکارهای آمریکایی و سیاست عمومی از طریق مطالعات موردی (case‑studies) در حوزهٔ تجارت خارجی (foreign trade).  \n- **مدارک و داده‌های مورد استفاده:** روش‌های تحقیق رفتاری (behavioral research techniques) در ترکیب با تحلیل‌های تاریخی و نهادی.  \n\n---\n\n### ۱.۱ خلاصه اجرایی (Executive Summary) + Core Claim + امتیاز کلی BSI\n\n| بخش | توضیح |\n|-----|-------|\n| **خلاصه اجرایی** | این مقاله با اشاره به تاریخچهٔ مطالعات موردی در علوم سیاسی، بر اهمیت روش‌شناسی دقیق در تحلیل سیاست‌های تجارت خارجی تاکید می‌کند. نویسندگان ادعا می‌کنند که ترکیبی از روش‌های رفتاری و تحلیل‌های نهادی می‌تواند همزمان به‌دقت (rigor) و ارتباط (relevance) دست یابد، و به‌عنوان نمونه‌ای از این ترکیب، کتاب “American Business and Public Policy” را معرفی می‌کنند. |\n| **Core Claim** | ادعا اصلی مقاله این است که «تجزیه و تحلیل سیاست‌های تجارت خارجی در چارچوب کسب‌وکارهای آمریکایی می‌تواند با استفاده از روش‌های رفتاری، بدون از دست دادن ارتباط با واقعیت‌های تاریخی و نهادی، سطح بالایی از صداقت علمی (rigor) را ارائه دهد». |\n| **امتیاز کلی BSI** | **۳٫۵ / ۵** – مقالاتی که در چارچوب روش‌شناسی BSI بررسی می‌شوند، بر اساس کیفیت تحلیل، شفافیت ادعاها و اعتبار داده‌ها ارزیابی می‌شوند. مقاله در کل نقاط قوت خوبی دارد (استفاده از روش‌های رفتاری و ادبیات معتبر)، اما داده‌های تجربی دقیق و روش‌های آماری خاص ارائه نشده‌اند؛ به همین دلیل امتیاز نهایی ۳٫۵ است. |\n\n---\n\n### ۲. جدول ارزیابی معیارهای اصلی ۷گانه\n\n| معیار BSI | توضیح معیار | نمره (از ۰ تا ۵) | توضیح نمره‌بندی |\n|-----------|-------------|-----------------|------------------|\n| **A. Rigor** | دقت، روش‌شناسی، تحلیل‌های آماری | ۴ | استفاده از روش‌های رفتاری معتبر، اما نبود جزئیات آماری و نمونه‌گیری. |\n| **B. Relevance** | ارتباط با مسائل واقعی، کاربردی | ۵ | تمرکز بر تجارت خارجی و تأثیر کسب‌وکارها، کاملاً مرتبط با سیاست‌گذاری. |\n| **C. Clarity** | وضوح، ساختار، خوانایی | ۳ | چکیده کوتاه، اما متن اصلی در دسترس نیست؛ ساختار و منطق به‌وضوح مشخص نیستند. |\n| **D. Originality** | نوآوری، ایده‌های تازه | ۴ | ترکیب روش رفتاری با تحلیل نهادی؛ اما در ادبیات این ترکیب قبلاً مطرح شده است. |\n| **E. Methodology** | جامعیت روش، ابزارهای پژوهشی | ۳ | اشاره به «بهترین روش‌های رفتاری»، اما جزئیات روش‌شناختی نامشخص است. |\n| **F. Impact** | تأثیر بالقوه بر سیاست‌گذاری | ۵ | بررسی روابط بین کسب‌وکار و سیاست، می‌تواند به تصمیم‌گیری‌های سیاست‌گذاران کمک کند. |\n| **G. Ethical Considerations** | رعایت اصول اخلاقی، شفافیت داده | ۳ | داده‌های تجربی و اخلاقی در متن ذکر نشده‌اند؛ فرض بر رعایت اصول اخلاقی است. |\n\n**مجموع نمره:** **۳٫۵ / ۵**\n\n---\n\n### ۳. جدول CreativeValueAdd با ۳ زیرمعیار\n\n| زیرمعیار | وزن | نمره (از ۰ تا ۱) | توضیح |\n|----------|------|-----------------|-------|\n| **Epistemic Gap Targeting 35٪** | ۰٫۳۵ | ۰٫۸ | مقاله به خوبی شکاف دانش در حوزهٔ تجارت خارجی را شناسایی کرده و با ترکیب روش‌های رفتاری و تحلیل نهادی به آن پاسخ می‌دهد. |\n| **Combinatorial Synthesis 40٪** | ۰٫۴۰ | ۰٫۷ | ادغام روش‌های رفتاری و نهادی؛ اما ترکیب عمیق‌تر و نوآورانه‌تری (مثلاً مدل‌های شبکه‌ای) انتظار می‌رود. |\n| **Generative Capacity 25٪** | ۰٫۲۵ | ۰٫۶ | مقاله به‌صورت نظریه‌سازی می‌کند، اما قابلیت تولید پیش‌بینی‌های جدید (generative) محدودی دارد. |\n\n**مجموع نمره CreativeValueAdd:** **۷٫۰ / ۱۰**  \n\n---\n\n### ۴. لایه‌برداری عمیق (Manifest Layer، Latent Layer، Meta Layer)\n\n#### ۴.۱ لایهٔ نمایان (Manifest Layer)\n- **ساختار متن:** چکیده، معرفی، ادبیات، فرضیات، روش‌شناسی، نتایج، بحث، نتیجه‌گیری (در متن کامل).  \n- **مکانیزم‌های اصلی:** ادبیات تاریخی (Schattschneider, Herring)، روش رفتاری (behavioral research techniques)، تحلیل سیاست (political analysis).  \n- **Feedback Loops:** ارتباط میان ادبیات و روش‌شناسی؛ روش‌های رفتاری تأثیر بر تفسیر نتایج، و در عوض نتایج بر انتخاب روش‌ها.  \n- **Leverage Points:** انتخاب نمونه‌های موردی و روش‌های تحلیل رفتاری، که می‌توانند تأثیرگذاری تحقیق را افزایش دهند.  \n\n#### ۴.۲ لایهٔ پنهان (Latent Layer)\n- **مکانیزم‌های پنهان:**\n  - **نمونه‌گیری انتخابی (Selective Sampling):** مقاله بدون توضیح نمونهٔ موردی، احتمالاً بر اساس دسترسی و دسترسی به داده‌های تجاری و سیاستی.  \n  - **پیش‌فرض‌های ساختاری (Structural Assumptions):** فرض می‌شود که روابط بین کسب‌وکار و سیاست می‌توانند با روش رفتاری مدل‌سازی شوند، بدون تأیید تجربی.  \n  - **حس‌پذیری به پارامترهای ناپیدا:** ناپایداری نتایج در مواجهه با تغییرات پارامترهای رفتاری (مثلاً اعتقادات مدیران).  \n- **الگوهای تکرارشونده:** استفاده مکرر از «تجزیه و تحلیل رفتاری» در مطالعات مشابه، بدون تغییر روش‌های بنیادی.  \n- **Feedback Loops:**  \n  - **پیش‌فرض‌ها → روش‌شناسی → نتایج → بازبینی پیش‌فرض‌ها** (چکیده‌ای که در این مقاله وجود ندارد).  \n  - **تأثیر نتایج بر انتخاب سیاست‌های تجاری و، در نهایت، بر کسب‌وکارها (reverse causal loop).**  \n- **Leverage Points:**  \n  - **افزایش شفافیت نمونه‌گیری**  \n  - **یکپارچه‌سازی مدل‌های شبکه‌ای برای شناسایی تأثیرات چندوجهی**  \n  - **استفاده از داده‌های تجربی قابل دسترس و مقایسه‌پذیر**  \n\n#### ۴.۳ لایهٔ متا (Meta Layer)\n- **مکانیزم‌های متا:**\n  - **تصمیم‌گیری پژوهشی (Research Decision Making):** انتخاب تمرکز بر تجارت خارجی و ترکیب روش‌های رفتاری و نهادی.  \n  - **سیاست‌گذاری (Policy Orientation):** تأکید بر تأثیرگذاری در سیاست‌های تجاری.  \n  - **انتقال دانش (Knowledge Transfer):** ادبیات معتبر (Dahl، Schattschneider) به عنوان چارچوب معرفت.  \n- **Feedback Loops:**  \n  - **نظریه → مدل → داده → نظریه**  \n  - **سیاست → کسب‌وکار → داده‌های رفتاری → سیاست**  \n- **Leverage Points:**  \n  - **گسترش دامنهٔ پژوهشی به سایر حوزه‌های سیاست (مثلاً حفاظت محیط‌زیست)؛**  \n  - **تعامل میان پژوهشگران و سیاستگذاران برای بازخورد مستقیم**؛  \n  - **یکپارچه‌سازی چارچوب‌های نظری و تجزیه و تحلیل‌های داده‌ای (مثلاً ترکیب با تحلیل شبکه).**\n\n---\n\n### ۵. EIG Analysis\n\n**EIG (Evidence‑Informed Gap) به معنی تحلیل شکاف‌های شواهدی است که در متن وجود دارند.**\n\n| نوع شکاف | شرح | تأثیر بر کیفیت تحلیل |\n|----------|-----|-----------------------|\n| **شکاف داده‌ای (Data Gap)** | عدم ارائه داده‌های تجربی یا نمونه‌گیری دقیق | کاهش اعتبار ادعاهای تجربی و امکان تفسیر نادرست. |\n| **شکاف متدولوژیک (Methodological Gap)** | نبود توضیح جزئیات روش رفتاری (معیارها، اندازه‌گیری‌ها) | احتمال تکرار ناپایدار و عدم مقایسهٔ قابل اعتماد. |\n| **شکاف نظری (Theoretical Gap)** | فرضیات اولیه بدون تأیید تجربی | احتمال تبعیض در تفسیر و انحراف از واقعیت. |\n| **شکاف اخلاقی (Ethical Gap)** | عدم بیان نکات اخلاقی در پژوهش | امکان نقض استانداردهای پژوهشی اخلاقی. |\n\n---\n\n### ۶. REIG — ممیزی Draft Analysis\n\n| بررسی | نتیجه | توضیح |\n|--------|--------|--------|\n| **Causal Compliance** | **FAIL** | در تحلیل اولیه، ادعا می‌شود که «روش رفتاری بدون از دست دادن ارتباط می‌تواند سطح بالای صداقت علمی را ارائه دهد». این ادعا یک رابطهٔ علیتی (روش → صداقت) را بدون شواهد تجربی مستقیم ادعا می‌کند. |\n| **Generalization Compliance** | **PASS** | ادعاهای مقاله در چارچوب تجارت خارجی و کسب‌وکارهای آمریکایی محدود هستند؛ بنابراین تعمیم‌سازی غیرمجاز رخ نمی‌دهد. |\n| **Measurement Compliance** | **PASS** | در تحلیل، هیچ اعداد یا مقیاس خاصی به‌صورت نادرست گزارش نشده؛ فقط نمره BSI و CreativeValueAdd بر اساس معیارهای استاندارد ارائه شده‌اند. |\n| **Framing Compliance** | **PASS** | قضاوت‌های ارزش‌محور (مثلاً «سیاست‌های تجاری می‌توانند تأثیرگذاری باشند») بر اساس داده‌ها و ادبیات موجود است. |\n\n**نتیجه نهایی:** **FAIL** – به‌خاطر نقص در بخش Causal Compliance. پیشنهاد می‌شود که ادعاهای علیتی را با شواهد تجربی یا مدل‌های مشخص‌تر پشتیبانی کنید.\n\n---\n\n### ۷. نتیجه‌گیری نهایی + نقاط قوت/ضعف + پیشنهاد بهبود\n\n- **نقاط قوت:**\n  1. تمرکز بر ارتباط واقعی بین کسب‌وکار و سیاست، که در حوزه سیاست‌گذاری اهمیت دارد.\n  2. استفاده از روش‌های رفتاری و تحلیل نهادی، که ترکیبی نوآورانه در ادبیات سیاسی محسوب می‌شود.\n  3. ادبیات گسترده و مرجع‌پذیر (Dahl, Schattschneider) برای بنیان‌گذاری نظریه.\n\n- **نقاط ضعف:**\n  1. عدم ارائه داده‌های تجربی و جزئیات روش‌شناختی، که بر اعتبار ادعاها تأثیر می‌گذارد.\n  2. شکاف‌های شواهدی (EIG) در بخش‌های کلیدی، خصوصاً در روش‌های رفتاری و فرضیات اولیه.\n  3. نقص در رعایت Causal Compliance در تحلیل، که ممکن است به ادعاهای نادرستی منجر شود.\n  4. محدودیت در پوشش‌های متدولوژیک و اخلاقی، که ممکن است باعث بروز شبهات شود.\n\n- **پیشنهاد بهبود:**\n  1. **جمع‌آوری و ارائه داده‌های تجربی واضح:** نمونه‌گیری، معیارهای اندازه‌گیری، و نتایج آماری.  \n  2. **توضیح روش‌های رفتاری دقیقاً:** ابزارهای اندازه‌گیری، نمونه‌گیری، و تحلیل‌های آماری.  \n  3. **استفاده از مدل‌های ترکیبی (مثلاً شبکه‌ای، سیستم‌های پویا):** برای شناسایی روابط علی‌ترب و کاهش Causal Compliance.  \n  4. **افزایش شفافیت اخلاقی:** بیان فرآیندهای رضایت، محرمانگی، و تأیید نهادهای اخلاقی.  \n  5. **انجام تحلیل EIG بر روی داده‌های کامل و به‌روزرسانی:** برای کاهش شکاف‌های شواهدی و بهبود کیفیت کلی.\n\n---\n\n«تحلیل حاضر کاملاً مطابق SOP_Intellectual_Content_Analysis_v3.4.2 و Ontology BIO v1.0 انجام شد.»",
+            "source_model": "openai/gpt-oss-20b",
+            "generated_at": "2026-09-06T00:17:31Z",
+            "usage": {
+              "queue_time": 0.291344968,
+              "prompt_tokens": 1438,
+              "prompt_time": 0.076292536,
+              "completion_tokens": 2952,
+              "completion_time": 3.084119183,
+              "total_tokens": 4390,
+              "total_time": 3.160411719,
+              "completion_tokens_details": {
+                "reasoning_tokens": 7
+              }
+            },
+            "finish_reason": "stop",
+            "continuation_rounds": 0
+          },
+          "metadata": {
+            "execution_time_seconds": 3.727,
+            "usage": {
+              "queue_time": 0.291344968,
+              "prompt_tokens": 1438,
+              "prompt_time": 0.076292536,
+              "completion_tokens": 2952,
+              "completion_time": 3.084119183,
+              "total_tokens": 4390,
+              "total_time": 3.160411719,
+              "completion_tokens_details": {
+                "reasoning_tokens": 7
+              }
+            }
+          },
+          "judge_result": {
+            "criteria_source": "llm",
+            "winner": "bsi",
+            "winner_source": "llm",
+            "reasoning": "RAW provides a clean, accurate, and accessible summary of the article's three claims and contribution but is descriptively thin — it does not audit methodology, test causal claims, or identify evidence gaps. BSI goes further by systematically flagging the absence of empirical detail, auditing causal compliance, and identifying latent assumptions. These are genuine analytical additions not present in RAW, even though BSI's presentation is verbose, partially speculative, and wrapped in framework jargon that limits clarity. On balance, BSI's added methodological scrutiny outweighs its presentational weaknesses, giving it a modest but real edge on a review article that lacks substantive empirical content to critique.",
+            "criteria": [
+              {
+                "name": "Identification of Core Claims",
+                "importance": 20.0,
+                "raw_score": 8.0,
+                "bsi_score": 7.0,
+                "reason": "RAW clearly extracts three main claims with page-level grounding. BSI restates the core claim but wraps it in framework jargon without sharper extraction than RAW provides."
+              },
+              {
+                "name": "Methodological and Evidence Appraisal",
+                "importance": 25.0,
+                "raw_score": 6.0,
+                "bsi_score": 7.0,
+                "reason": "RAW notes the rigor-relevance claim but does not interrogate the absence of empirical detail. BSI explicitly flags the lack of statistical/methodological specifics, sample selection, and ethical disclosure — a substantive advantage here."
+              },
+              {
+                "name": "Multi-Layer Structural Analysis (Manifest/Latent/Meta)",
+                "importance": 20.0,
+                "raw_score": 3.0,
+                "bsi_score": 6.0,
+                "reason": "RAW offers no layered analysis. BSI identifies latent assumptions (selective sampling, structural assumptions about behavioral modeling) and meta-level feedback loops (theory↔data↔policy), adding analytical depth."
+              },
+              {
+                "name": "Causal and Logical Consistency Check",
+                "importance": 15.0,
+                "raw_score": 4.0,
+                "bsi_score": 7.0,
+                "reason": "RAW does not audit causal claims. BSI's REIG explicitly tests Causal Compliance and flags the unsubstantiated causal claim that behavioral methods produce rigor without sacrificing relevance — a meaningful contribution."
+              },
+              {
+                "name": "Evidence Gap Analysis (EIG)",
+                "importance": 10.0,
+                "raw_score": 3.0,
+                "bsi_score": 7.0,
+                "reason": "RAW does not address gaps. BSI systematically identifies data, methodological, theoretical, and ethical gaps, providing actionable diagnostic value."
+              },
+              {
+                "name": "Clarity and Readability of Output",
+                "importance": 5.0,
+                "raw_score": 8.0,
+                "bsi_score": 4.0,
+                "reason": "RAW is concise and accessible. BSI is dense, bilingual, heavy with acronyms (EIG, REIG, Causal Compliance), and risks obscuring rather than illuminating for a general reader."
+              },
+              {
+                "name": "Actionable Improvement Suggestions",
+                "importance": 5.0,
+                "raw_score": 4.0,
+                "bsi_score": 6.0,
+                "reason": "RAW mentions contribution to the field but offers no concrete improvement path. BSI provides five specific recommendations (empirical data, network models, ethical transparency), though some feel generic."
+              }
+            ],
+            "total_scores": {
+              "raw": 5.2,
+              "bsi": 6.6
+            },
+            "bsi_capability_assessment": {
+              "relevance": "medium",
+              "realization": "medium",
+              "incremental_value": "low",
+              "reason": "BSI's layered decomposition, EIG gap analysis, and causal compliance audit are conceptually relevant to a short review article. However, realization is moderate because much of the analysis is speculative (e.g., inventing latent sampling bias without textual evidence), the framework score (3.5/5) is asserted rather than derived transparently, and the bilingual presentation and acronym-heavy format reduce clarity. Incremental value over RAW is low-to-moderate: BSI adds structural critique (latent assumptions, causal audit) that RAW lacks, but most added content is interpretive padding rather than grounded analysis."
+            },
+            "incremental_value": "low",
+            "scale": "0-10",
+            "weight_sum": 100.0,
+            "glossary_mode": "full",
+            "judge_input_compacted": false
+          },
+          "scores": {
+            "RAW": 0.52,
+            "BSI": 0.66
+          },
+          "failed": false,
+          "status": "valid",
+          "model_id": "openai/gpt-oss-20b",
+          "truncated": false
+        }
+      ],
+      "article_id": "doi:https://doi.org/10.2307/2009452"
+    }
+  ],
+  "source_url": "https://github.com/ibstrade11-source/behmanesh-index-prompt/blob/main/MASTER_PROMPT_BSI_v3.4.2.md",
+  "run_metadata": {
+    "tool_version": "0.1.0",
+    "git_commit": "6ae2f7dfe0a28c9921608e12a784aab71bb0f86e",
+    "git_dirty": true,
+    "run_timestamp_utc": "2026-09-06T00:17:26Z",
+    "methodology_note": "Scores/judgements come from an independent LLM judge (see comparison/judge.py) instructed not to reuse BSI's own D1-D7/EIG vocabulary and to choose its own evaluation criteria. If no judge model is available or its response cannot be parsed, the run falls back to a simple keyword-presence heuristic -- the stored record's own 'criteria_source' field ('llm' vs 'heuristic_fallback') always says honestly which one produced a given result. Neither path is a validated measurement of analytical quality until checked against independent human judgement on a representative sample.",
+    "provider_name": null,
+    "model_version": null,
+    "temperature": null,
+    "max_tokens": null,
+    "prompt_version": null,
+    "framework_name": "bsi"
+  }
+}

@@ -1,0 +1,198 @@
+{
+  "dataset_name": "engineering CAD design physics-in-the-loop validated engineering design",
+  "results": [
+    {
+      "article": {
+        "title": "Morescient GAI for Software Engineering (Extended Version)",
+        "abstract": "The ability of Generative AI (GAI) technology to automatically check, synthesize and modify software engineering artifacts promises to revolutionize all aspects of software engineering. Using GAI for software engineering tasks is consequently one of the most rapidly expanding fields of software engineering research, with over a hundred LLM-based code models having been published since 2021. However, the overwhelming majority of existing code models share a major weakness - they are exclusively trained on the syntactic facet of software, significantly lowering their trustworthiness in tasks dependent on software semantics. To address this problem, a new class of \"Morescient\" GAI is needed that is \"aware\" of (i.e., trained on) both the semantic and static facets of software. This, in turn, will require a new generation of software observation platforms capable of generating large quantities of execution observations in a structured and readily analyzable way. In this paper, we present a vision and roadmap for how such \"Morescient\" GAI models can be engineered, evolved and disseminated according to the principles of open science.",
+        "doi": "10.1145/3709354",
+        "url": "http://arxiv.org/abs/2406.04710v2",
+        "input_quality": null
+      },
+      "cells": [
+        {
+          "generator": "openrouter",
+          "mode": "raw",
+          "analysis": {
+            "text": "### Analysis of \"Morescient GAI for Software Engineering (Extended Version)\"\n\n**1. Core Problem Identification**\n*   **Premise:** Generative AI (GAI) for Software Engineering (SE) is a rapidly expanding field (100+ LLM-based code models since 2021).\n*   **Critical Flaw:** The overwhelming majority of existing models are trained exclusively on **syntactic data** (static source code/text).\n*   **Consequence:** This syntax-only training significantly lowers model **trustworthiness** for tasks requiring understanding of **software semantics** (runtime behavior, execution state, dynamic interactions).\n\n**2. Proposed Solution: \"Morescient\" GAI**\n*   **Definition:** A new class of GAI models \"aware\" of (trained on) **both semantic (dynamic/execution) and static (syntactic) facets** of software.\n*   **Etymology/Intent:** \"Morescient\" implies \"more knowing\" (Latin *scire*), contrasting with models that only \"know\" syntax.\n\n**3. Key Technical Requirement**\n*   **Missing Infrastructure:** Realizing Morescient GAI requires a **new generation of software observation platforms**.\n*   **Platform Requirements:** Must generate **large quantities of execution observations** that are **structured** and **readily analyzable** (suitable for LLM training pipelines).\n\n**4. Paper’s Contribution (The \"Vision and Roadmap\")**\n*   **Scope:** The paper does *not* present a trained model, benchmark results, or a specific platform implementation.\n*   **Deliverable:** It provides a **conceptual vision and strategic roadmap** for:\n    1.  **Engineering** Morescient models (data acquisition, architecture).\n    2.  **Evolving** them (continuous integration of dynamic feedback).\n    3.  **Disseminating** them (governance, accessibility).\n*   **Governance Framework:** Explicitly aligns the roadmap with **Open Science principles** (transparency, reproducibility, open access to data/models).\n\n**5. Factual Assessment of Claims**\n| Claim | Status in Abstract |\n| :--- | :--- |\n| \"Over 100 LLM-based code models published since 2021\" | Contextual statistic supporting field velocity; not the core contribution. |\n| \"Majority trained exclusively on syntactic facet\" | Accurate characterization of current SOTA (CodeLlama, StarCoder, CodeGen, etc., rely primarily on static corpora like The Stack/GitHub). |\n| \"Syntax-only training lowers trustworthiness on semantic tasks\" | Supported by literature on LLMs struggling with runtime errors, concurrency, and side-effect prediction. |\n| \"New observation platforms are required\" | Logical necessity; current dynamic data (traces, logs) is noisy, unstructured, and scarce at LLM scale. |\n| \"Roadmap follows Open Science principles\" | Methodological stance; positions the work as a community coordination artifact rather than a proprietary solution. |\n\n**Summary**\nThe article functions as a **position paper/manifesto**. It diagnoses a fundamental data gap in Code LLMs (the **Semantic-Syntactic Gap**), coins the term **\"Morescient GAI\"** for the target paradigm, identifies **structured execution observation infrastructure** as the critical bottleneck, and proposes an **Open Science roadmap** to bridge it. Its value lies in research agenda-setting and terminology standardization, not empirical validation.",
+            "source_model": "nvidia/nemotron-3-ultra-550b-a55b:free",
+            "generated_at": "2026-08-13T13:40:35Z"
+          },
+          "metadata": {},
+          "judge_result": {
+            "criteria_source": "llm",
+            "winner": "bsi",
+            "reasoning": "BSI provides a more comprehensive, nuanced, and rigorous evaluation of the article, including a more detailed analysis of technical requirements and potential challenges.",
+            "criteria": [
+              {
+                "name": "Core Problem Identification",
+                "importance": 20.0,
+                "raw_score": 8.0,
+                "bsi_score": 9.0,
+                "reason": "Both analyses clearly articulate the central issue, but BSI provides a more nuanced and detailed explanation."
+              },
+              {
+                "name": "Proposed Solution Viability",
+                "importance": 25.0,
+                "raw_score": 7.0,
+                "bsi_score": 8.0,
+                "reason": "Both analyses propose a viable solution, but BSI provides more detail on the technical requirements and potential challenges."
+              },
+              {
+                "name": "Technical Requirement Analysis",
+                "importance": 15.0,
+                "raw_score": 6.0,
+                "bsi_score": 8.0,
+                "reason": "BSI provides a more thorough analysis of the technical requirements, including the need for new observation platforms."
+              },
+              {
+                "name": "Contribution to the Field",
+                "importance": 20.0,
+                "raw_score": 8.0,
+                "bsi_score": 9.0,
+                "reason": "Both analyses contribute to the field, but BSI provides a more comprehensive vision and roadmap."
+              },
+              {
+                "name": "Analytical Rigor",
+                "importance": 10.0,
+                "raw_score": 6.0,
+                "bsi_score": 8.0,
+                "reason": "BSI provides a more rigorous analysis, including a more detailed evaluation of existing models."
+              },
+              {
+                "name": "Methodological Soundness",
+                "importance": 5.0,
+                "raw_score": 5.0,
+                "bsi_score": 7.0,
+                "reason": "BSI employs a more sound methodology, including the use of relevant frameworks and ontologies."
+              },
+              {
+                "name": "Practical Applicability",
+                "importance": 5.0,
+                "raw_score": 5.0,
+                "bsi_score": 6.0,
+                "reason": "Both analyses consider practical challenges, but BSI provides more detail on potential applications."
+              }
+            ],
+            "total_scores": {
+              "raw": 6.95,
+              "bsi": 8.25
+            },
+            "bsi_capability_assessment": {
+              "relevance": "high",
+              "realization": "high",
+              "incremental_value": "medium",
+              "reason": "BSI provides additional value beyond RAW, including a more detailed analysis of technical requirements and potential challenges."
+            },
+            "incremental_value": "medium",
+            "scale": "0-10",
+            "weight_sum": 100.0
+          },
+          "scores": {
+            "RAW": 0.695,
+            "BSI": 0.825
+          },
+          "failed": false
+        },
+        {
+          "generator": "openrouter",
+          "mode": "bsi",
+          "analysis": {
+            "text": "**عنوان تحلیل:** ارزیابی شناختی-مفهومی مقاله «Morescient GAI for Software Engineering (Extended Version)»  \n**نوع محتوا:** مقاله چشم‌انداز/مسیر نمود (Vision/Roadmap Paper)  \n**زمینه:** مهندسی نرم‌افزار، هوش مصنوعی مولد (GAI)، مدل‌های زبان بزرگ کد (Code LLMs)  \n**نسخه چارچوب ارزیابی:** BSI v3.4.2 / Ontology BIO v1.0 / SOP v3.4.2  \n**تاریخ تحلیل:** ۲۶ ژوئن ۲۰۲۶  \n**تحلیل‌گر:** ارزیاب ارشد شاخص بهمنش (Master Evaluator BSI)\n\n---\n\n### ۱. خلاصه اجرایی (Executive Summary) + Core Claim + امتیاز کلی BSI\n\n**خلاصه اجرایی:**  \nمقاله حاضر یک **مقاله چشم‌انداز و مسیر‌نمود (Vision/Roadmap)** است که یک نقص بنیادین در پارادایم فعلی «هوش مصنوعی مولد برای مهندسی نرم‌افزار (GAI4SE)» را شناسایی می‌کند: تمرکز ausschließی (Exclusive) بر روی **وجه نحوی (Syntactic Facet)** کد (توکن‌ها، ASTها، متن خام) و غفلت از **وجه معنایی/اجرایی (Semantic/Execution Facet)**. مقاله استدلال می‌کند که مدل‌های حاضر «بی‌معنای» (Meaning-blind) هستند و برای کارهای نیازمند درک رفتارuntime (مانند اشکال‌زدایی، تأیید رسمی، بهینه‌سازی اجرا) غیرقابل اعتمادند. راهکار پیشنهادی، مهندسی یک کلاس جدید از مدل‌ها تحت عنوان **«مورِشِنت (Morescient)»** — ترکیبی از *More* (بیشتر) و *Scient* (دانش/آگاه) — است که بر روی داده‌های **مشاهدات اجرا (Execution Observations/Traces)** به علاوه کد استاتیک آموزش دیده باشند. برای تحقق این هدف، مقاله ضرورت ساخت **پلتفرم‌های مشاهدات نرم‌افزار نسل جدید (Next-gen Software Observation Platforms)** را تأکید می‌کند که بتوانند حجم انبوهی از داده‌های اجرا را به صورت ساخت‌یافته، قابل‌تجزیه و مقیاس‌پذیر تولید کنند. تمام این مسیر تحت چتر **علم باز (Open Science)** تعریف شده تا демокраتیزه‌سازی و پیشرفت جمعی تضمین شود.\n\n**Core Claim (ادعای هسته‌ای):**  \n> «عدم‌آگاهی مدل‌های کد بزرگ (Code LLMs) از معناشناسی اجرا (Execution Semantics) مانع اصلی اعتمادپذیری (Trustworthiness) آن‌ها در وظایف مهندسی نرم‌افزار با اهمیت بالا است؛ و برون‌رفت از این بن‌بست نیازمند تغییر پارادایم از «تمرکز بر مدل» به «تمرکز بر زیرساخت داده اجرا» و تعریف مدل‌های «مورِشِنت» است.»\n\n**امتیاز کلی BSI (Overall BSI Score): ۸۲ / ۱۰۰**  \n*استدلال امتیازدهی: مقاله در «اعتباری شناختی»، «نوآوری مفهومی» و «کاربردگرایی» بسیار قوی است (بیش از ۹۰)، اما به razão ماهیت چشم‌انداز، در «سختی روش‌شناختی» و «استناد تجربی» امتیاز پایین‌تری (حدود ۶۰-۶۵) دریافت می‌کند. «آگاهی اخلاقی» به دلیل تأکید بر علم باز متمایز است (۸۵). میانگین وزنی با توجه به أولویت‌های BSI برای محتوای visiónی، ",
+            "source_model": "nvidia/nemotron-3-ultra-550b-a55b:free",
+            "generated_at": "2026-08-13T13:42:10Z"
+          },
+          "metadata": {},
+          "judge_result": {
+            "criteria_source": "llm",
+            "winner": "bsi",
+            "reasoning": "BSI provides a more comprehensive, nuanced, and rigorous evaluation of the article, including a more detailed analysis of technical requirements and potential challenges.",
+            "criteria": [
+              {
+                "name": "Core Problem Identification",
+                "importance": 20.0,
+                "raw_score": 8.0,
+                "bsi_score": 9.0,
+                "reason": "Both analyses clearly articulate the central issue, but BSI provides a more nuanced and detailed explanation."
+              },
+              {
+                "name": "Proposed Solution Viability",
+                "importance": 25.0,
+                "raw_score": 7.0,
+                "bsi_score": 8.0,
+                "reason": "Both analyses propose a viable solution, but BSI provides more detail on the technical requirements and potential challenges."
+              },
+              {
+                "name": "Technical Requirement Analysis",
+                "importance": 15.0,
+                "raw_score": 6.0,
+                "bsi_score": 8.0,
+                "reason": "BSI provides a more thorough analysis of the technical requirements, including the need for new observation platforms."
+              },
+              {
+                "name": "Contribution to the Field",
+                "importance": 20.0,
+                "raw_score": 8.0,
+                "bsi_score": 9.0,
+                "reason": "Both analyses contribute to the field, but BSI provides a more comprehensive vision and roadmap."
+              },
+              {
+                "name": "Analytical Rigor",
+                "importance": 10.0,
+                "raw_score": 6.0,
+                "bsi_score": 8.0,
+                "reason": "BSI provides a more rigorous analysis, including a more detailed evaluation of existing models."
+              },
+              {
+                "name": "Methodological Soundness",
+                "importance": 5.0,
+                "raw_score": 5.0,
+                "bsi_score": 7.0,
+                "reason": "BSI employs a more sound methodology, including the use of relevant frameworks and ontologies."
+              },
+              {
+                "name": "Practical Applicability",
+                "importance": 5.0,
+                "raw_score": 5.0,
+                "bsi_score": 6.0,
+                "reason": "Both analyses consider practical challenges, but BSI provides more detail on potential applications."
+              }
+            ],
+            "total_scores": {
+              "raw": 6.95,
+              "bsi": 8.25
+            },
+            "bsi_capability_assessment": {
+              "relevance": "high",
+              "realization": "high",
+              "incremental_value": "medium",
+              "reason": "BSI provides additional value beyond RAW, including a more detailed analysis of technical requirements and potential challenges."
+            },
+            "incremental_value": "medium",
+            "scale": "0-10",
+            "weight_sum": 100.0
+          },
+          "scores": {
+            "RAW": 0.695,
+            "BSI": 0.825
+          },
+          "failed": false
+        }
+      ]
+    }
+  ],
+  "source_url": "https://github.com/ibstrade11-source/behmanesh-index-prompt/blob/main/MASTER_PROMPT_BSI_v3.4.2.md",
+  "run_metadata": {
+    "tool_version": "0.1.0",
+    "git_commit": "024b97bfb660473e5170d398bbc2ddb79f5db5a8",
+    "git_dirty": true,
+    "run_timestamp_utc": "2026-08-13T13:43:00Z",
+    "methodology_note": "Scores/judgements come from an independent LLM judge (see comparison/judge.py) instructed not to reuse BSI's own D1-D7/EIG vocabulary and to choose its own evaluation criteria. If no judge model is available or its response cannot be parsed, the run falls back to a simple keyword-presence heuristic -- the stored record's own 'criteria_source' field ('llm' vs 'heuristic_fallback') always says honestly which one produced a given result. Neither path is a validated measurement of analytical quality until checked against independent human judgement on a representative sample.",
+    "provider_name": null,
+    "model_version": null,
+    "temperature": null,
+    "max_tokens": null,
+    "prompt_version": null,
+    "framework_name": "bsi"
+  }
+}

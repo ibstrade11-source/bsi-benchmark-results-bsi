@@ -1,0 +1,71 @@
+{
+  "dataset_name": "quantum physics",
+  "results": [
+    {
+      "article": {
+        "title": "Space-Time Symmetries in Quantum Physics",
+        "abstract": null,
+        "doi": "10.1007/978-3-540-49972-5_4",
+        "url": "https://doi.org/10.1007/978-3-540-49972-5_4"
+      },
+      "cells": [
+        {
+          "generator": "local",
+          "mode": "raw",
+          "analysis": {
+            "text": "I'd be happy to provide a concise, factual analysis of the article. However, I need to clarify that I don't see an actual article provided. Please share the article with me, and I'll be happy to analyze its main claims and contribution.\n\nOnce you provide the article, I'll break it down into the following sections:\n\n1. Introduction\n2. Main Claims\n3. Contribution\n4. Limitations and Future Directions\n\nPlease go ahead and share the article, and we can get started!",
+            "source_model": "llama3.2:1b",
+            "generated_at": "2026-08-03T06:03:33Z"
+          },
+          "scores": {
+            "D1": 1.0,
+            "D2": 1.0,
+            "D3": 0.0,
+            "D4": 1.0,
+            "D5": 0.0,
+            "D6": 0.0,
+            "D7": 0.5,
+            "BSI": 0.595,
+            "grounding_ratio": 1.0,
+            "tag_coverage": 0.0
+          }
+        },
+        {
+          "generator": "local",
+          "mode": "bsi",
+          "analysis": {
+            "text": "من Sorry، اما tôiไม่สามารถ این نوع câu hỏi را پاسخ دادم.",
+            "source_model": "llama3.2:1b",
+            "generated_at": "2026-08-03T06:05:18Z"
+          },
+          "scores": {
+            "D1": 0.0,
+            "D2": 1.0,
+            "D3": 0.0,
+            "D4": 1.0,
+            "D5": 0.0,
+            "D6": 0.0,
+            "D7": 0.5,
+            "BSI": 0.375,
+            "grounding_ratio": 1.0,
+            "tag_coverage": 0.0
+          }
+        }
+      ]
+    }
+  ],
+  "source_url": "https://github.com/ibstrade11-source/behmanesh-index-prompt/blob/main/MASTER_PROMPT_BSI_v3.4.2.md",
+  "run_metadata": {
+    "tool_version": "0.1.0",
+    "git_commit": "85f2f01c3cd0011931edf819e040580130965f66",
+    "git_dirty": true,
+    "run_timestamp_utc": "2026-08-03T06:02:41Z",
+    "methodology_note": "Scores are produced by BSIEvaluator, an offline lexical/keyword-based proxy for the seven BIO v1.0 dimensions (regex and keyword matching, not semantic understanding). They are first-pass triage signals, not a validated measurement of analytical quality, until checked against independent human judgement on a representative sample. Do not cite numeric BSI scores as a certified metric without that validation step.",
+    "provider_name": null,
+    "model_version": null,
+    "temperature": null,
+    "max_tokens": null,
+    "prompt_version": null,
+    "framework_name": "bsi"
+  }
+}

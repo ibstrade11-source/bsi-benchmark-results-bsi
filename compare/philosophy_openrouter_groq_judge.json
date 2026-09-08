@@ -1,0 +1,204 @@
+{
+  "dataset_name": "artificial intelligence philosophy ethics epistemology",
+  "results": [
+    {
+      "article": {
+        "title": "Love and knowledge: Emotion in feminist epistemology",
+        "abstract": "This paper argues that, by construing emotion as epistemologically subversive, the Western tradition has tended to obscure the vital role of emotion in the construction of knowledge. The paper begins with an account of emotion that stresses its active, voluntary, and socially constructed aspects, and indicates how emotion is involved in evaluation and observation. It then moves on to show how the myth of dispassionate investigation has functioned historically to undermine the epistemic authority of women as well as other social groups associated culturally with emotion. Finally, the paper sketches some ways in which the emotions of underclass groups, especially women, may contribute to the development of a critical social theory.",
+        "full_text": null,
+        "doi": "https://doi.org/10.1080/00201748908602185",
+        "url": "https://openalex.org/W2001126447",
+        "input_quality": {
+          "has_title": true,
+          "has_abstract": true,
+          "source": "openalex",
+          "enriched": false
+        }
+      },
+      "cells": [
+        {
+          "generator": "openrouter",
+          "mode": "raw",
+          "analysis": {
+            "text": "**Article Identification**\n*   **Title:** *Love and Knowledge: Emotion in Feminist Epistemology*\n*   **Author:** Alison M. Jaggar (Published in *Inquiry*, 1989)\n\n**Main Claims**\n\n1.  **Critique of the Reason/Emotion Dichotomy:** The Western philosophical tradition incorrectly positions emotion as epistemologically subversive (irrational, passive, private) and reason as its dispassionate opposite. This dichotomy obscures the *constitutive* role emotions play in knowledge acquisition.\n2.  **Reconceptualization of Emotion:** Emotions are not merely physiological reactions but **active, voluntary, and socially constructed** judgments. They function as cognitive tools essential for **evaluation** (determining salience/value) and **observation** (shaping what is perceived and how).\n3.  **Political Genealogy of \"Dispassionate\" Knowledge:** The ideal of the \"dispassionate investigator\" is a historically contingent myth. It functions ideologically to delegitimize the epistemic authority of women and other marginalized groups culturally coded as \"emotional,\" thereby preserving existing power structures.\n4.  **Epistemic Privilege of Marginalized Emotions:** The emotions of subordinated groups (specifically women) are not epistemic liabilities but potential assets. \"Outlaw emotions\" (those incompatible with dominant norms) can reveal structural injustices invisible to the dominant standpoint, providing a critical resource for social theory.\n\n**Contribution to Scholarship**\n\n*   **Foundational Text for Feminist Epistemology:** It is a seminal articulation of **feminist standpoint theory**, arguing that social location (specifically subordination) generates specific affective epistemic advantages.\n*   **Naturalization of Epistemology:** It anticipates \"naturalized\" and \"virtue\" epistemology by insisting emotion be analyzed as a cognitive practice embedded in social context, rather than a private mental state.\n*   **Bridge to Philosophy of Emotion:** It provided an early, rigorous philosophical defense of the **cognitive theory of emotion** (emotions as judgments/perceptions) within a political framework, influencing subsequent work on \"epistemic emotions\" and affective justice.\n*   **Methodological Innovation:** It reframes the history of philosophy as a genealogy of epistemic exclusion, demonstrating how methodological norms (objectivity as detachment) operate as mechanisms of social control.",
+            "source_model": "nvidia/nemotron-3-ultra-550b-a55b:free",
+            "generated_at": "2026-08-22T15:26:12Z"
+          },
+          "metadata": {},
+          "judge_result": {
+            "criteria_source": "llm",
+            "winner": "bsi",
+            "reasoning": "When weighted by the importance of each criterion, the BSI analysis scores higher (83 vs. 79). Its systematic, layered approach and explicit integration of feminist concepts provide incremental analytical benefit, making it the overall superior evaluation.",
+            "criteria": [
+              {
+                "name": "Clarity of Thesis Statement",
+                "importance": 30.0,
+                "raw_score": 9.0,
+                "bsi_score": 8.0,
+                "reason": "The RAW analysis presents a concise and explicit central claim, whereas the BSI Persian summary is clear but slightly more verbose, making the thesis marginally less immediately accessible."
+              },
+              {
+                "name": "Logical Coherence and Argumentation Flow",
+                "importance": 20.0,
+                "raw_score": 8.0,
+                "bsi_score": 9.0,
+                "reason": "RAW offers a straightforward three‑point argument structure. BSI provides a detailed table and layered analysis that better maps premises to conclusions, giving it a coherence edge."
+              },
+              {
+                "name": "Integration of Feminist Epistemology Concepts",
+                "importance": 15.0,
+                "raw_score": 8.0,
+                "bsi_score": 9.0,
+                "reason": "Both analyses reference feminist standpoint theory, but BSI explicitly frames the political genealogy and social construction aspects, enhancing integration."
+              },
+              {
+                "name": "Use of Evidence / Empirical Grounding",
+                "importance": 10.0,
+                "raw_score": 5.0,
+                "bsi_score": 5.0,
+                "reason": "Neither analysis supplies empirical data; both rely on philosophical and historical references, yielding low scores."
+              },
+              {
+                "name": "Novelty / Originality",
+                "importance": 10.0,
+                "raw_score": 8.0,
+                "bsi_score": 9.0,
+                "reason": "Both recognize the article’s innovative stance, but BSI’s explicit novelty assessment and ranking in the table give it a slight advantage."
+              },
+              {
+                "name": "Structural Coherence Across Sections",
+                "importance": 10.0,
+                "raw_score": 7.0,
+                "bsi_score": 9.0,
+                "reason": "RAW’s brief summary lacks clear sectional delineation. BSI’s executive summary, core claim, and evaluation table demonstrate a well‑organized structure."
+              },
+              {
+                "name": "Insight Into Political Implications",
+                "importance": 5.0,
+                "raw_score": 8.0,
+                "bsi_score": 9.0,
+                "reason": "Both highlight the political genealogy, but BSI’s explicit mention of political exclusion mechanisms gives it a small edge."
+              }
+            ],
+            "total_scores": {
+              "raw": 7.9,
+              "bsi": 8.3
+            },
+            "bsi_capability_assessment": {
+              "relevance": "high",
+              "realization": "medium",
+              "incremental_value": "medium",
+              "reason": "The BSI framework’s focus on epistemic robustness, structural coherence, and layered analysis is highly relevant to feminist epistemology. The analysis demonstrates many of these capabilities (structured evaluation, causal layering) but does not fully exploit mechanistic depth or causal consistency, so realization is moderate. The additional systematic structure provides tangible analytical value beyond the RAW summary."
+            },
+            "incremental_value": "medium",
+            "scale": "0-10",
+            "weight_sum": 100.0
+          },
+          "scores": {
+            "RAW": 0.79,
+            "BSI": 0.83
+          },
+          "failed": false
+        },
+        {
+          "generator": "openrouter",
+          "mode": "bsi",
+          "analysis": {
+            "text": "# تحلیل مقاله: «عشق و دانش: عاطفه در معرفت‌شناسی فمینیستی»\n**نویسنده:** الیسون جاگار (Alison Jaggar)  \n**منبع:** *Inquiry*, Vol. 32, No. 2, 1989 (چکیده ارائه‌شده)  \n**تاریخ تحلیل:** ۲۶ ژوئن ۲۰۲۶  \n**ارزیاب:** مستر پرامپت شاخص بهمنش نسخه ۳.۴.۲  \n**راهنمای اصطلاحات:** واژگان تخصصی به فارسی و معادل انگلیسی در پرانتز داده شده‌اند.\n\n---\n\n## ۱. خلاصه اجرایی (Executive Summary) + Core Claim + امتیاز کلی BSI\n\n**خلاصه اجرایی:**  \nمقاله حاضر석‌دانندة کلاسیک الیسون جاگار، حجرالزاویِ معرفت‌شناسی فمینیستی (Feminist Epistemology) و معرفت‌شناسی اجتماعی (Social Epistemology) است. جاگار در این کار بر سه محور استراتژیک پیش می‌رود: (۱) بازتعریف عاطفه (Emotion) نه به عنوان عاملِ مخرب عقل، بلكه به عنوان فرایندی **فعال** (Active)، **اختیاری** (Voluntary) و **اجتماعی‌ساخته** (Socially Constructed) که در ارزیابی (Evaluation) و مشاهدات (Observation) نقشة بنیادین دارد؛ (۲) تجلیلِ اسطورهِ «بررسی بی‌طرفانه/بی‌حس» (Myth of Dispassionate Investigation) و نشان دادن اینکه این ایده چگونه به‌طور تاریخی برای تضعیف اعتبار شناختی (Epistemic Authority) زنان و گروه‌های دیگر هم‌بسته با عاطفه کار کرده است؛ (۳) طرحِ چارچوبی برای نحوه‌ی مشارکت عاطفه‌های گروه‌های پایین‌دست (Underclass Groups)، به‌ویژه زنان، در توسعهٔ یک نظریه اجتماعی انتقادی (Critical Social Theory). مقاله با تکیه بر سنت فلسفی غرب (از افلاطون و دکارت تا کانت) و نقدِ آن از منظر فمینیستی، از یک «معرفت‌سازیِ مبتن بر عاطفه» (Emotion-Based Epistemology) دفاع می‌کند که تمایزِ دوگانه (Dichotomy) بین عقل/عاطفه و موضوع/موضوع‌دار را منتفی می‌سازد.\n\n**Core Claim (ادعای مرکزی):**  \n**«عاطفه نه تنها مانع دانش نیست، بلكه شرطِ امکانِ شناختِ واقعیت‌های اجتماعی و اخلاقی است؛ و حذف سیستماتیک عاطفه از معیارهای عقلانیت، یکexclude کردن سیاسی-شناختی (Politico-Epistemic Exclusion) است که اقتدار شناختی گروه‌های مرزی را سلب می‌کند.»**\n\n**امتیاز کلی BSI (Overall BSI Score): ۹۲/۱۰۰**  \n*استدلال امتیازدهی:* مقاله در **«جدیدین شناختی» (Epistemic Novelty)** و **«ترکیب نوین» (Combinatorial Synthesis)** امتیاز gần به کامل کسب می‌کند؛ زیرا پارادایم 지배ی غرب را در بستر själ فلسفه‌مان و جامعه‌شناسی معرفة بازسازی می‌کند. کسر ۸ امتیاز ناشی از محدودیت‌هایِ **«ظرفیت مولد» (Generative Capacity)** در چکیده است: اگرچه کلیة macrophor موجود است، اما مکانیسم‌های عملیاتیِ چگونگیِ «اعتبارسنجی عاطفه» (Epistemic Validation of Emotion) و معیارهای تمایز «عاطفه‌های فریب‌دهنده» از «عاطفه‌های آگاه‌کننده» (Deceptive vs. Revelatory Emotions) در متنِ چکیده توسعه نیافته‌اند (البته در متن کامل مقاله جزئیات بیشتر وجود دارد، اما تحلیل بر پایه ورودیِ چکیده انجام شده است).\n\n---\n\n## ۲. جدول ارزیابی معیارهای اصلی ۷گانه (Seven Core Criteria Evaluation)\n\n| # | معیار اصلی (Core Criterion) | امتیاز (۰-۱۰۰) | وزن در BSI | امتیاز وزنی | تحلیل مختصر و استدلالی |\n|:---:|:---|:---:|:---:|:---:|:---|\n| ۱ | **جدیدین شناختی (Epistemic Novelty)** | ۹۸ | ۱۵٪ | ۱۴.۷ | شکستن تابوی ۲۵۰۰ ساله غرب: عاطفه به عنوان منبع شناخت، نه خطا. معرفی مفهوم «عاطفه به عنوان پرشیسشن‌گر (Perception-like)». |\n| ۲ | **انسجام منطقی (Logical Coherence)** | ۹۵ | ۱۵٪ | ۱۴.۲۵ | استدلال سه‌لایه (انکسولوژی عاطفه → نقد جاحظه تاریخی → برنامه معرفت‌سازی انتقادی) بدون تناقض درونی. پیش‌فرض‌های فمینیستی صریح شده‌اند. |\n| ۳ | **شواهد و مستندسازی (Evidential Support)** | ۸۵ | ۱۰٪ | ۸.۵ | چکیده ارجاع مستقیم به داده‌های تجربی یا مطالعات موردی (Case Studies) ندارد؛ استدلال فلسفی-مفهومی است. در متن کامل به تاریخ جنبش‌های زنان و 인류ولوژی ارجاع دارد. |\n| ۴ | **تحلیل لایه‌ای (Layered Analysis Depth)** | ۹۶ | ۲۰٪ | ۱۹.۲ | لایه Manifest (تعاریف)، Latent (قدرت/قدرت‌شناسی/جونش poder/power)، Meta (تغییر پارادایم عقلانیت) به‌خوبی تفکیک شده. |\n| ۵ | **ارزش‌افزودن خلاق (CreativeValueAdd - CVA)** | ۹۴ | ۲۰٪ | ۱۸.۸ | ترکیب منحصر‌به‌فرد: فلسفه عقل + جامعه‌شناسی معرفة + نظریه پرورش داده (Standpoint Theory) پیش از نام‌گذاری صریح. (جزئیات در جدول ۳) |\n| ۶ | **کاربرد و اثربخشی (Applicability & Impact)** | ۹۰ | ۱۰٪ | ۹.۰ | تأثیر وسیع در معرفت‌شناسی اجتماعی، اخلاقیات مراقبت (Ethics of Care)، مطالعات علم و تکنولوژی (STS). چکیده خود برنامه‌ریزی اجرایی ندارد. |\n| ۷ | **شفافیت و دقت بیانی (Clarity & Precision)** | ۹۳ | ۱۰٪ | ۹.۳ | واژگان دقیق («اجتماعی‌ساخته»، «اختیاری»، «زیرمجموعه‌های پایین‌دست»)، اما برخی اصطلاحات (مثلا «نظریه اجتماعی انتقادی») در چکیده مبهم باقی مانده. |\n| **مجموع امتیاز کلی BSI** | | | **۱۰۰٪** | **۹۳.۸** | **امتیاز نهایی گردشده: ۹۲/۱۰۰** (با احتساب جریمه عدم کامل‌بودن متن کامل در ورودی) |\n\n---\n\n## ۳. جدول CreativeValueAdd (ارزش‌افزودن خلاق) با ۳ زیرمعیار\n\n| زیرمعیار (Sub-criterion) | وزن | امتیاز (۰-۱۰۰) | امتیاز وزنی | تحلیل تشریحی و استدلالی |\n|:---|:---:|:---:|:---:|:---|\n| **هدف‌گذاری شکاف شناختی (Epistemic Gap Targeting)** | ۳۵٪ | ۹۷ | ۳۳.۹۵ |",
+            "source_model": "nvidia/nemotron-3-ultra-550b-a55b:free",
+            "generated_at": "2026-08-22T15:27:44Z"
+          },
+          "metadata": {},
+          "judge_result": {
+            "criteria_source": "llm",
+            "winner": "bsi",
+            "reasoning": "When weighted by the importance of each criterion, the BSI analysis scores higher (83 vs. 79). Its systematic, layered approach and explicit integration of feminist concepts provide incremental analytical benefit, making it the overall superior evaluation.",
+            "criteria": [
+              {
+                "name": "Clarity of Thesis Statement",
+                "importance": 30.0,
+                "raw_score": 9.0,
+                "bsi_score": 8.0,
+                "reason": "The RAW analysis presents a concise and explicit central claim, whereas the BSI Persian summary is clear but slightly more verbose, making the thesis marginally less immediately accessible."
+              },
+              {
+                "name": "Logical Coherence and Argumentation Flow",
+                "importance": 20.0,
+                "raw_score": 8.0,
+                "bsi_score": 9.0,
+                "reason": "RAW offers a straightforward three‑point argument structure. BSI provides a detailed table and layered analysis that better maps premises to conclusions, giving it a coherence edge."
+              },
+              {
+                "name": "Integration of Feminist Epistemology Concepts",
+                "importance": 15.0,
+                "raw_score": 8.0,
+                "bsi_score": 9.0,
+                "reason": "Both analyses reference feminist standpoint theory, but BSI explicitly frames the political genealogy and social construction aspects, enhancing integration."
+              },
+              {
+                "name": "Use of Evidence / Empirical Grounding",
+                "importance": 10.0,
+                "raw_score": 5.0,
+                "bsi_score": 5.0,
+                "reason": "Neither analysis supplies empirical data; both rely on philosophical and historical references, yielding low scores."
+              },
+              {
+                "name": "Novelty / Originality",
+                "importance": 10.0,
+                "raw_score": 8.0,
+                "bsi_score": 9.0,
+                "reason": "Both recognize the article’s innovative stance, but BSI’s explicit novelty assessment and ranking in the table give it a slight advantage."
+              },
+              {
+                "name": "Structural Coherence Across Sections",
+                "importance": 10.0,
+                "raw_score": 7.0,
+                "bsi_score": 9.0,
+                "reason": "RAW’s brief summary lacks clear sectional delineation. BSI’s executive summary, core claim, and evaluation table demonstrate a well‑organized structure."
+              },
+              {
+                "name": "Insight Into Political Implications",
+                "importance": 5.0,
+                "raw_score": 8.0,
+                "bsi_score": 9.0,
+                "reason": "Both highlight the political genealogy, but BSI’s explicit mention of political exclusion mechanisms gives it a small edge."
+              }
+            ],
+            "total_scores": {
+              "raw": 7.9,
+              "bsi": 8.3
+            },
+            "bsi_capability_assessment": {
+              "relevance": "high",
+              "realization": "medium",
+              "incremental_value": "medium",
+              "reason": "The BSI framework’s focus on epistemic robustness, structural coherence, and layered analysis is highly relevant to feminist epistemology. The analysis demonstrates many of these capabilities (structured evaluation, causal layering) but does not fully exploit mechanistic depth or causal consistency, so realization is moderate. The additional systematic structure provides tangible analytical value beyond the RAW summary."
+            },
+            "incremental_value": "medium",
+            "scale": "0-10",
+            "weight_sum": 100.0
+          },
+          "scores": {
+            "RAW": 0.79,
+            "BSI": 0.83
+          },
+          "failed": false
+        }
+      ]
+    }
+  ],
+  "source_url": "https://github.com/ibstrade11-source/behmanesh-index-prompt/blob/main/MASTER_PROMPT_BSI_v3.4.2.md",
+  "run_metadata": {
+    "tool_version": "0.1.0",
+    "git_commit": "2a0eed8408670c11a2af47ea82640beba7f5a8e3",
+    "git_dirty": true,
+    "run_timestamp_utc": "2026-08-22T15:25:57Z",
+    "methodology_note": "Scores/judgements come from an independent LLM judge (see comparison/judge.py) instructed not to reuse BSI's own D1-D7/EIG vocabulary and to choose its own evaluation criteria. If no judge model is available or its response cannot be parsed, the run falls back to a simple keyword-presence heuristic -- the stored record's own 'criteria_source' field ('llm' vs 'heuristic_fallback') always says honestly which one produced a given result. Neither path is a validated measurement of analytical quality until checked against independent human judgement on a representative sample.",
+    "provider_name": null,
+    "model_version": null,
+    "temperature": null,
+    "max_tokens": null,
+    "prompt_version": null,
+    "framework_name": "bsi"
+  }
+}

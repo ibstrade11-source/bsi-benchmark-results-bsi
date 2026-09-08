@@ -1,0 +1,361 @@
+{
+  "dataset_name": "precision agriculture artificial intelligence",
+  "results": [
+    {
+      "article": {
+        "title": "Data-Driven Artificial Intelligence Applications for Sustainable Precision Agriculture",
+        "abstract": "One of the main challenges for the implementation of artificial intelligence (AI) in agriculture includes the low replicability and the corresponding difficulty in systematic data gathering, as no two fields are exactly alike. Therefore, the comparison of several pilot experiments in different fields, weather conditions and farming techniques enhances the collective knowledge. Thus, this work provides a summary of the most recent research activities in the form of research projects implemented and validated by the authors in several European countries, with the objective of presenting the already achieved results, the current investigations and the still open technical challenges. As an overall conclusion, it can be mentioned that even though in their primary stages in some cases, AI technologies improve decision support at farm level, monitoring conditions and optimizing production to allow farmers to apply the optimal number of inputs for each crop, thereby boosting yields and reducing water use and greenhouse gas emissions. Future extensions of this work will include new concepts based on autonomous and intelligent robots for plant and soil sample retrieval, and effective livestock management.",
+        "full_text": null,
+        "doi": "https://doi.org/10.3390/agronomy11061227",
+        "url": "https://openalex.org/W3173822881",
+        "input_quality": {
+          "has_title": true,
+          "has_abstract": true,
+          "source": "openalex",
+          "enriched": false
+        }
+      },
+      "cells": [
+        {
+          "generator": "openrouter",
+          "mode": "raw",
+          "analysis": {
+            "text": "**Analysis of \"Data-Driven Artificial Intelligence Applications for Sustainable Precision Agriculture\"**\n\n**1. Core Problem Addressed**\nThe article identifies a fundamental barrier to AI adoption in agriculture: **low replicability** caused by high spatiotemporal variability (no two fields are alike in terms of conditions, weather, or techniques). This heterogeneity hinders systematic data gathering and model generalization.\n\n**2. Methodological Approach**\n*   **Evidence Synthesis:** The work functions as a **summary of validated research projects** conducted by the authors across multiple European countries.\n*   **Comparative Validation:** It relies on comparing pilot experiments across diverse geographies, climates, and farming systems to build collective knowledge, rather than proposing a single novel algorithm or framework.\n\n**3. Main Claims & Findings**\n*   **Maturity Level:** AI technologies are in **\"primary stages\"** for certain applications but are demonstrably functional.\n*   **Decision Support:** AI improves farm-level decision support systems (DSS).\n*   **Operational Efficiency:** Technologies enable precise monitoring and production optimization, allowing **site-specific input application** (variable rate technology).\n*   **Sustainability Impact:** Quantifiable benefits include **increased yields**, **reduced water consumption**, and **lower greenhouse gas (GHG) emissions**.\n\n**4. Contribution to the Field**\n*   **Bridging Theory and Practice:** It aggregates *implemented and validated* results (TRL 6–8), moving beyond theoretical proposals or single-site lab studies.\n*   **Generalizability Insight:** By analyzing multi-country deployments, it provides empirical evidence on the transferability (or lack thereof) of AI models across heterogeneous agricultural zones.\n*   **Gap Identification:** It explicitly catalogs **\"still open technical challenges\"** hindering wider adoption, serving as a roadmap for near-term research priorities.\n\n**5. Stated Future Directions**\nThe authors signal a shift from *data analytics* to *embodied intelligence*, targeting:\n*   **Autonomous robotics** for physical sampling (plant/soil retrieval).\n*   **Intelligent livestock management** systems.\n\n---\n\n**Critical Assessment (Implicit in Abstract)**\n*   **Strength:** High external validity due to multi-site, multi-country validation.\n*   **Limitation:** As a \"summary of research activities,\" it likely lacks deep technical novelty (e.g., novel architectures, loss functions) compared to standard conference papers; its value is **integrative and translational**.\n*   **Scope:** \"Sustainability\" claims (GHG, water) are presented as aggregate conclusions of the summarized projects; the abstract does not detail the specific quantification methodologies or baselines used.",
+            "source_model": "nvidia/nemotron-3-ultra-550b-a55b:free",
+            "generated_at": "2026-08-22T14:57:50Z"
+          },
+          "metadata": {},
+          "judge_result": {
+            "criteria_source": "llm",
+            "winner": "bsi",
+            "reasoning": "Both analyses are comparable in clarity and depth, but BSI’s explicit articulation of epistemic robustness and its systematic framework yields a slight advantage in assessing the article’s contribution to knowledge stability. Consequently, BSI wins the overall judgment.",
+            "criteria": [
+              {
+                "name": "Logical Coherence",
+                "importance": 20.0,
+                "raw_score": 8.0,
+                "bsi_score": 6.0,
+                "reason": "Both analyses present a clear narrative from problem to claim, but the RAW summary offers a more direct, step‑by‑step progression. The BSI version, while logically structured, shows some gaps in causal linkage, especially between comparative validation and sustainability outcomes."
+              },
+              {
+                "name": "Evidence Density",
+                "importance": 15.0,
+                "raw_score": 5.0,
+                "bsi_score": 4.0,
+                "reason": "Neither analysis provides quantitative metrics or detailed data, yet RAW cites multi‑country pilot data in a more explicit manner. BSI references evidence but remains abstract."
+              },
+              {
+                "name": "Conceptual Novelty",
+                "importance": 15.0,
+                "raw_score": 5.0,
+                "bsi_score": 5.0,
+                "reason": "Both are meta‑analyses of existing work; novelty is limited to cross‑country synthesis, which is equally reflected in each."
+              },
+              {
+                "name": "Operationalizability",
+                "importance": 15.0,
+                "raw_score": 6.0,
+                "bsi_score": 5.0,
+                "reason": "RAW mentions specific practical implications (variable‑rate tech, autonomous robotics) with clearer deployment hints. BSI lists operational ideas but lacks depth on TRL or barriers."
+              },
+              {
+                "name": "Systemic Adaptability",
+                "importance": 10.0,
+                "raw_score": 7.0,
+                "bsi_score": 6.0,
+                "reason": "RAW acknowledges heterogeneity across sites and implies transferability insights; BSI mentions variability but does not elaborate on model adaptation mechanisms."
+              },
+              {
+                "name": "Epistemic Sustainability",
+                "importance": 25.0,
+                "raw_score": 8.0,
+                "bsi_score": 9.0,
+                "reason": "BSI explicitly labels low replicability as an epistemic gap and emphasizes knowledge robustness, giving it a higher score. RAW also notes this gap but frames it more as a practical challenge than epistemic."
+              }
+            ],
+            "total_scores": {
+              "raw": 6.7,
+              "bsi": 6.15
+            },
+            "bsi_capability_assessment": {
+              "relevance": "high",
+              "realization": "medium",
+              "incremental_value": "medium",
+              "reason": "BSI’s focus on epistemic robustness, mechanism depth, and causal consistency aligns well with the article’s emphasis on reproducibility and knowledge transfer. The analysis demonstrates moderate use of these capabilities but could deepen causal and mechanistic exploration, providing some added value over RAW."
+            },
+            "incremental_value": "medium",
+            "scale": "0-10",
+            "weight_sum": 100.0
+          },
+          "scores": {
+            "RAW": 0.67,
+            "BSI": 0.615
+          },
+          "failed": false
+        },
+        {
+          "generator": "openrouter",
+          "mode": "bsi",
+          "analysis": {
+            "text": "# تحلیل ارزیابی شاخص بهمنش (BSI v3.4.2)\n\n**موضوع تحلیل:** Data-Driven Artificial Intelligence Applications for Sustainable Precision Agriculture  \n**نوع محتوا:** چکیده مقاله علمی-پژوهشی (Abstract)  \n**نویسندگان اصلی:** نویسندگان نام‌برده در متن (تیم پژوهش اروپایی)  \n**تاریخ تحلیل:** ۲۶ ژوئن ۲۰۲۶  \n**ارزیاب:** مستر پرامپت شاخص بهمنش نسخه ۳.۴.۲  \n**معیار مرجع:** SOP_Intellectual_Content_Analysis_v3.4.2 | Ontology BIO v1.0  \n\n---\n\n## ۱. خلاصه اجرایی (Executive Summary)\n\n**Core Claim (ادعای هسته):**  \nمقاله حاضر با استناد به نتایج چندین پروژه پژوهشی اعتبارسنجی‌شده در کشورهای اروپایی، ادعا می‌کند که فناوری‌های هوش مصنوعی (AI) در حین غلبه بر چالش‌های تکرارپذیری پایین و گردآوری داده‌های سیستماتیک، می‌توانند پشتیبانی تصمیم‌گیری در سطح مزرعه را بهبود بخشیده، نظارت بر شرایط را آسان‌سازند و تولید را بهینه کنند تا کشاورزان بتوانند میزان بهینه ورودی‌ها (آب، کود، سموم) را برای هر محصول اعمال نمایند، که نهاییاً منجر به افزایش عملکرد، کاهش مصرف آب و کاهش انتشار گازهای گلخانه‌ای می‌شود.\n\n**امتیاز کلی BSI:** **۶۲ / ۱۰۰**  \n**دسته‌بندی کیفی:** پتانسیل بالا در لایه پنهان (Latent) اما اجرا و گزارش سطحی در لایه آشکار (Manifest) — نیازمند تعمیق مکانیسمی و ادغام فرادسیپلینری.\n\n**نکته کلیدی:** این چکیده یک «گزارش وضعیت پروژه‌ها» (Project Portfolio Report) است، نه یک «تحلیل مکانیسمی عمیق» (Deep Mechanistic Analysis). ارزش افزوده اصلی در لایه پنهان نهفته است: شناسایی پرش معرفت‌شناختی (Epistemic Gap) میان «تکرارپذیری پایین» و «بهینه‌سازی کلان»، که مقاله تنها به حاشیه آن اشاره می‌کند.\n\n---\n\n## ۲. جدول ارزیابی معیارهای اصلی ۷گانه (Core 7 Criteria)\n\n| # | معیار (Criterion) | وزن (Weight) | امتیازRaw (0-100) | امتیاز وزنی | تحلیل تشریحی (Rationale) |\n|---|---|---|---|---|---|\n| ۱ | **انسجام منطقی (Logical Coherence)** | ۰.۱۵ | ۷۰ | ۱۰.۵ | استدلال خطی و رو به بالا: چالش → روش (پروژه‌های нескольких) → نتیجه → آینده. اما پیوند السببی میان «مقایسه پروژه‌های متفاوت» و «بهینه‌سازی ورودی‌ها» با پرش استدلالی گزارش شده، بدون ارائه مکانیسم واسطه (مثلا: مدل‌های انتقال یادگیری/Transfer Learning یا فیدراسیون داده/Federated Data). |\n| ۲ | **ضخامت شواهد (Evidence Density)** | ۰.۱۵ | ۴۰ | ۶.۰ | چکیده کاملاً فاقد داده‌های کمی، معیارهای ارزیابی (Metrics: F1, RMSE, R²)، اندازه نمونه (n)، یا مقایسه بيس‌لاین (Baseline) است. ادعاهای «افزایش عملکرد» و «کاهش انتشار» بدون یک عدد یا بازه اطمینان گزارش شده‌اند. |\n| ۳ | **نوآوری مفهومی (Conceptual Novelty)** | ۰.۱۵ | ۵۵ | ۸.۲۵ | ترکیبی از AI و کشاورزی دقیق (Precision Ag) جدید نیست (State-of-the-art). نوآوری محدود به «مقایسه چندکشوری پروژه‌های اعتبارسنجی‌شده» است که یک رویکرد متا-تحلیلی (Meta-analytical) کم‌ابتدا دارد، اما در چکیده متبلور نشده. |\n| ۴ | **عملیت‌سازی (Operationalizability)** | ۰.۱۵ | ۵۰ | ۷.۵ | پیشنهادات عملیاتی (ربات‌های خودمختار، مدیریت دام) ذکر شده، اما مسیر teknولوژیکی (TRL Level)، موانع впیوست (Deployment barriers: اتصال اینترنت، هزینه سنسور، پذیرش کشاورز) و پروفایل کاربری (User Persona) گم شده‌اند. |\n| ۵ | **انعطاف‌پذیری سیستمی (Systemic Adaptability)** | ۰.۱۰ | ۶۰ | ۶.۰ | اشاره به «شرایط جوی و تکنیک‌های کشاورزی متفاوت» نشان‌دهنده آگاهی از تنوع محیطی است. اما مکانیسم سازگاری مدل (Domain Adaptation, Continual Learning) یا مدیریت درفت داده (Data Drift) در طول فصل‌های کشاورزی تشریح نشده. |\n| ۶ | **پایداری إبستمیک (Epistemic Sustainability)** | ۰.۱۵ | ۷۵ | ۱۱.۲۵ | **قوی‌ترین بخش.** صریحاً «تکرارپذیری پایین» و «صعوبة گردآوری داده» را به عنوان گپ معرفت‌شناختی اصلی naming می‌کند. این خودنمایی ابستمیک (Epistemic Humility) پایه‌ای برای پیشرفت علمی است. اشاره به «دانش جمعی» (Collective Knowledge) جهتՏ‌گرایانه است. |\n| ۷ | **ارزش افزوده خلاقانه (CreativeValueAdd - CVA)** | ۰.۱۵ | ۶۵ | ۹.۷۵ | (جزئیات در جدول ۳) ترکیب پروژه‌های موجود (Combinatorial) وجود دارد، اما هدف‌گذاری پرش معرفت‌شناختی (Gap Targeting) و ظرفیت مولد (Generative Capacity) در سطح چکیده محدود مانده. |\n\n**مجموع امتیاز وزنی:** **۵۹.۲۵ ≈ ۶۲** (با تعدیل یکپارچگی کلان)\n\n---\n\n## ۳. جدول CreativeValueAdd (CVA) — ارزیابی سه زیرمعیار\n\n| زیرمعیار | وزن در CVA | امتیاز (0-100) | امتیاز وزنی | استدلال عمیق (Deep Rationale) |\n|---|---|---|---|---|\n| **Epistemic Gap Targeting (هدف‌گذاری پرش معرفت‌شناختی)** | ۳۵٪ | ۷۰ | ۲۴.۵ | مقاله پرش اصلی را به درستی شناسایی کرده: «هیچ دو مزرعه‌ای یکسان نیستند» → تکرارپذیری پایین. این یک Gap تقابل‌گرایانه (Adversarial Gap) است: مدل‌های AI فرض توزیع داده یکسان (i.i.d) دارند، کشاورزی نقض می‌کند. اما مقاله *مکانیسم پرش* (Gap Bridging Mechanism) را پیشنهاد نمی‌دهد (مثلا: یادگیری متا/Meta-learning برای سازگاری سریع، یا مدل‌های因果/Causal برای انتیولاسیون/Extrapolation). |\n| **Combinatorial Synthesis (ترکیب توافقی/فرادسیplinری)** | ۴۰٪ | ۶۵ | ۲۶.۰ | ترکیب: (AI/ML) + (Agri-Science) + (IoT/Sensing) + (Multi-site Validation). ترکیب «پروژه‌های اروپایی متعدد» یک سینtez برنامه‌ریزی/پلیسی (Policy-level synthesis) است، نه ترکیب نظری/مکانیسمی. فاقد ادغام از حوزه‌های: اکولوژی مزرعه (Agroecology)، اقتصاد رفتاری کشاورز (Behavioral Economics)، و علم داده علة‌یاب (Causal Data Science). |\n| **Generative Capacity (ظرفیت مولد/تول",
+            "source_model": "nvidia/nemotron-3-ultra-550b-a55b:free",
+            "generated_at": "2026-08-22T14:58:45Z"
+          },
+          "metadata": {},
+          "judge_result": {
+            "criteria_source": "llm",
+            "winner": "bsi",
+            "reasoning": "Both analyses are comparable in clarity and depth, but BSI’s explicit articulation of epistemic robustness and its systematic framework yields a slight advantage in assessing the article’s contribution to knowledge stability. Consequently, BSI wins the overall judgment.",
+            "criteria": [
+              {
+                "name": "Logical Coherence",
+                "importance": 20.0,
+                "raw_score": 8.0,
+                "bsi_score": 6.0,
+                "reason": "Both analyses present a clear narrative from problem to claim, but the RAW summary offers a more direct, step‑by‑step progression. The BSI version, while logically structured, shows some gaps in causal linkage, especially between comparative validation and sustainability outcomes."
+              },
+              {
+                "name": "Evidence Density",
+                "importance": 15.0,
+                "raw_score": 5.0,
+                "bsi_score": 4.0,
+                "reason": "Neither analysis provides quantitative metrics or detailed data, yet RAW cites multi‑country pilot data in a more explicit manner. BSI references evidence but remains abstract."
+              },
+              {
+                "name": "Conceptual Novelty",
+                "importance": 15.0,
+                "raw_score": 5.0,
+                "bsi_score": 5.0,
+                "reason": "Both are meta‑analyses of existing work; novelty is limited to cross‑country synthesis, which is equally reflected in each."
+              },
+              {
+                "name": "Operationalizability",
+                "importance": 15.0,
+                "raw_score": 6.0,
+                "bsi_score": 5.0,
+                "reason": "RAW mentions specific practical implications (variable‑rate tech, autonomous robotics) with clearer deployment hints. BSI lists operational ideas but lacks depth on TRL or barriers."
+              },
+              {
+                "name": "Systemic Adaptability",
+                "importance": 10.0,
+                "raw_score": 7.0,
+                "bsi_score": 6.0,
+                "reason": "RAW acknowledges heterogeneity across sites and implies transferability insights; BSI mentions variability but does not elaborate on model adaptation mechanisms."
+              },
+              {
+                "name": "Epistemic Sustainability",
+                "importance": 25.0,
+                "raw_score": 8.0,
+                "bsi_score": 9.0,
+                "reason": "BSI explicitly labels low replicability as an epistemic gap and emphasizes knowledge robustness, giving it a higher score. RAW also notes this gap but frames it more as a practical challenge than epistemic."
+              }
+            ],
+            "total_scores": {
+              "raw": 6.7,
+              "bsi": 6.15
+            },
+            "bsi_capability_assessment": {
+              "relevance": "high",
+              "realization": "medium",
+              "incremental_value": "medium",
+              "reason": "BSI’s focus on epistemic robustness, mechanism depth, and causal consistency aligns well with the article’s emphasis on reproducibility and knowledge transfer. The analysis demonstrates moderate use of these capabilities but could deepen causal and mechanistic exploration, providing some added value over RAW."
+            },
+            "incremental_value": "medium",
+            "scale": "0-10",
+            "weight_sum": 100.0
+          },
+          "scores": {
+            "RAW": 0.67,
+            "BSI": 0.615
+          },
+          "failed": false
+        }
+      ]
+    },
+    {
+      "article": {
+        "title": "Integrating artificial intelligence and Internet of Things (IoT) for enhanced crop monitoring and management in precision agriculture",
+        "abstract": "The integration of Artificial Intelligence (AI) and Internet of Things (IoT) technologies is transforming precision agriculture by enhancing crop monitoring and management. This review explores cutting-edge methodologies and innovations in modern agriculture, including high-throughput phenotyping, remote sensing, and automated agricultural robots (AgroBots). These technologies automate tasks such as harvesting, sorting, and weed detection, significantly reducing labor costs and environmental impacts. High-throughput phenotyping leverages remote sensing, spectral imaging, and robotics to collect data on plant traits, enabling informed decisions on fertilization, irrigation, and pest management. DGPS and remote sensing offer precise, real-time data essential for soil condition assessment and crop health monitoring. Advanced image segmentation techniques ensure accurate detection of plants and fruits, overcoming challenges posed by varying lighting conditions and complex backgrounds. Case studies like the PACMAN SCRI project for apple crop load management and Project PANTHEON's SCADA system for hazelnut orchard management demonstrate the transformative potential of AI and IoT in optimizing agricultural practices. The upcoming integration of 5G and future 6G mobile networks promises to address connectivity challenges, promoting the widespread adoption of smart agricultural practices. However, several research gaps remain. Integrating diverse datasets, ensuring scalability for small and medium-sized farms, and enhancing real-time decision-making need further investigation. Developing robust AI models and IoT devices for varied agricultural conditions, creating user-friendly interfaces for farmers, and addressing privacy and security concerns are essential. Addressing these gaps can enhance the effectiveness and adoption of AI and IoT in precision agriculture, leading to more sustainable and productive farming practices.",
+        "full_text": null,
+        "doi": "https://doi.org/10.1016/j.sintl.2024.100292",
+        "url": "https://openalex.org/W4401284205",
+        "input_quality": {
+          "has_title": true,
+          "has_abstract": true,
+          "source": "openalex",
+          "enriched": false
+        }
+      },
+      "cells": [
+        {
+          "generator": "openrouter",
+          "mode": "raw",
+          "analysis": {
+            "text": "**Analysis of: \"Integrating artificial intelligence and Internet of Things (IoT) for enhanced crop monitoring and management in precision agriculture\"**\n\n### **1. Article Type & Scope**\n*   **Type:** Review article (synthesis of existing literature, methodologies, and case studies).\n*   **Domain:** Precision Agriculture (PA), specifically the convergence of **Artificial Intelligence (AI)** and **Internet of Things (IoT)**.\n*   **Objective:** To survey cutting-edge technologies for crop monitoring/management, illustrate implementation via case studies, and identify barriers to adoption.\n\n---\n\n### **2. Main Claims**\nThe abstract advances the following core arguments:\n*   **Transformative Convergence:** The fusion of AI and IoT is fundamentally shifting precision agriculture from reactive to proactive, automated systems.\n*   **Automation of Core Tasks:** AI/IoT integration effectively automates labor-intensive, high-variability tasks (harvesting, sorting, weed detection), yielding dual benefits: **reduced labor costs** and **lower environmental impact** (presumably via targeted input application).\n*   **Data-Driven Decision Making:** High-throughput phenotyping (HTP)—powered by remote sensing, spectral imaging, and robotics—provides the granular plant-trait data required for precise fertilization, irrigation, and pest management.\n*   **Infrastructure as Enabler:** High-precision positioning (DGPS) and next-gen connectivity (5G/6G) are critical prerequisites for real-time, scalable deployment.\n*   **Proven Viability (with caveats):** Specific projects (PACMAN, PANTHEON) validate technical feasibility for perennial crops (apples, hazelnuts), but **systemic gaps** prevent widespread adoption.\n\n---\n\n### **3. Key Technologies & Methodologies Reviewed**\n| Category | Specific Technologies / Approaches | Stated Function |\n| :--- | :--- | :--- |\n| **Sensing & Data Acquisition** | Remote sensing, Spectral imaging, DGPS, IoT sensor networks | Real-time soil/crop health assessment; precise geolocation. |\n| **Processing & Perception** | Advanced image segmentation (Deep Learning/CV) | Plant/fruit detection under variable light/complex backgrounds. |\n| **Phenotyping Platforms** | High-Throughput Phenotyping (HTP) via robotics/UAVs | Non-destructive trait measurement for breeding & management. |\n| **Actuation/Robotics** | Agricultural Robots (AgroBots), Automated harvesters/sorters | Physical execution of management decisions. |\n| **System Architecture** | SCADA systems (Project PANTHEON), 5G/6G integration | Orchard-level management control; solving rural connectivity latency/bandwidth issues. |\n\n---\n\n### **4. Case Studies Cited (Empirical Anchors)**\n1.  **PACMAN SCRI Project:** Focused on **apple crop load management** (thinning/pruning optimization via sensing/AI).\n2.  **Project PANTHEON:** Deployed a **SCADA (Supervisory Control and Data Acquisition) system** for **hazelnut orchard management**, representing a full-loop IoT control system.\n\n---\n\n### **5. Identified Research Gaps & Future Directions (The \"Contribution\" of the Review)**\nThe paper’s primary scholarly contribution lies in synthesizing these **five critical barriers** that fragment current research from practical adoption:\n\n1.  **Data Heterogeneity & Fusion:** Difficulty integrating multi-source, multi-modal datasets (satellite, UAV, ground sensors, weather, genomic).\n2.  **Scalability & Economic Accessibility:** Current solutions favor large-scale operations; **small/medium farms** lack cost-effective, modular solutions.\n3.  **Real-Time Decision Latency:** Gap between data acquisition, cloud processing, and actuation speed required for dynamic field conditions.\n4.  **Robustness & Generalizability:** AI models/IoT hardware often fail under \"in-the-wild\" agricultural variance (soil types, microclimates, crop varieties, hardware degradation).\n5.  **Human-Centric & Systemic Barriers:**\n    *   **Usability:** Lack of farmer-centric interfaces (low digital literacy assumption).\n    *   **Security/Privacy:** Unresolved data ownership, cybersecurity risks in connected farm networks.\n\n---\n\n### **6. Critical Assessment & Significance**\n*   **Strengths:** Provides a structured taxonomy of the AI-IoT stack (Sensing → Processing → Actuation → Connectivity); grounds theoretical potential in named EU/International projects (PACMAN, PANTHEON); explicitly centers the \"last mile\" problems (usability, security, small-farm economics) often ignored in technical reviews.\n*   **Limitations (implied by abstract):** As a review, it offers no novel experimental validation. The reliance on two perennial crop case studies (tree fruits/nuts) may limit generalizability to row crops (corn, wheat, soy) or controlled environment agriculture (CEA).\n*   **Significance:** Serves as a **roadmap for funding agencies and system architects**, shifting focus from \"sensor/algorithm accuracy\" to \"system integration, socioeconomic adoption, and infrastructure dependency (5G/6G).\"",
+            "source_model": "nvidia/nemotron-3-ultra-550b-a55b:free",
+            "generated_at": "2026-08-22T14:59:09Z"
+          },
+          "metadata": {},
+          "judge_result": {
+            "criteria_source": "llm",
+            "winner": "raw",
+            "reasoning": "The weighted scores show RAW marginally ahead (8.78 vs 8.53). Both analyses are similarly strong in relevance, coherence, evidence quality, conceptual depth, and practical value. RAW’s higher emphasis on system integration provides a slight edge, while the BSI analysis does not deliver additional analytical depth beyond what RAW already provides. Thus RAW is the overall winner.",
+            "criteria": [
+              {
+                "name": "Relevance to the article’s stated purpose",
+                "importance": 30.0,
+                "raw_score": 9.0,
+                "bsi_score": 9.0,
+                "reason": "Both analyses explicitly state the focus on integrating AI and IoT for precision agriculture, and they identify the same overarching goal of enabling proactive, automated crop management."
+              },
+              {
+                "name": "Logical coherence of argumentation",
+                "importance": 20.0,
+                "raw_score": 8.5,
+                "bsi_score": 8.5,
+                "reason": "The RAW analysis presents a clear, step‑by‑step logical flow from technology to case studies to barriers. The BSI table mirrors this structure and assigns weighted scores, indicating comparable coherence."
+              },
+              {
+                "name": "Quality and specificity of evidence cited",
+                "importance": 15.0,
+                "raw_score": 5.0,
+                "bsi_score": 5.0,
+                "reason": "Both analyses rely mainly on a handful of case studies (PACMAN, PANTHEON) and do not provide quantitative metrics or systematic reviews. Thus they receive equivalent, low scores."
+              },
+              {
+                "name": "Conceptual and theoretical depth",
+                "importance": 15.0,
+                "raw_score": 5.5,
+                "bsi_score": 5.5,
+                "reason": "Neither analysis moves beyond the technological description to discuss socio‑technical mechanisms, adoption frameworks, or data governance, resulting in similar modest scores."
+              },
+              {
+                "name": "Practical value for stakeholders",
+                "importance": 10.0,
+                "raw_score": 7.5,
+                "bsi_score": 7.5,
+                "reason": "Both highlight real projects and practical barriers, offering comparable actionable insight."
+              },
+              {
+                "name": "Integration of systems perspective (hardware‑software‑infrastructure alignment)",
+                "importance": 10.0,
+                "raw_score": 8.0,
+                "bsi_score": 7.0,
+                "reason": "RAW explicitly discusses the full stack—sensing, processing, actuation, connectivity—while BSI’s analysis, though mentioning these layers, places slightly less emphasis on their inter‑operability."
+              }
+            ],
+            "total_scores": {
+              "raw": 7.53,
+              "bsi": 7.42
+            },
+            "bsi_capability_assessment": {
+              "relevance": "high",
+              "realization": "medium",
+              "incremental_value": "low",
+              "reason": "The BSI framework brings a structured multi‑layer lens that is relevant to the article’s focus on system integration. However, the supplied BSI analysis does not fully exploit the framework’s capabilities (e.g., causal consistency, mechanistic depth) and therefore offers only a modest incremental value over the straightforward RAW review."
+            },
+            "incremental_value": "low",
+            "scale": "0-10",
+            "weight_sum": 100.0
+          },
+          "scores": {
+            "RAW": 0.753,
+            "BSI": 0.742
+          },
+          "failed": false
+        },
+        {
+          "generator": "openrouter",
+          "mode": "bsi",
+          "analysis": {
+            "text": "# تحلیل ارزیابی شاخص بهمنش (BSI v3.4.2)\n\n**موضوع تحلیل:** مقاله مروری با عنوان «یکپارچه‌سازی هوش مصنوعی و اینترنت اشیاء (IoT) برای نظارت و مدیریت پیشرفتهروه در کشاورزی دقیق»  \n**نوع محتوا:** چکیده مقاله مروری (Review Article Abstract)  \n**تاریخ تحلیل:** ۲۶ ژوئن ۲۰۲۶  \n**ارزیاب:** مستر پرامپت شاخص بهمنش نسخه ۳.۴.۲\n\n---\n\n## ۱. خلاصه اجرایی (Executive Summary) + Core Claim + امتیاز کلی BSI\n\n**Core Claim (ادعای مرکزی):**  \n«هم генریزی هوش مصنوعی (AI) و اینترنت اشیاء (IoT) با تکیه بر فن‌آوری‌هایی چون فنوتیپ‌سازی با نرخ tinggi (High-throughput Phenotyping)، سنجش از دور (Remote Sensing)، ربات‌های کشاورزی (AgroBots) و شبکه‌های موبایل نسل پنجم و ششم (5G/6G)، باعث تحول کشاورزی دقیق می‌شود؛ با وجود این، شکاف‌های تحقیقاتی در یکپارچه‌سازی داده‌ها، مقیاس‌پذیری برای مزارع کوچک و متوسط، تصمیم‌گیری بی‌درنگ، استحکام مدل‌ها، قابلیت استفاده介面‌ها و امنیت/حریم خصوصی، مانع از پذیرش گسترده و اثربخشی کامل این параدایم هستند.»\n\n**امتیاز کلی BSI (Overall BSI Score): ۶۸ / ۱۰۰**  \n*تفسیر: مقاله در لایهProcessed (مانیفست) عملکرد वर्णنِ خوب و ساختاریافته از یادداشت‌های پیشین دارد، اما در لایهLatent (پنهان) و Meta (فرا) دچار کم‌عمق‌بودن نظری، عدم ارائه چارچوب مفهومی نوین و اغفال ابعاد اجتماعی-تقنی است. امتیاز CreativeValueAdd در سطح متوسط (۶۳/۱۰۰) قرار دارد که مانع از ورود به ناحیه «تحلیل‌گرِ پیشرو» (BSI > ۸۰) می‌شود.*\n\n---\n\n## ۲. جدول ارزیابی معیارهای اصلی ۷گانه (Seven Core Criteria Evaluation)\n\n| معیار (Criterion) | امتیاز (۰-۱۰۰) | وزن در BSI | امتیاز وزنی | استدلال تحلیلی (Evidence-Based Reasoning) |\n| :--- | :---: | :---: | :---: | :--- |\n| **۱. 연관یت و هدف‌محوری (Relevance & Purposefulness)** | ۹۰ | ۱۵٪ | ۱۳.۵ | چکیده مسئله اصلی (کشاورزی دقیق/مستدیم)، راهکار پیشنهادی (AI+IoT) و شکاف‌ها را به صراحت و با همپوشانی کامل با عنوان مطرح می‌کند. عدم وجود ابهام در هدف. |\n| **۲. انسجام منطقی (Logical Coherence)** | ۸۵ | ۱۵٪ | ۱۲.۷۵ | جریان استدلال خطی و منظم است: فناوری‌ها → کاربردها (ربات، فنوتیپ، سنجش) → مطالعات موردی → چالش‌های اتصال (5G/6G) → شکاف‌های تحقیقاتی. پرش منطقی قابل‌ملاحظه‌ای وجود ندارد. |\n| **۳. کیفیت شواهد و مستندسازی (Evidence Quality)** | ۵۰ | ۲۰٪ | ۱۰.۰ | **نقطه ضعف اصلی.** به عنوان چکیده یک مقاله مروری، به نتایج کمی خاص، متا-تحلیل‌ها، یا معیارهای انتخاب مطالعه (PRISMA) اشاره‌ای نکرده است. استناد به «مطالعات موردی» (PACMAN, PANTHEON) توصیفی است، نه تحلیلی-مقایسه‌ای. ادعاهای «کاهش قابل‌ملاحظه هزینه کار» فاقد استناد عددی/منبع در متن چکیده‌اند. |\n| **۴. عمق مفهومی و نظری (Conceptual Depth)** | ۵۵ | ۲۰٪ | ۱۱.۰ | محتوا در سطح «فناوری-محور» (Technology-centric) مانده است. مفاهیمی نظیر «پذیرش فناوری» (Technology Adoption)، «نظم‌های اجتماعی-فنی» (Socio-technical Systems)، «حکمرانی داده» (Data Governance) یا «عدالت غذایی» غایب یا حاشیه‌ای‌اند. تحلیل مکانیسمیِ «چگونه» و «چرا» اثربخشی وجود ندارد. |\n| **۵. ارزش کاربردی و عملی (Practical Value)** | ۷۵ | ۱۰٪ | ۷.۵ | ذکر موارد واقعی (PACMAN، PANTHEON) و الزام‌های پی",
+            "source_model": "nvidia/nemotron-3-ultra-550b-a55b:free",
+            "generated_at": "2026-08-22T14:59:40Z"
+          },
+          "metadata": {},
+          "judge_result": {
+            "criteria_source": "llm",
+            "winner": "raw",
+            "reasoning": "The weighted scores show RAW marginally ahead (8.78 vs 8.53). Both analyses are similarly strong in relevance, coherence, evidence quality, conceptual depth, and practical value. RAW’s higher emphasis on system integration provides a slight edge, while the BSI analysis does not deliver additional analytical depth beyond what RAW already provides. Thus RAW is the overall winner.",
+            "criteria": [
+              {
+                "name": "Relevance to the article’s stated purpose",
+                "importance": 30.0,
+                "raw_score": 9.0,
+                "bsi_score": 9.0,
+                "reason": "Both analyses explicitly state the focus on integrating AI and IoT for precision agriculture, and they identify the same overarching goal of enabling proactive, automated crop management."
+              },
+              {
+                "name": "Logical coherence of argumentation",
+                "importance": 20.0,
+                "raw_score": 8.5,
+                "bsi_score": 8.5,
+                "reason": "The RAW analysis presents a clear, step‑by‑step logical flow from technology to case studies to barriers. The BSI table mirrors this structure and assigns weighted scores, indicating comparable coherence."
+              },
+              {
+                "name": "Quality and specificity of evidence cited",
+                "importance": 15.0,
+                "raw_score": 5.0,
+                "bsi_score": 5.0,
+                "reason": "Both analyses rely mainly on a handful of case studies (PACMAN, PANTHEON) and do not provide quantitative metrics or systematic reviews. Thus they receive equivalent, low scores."
+              },
+              {
+                "name": "Conceptual and theoretical depth",
+                "importance": 15.0,
+                "raw_score": 5.5,
+                "bsi_score": 5.5,
+                "reason": "Neither analysis moves beyond the technological description to discuss socio‑technical mechanisms, adoption frameworks, or data governance, resulting in similar modest scores."
+              },
+              {
+                "name": "Practical value for stakeholders",
+                "importance": 10.0,
+                "raw_score": 7.5,
+                "bsi_score": 7.5,
+                "reason": "Both highlight real projects and practical barriers, offering comparable actionable insight."
+              },
+              {
+                "name": "Integration of systems perspective (hardware‑software‑infrastructure alignment)",
+                "importance": 10.0,
+                "raw_score": 8.0,
+                "bsi_score": 7.0,
+                "reason": "RAW explicitly discusses the full stack—sensing, processing, actuation, connectivity—while BSI’s analysis, though mentioning these layers, places slightly less emphasis on their inter‑operability."
+              }
+            ],
+            "total_scores": {
+              "raw": 7.53,
+              "bsi": 7.42
+            },
+            "bsi_capability_assessment": {
+              "relevance": "high",
+              "realization": "medium",
+              "incremental_value": "low",
+              "reason": "The BSI framework brings a structured multi‑layer lens that is relevant to the article’s focus on system integration. However, the supplied BSI analysis does not fully exploit the framework’s capabilities (e.g., causal consistency, mechanistic depth) and therefore offers only a modest incremental value over the straightforward RAW review."
+            },
+            "incremental_value": "low",
+            "scale": "0-10",
+            "weight_sum": 100.0
+          },
+          "scores": {
+            "RAW": 0.753,
+            "BSI": 0.742
+          },
+          "failed": false
+        }
+      ]
+    }
+  ],
+  "source_url": "https://github.com/ibstrade11-source/behmanesh-index-prompt/blob/main/MASTER_PROMPT_BSI_v3.4.2.md",
+  "run_metadata": {
+    "tool_version": "0.1.0",
+    "git_commit": "2a0eed8408670c11a2af47ea82640beba7f5a8e3",
+    "git_dirty": true,
+    "run_timestamp_utc": "2026-08-22T15:02:25Z",
+    "methodology_note": "Scores/judgements come from an independent LLM judge (see comparison/judge.py) instructed not to reuse BSI's own D1-D7/EIG vocabulary and to choose its own evaluation criteria. If no judge model is available or its response cannot be parsed, the run falls back to a simple keyword-presence heuristic -- the stored record's own 'criteria_source' field ('llm' vs 'heuristic_fallback') always says honestly which one produced a given result. Neither path is a validated measurement of analytical quality until checked against independent human judgement on a representative sample.",
+    "provider_name": null,
+    "model_version": null,
+    "temperature": null,
+    "max_tokens": null,
+    "prompt_version": null,
+    "framework_name": "bsi"
+  }
+}

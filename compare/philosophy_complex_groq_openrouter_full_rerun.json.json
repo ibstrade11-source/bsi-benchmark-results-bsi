@@ -1,0 +1,190 @@
+{
+  "dataset_name": "epistemic regress problem foundationalism coherentism justification",
+  "results": [
+    {
+      "article": {
+        "title": "Epistemic justification: internalism vs. externalism, foundations vs. virtues",
+        "abstract": "Introduction. Laurence BonJour and Ernest Sosa. Part I: A Version of Internalist Foundationalism: Laurence BonJour:. 1. The Regress Problem and Foundationalism. 2. Externalist Accounts of Justification. 3. In Search of Coherentism. 4. Back to Foundationalism. 5. The Conceptualization of Sensory Experience and the Problem of the External World. Part II: Beyond Internal Foundations to External Virtues: Ernest Sosa:. 6. Knowledge and Justification. 7. Does Knowledge Have Foundation. 8. Skepticism and the Internal/External Divide. 9. A Virtue Epistemology. Part III: Replies:. 10. Reply to Sosa. 11. Reply to Bonjour. Bibliography. Index.",
+        "full_text": null,
+        "doi": "https://doi.org/10.5860/choice.41-2097",
+        "url": "https://openalex.org/W149610102",
+        "input_quality": {
+          "has_title": true,
+          "has_abstract": true,
+          "source": "openalex",
+          "enriched": false
+        }
+      },
+      "cells": [
+        {
+          "generator": "groq",
+          "mode": "raw",
+          "analysis": {
+            "text": "**Title**: *Epistemic justification: internalism vs. externalism, foundations vs. virtues*  \n\n**Purpose and Scope**  \nThe article offers a comparative survey of two major lines of contemporary epistemology: (1) internalist foundationalism as articulated by Laurence BonJour and (2) externalist virtue epistemology as developed by Ernest Sosa. It is organized into three sections—expository, developmental, and dialogical—to trace each author’s key positions, show their interrelations, and respond to each other’s critiques.\n\n**Main Claims**\n\n| Section | Author | Core Claim |\n|--------|--------|------------|\n| Part I | BonJour | 1. **Internalist foundationalism** solves the infinite regress problem by positing a non‑derivative foundational belief that is self‑evidently justified. 2. The “regress problem” can be defeated only via a coherentist or foundationalist framework. 3. Sensory experience can be conceptualized in a way that secures an external world. |\n| Part II | Sosa | 1. **Virtue epistemology** replaces the notion of “foundational” beliefs with a notion of epistemic “virtues” (e.g., intellectual courage, attentiveness). 2. Knowledge is a *product* of such virtues rather than a state of justification tied to a foundational belief. 3. Skeptical challenges are addressed by showing that virtues are more resilient than foundational beliefs. |\n| Part III | Both | 1. BonJour rebuts Sosa’s reliance on virtues as foundations, arguing that virtues still presuppose some internal justification. 2. Sosa counters by showing that internal justification is itself a virtue and that BonJour’s foundationalism cannot adequately handle the epistemic value of virtues. |\n\n**Key Contributions**\n\n1. **Clarification of the Internalist–Externalist Divide**  \n   The article systematically contrasts the two positions on the nature of justification, the role of the regress problem, and the status of sensory experience, making explicit the conceptual commitments that differentiate them.\n\n2. **Integration of Foundationalism and Virtue Theory**  \n   By juxtaposing BonJour’s foundationalism and Sosa’s virtue epistemology, the article shows how each can be understood as an attempt to provide a “basis” for knowledge, albeit in different ways. It highlights that both frameworks ultimately aim to secure the *epistemic grounding* of belief.\n\n3. **Dialectical Engagement**  \n   The third part functions as a mini‑dialogue, wherein each author’s defense is directly confronted. This exchange demonstrates that the debate cannot be reduced to a simple “internalist vs. externalist” dichotomy; rather, it involves deeper questions about what constitutes *foundation* (a belief vs. a virtue).\n\n4. **Methodological Insight**  \n   The article demonstrates a useful analytic structure: (i) exposition of the theory, (ii) development of its implications for classic problems (regress, skepticism, external world), (iii) cross‑critique. This approach could be adopted by scholars examining other epistemic debates.\n\n**Assessment**  \nThe piece serves primarily as a **synthetic survey** rather than a novel theoretical proposal. Its factual accuracy is solid, drawing correctly on BonJour’s *Epistemic Foundations* and Sosa’s *Virtue Epistemology* literature. However, it stops short of offering a new hybrid model; it merely clarifies the distinctions and tensions between the two approaches. Consequently, its contribution lies in education and framing, rather than advancing the epistemological debate itself.",
+            "source_model": "openai/gpt-oss-20b",
+            "generated_at": "2026-08-26T17:51:00Z"
+          },
+          "metadata": {},
+          "judge_result": {
+            "criteria_source": "llm",
+            "winner": "raw",
+            "reasoning": "RAW provides a more accurate, philosophically grounded, and critically aware analysis. It correctly reconstructs both positions, clarifies the internalism/externalism divide, treats the regress problem and virtue/foundationalism contrast substantively, engages the dialectical structure, and honestly identifies the article's limitation as a survey. BSI's output is marred by language mixing, unjustified high scores, a false claim of a hybrid model, truncated EIG analysis, and a structural formalism that obscures rather than illuminates the philosophical content.",
+            "criteria": [
+              {
+                "name": "Accuracy of Philosophical Reconstruction",
+                "importance": 25.0,
+                "raw_score": 8.0,
+                "bsi_score": 6.0,
+                "reason": "RAW correctly attributes positions to BonJour and Sosa, notes factual accuracy drawing on primary sources. BSI claims a 'hybrid model' in Combinatorial Synthesis (score 5/5) but the article does not offer one per RAW's assessment; Persian/English mixing obscures verification."
+              },
+              {
+                "name": "Clarity of Internalism/Externalist Distinction",
+                "importance": 20.0,
+                "raw_score": 8.0,
+                "bsi_score": 5.0,
+                "reason": "RAW systematically contrasts the positions on justification, regress, and sensory experience (Key Contribution #1). BSI mentions internal/external but lacks philosophical nuance; the distinction is blurred in the Manifest/Latent layer descriptions."
+              },
+              {
+                "name": "Treatment of the Regress Problem",
+                "importance": 15.0,
+                "raw_score": 7.0,
+                "bsi_score": 6.0,
+                "reason": "RAW identifies regress as central to BonJour's foundationalism and notes both frameworks address it. BSI references regress in Manifest/Latent layers and Leverage Points but does not analyze how each author solves it differently."
+              },
+              {
+                "name": "Analysis of Virtue Epistemology vs Foundationalism",
+                "importance": 15.0,
+                "raw_score": 8.0,
+                "bsi_score": 6.0,
+                "reason": "RAW explicitly highlights the integration attempt and the 'basis for knowledge' contrast (Key Contribution #2). BSI notes 'virtue ethics' as a Leverage Point but treats it structurally rather than philosophically, missing the epistemic grounding debate."
+              },
+              {
+                "name": "Dialectical Engagement Quality",
+                "importance": 15.0,
+                "raw_score": 8.0,
+                "bsi_score": 5.0,
+                "reason": "RAW dedicates a Key Contribution to the Part III mini-dialogue, showing the debate exceeds a simple dichotomy. BSI describes feedback loops in Part 3 but does not evaluate the philosophical force of BonJour's rebuttal or Sosa's counter."
+              },
+              {
+                "name": "Identification of Limitations/Gaps",
+                "importance": 10.0,
+                "raw_score": 9.0,
+                "bsi_score": 4.0,
+                "reason": "RAW's Assessment clearly states the piece is a synthetic survey, not a novel proposal, and stops short of advancing the debate. BSI awards 83/100 and 12/15 CreativeValueAdd without acknowledging the survey-only nature; EIG analysis is truncated."
+              }
+            ],
+            "total_scores": {
+              "raw": 7.95,
+              "bsi": 5.45
+            },
+            "bsi_capability_assessment": {
+              "relevance": "medium",
+              "realization": "low",
+              "incremental_value": "low",
+              "reason": "BSI introduces layer terminology (Manifest/Latent/Meta) and structured scoring but applies them mechanically: scores appear arbitrary (e.g., 13/15 for BIO Ontology alignment without definition), the CreativeValueAdd claims a hybrid model the article does not provide, EIG analysis is incomplete, and philosophical nuance is lost in structural formalism. The framework adds vocabulary but not analytical depth for this article."
+            },
+            "incremental_value": "low",
+            "scale": "0-10",
+            "weight_sum": 100.0
+          },
+          "scores": {
+            "RAW": 0.795,
+            "BSI": 0.545
+          },
+          "failed": false
+        },
+        {
+          "generator": "groq",
+          "mode": "bsi",
+          "analysis": {
+            "text": "**عنوان تحلیل:**  \n*Epistemic justification: internalism vs. externalism, foundations vs. virtues*  \n(مقاله: BonJour و Sosa، 2024)\n\n---\n\n## ۱. خلاصه اجرایی (Executive Summary) + Core Claim + امتیاز کلی BSI  \n\n| بخش | توضیح |\n|------|-------|\n| **خلاصه اجرایی (Executive Summary)** | این مقاله دو بخش اصلی دارد: در بخش اول (Laurence BonJour) به بررسی دفاعیات داخلی (Internalist Foundationalism) و مسائل مرتبط با رِگِرس (regress problem) و هم‌گانی (coherentism) پرداخته شده و سپس به بازگشت به بنیانی (foundationalism) و تعریف تجربه حسی و مشکلات دنیای خارجی (external world) می‌پردازد. در بخش دوم (Ernest Sosa) به بررسی معرفت‌پنداری اخلاقی (virtue epistemology)، ارتباط آن با پایه‌سازی (foundations) و شکاکی (skepticism) و نقش فضیلت‌های خارجی (external virtues) در توجیه (justification) می‌پردازد. بخش سوم حاوی پاسخ‌های متقابل است. کل ساختار مقاله به‌صورت سلسله‌مراتبی، منطقی و شفاف ارائه شده و ادعاهای اصلی در هر بخش به‌دقت مشخص شده است. |\n| **Core Claim** | مقاله ادعا می‌کند که توجیه معرفتی (justification) می‌تواند از دو مسیر بنیادی و اخلاقی (foundational/virtue) به‌صورت مستقل و مکمل باشد؛ در حالی که درک داخلی (internalism) و خارجی (externalism) هر دو باید به‌عنوان عوامل مؤثر در توجیه پذیرفته شوند. |\n| **امتیاز کلی BSI** | **83/100** (مقتضی بر اساس معیارهای ۷ گانه، CreativeValueAdd و EIG) |\n\n---\n\n## ۲. جدول ارزیابی معیارهای اصلی ۷ گانه  \n\n| معیار | توضیح | امتیاز (۰-۱۵) | توضیحات |\n|-------|-------|---------------|----------|\n| **سازگاری با Ontology BIO (الگوهای شناختی)** | مقاله در کل با ساختار Ontology BIO مطابقت دارد؛ تعریف پایه‌ها، فضیلت‌ها و رِگِرس به‌سابقه‌ی تعریف‌های BIO پرداخته شده است. | ۱۳ | تنها در بخش ۱.۳ به‌وضوح اشاره به “coherentism” دارد که در Ontology BIO به‌عنوان “سازگاری (coherence)” مطرح است. |\n| **یکپارچگی ساختار (Structural Integrity)** | بخش‌های A، B، C به‌صورت واضح جداگانه و با سرخط‌های مناسب تعریف شده‌اند؛ بخش‌های پاسخ نیز به‌صورت منطقی جای‌گذاری شده‌اند. | ۱۴ | |\n| **وضوح ادعا (Clarity of Claims)** | ادعاهای اصلی در هر بخش به‌صورت واضح و بدون ابهام مطرح می‌شوند؛ با استفاده از عناوین واضح و نقل قول‌های مستقیم. | ۱۲ | |\n| **تجزیه و تحلیل استدلال (Logical Coherence)** | استدلال‌ها به‌صورت خطی، با استفاده از قیاس و استنتاج منطقی پیاده‌سازی شده‌اند؛ هیچ تناقضی در دسترس نیست. | ۱۳ | |\n| **استانداردهای ارزیابی (Assessment Standards)** | به‌صورت واضح در هر بخش معیارهای ارزیابی و سطوح پذیرش تعریف شده‌اند؛ به‌ویژه در بخش Sosa به “معرفت‌پنداری اخلاقی” (virtue epistemology). | ۱۴ | |\n| **تحلیل عمیق لایه‌ها (Deep Layer Analysis)** | لایه‌های Manifest، Latent و Meta به‌طور مفصل بررسی شده‌اند؛ به‌خصوص در بخش ۱.۴ به رِگِرس و در بخش ۲.۴ به فضیلت‌های خارجی. | ۱۳ | |\n| **Creative Value Add (CVA)** | مقاله ۳ زیرمعیار (EP, CS, GC) را به‌طور واضح نشان می‌دهد؛ اما میزان افزودن ارزش در مقایسه با منابع مشابه متوسط است. | ۱۲ | |\n\n**امتیاز کل:** 83/100  \n\n---\n\n## ۳. جدول CreativeValueAdd  \n\n| زیرمعیار | درصد (٪) | توضیحات | امتیاز (۰-۵) |\n|----------|----------|---------|--------------|\n| **Epistemic Gap Targeting (۳۵٪)** | ۳۵ | مقاله به‌صورت دقیق به خلأهای معرفتی (epistemic gaps) در رِگِرس، بنیان‌سنجی، و فضیلت‌های اخلاقی می‌پردازد. تحلیل خلأهای موجود در ادبیات پیشین و پیشنهاد راه‌حل‌های عملی برای پرکردن آن‌ها را ارائه می‌دهد. | 4 |\n| **Combinatorial Synthesis (۴۰٪)** | ۴۰ | ترکیب دو دیدگاه داخلی و خارجی در چارچوب معرفت‌پنداری اخلاقی و ارائه یک مدل ترکیبی (hybrid) به‌صورت جامع و ساختارمند. | 5 |\n| **Generative Capacity (۲۵٪)** | ۲۵ | مقاله در حد متوسط ایده‌های نوآورانه دارد؛ پیشنهادات در مورد توسعه نظریه‌های فضیلت و رِگِرس نسبتاً محدود است. | 3 |\n| **مجموع** | 100 | | **12/15** |\n\n---\n\n## ۴. لایه‌برداری عمیق (Manifest, Latent, Meta)  \n\n### ۴.۱ لایه Manifest  \n- **محتوای واضح**: بخش‌های ۱، ۲، و ۳ با عناوین واضح، زیرعناوین، و ساختار پاراگرافی مرتب شده‌اند.  \n- **مکانیزم‌های اصلی**: تعریف‌های اولیه (Foundationalism, Coherence), ارزیابی‌های تجربی و نظریه‌ای.  \n- **Feedback Loops**: در بخش ۳.۱ و ۳.۲ پاسخ‌ها، ادعاهای اولیه با نقد و بازبینی ترکیب می‌شوند؛ این حلقه بازخورد باعث تقویت اعتبار ادعاها می‌شود.  \n- **Leverage Points**: بخش ۲.۴ (Virtue Epistemology) نقطهٔ کلیدی است؛ به‌طور مستقیم بر ارتباط بین فضیلت‌های خارجی و توجیه تأثیر می‌گذارد.  \n\n### ۴.۲ لایه Latent  \n- **مکانیسم‌های پنهان**:  \n  - **تکامل مفهومی**: نحوه انتقال مفاهیم از BonJour به Sosa، با استفاده از الگوهای مشابه (patterns).  \n  - **الگوریتم‌های استدلال**: ترکیب استدلال‌های خطی (deductive) و استدلال‌های انتباهی (inductive) در بخش ۱.۳ و ۲.۳.  \n  - **تکرار و بازهم‌آوری (recurrence)**: نکات مشابه در هر دو بخش (مثلاً “Foundationalism”) برای تقویت اعتبار.  \n- **Feedback Loops**: حلقه‌های بازخورد در بخش ۳، که در آن پاسخ‌های دو طرف، ادعاهای اولیه را بازنگری می‌کنند؛ این فرآیند باعث افزایش اعتبار علمی می‌شود.  \n- **Leverage Points**:  \n  - **محدودهٔ رِگِرس**: در بخش ۱.۱ و ۱.۳؛ به‌طور مستقیم بر ساختار معرفت تأثیر می‌گذارد.  \n  - **فضیلت‌های اخلاقی**: در بخش ۲.۴، نقطهٔ کلیدی برای ادغام دو دیدگاه است.  \n\n### ۴.۳ لایه Meta  \n- **سازماندهی ساختار**: مقاله در قالب یک چارچوب “دومین رده (second order)” قرار می‌گیرد؛ به‌معنای آن است که نه تنها به مفاهیم داخلی می‌پردازد، بلکه به ساختار کلی ادبیات معرفتی نیز نگاه می‌کند.  \n- **آینده‌سنجی**: در بخش ۳، پیشنهاداتی برای تحقیقات بعدی ارائه می‌شود؛ به‌طور مثال، بررسی بیشتر رِگِرس در زمینهٔ فیزیک نظری یا اخلاقیات.  \n- **Feedback Loops**: در سطح متا، حلقه‌های بازخورد ناشی از مقایسه ادعاها با استانداردهای Ontology BIO و SOP می‌باشد.  \n- **Leverage Points**:  \n  - **نقش فیلتر (filter) Ontology BIO** در تنظیم استانداردهای ادبیات.  \n  - **برنامهٔ توسعهٔ فرضیات**: به‌روزرسانی ادعاها بر اساس یافته‌های جدید در حوزهٔ معرفت.  \n\n---\n\n## ۵. EIG (Epistemic Integrity Gap) Analysis  \n\n| بخش | نکات | تحلیل | پیشنهاد |\n|------|------|--------|----------|\n| **۱. خلاصه اجرایی** | ادعاهای کلی بدون جزئیات کافی |",
+            "source_model": "openai/gpt-oss-20b",
+            "generated_at": "2026-08-26T17:51:04Z"
+          },
+          "metadata": {},
+          "judge_result": {
+            "criteria_source": "llm",
+            "winner": "raw",
+            "reasoning": "RAW provides a more accurate, philosophically grounded, and critically aware analysis. It correctly reconstructs both positions, clarifies the internalism/externalism divide, treats the regress problem and virtue/foundationalism contrast substantively, engages the dialectical structure, and honestly identifies the article's limitation as a survey. BSI's output is marred by language mixing, unjustified high scores, a false claim of a hybrid model, truncated EIG analysis, and a structural formalism that obscures rather than illuminates the philosophical content.",
+            "criteria": [
+              {
+                "name": "Accuracy of Philosophical Reconstruction",
+                "importance": 25.0,
+                "raw_score": 8.0,
+                "bsi_score": 6.0,
+                "reason": "RAW correctly attributes positions to BonJour and Sosa, notes factual accuracy drawing on primary sources. BSI claims a 'hybrid model' in Combinatorial Synthesis (score 5/5) but the article does not offer one per RAW's assessment; Persian/English mixing obscures verification."
+              },
+              {
+                "name": "Clarity of Internalism/Externalist Distinction",
+                "importance": 20.0,
+                "raw_score": 8.0,
+                "bsi_score": 5.0,
+                "reason": "RAW systematically contrasts the positions on justification, regress, and sensory experience (Key Contribution #1). BSI mentions internal/external but lacks philosophical nuance; the distinction is blurred in the Manifest/Latent layer descriptions."
+              },
+              {
+                "name": "Treatment of the Regress Problem",
+                "importance": 15.0,
+                "raw_score": 7.0,
+                "bsi_score": 6.0,
+                "reason": "RAW identifies regress as central to BonJour's foundationalism and notes both frameworks address it. BSI references regress in Manifest/Latent layers and Leverage Points but does not analyze how each author solves it differently."
+              },
+              {
+                "name": "Analysis of Virtue Epistemology vs Foundationalism",
+                "importance": 15.0,
+                "raw_score": 8.0,
+                "bsi_score": 6.0,
+                "reason": "RAW explicitly highlights the integration attempt and the 'basis for knowledge' contrast (Key Contribution #2). BSI notes 'virtue ethics' as a Leverage Point but treats it structurally rather than philosophically, missing the epistemic grounding debate."
+              },
+              {
+                "name": "Dialectical Engagement Quality",
+                "importance": 15.0,
+                "raw_score": 8.0,
+                "bsi_score": 5.0,
+                "reason": "RAW dedicates a Key Contribution to the Part III mini-dialogue, showing the debate exceeds a simple dichotomy. BSI describes feedback loops in Part 3 but does not evaluate the philosophical force of BonJour's rebuttal or Sosa's counter."
+              },
+              {
+                "name": "Identification of Limitations/Gaps",
+                "importance": 10.0,
+                "raw_score": 9.0,
+                "bsi_score": 4.0,
+                "reason": "RAW's Assessment clearly states the piece is a synthetic survey, not a novel proposal, and stops short of advancing the debate. BSI awards 83/100 and 12/15 CreativeValueAdd without acknowledging the survey-only nature; EIG analysis is truncated."
+              }
+            ],
+            "total_scores": {
+              "raw": 7.95,
+              "bsi": 5.45
+            },
+            "bsi_capability_assessment": {
+              "relevance": "medium",
+              "realization": "low",
+              "incremental_value": "low",
+              "reason": "BSI introduces layer terminology (Manifest/Latent/Meta) and structured scoring but applies them mechanically: scores appear arbitrary (e.g., 13/15 for BIO Ontology alignment without definition), the CreativeValueAdd claims a hybrid model the article does not provide, EIG analysis is incomplete, and philosophical nuance is lost in structural formalism. The framework adds vocabulary but not analytical depth for this article."
+            },
+            "incremental_value": "low",
+            "scale": "0-10",
+            "weight_sum": 100.0
+          },
+          "scores": {
+            "RAW": 0.795,
+            "BSI": 0.545
+          },
+          "failed": false
+        }
+      ]
+    }
+  ],
+  "source_url": "https://github.com/ibstrade11-source/behmanesh-index-prompt/blob/main/MASTER_PROMPT_BSI_v3.4.2.md",
+  "run_metadata": {
+    "tool_version": "0.1.0",
+    "git_commit": "3f2472768ffb78813fdeef72757aa86785943a48",
+    "git_dirty": false,
+    "run_timestamp_utc": "2026-08-26T18:11:30Z",
+    "methodology_note": "Scores/judgements come from an independent LLM judge (see comparison/judge.py) instructed not to reuse BSI's own D1-D7/EIG vocabulary and to choose its own evaluation criteria. If no judge model is available or its response cannot be parsed, the run falls back to a simple keyword-presence heuristic -- the stored record's own 'criteria_source' field ('llm' vs 'heuristic_fallback') always says honestly which one produced a given result. Neither path is a validated measurement of analytical quality until checked against independent human judgement on a representative sample.",
+    "provider_name": null,
+    "model_version": null,
+    "temperature": null,
+    "max_tokens": null,
+    "prompt_version": "v3.4.2",
+    "framework_name": "bsi"
+  }
+}

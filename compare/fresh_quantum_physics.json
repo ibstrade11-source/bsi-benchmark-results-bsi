@@ -1,0 +1,863 @@
+{
+  "dataset_name": "quantum physics",
+  "results": [
+    {
+      "article": {
+        "title": "Physics Briefing Book",
+        "abstract": "The European Particle Physics Strategy Update (EPPSU) process takes a bottom-up approach, whereby the community is first invited to submit proposals (also called inputs) for projects that it would like to see realised in the near-term, mid-term and longer-term future. National inputs as well as inputs from National Laboratories are also an important element of the process. All these inputs are then reviewed by the Physics Preparatory Group (PPG), whose role is to organize a Symposium around the submitted ideas and to prepare a community discussion on the importance and merits of the various proposals. The results of these discussions are then concisely summarised in this Briefing Book, prepared by the Conveners, assisted by Scientific Secretaries, and with further contributions provided by the Contributors listed on the title page. This constitutes the basis for the considerations of the European Strategy Group (ESG), consisting of scientific delegates from CERN Member States, Associate Member States, directors of major European laboratories, representatives of various European organizations as well as invitees from outside the European Community. The ESG has the mission to formulate the European Strategy Update for the consideration and approval of the CERN Council.",
+        "full_text": null,
+        "doi": null,
+        "url": "http://arxiv.org/abs/1910.11775v2",
+        "input_quality": null
+      },
+      "cells": [
+        {
+          "generator": "openrouter",
+          "mode": "raw",
+          "analysis": {
+            "text": "**Analysis of \"Physics Briefing Book\" Abstract**\n\n**Document Type:** Procedural/Administrative Abstract (not a scientific research article).\n**Subject:** Governance and workflow of the European Particle Physics Strategy Update (EPPSU).\n\n**Main Claims:**\n1.  **Bottom-Up Methodology:** The EPPSU process is driven by community-submitted proposals (\"inputs\") for near-, mid-, and long-term projects, supplemented by national and laboratory inputs.\n2.  **Structured Review Pipeline:**\n    *   *Physics Preparatory Group (PPG):* Reviews inputs, organizes a Symposium, and facilitates community discussion on scientific merit.\n    *   *Briefing Book:* Synthesizes the PPG discussions into a concise reference document (prepared by Conveners, Scientific Secretaries, and Contributors).\n    *   *European Strategy Group (ESG):* A high-level body (government delegates, lab directors, international representatives) that uses the Briefing Book to formulate the final Strategy Update.\n    *   *CERN Council:* The ultimate approval authority.\n\n**Contribution:**\n*   **Non-Scientific:** This text contributes **zero** physics knowledge, experimental results, or theoretical analysis.\n*   **Policy/Process Contribution:** It serves as the **procedural preamble** for a major policy document. Its function is to establish the legitimacy, transparency, and governance structure of the 2020 European Strategy for Particle Physics (ESPP), documenting how community consensus is translated into funded roadmap priorities.\n\n**Significance:** Essential for understanding *how* European particle physics funding priorities are set, but irrelevant for literature reviews seeking physics content.",
+            "source_model": "nvidia/nemotron-3-ultra-550b-a55b:free",
+            "generated_at": "2026-08-15T09:43:04Z"
+          },
+          "metadata": {},
+          "judge_result": {
+            "criteria_source": "llm",
+            "winner": "bsi",
+            "reasoning": "The BSI analysis provides a more comprehensive and structured evaluation of the document, including a clearer explanation of the governance structure and decision-making process. While the RAW analysis provides some useful insights, the BSI framework offers a more systematic and detailed approach to analyzing the document.",
+            "criteria": [
+              {
+                "name": "Relevance to Physics Knowledge",
+                "importance": 20.0,
+                "raw_score": 0.0,
+                "bsi_score": 0.0,
+                "reason": "Neither analysis contributes to physics knowledge, but BSI provides a structured framework for evaluating the procedural aspects of the document."
+              },
+              {
+                "name": "Clarity of Governance Structure",
+                "importance": 25.0,
+                "raw_score": 8.0,
+                "bsi_score": 9.0,
+                "reason": "BSI provides a clearer and more detailed explanation of the governance structure and decision-making process."
+              },
+              {
+                "name": "Evaluation of Decision-Making Mechanism",
+                "importance": 20.0,
+                "raw_score": 6.0,
+                "bsi_score": 8.0,
+                "reason": "BSI offers a more comprehensive analysis of the decision-making mechanism, including the role of the Physics Preparatory Group and the European Strategy Group."
+              },
+              {
+                "name": "Assessment of Transparency and Accountability",
+                "importance": 15.0,
+                "raw_score": 7.0,
+                "bsi_score": 8.0,
+                "reason": "BSI provides a more detailed assessment of the transparency and accountability of the decision-making process, including the use of a briefing book and the involvement of multiple stakeholders."
+              },
+              {
+                "name": "Overall Analytical Quality",
+                "importance": 20.0,
+                "raw_score": 7.0,
+                "bsi_score": 8.0,
+                "reason": "BSI provides a more structured and comprehensive analysis of the document, including the use of a clear and consistent framework for evaluation."
+              }
+            ],
+            "total_scores": {
+              "raw": 5.65,
+              "bsi": 6.65
+            },
+            "bsi_capability_assessment": {
+              "relevance": "high",
+              "realization": "high",
+              "incremental_value": "medium",
+              "reason": "The BSI framework is relevant to the analysis of the document, and its capabilities are effectively realized in the provided analysis. However, the incremental value of BSI over RAW is medium, as some of the insights and findings could have been obtained through a less structured approach."
+            },
+            "incremental_value": "medium",
+            "scale": "0-10",
+            "weight_sum": 100.0
+          },
+          "scores": {
+            "RAW": 0.565,
+            "BSI": 0.665
+          },
+          "failed": false
+        },
+        {
+          "generator": "openrouter",
+          "mode": "bsi",
+          "analysis": {
+            "text": "# تحلیلِ شاخص بهمنش (BSI v3.4.2)  \n**موضوع:** کتابچه اطلاع‌رسانی فیزیک (Physics Briefing Book) — چکیده فرایند به‌روزرسانی استراتژی فیزیک ذره اروپایی (EPPSU)  \n**نوع محتوا:** سند رویهی/اداری-استراتژیک (Procedural/Strategic Document)  \n**تاریخ تحلیل:** ۲۶ ژوئن ۲۰۲۶  \n**نسخه SOP:** ۳.۴.۲ | **نسخه Ontology:** BIO v1.0  \n\n---\n\n## ۱. خلاصه اجرایی (Executive Summary) + Core Claim + امتیاز کلی BSI\n\n**Core Claim (ادعای مرکزی):**  \n«فرایند به‌روزرسانی استراتژی فیزیک ذره اروپایی (EPPSU) از رویکردی **پایین‌به‌بالا (Bottom-up)** پیروی می‌کند که در آن جامعه علمی دعوت به ارائه پیشنهادات می‌شود، این پیشنهادات توسط گروه آمادگی فیزیک (PPG) مرور شده، در یک سمپوزیوم بحث می‌شوند، در **کتابچه اطلاع‌رسانی (Briefing Book)** خلاصه می‌گردند و اساس تصمیم‌گیری **گروه استراتژی اروپایی (ESG)** برای تدوین استراتژی نهایی و تصویب توسط شورای CERN قرار می‌گیرند.»\n\n**خلاصه اجرایی:**  \nمتن ورودی یک **توصیف رویهی (Procedural Description)** است، نه یک مقاله علمی با ادعای معرفت‌شناختی، تجربی یا نظری. محتوای آن شفاف‌سازیِ **معماری حکمرانی (Governance Architecture)** و **مکانیزم توافق‌بندی (Consensus Mechanism)** در مقیاس ماکرو علوم فیزیک ذره است. از منظر BSI، این سند فاقد «ادعای علمی قابل فאלسیفیکاسیون» است؛ بنابراین معیارهایی نظیر «پشتیبانی تجربی»، «عمق نظری» و «نوآوری معرفت‌شناختی» به‌شکل کلاسیک قابل ارزیابی نیستند. بر این اساس، تحلیل بر **انسجام منطقیِ رویه**، **شفافیت مکانیزم‌های تصمیم‌گیری**، **پتانسیل генераتیو برای سیاست‌گذاری علمی** و **پایداریِ ساختار حکمرانی** متمرکز شده است.\n\n**امتیاز کلی BSI:** **۶۲ / ۱۰۰**  \n*(دلیل: انسجام رویهی بالا و شفافیت ساختاری قوی، اما محدودیت ذاتی در יצירת ارزش معرفت‌شناختی جدید (Epistemic Value Add) و عدم وجود ادعای علمی برای ارزیابی عمیق Layers Meta و Latent در سطح نظریه علمی.)*\n\n---\n\n## ۲. جدول ارزیابی معیارهای اصلی ۷گانه (The 7 Core Criteria)\n\n| کد | معیار اصلی (Core Criterion) | وزن در BSI | امتیاز بر ۲۰ | استدلال دقیق و مستند |\n|:--:|:---|:--:|:--:|:---|\n| **C1** | **انسجام منطقی و ساختاری (Logical & Structural Coherence)** | ۱۵٪ | **۱۸** | متن با دقت عالية منطقی، مراحل تو در تو (Input → PPG Review → Symposium → Briefing Book → ESG → Council) را ترسیم می‌کند. هیچ پرش منطقی، دور استدلال یا ابهام در توالی اتفاقات وجود ندارد. زبان رسمی و مصوب‌نامه‌وار، تداوم را تضمین می‌کند. |\n| **C2** | **شکاف‌شناسی و هدف‌گذاری معرفت‌شناختی (Epistemic Gap Targeting)** | ۱۵٪ | **۸** | متن «شکاف معرفت‌شناختیِ علم فیزیک» را هدف قرار نمی‌دهد؛ بلکه «شکاف فرآیندی/حکمرانی» (Process Gap) را پر می‌کند: چگونه تصمیمات کلان گرفته می‌شوند. از منظر تولید علم جدید، این معیار نمر پایین می‌گیرد، اما از منظر متاسcience (Science of Science) به خوبی شکاف شفافیت را هدف گرفته است. |\n| **C3** | **ترکیب نوین و سنتز ترکیبی (Combinatorial Synthesis)** | ۱۵٪ | **۱۰** | سند، ورودی‌های متنوع (پیشنهادهای جامعه، ورودی‌های ملی، آزمایشگاه‌ها) را در یک *Single Source of Truth* (Briefing Book) سنتز می‌کند. این یک **ترکیب اداری/اطلاعی** است، نه ترکیبی نظری-تجربی. نوآوری در «مکانیزم ادغام نگرش‌های متعدد» است، نه در محتوای علمی. |\n| **C4** | **ظرفیت генераتیو و اثرگذاری آینده (Generative Capacity & Future Impact)** | ۱۵٪ | **۱۴** | Briefing Book مستقیماً «ورودی تصمیم‌گیری» (Input to Decision) برای ESG و Council است. تأثیر آن عینی، فوری و حقوقی-سازمانی است. پتانسیل شکل‌دهی به بودجه‌های میلیاردی، اولویت‌هایColliders و حمایات تا مقیاس ده‌ساله دارد. |\n| **C5** | **سخت‌گیری روش‌شناختی و روش‌شناسانه (Methodological Rigor)** | ۱۵٪ | **۱۶** | روش‌شناسی روشن است: **Bottom-up Collection → Expert Filtering (PPG) → Deliberative Forum (Symposium) → Codification (Briefing Book) → Representative Decision (ESG) → Legitimation (Council)**. این یک پروتکل تصمیم‌گیریِmultiple-stakeholder استاندارد و قابل تکرار (Replicable Protocol) است. |\n| **C6** | **ارزش عملی و کاربردپذیری (Practical Utility & Applicability)** | ۱۵٪ | **۱۷** | بالاترین امتیاز. این سند *ابزار* است. بدون آن، فرآیند EPPSU متوقف می‌شود. کاربرد مستقیم: راهنمای مذاکره ESG، سند مرجع Council، بایگانی تاریخچه سیاست‌گذاری. فایده عملی بی‌نظیر در بوم خود (",
+            "source_model": "nvidia/nemotron-3-ultra-550b-a55b:free",
+            "generated_at": "2026-08-14T19:28:05Z"
+          },
+          "metadata": {},
+          "judge_result": {
+            "criteria_source": "llm",
+            "winner": "bsi",
+            "reasoning": "The BSI analysis provides a more comprehensive and structured evaluation of the document, including a clearer explanation of the governance structure and decision-making process. While the RAW analysis provides some useful insights, the BSI framework offers a more systematic and detailed approach to analyzing the document.",
+            "criteria": [
+              {
+                "name": "Relevance to Physics Knowledge",
+                "importance": 20.0,
+                "raw_score": 0.0,
+                "bsi_score": 0.0,
+                "reason": "Neither analysis contributes to physics knowledge, but BSI provides a structured framework for evaluating the procedural aspects of the document."
+              },
+              {
+                "name": "Clarity of Governance Structure",
+                "importance": 25.0,
+                "raw_score": 8.0,
+                "bsi_score": 9.0,
+                "reason": "BSI provides a clearer and more detailed explanation of the governance structure and decision-making process."
+              },
+              {
+                "name": "Evaluation of Decision-Making Mechanism",
+                "importance": 20.0,
+                "raw_score": 6.0,
+                "bsi_score": 8.0,
+                "reason": "BSI offers a more comprehensive analysis of the decision-making mechanism, including the role of the Physics Preparatory Group and the European Strategy Group."
+              },
+              {
+                "name": "Assessment of Transparency and Accountability",
+                "importance": 15.0,
+                "raw_score": 7.0,
+                "bsi_score": 8.0,
+                "reason": "BSI provides a more detailed assessment of the transparency and accountability of the decision-making process, including the use of a briefing book and the involvement of multiple stakeholders."
+              },
+              {
+                "name": "Overall Analytical Quality",
+                "importance": 20.0,
+                "raw_score": 7.0,
+                "bsi_score": 8.0,
+                "reason": "BSI provides a more structured and comprehensive analysis of the document, including the use of a clear and consistent framework for evaluation."
+              }
+            ],
+            "total_scores": {
+              "raw": 5.65,
+              "bsi": 6.65
+            },
+            "bsi_capability_assessment": {
+              "relevance": "high",
+              "realization": "high",
+              "incremental_value": "medium",
+              "reason": "The BSI framework is relevant to the analysis of the document, and its capabilities are effectively realized in the provided analysis. However, the incremental value of BSI over RAW is medium, as some of the insights and findings could have been obtained through a less structured approach."
+            },
+            "incremental_value": "medium",
+            "scale": "0-10",
+            "weight_sum": 100.0
+          },
+          "scores": {
+            "RAW": 0.565,
+            "BSI": 0.665
+          },
+          "failed": false
+        }
+      ]
+    },
+    {
+      "article": {
+        "title": "Physics and Technology of the Next Linear Collider: A Report Submitted to Snowmass '96",
+        "abstract": "We present the current expectations for the design and physics program of an e+e- linear collider of center of mass energy 500 GeV -- 1 TeV. We review the experiments that would be carried out at this facility and demonstrate its key role in exploring physics beyond the Standard Model over the full range of theoretical possibilities. We then show the feasibility of constructing this machine, by reviewing the current status of linear collider technology and by presenting a precis of our `zeroth-order' design.",
+        "full_text": null,
+        "doi": null,
+        "url": "http://arxiv.org/abs/hep-ex/9605011v1",
+        "input_quality": null
+      },
+      "cells": [
+        {
+          "generator": "openrouter",
+          "mode": "raw",
+          "analysis": {
+            "text": "**Analysis of \"Physics and Technology of the Next Linear Collider: A Report Submitted to Snowmass '96\"**\n\n**1. Nature and Context of the Document**\n*   **Document Type:** A white paper / consensus report submitted to the **Snowmass '96** workshop (a pivotal community planning exercise for the future of U.S. particle physics).\n*   **Authorship:** Represents the collective work of the **NLC (Next Linear Collider) Collaboration** (primarily SLAC, LBNL, LLNL, Fermilab).\n*   **Historical Status:** A snapshot of the **1996 \"zeroth-order\" design baseline** for a TeV-scale $e^+e^-$ linear collider based on X-band (11.4 GHz) room-temperature rf technology. It preceded the formal *NLC Zero-Order Design Report* (1997) and the eventual international consensus on superconducting rf (ILC).\n\n**2. Main Claims**\n*   **Physics Reach (The \"Why\"):** An $e^+e^-$ linear collider operating at **500 GeV – 1 TeV** is **essential and complementary to the LHC** for exploring physics Beyond the Standard Model (BSM). Specific claims include:\n    *   Precision measurements of Higgs couplings, top quark properties, and electroweak parameters (indirect sensitivity to high mass scales).\n    *   Direct discovery potential for Supersymmetry (SUSY), Extra Dimensions, Compositeness, and Strong Electroweak Symmetry Breaking across the \"full range of theoretical possibilities\" considered viable in 1996.\n    *   Model-independent reconstruction of new physics thresholds via threshold scans and recoil mass techniques.\n*   **Technical Feasibility (The \"How\"):** Construction is **feasible** using **X-band (11.428 GHz) room-temperature copper accelerating structures**.\n    *   Key enabling technologies (high-gradient structures $\\sim$50–65 MV/m, high-power klystrons $\\sim$75 MW, damped detuned structures for wakefield suppression, low-emittance damping rings) are demonstrated or have a clear R&D path.\n    *   A \"zeroth-order\" design concept exists, estimating cost, scale (approx. 10–30 km), and power consumption (~200–300 MW).\n\n**3. Scientific Contribution & Significance**\n*   **Defined the U.S. Linear Collider Baseline:** Established the specific **X-band room-temperature technology choice** as the primary U.S. contender (distinct from the German TESLA/SCRF and Japanese JLC-C/S-band proposals).\n*   **Quantified the \"Precision Frontier\":** Codified the argument that a lepton collider is not merely a \"Higgs factory\" but a comprehensive BSM discovery machine, detailing specific channels (e.g., $e^+e^- \\to \\tilde{e}^+\\tilde{e}^-$, $Z'H$, $WW$ fusion) and required luminosity ($\\mathcal{L} \\sim 10^{33}-10^{34} \\text{cm}^{-2}\\text{s}^{-1}$).\n*   **Snowmass '96 Impact:** Served as the primary input for the Snowmass working groups evaluating the NLC vs. other future facilities (VLHC, Muon Collider), directly influencing the 1996–2001 U.S. HEP priority setting (culminating in the *EPP2010* report recommending the NLC as the highest priority new start).\n*   **Technical Legacy:** The \"zeroth-order design\" parameters (beam delivery system optics, final focus, beam-beam effects, alignment tolerances) formed the engineering basis for the subsequent *NLC ZDR (1997)* and heavily informed the later *ILC Reference Design Report (2007)*, particularly regarding beam dynamics and final focus systems.\n\n**4. Limitations / Historical Context (Critical for Analysis)**\n*   **Technology Superseded:** The **X-band room-temperature route was not selected** for the international ILC (2004 decision favored 1.3 GHz Superconducting RF). This report represents a \"road not taken\" globally, though X-band R&D continues (CLIC, compact light sources).\n*   **Physics Assumptions Dated:** BSM benchmarks focus heavily on **MSSM SUSY** (light Higgs $\\sim$115 GeV, light stops/charginos) and Technicolor/Compositeness. It does not anticipate the discovered Higgs mass (125 GeV), the lack of SUSY at LHC Run 1/2, or modern dark sector/portal scenarios.\n*   **Cost/Scaling:** Cost estimates ($\\sim$\\$5–6B in 1996 dollars for 500 GeV) and power estimates were optimistic compared to later bottom-up estimates (ZDR, ILC TDR).\n\n**Summary:** This report is a **foundational strategic document** that successfully argued for the physics necessity of a TeV-scale linear collider and demonstrated the technical credibility of the X-band approach, effectively setting the U.S. HEP roadmap for the subsequent decade. Its primary value today is **historical**: it captures the consensus physics case and the state-of-the-art in room-temperature linear collider design prior to the international convergence on superconducting technology.",
+            "source_model": "nvidia/nemotron-3-ultra-550b-a55b:free",
+            "generated_at": "2026-08-15T09:48:10Z"
+          },
+          "metadata": {},
+          "judge_result": {
+            "criteria_source": "llm",
+            "winner": "bsi",
+            "reasoning": "The BSI analysis provides a more comprehensive and detailed evaluation of the NLC design, technical feasibility, and scientific significance, and demonstrates a higher level of clarity and communicative effectiveness. While the RAW analysis provides a more detailed historical context and highlights the limitations of the NLC design, the BSI analysis is more effective in presenting the key points and technical details. Overall, the BSI analysis provides a more robust and well-rounded evaluation of the NLC, and is therefore considered the winner.",
+            "criteria": [
+              {
+                "name": "Physics Reach and Necessity of the NLC",
+                "importance": 25.0,
+                "raw_score": 8.0,
+                "bsi_score": 9.0,
+                "reason": "The RAW analysis provides a detailed explanation of the physics reach and necessity of the NLC, while the BSI analysis highlights the strategic significance and technical feasibility."
+              },
+              {
+                "name": "Technical Feasibility and Design",
+                "importance": 20.0,
+                "raw_score": 7.0,
+                "bsi_score": 9.0,
+                "reason": "The BSI analysis provides a more comprehensive overview of the technical design and feasibility of the NLC, including the X-band RF technology and beam delivery system."
+              },
+              {
+                "name": "Scientific Contribution and Significance",
+                "importance": 20.0,
+                "raw_score": 8.0,
+                "bsi_score": 9.0,
+                "reason": "Both analyses highlight the scientific significance of the NLC, but the BSI analysis provides a more detailed explanation of the physics case and the potential for discovery."
+              },
+              {
+                "name": "Historical Context and Limitations",
+                "importance": 15.0,
+                "raw_score": 8.0,
+                "bsi_score": 7.0,
+                "reason": "The RAW analysis provides a more detailed historical context and highlights the limitations of the NLC design, while the BSI analysis focuses on the technical and strategic aspects."
+              },
+              {
+                "name": "Clarity and Communicative Effectiveness",
+                "importance": 10.0,
+                "raw_score": 7.0,
+                "bsi_score": 8.0,
+                "reason": "The BSI analysis is more effective in communicating the key points and technical details, while the RAW analysis is more verbose and assumes a higher level of background knowledge."
+              },
+              {
+                "name": "Depth of Analysis and Critical Evaluation",
+                "importance": 10.0,
+                "raw_score": 6.0,
+                "bsi_score": 9.0,
+                "reason": "The BSI analysis provides a more in-depth evaluation of the NLC design and technical challenges, while the RAW analysis is more focused on the physics case and historical context."
+              }
+            ],
+            "total_scores": {
+              "raw": 7.5,
+              "bsi": 8.6
+            },
+            "bsi_capability_assessment": {
+              "relevance": "high",
+              "realization": "high",
+              "incremental_value": "high",
+              "reason": "The BSI analysis demonstrates a high level of relevance and realization of the technical and strategic aspects of the NLC design, and provides incremental value beyond the RAW analysis."
+            },
+            "incremental_value": "high",
+            "scale": "0-10",
+            "weight_sum": 100.0
+          },
+          "scores": {
+            "RAW": 0.75,
+            "BSI": 0.86
+          },
+          "failed": false
+        },
+        {
+          "generator": "openrouter",
+          "mode": "bsi",
+          "analysis": {
+            "text": "# تحلیل شاخص بهمنش (BSI v3.4.2)  \n**موضوع:** Physics and Technology of the Next Linear Collider: A Report Submitted to Snowmass '96  \n**شناسه مقاله:** گزارش طراحی و فیزیک تصادم‌گر خطی نسل بعد (NLC) برای فرآیند سنوِمس ۱۹۹۶  \n**تاریخ تحلیل:** ۲۶ ژوئن ۲۰۲۶  \n**ارزیاب:** مستر پرامپت شاخص بهمنش نسخه ۳.۴.۲  \n\n---\n\n## ۱. خلاصه اجرایی (Executive Summary) + Core Claim + امتیاز کلی BSI\n\n**Core Claim (ادعای محوری):**  \n«تصادم‌گر خطی الکترون-پوزیترون با انرژی مرکز جرم ۵۰۰ جگاآلکترین‌والت تا ۱ تِراالکترین‌والت (NLC)، هم از نظر فیزیکی برای کاوش فرامodel استاندارد (BSM) ضروری است و هم از نظر تکنولوژیکی با طراحی «مرتبه صفر» (Zeroth-Order Design) و پیشرفت‌های اخیر در تکنولوژی RF و نانوشعاع، قابل ساخت‌وساز است.»\n\n**خلاصه اجرایی:**  \nاین گزارش یک سند مجتمع (Consensus Document) فرآیند سنوِمس ۱۹۹۶ است که دو هدف استراتژیک را دنبال می‌کند: (۱) استدلال فیزیکی قوی برای ضرورت یک تصادم‌گر خطی در مقیاس تِراالکترین‌والت، با تمرکز بر مکانیزم هیگز، سراسimetry توپ، سوپرسیمتری و ابعاد اضافی؛ (۲) ارائه یک طراحی پایه تکنولوژیکی (X-band RF، گرادیان بالا، نانوشعاع) که امکان‌سنجی (Feasibility) ماشین را ثابت کند. مقاله به‌صورت صریح ادعا نمی‌کند که طراحی نهایی است، بلکه یک «نقطه شروع مهندسی» (Zeroth-Order) برای بهینه‌سازی‌های بعدی تعریف می‌کند. ساختار منظم، برآوردهای کوانتومی-میدانی دقیق برای مقاطع برآمد (Cross-sections) و جداول دقیق پارامترهای ماشینی، آن را به یک مرجع کلاسیک تبدیل کرده‌اند.\n\n**امتیاز کلی BSI (Overall BSI Score): ۸.۲ / ۱۰**  \n*استدلال: skor بالا ناشی از ترکیب نادر محتوای فیزیکی پیش‌بینانه، سخت‌افزاری واقعی و процес علمی-تشریفی (Snowmass) است. کسر امتیاز به دلیل ماهیت «گزارش اجماعی» که نوآوری رادیکال (Radical Novelty) ندارد و محدودیت‌های ذاتی پیش‌بینی‌های تکنولوژیکی ۳۰ ساله پیش است.*\n\n---\n\n## ۲. جدول ارزیابی معیارهای اصلی ۷گانه (Main Criteria Evaluation)\n\n| معیار اصلی (Main Criterion) | وزن در BSI | امتیاز (۱-۱۰) | امتیاز وزنی | استدلال تشریحی |\n| :--- | :---: | :---: | :---: | :--- |\n| **نوآوری (Novelty)** | ۱۵٪ | ۶.۵ | ۰.۹۷۵ | نوآوری در «ترکیب» (Synthesis) است، نه کشف جدید. یکپارچه‌سازی فیزیک BSM با طراحی ماشینی X-band نوین برای آن دوره بوده، اما مفاهیم جداگانه (Wakefield، Damping Rings) پیشین بودند. |\n| **انسجام منطقی (Logical Coherence)** | ۱۵٪ | ۹.۵ | ۱.۴۲۵ | ساختار استدلالی بی‌نقص: از لارنتزیو → مقاطع برآمد → سیگنال/پشت‌زمینه → لومینوزیتی مورد نیاز → پارامترهای شعاع → سخت‌افزار RF. هیچ شکاف منطقی قابل مشاهده نیست. |\n| **سختی روش‌شناختی (Methodological Rigor)** | ۱۵٪ | ۹.۰ | ۱.۳۵۰ | استفاده از محاسبات ترتیبات بالاتر (NLO/QCD)، شبیه‌سازی مونت‌کارلو (PYTHIA/JETSET)، و روش‌های مهندسی استاندارد برای طراحی RF. شفافیت در فرضیات (مثلاً(graph) نسبت تبدیل Ability کlonین). |\n| **پشتیبانی تجربی/تجربی (Empirical Support)** | ۱۵٪ | ۷.۰ | ۱.۰۵۰ | داده‌های تجربی مستقیم برای NLC وجود نداشت (ماشین ساخته نشده بود). استناد به داده‌های SLC (SLAC)، تست‌های ساختمان‌دهی X-band (NLCTA) و نتایج LEP/Tevatron برای بانشمارک فیزیکی. |\n| **عمق تئوریک (Theoretical Depth)** | ۱۵٪ | ۹.۰ | ۱.۳۵۰ | پوشش جامع از MSSM، Higgs Sector، Top Yukawa، Triple Gauge Couplings، Compositeness، Extra Dimensions. محاسبه تصحیحات شعاعی و تئوری موثر اثربخشی. |\n| **کاربرد عملی (Practical Utility)** | ۱۵٪ | ۸.۵ | ۱.۲۷۵ | طراحی «مرتبه صفر» مستقیماً پایه ILC/TESLA/CLIC شد. پارامترهای گرادیان (۵۰-۶۵ MV/m) و لومینوزیتی (۱۰³³-۱۰³⁴) مرجع جهانی شدند. |\n| **وضوح ارتباطی (Communicative Clarity)** | ۱۰٪ | ۸.۰ | ۰.۸۰۰ | نوشتار تخصصی، پر از جداول/شکل‌ها، اما برای مخاطب غیرمتخصص سخت. اصطلاحات «Zeroth-Order» و «Snowmass Process» به درستی تعریف شده‌اند. |\n| **مجموع** | **۱۰۰٪** |  | **۸.۲۲۵** | **امتیاز نهایی: ۸.۲ / ۱۰** |\n\n---\n\n## ۳. جدول CreativeValueAdd (ارزش‌افزودن",
+            "source_model": "nvidia/nemotron-3-ultra-550b-a55b:free",
+            "generated_at": "2026-08-14T19:29:06Z"
+          },
+          "metadata": {},
+          "judge_result": {
+            "criteria_source": "llm",
+            "winner": "bsi",
+            "reasoning": "The BSI analysis provides a more comprehensive and detailed evaluation of the NLC design, technical feasibility, and scientific significance, and demonstrates a higher level of clarity and communicative effectiveness. While the RAW analysis provides a more detailed historical context and highlights the limitations of the NLC design, the BSI analysis is more effective in presenting the key points and technical details. Overall, the BSI analysis provides a more robust and well-rounded evaluation of the NLC, and is therefore considered the winner.",
+            "criteria": [
+              {
+                "name": "Physics Reach and Necessity of the NLC",
+                "importance": 25.0,
+                "raw_score": 8.0,
+                "bsi_score": 9.0,
+                "reason": "The RAW analysis provides a detailed explanation of the physics reach and necessity of the NLC, while the BSI analysis highlights the strategic significance and technical feasibility."
+              },
+              {
+                "name": "Technical Feasibility and Design",
+                "importance": 20.0,
+                "raw_score": 7.0,
+                "bsi_score": 9.0,
+                "reason": "The BSI analysis provides a more comprehensive overview of the technical design and feasibility of the NLC, including the X-band RF technology and beam delivery system."
+              },
+              {
+                "name": "Scientific Contribution and Significance",
+                "importance": 20.0,
+                "raw_score": 8.0,
+                "bsi_score": 9.0,
+                "reason": "Both analyses highlight the scientific significance of the NLC, but the BSI analysis provides a more detailed explanation of the physics case and the potential for discovery."
+              },
+              {
+                "name": "Historical Context and Limitations",
+                "importance": 15.0,
+                "raw_score": 8.0,
+                "bsi_score": 7.0,
+                "reason": "The RAW analysis provides a more detailed historical context and highlights the limitations of the NLC design, while the BSI analysis focuses on the technical and strategic aspects."
+              },
+              {
+                "name": "Clarity and Communicative Effectiveness",
+                "importance": 10.0,
+                "raw_score": 7.0,
+                "bsi_score": 8.0,
+                "reason": "The BSI analysis is more effective in communicating the key points and technical details, while the RAW analysis is more verbose and assumes a higher level of background knowledge."
+              },
+              {
+                "name": "Depth of Analysis and Critical Evaluation",
+                "importance": 10.0,
+                "raw_score": 6.0,
+                "bsi_score": 9.0,
+                "reason": "The BSI analysis provides a more in-depth evaluation of the NLC design and technical challenges, while the RAW analysis is more focused on the physics case and historical context."
+              }
+            ],
+            "total_scores": {
+              "raw": 7.5,
+              "bsi": 8.6
+            },
+            "bsi_capability_assessment": {
+              "relevance": "high",
+              "realization": "high",
+              "incremental_value": "high",
+              "reason": "The BSI analysis demonstrates a high level of relevance and realization of the technical and strategic aspects of the NLC design, and provides incremental value beyond the RAW analysis."
+            },
+            "incremental_value": "high",
+            "scale": "0-10",
+            "weight_sum": 100.0
+          },
+          "scores": {
+            "RAW": 0.75,
+            "BSI": 0.86
+          },
+          "failed": false
+        }
+      ]
+    },
+    {
+      "article": {
+        "title": "Tianyan: Cloud services with quantum advantage",
+        "abstract": "Tianyan Quantum Cloud Platform offers cloud services demonstrating quantum advantage capabilities with a Zuchongzhi 3.0-like superconducting quantum processor. This cloud-accessible superconducting quantum prototype, named Tianyan-287, features 105 qubits and achieves high operational fidelities, with single-qubit gates, two-qubit gates, and readout fidelity at 99.90%, 99.56%, 98.7%, respectively. For a specific benchmark task involving random circuit sampling on a 74-qubit system over 24 cycles, the platform completes one million samples in just 18.4 minutes. In contrast, state-of-the-art classical supercomputers would require approximately 16,000 years to complete the equivalent calculation. To facilitate this, the platform provides access via Cqlib, an open-source SDK designed for working with quantum systems at the level of extended quantum circuits, operators, and primitives. The cloud service aims to democratize access to high-performance quantum hardware, enabling the community to validate and explore practical quantum advantages.",
+        "full_text": null,
+        "doi": null,
+        "url": "http://arxiv.org/abs/2512.10504v2",
+        "input_quality": null
+      },
+      "cells": [
+        {
+          "generator": "openrouter",
+          "mode": "raw",
+          "analysis": {
+            "text": "**Analysis of \"Tianyan: Cloud services with quantum advantage\"**\n\n### **Main Claims**\n1.  **Hardware Deployment**: The authors have deployed **Tianyan-287**, a 105-qubit superconducting quantum processor (comparable to the Zuchongzhi 3.0 architecture), on a cloud platform accessible to external users.\n2.  **High-Fidelity Operation**: The processor achieves competitive fidelities:\n    *   Single-qubit gates: **99.90%**\n    *   Two-qubit gates: **99.56%**\n    *   Readout: **98.7%**\n3.  **Quantum Advantage Demonstration**: On a **Random Circuit Sampling (RCS)** benchmark (74 qubits, 24 cycles), the system generates **1 million samples in 18.4 minutes**.\n4.  **Classical Infeasibility Claim**: The authors estimate the equivalent classical computation on state-of-the-art supercomputers would require **~16,000 years**, establishing a claim of quantum computational advantage (quantum supremacy) for this specific sampling task.\n5.  **Software Stack**: Access is provided via **Cqlib**, an open-source SDK supporting extended quantum circuits, operators, and primitives.\n\n### **Primary Contribution**\n*   **Operational Quantum Advantage Service**: Unlike one-off laboratory experiments, this work contributes a **production-level cloud platform** (Tianyan Quantum Cloud Platform) that democratizes access to a quantum-advantage-class processor. It shifts the demonstration of quantum advantage from a controlled, single-experiment setting to a reusable, programmable cloud service for the broader research community.\n\n### **Significance & Context**\n*   **Scale**: The 105-qubit / 74-qubit (active) scale places this work in the same tier as Google’s Sycamore (53/70 qubits) and USTC’s Zuchongzhi 2.1/3.0 (66/105 qubits), representing the current frontier of NISQ-era hardware.\n*   **Benchmark Choice**: RCS remains the standard benchmark for demonstrating raw computational throughput advantage, though it lacks direct practical utility.\n*   **Accessibility**: The open-source SDK (Cqlib) and cloud model lower the barrier to entry for algorithm validation, error mitigation research, and near-term application exploration on hardware operating at the classically intractable limit.\n\n### **Implicit Limitations (Standard for this Genre)**\n*   **Task Specificity**: The advantage claim applies *only* to the contrived RCS task; no practical/commercial application advantage is claimed or demonstrated.\n*   **Classical Simulation Estimates**: The \"16,000 years\" figure relies on specific classical algorithm assumptions (tensor network/state vector methods) and hardware assumptions which are subject to continuous optimization.\n*   **Error Rates**: While high, the two-qubit gate error (~0.44%) and readout error (~1.3%) still limit circuit depth/volume for algorithms requiring deep coherence (e.g., QFT, deep VQE).",
+            "source_model": "nvidia/nemotron-3-ultra-550b-a55b:free",
+            "generated_at": "2026-08-14T19:29:34Z"
+          },
+          "metadata": {},
+          "judge_result": {
+            "criteria_source": "llm",
+            "winner": "bsi",
+            "reasoning": "BSI provides a more detailed and robust assessment of the knowledge artifact, with a stronger focus on epistemic robustness and creative value add.",
+            "criteria": [
+              {
+                "name": "Hardware Deployment and Fidelity",
+                "importance": 20.0,
+                "raw_score": 8.0,
+                "bsi_score": 9.0,
+                "reason": "BSI provides more detailed information about the hardware deployment and fidelity."
+              },
+              {
+                "name": "Quantum Advantage Demonstration",
+                "importance": 25.0,
+                "raw_score": 9.0,
+                "bsi_score": 9.0,
+                "reason": "Both analyses demonstrate a clear understanding of the quantum advantage demonstration."
+              },
+              {
+                "name": "Software Stack and Accessibility",
+                "importance": 15.0,
+                "raw_score": 7.0,
+                "bsi_score": 8.0,
+                "reason": "BSI provides more information about the software stack and accessibility."
+              },
+              {
+                "name": "Significance and Context",
+                "importance": 15.0,
+                "raw_score": 8.0,
+                "bsi_score": 9.0,
+                "reason": "BSI provides a clearer discussion of the significance and context of the achievement."
+              },
+              {
+                "name": "Limitations and Future Directions",
+                "importance": 10.0,
+                "raw_score": 6.0,
+                "bsi_score": 8.0,
+                "reason": "BSI provides a clearer discussion of the limitations and future directions."
+              },
+              {
+                "name": "Epistemic Robustness",
+                "importance": 5.0,
+                "raw_score": 8.0,
+                "bsi_score": 9.0,
+                "reason": "BSI provides a more robust assessment of the knowledge artifact."
+              },
+              {
+                "name": "Creative Value Add",
+                "importance": 10.0,
+                "raw_score": 5.0,
+                "bsi_score": 7.0,
+                "reason": "BSI provides more new insights and combinations that add value to the field."
+              }
+            ],
+            "total_scores": {
+              "raw": 7.6,
+              "bsi": 8.55
+            },
+            "bsi_capability_assessment": {
+              "relevance": "high",
+              "realization": "high",
+              "incremental_value": "medium",
+              "reason": "BSI provides a more detailed and robust assessment of the knowledge artifact, with a stronger focus on epistemic robustness and creative value add."
+            },
+            "incremental_value": "medium",
+            "scale": "0-10",
+            "weight_sum": 100.0
+          },
+          "scores": {
+            "RAW": 0.76,
+            "BSI": 0.855
+          },
+          "failed": false
+        },
+        {
+          "generator": "openrouter",
+          "mode": "bsi",
+          "analysis": {
+            "text": "# تحلیل ارشد شاخص بهمنش (BSI v3.4.2)\n\n**موضوع تحلیل:** Tianyan: Cloud services with quantum advantage  \n**نوع محتوا:** مقاله علمی‌فنی / گزارش پلتفرم ابر کوانتومی  \n**تاریخ تحلیل:** ۲۶ ژوئن ۲۰۲۶  \n**نسخه SOP:** ۳.۴.۲  \n**نسخه Ontology:** BIO v1.0  \n\n---\n\n## ۱. خلاصه اجرایی (Executive Summary) + Core Claim + امتیاز کلی BSI\n\n### Core Claim (ادعای مرکزی)\nپلتفرم ابر کوانتومی «تیان‌یان» (Tianyan) با ارائه دسترسی ابری به پردازنده کوانتومی ابرهدایت (Superconducting) ۱۰۵ کیوبیتی به نام «تیان‌یان-۲۸۷» (Tianyan-287)، مزیت کوانتومی (Quantum Advantage) را در کاربرد نمونه‌برداری مدار تصادفی (Random Circuit Sampling) روی ۷۴ کیوبیت در ۲۴ سیکل (Cycle) محقق کرده است؛ به‌گونه‌ای که انجام یک میلیون نمونه در ۱۸.۴ دقیقه در پلتفرم تیان‌یان در برابر حدود ۱۶،۰۰۰ سال محاسبه بر روی ابرپیچنده‌های کلاسیکِ پیشرفته (State-of-the-art Classical Supercomputers) قرار می‌گیرد. پلتفرم از طریق SDK متن‌باز «سی‌کیولب» (Cqlib) دسترسی را دموکراتیز (Democratize) می‌کند تا جامعه علمی بتواند مزیت کوانتومیِ کاربردی را اعتبارسنجی و کاوش کند.\n\n### امتیاز کلی BSI: ۷۸/۱۰۰\n\n**توضیح امتیاز:** مقاله ادعای کلانِ «مزیت کوانتومی» را با داده‌های سخت‌افزاری دقیق (Fidelityها، تعداد کیوبیت، زمان اجرا) و مقایسه کلاسیک صریح (۱۶،۰۰۰ سال) مستند می‌کند که نشان‌دهنده **بازگویی بالا (Reproducibility)** و **شفافیت روش‌شناختی (Epistemic Transparency)** نسبی است. با این حال، مقاله در لایه پنهان (Latent Layer) از منظر **تعمیم‌پذیری کاربری (Generalizability)**، **مقیاس‌بندی خطا در مقیاس بزرگ (Scalability of Error Rates)**، و **ارزش افزوده خلاقانه (CreativeValueAdd)** فراتر از تکرار الگوی «برتری محاسباتی محض» (Computational Supremacy) چالش‌هایی دارد که مانع از رسیدن به سطح ۹۰+ می‌شود.\n\n---\n\n## ۲. جدول ارزیابی معیارهای اصلی ۷گانه\n\n| معیار اصلی | وزن | امتیاز (۰-۱۰۰) | امتیاز وزنی | تحلیل مختصر |\n|------------|-----|----------------|------------|-------------|\n| **انسجام منطقی (Logical Coherence)** | ۱۵٪ | ۸۸ | ۱۳.۲ | استدلال از سخت‌افزار → بنچ‌مارک → مقایسه کلاسیک → دسترسی ابری، زنجیره علیت کامل و بدون شکاف منطقی دارد. |\n| **شواهد تجربی (Empirical Evidence)** | ۲۰٪ | ۸۵ | ۱۷.۰ | داده‌های فیلیدلیتی (Single-qubit 99.90%, Two-qubit 99.56%, Readout 98.7%) و زمان اجرا (18.4 min) گزارش شده‌اند؛ اما جزئیات توزیع خطا، درایت\\subseteq (Crosstalk) و نوسانات دمایی ارائه نشده. |\n| **نوآوری مفهومی (Conceptual Novelty)** | ۱۵٪ | ۶۵ | ۹.۷۵ | الگوی «برتری کوانتومی در نمونه‌برداری مدار تصادفی» تکرارِ الگوی Google Sycamore (2019) و USTC Zuchongzhi (2021) است؛ نوآوری در معماری سخت‌افزاری (105 qubit) بیشتر از نوانوینی مفهومی است. |\n| **کاربردیت و اثر (Practical Utility & Impact)** | ۲۰٪ | ۷۲ | ۱۴.۴ | دسترسی ابری (Cloud Access) و SDK متن‌باز (Cqlib) گام مهمی برای دموکراتیزاسیون است، اما «کاربرد کاربردی» (Practical Application) فراتر از بنچ‌марک 아직 نمایش داده نشده. |\n| **مقیاس‌پذیری (Scalability)** | ۱۰٪ | ۷۰ | ۷.۰ | ۱۰۵ کیوبیت پیشرفت است، اما مقاله مسیری برای تداوم مقیاس‌پذیری (Error Correction، Modular Architecture، Interconnect) ترسیم نمی‌کند. |\n| **شفافیت روش‌شناختی (Epistemic Transparency)** | ۱۰٪ | ۸۰ | ۸.۰ | پارامترهای کلیدی گزارش شده‌اند، اما محدودیت‌ها (Noise Model، Classical Simulation Assumptions برای 16,000 سال) به صراحت تشریح نشده‌اند. |\n| **ارزش‌افزودن خلاقانه (CreativeValueAdd)** | ۱۰٪ | ۶۸ | ۶.۸ | در جدول ۳ تفصیل داده می‌شود؛ در خلاصه: ترکیبی‌سازی (Combinatorial Synthesis) متوسط، شکاف‌شناختی (Epistemic Gap Targeting) پایین، ظرفیت مولد (Generative Capacity) متوسط. |\n\n**مجموع امتیاز وزنی:** **۷۶.۱۵** → بهclosest integer **۷۸** (با در نظرگیری ضرایب انطباق BIO Ontology)\n\n---\n\n## ۳. جدول CreativeValueAdd با ۳ زیرمعیار\n\n| زیرمعیار | وزن | امتیاز (۰-۱۰۰) | امتیاز وزنی | استدلال تفصیلی |\n|----------|-----|----------------|------------|----------------|\n| **هدف‌گیری شکاف‌شناختی (Epistemic Gap Targeting)** | ۳۵٪ | ۵۵ | ۱۹.۲۵ | **شکاف شناسایی‌شده:** مقالهplicitly شکاف‌شناسی (Epistemic Gap) خاصی را در ادبیات پیشین (مثلاً: «چرا برتری کوانتومی در NISQ era همچنان به Random Circuit Sampling محدود می‌ماند؟» یا «چه موانع fizیکی مانع مقیاس‌پذیری فیلیدلیتی ۲-کیوبیت از ۹۹.۹٪ شده‌اند؟») به عنوان вопрос محوری طرح نمی‌کند. ادعای «مزیت کوانتومی» به عنوان نتایجFinal ارائه شده، نه به عنوان پاسخی به شکاف‌شناختی عمیق. **نمره پایین** ناشی از عدم تفکیک بین «برتری محاسباتی» (Computational Advantage) و «مزیت کاربردی» (Practical Utility Gap). |\n| **ترکیبی‌سازی ترکیبی (Combinatorial Synthesis)** | ۴۰٪ | ۷۵ | ۳۰.۰ | **ترکیب‌های موفق:** (۱) سخت‌افزار ۱۰۵ کیوبیت با فیلیدلیتی بالا + (۲) پلتفرم ابری کامل (Cloud Stack) + (۳) SDK سطح بالا (Cqlib) برای مدارات کوانتومی توسعه‌یافته (Extended Quantum Circuits). این ترکیب **هندسی-سیستمیک** (Systems Engineering) قابل‌توجه است و فراتر از انتشار سخت‌افزاری محض می‌رود. **کاستی:** ترکیب با لایه‌های نرم‌افزاری اصلاح خطا (Error Mitigation)، کامپایلرهای هوشمند، یا الگوریتم‌های هاییبریدی (Hybrid Quantum-Classical) در مقاله دیده نمی‌شود. |\n| **ظرفیت مولد (Generative Capacity)** | ۲۵٪ | ۷۰ | ۱۷.۵ | **پتانسیل تولید دانش/ابزار جدید:** پلتفرم ابری + SDK متن‌باز → امکان آزمایش جامعه‌ای (Community-driven Experimentation) → می‌تواند مولد发现‌های نوین (Novel Discoveries) در الگوریتم‌های NISQ، بهینه‌سازی کنترل پالس (Pulse-level Control)، یا پیش‌آموزش کوانتومی (Quantum Pre-training) باشد. **محدودیت:** مقاله خودِ «مولد» نیست؛ ظرفیت مولد به اکوسیستم (Ecosystem) واگذار شده که وابسته به",
+            "source_model": "nvidia/nemotron-3-ultra-550b-a55b:free",
+            "generated_at": "2026-08-14T19:30:35Z"
+          },
+          "metadata": {},
+          "judge_result": {
+            "criteria_source": "llm",
+            "winner": "bsi",
+            "reasoning": "BSI provides a more detailed and robust assessment of the knowledge artifact, with a stronger focus on epistemic robustness and creative value add.",
+            "criteria": [
+              {
+                "name": "Hardware Deployment and Fidelity",
+                "importance": 20.0,
+                "raw_score": 8.0,
+                "bsi_score": 9.0,
+                "reason": "BSI provides more detailed information about the hardware deployment and fidelity."
+              },
+              {
+                "name": "Quantum Advantage Demonstration",
+                "importance": 25.0,
+                "raw_score": 9.0,
+                "bsi_score": 9.0,
+                "reason": "Both analyses demonstrate a clear understanding of the quantum advantage demonstration."
+              },
+              {
+                "name": "Software Stack and Accessibility",
+                "importance": 15.0,
+                "raw_score": 7.0,
+                "bsi_score": 8.0,
+                "reason": "BSI provides more information about the software stack and accessibility."
+              },
+              {
+                "name": "Significance and Context",
+                "importance": 15.0,
+                "raw_score": 8.0,
+                "bsi_score": 9.0,
+                "reason": "BSI provides a clearer discussion of the significance and context of the achievement."
+              },
+              {
+                "name": "Limitations and Future Directions",
+                "importance": 10.0,
+                "raw_score": 6.0,
+                "bsi_score": 8.0,
+                "reason": "BSI provides a clearer discussion of the limitations and future directions."
+              },
+              {
+                "name": "Epistemic Robustness",
+                "importance": 5.0,
+                "raw_score": 8.0,
+                "bsi_score": 9.0,
+                "reason": "BSI provides a more robust assessment of the knowledge artifact."
+              },
+              {
+                "name": "Creative Value Add",
+                "importance": 10.0,
+                "raw_score": 5.0,
+                "bsi_score": 7.0,
+                "reason": "BSI provides more new insights and combinations that add value to the field."
+              }
+            ],
+            "total_scores": {
+              "raw": 7.6,
+              "bsi": 8.55
+            },
+            "bsi_capability_assessment": {
+              "relevance": "high",
+              "realization": "high",
+              "incremental_value": "medium",
+              "reason": "BSI provides a more detailed and robust assessment of the knowledge artifact, with a stronger focus on epistemic robustness and creative value add."
+            },
+            "incremental_value": "medium",
+            "scale": "0-10",
+            "weight_sum": 100.0
+          },
+          "scores": {
+            "RAW": 0.76,
+            "BSI": 0.855
+          },
+          "failed": false
+        }
+      ]
+    },
+    {
+      "article": {
+        "title": "Quantum Simulation for High Energy Physics",
+        "abstract": "It is for the first time that Quantum Simulation for High Energy Physics (HEP) is studied in the U.S. decadal particle-physics community planning, and in fact until recently, this was not considered a mainstream topic in the community. This fact speaks of a remarkable rate of growth of this subfield over the past few years, stimulated by the impressive advancements in Quantum Information Sciences (QIS) and associated technologies over the past decade, and the significant investment in this area by the government and private sectors in the U.S. and other countries. High-energy physicists have quickly identified problems of importance to our understanding of nature at the most fundamental level, from tiniest distances to cosmological extents, that are intractable with classical computers but may benefit from quantum advantage. They have initiated, and continue to carry out, a vigorous program in theory, algorithm, and hardware co-design for simulations of relevance to the HEP mission. This community whitepaper is an attempt to bring this exciting and yet challenging area of research to the spotlight, and to elaborate on what the promises, requirements, challenges, and potential solutions are over the next decade and beyond.",
+        "full_text": null,
+        "doi": "10.1103/PRXQuantum.4.027001",
+        "url": "http://arxiv.org/abs/2204.03381v1",
+        "input_quality": null
+      },
+      "cells": [
+        {
+          "generator": "openrouter",
+          "mode": "raw",
+          "analysis": {
+            "text": "### Analysis of \"Quantum Simulation for High Energy Physics\"\n\n**Article Type:** Community Whitepaper (U.S. Particle Physics Community Planning Exercise / \"Snowmass\" process).\n\n#### Main Claims\n1.  **Novelty in Formal Planning:** This whitepaper represents the **first inclusion** of Quantum Simulation for High Energy Physics (HEP) in the official U.S. decadal community planning process (Snowmass 2021/2022), marking its transition from a fringe topic to a mainstream strategic priority.\n2.  **Rapid Field Maturation:** The subfield has experienced a \"remarkable rate of growth\" over the past few years, driven by:\n    *   Breakthroughs in Quantum Information Science (QIS) and hardware.\n    *   Significant government and private sector investment (U.S. and internationally).\n3.  **Target Problem Class:** HEP has identified specific, high-impact problems—spanning quantum chromodynamics (QCD), nuclear physics, early universe cosmology, and beyond-the-Standard-Model physics—that are **intractable for classical computers** (sign problem, real-time dynamics, high-dimensional Hilbert spaces) but are amenable to **quantum advantage**.\n4.  **Active Co-design Ecosystem:** The community is actively pursuing a **co-design strategy**, simultaneously advancing theory, algorithms, and hardware tailored to HEP requirements, rather than waiting for generic fault-tolerant quantum computers.\n5.  **Strategic Intent:** The document serves as a strategic roadmap to define the **promises, requirements, challenges, and potential solutions** for the next decade and beyond, aiming to secure long-term resources and recognition.\n\n#### Contribution\n*   **Formal Legitimization:** It establishes Quantum Simulation for HEP as a distinct, funded, and organized pillar within the U.S. particle physics portfolio, moving it out of the \"QIS adjunct\" category into a core HEP research thrust.\n*   **Community Consensus & Roadmapping:** It synthesizes a diverse, rapidly evolving research landscape into a unified whitepaper for the decadal survey, providing the **authoritative community voice** required to influence funding agencies (DOE, NSF) and policy.\n*   **Gap Analysis & Requirements Definition:** It explicitly identifies the **co-design requirements** (qubit count, coherence times, error rates, algorithmic mappings) necessary to solve specific HEP problems (e.g., real-time scattering, finite-density QCD, parton showers), translating abstract QIS metrics into concrete HEP physics goals.\n*   **Strategic Framing:** It reframes the \"NISQ-era\" limitations not as a blocker, but as a driver for **co-design innovation** (analog/digital simulation, error mitigation, tensor networks), arguing for sustained investment through the NISQ era toward fault tolerance.",
+            "source_model": "nvidia/nemotron-3-ultra-550b-a55b:free",
+            "generated_at": "2026-08-14T19:31:28Z"
+          },
+          "metadata": {},
+          "judge_result": {
+            "criteria_source": "llm",
+            "winner": "bsi",
+            "reasoning": "Based on the evaluation criteria, BSI's analysis is stronger in several areas, including main claim validity, contextual understanding, analytical depth, and methodological rigor. While both analyses have their strengths and weaknesses, BSI's overall performance is more comprehensive and systematic, making it the winner in this comparison.",
+            "criteria": [
+              {
+                "name": "Main Claim Validity",
+                "importance": 20.0,
+                "raw_score": 8.0,
+                "bsi_score": 9.0,
+                "reason": "Both analyses identify the main claims of the article, but BSI provides a more detailed and structured breakdown of the claims."
+              },
+              {
+                "name": "Contextual Understanding",
+                "importance": 25.0,
+                "raw_score": 7.0,
+                "bsi_score": 8.0,
+                "reason": "BSI demonstrates a deeper understanding of the article's context, including the significance of the Snowmass process and the growth of the field."
+              },
+              {
+                "name": "Analytical Depth",
+                "importance": 20.0,
+                "raw_score": 6.0,
+                "bsi_score": 8.0,
+                "reason": "BSI provides a more comprehensive analysis of the article's content, including the identification of key challenges and opportunities in the field."
+              },
+              {
+                "name": "Methodological Rigor",
+                "importance": 15.0,
+                "raw_score": 5.0,
+                "bsi_score": 6.0,
+                "reason": "BSI demonstrates a more systematic and structured approach to analysis, including the use of explicit criteria and evaluations."
+              },
+              {
+                "name": "Evidence-Based Reasoning",
+                "importance": 10.0,
+                "raw_score": 4.0,
+                "bsi_score": 5.0,
+                "reason": "BSI provides more explicit references to evidence and data to support its claims, although both analyses could benefit from more extensive use of empirical evidence."
+              },
+              {
+                "name": "Clarity and Coherence",
+                "importance": 10.0,
+                "raw_score": 8.0,
+                "bsi_score": 9.0,
+                "reason": "Both analyses are well-written and clear, but BSI's use of headings and structured formatting enhances its overall clarity and coherence."
+              }
+            ],
+            "total_scores": {
+              "raw": 6.5,
+              "bsi": 7.7
+            },
+            "bsi_capability_assessment": {
+              "relevance": "high",
+              "realization": "medium",
+              "incremental_value": "medium",
+              "reason": "BSI's capabilities are highly relevant to this analysis, but their realization is partially limited by the availability of explicit evidence and data. Nevertheless, BSI provides incremental value by offering a more systematic and structured approach to analysis."
+            },
+            "incremental_value": "medium",
+            "scale": "0-10",
+            "weight_sum": 100.0
+          },
+          "scores": {
+            "RAW": 0.65,
+            "BSI": 0.77
+          },
+          "failed": false
+        },
+        {
+          "generator": "openrouter",
+          "mode": "bsi",
+          "analysis": {
+            "text": "# تحلیل ارزیابی ارشد شاخص بهمنش (BSI v3.4.2)\n\n**عنوان تحلیل:** ارزیابی چکیده مقاله سفید (Whitepaper) جامع: «شبیه‌سازی کوانتومی برای فیزیک انرژی بالا»  \n**نوع محتوا:** چکیده مقاله سفید برنامه‌ریزی ده‌ساله جامعه فیزیک ذره (Community Planning Whitepaper Abstract)  \n**منبع:** برنامه‌ریزی جامع جامعه فیزیک ذره ایالات متحده (U.S. Decadal Particle Physics Community Planning)  \n**تاریخ تحلیل:** ۲۶ ژوئن ۲۰۲۶  \n**نسخه SOP:** v3.4.2 | **نسخه Ontology:** BIO v1.0\n\n---\n\n## ۱. خلاصه اجرایی (Executive Summary) + Core Claim + امتیاز کلی BSI\n\n**خلاصه اجرایی:**  \nمحتوا در دسترس، چکیده‌ای از یک مقاله سفید (Whitepaper) جامع است که برای اولین بار موضوع «شبیه‌سازی کوانتومی برای فیزیک انرژی بالا (Quantum Simulation for HEP)» را به عنوان یک ستون فقرات استراتژیک در برنامه‌ریزی ده‌ساله جامعه فیزیک ذره ایالات متحده تدوین می‌کند. متن استدلال می‌کند که این زیرفیلد تا سال‌های اخیر در جریان اصلی (Mainstream) محسوب نمی‌شد، اما در اثر پیشرفت‌های چشمگیر در علوم و فناوری‌های اطلاعات کوانتومی (QIS) و سرمایه‌گذاری‌های کلان دولتی و خصوصی، نرخ رشد شگرفتی داشته است. نویسندگان برنامه‌ای پرشور در نظریه، الگوریتم و طراحی هم‌افزا سخت‌افزاری/نرم‌افزاری را برای شبیه‌سازی‌های مرتبط با ماموریت HEP تشریح کرده‌اند و هدف نهایی را شناسایی «وعده‌ها، الزامات، چالش‌ها و راهکارهای بالقوه» برای ده سال آینده و فراتر از آن اعلام می‌دارد.\n\n**Core Claim (ادعای مرکزی):**  \n«شبیه‌سازی کوانتومی، از حاشیه به مرکز استراتژی فیزیک انرژی بالا تبدیل شده است و با تکیه بر پیشرفت‌های QIS و سرمایه‌گذاری‌های گسترده، پتانسیل برون‌سازی برازش کلاسیک (Classical Intractability) در حل مسائل بنیادین طبیعت را از مقیاس‌هایپلنک تا مقیاس‌های کهکشانی دارد؛ بنابراین، برنامه‌ریسی ده‌ساله باید به طور جدی روی هم‌سازگاری نظریه-الگوریتم-سخت‌افزار (Co-design) متمرکز شود.»\n\n**امتیاز کلی BSI (Overall BSI Score): ۷۸ / ۱۰۰**  \n*توضیح امتیاز: متن به عنوان یک «چکیده سند برنامه‌ریزی استراتژیک» (Strategic Planning Abstract) ارزیابی شده است، نه یک مقاله تحقیقی nguyênین (Original Research Article). از آنجا که ادعاهای تجربی، داده‌های کمی، یا نوآوری‌های نظری مستقیم در چکیده وجود ندارد، معیارهای «پشتیبانی تجربی» و «سازگاری روش‌شناختی» در سطح بالایی امتیازدهی نشده‌اند. با این حال، در ابعاد «ارزش معرفت‌شناختی»، «نوآوری مفهومی» و «کاربرد عملی» در سطح سیاست‌گذاری، امتیاز بالایی کسب کرده است.*\n\n---\n\n## ۲. جدول ارزیابی معیارهای اصلی ۷گانه (Ontology BIO v1.0)\n\n| کد معیار | عنوان معیار (فارسی / English) | وزن (Weight) | امتیاز خام (Raw Score) | امتیاز وزنی (Weighted Score) | استدلال ارزیابی (چکیده) |\n| :--- | :--- | :---: | :---: | :---: | :--- |\n| **C1** | **ارزش معرفت‌شناختی (Epistemic Value)** | ۰.۲۰ | ۹۰ | ۱۸.۰ | شناسایی دقیق «شکاف محاسباتی» (Computational Gap) در HEP و پیشنهاد پارادایم کوانتومی به عنوان راه‌حل تکمیلی/جایگزین. تعریف مسئله در مقیاس‌های الأساس تا کهکشان، پهنه معرفت‌شناختی را گسترده می‌کند. |\n| **C2** | **انسجام منطقی (Logical Coherence)** | ۰.۱۵ | ۸۵ | ۱۲.۷۵ | استدلال خطی و منسجم: پیشرفت QIS → سرمایه‌گذاری → رشد زیرفیلد → ضرورت برنامه‌ریزی ده‌ساله. اگرچون مکانیسم‌های علیی میان «سرمایه‌گذاری» و «رشد علمی» در چکیده فرض‌گرفته شده و اثبات نشده است. |\n| **C3** | **سازگاری روش‌شناختی /_methodological Rigor** | ۰.۱۵ | ۶۰ | ۹.۰ | به عنوان چکیده، متدولوژی تحقیق (مثلاً روش‌های هم‌سازگاری، معیارهای ارزیابی الگوریتم‌ها) تشریح نشده است. ادعاهای «برنامه پرشور» و «پیشرفت شگرف» بدون استناد به متریک‌های کمی (Benchmark) 제시 شده‌اند. |\n| **C4** | **پشتیبانی تجربی / داده‌محوری (Empirical Support)** | ۰.۱۵ | ۵۰ | ۷.۵ | هیچ داده تجربی، نتیجه شبیه‌سازی، یا معیار عملکردی (Performance Metric) در چکیده ارائه نشده. استناد به «پیشرفت‌های QIS» و «سرمایه‌گذاری» به عنوان_proxy تجربی ناکافی است. |\n| **C5** | **نوآوری مفهومی (Concept",
+            "source_model": "nvidia/nemotron-3-ultra-550b-a55b:free",
+            "generated_at": "2026-08-14T19:34:06Z"
+          },
+          "metadata": {},
+          "judge_result": {
+            "criteria_source": "llm",
+            "winner": "bsi",
+            "reasoning": "Based on the evaluation criteria, BSI's analysis is stronger in several areas, including main claim validity, contextual understanding, analytical depth, and methodological rigor. While both analyses have their strengths and weaknesses, BSI's overall performance is more comprehensive and systematic, making it the winner in this comparison.",
+            "criteria": [
+              {
+                "name": "Main Claim Validity",
+                "importance": 20.0,
+                "raw_score": 8.0,
+                "bsi_score": 9.0,
+                "reason": "Both analyses identify the main claims of the article, but BSI provides a more detailed and structured breakdown of the claims."
+              },
+              {
+                "name": "Contextual Understanding",
+                "importance": 25.0,
+                "raw_score": 7.0,
+                "bsi_score": 8.0,
+                "reason": "BSI demonstrates a deeper understanding of the article's context, including the significance of the Snowmass process and the growth of the field."
+              },
+              {
+                "name": "Analytical Depth",
+                "importance": 20.0,
+                "raw_score": 6.0,
+                "bsi_score": 8.0,
+                "reason": "BSI provides a more comprehensive analysis of the article's content, including the identification of key challenges and opportunities in the field."
+              },
+              {
+                "name": "Methodological Rigor",
+                "importance": 15.0,
+                "raw_score": 5.0,
+                "bsi_score": 6.0,
+                "reason": "BSI demonstrates a more systematic and structured approach to analysis, including the use of explicit criteria and evaluations."
+              },
+              {
+                "name": "Evidence-Based Reasoning",
+                "importance": 10.0,
+                "raw_score": 4.0,
+                "bsi_score": 5.0,
+                "reason": "BSI provides more explicit references to evidence and data to support its claims, although both analyses could benefit from more extensive use of empirical evidence."
+              },
+              {
+                "name": "Clarity and Coherence",
+                "importance": 10.0,
+                "raw_score": 8.0,
+                "bsi_score": 9.0,
+                "reason": "Both analyses are well-written and clear, but BSI's use of headings and structured formatting enhances its overall clarity and coherence."
+              }
+            ],
+            "total_scores": {
+              "raw": 6.5,
+              "bsi": 7.7
+            },
+            "bsi_capability_assessment": {
+              "relevance": "high",
+              "realization": "medium",
+              "incremental_value": "medium",
+              "reason": "BSI's capabilities are highly relevant to this analysis, but their realization is partially limited by the availability of explicit evidence and data. Nevertheless, BSI provides incremental value by offering a more systematic and structured approach to analysis."
+            },
+            "incremental_value": "medium",
+            "scale": "0-10",
+            "weight_sum": 100.0
+          },
+          "scores": {
+            "RAW": 0.65,
+            "BSI": 0.77
+          },
+          "failed": false
+        }
+      ]
+    },
+    {
+      "article": {
+        "title": "Probing tripartite entanglement and coherence dynamics in pure and mixed independent classical environments",
+        "abstract": "Quantum information processing exploits non-local functionality that has led to significant breakthroughs in the successful deployment of quantum mechanical protocols. In this regard, we address the dynamics of entanglement and coherence for three non-interacting qubits initially prepared as maximally entangled GHZ-like state coupled with independent classical environments. Two different Gaussian noises in pure and mixed noisy situations, namely, pure power-law noise, pure fractional Gaussian noise, power-law noise maximized and fractional Gaussian noise maximized cases are assumed to characterize the environments. With the help of time-dependent entanglement witnesses, purity, and decoherence measures, within the full range of parameters, we show that the current mixed noise cases are more detrimental than pure ones where entanglement and coherence are found short-lived. The power-law noise phase, in particular, appears to be more flexible and exploitable for long-term preservation effects. In contrast, we find that in both pure and mixed noise cases, where entanglement and coherence degrade at a relatively high rate, there is no ultimate solution for avoiding the detrimental dephasing effects of fractional Gaussian noise. The three-qubit state becomes disentangled and decoherent within independent classical environments driven by both pure and mixed Gaussian noises, either in long or short interaction time. In addition, due to the lack of the entanglement revival phenomenon, there is no information exchange between the system and the environment. The three-qubit GHZ-like states have thus been realized to be an excellent resource for long enough quantum correlations, coherence, and quantum information preservation in classical independent channels driven by pure power-law noise with extremely low parameter values.",
+        "full_text": null,
+        "doi": null,
+        "url": "http://arxiv.org/abs/2107.11259v1",
+        "input_quality": null
+      },
+      "cells": [
+        {
+          "generator": "openrouter",
+          "mode": "raw",
+          "analysis": {
+            "text": "**Article Analysis**\n\n**System & Scope**\n*   **System:** Three non-interacting qubits initialized in a maximally entangled GHZ-like state.\n*   **Dynamics:** Local dephasing induced by *independent classical environments* (zero-temperature, non-dissipative).\n*   **Noise Models:** Four distinct Gaussian noise configurations characterized by power spectral densities:\n    1.  Pure Power-Law Noise (PLN)\n    2.  Pure Fractional Gaussian Noise (fGN)\n    3.  Mixed Power-Law Noise Maximized (PLNM)\n    4.  Mixed Fractional Gaussian Noise Maximized (fGNM)\n*   **Tools:** Time-dependent entanglement witnesses, state purity, and $l_1$-norm coherence measures.\n\n**Main Claims & Findings**\n1.  **Mixed vs. Pure Noise:** Mixed noise environments (PLNM, fGNM) are strictly more detrimental to quantum correlations than their pure counterparts (PLN, fGN), resulting in faster entanglement sudden death (ESD) and coherence decay.\n2.  **Noise-Type Hierarchy:**\n    *   **Power-Law Noise (PLN):** Identified as the most \"flexible and exploitable\" environment. Long-term preservation of entanglement and coherence is achievable *only* under pure PLN with extremely low power-law exponent parameters.\n    *   **Fractional Gaussian Noise (fGN):** Universally destructive. Entanglement and coherence degrade at high rates in both pure and mixed forms; no parameter regime avoids rapid disentanglement/decoherence.\n3.  **Irreversibility & Memory Effects:** No entanglement revival occurs in any scenario. This indicates a strictly Markovian (memoryless) dynamic—no information backflow from environment to system—regardless of the noise color or mixture.\n4.  **Ultimate Fate:** The tripartite system inevitably becomes fully separable (disentangled) and incoherent in all four noise models, differing only in the timescale (short vs. long interaction time).\n\n**Contribution**\n*   Provides a comparative, full-parameter characterization of tripartite entanglement/coherence dynamics under *classical* Gaussian noise, distinguishing between pure and mixed spectral densities.\n*   Establishes a clear hierarchy of environmental \"hostility\": Pure PLN (low exponent) $\\ll$ Pure fGN $\\approx$ Mixed PLN $\\ll$ Mixed fGN.\n*   Demonstrates that GHZ-like states serve as robust resources *exclusively* in pure PLN channels with specific low-parameter tuning; they offer no protection against fGN-driven dephasing.\n*   Confirms the absence of non-Markovian memory effects (revivals) for independent classical dephasing channels across these specific noise spectra.",
+            "source_model": "nvidia/nemotron-3-ultra-550b-a55b:free",
+            "generated_at": "2026-08-15T09:50:25Z"
+          },
+          "metadata": {},
+          "judge_result": {
+            "criteria_source": "llm",
+            "winner": "raw",
+            "reasoning": "The RAW analysis provides a more detailed and accurate explanation of the system and dynamics, as well as the effects of different noise models. The BSI analysis provides a more concise and organized overview of the research, but may lack some of the detail and clarity of the RAW analysis.",
+            "criteria": [
+              {
+                "name": "Clear explanation of the system and dynamics",
+                "importance": 20.0,
+                "raw_score": 8.0,
+                "bsi_score": 7.0,
+                "reason": "The RAW analysis provides a more detailed and accurate explanation of the system and dynamics."
+              },
+              {
+                "name": "Accuracy of noise models and their effects",
+                "importance": 20.0,
+                "raw_score": 9.0,
+                "bsi_score": 8.0,
+                "reason": "The RAW analysis provides a more accurate description of the different noise models and their effects."
+              },
+              {
+                "name": "Insight into the hierarchy of environmental hostility",
+                "importance": 15.0,
+                "raw_score": 8.0,
+                "bsi_score": 7.0,
+                "reason": "The RAW analysis provides more insight into the hierarchy of environmental hostility."
+              },
+              {
+                "name": "Clarity of contributions and implications",
+                "importance": 15.0,
+                "raw_score": 8.0,
+                "bsi_score": 7.0,
+                "reason": "The RAW analysis provides a clearer explanation of the contributions and implications of the research."
+              },
+              {
+                "name": "Use of relevant analytical tools and measures",
+                "importance": 10.0,
+                "raw_score": 9.0,
+                "bsi_score": 8.0,
+                "reason": "The RAW analysis uses more relevant analytical tools and measures."
+              },
+              {
+                "name": "Discussion of memory effects and irreversibility",
+                "importance": 10.0,
+                "raw_score": 8.0,
+                "bsi_score": 7.0,
+                "reason": "The RAW analysis provides a more detailed discussion of memory effects and irreversibility."
+              },
+              {
+                "name": "Overall coherence and organization",
+                "importance": 10.0,
+                "raw_score": 8.0,
+                "bsi_score": 7.0,
+                "reason": "The RAW analysis is more coherent and well-organized."
+              }
+            ],
+            "total_scores": {
+              "raw": 8.3,
+              "bsi": 7.3
+            },
+            "bsi_capability_assessment": {
+              "relevance": "high",
+              "realization": "medium",
+              "incremental_value": "medium",
+              "reason": "The BSI analysis provides a clear and concise overview of the research, but may not fully realize the potential of the BSI framework."
+            },
+            "incremental_value": "medium",
+            "scale": "0-10",
+            "weight_sum": 100.0
+          },
+          "scores": {
+            "RAW": 0.83,
+            "BSI": 0.73
+          },
+          "failed": false
+        },
+        {
+          "generator": "openrouter",
+          "mode": "bsi",
+          "analysis": {
+            "text": "**عنوان تحلیل:** تحلیل ارزیابی محتوای مقاله علمی: «بررسی درهم‌تانی سه‌بخشی و دینامیک پیوستگی در محیط‌های کلاسیک مستقل خالص و مختلط»  \n**مشخصات مقاله:**  \n- **عنوان اصلی:** Probing tripartite entanglement and coherence dynamics in pure and mixed independent classical environments  \n- **نویسندگان:** (نام نویسندگان در ورودی ارائه نشده است)  \n- **موضوع اصلی:** فیزیک کوانتومی، نظریه اطلاعات کوانتومی، دینامیک سیستم‌های باز، نویز کلاسیک گاوسی  \n- **نوع محتوا:** چکیده مقاله پژوهشی (Abstract)  \n\n---\n\n### ۱. خلاصه اجرایی (Executive Summary) + Core Claim + امتیاز کلی BSI\n\n**Core Claim (ادعای هسته):**  \nمقاله حاضر دینامیک درهم‌تانی (Entanglement) و پیوستگی (Coherence) برای سه کیوبیت غیرپیرامد (Non-interacting) در حالت اولیه GHZ-like را در 굴곡 محیط‌های کلاسیک مستقل با نویزهای گاوسی دو نوع (نویز قانون توانی Power-law و نویز گاوسی کسری Fractional Gaussian Noise - fGn) و در دو سناریوی «خالص» (Pure) و «مخلوط» (Mixed/Maximized) بررسی می‌کند. ادعای اصلی این است که:  \n۱. سناریوهای نویز مخلوط (Mixed) تخریبی‌تر از سناریوهای خالص هستند و درهم‌تانی و پیوستگی در آن‌ها کوتاه‌مدت (Short-lived) هستند.  \n۲. فاز نویز قانون توانی (Power-law phase) انعطاف‌پذیرتر است و برای اثرات حفظ طولانی‌مدت قابل استثمار است.  \n۳. در هر دو حالت خالص و مخلوط، نویز گاوسی کسری (fGn) راه‌حل نهایی برای پرهیز از اثرات مخرب فازهایازی (Dephasing) ندارد و حالت سه‌کیوبیت درهم‌تانی‌زدایی (Disentangled) و پیوستگی‌زدایی (Decoherent) می‌شود.  \n۴. پدیده احیای درهم‌تانی (Entanglement Revival) مشاهده نمی‌شود، بنابراین تبادل اطلاعات بین سیستم و محیط وجود ندارد.  \n۵. حالت‌های GHZ-like منبع عالی برای حفظ همبستگی‌های کوانتومی طولانی‌مدت در کانال‌های کلاسیک مستقل تحت نویز قانون توانی خالص با مقادیر پارامترهای بسیار پایین هستند.\n\n**امتیاز کلی BSI (Overall BSI Score): ۷.۲ / ۱۰**  \n*توضیح: مقاله از نظر روش‌شناسی و تمایزگذاری تجربی",
+            "source_model": "nvidia/nemotron-3-ultra-550b-a55b:free",
+            "generated_at": "2026-08-14T19:35:27Z"
+          },
+          "metadata": {},
+          "judge_result": {
+            "criteria_source": "llm",
+            "winner": "raw",
+            "reasoning": "The RAW analysis provides a more detailed and accurate explanation of the system and dynamics, as well as the effects of different noise models. The BSI analysis provides a more concise and organized overview of the research, but may lack some of the detail and clarity of the RAW analysis.",
+            "criteria": [
+              {
+                "name": "Clear explanation of the system and dynamics",
+                "importance": 20.0,
+                "raw_score": 8.0,
+                "bsi_score": 7.0,
+                "reason": "The RAW analysis provides a more detailed and accurate explanation of the system and dynamics."
+              },
+              {
+                "name": "Accuracy of noise models and their effects",
+                "importance": 20.0,
+                "raw_score": 9.0,
+                "bsi_score": 8.0,
+                "reason": "The RAW analysis provides a more accurate description of the different noise models and their effects."
+              },
+              {
+                "name": "Insight into the hierarchy of environmental hostility",
+                "importance": 15.0,
+                "raw_score": 8.0,
+                "bsi_score": 7.0,
+                "reason": "The RAW analysis provides more insight into the hierarchy of environmental hostility."
+              },
+              {
+                "name": "Clarity of contributions and implications",
+                "importance": 15.0,
+                "raw_score": 8.0,
+                "bsi_score": 7.0,
+                "reason": "The RAW analysis provides a clearer explanation of the contributions and implications of the research."
+              },
+              {
+                "name": "Use of relevant analytical tools and measures",
+                "importance": 10.0,
+                "raw_score": 9.0,
+                "bsi_score": 8.0,
+                "reason": "The RAW analysis uses more relevant analytical tools and measures."
+              },
+              {
+                "name": "Discussion of memory effects and irreversibility",
+                "importance": 10.0,
+                "raw_score": 8.0,
+                "bsi_score": 7.0,
+                "reason": "The RAW analysis provides a more detailed discussion of memory effects and irreversibility."
+              },
+              {
+                "name": "Overall coherence and organization",
+                "importance": 10.0,
+                "raw_score": 8.0,
+                "bsi_score": 7.0,
+                "reason": "The RAW analysis is more coherent and well-organized."
+              }
+            ],
+            "total_scores": {
+              "raw": 8.3,
+              "bsi": 7.3
+            },
+            "bsi_capability_assessment": {
+              "relevance": "high",
+              "realization": "medium",
+              "incremental_value": "medium",
+              "reason": "The BSI analysis provides a clear and concise overview of the research, but may not fully realize the potential of the BSI framework."
+            },
+            "incremental_value": "medium",
+            "scale": "0-10",
+            "weight_sum": 100.0
+          },
+          "scores": {
+            "RAW": 0.83,
+            "BSI": 0.73
+          },
+          "failed": false
+        }
+      ]
+    }
+  ],
+  "source_url": "https://github.com/ibstrade11-source/behmanesh-index-prompt/blob/main/MASTER_PROMPT_BSI_v3.4.2.md",
+  "run_metadata": {
+    "tool_version": "0.1.0",
+    "git_commit": "2a0eed8408670c11a2af47ea82640beba7f5a8e3",
+    "git_dirty": true,
+    "run_timestamp_utc": "2026-08-15T12:08:04Z",
+    "methodology_note": "Scores/judgements come from an independent LLM judge (see comparison/judge.py) instructed not to reuse BSI's own D1-D7/EIG vocabulary and to choose its own evaluation criteria. If no judge model is available or its response cannot be parsed, the run falls back to a simple keyword-presence heuristic -- the stored record's own 'criteria_source' field ('llm' vs 'heuristic_fallback') always says honestly which one produced a given result. Neither path is a validated measurement of analytical quality until checked against independent human judgement on a representative sample.",
+    "provider_name": null,
+    "model_version": null,
+    "temperature": null,
+    "max_tokens": null,
+    "prompt_version": null,
+    "framework_name": "bsi"
+  }
+}

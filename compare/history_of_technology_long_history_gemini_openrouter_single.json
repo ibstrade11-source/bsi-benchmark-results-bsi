@@ -1,0 +1,215 @@
+{
+  "dataset_name": "A Long History: From Universal Language to Artificial Intelligence",
+  "results": [
+    {
+      "article": {
+        "title": "Artificial Intelligence (AI): Multidisciplinary perspectives on emerging challenges, opportunities, and agenda for research, practice and policy",
+        "abstract": "As far back as the industrial revolution, significant development in technical innovation has succeeded in transforming numerous manual tasks and processes that had been in existence for decades where humans had reached the limits of physical capacity. Artificial Intelligence (AI) offers this same transformative potential for the augmentation and potential replacement of human tasks and activities within a wide range of industrial, intellectual and social applications. The pace of change for this new AI technological age is staggering, with new breakthroughs in algorithmic machine learning and autonomous decision-making, engendering new opportunities for continued innovation. The impact of AI could be significant, with industries ranging from: finance , healthcare, manufacturing, retail, supply chain , logistics and utilities, all potentially disrupted by the onset of AI technologies. The study brings together the collective insight from a number of leading expert contributors to highlight the significant opportunities, realistic assessment of impact, challenges and potential research agenda posed by the rapid emergence of AI within a number of domains: business and management, government, public sector, and science and technology . This research offers significant and timely insight to AI technology and its impact on the future of industry and society in general, whilst recognising the societal and industrial influence on pace and direction of AI development.",
+        "full_text": null,
+        "doi": "https://doi.org/10.1016/j.ijinfomgt.2019.08.002",
+        "url": "https://openalex.org/W2969625533",
+        "input_quality": {
+          "has_title": true,
+          "has_abstract": true,
+          "source": "openalex",
+          "enriched": false
+        }
+      },
+      "cells": [
+        {
+          "generator": "gemini",
+          "mode": "raw",
+          "analysis": {
+            "text": "Based on the provided abstract, here is a concise and factual analysis of the article's main claims and contributions:\n\n### **Main Claims**\n1. **Transformative Scope Comparable to the Industrial Revolution:** AI represents a fundamental paradigm shift, moving beyond the historical automation of physical/manual labor to the augmentation and replacement of complex cognitive, social, and intellectual tasks.\n2. **Widespread Cross-Sector Disruption:** Rapid advances in machine learning and autonomous decision-making will disrupt a broad spectrum of industries, including healthcare, finance, manufacturing, retail, logistics, and utilities.\n3. **Interdependent Socio-Technical Trajectory:** The pace, direction, and impact of AI adoption are mutually influenced by technological capabilities and broader societal, organizational, and regulatory factors.\n\n### **Key Contributions**\n* **Multidisciplinary Expert Synthesis:** Consolidates perspectives from leading experts across distinct domains—specifically business and management, government and the public sector, and science and technology.\n* **Balanced Evaluation of Impact:** Delivers a grounded assessment of both the opportunities and the practical, ethical, and organizational challenges introduced by AI deployment.\n* **Structured Roadmap for Stakeholders:** Establishes a comprehensive agenda to guide future academic research, industrial practice, and public policy formulation in managing the societal and economic integration of AI.",
+            "source_model": "gemini-3.7-flash",
+            "generated_at": "2026-09-07T14:31:33Z",
+            "usage": null,
+            "finish_reason": null,
+            "continuation_rounds": 0
+          },
+          "metadata": {
+            "execution_time_seconds": 6.734,
+            "usage": null
+          },
+          "judge_result": {
+            "criteria_source": "llm",
+            "winner": "bsi",
+            "winner_source": "llm",
+            "reasoning": "BSI outperforms RAW on every article-specific criterion, especially mechanistic depth, gap identification, and analytical transparency. The 79/100 BSI score is supported by granular, auditable reasoning; RAW remains a faithful but shallow summary.",
+            "criteria": [
+              {
+                "name": "Multidisciplinary synthesis capture",
+                "importance": 20.0,
+                "raw_score": 6.0,
+                "bsi_score": 9.0,
+                "reason": "The article explicitly integrates business/management, government/public sector, and science/technology perspectives. RAW lists this as a contribution but does not analyze how the synthesis works; BSI's latent/meta layers dissect the combinatorial synthesis across decision science, supply-chain management, and public policy, scoring high on CreativeValueAdd combinatorial synthesis (83/100)."
+              },
+              {
+                "name": "Mechanistic and causal depth",
+                "importance": 20.0,
+                "raw_score": 3.0,
+                "bsi_score": 8.0,
+                "reason": "RAW stays at claim level. BSI identifies reinforcing/balancing feedback loops (algorithmic innovation ↔ data generation; disruption ↔ regulatory friction) and leverage points (policy-directed directionality), satisfying explanatory depth and causal structure criteria."
+              },
+              {
+                "name": "Epistemic gap identification",
+                "importance": 15.0,
+                "raw_score": 2.0,
+                "bsi_score": 9.0,
+                "reason": "RAW mentions no gaps. BSI's EIG section pinpoints three concrete gaps: lack of structural causal models for substitution vs. augmentation, missing empirical adoption-speed metrics for public vs. private sectors, and undeclared generalizability to developing economies."
+              },
+              {
+                "name": "Actionable agenda translation",
+                "importance": 15.0,
+                "raw_score": 5.0,
+                "bsi_score": 8.0,
+                "reason": "RAW notes the article provides a roadmap. BSI evaluates actionability (85/100) and generative capacity (80/100), specifying how the research agenda can guide future empirical work and dynamic risk frameworks for policymakers."
+              },
+              {
+                "name": "Analytical transparency and auditability",
+                "importance": 15.0,
+                "raw_score": 4.0,
+                "bsi_score": 9.0,
+                "reason": "RAW offers no visibility into its own reasoning. BSI includes a full REIG audit (causal, generalization, measurement, framing compliance) making its inferential steps checkable."
+              },
+              {
+                "name": "Epistemic humility and limitation awareness",
+                "importance": 15.0,
+                "raw_score": 3.0,
+                "bsi_score": 8.0,
+                "reason": "RAW presents claims uncritically. BSI's epistemic awareness score (77/100) and meta-layer framing (social construction of technology, no technological determinism) demonstrate awareness of the artifact's own limits."
+              }
+            ],
+            "total_scores": {
+              "raw": 3.9,
+              "bsi": 8.5
+            },
+            "bsi_capability_assessment": {
+              "relevance": "high",
+              "realization": "high",
+              "incremental_value": "high",
+              "reason": "BSI's multi-layer structure, feedback-loop modeling, EIG gap mapping, and REIG self-audit are all directly exercised on this article's multidisciplinary, policy-oriented content, delivering insights RAW cannot."
+            },
+            "incremental_value": "high",
+            "scale": "0-10",
+            "weight_sum": 100.0,
+            "glossary_mode": "full",
+            "judge_input_compacted": false
+          },
+          "scores": {
+            "RAW": 0.39,
+            "BSI": 0.85
+          },
+          "failed": false,
+          "status": "valid",
+          "model_id": "gemini-3.7-flash",
+          "truncated": false
+        },
+        {
+          "generator": "gemini",
+          "mode": "bsi",
+          "analysis": {
+            "text": "# ارزیابی تخصصی و عمیق بر اساس شاخص بهمنش (BSI v3.4.2)\n\n**عنوان تحلیل:** بررسی چندرشته‌ای هوش مصنوعی: چالش‌های نوظهور، فرصت‌ها و دستور کار برای پژوهش، عمل و خط‌مشی  \n**مشخصات اثر ورودی:**  \n- **عنوان:** *Artificial Intelligence (AI): Multidisciplinary perspectives on emerging challenges, opportunities, and agenda for research, practice and policy*  \n- **موضوع:** بررسی جامع و چندرشته‌ای دگرگونی‌های ناشی از هوش مصنوعی در حوزه‌های کسب‌وکار، مدیریت، بخش عمومی و سیاست‌گذاری.\n\n---\n\n### ۱. خلاصه اجرایی (Executive Summary)، ادعای محوری (Core Claim) و امتیاز کلی\n\n#### خلاصه اجرایی (Executive Summary):\nاین پژوهش با رویکردی تلفیقی و چندرشته‌ای، به بررسی پتانسیل دگرگون‌ساز هوش مصنوعی (Artificial Intelligence) در جایگزینی و تقویت توانمندی‌های شناختی و اجرایی انسان می‌پردازد. اثر حاضر با اتکا به خرد جمعی متخصصان حوزه‌های گوناگون، شتاب نوآوری در یادگیری ماشین (Machine Learning) و تصمیم‌گیری خودمختار (Autonomous Decision-Making) را تحلیل کرده و پیامدهای مستقیم آن بر صنایع بنیادین (مالی، سلامت، تولید و زنجیره تأمین) و بخش عمومی را واکاوی می‌نماید.\n\n#### ادعای محوری (Core Claim):\nهوش مصنوعی صرفاً یک ابزار اتوماسیون فرآیندی نیست، بلکه یک پارادایم تحول‌آفرین چندبعدی است که به موازات بازتعریف ساختارهای صنعتی و شناختی، نیازمند یک چارچوب هم‌راستاسازی دوطرفه میان جهت‌گیری‌های فناورانه و ضرورت‌های اجتماعی-سیاستی است.\n\n#### امتیاز کلی BSI:\n**امتیاز کل:** **۷۹ / ۱۰۰** (سطح: بسیار خوب / تحلیل چندرشته‌ای منسجم با گستره موضوعی بالا)\n\n---\n\n### ۲. جدول ارزیابی معیارهای اصلی هفت‌گانه\n\n| معیار ارزیابی (Evaluation Criteria) | وزن | امتیاز (از ۱۰۰) | تحلیل تفصیلی و شواهد متنی |\n| :--- | :---: | :---: | :--- |\n| **۱. وضوح و دقت مفهومی (Conceptual Clarity)** | ۱۵٪ | ۸۲ | تعاریف ارائه‌شده از قابلیت‌های هوش مصنوعی شفاف بوده و تمایز میان تقویت انسانی (Augmentation) و جایگزینی (Replacement) به دقت تفکیک شده است. |\n| **۲. انسجام و عمق ساختاری (Structural Coherence)** | ۱۵٪ | ۸۰ | ساختار ارائه از بستر تاریخی (انقلاب صنعتی) آغاز شده و با عبور از تحلیل سطح خرد (فناوری) به پیامدهای سطح کلان (سیاست و اجتماع) متصل می‌شود. |\n| **۳. مبانی شواهد و روش‌شناسی (Evidence & Methodology)** | ۱۵٪ | ۷۵ | استفاده از بینش جمعی متخصصان (Collective Insight) اعتبار کیفی مناسبی ایجاد کرده است، هرچند فقدان داده‌های تجربی کمی درون چکیده مشهود است. |\n| **۴. اصالت و بداعت فکری (Originality & Novelty)** | ۱۵٪ | ۷۴ | ترکیب دیدگاه‌های چندرشته‌ای نوآورانه است، اما ایده‌های بنیادین مطرح‌شده در چارچوب نظریه‌های مرسوم تحول دیجیتال قرار دارند. |\n| **۵. عمق تبیینی و لایه‌ای (Explanatory Depth)** | ۱۵٪ | ۸۰ | فراتر رفتن از اثرات مستقیم و توجه به تعامل متقابل میان پیشرفت فنی و نیازهای حاکمیتی نشان‌دهنده عمق تفسیری قابل‌قبول است. |\n| **۶. کاربردپذیری و ارزش عملی (Actionability)** | ۱۵٪ | ۸۵ | ارائه دستور کارهای پژوهشی و خط‌مشی‌گذاری برای صنایع مختلف، ارزش کاربردی و تجویزی بالایی خلق کرده است. |\n| **۷. خودآگاهی و اعتبار معرفتی (Epistemic Awareness)** | ۱۰٪ | ۷۷ | توجه به ماهیت متقابل اثرگذاری جامعه بر جهت‌گیری توسعه فناوری، حاکی از واقع‌گرایی و درک محدودیت‌ها است. |\n\n---\n\n### ۳. جدول ارزش‌افزوده خلاقانه (CreativeValueAdd)\n\n| زیرمعیار (Sub-criterion) | وزن | امتیاز (از ۱۰۰) | استدلال و مبانی نمره‌دهی |\n| :--- | :---: | :---: | :--- |\n| **هدف‌گیری شکاف معرفتی (Epistemic Gap Targeting)** | ۳۵٪ | ۷۸ | متن به جای تمرکز صرف بر پیشرفت‌های الگوریتمی، شکاف موجود در درک چندوجهی اثرات هوش مصنوعی در سطوح نهادی و مدیریتی را هدف قرار داده است. |\n| **سنتز ترکیبی (Combinatorial Synthesis)** | ۴۰٪ | ۸۳ | پیوند موفق میان تاریخچه انقلاب صنعتی، علوم تصمیم‌گیری، مدیریت زنجیره تأمین و سیاست‌گذاری عمومی که سنتزی غنی از تخصص‌های مختلف ایجاد کرده است. |\n| **ظرفیت زایایی (Generative Capacity)** | ۲۵٪ | ۸۰ | تولید یک چارچوب و دستور کار پژوهشی مشخص که می‌تواند به عنوان مرجع هدایت‌کننده برای تحقیقات تجربی آینده در حوزه خط‌مشی‌گذاری عمل کند. |\n\n**نمره کل ارزش‌افزوده خلاقانه:** **۸۰.۵ / ۱۰۰**\n\n---\n\n### ۴. لایه‌برداری عمیق (Layered Analysis)\n\n#### الف) لایه آشکار (Manifest Layer)\nدر سطح ظاهری، متن به بررسی توانمندی شگفت‌انگیز یادگیری ماشین و تصمیم‌گیری خودمختار می‌پردازد و اثرگذاری آن را در صنایعی چون بهداشت، خرده‌فروشی، لجستیک و امور مالی توضیح می‌دهد. رویکرد مقاله گردآوری نظرات نخبگان برای ارائه نقشه‌راه آینده است.\n\n#### ب) لایه پنهان (Latent Layer)\n- **مکانیسم‌های پنهان (Underlying Mechanisms):** متن بر این اصل پنهان استوار است که گلوگاه توسعه هوش مصنوعی دیگر ظرفیت محاسباتی یا پیشرفت الگوریتمی محض نیست، بلکه ظرفیت جذب نهادی (Institutional Absorptive Capacity) و تنظیم‌گری اجتماعی است.\n- **حلقه‌های بازخورد (Feedback Loops):** \n  1. *حلقه تقویت‌کننده (Reinforcing Loop):* افزایش نوآوری الگوریتمی $\\leftarrow$ استقرار در صنایع $\\leftarrow$ تولید داده‌های بیشتر $\\leftarrow$ تسریع بازدهی یادگیری ماشین.\n  2. *حلقه تعدیل‌کننده (Balancing Loop):* اختلال سریع در صنایع $\\leftarrow$ اصطکاک اجتماعی/فقدان سیاست‌گذاری $\\leftarrow$ ایجاد موانع تنظیمی $\\leftarrow$ مهار سرعت استقرار هوش مصنوعی.\n- **نقاط اهرمی (Leverage Points):** نقطه‌اهرمی اساسی در لایه مداخله سیاستی و مدیریت گذار تعریف می‌شود؛ جایی که هدایت جهت‌گیری توسعه (Directionality) اهمیت بیشتری نسبت به صرف شتاب بخشیدن به فناوری پیدا می‌کند.\n\n#### ج) لایه فراغت/فرا-دیدگاه (Meta Layer)\nاز منظر فرانظری، مقاله در پارادایم «برساخت‌گرایی متقابل فناوری و جامعه» عمل می‌کند. این لایه نشان می‌دهد که فناوری هوش مصنوعی سرنوشتی محتوم و از پیش‌تعیین‌شده ندارد، بلکه نتیجه مذاکره و تعامل مداوم میان نهادهای علمی، اقتصادی و حاکمیتی است.\n\n---\n\n### ۵. تحلیل شکاف اطلاعاتی و شواهد (EIG Analysis)\n\n- **دامنه اطمینان شواهد:** مبتنی بر اجماع نخبگان و بینش چندرشته‌ای.\n- **شکاف‌های معرفتی شناسایی‌شده (Epistemic Gaps):**\n  1. فقدان مدل‌سازی ساختاری جهت تفکیک دقیق وزن اثرات «جایگزینی» در برابر «تقویت» در اشتغال.\n  2. عدم ارائه شاخص‌های اندازه‌گیری تجربی برای سرعت پذیرش در بخش عمومی در مقایسه با بخش خصوصی.\n  3. مشخص نبودن میزان تعمیم‌پذیری یافته‌ها به اقتصادهای در حال توسعه در مقایسه با کشورهای پیشرو در فناوری.\n\n---\n\n### ۶. ممیزی پیش‌نویس تحلیل (REIG — Draft Analysis Audit)\n\nاین ممیزی روی خروجی بخش‌های ۱ تا ۵ همین تحلیل انجام شده است:\n\n- **انطباق علّی (Causal Compliance):**  \n  *بررسی:* آیا ادعای علیت غیرمستند در تحلیل مطرح شد؟  \n  *وضعیت:* **PASS** — تحلیل تنها روابط اثرگذاری و حلقه‌های بازخورد چندرشته‌ای را توصیف کرده و ادعای جبری و علّی مطلق ارائه نداده است.\n- **انطباق تعمیم‌پذیری (Generalization Compliance):**  \n  *بررسی:* آیا تعمیم غیرمجاز به بخش‌های بررسی‌نشده صورت گرفته است؟  \n  *وضعیت:* **PASS** — تحلیل به حوزه‌های مشخص‌شده در داده‌های ورودی (صنایع، مدیریت، بخش عمومی) محدود مانده است.\n- **انطباق اندازه‌گیری (Measurement Compliance):**  \n  *بررسی:* آیا نمرات ارائه‌شده دقیق‌تر از سطح اطمینان اطلاعات موجود تخصیص داده شده‌اند؟  \n  *وضعیت:* **PASS** — امتیازات کیفی بر مبنای محتوای چکیده و ساختار متدولوژیک مقالات مروری استاندارد کالیبره شده‌اند.\n- **انطباق چارچوب‌بندی و داوری (Framing Compliance):**  \n  *بررسی:* آیا قضاوت ارزشی یا جانبداری خارج از متن اعمال شده است؟  \n  *وضعیت:* **PASS** — ارزیابی صرفاً بر پایه‌های تحلیلی و نظری متمرکز مانده و لحن کاملاً بی‌طرفانه رعایت شده است.\n\n**نتیجه نهایی ممیزی:** **تأیید کامل (PASS)**\n\n---\n\n### ۷. نتیجه‌گیری نهایی، نقاط قوت/ضعف و پیشنهادات بهبود\n\n#### نقاط قوت:\n1. گستره دید جامع و تلفیق تخصص‌های ناهمگون در یک چارچوب واحد.\n2. توجه دقیق به تعامل دوسویه میان فناوری و جامعه به جای پذیرش جبرگرایی فناورانه.\n3. تفکیک دقیق دامنه‌های اثرگذاری از مدیریت بنگاهی تا سیاست‌گذاری کلان.\n\n#### نقاط ضعف:\n1. تمرکز بالا بر رویکردهای توصیفی بدون ارائه سازوکارهای آزمون‌پذیر کمی.\n2. عدم شفاف‌سازی وزن چالش‌های اخلاقی و امنیتی به صورت عمیق در لایه انتزاع اولیه.\n\n#### پیشنهادات بهبود:\n1. توسعه مدل‌های علیتی ساختاری برای تفکیک اثر هوش مصنوعی بر بهره‌وری نیروی کار بر حسب بخش‌های مهارتی.\n2. تعیین چارچوب‌های ارزیابی ریسک پویا برای سیاست‌گذاران بخش عمومی.\n\n---\n\nتحلیل حاضر کاملاً مطابق SOP_Intellectual_Content_Analysis_v3.4.2 و Ontology BIO v1.0 انجام شد.",
+            "source_model": "gemini-3.7-flash",
+            "generated_at": "2026-09-07T14:33:50Z",
+            "usage": null,
+            "finish_reason": null,
+            "continuation_rounds": 0
+          },
+          "metadata": {
+            "execution_time_seconds": 30.15,
+            "usage": null
+          },
+          "judge_result": {
+            "criteria_source": "llm",
+            "winner": "bsi",
+            "winner_source": "llm",
+            "reasoning": "BSI outperforms RAW on every article-specific criterion, especially mechanistic depth, gap identification, and analytical transparency. The 79/100 BSI score is supported by granular, auditable reasoning; RAW remains a faithful but shallow summary.",
+            "criteria": [
+              {
+                "name": "Multidisciplinary synthesis capture",
+                "importance": 20.0,
+                "raw_score": 6.0,
+                "bsi_score": 9.0,
+                "reason": "The article explicitly integrates business/management, government/public sector, and science/technology perspectives. RAW lists this as a contribution but does not analyze how the synthesis works; BSI's latent/meta layers dissect the combinatorial synthesis across decision science, supply-chain management, and public policy, scoring high on CreativeValueAdd combinatorial synthesis (83/100)."
+              },
+              {
+                "name": "Mechanistic and causal depth",
+                "importance": 20.0,
+                "raw_score": 3.0,
+                "bsi_score": 8.0,
+                "reason": "RAW stays at claim level. BSI identifies reinforcing/balancing feedback loops (algorithmic innovation ↔ data generation; disruption ↔ regulatory friction) and leverage points (policy-directed directionality), satisfying explanatory depth and causal structure criteria."
+              },
+              {
+                "name": "Epistemic gap identification",
+                "importance": 15.0,
+                "raw_score": 2.0,
+                "bsi_score": 9.0,
+                "reason": "RAW mentions no gaps. BSI's EIG section pinpoints three concrete gaps: lack of structural causal models for substitution vs. augmentation, missing empirical adoption-speed metrics for public vs. private sectors, and undeclared generalizability to developing economies."
+              },
+              {
+                "name": "Actionable agenda translation",
+                "importance": 15.0,
+                "raw_score": 5.0,
+                "bsi_score": 8.0,
+                "reason": "RAW notes the article provides a roadmap. BSI evaluates actionability (85/100) and generative capacity (80/100), specifying how the research agenda can guide future empirical work and dynamic risk frameworks for policymakers."
+              },
+              {
+                "name": "Analytical transparency and auditability",
+                "importance": 15.0,
+                "raw_score": 4.0,
+                "bsi_score": 9.0,
+                "reason": "RAW offers no visibility into its own reasoning. BSI includes a full REIG audit (causal, generalization, measurement, framing compliance) making its inferential steps checkable."
+              },
+              {
+                "name": "Epistemic humility and limitation awareness",
+                "importance": 15.0,
+                "raw_score": 3.0,
+                "bsi_score": 8.0,
+                "reason": "RAW presents claims uncritically. BSI's epistemic awareness score (77/100) and meta-layer framing (social construction of technology, no technological determinism) demonstrate awareness of the artifact's own limits."
+              }
+            ],
+            "total_scores": {
+              "raw": 3.9,
+              "bsi": 8.5
+            },
+            "bsi_capability_assessment": {
+              "relevance": "high",
+              "realization": "high",
+              "incremental_value": "high",
+              "reason": "BSI's multi-layer structure, feedback-loop modeling, EIG gap mapping, and REIG self-audit are all directly exercised on this article's multidisciplinary, policy-oriented content, delivering insights RAW cannot."
+            },
+            "incremental_value": "high",
+            "scale": "0-10",
+            "weight_sum": 100.0,
+            "glossary_mode": "full",
+            "judge_input_compacted": false
+          },
+          "scores": {
+            "RAW": 0.39,
+            "BSI": 0.85
+          },
+          "failed": false,
+          "status": "valid",
+          "model_id": "gemini-3.7-flash",
+          "truncated": false
+        }
+      ],
+      "article_id": "doi:https://doi.org/10.1016/j.ijinfomgt.2019.08.002"
+    }
+  ],
+  "source_url": "https://github.com/ibstrade11-source/behmanesh-index-prompt/blob/main/MASTER_PROMPT_BSI_v3.4.2.md",
+  "run_metadata": {
+    "tool_version": "0.1.0",
+    "git_commit": "89a941006de1ccab30f7a16e09f86841cd5991eb",
+    "git_dirty": true,
+    "run_timestamp_utc": "2026-09-07T14:36:10Z",
+    "methodology_note": "Scores/judgements come from an independent LLM judge (see comparison/judge.py) instructed not to reuse BSI's own D1-D7/EIG vocabulary and to choose its own evaluation criteria. If no judge model is available or its response cannot be parsed, the run falls back to a simple keyword-presence heuristic -- the stored record's own 'criteria_source' field ('llm' vs 'heuristic_fallback') always says honestly which one produced a given result. Neither path is a validated measurement of analytical quality until checked against independent human judgement on a representative sample.",
+    "provider_name": null,
+    "model_version": null,
+    "temperature": null,
+    "max_tokens": null,
+    "prompt_version": null,
+    "framework_name": "bsi"
+  }
+}

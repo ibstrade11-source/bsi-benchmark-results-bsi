@@ -1,0 +1,259 @@
+{
+  "dataset_name": "political science public policy decision making",
+  "results": [
+    {
+      "article": {
+        "title": "American Business, Public Policy, Case-Studies, and Political Theory",
+        "abstract": "Case-Studies of the policy-making process constitute one of the more important methods of political science analysis. Beginning with Schattschneider, Herring, and others in the 1930's, case-studies have been conducted on a great variety of decisions. They have varied in subject-matter and format, in scope and rigor, but they form a distinguishable body of literature which continues to grow year by year. The most recent addition, a book-length study by Raymond Bauer and his associates, stands with Robert A. Dahl's prize-winning Who Governs? (New Haven 1961) as the best yet to appear. With its publication a new level of sophistication has been reached. The standards of research its authors have set will indeed be difficult to uphold in the future. American Business and Public Policy is an analysis of political relationships within the context of a single, well-defined issue—foreign trade. It is an analysis of business attitudes, strategies, communications and, through these, business relationships in politics. The analysis makes use of the best behavioral research techniques without losing sight of the rich context of policies, traditions, and institutions. Thus, it does not, in Dahl's words, exchange relevance for rigor; rather it is standing proof that the two—relevance and rigor—are not mutually exclusive goals.",
+        "full_text": null,
+        "doi": "https://doi.org/10.2307/2009452",
+        "url": "https://openalex.org/W2150459713",
+        "input_quality": {
+          "has_title": true,
+          "has_abstract": true,
+          "source": "openalex",
+          "enriched": false
+        }
+      },
+      "cells": [
+        {
+          "generator": "groq",
+          "mode": "raw",
+          "analysis": {
+            "text": "**Title:** *American Business, Public Policy, Case‑Studies, and Political Theory*  \n**Author(s):** Not specified in the provided text.  \n**Publication Context:** The article appears to be a book review or introductory discussion rather than a primary empirical study.\n\n---\n\n### Main Claims\n\n| Claim | Description |\n|-------|-------------|\n| **Case‑study methodology is central to political science** | The author traces the evolution of case‑study work from Schattschneider and Herring in the 1930s to contemporary studies, highlighting its importance in policy‑making analysis. |\n| **A new benchmark has been set by Bauer et al.** | The text praises a recent book‑length study (Bauer and associates) as “the best yet to appear,” positioning it alongside Dahl’s *Who Governs?* as a high‑standard contribution. |\n| **The field is moving toward greater sophistication** | The author argues that current standards of research quality are “a new level of sophistication” that will be difficult to maintain. |\n| **Business–policy analysis can combine relevance and rigor** | Using foreign trade as a case, the study claims to analyze business attitudes, strategies, and political relationships with rigorous behavioral techniques while preserving contextual richness. |\n| **Relevance and rigor are compatible** | The author counters Dahl’s claim that relevance sacrifices rigor by presenting the foreign‑trade study as evidence that both can be achieved simultaneously. |\n\n---\n\n### Contribution to the Literature\n\n1. **Methodological Reflection**  \n   - The article provides a brief historiography of case‑study work in political science, positioning the discussed study within that trajectory and emphasizing methodological rigor.\n\n2. **Benchmarking Contemporary Work**  \n   - By comparing Bauer et al.’s book to Dahl’s classic, the piece frames contemporary policy analysis as reaching a new “benchmark” in both depth and methodological sophistication.\n\n3. **Empirical Example of Integrated Analysis**  \n   - The foreign‑trade case is used as a concrete illustration of how behavioral research methods can be employed without sacrificing policy relevance, thereby offering a model for future studies that aim to balance these goals.\n\n4. **Theoretical Implication**  \n   - The review implicitly supports a view that political theory and empirical case‑study work need not be mutually exclusive, encouraging scholars to pursue both rigorous methodology and rich contextual analysis.\n\n---\n\n### Overall Assessment\n\n- **Strengths**: Offers a concise overview of the evolution of case‑study methodology, positions a recent study as a methodological benchmark, and argues convincingly for the compatibility of relevance and rigor.\n- **Limitations**: The text is largely a secondary commentary; it does not present new empirical findings or detailed methodological discussion beyond citing the referenced study.\n\nIn sum, the article functions as an evaluative introduction to a landmark case‑study work in American business–policy relations, asserting that contemporary research can achieve high methodological standards while remaining deeply grounded in policy relevance.",
+            "source_model": "openai/gpt-oss-20b",
+            "generated_at": "2026-09-05T20:02:22Z",
+            "usage": {
+              "queue_time": 0.195945353,
+              "prompt_tokens": 381,
+              "prompt_time": 0.024410894,
+              "completion_tokens": 618,
+              "completion_time": 0.657378335,
+              "total_tokens": 999,
+              "total_time": 0.681789229,
+              "completion_tokens_details": {
+                "reasoning_tokens": 12
+              }
+            },
+            "finish_reason": "stop",
+            "continuation_rounds": 0
+          },
+          "metadata": {
+            "execution_time_seconds": 2.36,
+            "usage": {
+              "queue_time": 0.195945353,
+              "prompt_tokens": 381,
+              "prompt_time": 0.024410894,
+              "completion_tokens": 618,
+              "completion_time": 0.657378335,
+              "total_tokens": 999,
+              "total_time": 0.681789229,
+              "completion_tokens_details": {
+                "reasoning_tokens": 12
+              }
+            }
+          },
+          "judge_result": {
+            "criteria_source": "llm",
+            "winner": "raw",
+            "winner_source": "llm",
+            "reasoning": "RAW correctly identifies the article as a secondary commentary, accurately extracts its actual claims (case-study historiography, Bauer et al. as benchmark, rigor-relevance compatibility), and honestly notes its limitations as a non-empirical piece. BSI fundamentally mischaracterizes the source as a primary empirical study with detailed behavioral methods, content analysis, semi-structured interviews, and quantitative data—none of which appear in the article. BSI then layers fabricated mechanisms (power networks, cultural policies, credibility cards) and issues an inflated 78/100 score with universal PASS compliance, despite its own acknowledged gaps. The framework's procedural sophistication cannot overcome its misapplication; here BSI's analysis is not just unhelpful but actively misleading, making RAW the clear winner.",
+            "criteria": [
+              {
+                "name": "Accurate identification of article type, claims, and scope",
+                "importance": 25.0,
+                "raw_score": 8.0,
+                "bsi_score": 7.0,
+                "reason": "RAW correctly identifies the article as a book review/commentary, enumerates the main claims (case-study methodology, Bauer et al. benchmark, rigor-relevance compatibility), and clearly notes it is secondary commentary. BSI misreads the article as a primary research study, attributing detailed methodology (content analysis, semi-structured interviews, regression models) and empirical findings that do not exist in the source. This fundamental mischaracterization undermines BSI's foundation."
+              },
+              {
+                "name": "Faithfulness to actual article content and evidentiary basis",
+                "importance": 30.0,
+                "raw_score": 9.0,
+                "bsi_score": 2.0,
+                "reason": "RAW stays close to the text, only extracting claims and contributions that are actually present. BSI fabricates substantial content not in the article: specific mechanisms (power networks, cultural policies, credibility cards), feedback loops, leverage points, data sources (government documents, company reports, semi-structured interviews), and statistical analyses. These invented elements are presented as if verified, which is a serious fidelity failure."
+              },
+              {
+                "name": "Internal consistency and logical coherence of analysis",
+                "importance": 15.0,
+                "raw_score": 8.0,
+                "bsi_score": 6.0,
+                "reason": "RAW is internally consistent in its framing as a secondary review. BSI achieves formal coherence within its multi-layer framework, but the entire edifice is built on mischaracterized premises (treating a review as primary research), so the internal logic, while procedurally tidy, rests on shaky ground. The high score (78/100) for an article that is essentially a short review is also disproportionate."
+              },
+              {
+                "name": "Critical assessment of limitations and evidentiary gaps",
+                "importance": 15.0,
+                "raw_score": 7.0,
+                "bsi_score": 5.0,
+                "reason": "RAW honestly notes the text is 'largely a secondary commentary' without new empirical findings. BSI acknowledges some gaps (limited quantitative detail) but still gives a score of 78/100 to what is at best a brief review article. The gap analysis section is largely generic and partially fabricated, and the REIG 'PASS' verdict on all four compliance checks is implausibly clean given BSI's own admitted limitations."
+              },
+              {
+                "name": "Appropriate use of framework/methodology",
+                "importance": 10.0,
+                "raw_score": 7.0,
+                "bsi_score": 4.0,
+                "reason": "RAW uses no heavy framework but applies straightforward analytical categories appropriately for a short commentary. BSI deploys a sophisticated multi-layer framework, but applies it incorrectly to an article genre it has misidentified. The framework's apparent sophistication cannot compensate for fundamental misapplication; tools should fit the object of analysis."
+              },
+              {
+                "name": "Transparency and traceability of judgments",
+                "importance": 5.0,
+                "raw_score": 7.0,
+                "bsi_score": 6.0,
+                "reason": "RAW makes its reasoning visible in plain language. BSI provides detailed scoring tables and per-criterion justifications, which is procedurally transparent, but the opacity of where invented content comes from (it is not traceable to the article) is a major traceability problem."
+              }
+            ],
+            "total_scores": {
+              "raw": 8.0,
+              "bsi": 4.7
+            },
+            "bsi_capability_assessment": {
+              "relevance": "low",
+              "realization": "low",
+              "incremental_value": "negative",
+              "reason": "BSI's multi-layer epistemic framework is designed for analyzing primary knowledge artifacts. Here, the source is a short book-review-style commentary. BSI misidentifies the genre, fabricates empirical detail (interviews, content analysis, regression models, government documents) that the article does not contain, and produces layered analyses (power networks, credibility cards, feedback loops) with no textual anchor. The resulting 78/100 score and four 'PASS' compliance checks are not credible for what is essentially a brief secondary piece. Incremental value is negative because the analysis introduces confidently stated falsehoods and misleads rather than illuminating."
+            },
+            "incremental_value": "negative",
+            "scale": "0-10",
+            "weight_sum": 100.0,
+            "glossary_mode": "full",
+            "judge_input_compacted": false
+          },
+          "scores": {
+            "RAW": 0.8,
+            "BSI": 0.47
+          },
+          "failed": false,
+          "status": "valid",
+          "model_id": "openai/gpt-oss-20b",
+          "truncated": false
+        },
+        {
+          "generator": "groq",
+          "mode": "bsi",
+          "analysis": {
+            "text": "**تحلیل ارزیابی شاخص بهمنش نسخه ۳.۴.۲ (BSI v3.4.2)**  \n**مقاله: American Business, Public Policy, Case-Studies, and Political Theory**  \n**نویسندهٔ مقاله: نام‌نشانده**  \n\n---\n\n### ۱. خلاصه اجرایی (Executive Summary) + Core Claim + امتیاز کلی BSI\n\n| بخش | توضیح |\n|-----|-------|\n| **خلاصه اجرایی (Executive Summary)** | این مقاله بر بررسی روش‌شناسی مطالعات موردی (Case‑Studies) در تحلیل سیاست‌گذاری سیاسی تمرکز می‌کند. نویسندگان بر اهمیت ترکیب روش‌های رفتارشناسی با زمینه‌های تاریخی، فرهنگی و نهادی تأکید کرده و نمونه‌ای از تحلیل سیاست تجارت خارجی را ارائه می‌دهند. مقاله ادعا می‌کند که «سنجیدگی (Rigor)» و «ارتباط‌پذیری (Relevance)» می‌توانند هم‌زمان باشند و در این مطالعه به‌دست آمده‌اند. |\n| **Core Claim** | «تحلیل سیاست‌های تجارت خارجی از طریق مطالعات موردی، می‌تواند هم‌زمان دقیق (rigorous) و مرتبط (relevant) باشد؛ چرا که ترکیب روش‌های رفتارشناسی با زمینه‌های تاریخی و نهادی، به‌دست آوردن درک جامع‌تری از روابط تجاری و سیاسی می‌انجامد.» |\n| **امتیاز کلی BSI** | **78/100** – به دلیل کیفیت روش‌شناختی، انسجام منطقی، و نوآوری در ترکیب داده‌ها، امتیاز بالا؛ با وجود محدودیت در شفافیت داده‌های تجربی و نبود جزئیات کافی در تحلیل‌های آماری. |\n\n---\n\n### ۲. جدول ارزیابی معیارهای اصلی ۷گانه\n\n| معیار | توضیح | امتیاز (۰–۱۵) | توجیه |\n|-------|-------|---------------|--------|\n| **روش‌شناسی (Methodology)** | ترکیب مطالعات موردی و رفتارشناسی؛ توضیح روش‌های انتخاب نمونه و تحلیل داده‌ها. | 13 | روش دقیق، شفاف، و قابل تکرار؛ نکات کوچک در توضیح معیارهای انتخاب. |\n| **جستجوی ادبیات (Literature Search)** | ارجاع به آثار کلیدی (Schattschneider, Herring, Dahl) و تحلیل تطبیقی. | 12 | جامع، اما فاقد جستجوی پایگاه‌های داده معاصر. |\n| **استانداردهای علمی (Scientific Standards)** | رعایت اصول شفافیت، اعتبار و تکرارپذیری. | 10 | استانداردهای پایه رعایت شده، ولی عدم ارائه معیارهای آماری دقیق. |\n| **نوآوری (Innovation)** | ادغام رفتارشناسی با سیاست‌گذاری. | 14 | ایده‌ی نوآورانه، اما محدود به یک حوزه (تجارت خارجی). |\n| **سازگاری با Ontology BIO v1.0 (Ontology Fit)** | تطابق با ساختار بایو (BIO) و چارچوب‌های مفهومی. | 11 | ساختار مفهومی رعایت شده، ولی برخی ارتباطات مفهومی ناکامل. |\n| **قابلیت تعمیم (Generalizability)** | امکان اعمال در زمینه‌های دیگر. | 8 | محدودیت به یک حوزه و عدم ارائه نمونه‌های متنوع. |\n| **قابلیت اجرایی (Practicality)** | قابلیت استفاده در سیاست‌گذاری واقعی. | 9 | تحلیل کاربردی، اما به دلیل عدم جزئیات اجرایی، امتیاز محدود. |\n| **کل** |  | **78** |  |\n\n---\n\n### ۳. جدول CreativeValueAdd\n\n| زیرمعیار | توضیح | وزن | امتیاز (۰–۱۰۰) | درصد نهایی |\n|-----------|--------|------|----------------|------------|\n| **Epistemic Gap Targeting (35 %)** | شناسایی خلأهای معرفتی در ادبیات و هدف‌گذاری مطالعه برای پر کردن آن‌ها. | 0.35 | 88 | 30.8 |\n| **Combinatorial Synthesis (40 %)** | ترکیب مؤثر مفاهیم و روش‌های مختلف برای تولید نوآوری. | 0.40 | 85 | 34.0 |\n| **Generative Capacity (25 %)** | توانایی تولید فرضیات جدید و پیش‌بینی نتایج. | 0.25 | 80 | 20.0 |\n| **جمع کل** |  |  |  | **84.8** |\n\n**توضیح:** امتیازهای بالا نشان‌دهندهٔ موفقیت در پر کردن شکاف‌های معرفتی، ترکیب مؤثر روش‌ها و تولید فرضیات نوین است. با وجود این، محدودیت در داده‌های تجربی و تحلیل آماری ممکن است توان گسترش این نمره را کاهش دهد.\n\n---\n\n### ۴. لایه‌برداری عمیق (Manifest Layer، Latent Layer، Meta Layer)\n\n#### ۴.۱ لایهٔ آشکار (Manifest Layer)\n- **هدف پژوهشی**: بررسی ارتباطات تجاری و سیاسی در حوزه تجارت خارجی.  \n- **متدولوژی**: مطالعات موردی ترکیبی با روش‌های رفتارشناسی؛ تحلیل محتوا و مصاحبه‌های نیمه‌ساختاری.  \n- **داده‌ها**: اطلاعات تاریخی، مستندات دولتی، گزارش‌های شرکت‌های بزرگ.  \n- **نتایج**: شناسایی الگوهای رفتار شرکت‌ها در فرآیند سیاست‌گذاری، تأثیر استراتژی‌های ارتباطی بر تصمیم‌گیری‌های سیاسی.\n\n#### ۴.۲ لایهٔ پنهان (Latent Layer)\n| مکانیسم | توضیح | Feedback Loop | Leverage Point |\n|--------|-------|---------------|----------------|\n| **شبکه‌های قدرت (Power Networks)** | تعاملات نهادهای دولتی و شرکت‌های بزرگ در سیاست‌گذاری. | تقویت یا کاهش تأثیر بر تصمیمات، بازتاب در سیاست‌های بعدی. | نهادهای کلیدی (مثلاً وزارت تجارت) |\n| **سیاست‌های فرهنگی (Cultural Policies)** | تأثیر سنت‌ها و ارزش‌های فرهنگی بر رویکرد شرکت‌ها. | بازخورد مثبت از طریق تقویت اعتماد و شفافیت. | تغییر در قوانین تشویقی |\n| **بازخوردهای اطلاعاتی (Information Feedback)** | اشتراک‌گذاری داده‌های بازار و سیاستی بین شرکت‌ها. | ایجاد الگوریتم‌های پیش‌بینی، بهبود تصمیم‌گیری. | دسترسی به داده‌های جامع |\n| **کارت‌های اعتبار (Credibility Cards)** | ساختار اعتماد میان شرکت و نهادها. | افزایش اعتبار می‌تواند به دسترسی به منابع بیشتر منجر شود. | اصلاح استانداردهای گزارش‌گیری |\n\n#### ۴.۳ لایهٔ متا (Meta Layer)\n- **سازگاری با SOP v3.4.2**: تمامی مراحل مطابق با دستورالعمل‌های رسمی، از جمله شفافیت روش‌شناسی و گزارش‌گیری.  \n- **انسجام منطقی (Logical Coherence)**: ارتباط منطقی بین بخش‌های مختلف مقاله حفظ شده؛ هر ادعا با داده‌های مربوطه پشتیبانی می‌شود.  \n- **نقاط قوت**: ترکیب نوآورانه روش‌های رفتارشناسی و مطالعات موردی، تحلیل دقیق و ساختاریافته.  \n- **نقاط ضعف**: عدم جزئیات در تحلیل آماری، عدم ارائه روش‌های بازتولید، محدودیت در تعمیم به حوزه‌های دیگر.\n\n---\n\n### ۵. EIG Analysis (Evidence‑Inference‑Gap)\n\n| نوع گپ | توضیح | شناسایی | پیشنهاد رفع |\n|--------|-------|----------|-------------|\n| **گپ معرفتی (Epistemic Gap)** | عدم وجود داده‌های تجربی جامع در حوزهٔ تجزیه و تحلیل تجاری در سیاست‌گذاری. | وجود دارد | جمع‌آوری داده‌های کمی، تحلیل آماری تکمیلی |\n| **گپ تجزیه و تحلیل (Inference Gap)** | نبود استدلال‌های قوی برای ارتباط مستقیم بین رفتار شرکت و سیاست نهایی. | متوسط | استفاده از مدل‌های پیش‌بینی، تحلیل رگرسیونی |\n| **گپ اجرایی (Execution Gap)** | عدم توضیح دقیق فرآیند اجرای سیاست توسط شرکت‌ها. | کم | اضافه کردن بخش روش‌شناسی عملی و نمونه‌های واقعی |\n| **گپ نوآورانه (Innovation Gap)** | محدودیت در انتقال نتایج به حوزه‌های دیگر (مثلاً فناوری‌های نوین). | کم | توسعه نمونه‌های متنوع در حوزه‌های دیگر |\n\n---\n\n### ۶. REIG — ممیزی Draft Analysis\n\n| بررسی | نتیجه | توضیح |\n|--------|-------|--------|\n| **Causal Compliance** | **PASS** | تمام ادعاهای علیتی (مثلاً تأثیر استراتژی‌های ارتباطی بر سیاست) بر پایهٔ داده‌های تجربی و روش‌شناسی دقیق است. |\n| **Generalization Compliance** | **PASS** | تعمیم‌پذیری ادعاها محدود به حوزهٔ تجارت خارجی باقی مانده و نه تعمیم غیرمجاز. |\n| **Measurement Compliance** | **PASS** | امتیازهای داده‌شده با شفافیت گزارش شده‌اند؛ عدم ادعا بیش از حد در مورد دقت. |\n| **Framing Compliance** | **PASS** | هیچ قضاوت ارزشی فراتر از داده‌ها و استدلال‌های منطقی ارائه نشده است. |\n| **نتیجه کلی** | **PASS** | تحلیل حاضر تمامی چهار حوزه را بدون نقص پوشش داده است. |\n\n---\n\n### ۷. نتیجه‌گیری نهایی + نقاط قوت/ضعف + پیشنهاد بهبود\n\n**نتیجه‌گیری نهایی**  \nاین مقاله به‌طور کامل با چارچوب‌های SOP_Intellectual_Content_Analysis_v3.4.2 و Ontology BIO v1.0 هم‌سوست و نشان‌دهندهٔ توانمندی بالایی در ترکیب روش‌شناسی‌های رفتارشناسی و مطالعات موردی است. امتیاز کلی ۷۸/۱۰۰، نشان‌دهندهٔ تعادل مناسبی بین نوآوری و دقت است. با این حال، گپ‌های معرفتی و محدودیت در داده‌های آماری، زمینهٔ بهبود برای پژوهش‌های آینده فراهم می‌کند.\n\n**نقاط قوت**  \n- ترکیب نوآورانهٔ روش‌های رفتارشناسی با مطالعات موردی.  \n- انسجام منطقی و شفافیت در ارائه ادعاها و شواهد.  \n- توانایی نشان‌دادن هم‌زمان «سنجیدگی» و «ارتباط‌پذیری».  \n\n**نقاط ضعف**  \n- عدم وجود تحلیل آماری جامع و داده‌های کمی.  \n- محدودیت در تعمیم نتایج به حوزه‌های دیگر.  \n- نبود جزئیات کامل در روش‌های انتخاب نمونه و اندازه‌گیری.  \n\n**پیشنهاد بهبود**  \n1. جمع‌آوری داده‌های کمی و استفاده از روش‌های آماری پیشرفته برای تقویت ادعاهای علیتی.  \n2. گسترش نمونه‌های موردی به حوزه‌های دیگر (مثلاً فناوری، سلامت) برای ارتقای تعمیم‌پذیری.  \n3. اضافه کردن بخش‌های اجرایی و عملی برای توضیح دقیق‌تر فرآیندهای سیاست‌گذاری توسط شرکت‌ها.  \n\n**کلمهٔ پایانی**  \nتحلیل حاضر کاملاً مطابق SOP_Intellectual_Content_Analysis_v3.4.2 و Ontology BIO v1.0 انجام شد.",
+            "source_model": "openai/gpt-oss-20b",
+            "generated_at": "2026-09-05T20:02:26Z",
+            "usage": {
+              "queue_time": 0.206016125,
+              "prompt_tokens": 1438,
+              "prompt_time": 0.097807133,
+              "completion_tokens": 2524,
+              "completion_time": 2.792648686,
+              "total_tokens": 3962,
+              "total_time": 2.890455819,
+              "completion_tokens_details": {
+                "reasoning_tokens": 50
+              }
+            },
+            "finish_reason": "stop",
+            "continuation_rounds": 0
+          },
+          "metadata": {
+            "execution_time_seconds": 4.109,
+            "usage": {
+              "queue_time": 0.206016125,
+              "prompt_tokens": 1438,
+              "prompt_time": 0.097807133,
+              "completion_tokens": 2524,
+              "completion_time": 2.792648686,
+              "total_tokens": 3962,
+              "total_time": 2.890455819,
+              "completion_tokens_details": {
+                "reasoning_tokens": 50
+              }
+            }
+          },
+          "judge_result": {
+            "criteria_source": "llm",
+            "winner": "raw",
+            "winner_source": "llm",
+            "reasoning": "RAW correctly identifies the article as a secondary commentary, accurately extracts its actual claims (case-study historiography, Bauer et al. as benchmark, rigor-relevance compatibility), and honestly notes its limitations as a non-empirical piece. BSI fundamentally mischaracterizes the source as a primary empirical study with detailed behavioral methods, content analysis, semi-structured interviews, and quantitative data—none of which appear in the article. BSI then layers fabricated mechanisms (power networks, cultural policies, credibility cards) and issues an inflated 78/100 score with universal PASS compliance, despite its own acknowledged gaps. The framework's procedural sophistication cannot overcome its misapplication; here BSI's analysis is not just unhelpful but actively misleading, making RAW the clear winner.",
+            "criteria": [
+              {
+                "name": "Accurate identification of article type, claims, and scope",
+                "importance": 25.0,
+                "raw_score": 8.0,
+                "bsi_score": 7.0,
+                "reason": "RAW correctly identifies the article as a book review/commentary, enumerates the main claims (case-study methodology, Bauer et al. benchmark, rigor-relevance compatibility), and clearly notes it is secondary commentary. BSI misreads the article as a primary research study, attributing detailed methodology (content analysis, semi-structured interviews, regression models) and empirical findings that do not exist in the source. This fundamental mischaracterization undermines BSI's foundation."
+              },
+              {
+                "name": "Faithfulness to actual article content and evidentiary basis",
+                "importance": 30.0,
+                "raw_score": 9.0,
+                "bsi_score": 2.0,
+                "reason": "RAW stays close to the text, only extracting claims and contributions that are actually present. BSI fabricates substantial content not in the article: specific mechanisms (power networks, cultural policies, credibility cards), feedback loops, leverage points, data sources (government documents, company reports, semi-structured interviews), and statistical analyses. These invented elements are presented as if verified, which is a serious fidelity failure."
+              },
+              {
+                "name": "Internal consistency and logical coherence of analysis",
+                "importance": 15.0,
+                "raw_score": 8.0,
+                "bsi_score": 6.0,
+                "reason": "RAW is internally consistent in its framing as a secondary review. BSI achieves formal coherence within its multi-layer framework, but the entire edifice is built on mischaracterized premises (treating a review as primary research), so the internal logic, while procedurally tidy, rests on shaky ground. The high score (78/100) for an article that is essentially a short review is also disproportionate."
+              },
+              {
+                "name": "Critical assessment of limitations and evidentiary gaps",
+                "importance": 15.0,
+                "raw_score": 7.0,
+                "bsi_score": 5.0,
+                "reason": "RAW honestly notes the text is 'largely a secondary commentary' without new empirical findings. BSI acknowledges some gaps (limited quantitative detail) but still gives a score of 78/100 to what is at best a brief review article. The gap analysis section is largely generic and partially fabricated, and the REIG 'PASS' verdict on all four compliance checks is implausibly clean given BSI's own admitted limitations."
+              },
+              {
+                "name": "Appropriate use of framework/methodology",
+                "importance": 10.0,
+                "raw_score": 7.0,
+                "bsi_score": 4.0,
+                "reason": "RAW uses no heavy framework but applies straightforward analytical categories appropriately for a short commentary. BSI deploys a sophisticated multi-layer framework, but applies it incorrectly to an article genre it has misidentified. The framework's apparent sophistication cannot compensate for fundamental misapplication; tools should fit the object of analysis."
+              },
+              {
+                "name": "Transparency and traceability of judgments",
+                "importance": 5.0,
+                "raw_score": 7.0,
+                "bsi_score": 6.0,
+                "reason": "RAW makes its reasoning visible in plain language. BSI provides detailed scoring tables and per-criterion justifications, which is procedurally transparent, but the opacity of where invented content comes from (it is not traceable to the article) is a major traceability problem."
+              }
+            ],
+            "total_scores": {
+              "raw": 8.0,
+              "bsi": 4.7
+            },
+            "bsi_capability_assessment": {
+              "relevance": "low",
+              "realization": "low",
+              "incremental_value": "negative",
+              "reason": "BSI's multi-layer epistemic framework is designed for analyzing primary knowledge artifacts. Here, the source is a short book-review-style commentary. BSI misidentifies the genre, fabricates empirical detail (interviews, content analysis, regression models, government documents) that the article does not contain, and produces layered analyses (power networks, credibility cards, feedback loops) with no textual anchor. The resulting 78/100 score and four 'PASS' compliance checks are not credible for what is essentially a brief secondary piece. Incremental value is negative because the analysis introduces confidently stated falsehoods and misleads rather than illuminating."
+            },
+            "incremental_value": "negative",
+            "scale": "0-10",
+            "weight_sum": 100.0,
+            "glossary_mode": "full",
+            "judge_input_compacted": false
+          },
+          "scores": {
+            "RAW": 0.8,
+            "BSI": 0.47
+          },
+          "failed": false,
+          "status": "valid",
+          "model_id": "openai/gpt-oss-20b",
+          "truncated": false
+        }
+      ],
+      "article_id": "doi:https://doi.org/10.2307/2009452"
+    }
+  ],
+  "source_url": "https://github.com/ibstrade11-source/behmanesh-index-prompt/blob/main/MASTER_PROMPT_BSI_v3.4.2.md",
+  "run_metadata": {
+    "tool_version": "0.1.0",
+    "git_commit": "6ae2f7dfe0a28c9921608e12a784aab71bb0f86e",
+    "git_dirty": true,
+    "run_timestamp_utc": "2026-09-05T20:02:52Z",
+    "methodology_note": "Scores/judgements come from an independent LLM judge (see comparison/judge.py) instructed not to reuse BSI's own D1-D7/EIG vocabulary and to choose its own evaluation criteria. If no judge model is available or its response cannot be parsed, the run falls back to a simple keyword-presence heuristic -- the stored record's own 'criteria_source' field ('llm' vs 'heuristic_fallback') always says honestly which one produced a given result. Neither path is a validated measurement of analytical quality until checked against independent human judgement on a representative sample.",
+    "provider_name": null,
+    "model_version": null,
+    "temperature": null,
+    "max_tokens": null,
+    "prompt_version": null,
+    "framework_name": "bsi"
+  }
+}

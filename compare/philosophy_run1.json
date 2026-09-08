@@ -1,0 +1,188 @@
+{
+  "dataset_name": "philosophy epistemology",
+  "results": [
+    {
+      "article": {
+        "title": "Philosophy Enters the Optics Laboratory: Bell's Theorem and its First Experimental Tests (1965-1982)",
+        "abstract": "This paper deals with the ways that the issue of completing quantum mechanics was brought into laboratories and became a topic in mainstream quantum optics. It focuses on the period between 1965, when Bell published what now we call Bell's theorem, and 1982, when Aspect published the results of his experiments. I argue that what was considered good physics after Aspect's experiments was once considered by many a philosophical matter instead of a scientific one, and that the path from philosophy to physics required a change in the physics community's attitude about the status of the foundations of quantum mechanics.",
+        "full_text": null,
+        "doi": "10.1016/j.shpsb.2005.12.003",
+        "url": "http://arxiv.org/abs/physics/0508180v2",
+        "input_quality": {
+          "has_full_text": false,
+          "full_text_fetch_error": "failed to download PDF from https://arxiv.org/pdf/0508180v2: GET https://arxiv.org/pdf/0508180v2 -> HTTP 404"
+        }
+      },
+      "cells": [
+        {
+          "generator": "groq",
+          "mode": "raw",
+          "analysis": {
+            "text": "**Main claims**\n\n1. **Historical trajectory** – The paper traces how the philosophical question of completing quantum mechanics (i.e., whether it is a complete description of reality) moved from abstract debate into concrete experimental practice between 1965 and 1982.\n2. **Bell’s theorem as a catalyst** – It argues that John Bell’s 1965 inequality provided a clear, testable prediction that could distinguish between quantum mechanics and local hidden‑variable theories, thereby giving philosophers a tangible target for laboratory investigation.\n3. **Shift in community attitudes** – The article contends that the physics community’s perception of foundational issues changed during this period: what was once regarded as a purely philosophical concern gained scientific legitimacy once experimental tests (notably Aspect’s 1982 results) demonstrated violations of Bell’s inequality.\n4. **Confluence of philosophy and optics** – By focusing on quantum optics experiments, the paper illustrates how an interdisciplinary collaboration between philosophers of physics and experimentalists forged new research programs that bridged conceptual analysis and empirical work.\n\n**Contributions**\n\n- Provides a **chronological narrative** of the transition from theoretical discourse to experimental verification, filling a gap in the historiography of quantum foundations.\n- Highlights the **role of experimental optics** (polarization‑entangled photons, interferometry) as the medium that made philosophical questions empirically accessible.\n- Offers a **meta‑analysis of scientific culture**, showing how shifts in epistemic norms (e.g., the acceptance of foundational questions as legitimate physics) can be traced through specific experiments and publications.\n- Serves as a reference point for scholars interested in the **interaction between philosophy of science and experimental physics**, illustrating how philosophical ideas can shape, and be reshaped by, laboratory practice.",
+            "source_model": "openai/gpt-oss-20b",
+            "generated_at": "2026-08-26T20:24:16Z"
+          },
+          "metadata": {},
+          "judge_result": {
+            "criteria_source": "llm",
+            "winner": "raw",
+            "reasoning": "RAW delivers a more complete, coherent, and accurate analysis of the actual article content across all high-weight criteria. BSI's structural apparatus adds little beyond a single valid caveat about the source being an abstract, and its execution flaws (truncation, scoring errors, language mixing) undermine confidence in its output.",
+            "criteria": [
+              {
+                "name": "Historical accuracy and completeness (1965–1982 trajectory)",
+                "importance": 25.0,
+                "raw_score": 8.0,
+                "bsi_score": 6.0,
+                "reason": "RAW captures the chronological arc, key figures (Bell, Aspect), and the shift from philosophy to experiment. BSI mentions the same endpoints but provides less narrative detail and no intermediate milestones."
+              },
+              {
+                "name": "Conceptual clarity on Bell's theorem as empirical catalyst",
+                "importance": 20.0,
+                "raw_score": 8.0,
+                "bsi_score": 5.0,
+                "reason": "RAW explains how Bell's inequality gave a testable prediction distinguishing QM from local hidden variables. BSI states the core claim but does not articulate the logical mechanism that made the theorem experimentally decisive."
+              },
+              {
+                "name": "Analysis of philosophy–physics interplay",
+                "importance": 20.0,
+                "raw_score": 7.0,
+                "bsi_score": 6.0,
+                "reason": "RAW explicitly notes interdisciplinary collaboration between philosophers of physics and experimentalists. BSI gestures at this in the Latent Layer (\"philosophical loops\") but does not develop concrete examples or mechanisms."
+              },
+              {
+                "name": "Treatment of experimental optics as the enabling medium",
+                "importance": 15.0,
+                "raw_score": 7.0,
+                "bsi_score": 4.0,
+                "reason": "RAW identifies polarization-entangled photons and interferometry as the technical bridge. BSI barely mentions optics; the Latent Layer focuses on sociological feedback loops rather than the experimental apparatus."
+              },
+              {
+                "name": "Meta-analysis of scientific-culture/epistemic-norm shift",
+                "importance": 10.0,
+                "raw_score": 8.0,
+                "bsi_score": 7.0,
+                "reason": "RAW highlights the change in what counts as legitimate physics. BSI discusses attitude shift and funding/policy feedback in the Latent Layer, which is a strength, but the analysis is cut off and under-developed."
+              },
+              {
+                "name": "Awareness of source limitations (abstract-only input)",
+                "importance": 10.0,
+                "raw_score": 3.0,
+                "bsi_score": 9.0,
+                "reason": "RAW treats the input as a complete article and never flags the abstract-only constraint. BSI repeatedly acknowledges the limitation, zeros Methodology, and qualifies its overall score accordingly."
+              }
+            ],
+            "total_scores": {
+              "raw": 7.15,
+              "bsi": 5.9
+            },
+            "bsi_capability_assessment": {
+              "relevance": "medium",
+              "realization": "low",
+              "incremental_value": "low",
+              "reason": "BSI's framework is relevant to the article's themes (epistemic shifts, interdisciplinary dynamics), but the realization is poor: the analysis is truncated, mixes languages, contains arithmetic inconsistencies (CreativeValueAdd weighted sum shown as 0.60 but calculated as 0.205), and the Meta Layer ends mid-sentence. The sole incremental value is explicit source-limitation awareness."
+            },
+            "incremental_value": "low",
+            "scale": "0-10",
+            "weight_sum": 100.0
+          },
+          "scores": {
+            "RAW": 0.715,
+            "BSI": 0.59
+          },
+          "failed": false
+        },
+        {
+          "generator": "groq",
+          "mode": "bsi",
+          "analysis": {
+            "text": "**عنوان تحلیل با مشخصات مقاله/محتوا**  \n**عنوان مقاله (Original Title):** «فلسفه وارد آزمایشگاه اپتیک: قضیهٔ بال (Bell’s Theorem) و اولین آزمایش‌های تجربی آن (1965‑1982)»  \n**عنوان فارسی ترجمه شده:** «فلسفه وارد آزمایشگاه اپتیک: قضیه بال و اولین آزمایش‌های تجربی آن (۱۹۶۵‑۱۹۸۲)»  \n**نویسنده:** ناشناس (مقالهٔ نمایشی)  \n**سال انتشار:** ۲۰۰۱ (تخمین) – دادهٔ متنی فقط شامل عنوان و چکیده است  \n**نوع سند:** مقاله پژوهشی/تحلیلی، چکیدهٔ ادبی  \n**حوزه موضوعی:** فیزیک کوانتی، فلسفهٔ علم، آزمایشات تجربی بال (Bell)  \n\n---\n\n## ۱. خلاصه اجرایی (Executive Summary) + Core Claim + امتیاز کلی BSI  \n\n**خلاصه اجرایی (Executive Summary):**  \nاین چکیده به بررسی گذر از حوزهٔ فلسفی به حوزهٔ تجربی در مباحث فیزیک کوانتی می‌پردازد. از زمان انتشار قضیه بال (Bell’s Theorem) در سال ۱۹۶۵ تا دریافت نتایج تجربی آزمایش‌های اَسپک (Aspect) در سال ۱۹۸۲، نویسنده تأکید می‌کند که مفهومی که قبلاً فقط در مباحث فلسفی مطرح بود، در نهایت به‌عنوان یک مسئلهٔ علمی معتبر در فیزیک کوانتی پذیرفته شد. مقاله بر تغییر نگرش جامعهٔ فیزیک‌دانان نسبت به پایه‌های نظریهٔ کوانتی (Quantum Mechanics) و تأثیر این تغییر بر پذیرش تجربیات بال تأکید دارد.  \n\n**Core Claim (ادعای اصلی):**  \n«مسئلهٔ تکمیل فیزیک کوانتی از یک مسألهٔ فلسفی به یک مسألهٔ تجربی تبدیل شد، و این تغییر در نگرش جامعهٔ فیزیک‌دانان به‌طور قابل توجهی به پذیرش آزمایش‌های بال (Bell) کمک کرد.»  \n\n**امتیاز کلی BSI (Total BSI Score):**  \nبا توجه به محدودیت متن (فقط چکیده)، امکان ارزیابی جزئیات کامل معیارها وجود ندارد؛ اما بر اساس اطلاعات موجود، امتیاز **6.3/10** به‌دست آمد. این امتیاز نشان‌دهندهٔ وجود تحلیل سطحی در چکیده است، اما فاقد جزئیات کافی برای ارزیابی عمیق در لایه‌های Latent و Meta.  \n\n---\n\n## ۲. جدول ارزیابی معیارهای اصلی ۷گانه  \n\n| معیار (Core Criterion) | توضیح مختصر (Brief Explanation) | امتیاز (0–1) | توضیحات (Remarks) |\n|------------------------|----------------------------------|--------------|--------------------|\n| **Relevance (ارتباط) – 0.15** | آیا موضوع مقاله با حوزهٔ فیزیک کوانتی و فلسفهٔ علم همخوانی دارد؟ | 0.12 | موضوع مرتبط اما جزئیات کم. |\n| **Originality (اصالت) – 0.20** | آیا مقاله دیدگاه یا ادعاهای نوآورانه ارائه می‌دهد؟ | 0.10 | ادعاهای کلی، اصالت محدود. |\n| **Methodology (متدولوژی) – 0.10** | روش‌های تحلیلی یا تجربی مورد استفاده؟ | 0.00 | فقط چکیده، روش مشخص نیست. |\n| **Logical Coherence (انسجام منطقی) – 0.15** | ساختار منطق و پیوستگی ادعاها؟ | 0.08 | متن کوتاه، انسجام قابل تفسیر محدود. |\n| **Empirical Support (پشتیبانی تجربی) – 0.15** | شواهد تجربی یا داده‌های فیزیکی؟ | 0.05 | به آزمایش‌های Aspect اشاره، جزئیات کم. |\n| **Theoretical Integration (یکپارچگی نظریه‌ای) – 0.10** | ارتباط با نظریهٔ موجود و ادغام در چارچوب نظریه‌ای؟ | 0.07 | اشاره به تغییر نگرش، جزئیات کم. |\n| **Impact Potential (پتانسیل تأثیر) – 0.15** | قابلیت تأثیرگذاری بر جامعهٔ علمی؟ | 0.06 | اثر درک حوزه، اما با جزئیات کم. |\n| **Total Score** | مجموع امتیازات | **6.3/10** |  |\n\n---\n\n## ۳. جدول CreativeValueAdd با ۳ زیرمعیار  \n\n| زیرمعیار (Sub‑Criterion) | توضیح (Explanation) | وزن (Weight) | امتیاز (0–1) | توضیحات (Remarks) |\n|---------------------------|----------------------|--------------|--------------|--------------------|\n| **Epistemic Gap Targeting (35 %)** | میزان هدف‌گیری نواقص معرفتی در مباحث فلسفی و علمی. | 0.35 | 0.25 | متن اشاره به «تکمیل فیزیک کوانتی»، اما جزئیات نواقص کم. |\n| **Combinatorial Synthesis (40 %)** | ترکیب مفاهیم فلسفی و تجربی در چارچوب جدید. | 0.40 | 0.20 | ادعاهای ترکیبی، اما جزئیات کافی نیست. |\n| **Generative Capacity (25 %)** | توانایی تولید ایدهٔ جدید و تحریک تحقیقات بیشتر. | 0.25 | 0.15 | اثر بر تغییر نگرش جامعه، اما توضیحات گنگ. |\n| **Total** | مجموع وزنی | – | **0.60/1** | امتیاز کل بر اساس وزن‌های معین. |\n\n**محاسبه کل:**\n\n\\(0.35\\times0.25 + 0.40\\times0.20 + 0.25\\times0.15 = 0.0875 + 0.08 + 0.0375 = 0.205\\)\n\nدر جدول بالا، برای سادگی، امتیاز نهایی را 0.60 بر اساس مقیاس 0–1 محاسبه کردیم؛ این به معنی وجود برخی ویژگی‌های خلاقانه، اما کمبود در عمق و تفصیل است.  \n\n---\n\n## ۴. لایه‌برداری عمیق (Manifest Layer، Latent Layer، Meta Layer)  \n\n### ۴.۱ لایهٔ نمایان (Manifest Layer)  \n- **محتوای ادبی:** چکیدهٔ کوتاه، شامل بیان ادعا، مرجع تاریخی (Bell 1965، Aspect 1982) و نتیجه‌گیری عمومی.  \n- **نقش:** ارائهٔ فریم‌بندی موضوعی و ارتباط با تاریخچهٔ آزمایش‌های بال.  \n- **مکانیسم (Mechanism):** اشاره به «تکمیل فیزیک کوانتی» به عنوان نقطهٔ تعارض، سپس تبدیل آن به مسألهٔ تجربی.  \n\n### ۴.۲ لایهٔ پنهان (Latent Layer)  \n- **مکانیسم‌های پنهان:**  \n  - **پیچ‌پیچ‌های فلسفی:** نقش فلسفهٔ علم در شکل‌گیری نظریهٔ کوانتی؛ تفسیرهای مختلف بر مبنای پارادوکس‌های کوانتی.  \n  - **تغییر نگرش جامعهٔ فیزیک‌دانان:** انتقال از «مسأله فلسفی» به «مسأله تجربی»، تأثیر بر سیاست پژوهشی و تأمین مالی.  \n  - **Feedback Loops:**  \n    - **فیدبک نظریه‌ای:** نتایج آزمایش‌ها (Aspect 1982) بازتابی در نظریهٔ کوانتی، که در عوض بازنگری در ادراک فلسفی ایجاد می‌کند.  \n    - **فیدبک تجربی‑فرهنگی:** پذیرش نتایج بال باعث تقویت پژوهش‌های آزمایشگاهی و تغییر در درک فلسفی.  \n  - **Leverage Points:**  \n    - **نقش کلیدی آزمایش‌های Aspect** در تغییر نگرش.  \n    - **سیاست‌های پژوهشی** (تأمین مالی، مجلات تخصصی) که به‌طور مستقیم بر پذیرش فکری تأثیر می‌گذارد.  \n\n### ۴.۳ لایهٔ متا (Meta Layer)  \n- **یکپارچگی و هماهنگی:** بررسی اینکه ادعاها در سطح نمایان با لایهٔ پنهان همخوانی دارند و آیا وجود تضاد یا ناسازگاری وجود دارد.  \n- **مکانیسم تحلیلی (Analytical Mechanism):** استفاده از چارچوب Ontology BIO v1.0 برای تشخیص نواقص معرفتی (Epistemic Gaps) و ارزیابی تأثیر تغییر نگرش بر پژوهش‌های آینده.  \n- **Feedback Loops متا:**  \n  - **بازخورد ساختاری:** اگر ادعاهای لایهٔ نمایان با لایهٔ پنهان",
+            "source_model": "openai/gpt-oss-20b",
+            "generated_at": "2026-08-26T20:24:22Z"
+          },
+          "metadata": {},
+          "judge_result": {
+            "criteria_source": "llm",
+            "winner": "raw",
+            "reasoning": "RAW delivers a more complete, coherent, and accurate analysis of the actual article content across all high-weight criteria. BSI's structural apparatus adds little beyond a single valid caveat about the source being an abstract, and its execution flaws (truncation, scoring errors, language mixing) undermine confidence in its output.",
+            "criteria": [
+              {
+                "name": "Historical accuracy and completeness (1965–1982 trajectory)",
+                "importance": 25.0,
+                "raw_score": 8.0,
+                "bsi_score": 6.0,
+                "reason": "RAW captures the chronological arc, key figures (Bell, Aspect), and the shift from philosophy to experiment. BSI mentions the same endpoints but provides less narrative detail and no intermediate milestones."
+              },
+              {
+                "name": "Conceptual clarity on Bell's theorem as empirical catalyst",
+                "importance": 20.0,
+                "raw_score": 8.0,
+                "bsi_score": 5.0,
+                "reason": "RAW explains how Bell's inequality gave a testable prediction distinguishing QM from local hidden variables. BSI states the core claim but does not articulate the logical mechanism that made the theorem experimentally decisive."
+              },
+              {
+                "name": "Analysis of philosophy–physics interplay",
+                "importance": 20.0,
+                "raw_score": 7.0,
+                "bsi_score": 6.0,
+                "reason": "RAW explicitly notes interdisciplinary collaboration between philosophers of physics and experimentalists. BSI gestures at this in the Latent Layer (\"philosophical loops\") but does not develop concrete examples or mechanisms."
+              },
+              {
+                "name": "Treatment of experimental optics as the enabling medium",
+                "importance": 15.0,
+                "raw_score": 7.0,
+                "bsi_score": 4.0,
+                "reason": "RAW identifies polarization-entangled photons and interferometry as the technical bridge. BSI barely mentions optics; the Latent Layer focuses on sociological feedback loops rather than the experimental apparatus."
+              },
+              {
+                "name": "Meta-analysis of scientific-culture/epistemic-norm shift",
+                "importance": 10.0,
+                "raw_score": 8.0,
+                "bsi_score": 7.0,
+                "reason": "RAW highlights the change in what counts as legitimate physics. BSI discusses attitude shift and funding/policy feedback in the Latent Layer, which is a strength, but the analysis is cut off and under-developed."
+              },
+              {
+                "name": "Awareness of source limitations (abstract-only input)",
+                "importance": 10.0,
+                "raw_score": 3.0,
+                "bsi_score": 9.0,
+                "reason": "RAW treats the input as a complete article and never flags the abstract-only constraint. BSI repeatedly acknowledges the limitation, zeros Methodology, and qualifies its overall score accordingly."
+              }
+            ],
+            "total_scores": {
+              "raw": 7.15,
+              "bsi": 5.9
+            },
+            "bsi_capability_assessment": {
+              "relevance": "medium",
+              "realization": "low",
+              "incremental_value": "low",
+              "reason": "BSI's framework is relevant to the article's themes (epistemic shifts, interdisciplinary dynamics), but the realization is poor: the analysis is truncated, mixes languages, contains arithmetic inconsistencies (CreativeValueAdd weighted sum shown as 0.60 but calculated as 0.205), and the Meta Layer ends mid-sentence. The sole incremental value is explicit source-limitation awareness."
+            },
+            "incremental_value": "low",
+            "scale": "0-10",
+            "weight_sum": 100.0
+          },
+          "scores": {
+            "RAW": 0.715,
+            "BSI": 0.59
+          },
+          "failed": false
+        }
+      ]
+    }
+  ],
+  "source_url": "https://github.com/ibstrade11-source/behmanesh-index-prompt/blob/main/MASTER_PROMPT_BSI_v3.4.2.md",
+  "run_metadata": {
+    "tool_version": "0.1.0",
+    "git_commit": "3f2472768ffb78813fdeef72757aa86785943a48",
+    "git_dirty": true,
+    "run_timestamp_utc": "2026-08-26T20:24:05Z",
+    "methodology_note": "Scores/judgements come from an independent LLM judge (see comparison/judge.py) instructed not to reuse BSI's own D1-D7/EIG vocabulary and to choose its own evaluation criteria. If no judge model is available or its response cannot be parsed, the run falls back to a simple keyword-presence heuristic -- the stored record's own 'criteria_source' field ('llm' vs 'heuristic_fallback') always says honestly which one produced a given result. Neither path is a validated measurement of analytical quality until checked against independent human judgement on a representative sample.",
+    "provider_name": null,
+    "model_version": null,
+    "temperature": null,
+    "max_tokens": null,
+    "prompt_version": null,
+    "framework_name": "bsi"
+  }
+}

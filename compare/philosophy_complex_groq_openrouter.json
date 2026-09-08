@@ -1,0 +1,190 @@
+{
+  "dataset_name": "epistemic regress problem foundationalism coherentism justification",
+  "results": [
+    {
+      "article": {
+        "title": "Epistemic justification: internalism vs. externalism, foundations vs. virtues",
+        "abstract": "Introduction. Laurence BonJour and Ernest Sosa. Part I: A Version of Internalist Foundationalism: Laurence BonJour:. 1. The Regress Problem and Foundationalism. 2. Externalist Accounts of Justification. 3. In Search of Coherentism. 4. Back to Foundationalism. 5. The Conceptualization of Sensory Experience and the Problem of the External World. Part II: Beyond Internal Foundations to External Virtues: Ernest Sosa:. 6. Knowledge and Justification. 7. Does Knowledge Have Foundation. 8. Skepticism and the Internal/External Divide. 9. A Virtue Epistemology. Part III: Replies:. 10. Reply to Sosa. 11. Reply to Bonjour. Bibliography. Index.",
+        "full_text": null,
+        "doi": "https://doi.org/10.5860/choice.41-2097",
+        "url": "https://openalex.org/W149610102",
+        "input_quality": {
+          "has_title": true,
+          "has_abstract": true,
+          "source": "openalex",
+          "enriched": false
+        }
+      },
+      "cells": [
+        {
+          "generator": "groq",
+          "mode": "raw",
+          "analysis": {
+            "text": "**Main Claims**\n\n1. **Internalist Foundationalism (BonJour)**\n   - BonJour argues that the classic regress problem can be solved by a *coherentist* version of foundationalism that relies on *internal* access to justificatory resources.\n   - He claims that foundational beliefs must be *conceptualized* and that sensory experience, properly understood, can provide the necessary justification without appealing to an external reality.\n   - BonJour proposes that the regress problem is mitigated when beliefs are part of a coherent system that includes a *conceptual* framework for interpreting experience.\n\n2. **Externalist Accounts (BonJour)**\n   - BonJour reviews externalist approaches to justification, suggesting that they either fail to address the regress problem adequately or rely on problematic metaphysical assumptions about the external world.\n   - He contrasts these with his internalist view, arguing that externalist theories often presuppose an unknowable external reality.\n\n3. **Sosa’s Virtue Epistemology (Part II)**\n   - Sosa rejects the necessity of *foundational* beliefs, arguing that knowledge does not require a foundational base.\n   - He introduces a *virtue epistemology* that focuses on cognitive *virtues* (e.g., intellectual courage, intellectual humility) rather than on foundational beliefs.\n   - Sosa contends that epistemic justification can be adequately explained through the reliability of cognitive faculties and the *practical* virtues that guide belief formation.\n\n4. **Skepticism & the Internal/External Divide (Sosa)**\n   - Sosa addresses skepticism by showing that the internal/external distinction is not essential to resolving skeptical challenges; instead, epistemic virtues can counter skeptical arguments.\n\n5. **Replies (Part III)**\n   - The article contains brief rebuttals to each other’s positions:\n     - BonJour’s reply to Sosa focuses on the inadequacy of virtue epistemology to handle foundational questions.\n     - Sosa’s reply to BonJour defends the sufficiency of virtue-based justification against the claim that internalist foundationalism is necessary.\n\n**Contribution**\n\n- The article provides a structured comparison of two prominent contemporary epistemological positions: *internalist foundationalism* (BonJour) and *externalist virtue epistemology* (Sosa).\n- It delineates how each theorist interprets the regress problem, the role of sensory experience, and the necessity (or lack thereof) of a foundational base.\n- By incorporating direct replies, the article offers a dialogical format that highlights the key strengths and weaknesses of each view, fostering a clearer understanding of the current debate over internalism vs. externalism and foundationalism vs. virtue epistemology.",
+            "source_model": "openai/gpt-oss-20b",
+            "generated_at": "2026-08-26T02:43:55Z"
+          },
+          "metadata": {},
+          "judge_result": {
+            "criteria_source": "llm",
+            "winner": "bsi",
+            "reasoning": "Across all six article‑specific criteria, the BSI analysis scores markedly higher, offering deeper philosophical insight, better coverage of the dialogical replies, superior organization, and greater usefulness for subsequent work. The RAW analysis is accurate but remains a surface‑level summary.",
+            "criteria": [
+              {
+                "name": "Accuracy of content representation",
+                "importance": 20.0,
+                "raw_score": 8.0,
+                "bsi_score": 9.0,
+                "reason": "RAW gives a correct but brief summary; BSI provides a detailed, section‑by‑section synthesis that captures the article’s structure and arguments more completely."
+              },
+              {
+                "name": "Depth of philosophical analysis",
+                "importance": 20.0,
+                "raw_score": 5.0,
+                "bsi_score": 9.0,
+                "reason": "RAW merely lists claims; BSI unpacks each part with key insights, takeaways, and connections (e.g., bridge concepts, illustrative skeptical scenarios)."
+              },
+              {
+                "name": "Coverage of dialogical structure (replies)",
+                "importance": 15.0,
+                "raw_score": 6.0,
+                "bsi_score": 9.0,
+                "reason": "RAW mentions replies in one sentence; BSI devotes a dedicated section with commentary on each reply, showing how they engage the opposing core arguments."
+              },
+              {
+                "name": "Clarity and organization",
+                "importance": 15.0,
+                "raw_score": 8.0,
+                "bsi_score": 9.0,
+                "reason": "Both are clear, but BSI uses tables, labeled sections, and explicit takeaways, making the architecture of the debate immediately navigable."
+              },
+              {
+                "name": "Insight into internalism/externalism and foundationalism/virtue epistemology",
+                "importance": 15.0,
+                "raw_score": 5.0,
+                "bsi_score": 9.0,
+                "reason": "RAW describes the positions; BSI highlights convergence points (reliability as internal vs. external), raises the conceptualization of sensory experience, and suggests concrete test cases (brain‑in‑a‑vat, Gettier)."
+              },
+              {
+                "name": "Utility for further research or understanding",
+                "importance": 15.0,
+                "raw_score": 6.0,
+                "bsi_score": 9.0,
+                "reason": "RAW serves as a quick overview; BSI functions as a structured guide for drafting, teaching, or deeper study, with bibliography/index placeholder and explicit bridge concepts."
+              }
+            ],
+            "total_scores": {
+              "raw": 6.35,
+              "bsi": 9.0
+            },
+            "bsi_capability_assessment": {
+              "relevance": "high",
+              "realization": "high",
+              "incremental_value": "high",
+              "reason": "The BSI analysis directly addresses the article’s content, delivers a fully realized multi‑layer outline, and adds substantial interpretive depth, structural clarity, and research utility beyond the RAW summary."
+            },
+            "incremental_value": "high",
+            "scale": "0-10",
+            "weight_sum": 100.0
+          },
+          "scores": {
+            "RAW": 0.635,
+            "BSI": 0.9
+          },
+          "failed": false
+        },
+        {
+          "generator": "groq",
+          "mode": "bsi",
+          "analysis": {
+            "text": "**Epistemic Justification: Internalism vs. Externalism, Foundations vs. Virtues**  \n*A brief synthesis and commentary on the proposed structure*\n\n---\n\n### 1. Introduction  \n\nThe paper opens by framing the long‑standing debate between **internalist** and **externalist** accounts of epistemic justification. Two influential figures—**Laurence BonJour** (an internalist foundationalist) and **Ernest Sosa** (a proponent of virtue epistemology, traditionally seen as externalist)—serve as the focal points. The introduction will:\n\n- Outline the central question: *What makes a belief justified?*  \n- Highlight the methodological tension: **Foundations** (internalist) vs. **Virtues** (externalist).  \n- Preview the three‑part structure, signalling a dialogue rather than a one‑sided critique.\n\n---\n\n### 2. Part I – A Version of Internalist Foundationalism (BonJour)\n\n| Section | Core Argument | Key Insight |\n|---------|---------------|-------------|\n| 1. **The Regress Problem and Foundationalism** | The infinite regress of justifications demands foundational beliefs. | Foundationalism as a pragmatic stop‑gap. |\n| 2. **Externalist Accounts of Justification** | External criteria (e.g., reliability) can also halt regress. | Contradiction with strict internalism. |\n| 3. **In Search of Coherentism** | Coherentism offers a middle path but struggles with “theories of justification.” | Coherence cannot fully replace foundationalism. |\n| 4. **Back to Foundationalism** | BonJour’s *coherentist–foundationalist* hybrid: basic beliefs are internally justified and form the base for coherence. | Reconciliation of internalist intuitions with a broader justificatory network. |\n| 5. **The Conceptualization of Sensory Experience and the Problem of the External World** | Sensory experience is the source of basic beliefs; the external world is inferred from experience. | Raises the issue of whether sensory data can provide sufficient internal justification. |\n\n**Takeaway:** BonJour’s approach demonstrates that internalist foundationalism can coexist with a coherentist structure, but the reliance on sensory experience leaves an openness to external critiques.\n\n---\n\n### 3. Part II – Beyond Internal Foundations to External Virtues (Sosa)\n\n| Section | Core Argument | Key Insight |\n|---------|---------------|-------------|\n| 6. **Knowledge and Justification** | Knowledge is justified true belief; justification is a *property* of the agent’s epistemic states. | Shifts focus from beliefs to *epistemic virtues*. |\n| 7. **Does Knowledge Have Foundation?** | Sosa argues that foundationalism is inadequate; virtues replace “foundational beliefs.” | Virtue epistemology as a replacement for internal foundations. |\n| 8. **Skepticism and the Internal/External Divide** | Skepticism exposes weaknesses in both internalist and externalist frameworks; virtues can mitigate doubt. | Virtues provide resilience against skeptical scenarios. |\n| 9. **A Virtue Epistemology** | Defines a virtue (e.g., intellectual honesty, perceptual accuracy) and links it to justified belief. | External criteria (reliability) become epistemic virtues. |\n\n**Takeaway:** Sosa presents a robust externalist alternative where justification is not grounded in basic beliefs but in the *character* and *reliability* of the epistemic agent.\n\n---\n\n### 4. Part III – Replies\n\n| Section | Focus | Commentary |\n|---------|-------|------------|\n| 10. **Reply to Sosa** | Critiques the virtue framework; argues for an internal check on virtues. | Points out that virtues themselves may require justification. |\n| 11. **Reply to Bonjour** | Defends the internalist foundationalist stance; counters claims that sensory data are insufficient. | Emphasizes that foundational beliefs can be both internally and externally warranted. |\n\n---\n\n### 5. Bibliography & Index  \nA comprehensive list of primary and secondary sources will ground the discussion, with an index for quick reference.\n\n---\n\n### Final Notes\n\n- **Dialogic Tone**: The paper’s structure suggests a dialogue. Ensure each reply genuinely engages the other's core arguments rather than merely summarizing them.\n- **Bridge Concepts**: Highlight possible convergence points (e.g., *reliability* as an internal property versus an external virtue).\n- **Illustrative Examples**: Use classic skeptical scenarios (brain‑in‑a‑vial, Gettier cases) to test both frameworks.\n\nThis outline should guide the drafting process, keeping the focus on the nuanced interplay between internalist foundations and externalist virtues while maintaining scholarly rigor.",
+            "source_model": "openai/gpt-oss-20b",
+            "generated_at": "2026-08-26T02:43:56Z"
+          },
+          "metadata": {},
+          "judge_result": {
+            "criteria_source": "llm",
+            "winner": "bsi",
+            "reasoning": "Across all six article‑specific criteria, the BSI analysis scores markedly higher, offering deeper philosophical insight, better coverage of the dialogical replies, superior organization, and greater usefulness for subsequent work. The RAW analysis is accurate but remains a surface‑level summary.",
+            "criteria": [
+              {
+                "name": "Accuracy of content representation",
+                "importance": 20.0,
+                "raw_score": 8.0,
+                "bsi_score": 9.0,
+                "reason": "RAW gives a correct but brief summary; BSI provides a detailed, section‑by‑section synthesis that captures the article’s structure and arguments more completely."
+              },
+              {
+                "name": "Depth of philosophical analysis",
+                "importance": 20.0,
+                "raw_score": 5.0,
+                "bsi_score": 9.0,
+                "reason": "RAW merely lists claims; BSI unpacks each part with key insights, takeaways, and connections (e.g., bridge concepts, illustrative skeptical scenarios)."
+              },
+              {
+                "name": "Coverage of dialogical structure (replies)",
+                "importance": 15.0,
+                "raw_score": 6.0,
+                "bsi_score": 9.0,
+                "reason": "RAW mentions replies in one sentence; BSI devotes a dedicated section with commentary on each reply, showing how they engage the opposing core arguments."
+              },
+              {
+                "name": "Clarity and organization",
+                "importance": 15.0,
+                "raw_score": 8.0,
+                "bsi_score": 9.0,
+                "reason": "Both are clear, but BSI uses tables, labeled sections, and explicit takeaways, making the architecture of the debate immediately navigable."
+              },
+              {
+                "name": "Insight into internalism/externalism and foundationalism/virtue epistemology",
+                "importance": 15.0,
+                "raw_score": 5.0,
+                "bsi_score": 9.0,
+                "reason": "RAW describes the positions; BSI highlights convergence points (reliability as internal vs. external), raises the conceptualization of sensory experience, and suggests concrete test cases (brain‑in‑a‑vat, Gettier)."
+              },
+              {
+                "name": "Utility for further research or understanding",
+                "importance": 15.0,
+                "raw_score": 6.0,
+                "bsi_score": 9.0,
+                "reason": "RAW serves as a quick overview; BSI functions as a structured guide for drafting, teaching, or deeper study, with bibliography/index placeholder and explicit bridge concepts."
+              }
+            ],
+            "total_scores": {
+              "raw": 6.35,
+              "bsi": 9.0
+            },
+            "bsi_capability_assessment": {
+              "relevance": "high",
+              "realization": "high",
+              "incremental_value": "high",
+              "reason": "The BSI analysis directly addresses the article’s content, delivers a fully realized multi‑layer outline, and adds substantial interpretive depth, structural clarity, and research utility beyond the RAW summary."
+            },
+            "incremental_value": "high",
+            "scale": "0-10",
+            "weight_sum": 100.0
+          },
+          "scores": {
+            "RAW": 0.635,
+            "BSI": 0.9
+          },
+          "failed": false
+        }
+      ]
+    }
+  ],
+  "source_url": "https://github.com/ibstrade11-source/behmanesh-index-prompt/blob/main/MASTER_PROMPT_BSI_v3.4.2.md",
+  "run_metadata": {
+    "tool_version": "0.1.0",
+    "git_commit": "86fb38868d0d36ae348cb4f9ffd7c49190f311bf",
+    "git_dirty": false,
+    "run_timestamp_utc": "2026-08-26T02:43:52Z",
+    "methodology_note": "Scores/judgements come from an independent LLM judge (see comparison/judge.py) instructed not to reuse BSI's own D1-D7/EIG vocabulary and to choose its own evaluation criteria. If no judge model is available or its response cannot be parsed, the run falls back to a simple keyword-presence heuristic -- the stored record's own 'criteria_source' field ('llm' vs 'heuristic_fallback') always says honestly which one produced a given result. Neither path is a validated measurement of analytical quality until checked against independent human judgement on a representative sample.",
+    "provider_name": null,
+    "model_version": null,
+    "temperature": null,
+    "max_tokens": null,
+    "prompt_version": null,
+    "framework_name": "bsi"
+  }
+}

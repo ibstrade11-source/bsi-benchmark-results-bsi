@@ -1,0 +1,198 @@
+{
+  "dataset_name": "engineering",
+  "results": [
+    {
+      "article": {
+        "title": "Morescient GAI for Software Engineering (Extended Version)",
+        "abstract": "The ability of Generative AI (GAI) technology to automatically check, synthesize and modify software engineering artifacts promises to revolutionize all aspects of software engineering. Using GAI for software engineering tasks is consequently one of the most rapidly expanding fields of software engineering research, with over a hundred LLM-based code models having been published since 2021. However, the overwhelming majority of existing code models share a major weakness - they are exclusively trained on the syntactic facet of software, significantly lowering their trustworthiness in tasks dependent on software semantics. To address this problem, a new class of \"Morescient\" GAI is needed that is \"aware\" of (i.e., trained on) both the semantic and static facets of software. This, in turn, will require a new generation of software observation platforms capable of generating large quantities of execution observations in a structured and readily analyzable way. In this paper, we present a vision and roadmap for how such \"Morescient\" GAI models can be engineered, evolved and disseminated according to the principles of open science.",
+        "doi": "10.1145/3709354",
+        "url": "http://arxiv.org/abs/2406.04710v2",
+        "input_quality": null
+      },
+      "cells": [
+        {
+          "generator": "groq",
+          "mode": "raw",
+          "analysis": {
+            "text": "Here is a concise, factual analysis of the article's main claims and contribution:\n\n**Main Claims:**\n\n1. Current Generative AI (GAI) models for software engineering are limited by their focus on syntax, rather than semantics.\n2. This limitation reduces their trustworthiness in tasks that require understanding software semantics.\n3. A new class of \"Morescient\" GAI models is needed, which is trained on both syntactic and semantic facets of software.\n\n**Contribution:**\n\nThe article proposes a vision and roadmap for developing \"Morescient\" GAI models that can overcome the limitations of current models. The contribution includes:\n\n1. Identifying the need for a new generation of software observation platforms to generate large quantities of execution observations.\n2. Outlining the principles of open science for engineering, evolving, and disseminating \"Morescient\" GAI models.\n\nOverall, the article highlights the limitations of current GAI models for software engineering and proposes a new approach to develop more reliable and trustworthy models by incorporating semantic awareness and open science principles.",
+            "source_model": "llama-3.3-70b-versatile",
+            "generated_at": "2026-08-14T15:25:22Z"
+          },
+          "metadata": {},
+          "judge_result": {
+            "criteria_source": "llm",
+            "winner": "bsi",
+            "reasoning": "The BSI analysis offers a more comprehensive, structured, and critical examination of the article, addressing latent mechanisms, evidence considerations, and methodological detail that the RAW analysis lacks. Consequently, BSI demonstrates superior analytical quality for this article.",
+            "criteria": [
+              {
+                "name": "Claim Clarity and Precision",
+                "importance": 20.0,
+                "raw_score": 9.0,
+                "bsi_score": 6.0,
+                "reason": "The article’s main claims are explicitly enumerated in the RAW analysis, providing clear, concise statements. The BSI analysis presents a claim but does so in a more generalized, less precise manner."
+              },
+              {
+                "name": "Evidence Mapping",
+                "importance": 15.0,
+                "raw_score": 2.0,
+                "bsi_score": 5.0,
+                "reason": "RAW offers no mapping of evidence to claims, whereas BSI references the need for observation platforms and open‑science principles, indicating some evidence consideration."
+              },
+              {
+                "name": "Methodological Insight",
+                "importance": 15.0,
+                "raw_score": 5.0,
+                "bsi_score": 7.0,
+                "reason": "RAW outlines a high‑level roadmap but lacks detail; BSI provides a more detailed discussion of principles and a roadmap, though still high‑level."
+              },
+              {
+                "name": "Depth of Analysis (Mechanistic/Latent)",
+                "importance": 20.0,
+                "raw_score": 2.0,
+                "bsi_score": 8.0,
+                "reason": "BSI explicitly discusses latent mechanisms, feedback loops, and causal compliance, whereas RAW does not address underlying mechanisms."
+              },
+              {
+                "name": "Structural Coherence and Organization",
+                "importance": 10.0,
+                "raw_score": 4.0,
+                "bsi_score": 9.0,
+                "reason": "BSI employs tables, layered analysis, and structured sections, enhancing readability; RAW is a single paragraph."
+              },
+              {
+                "name": "Critical Evaluation / Gap Identification",
+                "importance": 10.0,
+                "raw_score": 2.0,
+                "bsi_score": 7.0,
+                "reason": "BSI identifies missing details and suggests improvements; RAW makes no critical assessment."
+              },
+              {
+                "name": "Domain‑Specific Terminology and Contextualization",
+                "importance": 10.0,
+                "raw_score": 6.0,
+                "bsi_score": 7.0,
+                "reason": "Both analyses mention GAI and software engineering, but BSI incorporates additional domain concepts such as semantics, syntax, and open‑science principles."
+              }
+            ],
+            "total_scores": {
+              "raw": 4.45,
+              "bsi": 6.9
+            },
+            "bsi_capability_assessment": {
+              "relevance": "high",
+              "realization": "medium",
+              "incremental_value": "high",
+              "reason": "BSI’s multi‑layer, EIG, and REIG capabilities are directly applicable to evaluating a proposal for a new class of GAI. The analysis demonstrates use of these capabilities, though evidence mapping is less thorough, indicating medium realization. The added depth, structure, and critical insight provide high incremental value over the RAW analysis."
+            },
+            "incremental_value": "high",
+            "scale": "0-10",
+            "weight_sum": 100.0
+          },
+          "scores": {
+            "RAW": 0.445,
+            "BSI": 0.69
+          },
+          "failed": false
+        },
+        {
+          "generator": "groq",
+          "mode": "bsi",
+          "analysis": {
+            "text": "## خلاصه اجرایی\nمقالة «Morescient GAI برای مهندسی نرم‌افزار (نسخة گسترش‌یافته)» به توانایی فناوری هوش مصنوعی تولیدی (GAI) در بررسی، ترکیب و تغییر自動 نرم‌افزارها می‌پردازد و نویدبخش انقلاب در کلیة جنبه‌های مهندسی نرم‌افزار است. این مقاله به نیاز برای یک 클래스 جدید از GAI با نام «Morescient» اشاره می‌کند که باید هم از جنبه‌های نحوی و هم معنایی نرم‌افزار آگاه باشد تا بتواند nhiệmاولات وابسته به معناشناسی نرم‌افزار را به‌درستی انجام دهد. این مقاله یک چشم‌انداز و نقشه‌راه برای مهندسی، تکامل و انتشار مدل‌های GAI «Morescient» بر اساس اصول علم باز ارائه می‌دهد.\n\n**CLAIM:** این مقاله مدعی است که با معرفی teknolojیه GAI «Morescient» که هر دو جنبه‌های نحوی و معنایی نرم‌افزار را در نظر می‌گیرد، می‌توانیمrevolution در مهندسی نرم‌افزار را看到اریم.\n\n**امتیاز کلی BSI:** ۸۲٪\n\n## جدول ارزیابی معیارهای اصلی ۷گانه\n\n| معیار | امتیاز |\n| --- | --- |\n| ابداع و نوآوری | ۹۰٪ |\n| جامعیت و کامل‌بودن | ۸۵٪ |\n| تناسب و مرتبط‌بودن | ۸۰٪ |\n| اعتبار و اعتمادپذیری | ۸۵٪ |\n| کارایی و استفاده‌آوری | ۸۰٪ |\n| انسجام و یکپارچگی | ۸۵٪ |\n| تاثیرگذاری | ۹۰٪ |\n\n## جدول CreativeValueAdd با ۳ زیرمعیار\n\n| زیرمعیار | امتیاز |\n| --- | --- |\n| Epistemic Gap Targeting (۳۵٪) | ۸۵٪ |\n| Combinatorial Synthesis (۴۰٪) | ۹۰٪ |\n| Generative Capacity (۲۵٪) | ۸۰٪ |\n\n## لایه‌برداری عمیق\n\n### لایة منifest\nاین مقاله از جنبة ظاهری یک مقالة پژوهشی است که به توانایی‌های GAI در مهندسی نرم‌افزار می‌پردازد. however، در لایة sâu‌تر، این مقاله یک چشم‌انداز و نقشه‌راه برای آیندهٔ این فناوری ارائه می‌کند.\n\n### لایة Latent\nمکانیسم‌های پنهان این مقاله عبارتند از:\n- معرفی مفهوم «Morescient» به عنوان یک کلاس جدید از GAI\n- نیاز به یک نسل جدید از پلت‌فرم‌های نظارت نرم‌افزاری برای تولید مشاهدات اجرای大量 و ساختارمند\n- تأکید بر Importance جنبة معنایی نرم‌افزار در کنار جنبة نحوی\n\nالگوهای تکرارشونده:\n- تکرار اهمیت GAI در مهندسی نرم‌افزار\n- تأکید بر نیاز به یک نسل جدید از مدل‌های GAI\n\nFeedback Loops:\n- بازخورد از نتایج تحقیقات قبلی برای توسعه مدل‌های GAI جدید\n- بازخورد از کاربردهای عملی مدل‌های GAI برای بهبود آنها\n\nLeverage Points:\n- توسعه پلت‌فرم‌های نظارت نرم‌افزاری برای تولید مشاهدات اجرای大量 و ساختارمند\n- معرفی مفهوم «Morescient» به عنوان یک کلاس جدید از GAI\n\n### لایة Meta\nدر لایة متا، این مقاله یک چشم‌انداز و نقشه‌راه برای آیندهٔ مهندسی نرم‌افزار و نقش GAI در آن ارائه می‌کند. این چشم‌انداز بر اساس концепت «Morescient» و نیاز به یک نسل جدید از مدل‌های GAI استوار است.\n\n## EIG Analysis\nاین مقاله از جنبة EIG (Epistemic, Inferential, and Generative) دارای امتیاز بالا است. به‌ویژه در جنبة Epistemic، این مقاله به معرفی مفهوم «Morescient» به عنوان یک کلاس جدید از GAI و نیاز به یک نسل جدید از پلت‌فرم‌های نظارت نرم‌افزاری می‌پردازد.\n\n## REIG — ممیزی Draft Analysis\nINPUT درست REIG = Draft Analysis این مقاله است.\nCORE QUESTION: «آیا در Draft خودم از گپ‌های EIG عبور کردم؟»\n\nچهار نقطه بررسی:\n- Causal Compliance:PASS \n- Generalization Compliance:PASS \n- Measurement Compliance:PASS \n- Framing Compliance:PASS \n\nخروجی: PASS\n\n## نتیجه‌گیری نهایی\nاین مقاله یک چشم‌انداز و نقشه‌راه برای آیندهٔ مهندسی نرم‌افزار و نقش GAI در آن ارائه می‌کند. با معرفی مفهوم «Morescient» به عنوان یک کلاس جدید از GAI، این مقاله به نیاز به یک نسل جدید از پلت‌فرم‌های نظارت نرم‌افزاری برای تولید مشاهدات اجرای大量 و ساختارمند اشاره می‌کند.\n\nنقاط قوت:\n- معرفی مفهوم «Morescient» به عنوان یک کلاس جدید از GAI\n- نیاز به یک نسل جدید از پلت‌فرم‌های نظارت نرم‌افزاری\n\nنقاط ضعف:\n- عدم ارائه جزئیات بیشتر در مورد چگونگی توسعه مدل‌های GAI «Morescient»\n\nپیشنهاد بهبود:\n- ارائه جزئیات بیشتر در مورد چگونگی توسعه مدل‌های GAI «Morescient»\n- بررسی بیشتر در مورد کاربردهای عملی مدل‌های GAI «Morescient»\n\nتحلیل حاضر کاملاً مطابق SOP_Intellectual_Content_Analysis_v3.4.2 و Ontology BIO v1.0 انجام شد.",
+            "source_model": "llama-3.3-70b-versatile",
+            "generated_at": "2026-08-14T15:25:28Z"
+          },
+          "metadata": {},
+          "judge_result": {
+            "criteria_source": "llm",
+            "winner": "bsi",
+            "reasoning": "The BSI analysis offers a more comprehensive, structured, and critical examination of the article, addressing latent mechanisms, evidence considerations, and methodological detail that the RAW analysis lacks. Consequently, BSI demonstrates superior analytical quality for this article.",
+            "criteria": [
+              {
+                "name": "Claim Clarity and Precision",
+                "importance": 20.0,
+                "raw_score": 9.0,
+                "bsi_score": 6.0,
+                "reason": "The article’s main claims are explicitly enumerated in the RAW analysis, providing clear, concise statements. The BSI analysis presents a claim but does so in a more generalized, less precise manner."
+              },
+              {
+                "name": "Evidence Mapping",
+                "importance": 15.0,
+                "raw_score": 2.0,
+                "bsi_score": 5.0,
+                "reason": "RAW offers no mapping of evidence to claims, whereas BSI references the need for observation platforms and open‑science principles, indicating some evidence consideration."
+              },
+              {
+                "name": "Methodological Insight",
+                "importance": 15.0,
+                "raw_score": 5.0,
+                "bsi_score": 7.0,
+                "reason": "RAW outlines a high‑level roadmap but lacks detail; BSI provides a more detailed discussion of principles and a roadmap, though still high‑level."
+              },
+              {
+                "name": "Depth of Analysis (Mechanistic/Latent)",
+                "importance": 20.0,
+                "raw_score": 2.0,
+                "bsi_score": 8.0,
+                "reason": "BSI explicitly discusses latent mechanisms, feedback loops, and causal compliance, whereas RAW does not address underlying mechanisms."
+              },
+              {
+                "name": "Structural Coherence and Organization",
+                "importance": 10.0,
+                "raw_score": 4.0,
+                "bsi_score": 9.0,
+                "reason": "BSI employs tables, layered analysis, and structured sections, enhancing readability; RAW is a single paragraph."
+              },
+              {
+                "name": "Critical Evaluation / Gap Identification",
+                "importance": 10.0,
+                "raw_score": 2.0,
+                "bsi_score": 7.0,
+                "reason": "BSI identifies missing details and suggests improvements; RAW makes no critical assessment."
+              },
+              {
+                "name": "Domain‑Specific Terminology and Contextualization",
+                "importance": 10.0,
+                "raw_score": 6.0,
+                "bsi_score": 7.0,
+                "reason": "Both analyses mention GAI and software engineering, but BSI incorporates additional domain concepts such as semantics, syntax, and open‑science principles."
+              }
+            ],
+            "total_scores": {
+              "raw": 4.45,
+              "bsi": 6.9
+            },
+            "bsi_capability_assessment": {
+              "relevance": "high",
+              "realization": "medium",
+              "incremental_value": "high",
+              "reason": "BSI’s multi‑layer, EIG, and REIG capabilities are directly applicable to evaluating a proposal for a new class of GAI. The analysis demonstrates use of these capabilities, though evidence mapping is less thorough, indicating medium realization. The added depth, structure, and critical insight provide high incremental value over the RAW analysis."
+            },
+            "incremental_value": "high",
+            "scale": "0-10",
+            "weight_sum": 100.0
+          },
+          "scores": {
+            "RAW": 0.445,
+            "BSI": 0.69
+          },
+          "failed": false
+        }
+      ]
+    }
+  ],
+  "source_url": "https://github.com/ibstrade11-source/behmanesh-index-prompt/blob/main/MASTER_PROMPT_BSI_v3.4.2.md",
+  "run_metadata": {
+    "tool_version": "0.1.0",
+    "git_commit": "8799f32138a68f7b773b5be43423f6cbd061cb06",
+    "git_dirty": false,
+    "run_timestamp_utc": "2026-08-14T15:25:12Z",
+    "methodology_note": "Scores/judgements come from an independent LLM judge (see comparison/judge.py) instructed not to reuse BSI's own D1-D7/EIG vocabulary and to choose its own evaluation criteria. If no judge model is available or its response cannot be parsed, the run falls back to a simple keyword-presence heuristic -- the stored record's own 'criteria_source' field ('llm' vs 'heuristic_fallback') always says honestly which one produced a given result. Neither path is a validated measurement of analytical quality until checked against independent human judgement on a representative sample.",
+    "provider_name": null,
+    "model_version": null,
+    "temperature": null,
+    "max_tokens": null,
+    "prompt_version": null,
+    "framework_name": "bsi"
+  }
+}

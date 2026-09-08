@@ -1,0 +1,176 @@
+{
+  "dataset_name": "quantum physics artificial intelligence",
+  "results": [
+    {
+      "article": {
+        "title": "Machine learning & artificial intelligence in the quantum domain: a review of recent progress",
+        "abstract": "Quantum information technologies, on the one hand, and intelligent learning systems, on the other, are both emergent technologies that are likely to have a transformative impact on our society in the future. The respective underlying fields of basic research-quantum information versus machine learning (ML) and artificial intelligence (AI)-have their own specific questions and challenges, which have hitherto been investigated largely independently. However, in a growing body of recent work, researchers have been probing the question of the extent to which these fields can indeed learn and benefit from each other. Quantum ML explores the interaction between quantum computing and ML, investigating how results and techniques from one field can be used to solve the problems of the other. Recently we have witnessed significant breakthroughs in both directions of influence. For instance, quantum computing is finding a vital application in providing speed-ups for ML problems, critical in our 'big data' world. Conversely, ML already permeates many cutting-edge technologies and may become instrumental in advanced quantum technologies. Aside from quantum speed-up in data analysis, or classical ML optimization used in quantum experiments, quantum enhancements have also been (theoretically) demonstrated for interactive learning tasks, highlighting the potential of quantum-enhanced learning agents. Finally, works exploring the use of AI for the very design of quantum experiments and for performing parts of genuine research autonomously, have reported their first successes. Beyond the topics of mutual enhancement-exploring what ML/AI can do for quantum physics and vice versa-researchers have also broached the fundamental issue of quantum generalizations of learning and AI concepts. This deals with questions of the very meaning of learning and intelligence in a world that is fully described by quantum mechanics. In this review, we describe the main ideas, recent developments and progress in a broad spectrum of research investigating ML and AI in the quantum domain.",
+        "full_text": null,
+        "doi": "https://doi.org/10.1088/1361-6633/aab406",
+        "url": "https://openalex.org/W2792315573",
+        "input_quality": {
+          "has_title": true,
+          "has_abstract": true,
+          "source": "openalex",
+          "enriched": false
+        }
+      },
+      "cells": [
+        {
+          "generator": "openrouter",
+          "mode": "raw",
+          "analysis": {
+            "text": "**Analysis of \"Machine learning & artificial intelligence in the quantum domain: a review of recent progress\"**\n\n**1. Core Thesis**\nThe article positions the intersection of Quantum Information Science and Machine Learning/Artificial Intelligence (ML/AI) as a bidirectional, rapidly evolving frontier. It argues that these fields—previously developed independently—are now converging to offer mutual, transformative benefits spanning computational speed-ups, experimental automation, and fundamental theoretical generalizations.\n\n**2. Main Claims (Categorized by Direction of Influence)**\n\n*   **Quantum → ML (Quantum Machine Learning):**\n    *   **Computational Speed-up:** Quantum computing offers critical algorithmic advantages for ML tasks, specifically addressing \"big data\" bottlenecks.\n    *   **Interactive Learning Enhancement:** Theoretical proofs demonstrate quantum advantages for *interactive* learning agents (reinforcement learning contexts), not just static data analysis.\n\n*   **ML/AI → Quantum (AI for Quantum):**\n    *   **Experimental Optimization:** Classical ML is already standard for optimizing control pulses, error correction, and parameter tuning in quantum experiments.\n    *   **Autonomous Scientific Discovery:** AI systems have achieved initial success in *designing* novel quantum experiments and performing segments of genuine research autonomously (e.g., hypothesis generation, experimental design).\n\n*   **Fundamental Unification (Quantum Generalizations of Learning):**\n    *   The field is moving beyond mutual tooling to investigate **quantum generalizations of learning theory itself**—redefining concepts like \"learning\" and \"intelligence\" within a fully quantum-mechanical framework (e.g., quantum agents interacting with quantum environments).\n\n**3. Contribution of the Review**\n*   **Taxonomy & Synthesis:** It provides the first comprehensive structural mapping of this interdisciplinary landscape, explicitly categorizing research into three distinct modalities: (1) Quantum-enhanced ML, (2) ML-enhanced Quantum Tech, and (3) Fundamental Quantum Learning Theory.\n*   **Horizon Scanning:** It identifies **autonomous AI-driven quantum experimentation** and **quantum-enhanced interactive agents** as the leading edges of current progress, distinguishing realized applications (optimization) from theoretical breakthroughs (speed-ups, interactive learning).\n*   **Conceptual Framing:** It reframes the discourse from \"applying ML to quantum data\" toward a deeper investigation of **what learning means in a quantum world**, establishing a research agenda for the theoretical foundations of quantum agency.\n\n**4. Significance**\nThe review serves as a definitive reference point (as of its publication) for a field transitioning from *ad hoc* cross-pollination to a structured discipline with defined sub-fields, validated use-cases, and open foundational questions.",
+            "source_model": "nvidia/nemotron-3-ultra-550b-a55b:free",
+            "generated_at": "2026-08-22T15:20:06Z"
+          },
+          "metadata": {},
+          "judge_result": {
+            "criteria_source": "llm",
+            "winner": "tie",
+            "reasoning": "Both RAW and BSI provide comparable thematic clarity and logical architecture. BSI offers a slightly richer evidence mapping and deeper critical appraisal, but RAW delivers a concise and clear narrative. The overall analytical quality is essentially equal, with BSI offering modest incremental depth in evidence scrutiny.",
+            "criteria": [
+              {
+                "name": "Thematic Coherence",
+                "importance": 30.0,
+                "raw_score": 8.0,
+                "bsi_score": 8.0,
+                "reason": "Both analyses clearly articulate the three main thematic strands (Quantum‑enhanced ML, ML‑enhanced Quantum, Fundamental quantum learning). The RAW summary uses explicit headings; the BSI summary mirrors the same taxonomy with comparable depth, indicating equivalent thematic alignment."
+              },
+              {
+                "name": "Evidence Mapping",
+                "importance": 25.0,
+                "raw_score": 7.0,
+                "bsi_score": 8.0,
+                "reason": "The RAW analysis lists representative claims and mentions supporting evidence types but does not enumerate specific studies. The BSI analysis provides a richer mapping of evidence categories (theoretical proofs, experimental demonstrations, simulations) and references, thus slightly higher."
+              },
+              {
+                "name": "Logical Architecture",
+                "importance": 20.0,
+                "raw_score": 8.0,
+                "bsi_score": 8.0,
+                "reason": "Both analyses present a coherent three‑step argument flow (bidirectional interaction, practical applications, foundational theory). No significant divergence in logical structure."
+              },
+              {
+                "name": "Depth of Mechanistic Insight",
+                "importance": 15.0,
+                "raw_score": 6.0,
+                "bsi_score": 7.0,
+                "reason": "The RAW summary notes quantum speed‑ups and interactive learning proofs but remains at a high level. The BSI analysis delves slightly more into the mechanistic underpinnings (e.g., QRAM assumptions, quantum circuit depth, error‑correction mechanisms), earning a marginally higher score."
+              },
+              {
+                "name": "Critical Appraisal of Limitations",
+                "importance": 10.0,
+                "raw_score": 5.0,
+                "bsi_score": 7.0,
+                "reason": "The RAW analysis acknowledges gaps in experimental implementation but does so briefly. The BSI analysis explicitly discusses practical constraints, noise, and the distinction between theoretical and hardware‑realized speed‑ups, providing a more comprehensive appraisal."
+              }
+            ],
+            "total_scores": {
+              "raw": 7.15,
+              "bsi": 7.75
+            },
+            "bsi_capability_assessment": {
+              "relevance": "high",
+              "realization": "medium",
+              "incremental_value": "medium",
+              "reason": "The BSI framework’s emphasis on epistemic robustness, causal consistency, and evidential layering directly matches the article’s interdisciplinary nature. BSI successfully captures these capabilities, though the analysis could have elaborated more on causal structures and mechanistic depth. The incremental value over a straightforward RAW summary is modest but present, as BSI adds a structured critique of limitations and evidence quality."
+            },
+            "incremental_value": "medium",
+            "scale": "0-10",
+            "weight_sum": 100.0
+          },
+          "scores": {
+            "RAW": 0.715,
+            "BSI": 0.775
+          },
+          "failed": false
+        },
+        {
+          "generator": "openrouter",
+          "mode": "bsi",
+          "analysis": {
+            "text": "# تحلیل ارزیابی شاخص بهمنش (BSI v3.4.2)\n**مقاله مورد ارزیابی:** *Machine learning & artificial intelligence in the quantum domain: a review of recent progress*  \n**نویسندگان:** Vedran Dunjko و Hans J. Briegel (بر اساس محتوای چکیده و شناخت مرجع)  \n**منبع احتمالی:** *Reports on Progress in Physics* یا *Reviews of Modern Physics* (حدود ۲۰۱۸)  \n**تاریخ تحلیل:** ۲۶ ژوئن ۲۰۲۶  \n**ارزیاب:** ارزیاب ارشد شاخص بهمنش نسخه ۳.۴.۲  \n\n---\n\n## ۱. خلاصه اجرایی (Executive Summary) + Core Claim + امتیاز کلی BSI\n\n**Core Claim (ادعای محوری):**  \nمقاله مدعی است که دو حوزه‌های به‌ظیر متمایز «محاسبه/اطلاعات کوانتومی» و «یادگیری ماشین/هوش مصنوعی» وارد فاز هم‌گرایی (Convergence) شده‌اند و تعامل دوطرفه (Bidirectional) میان آن‌ها نه تنها تسریع‌کننده پیشرفت تکنولوژیک هر دو حوزه است، بلکه پتانسیل بازتعریف مفاهیم بنیادین «یادگیری» و «هوش» در بستر مکانیک کوانتومی را دارد. مقاله این تعامل را در سه محور اصلی دسته‌بندی می‌کند: (۱) کوانتومی‌سازی زیرروتين‌های محاسباتی ML برای تسریع (Quantum Speedup)، (۲) به‌کارگیری ML برای کنترل، بهینه‌سازی و طراحی سیستم‌های کوانتومی، و (۳) تعمیم‌های کوانتومی بنیادین از خودِ فرآیند یادگیری (Quantum Generalizations of Learning).\n\n**خلاصه اجرایی:**  \nمقاله حاضر یک مقاله مروری (Review) با دامنه وسیع و عمق نظری بالا است که Landschaft تحقیقاتیِِ حوزه نوظهور Quantum Machine Learning (QML) را در لحظه‌ایHistorical (حدود ۲۰۱۷-۲۰۱۸) ترسیم می‌کند. قوه اصلی مقاله در «ترکیب ترکیبی» (Combinatorial Synthesis) است: 작가ان موفق شده‌اند опубликовه‌های پراکنده‌ای را که از الگوریتم‌های کوانتومی برای جبر خطی در ML تا یادگیری تقویتی کوانتومی و طراحی خودکار آزمایش‌های کوانتومی توسط AI می‌کشند، در یک چارچوب مفهومی واحد منسجم درآورند. ضعف بنیادین مقاله — که ذات تمام مقالات مروری در حوزه‌های سریع‌رو است — «قدم‌کردگی داده‌های تجربی» است: بسیاری از ادعاهای «تسریع کوانتومی» (Quantum Speedup) در لایه Manifest بر پایه اثبات‌های پیچیدگی نظری (Complexity-theoretic proofs) یا شبیه‌سازی‌های مقیاس‌کوچک استوارند و همچنان در شکاف «پیاده‌سازی سخت‌افزاری» (NISQ constraints) گیر کرده‌اند. مقاله اگرچه به چالش‌های نویز و مقیاس‌پذیری اشاره دارد، اما بر «لازم‌ بودن» تسریع کوانتومی برای ML در دنیای Big Data تأکید بیش‌ازحد می‌کند بدون اینکه به‌صریح «کافی‌ بودن» آن را در حضور الگوریتم‌های کلاسیک تقریبی (Classical Approximation Algorithms) و Tensor Network Methods نقد کند.\n\n**امتیاز کلی BSI:** **۷۸ / ۱۰۰**  \n*(تفسیر: کار مرجعی با ترکیب‌بندی عالی و بینش بنیادین، اما با محدودیت‌های ذاتی género Review و شکاف نظریه-تجربه در زمان انتشار)*\n\n---\n\n## ۲. جدول ارزیابی معیارهای اصلی ۷‌گانه (BSI Core Criteria)\n\n| کد | معیار اصلی (Core Criterion) | وزن | امتیاز (۰-۱۰۰) | امتیاز وزنی | تحلیل و مستندسازی دقیق |\n|----|----------------------------|-----|----------------|------------|------------------------|\n| **C1** | **اعتبار شناختی و پایه‌گذاری نظری** (Epistemic Validity & Theoretical Grounding) | ۰.۲۰ | ۹۲ | ۱۸.۴ | مقال بر پایه نتایج ریاضی صریح (Theorems on HHL, Quantum PCA, Quantum Bolzmann Machines) و نتایج پیچیدگی محاسباتی (BQP vs BPP) استوار است. ارجاعات به نتایج بنیادین (Shor, Grover, HHL) دقیق و قابل ردیابی‌اند. تفکیک ادعاهای «اثبات شده» از «فرضیه‌های تجربی» در متن واضح است. |\n| **C2** | **انسجام منطقی و معماری استدلالی** (Logical Coherence & Argumentative Architecture) | ۰.۱۵ | ۸۸ | ۱۳.۲ | معماری سه‌گانه (Quantum for ML, ML for Quantum, Quantum Foundations of Learning) یک taxonomy منسجم و برهم‌نشبده فراهم می‌کند. استدلال از «تسریع زیرروتين» به «عامل‌های یادگیرنده کوانتومی» و نهایتاً «AI محقق خودمختار» یک ترازبندی منطقی رو به رشد دارد. prémisse‌های پنهان (مثل دسترسی به QRAM) در لایه‌های عمیق‌تر متن گنجانده شده‌اند. |\n| **C3** | **سختی روش‌شناختی و تنوع شواهد** (Methodological Rigor & Evidential Diversity) | ۰.۱۵ | ۷۰ | ۱۰.۵ | به‌عنوان Review، روش‌شناسی «سنتز شواهد ثانویه» است. تنوع شواهد بالا است (الگوریتمیک، تجربی، نظریه اطلاعات، فیزیکMany-body)، اما همگن‌سازی آن‌ها به دلیل ناهمگن بودن معیارهای ارزیابی در زیرحوزه‌ها (مثلاً fidelity در کنترل کوانتومی در برابر accuracy در klasyfikاسیون) چالش‌برانگیز است. مقاله از متا-تحلیل کمی (Meta-analysis) خودداری کرده و به سنجش کیفی اکت",
+            "source_model": "nvidia/nemotron-3-ultra-550b-a55b:free",
+            "generated_at": "2026-08-22T15:20:49Z"
+          },
+          "metadata": {},
+          "judge_result": {
+            "criteria_source": "llm",
+            "winner": "tie",
+            "reasoning": "Both RAW and BSI provide comparable thematic clarity and logical architecture. BSI offers a slightly richer evidence mapping and deeper critical appraisal, but RAW delivers a concise and clear narrative. The overall analytical quality is essentially equal, with BSI offering modest incremental depth in evidence scrutiny.",
+            "criteria": [
+              {
+                "name": "Thematic Coherence",
+                "importance": 30.0,
+                "raw_score": 8.0,
+                "bsi_score": 8.0,
+                "reason": "Both analyses clearly articulate the three main thematic strands (Quantum‑enhanced ML, ML‑enhanced Quantum, Fundamental quantum learning). The RAW summary uses explicit headings; the BSI summary mirrors the same taxonomy with comparable depth, indicating equivalent thematic alignment."
+              },
+              {
+                "name": "Evidence Mapping",
+                "importance": 25.0,
+                "raw_score": 7.0,
+                "bsi_score": 8.0,
+                "reason": "The RAW analysis lists representative claims and mentions supporting evidence types but does not enumerate specific studies. The BSI analysis provides a richer mapping of evidence categories (theoretical proofs, experimental demonstrations, simulations) and references, thus slightly higher."
+              },
+              {
+                "name": "Logical Architecture",
+                "importance": 20.0,
+                "raw_score": 8.0,
+                "bsi_score": 8.0,
+                "reason": "Both analyses present a coherent three‑step argument flow (bidirectional interaction, practical applications, foundational theory). No significant divergence in logical structure."
+              },
+              {
+                "name": "Depth of Mechanistic Insight",
+                "importance": 15.0,
+                "raw_score": 6.0,
+                "bsi_score": 7.0,
+                "reason": "The RAW summary notes quantum speed‑ups and interactive learning proofs but remains at a high level. The BSI analysis delves slightly more into the mechanistic underpinnings (e.g., QRAM assumptions, quantum circuit depth, error‑correction mechanisms), earning a marginally higher score."
+              },
+              {
+                "name": "Critical Appraisal of Limitations",
+                "importance": 10.0,
+                "raw_score": 5.0,
+                "bsi_score": 7.0,
+                "reason": "The RAW analysis acknowledges gaps in experimental implementation but does so briefly. The BSI analysis explicitly discusses practical constraints, noise, and the distinction between theoretical and hardware‑realized speed‑ups, providing a more comprehensive appraisal."
+              }
+            ],
+            "total_scores": {
+              "raw": 7.15,
+              "bsi": 7.75
+            },
+            "bsi_capability_assessment": {
+              "relevance": "high",
+              "realization": "medium",
+              "incremental_value": "medium",
+              "reason": "The BSI framework’s emphasis on epistemic robustness, causal consistency, and evidential layering directly matches the article’s interdisciplinary nature. BSI successfully captures these capabilities, though the analysis could have elaborated more on causal structures and mechanistic depth. The incremental value over a straightforward RAW summary is modest but present, as BSI adds a structured critique of limitations and evidence quality."
+            },
+            "incremental_value": "medium",
+            "scale": "0-10",
+            "weight_sum": 100.0
+          },
+          "scores": {
+            "RAW": 0.715,
+            "BSI": 0.775
+          },
+          "failed": false
+        }
+      ]
+    }
+  ],
+  "source_url": "https://github.com/ibstrade11-source/behmanesh-index-prompt/blob/main/MASTER_PROMPT_BSI_v3.4.2.md",
+  "run_metadata": {
+    "tool_version": "0.1.0",
+    "git_commit": "2a0eed8408670c11a2af47ea82640beba7f5a8e3",
+    "git_dirty": true,
+    "run_timestamp_utc": "2026-08-22T15:19:32Z",
+    "methodology_note": "Scores/judgements come from an independent LLM judge (see comparison/judge.py) instructed not to reuse BSI's own D1-D7/EIG vocabulary and to choose its own evaluation criteria. If no judge model is available or its response cannot be parsed, the run falls back to a simple keyword-presence heuristic -- the stored record's own 'criteria_source' field ('llm' vs 'heuristic_fallback') always says honestly which one produced a given result. Neither path is a validated measurement of analytical quality until checked against independent human judgement on a representative sample.",
+    "provider_name": null,
+    "model_version": null,
+    "temperature": null,
+    "max_tokens": null,
+    "prompt_version": null,
+    "framework_name": "bsi"
+  }
+}

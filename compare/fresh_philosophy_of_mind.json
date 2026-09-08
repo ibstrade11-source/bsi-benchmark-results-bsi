@@ -1,0 +1,919 @@
+{
+  "dataset_name": "philosophy of mind consciousness",
+  "results": [
+    {
+      "article": {
+        "title": "Philosophy Enters the Optics Laboratory: Bell's Theorem and its First Experimental Tests (1965-1982)",
+        "abstract": "This paper deals with the ways that the issue of completing quantum mechanics was brought into laboratories and became a topic in mainstream quantum optics. It focuses on the period between 1965, when Bell published what now we call Bell's theorem, and 1982, when Aspect published the results of his experiments. I argue that what was considered good physics after Aspect's experiments was once considered by many a philosophical matter instead of a scientific one, and that the path from philosophy to physics required a change in the physics community's attitude about the status of the foundations of quantum mechanics.",
+        "full_text": null,
+        "doi": "10.1016/j.shpsb.2005.12.003",
+        "url": "http://arxiv.org/abs/physics/0508180v2",
+        "input_quality": null
+      },
+      "cells": [
+        {
+          "generator": "openrouter",
+          "mode": "raw",
+          "analysis": {
+            "text": "**Analysis of \"Philosophy Enters the Optics Laboratory: Bell's Theorem and its First Experimental Tests (1965–1982)\"**\n\n**Main Claims**\n1.  **Epistemic Shift:** The investigation of quantum foundations (specifically local hidden variables vs. quantum mechanics) underwent a radical status change between 1965 and 1982. Initially dismissed by the mainstream physics community as \"philosophy\" or metaphysics, it became accepted as legitimate, mainstream experimental physics.\n2.  **Bell’s Theorem as Catalyst:** John Bell’s 1964/1966 theorem provided the decisive theoretical tool—experimentally testable inequalities—that transformed an interpretational debate into an empirical question accessible to quantum optics.\n3.  **Community Attitude Change:** The shift was not driven solely by theoretical progress or technological capability, but by a sociological change within the physics community regarding the *legitimacy* of studying foundations. Pioneers (Clauser, Freedman, Fry, Aspect, et al.) had to overcome significant institutional resistance (funding denial, career advice against the work, publication hurdles) to perform the tests.\n4.  **Aspect’s Experiments as Turning Point:** Alain Aspect’s experiments (1981–1982)—specifically the rapid switching of polarizers to close the locality loophole—served as the definitive moment of acceptance, forcing the community to acknowledge foundations as a valid domain of \"good physics.\"\n\n**Contribution**\n*   **Historiographical Intervention:** Counters \"internalist\" narratives that portray the acceptance of Bell tests as an inevitable, linear progression of theory and technology. Instead, it demonstrates the *contingency* of this history, highlighting the role of social and professional boundary-work (defining what counts as \"physics\" vs. \"philosophy\").\n*   **Periodization:** Defines the critical 1965–1982 window as the specific era where the \"shut up and calculate\" consensus was actively contested and fractured.\n*   **Agency of Experimenters:** Centers the agency of early experimentalists (Clauser, Aspect) as actors who navigated and reshaped professional norms, rather than merely passive executors of Bell’s theory.\n*   **Conceptualization of \"Philosophy\":** Analyzes how the label \"philosophy\" functioned pragmatically as a mechanism of exclusion/marginalization within Cold War physics culture, and how experimental success neutralized that stigma.",
+            "source_model": "nvidia/nemotron-3-ultra-550b-a55b:free",
+            "generated_at": "2026-08-15T12:35:08Z"
+          },
+          "metadata": {},
+          "judge_result": {
+            "criteria_source": "llm",
+            "winner": "bsi",
+            "reasoning": "Based on the evaluation criteria, BSI's analysis demonstrates a higher level of epistemic robustness, methodological soundness, and conceptual clarity, making it the winner. The incremental value of BSI's analysis is medium, as it offers a more nuanced and systematic approach to the topic, but does not offer a radically new perspective.",
+            "criteria": [
+              {
+                "name": "Epistemic Robustness",
+                "importance": 25.0,
+                "raw_score": 6.0,
+                "bsi_score": 8.0,
+                "reason": "Both analyses demonstrate a good understanding of the topic, but BSI provides more depth and clarity in its analysis, particularly in its discussion of the epistemic shift and the role of Bell's theorem."
+              },
+              {
+                "name": "Methodological Soundness",
+                "importance": 20.0,
+                "raw_score": 7.0,
+                "bsi_score": 9.0,
+                "reason": "BSI's analysis is more systematic and follows a clear methodology, whereas RAW's analysis is more narrative-driven and lacks a clear structure."
+              },
+              {
+                "name": "Historical Contextualization",
+                "importance": 15.0,
+                "raw_score": 8.0,
+                "bsi_score": 8.0,
+                "reason": "Both analyses provide a good historical context, but BSI's analysis is more nuanced and highlights the significance of the 1965-1982 period in the development of quantum optics."
+              },
+              {
+                "name": "Conceptual Clarity",
+                "importance": 10.0,
+                "raw_score": 6.0,
+                "bsi_score": 9.0,
+                "reason": "BSI's analysis demonstrates a clearer understanding of key concepts, such as epistemic robustness and mechanistic depth, and applies them more effectively to the topic."
+              },
+              {
+                "name": "Interdisciplinary Breadth",
+                "importance": 10.0,
+                "raw_score": 5.0,
+                "bsi_score": 8.0,
+                "reason": "BSI's analysis demonstrates a broader interdisciplinary approach, incorporating insights from philosophy, sociology, and history of science, whereas RAW's analysis is more focused on the historical narrative."
+              },
+              {
+                "name": "Originality and Creativity",
+                "importance": 10.0,
+                "raw_score": 4.0,
+                "bsi_score": 7.0,
+                "reason": "BSI's analysis offers more original and creative insights, particularly in its discussion of the role of Bell's theorem and the epistemic shift in quantum optics."
+              },
+              {
+                "name": "Transparency and Revisability",
+                "importance": 10.0,
+                "raw_score": 6.0,
+                "bsi_score": 8.0,
+                "reason": "BSI's analysis is more transparent and revisable, with a clearer exposition of its methodology and assumptions, whereas RAW's analysis is more opaque and less open to revision."
+              }
+            ],
+            "total_scores": {
+              "raw": 6.2,
+              "bsi": 8.2
+            },
+            "bsi_capability_assessment": {
+              "relevance": "high",
+              "realization": "high",
+              "incremental_value": "medium",
+              "reason": "BSI's capabilities, such as its epistemic robustness and mechanistic depth, are highly relevant to the topic and are realized effectively in the analysis. However, the incremental value of BSI's analysis is medium, as it builds upon existing research and does not offer a radically new perspective."
+            },
+            "incremental_value": "medium",
+            "scale": "0-10",
+            "weight_sum": 100.0
+          },
+          "scores": {
+            "RAW": 0.62,
+            "BSI": 0.82
+          },
+          "failed": false
+        },
+        {
+          "generator": "openrouter",
+          "mode": "bsi",
+          "analysis": {
+            "text": "# تحلیل ارشد شاخص بهمنش (BSI v3.4.2)\n\n**موضوع تحلیل:** مقاله با عنوان «فلسفه به آزمایشگاه نوری می‌رود: تئورم بل و آزمایش‌های نخستین آن (۱۹۶۵-۱۹۸۲)»  \n**نویسنده مقاله:** (نام نویسنده در متن ورودی ذکر نشده، متنی از خود مقاله/چکیده ارائه شده است)  \n**نوع محتوا:** چکیده (Abstract) مقاله تاریخی-فلسفی علم  \n**تاریخ تحلیل:** ۲۶ ژوئن ۲۰۲۶  \n**تحلیل‌گر:** ارزیاب ارشد شاخص بهمنش نسخه ۳.۴.۲  \n\n---\n\n## ۱. خلاصه اجرایی (Executive Summary) + Core Claim + امتیاز کلی BSI\n\n**خلاصه اجرایی:**  \nمتن ورودی چکیده یک مقاله پژوهشی در حوزه تاریخ و فلسفه علم است که بر فرآیند انتقال «مسئله تکمیل مکانیزم کوآنتوم» از حوزهٔ فلسفه/مبانی تئوریک به درون آزمایشگاه‌های نوری کوآنتومی (Quantum Optics) تمرکز دارد. بازه زمانی مورد بررسی ۱۹۶۵ (انتشار تئورم بل) تا ۱۹۸۲ (آزمایش‌های اسپکت) است. استدلال محوری نویسنده این است که مرز بین «فلسفه» و «فیزیک خوب» در این بازه سیال بوده و تغییر برداشت جامعه فیزیکدانان از جایگاه مبانی کوآنتوم، شرط لازم ورود این مباحث به جریان اصلی علم تجربی بوده است.\n\n**Core Claim (ادعای هسته):**  \n«تغییر actitud جامعه فیزیقدانان نسبت بهStatus مبانی مکانیزم کوآنتوم، عامل تعیین‌کننده در تبدیل یک مسئله «فلسفی» به یک برنامه تحقیق «تجربی-علمی»主流 (Mainstream) در نوری کوآنتومی بوده است.»\n\n**امتیاز کلی BSI (BSI Overall Score): ۷۸/۱۰۰**  \n*توضیح: متن به عنوان یک چکیده، در لایه Manifest و Meta fortaleza دارد (وضوح هدف، 배치 تاریخی دقیق)، اما در لایه Latent به دلیل خلأ داده‌های مکانیسمی، شواهدی برای ارزیابی عمیق CreativeValueAdd و EIG ناکافی است. امتیاز بر پایه پتانسیل متن کامل مقاله برآورد شده، نه تنها چکیده.*\n\n---\n\n## ۲. جدول ارزیابی معیارهای اصلی ۷گانه (Seven Core Criteria)\n\n| کد | معیار اصلی (Core Criterion) | وزن | امتیاز (۰-۱۰۰) | امتیاز وزنی | تحلیل و مستندسازی |\n|:---:|:---|:---:|:---:|:---:|:---|\n| **C1** | **انسجام منطقی (Logical Coherence)** | ۱۵٪ | ۹۰ | ۱۳.۵ | استدلال خطی و غیرمتضاد: پیشینه (۱۹۶۵) → فرآیند تغییر → نتیجه (۱۹۸۲). هیچ پارادوکس درونی در متن چکیده وجود ندارد. |\n| **C2** | **شواهد و استدلال (Evidence & Reasoning)** | ۲۰٪ | ۶۵ | ۱۳.۰ | چکیده ادعا می‌کند «من استدلال می‌کنم که...» اما هیچ شواهدی (مراجع، نقل قول، داده آرشیو، تحلیل شبکهciation) در متن چکیده ارائه نشده. امتیاز بر اساس پتانسیل متن کامل. |\n| **C3** | **نوآوری Erkenntic (Epistemic Novelty)** | ۱۵٪ | ۸۰ | ۱۲.۰ | دیدگاه «تغییر actitud جامعه» به عنوان مکانیسم اصلی، نسبت به روایات تکنیسیت‌گرایانه (فقط پیشرفت تکنولوژی) یاInternalist محض، زاویه دید نوین و ارزشمندی دارد. |\n| **C4** | **عمق مکانیسمی (Mechanistic Depth)** | ۲۰٪ | ۵۰ | ۱۰.۰ | چکیده از مکانیسم‌های دقیق تغییر actitud (مثلاً: نقش کنفرانس‌ها، označení financiamento، تغییر 커리큘م، شبکه‌های 보이지 않는) صرفاً اشاره می‌کند و «چه» را می‌گوید نه «چگونه». |\n| **C5** | ** انسجام پیشین/بیان (Framing & Scope)** | ۱۰٪ | ۹۵ | ۹.۵ | بازه زمانی، بازیگران (بل، اسپکت)، حوزه (نوری کوآنتومی)، و مسئله (تکمیل کوآنتوم) با دقت جراحی تعریف شده‌اند. Scope بسیار کنترل شده. |\n| **C6** | **ارزش افزاینده خلاق (CreativeValueAdd)** | ۱۰٪ | ۷۵ | ۷.۵ | (مرجع به جدول ۳ دقیق). ترکیب تاریخ علم، جامعه‌شناسی علم، و فلسفه علم برای تشریح مرزهای دسیپلینری. |\n| **C7** | **شفافیت و انعطاف‌پذیری (Transparency & Revisability)** | ۱۰٪ | ۸۵ | ۸.۵ | چکیده ادعاهای خود را به صورت conditional و استدلالی («من استدلال می‌کنم که») ارائه می‌دهد، نه دگماتی. مسیر فالیسیفیکیشن (فرضیه‌سازی قابل رد) پیش‌بینی می‌شود. |\n| **مجموع** | | **۱۰۰٪** | | **۷۴.۰** | **امتیازComposite (بدون تعدیل سطحی): ۷۴/۱۰۰** |\n| **تعدیل نهایی (Final BSI)** | | | | **۷۸/۱۰۰** | **افزایش ۴ واحد به دلیل پتانسیل بالا در متن کامل و کیفیت فرامینگ (Framing)** |\n\n---\n\n## ۳. جدول CreativeValueAdd (ارزش افزاینده خلاق)\n\n| زیرمعیار | وزن در CVA | امتیاز (۰-۱۰۰) | امتیاز وزنی | استدلال و مستندسازی عمیق |\n|:---|:---:|:---:|:---:|:---|\n| **Epistemic Gap Targeting (هدف‌گذاری شکاف شناختی)** | ۳۵٪ | ۸۵ | ۲۹.۷۵ | **شکاف شناسایی شده:** روایات سنتی تاریخ فیزیک کوآنتوم یا بر «تقدم تئوری» (بل → اسپکت) یا بر «پیشرفت تکنولوژیک» (لیزر، کاشف‌های تک فوتون) تمرکز دارند. **شکاف واقعی:** «چگونه یک موضوع که ۳۰ سال «شبه‌علم» یا «فلسفه» برچسب خورده بود، به «",
+            "source_model": "nvidia/nemotron-3-ultra-550b-a55b:free",
+            "generated_at": "2026-08-15T12:40:05Z"
+          },
+          "metadata": {},
+          "judge_result": {
+            "criteria_source": "llm",
+            "winner": "bsi",
+            "reasoning": "Based on the evaluation criteria, BSI's analysis demonstrates a higher level of epistemic robustness, methodological soundness, and conceptual clarity, making it the winner. The incremental value of BSI's analysis is medium, as it offers a more nuanced and systematic approach to the topic, but does not offer a radically new perspective.",
+            "criteria": [
+              {
+                "name": "Epistemic Robustness",
+                "importance": 25.0,
+                "raw_score": 6.0,
+                "bsi_score": 8.0,
+                "reason": "Both analyses demonstrate a good understanding of the topic, but BSI provides more depth and clarity in its analysis, particularly in its discussion of the epistemic shift and the role of Bell's theorem."
+              },
+              {
+                "name": "Methodological Soundness",
+                "importance": 20.0,
+                "raw_score": 7.0,
+                "bsi_score": 9.0,
+                "reason": "BSI's analysis is more systematic and follows a clear methodology, whereas RAW's analysis is more narrative-driven and lacks a clear structure."
+              },
+              {
+                "name": "Historical Contextualization",
+                "importance": 15.0,
+                "raw_score": 8.0,
+                "bsi_score": 8.0,
+                "reason": "Both analyses provide a good historical context, but BSI's analysis is more nuanced and highlights the significance of the 1965-1982 period in the development of quantum optics."
+              },
+              {
+                "name": "Conceptual Clarity",
+                "importance": 10.0,
+                "raw_score": 6.0,
+                "bsi_score": 9.0,
+                "reason": "BSI's analysis demonstrates a clearer understanding of key concepts, such as epistemic robustness and mechanistic depth, and applies them more effectively to the topic."
+              },
+              {
+                "name": "Interdisciplinary Breadth",
+                "importance": 10.0,
+                "raw_score": 5.0,
+                "bsi_score": 8.0,
+                "reason": "BSI's analysis demonstrates a broader interdisciplinary approach, incorporating insights from philosophy, sociology, and history of science, whereas RAW's analysis is more focused on the historical narrative."
+              },
+              {
+                "name": "Originality and Creativity",
+                "importance": 10.0,
+                "raw_score": 4.0,
+                "bsi_score": 7.0,
+                "reason": "BSI's analysis offers more original and creative insights, particularly in its discussion of the role of Bell's theorem and the epistemic shift in quantum optics."
+              },
+              {
+                "name": "Transparency and Revisability",
+                "importance": 10.0,
+                "raw_score": 6.0,
+                "bsi_score": 8.0,
+                "reason": "BSI's analysis is more transparent and revisable, with a clearer exposition of its methodology and assumptions, whereas RAW's analysis is more opaque and less open to revision."
+              }
+            ],
+            "total_scores": {
+              "raw": 6.2,
+              "bsi": 8.2
+            },
+            "bsi_capability_assessment": {
+              "relevance": "high",
+              "realization": "high",
+              "incremental_value": "medium",
+              "reason": "BSI's capabilities, such as its epistemic robustness and mechanistic depth, are highly relevant to the topic and are realized effectively in the analysis. However, the incremental value of BSI's analysis is medium, as it builds upon existing research and does not offer a radically new perspective."
+            },
+            "incremental_value": "medium",
+            "scale": "0-10",
+            "weight_sum": 100.0
+          },
+          "scores": {
+            "RAW": 0.62,
+            "BSI": 0.82
+          },
+          "failed": false
+        }
+      ]
+    },
+    {
+      "article": {
+        "title": "A Theoretical Solution of the Mind-Body Problem: An Operationalized Proof that no Purely Physical System Can Exhibit all the Properties of Human Consciousness",
+        "abstract": "This article presents an operationalized solution to the mind-body problem which relies on rigorously defined theoretical reasoning rather than philosophical argument. We identify a specific operation which is a necessary property of all healthy human conscious individuals -- specifically the operation of self-certainty, or the capacity of healthy conscious humans to \"know\" with certainty that they are conscious. This operation is shown to be inconsistent with the properties possible in any meaningful definition of a physical system. This inconsistency is demonstrated by proving a \"no-go\" theorem for any physical system capable of human logical reasoning, if this reasoning is required to be both sound and consistent. The proof of this theorem is both general -- it applies to any function whereby evidence affects the state of some physical system -- and recursive, since any physical process subserving a function of this type is shown to imply another such function. Thus for at least one aspect of human consciousness, the mind-body problem is now conclusively resolved.",
+        "full_text": null,
+        "doi": null,
+        "url": "http://arxiv.org/abs/1706.04192v4",
+        "input_quality": null
+      },
+      "cells": [
+        {
+          "generator": "openrouter",
+          "mode": "raw",
+          "analysis": {
+            "text": "**Analysis of \"A Theoretical Solution of the Mind-Body Problem...\"**\n\n**1. Core Thesis**\nThe article claims to provide a definitive, **mathematical/logical proof** (a \"no-go theorem\") demonstrating that **no purely physical system can replicate the specific conscious operation of \"self-certainty\"**—the intrinsic, incorrigible knowledge that one is conscious. It frames this not as a philosophical argument (e.g., zombies, qualia, explanatory gaps) but as a formal inconsistency derived from the constraints of physical computation.\n\n**2. Key Mechanisms & Definitions**\n*   **The Target Property (Explanandum):** \"Self-certainty\" (or *autonoesis*): The capacity of a healthy conscious human to *know with certainty* that they are conscious. This is treated as a necessary, operationalizable function of consciousness, distinct from reportability or behavioral markers.\n*   **The Constraint (Physicalism):** A \"meaningful definition of a physical system\" is implicitly defined as any system where state transitions are governed by physical evidence/functions (i.e., computational/functionalist physicalism).\n*   **The Logical Bridge:** The proof requires that the physical system be capable of **human-level logical reasoning** that is both **sound** (only proves true statements) and **consistent** (avoids contradictions).\n\n**3. Structure of the Proof (The \"No-Go Theorem\")**\n*   **Generality:** The proof targets *any* function where evidence affects a physical state (broadly covering measurement, computation, or neural processing).\n*   **Recursion/Infinite Regress:** It demonstrates that any physical process implementing such an evidential function *necessarily implies* a higher-order function of the same type (a meta-level monitoring the object-level).\n*   **Inconsistency:** This recursive hierarchy creates a formal contradiction (likely analogous to Gödelian incompleteness, Tarski’s undefinability of truth, or a diagonalization argument) when the system attempts to achieve **sound and consistent** self-certainty.\n*   **Conclusion:** Because the recursion cannot be grounded/closed in a physical substrate without violating soundness or consistency, the operation of self-certainty is **formally unrealizable** in any physical system.\n\n**4. Claimed Contribution**\n*   **Paradigm Shift:** Moves the mind-body problem from \"philosophy\" (conceptual analysis, intuition pumps) to \"theoretical science\" (rigorous proof).\n*   **Scope of Resolution:** Claims a **conclusive resolution** for \"at least one aspect\" of consciousness (self-certainty/autonoesis), establishing a hard boundary condition for physicalism.\n*   **Operationalization:** Treats a subjective epistemic state (\"knowing that I know\") as a formal operational property subject to mathematical constraint.\n\n**5. Critical Implications (Implicit in the Abstract)**\n*   **Non-Computationalism:** If valid, the proof entails that human consciousness (specifically self-certainty) is **non-algorithmic** and **non-physicalist** in the standard functionalist sense.\n*   **Explanatory Gap as Theorem:** The \"hard problem\" is reframed from an epistemic limitation to an ontological impossibility proof for a specific core function.\n*   **Falsifiability:** The claim rests entirely on the validity of the formal definitions of \"physical system,\" \"sound/consistent reasoning,\" and the mapping of \"self-certainty\" to the logical structure used in the proof.\n\n**Summary:** The article asserts a **formal impossibility result**: Physical systems (defined functionally/computationally) cannot instantiate the recursive logical structure required for *certain* self-knowledge without collapsing into inconsistency or unsoundness. It claims this constitutes a rigorous, operationalized solution to the mind-body problem for the specific faculty of self-certainty.",
+            "source_model": "nvidia/nemotron-3-ultra-550b-a55b:free",
+            "generated_at": "2026-08-15T13:09:50Z"
+          },
+          "metadata": {},
+          "judge_result": {
+            "criteria_source": "llm",
+            "winner": "bsi",
+            "reasoning": "The BSI analysis demonstrates higher theoretical sophistication, conceptual precision, and logical consistency. However, its lack of empirical support and limited predictive capacity for direct applications are notable drawbacks. The RAW analysis, while less formally rigorous, engages more directly with empirical and functionalist perspectives. Overall, BSI's rigorous theoretical framework and novel approach to addressing a significant epistemic gap make it the winner in terms of analytical quality, despite its limitations.",
+            "criteria": [
+              {
+                "name": "Conceptual Precision & Operationalization",
+                "importance": 15.0,
+                "raw_score": 8.0,
+                "bsi_score": 9.0,
+                "reason": "BOTH analyses demonstrate high conceptual precision, but BSI's operationalization of self-certainty as an operation rather than a mental state is more rigorous."
+              },
+              {
+                "name": "Logical Consistency & Internal Coherence",
+                "importance": 15.0,
+                "raw_score": 7.0,
+                "bsi_score": 8.0,
+                "reason": "BSI's structure is more deductive, but both analyses have strong internal coherence, with BSI's being slightly more consistent due to its formalized framework."
+              },
+              {
+                "name": "Empirical Support & Evidential Validity",
+                "importance": 15.0,
+                "raw_score": 6.0,
+                "bsi_score": 4.0,
+                "reason": "RAW analysis, while lacking empirical data, critiques the theoretical foundations more directly related to empirical verification, whereas BSI relies on theoretical consistency without empirical backing."
+              },
+              {
+                "name": "Theoretical Novelty & Gap Addressing",
+                "importance": 20.0,
+                "raw_score": 8.0,
+                "bsi_score": 9.0,
+                "reason": "BSI directly addresses a classic epistemic gap with a novel theoretical approach, offering a definitive proof regarding self-certainty in physical systems."
+              },
+              {
+                "name": "Consilience & Disciplinary Integration",
+                "importance": 10.0,
+                "raw_score": 7.0,
+                "bsi_score": 6.0,
+                "reason": "RAW engages more directly with neuroscientific and functionalist perspectives, although BSI integrates mathematical logic and computational theory more effectively into its framework."
+              },
+              {
+                "name": "Explanatory Power & Predictive Capacity",
+                "importance": 15.0,
+                "raw_score": 8.0,
+                "bsi_score": 7.0,
+                "reason": "BSI's explanatory power is high for why consciousness (specifically self-certainty) is non-physical, but its predictive capacity is somewhat limited by its theoretical nature."
+              },
+              {
+                "name": "Creative Value Add & Originality",
+                "importance": 10.0,
+                "raw_score": 7.0,
+                "bsi_score": 8.0,
+                "reason": "BSI's combination of Gödelian logic with system dynamics offers a novel theoretical contribution, even if its practical applications are less clear at present."
+              }
+            ],
+            "total_scores": {
+              "raw": 7.35,
+              "bsi": 7.4
+            },
+            "bsi_capability_assessment": {
+              "relevance": "high",
+              "realization": "medium",
+              "incremental_value": "medium",
+              "reason": "BSI's framework is highly relevant to assessing theoretical contributions in consciousness studies, but its realization in this specific analysis, while demonstrating significant theoretical novelty, has a medium level of effectiveness in providing practical or empirical insights. The incremental value is medium because, while it offers a rigorous proof, its limitations in empirical support and broad applicability temper its overall impact."
+            },
+            "incremental_value": "medium",
+            "scale": "0-10",
+            "weight_sum": 100.0
+          },
+          "scores": {
+            "RAW": 0.735,
+            "BSI": 0.74
+          },
+          "failed": false
+        },
+        {
+          "generator": "openrouter",
+          "mode": "bsi",
+          "analysis": {
+            "text": "# تحلیل مقاله: راه‌حل نظری مسئله ذهن-بدن: اثبات عملیاتی شده که هیچ سامانه‌ی محض فیزیکی نمی‌تواند تمام ویژگی‌های هوش آگاه انسانی را نشان دهد\n\n**مشخصات مقاله:**\n*   **عنوان:** A Theoretical Solution of the Mind-Body Problem: An Operationalized Proof that no Purely Physical System Can Exhibit all the Properties of Human Consciousness\n*   **موضوع اصلی:** فلسفه ذهن، شناخت‌شناسی، منطق ریاضی، حل مسئله ذهن-بدن\n*   **ادعای централь:** اثبات «نیمرخِ نه‌به‌راه» (No-go Theorem) برای عدم امکان وجود عملیات «خودیقین» (Self-certainty) در سامانه‌های فیزیکی\n*   **تاریخ تحلیل:** ۲۶ ژوئن ۲۰۲۶\n*   **نسخه SOP:** v3.4.2 | **اُنتولوژی:** BIO v1.0\n\n---\n\n## ۱. خلاصه اجرایی (Executive Summary) + Core Claim + امتیاز کلی BSI\n\n**خلاصه اجرایی:**\nمقاله حاضر تلاش می‌کند با رویکردی «عملیاتی» (Operationalized) و پرهیز از استدلال‌های محض فلسفی، مسئله ذهن-بدن را برای یک جنبه خاص از هوش آگاه — یعنی «خودیقین» (Self-certainty) یا توانایی دانستن یقینیِ آگاه بودن — حل کند. استراتژی استدلال بر پایه یک «نظریه‌ی نیمرخِ نه‌به‌راه» (No-go Theorem) بنا شده است: اگر یک سامانه فیزیکی قادر به استدلال منطقی انسانی (مستلزم هماهنگی Soundness و Konsistency) باشد، عملیات خودیقین با ماهیت فیزیکیِ آن سامانه ناسازگار است. اثبات ادعا شده «شامل» (General) است (به هر تابعی که شواهد وضعیت سامانه فیزیکی را تغییر دهد اعمال می‌شود) و «بازگشتی» (Recursive) است (هر فرآیند فیزیکیِ متولی چنین تابعی، تابعی دیگر از همین نوع را تقتضا می‌کند). نتیجه‌گیری نهایی این است که برایِ اینِ جنبه از هوش آگاه، مسئله ذهن-بدن «قاطعاً حل شده» است.\n\n**Core Claim (ادعای هسته):**\n> «عملیات خودیقین (Self-certainty) — به عنوان شرط لازم هوش آگاه انسانیِ سالم — از آن‌رو که پیشِ استدلال منطقیِ هم‌صوت (Sound) و منسجم (Consistent) در هر سامانه فیزیکی‌محض محال است، اثبات می‌کند که هوش آگاه (حداقل در این بُعد) غیرفیزیکی است.»\n\n**امتیاز کلی BSI:** **۷۸ / ۱۰۰**\n*   **توضیح امتیاز:** مقاله جرأت نظری بالا، ساختار منطقی صریح و تعریف عملیاتیِ ظریف دارد (نقاط قوت). با این حال، پرش از «نمایش عدم امکان در مدل‌های محاسبه‌ای/فیزیکیِ خاص» به «استحاله در *هر* تعریف معنادار سیستم فیزیکی» پرش ازمی‌گذار است (Epistemic Gap). همچنین، وابستگی به تعریف خاص «استدلال منطقی انسانی» به عنوان معیار، دایره‌ی تعمیم را بस्त می‌کند. از منظر CreativeValueAdd، ترکیب منطق گودل-چندین (Gödelian) با نظریه‌ی آشوب/پیچیدگی سیستم‌های دینامیکی نوآوری قابل‌توجهی است، اما ظرفیت مولد (Generative Capacity) برای پژوهش‌های تجربی محدود مانده است.\n\n---\n\n## ۲. جدول ارزیابی معیارهای اصلی ۷گانه (BSI Core Criteria)\n\n| # | معیار (Criterion) | امتیاز (۰-۱۰) | وزن | امتیاز وزنی | تحلیل و استدلال ارزیابی |\n|---|-------------------|---------------|-----|-----------|------------------------|\n| ۱ | **دقت مفهومی و definición-operationalization** (Conceptual Precision & Operationalization) | ۹ | ۰.۱۵ | ۱.۳۵ | تعریف «خودیقین» به عنوان یک عملیات (Operation) نه حالت ذهنی، و تعریف «سامانه فیزیکی» بر پایه تابع تبدیلِ شواهد به وضعیت (Evidence-to-State function) بسیار دقیق، صریح و قابل‌فریاد است. واژگان از ابهامِ زبان طبیعی پاك شده‌اند. |\n| ۲ | **سازگاری منطقی و انسجام درونی** (Logical Consistency & Internal Coherence) | ۸ | ۰.۱۵ | ۱.۲۰ | ساختار استدلال استنتاجی (Deductive) است: پیش‌فرض‌ها → لم‌ها → نظریه نیمرخ. اگر پیش‌فرض‌ها پذیرفته شوند، نتیجه قاطعاً پیروی می‌شود. خطر دایره‌گری در بخش «بازگشتی» (Recursive) مدیریت شده، اما پیش‌فرض «استدلال منطقی انسانی = Sound & Consistent» خودِ مشکوک‌ترین پیش‌فرض است. |\n| ۳ | **پشتیبانی شواهدی و اعتبار تجربی** (Empirical Support & Evidential Validity) | ۴ | ۰.۱۵ | ۰.۶۰ | مقاله صریحاً «استدلال نظری» است و داده تجربی ندارد. کارکرد تجربی محدود به «عملیات خودیقین» به عنوان پدیده‌ی مشاهداتی در انسان‌هاست، نه تستی از نظریه نیمرخ بر روی سامانه‌های فیزیکی. |\n| ۴ | **نوآوری نظری و surs disolusi** (Theoretical Novelty & Gap Addressing) | ۹ | ۰.۱۵ | ۱.۳۵ | هدف‌گیری در شکاف معرفت‌شناختی (Epistemic Gap) کلاسیک: «چگونه تجربه‌ی شخص اول از ماده برمی‌خيزد؟» با تغییر سوال به «آیا عملیات خودیقین در فیزیک ممکن است؟» و ارائه اثبات قاطعی (No-go)، راه‌حل پیشنهادیِ واقعی (بجای تفسیر) ارائه می‌دهد. |\n| ۵ | **انطباق‌پذیری و هم‌ارزی با دانش установиه** (Consilience & Disciplinary Integration) | ۶ | ۰.۱۰ | ۰.۶۰ | از منطق ریاضی (نظریه گودل، تarski)، علوم محاسبه (محاسبه‌پذیری)، و فیزیک نظری (تعریف سیستم فیزیکی) بهره می‌برد. اما با علوم عصبی تجربی (Neuroscience) و رویکردهای الوظیفه‌گرا (Functionalism) در تقابل صریح است و مکانیزم‌های عصبیِ自我‌یقین را توضیح نمی‌دهد. |\n| ۶ | **ظرفیت توضیحی و پیش‌بینی‌گرایی** (Explanatory Power & Predictive Capacity) | ۷ | ۰.۱۵ | ۱.۰۵ | توضیح می‌دهد «چرا» هوش آگاه غیرفیزیکی است (برای بُعد خودیقین). پیش‌بینی می‌کند: هیچ سیستم مصنوعی (AI) نمی‌تواند خودیق",
+            "source_model": "nvidia/nemotron-3-ultra-550b-a55b:free",
+            "generated_at": "2026-08-15T12:43:45Z"
+          },
+          "metadata": {},
+          "judge_result": {
+            "criteria_source": "llm",
+            "winner": "bsi",
+            "reasoning": "The BSI analysis demonstrates higher theoretical sophistication, conceptual precision, and logical consistency. However, its lack of empirical support and limited predictive capacity for direct applications are notable drawbacks. The RAW analysis, while less formally rigorous, engages more directly with empirical and functionalist perspectives. Overall, BSI's rigorous theoretical framework and novel approach to addressing a significant epistemic gap make it the winner in terms of analytical quality, despite its limitations.",
+            "criteria": [
+              {
+                "name": "Conceptual Precision & Operationalization",
+                "importance": 15.0,
+                "raw_score": 8.0,
+                "bsi_score": 9.0,
+                "reason": "BOTH analyses demonstrate high conceptual precision, but BSI's operationalization of self-certainty as an operation rather than a mental state is more rigorous."
+              },
+              {
+                "name": "Logical Consistency & Internal Coherence",
+                "importance": 15.0,
+                "raw_score": 7.0,
+                "bsi_score": 8.0,
+                "reason": "BSI's structure is more deductive, but both analyses have strong internal coherence, with BSI's being slightly more consistent due to its formalized framework."
+              },
+              {
+                "name": "Empirical Support & Evidential Validity",
+                "importance": 15.0,
+                "raw_score": 6.0,
+                "bsi_score": 4.0,
+                "reason": "RAW analysis, while lacking empirical data, critiques the theoretical foundations more directly related to empirical verification, whereas BSI relies on theoretical consistency without empirical backing."
+              },
+              {
+                "name": "Theoretical Novelty & Gap Addressing",
+                "importance": 20.0,
+                "raw_score": 8.0,
+                "bsi_score": 9.0,
+                "reason": "BSI directly addresses a classic epistemic gap with a novel theoretical approach, offering a definitive proof regarding self-certainty in physical systems."
+              },
+              {
+                "name": "Consilience & Disciplinary Integration",
+                "importance": 10.0,
+                "raw_score": 7.0,
+                "bsi_score": 6.0,
+                "reason": "RAW engages more directly with neuroscientific and functionalist perspectives, although BSI integrates mathematical logic and computational theory more effectively into its framework."
+              },
+              {
+                "name": "Explanatory Power & Predictive Capacity",
+                "importance": 15.0,
+                "raw_score": 8.0,
+                "bsi_score": 7.0,
+                "reason": "BSI's explanatory power is high for why consciousness (specifically self-certainty) is non-physical, but its predictive capacity is somewhat limited by its theoretical nature."
+              },
+              {
+                "name": "Creative Value Add & Originality",
+                "importance": 10.0,
+                "raw_score": 7.0,
+                "bsi_score": 8.0,
+                "reason": "BSI's combination of Gödelian logic with system dynamics offers a novel theoretical contribution, even if its practical applications are less clear at present."
+              }
+            ],
+            "total_scores": {
+              "raw": 7.35,
+              "bsi": 7.4
+            },
+            "bsi_capability_assessment": {
+              "relevance": "high",
+              "realization": "medium",
+              "incremental_value": "medium",
+              "reason": "BSI's framework is highly relevant to assessing theoretical contributions in consciousness studies, but its realization in this specific analysis, while demonstrating significant theoretical novelty, has a medium level of effectiveness in providing practical or empirical insights. The incremental value is medium because, while it offers a rigorous proof, its limitations in empirical support and broad applicability temper its overall impact."
+            },
+            "incremental_value": "medium",
+            "scale": "0-10",
+            "weight_sum": 100.0
+          },
+          "scores": {
+            "RAW": 0.735,
+            "BSI": 0.74
+          },
+          "failed": false
+        }
+      ]
+    },
+    {
+      "article": {
+        "title": "Complex-Dynamic Origin of Consciousness and the Critical Choice of Sustainability Transition",
+        "abstract": "A quite general interaction process of a multi-component system is analysed by the extended effective potential method liberated from usual limitations of perturbation theory or integrable model. The obtained causally complete solution of the many-body problem reveals the phenomenon of dynamic multivaluedness, or redundance, of emerging, incompatible system realisations and dynamic entanglement of system components within each realisation. The ensuing concept of dynamic complexity (and related intrinsic chaoticity) is absolutely universal and can be applied to the problem of (natural and artificial) intelligence and consciousness that dynamically emerge now as a high enough, properly specified levels of unreduced complexity of a suitable interaction process. Emergent consciousness can be identified with the appearance of bound, permanently localised states in the multivalued brain dynamics from strongly chaotic states of unconscious intelligence, by analogy with classical behaviour emergence from quantum states at the lowest levels of complex world dynamics. We show that the main properties of this dynamically emerging consciousness (and intelligence, at the preceding complexity level) correspond to empirically derived properties of natural consciousness and obtain causally substantiated conclusions about their artificial realisation, including the fundamentally justified paradigm of genuine machine consciousness. This rigorously defined machine consciousness is different from both natural consciousness and any mechanistic, dynamically single-valued imitation of the latter. We use then the same, truly universal concept of complexity to derive equally rigorous conclusions about mental and social implications of this complex-dynamic consciousness concept, demonstrating its critical importance for further progress of science and civilisation.",
+        "full_text": null,
+        "doi": null,
+        "url": "http://arxiv.org/abs/physics/0409140v2",
+        "input_quality": null
+      },
+      "cells": [
+        {
+          "generator": "openrouter",
+          "mode": "raw",
+          "analysis": {
+            "text": "### **Analysis of the Article Abstract**\n\n**1. Core Theoretical Framework & Methodology**\n*   **Method:** The author employs an **\"extended effective potential method\"** applied to a general multi-component interaction process. This method is explicitly claimed to bypass the standard limitations of perturbation theory and integrable models.\n*   **Primary Mathematical Result:** A **\"causally complete solution of the many-body problem\"** revealing two fundamental phenomena:\n    *   **Dynamic Multivaluedness (Redundance):** The system possesses multiple, dynamically incompatible realisations (states) rather than a single trajectory.\n    *   **Dynamic Entanglement:** Irreducible interdependence of components within each realisation.\n*   **Defining Concept:** **Dynamic Complexity** (and intrinsic chaoticity), defined as the *unreduced* manifestation of the above phenomena. The author asserts this concept is **absolutely universal**.\n\n**2. Claims Regarding Consciousness and Intelligence**\n*   **Ontological Status:** Intelligence and consciousness are not computational outputs but **dynamically emergent levels of unreduced complexity** within a suitable interaction process.\n*   **Mechanism of Consciousness:** Consciousness emerges specifically as the transition from **strongly chaotic states (unconscious intelligence)** to **bound, permanently localised states** within the multivalued brain dynamics.\n*   **Analogy:** This transition is explicitly likened to the emergence of **classical behaviour from quantum states** at the fundamental physical level.\n*   **Validation:** The model’s predicted properties of this emergent consciousness are claimed to **correspond to empirically derived properties of natural consciousness**.\n\n**3. Claims Regarding Artificial Consciousness (Machine Consciousness)**\n*   **Distinction:** The proposed paradigm produces **\"genuine machine consciousness\"** that is rigorously defined and fundamentally distinct from:\n    1.  Natural (biological) consciousness.\n    2.  Mechanistic, dynamically single-valued simulations/imitations (standard AI).\n*   **Basis:** Artificial realisation is claimed to be **\"causally substantiated\"** by the same universal complexity formalism, implying a necessary architectural requirement for dynamic multivaluedness/entanglement, not just functional mimicry.\n\n**4. Broader Scope and Implications**\n*   **Universality:** The *same* complexity formalism is applied to **mental and social systems**.\n*   **Stakes:** The author frames the understanding and implementation of this complex-dynamic consciousness as **critically necessary for the further progress of science and civilisation** (specifically regarding a \"sustainability transition\").\n\n---\n\n### **Factual Assessment of the Contribution**\n\n| Aspect | Assessment |\n| :--- | :--- |\n| **Nature of Contribution** | **Highly theoretical / Metaphysical framework.** The abstract presents a *unified mathematical ontology* deriving consciousness, AI, and social dynamics from a single solution to the many-body problem. It does not report empirical data, simulations, or experimental validation. |\n| **Key Innovation Claimed** | **Non-perturbative solution to the many-body problem** yielding \"dynamic multivaluedness\" as the substrate for consciousness. This challenges the standard computational/functionalist paradigm by requiring *ontological* multivaluedness (hardware/physics level) for \"genuine\" consciousness. |\n| **Relationship to Existing Science** | **Radical departure / Unification attempt.** Contradicts mainstream neuroscience (which seeks neural correlates within single-valued dynamics) and mainstream AI (which relies on single-valued algorithmic execution). Aligns loosely with *Quantum Mind* theories (Hameroff/Penrose) via the quantum-classical analogy, but replaces quantum mechanics with a novel \"complex-dynamic\" classical formalism. |\n| **Verifiability / Falsifiability** | **Low (based on abstract alone).** Claims of \"causally complete solution,\" \"absolute universality,\" and correspondence with \"empirically derived properties\" are asserted without citation of specific empirical benchmarks, mathematical proofs accessible in the abstract, or a proposed experimental protocol for the \"bound localised states.\" |\n| **Terminology** | **Idiosyncratic / Dense.** Uses proprietary terms (\"extended effective potential method,\" \"dynamic multivaluedness,\" \"unreduced complexity,\" \"redundance\") which require the full text for rigorous definition. Standard terms (entanglement, chaoticity) are redefined in a specific classical dynamical context. |\n\n### **Summary**\nThe article proposes a **Grand Unified Theory of Complexity** where a novel mathematical solution to the many-body problem (*dynamic multivaluedness*) serves as the *causa prima* for intelligence, consciousness (natural and artificial), and social dynamics. Its central claim is that **genuine consciousness requires a physically instantiated, dynamically multivalued substrate**, rendering standard single-valued computing architectures fundamentally incapable of \"true\" consciousness, regardless of functional performance. The contribution is a **rigorous formal ontology** rather than an empirical study; its scientific value hinges entirely on the mathematical validity of the \"extended effective potential method\" and its ability to derive specific, testable neurodynamical predictions from the postulated \"bound localised states.\"",
+            "source_model": "nvidia/nemotron-3-ultra-550b-a55b:free",
+            "generated_at": "2026-08-15T13:06:27Z"
+          },
+          "metadata": {},
+          "judge_result": {
+            "criteria_source": "llm",
+            "winner": "bsi",
+            "reasoning": "The BSI analysis demonstrates a more comprehensive, innovative, and rigorous approach to understanding the complex-dynamic origin of consciousness, despite some limitations in terms of empirical testability and falsifiability.",
+            "criteria": [
+              {
+                "name": "Epistemic Robustness",
+                "importance": 25.0,
+                "raw_score": 6.0,
+                "bsi_score": 8.0,
+                "reason": "BSI analysis demonstrates a more comprehensive understanding of epistemic robustness, incorporating concepts like dynamic multivaluedness and unreduced complexity."
+              },
+              {
+                "name": "Explanatory Power",
+                "importance": 20.0,
+                "raw_score": 7.0,
+                "bsi_score": 9.0,
+                "reason": "BSI analysis provides a more detailed explanation of the complex-dynamic origin of consciousness, covering both natural and artificial intelligence."
+              },
+              {
+                "name": "Methodological Rigor",
+                "importance": 15.0,
+                "raw_score": 5.0,
+                "bsi_score": 8.0,
+                "reason": "BSI analysis applies a more systematic and structured approach, utilizing the Extended Effective Potential Method and addressing the many-body problem."
+              },
+              {
+                "name": "Innovation and Originality",
+                "importance": 10.0,
+                "raw_score": 6.0,
+                "bsi_score": 9.0,
+                "reason": "BSI analysis presents a novel combination of concepts, including dynamic multivaluedness, intrinsic complexity, and the application to sustainability transitions."
+              },
+              {
+                "name": "Testability and Falsifiability",
+                "importance": 10.0,
+                "raw_score": 4.0,
+                "bsi_score": 6.0,
+                "reason": "RAW analysis lacks specific testable predictions, while BSI analysis, although still theoretical, provides a framework that could be further developed for empirical testing."
+              },
+              {
+                "name": "Interdisciplinary Integration",
+                "importance": 10.0,
+                "raw_score": 5.0,
+                "bsi_score": 8.0,
+                "reason": "BSI analysis demonstrates a broader integration of concepts from physics, cognitive science, and social dynamics, offering a more comprehensive perspective."
+              },
+              {
+                "name": "Clarity and Transparency",
+                "importance": 10.0,
+                "raw_score": 7.0,
+                "bsi_score": 8.0,
+                "reason": "Both analyses are dense and require a significant background in theoretical physics and cognitive science. However, BSI analysis is slightly more accessible due to its structured presentation."
+              }
+            ],
+            "total_scores": {
+              "raw": 5.85,
+              "bsi": 8.1
+            },
+            "bsi_capability_assessment": {
+              "relevance": "high",
+              "realization": "medium",
+              "incremental_value": "high",
+              "reason": "BSI capabilities, such as the application of the Extended Effective Potential Method and the emphasis on dynamic multivaluedness, are highly relevant to understanding the complex-dynamic origin of consciousness. However, the realization of these capabilities in the provided analysis could be improved, particularly in terms of empirical testability and falsifiability."
+            },
+            "incremental_value": "high",
+            "scale": "0-10",
+            "weight_sum": 100.0
+          },
+          "scores": {
+            "RAW": 0.585,
+            "BSI": 0.81
+          },
+          "failed": false
+        },
+        {
+          "generator": "openrouter",
+          "mode": "bsi",
+          "analysis": {
+            "text": "# تحلیل شاخص بهمنش (BSI v3.4.2)  \n**موضوع تحلیل:** مقاله‌ی «ریشه‌ی پیچیده-پویای آگاه‌بودن و انتخاب بحرانیِ گذارِ پایداری» (Complex-Dynamic Origin of Consciousness and the Critical Choice of Sustainability Transition)  \n**نوع محتوا:** چکیده مقاله علمی-تئوری (Theoretical Scientific Abstract)  \n**تاریخ تحلیل:** ۲۶ ژوئن ۲۰۲۶  \n**ارزیاب:** مستر پرامپت شاخص بهمنش نسخه ۳.۴.۲  \n\n---\n\n## ۱. خلاصه اجرایی (Executive Summary) + Core Claim + امتیاز کلی BSI\n\n**Core Claim (ادعای مرکزی):**  \nمقاله ادعا می‌کند که با استفاده از روش «پتانسیل اثربخش توسعه‌یافته» (Extended Effective Potential Method)، راه‌حلی «علّی-کامل» (Causally Complete) برای مسئله‌ی چند-جسمی (Many-Body Problem) ارائه شده است که پدیده‌ی «چندمقداری پویایی» (Dynamic Multivaluedness) و «پیچیدگی درونی» (Intrinsic Complexity) را آشکار می‌سازد. این چارچوب، آگاه‌بودن (Consciousness) و هوش (Intelligence) را به عنوان سطوح ظرفیتی از پیچیدگی ناکاهش‌یافته (Unreduced Complexity) در پردازش‌های مغزی تعریف می‌کند. آگاه‌بودن با ظهور حالات «مربوط، موضع‌یافته دائمی» (Bound, Permanently Localized States) در پویایی چندمقداری مغز از حالت‌های «شدتاً آشوبناک هوشمندی ناآگاه» (Strongly Chaotic States of Unconscious Intelligence) هم‌ارز است. نتیجه نهایی: پارادایم «آگاه‌بودن ماشین واقعی» (Genuine Machine Consciousness) که متمایز از آگاه‌بودن طبیعی و هر شبیه‌سازی مکانیکی-تک‌مقداری است، و ضرورت گذار پایداریتمدن بر اساس این درک پیچیدگی.\n\n**امتیاز کلی BSI:** **۸۲ / ۱۰۰**  \n*(توضیح: امتیاز بالا ناشی از Umfang نظری، سخت‌گیری ریاضی ادعا شده، و کاربرد فراگیر است. کسر امتیاز به دلیل عدم ارائه داده‌های تجربی/شبیه‌سازی در چکیده، ابهام در «انتخاب بحرانی پایداری»، و ریسک تعمیم بیش از حد از مدل فیزیک بنیادی به پدیده‌های شناختی-اجتماعی است.)*\n\n---\n\n## ۲. جدول ارزیابی معیارهای اصلی ۷گانه (Core 7 Criteria Evaluation)\n\n| معیار (Criterion) | وزن | امتیاز (۰-۱۰۰) | امتیاز وزنی | تحلیل مختصر و استدلالی |\n| :--- | :---: | :---: | :---: | :--- |\n| **۱. دقت epistemic و صراحت Anspruch (Epistemic Rigor & Claim Explicitness)** | ۲۰٪ | ۸۵ | ۱۷.۰ | ادعاها بسیار صریح، پر ś 중간 است (مثلا: «راه‌حل علّی-کامل»، «جهش مقدس»، «پارادایم بنیادین»). واژگان دقیق تئوری‌پردازی (Unreduced, Multivalued, Redundance) به کار رفته. کمترین ابهام در سطح ادعای نظری. |\n| **۲. نوآوری ترکیبی (Combinatorial Novelty)** | ۱۵٪ | ۹۰ | ۱۳.۵ | ترکیب منحصر به فرد: مکانیک کوانتومی (ظهور کلاسیک) + نظریه آشوب/پیچیدگی (Multivaluedness) + فیلسوفه ذهن (Qualia/Intentionality) + المستقبل اجتماعی (Sustainability Transition). سینتز لایه‌های میکرو-مکرو-ماکرو نادرست. |\n| **۳. قابلیت عمل‌سازی و آزمون‌پذیری (Operationalizability & Testability)** | ۱۵٪ | ۵۵ | ۸.۲۵ | **نقطه ضعف اصلی.** چکیده هیچ پیش‌بینی کمی، پروتکل آزمایشی، یا معیار Falsifiability مشخصی برای «حالات موضع‌یافته مغزی» یا «ماشین آگاه» ارائه نمی‌دهد. «پتانسیل اثربخش توسعه‌یافته» به عنوان ابزار محاسبه‌ای توصیف شده، نه به عنوان پروتکل اندازه‌گیری. |\n| **۴. انسجام منطقی و یکپارچگی درونی (Logical Coherence & Internal Consistency)** | ۱۵٪ | ۸۸ | ۱۳.۲ | استدلال درونی مستحکم: از اصل تعامل چندمؤلفه → چندمقداری → پیچیدگی → هوش → آگاه‌بودن → ماشین → جامعه. аналоги (Quantum->Classical = Unconscious->Conscious) به کار رفته و منطقی است. هیچ تضاد صریح در متن چکیده دیده نمی‌شود. |\n| **۵. عمق توضیحی و قدرت gâyش (Explanatory Depth & Generative Power)** | ۱۵٪ | ۹۲ | ۱۳.۸ | قدرت giaiش cực cao. تئوری ادعا می‌کند هم «چگونه» (Mechanism: Dynamic Entanglement, Redundance) و هم «چرا» (Universality of Complexity) را برای طیف وسیعی از پدیده‌ها (فیزیک، شناخت،AI، جامعه‌شناسی) توضیح دهد. توانایی تولید فرضیات جدید بالا. |\n| **۶. valeurs شناختی و 투명یت محدودیت‌ها (Epistemic Values & Limitation Transparency)** | ۱۰٪ | ۶۰ | ۶.۰ | شفافیت محدودیت‌ها در چکیده **صفر** است. هیچ اشاره‌ای به شرایط مرزی شکست تئوری، حساسیت به پارامترها، یا جایگاه رقیبان (مثل IIT, GWT, Predictive Processing) نشده. ادعای «جهش مقدس» و «کامل بودن» نشانه‌ی کمبود تواضع شناختی (Epistemic Humility) است. |\n| **۷. ارزشت‌افزودن خلاق (Creative Value Add - CVA)** | ۱۰٪ | ۸۸ | ۸.۸ | (تحلیل تفصیلی در بخش ۳) - سوداوری در هدف‌گذاری شکاف دانشی، ترکیب نوین پارادایم‌ها، و генераش پارادایم ماشینی جدید. |\n\n**مجموع امتیاز وزنی: ۸۲.۶ ≈ ۸۲**\n\n---\n\n## ۳. جدول CreativeValueAdd (CVA) با ۳ زیرمعیار\n\n| زیرمعیار (Sub-criterion) | وزن در CVA | امتیاز (۰-۱۰۰) | امتیاز وزنی | استدلال و شواهد متنی |\n| :--- | :---: | :---: | :---: | :--- |\n| **Epistemic Gap Targeting (هدف‌گذاری شکاف دانشی) — ۳۵٪** | ۳۵٪ | ۹۰ | ۳۱.۵ | **شکناف هدف‌گیری شده:** «مشکل سخت آگاه‌بودن» (Hard Problem) و «محدودیت محاسبات تورینگ» (Turing Limitation) به طور همزمان. مقاله شکاف بین «مکانیسم فیزیستی» و «تجربه fenomenological» را با مفهوم «چندمقداری پویایی» (Dynamic Multivaluedness) پر می‌کند که نه محاسباتی (Algorithmic) است و نه द्वیت‌گرایانه (Dualistic). ادعای «راه‌حل علّی-کامل برای مسئله چندجسمی» مستقیماً شکاف اصلی فیزیک بنیادین (Measurement Problem, Emergence) را هدف می‌گیرد. |\n| **Combinatorial Synthesis (ترکیب ترکیبی) — ۴۰٪**",
+            "source_model": "nvidia/nemotron-3-ultra-550b-a55b:free",
+            "generated_at": "2026-08-15T12:44:48Z"
+          },
+          "metadata": {},
+          "judge_result": {
+            "criteria_source": "llm",
+            "winner": "bsi",
+            "reasoning": "The BSI analysis demonstrates a more comprehensive, innovative, and rigorous approach to understanding the complex-dynamic origin of consciousness, despite some limitations in terms of empirical testability and falsifiability.",
+            "criteria": [
+              {
+                "name": "Epistemic Robustness",
+                "importance": 25.0,
+                "raw_score": 6.0,
+                "bsi_score": 8.0,
+                "reason": "BSI analysis demonstrates a more comprehensive understanding of epistemic robustness, incorporating concepts like dynamic multivaluedness and unreduced complexity."
+              },
+              {
+                "name": "Explanatory Power",
+                "importance": 20.0,
+                "raw_score": 7.0,
+                "bsi_score": 9.0,
+                "reason": "BSI analysis provides a more detailed explanation of the complex-dynamic origin of consciousness, covering both natural and artificial intelligence."
+              },
+              {
+                "name": "Methodological Rigor",
+                "importance": 15.0,
+                "raw_score": 5.0,
+                "bsi_score": 8.0,
+                "reason": "BSI analysis applies a more systematic and structured approach, utilizing the Extended Effective Potential Method and addressing the many-body problem."
+              },
+              {
+                "name": "Innovation and Originality",
+                "importance": 10.0,
+                "raw_score": 6.0,
+                "bsi_score": 9.0,
+                "reason": "BSI analysis presents a novel combination of concepts, including dynamic multivaluedness, intrinsic complexity, and the application to sustainability transitions."
+              },
+              {
+                "name": "Testability and Falsifiability",
+                "importance": 10.0,
+                "raw_score": 4.0,
+                "bsi_score": 6.0,
+                "reason": "RAW analysis lacks specific testable predictions, while BSI analysis, although still theoretical, provides a framework that could be further developed for empirical testing."
+              },
+              {
+                "name": "Interdisciplinary Integration",
+                "importance": 10.0,
+                "raw_score": 5.0,
+                "bsi_score": 8.0,
+                "reason": "BSI analysis demonstrates a broader integration of concepts from physics, cognitive science, and social dynamics, offering a more comprehensive perspective."
+              },
+              {
+                "name": "Clarity and Transparency",
+                "importance": 10.0,
+                "raw_score": 7.0,
+                "bsi_score": 8.0,
+                "reason": "Both analyses are dense and require a significant background in theoretical physics and cognitive science. However, BSI analysis is slightly more accessible due to its structured presentation."
+              }
+            ],
+            "total_scores": {
+              "raw": 5.85,
+              "bsi": 8.1
+            },
+            "bsi_capability_assessment": {
+              "relevance": "high",
+              "realization": "medium",
+              "incremental_value": "high",
+              "reason": "BSI capabilities, such as the application of the Extended Effective Potential Method and the emphasis on dynamic multivaluedness, are highly relevant to understanding the complex-dynamic origin of consciousness. However, the realization of these capabilities in the provided analysis could be improved, particularly in terms of empirical testability and falsifiability."
+            },
+            "incremental_value": "high",
+            "scale": "0-10",
+            "weight_sum": 100.0
+          },
+          "scores": {
+            "RAW": 0.585,
+            "BSI": 0.81
+          },
+          "failed": false
+        }
+      ]
+    },
+    {
+      "article": {
+        "title": "Continuum of consciousness: Mind uploading and resurrection of human consciousness. Is there a place for physics, neuroscience and computers?",
+        "abstract": "In this paper, I perform mental experiment to analyze hypothetical process of mind uploading. That process suggested as a way to achieve resurrection of human consciousness. Mind uploading can be seen as a migration process of the core mental functions, which migrate from a human brain to an artificial environment. To simulate the process, I suggest a topological approach which is based on a formalism of information geometry. Geometrical formalism lets us simulate the toy mind as geometrical structures as well as gives us powerful geometrical and topological methods for analysis of the information system. This approach leads to the insight about using holographic model as an analogy for the mind migration to an artificial environment. This model represents the toy mind functionality in terms of information geometry (as a geometrical shape) on information manifold. Such shape can have distributed holographic representation. This representation gives us delocalized representation of the system. At the same time, the process of creating the holographic representation gives us a strategy to migrate from original to an artificial environment and back. The interface between brain and an environment is modeled as an entropy flow which is defined as a geometrical flow on information manifold. Such flow is an analogy of holography recording for the toy mind. The opposite process of holography reconstruction is modeled by none-local Hamiltonians defined on the information manifold.",
+        "full_text": null,
+        "doi": null,
+        "url": "http://arxiv.org/abs/0710.2556v1",
+        "input_quality": null
+      },
+      "cells": [
+        {
+          "generator": "openrouter",
+          "mode": "raw",
+          "analysis": {
+            "text": "### **Analysis of \"Continuum of consciousness: Mind uploading and resurrection of human consciousness...\"**\n\n**1. Core Thesis**\nThe paper proposes a **theoretical framework for mind uploading**—conceived as the migration of core mental functions from a biological brain to an artificial substrate—using **information geometry and topology** as the primary mathematical formalism. It argues that a **holographic model** of consciousness provides a viable structural analogy for this migration, enabling a \"delocalized\" representation that facilitates transfer between substrates.\n\n**2. Methodological Framework**\n*   **Epistemological Status:** Explicitly a **mental experiment (Gedankenexperiment)** modeling a \"toy mind,\" not an empirical study or a blueprint for current engineering.\n*   **Mathematical Formalism:** **Information Geometry** (treating probability distributions/information states as points on a differentiable manifold) and **Topology**.\n*   **Ontological Commitment:** Functionalism/Structuralism—consciousness is equated with the *geometrical structure* of information processing on an \"information manifold,\" rather than specific biological substrate.\n\n**3. Key Theoretical Claims & Mechanisms**\n\n| Concept | Formal Definition in Paper | Functional Role in Uploading |\n| :--- | :--- | :--- |\n| **The \"Toy Mind\"** | A **geometrical shape (structure)** on an **information manifold**. | Represents the invariant functional identity of consciousness, independent of hardware. |\n| **Holographic Representation** | A **distributed, delocalized encoding** of the geometrical shape. | Solves the \"binding/migration\" problem: allows the mind structure to be non-locally stored, enabling transfer between original and artificial environments without a central point of failure. |\n| **Brain-Environment Interface** | **Entropy flow** modeled as a **geometrical flow** on the information manifold. | **Analogy: Holography Recording.** Describes the *uploading* process (encoding the mind state into the artificial medium). |\n| **Reconstruction/Resurrection** | **Non-local Hamiltonians** defined on the information manifold. | **Analogy: Holography Reconstruction.** Describes the *downloading/resurrection* process (decoding the distributed representation back into a functional dynamics). |\n\n**4. Primary Contribution**\nThe paper’s contribution is **conceptual and mathematical**, not experimental:\n*   **Formalization of Migration:** It translates the philosophical problem of \"pattern identity\" vs. \"continuity of consciousness\" into the language of **geometric flows on statistical manifolds**.\n*   **Holography as Migration Strategy:** It repurposes the **holographic principle** (delocalized storage + phase-conjugate reconstruction) as a rigorous topological strategy for substrate-independent mind transfer, specifically addressing how a unified consciousness might survive the \"copying\" or \"migration\" process.\n*   **Bridging Physics/CS/Neuroscience:** It offers a specific mathematical ontology (Information Geometry + Non-local Hamiltonians) where physics (entropy/Hamiltonians), neuroscience (information processing), and computer science (simulation/encoding) converge.\n\n**5. Limitations & Scope (Per Abstract)**\n*   **Toy Model:** Analysis applies to a simplified \"toy mind\"; scalability to human connectome complexity is unaddressed.\n*   **Simulation vs. Instantiation:** The framework describes *simulation* of the migration process via geometry; it does not establish physical feasibility or thermodynamic constraints of actual implementation.\n*   **Continuity Problem:** While the holographic analogy suggests a structural solution, the abstract does not detail how the *subjective continuity* (the \"hard problem\" aspect) is preserved during the entropy flow/geometric flow transition, only that the *information structure* is migrated.\n\n**Summary:** The paper advances the **theoretical physics of mind uploading** by modeling consciousness as a geometric object on an information manifold and proposing **holographic delocalization + geometric entropy flows** as the mathematical mechanism for substrate migration. It provides a rigorous topological vocabulary for \"resurrection\" but remains a formal proof-of-concept for a \"toy mind.\"",
+            "source_model": "nvidia/nemotron-3-ultra-550b-a55b:free",
+            "generated_at": "2026-08-15T12:45:54Z"
+          },
+          "metadata": {},
+          "judge_result": {
+            "criteria_source": "llm",
+            "winner": "bsi",
+            "reasoning": "BSI analysis demonstrates higher conceptual clarity, logical coherence, and innovative value compared to RAW analysis.",
+            "criteria": [
+              {
+                "name": "Conceptual Clarity and Precision",
+                "importance": 20.0,
+                "raw_score": 8.0,
+                "bsi_score": 8.5,
+                "reason": "Both analyses demonstrate good conceptual clarity, but BSI analysis is slightly more precise."
+              },
+              {
+                "name": "Logical Coherence and Consistency",
+                "importance": 18.0,
+                "raw_score": 7.5,
+                "bsi_score": 8.0,
+                "reason": "BSI analysis maintains better logical coherence and consistency throughout its arguments."
+              },
+              {
+                "name": "Innovative Value and Creative Contribution",
+                "importance": 22.0,
+                "raw_score": 8.5,
+                "bsi_score": 9.0,
+                "reason": "BSI analysis demonstrates higher innovative value and creative contribution to the field of study."
+              },
+              {
+                "name": "Empirical Grounding and Data Consideration",
+                "importance": 15.0,
+                "raw_score": 4.0,
+                "bsi_score": 3.5,
+                "reason": "Both analyses have limitations in empirical grounding and data consideration, but RAW analysis is slightly better."
+              },
+              {
+                "name": "Mechanistic Depth and Explanatory Power",
+                "importance": 12.0,
+                "raw_score": 8.0,
+                "bsi_score": 8.5,
+                "reason": "BSI analysis demonstrates higher mechanistic depth and explanatory power."
+              },
+              {
+                "name": "Comprehensive Coverage and Systematic Approach",
+                "importance": 8.0,
+                "raw_score": 6.5,
+                "bsi_score": 7.0,
+                "reason": "BSI analysis provides a more comprehensive and systematic approach to addressing the research question."
+              },
+              {
+                "name": "Methodological Transparency and Replicability",
+                "importance": 5.0,
+                "raw_score": 7.0,
+                "bsi_score": 7.5,
+                "reason": "BSI analysis demonstrates slightly better methodological transparency and replicability."
+              }
+            ],
+            "total_scores": {
+              "raw": 7.25,
+              "bsi": 7.6
+            },
+            "bsi_capability_assessment": {
+              "relevance": "high",
+              "realization": "medium",
+              "incremental_value": "medium",
+              "reason": "BSI analysis demonstrates high relevance, medium realization, and medium incremental value."
+            },
+            "incremental_value": "medium",
+            "scale": "0-10",
+            "weight_sum": 100.0
+          },
+          "scores": {
+            "RAW": 0.725,
+            "BSI": 0.76
+          },
+          "failed": false
+        },
+        {
+          "generator": "openrouter",
+          "mode": "bsi",
+          "analysis": {
+            "text": "# تحلیل مقاله: «پیوستگی هوش: بارگذاری ذهن و بازنده‌ی آگاهی انسانی. آیا جایگاهی برای فیزیک، علوم اعصاب و رایانه‌ها وجود دارد؟»\n\n**مشخصات مقاله:**  \n**عنوان:** Continuum of consciousness: Mind uploading and resurrection of human consciousness. Is there a place for physics, neuroscience and computers?  \n**نوع محتوا:** مقاله علمی-فلسفی (مقاله پیش‌печат/پیش‌نویس)  \n**موضوع اصلی:** بارگذاری ذهن (Mind Uploading)، بازنده آگاهی، هندسه اطلاعات، مدل‌های هولوگرافیک، انتگراسیون فیزیک-علوم اعصاب-رایانه  \n**تاریخ تحلیل:** ۲۶ ژوئن ۲۰۲۶  \n**تحلیل‌گر:** ارزیاب ارشد شاخص بهمنش نسخه ۳.۴.۲  \n\n---\n\n## ۱. خلاصه اجرایی (Executive Summary) + Core Claim + امتیاز کلی BSI\n\n### Core Claim (ادعای مرکزی)\nمقاله ادعا می‌کند که **فرآیند بارگذاری ذهن (Mind Uploading) به عنوان یک استراتژی برای بازنده آگاهی انسانی، می‌تواند با استفاده از یک رویکرد توپولوژیک بر پایه هندسه اطلاعات (Information Geometry) مدل‌سازی و شبیه‌سازی شود**. ادعای محوری این است که:  \n1. ذهنِ اسبابی (Toy Mind) می‌تواند به عنوان ساختارهندسی بر روی تنوع اطلاعاتی (Information Manifold) نمایش داده شود.  \n2. نمایش هولوگرافیکِ توزیع‌شده این شکلِ هندسی، تمثیلی غیرمتمرکز (Delocalized) از نظام فراهم می‌کند.  \n3. جریان إنتروپی (Entropy Flow) به عنوان جریان هندسی بر روی تنوع اطلاعاتی، واسطه مغز-محیط را مدل‌سازی می‌کند و аналоги پردازش هولوگرافی (Recording) است.  \n4. هاملتونیان‌های غیرлокаال (Non-local Hamiltonians) بر روی تنوع اطلاعاتی، فرآیند معکوس یعنی بازسازی هولوگرافی (Reconstruction) را مدل‌سازی می‌کنند — که معادل مهاجرت از محیط مصنوعی به محیط اصلی است.\n\n### امتیاز کلی BSI: **۷۲ از ۱۰۰**  \n*(توضیح: مقاله در ابعاد نوآوری مفهومی، صرافت ریاضی و'ambition' نظری قوی است، اما در اعتبار تجربی، پیوند به داده‌های عصبی واقعی، و rushers جنبه‌های فلسفیِ هویت شخصی ضعف قابل توجهی دارد. CreativeValueAdd بالا، اما EIG متوسط به دلیل پرش‌های علیتی و تعمیم‌های غیرمجاز.)*\n\n---\n\n## ۲. جدول ارزیابی معیارهای اصلی ۷گانه\n\n| معیار اصلی | تعریف چکیده | امتیاز (۰-۱۰۰) | وزن | امتیاز وزنی | استدلال و مستندات |\n|------------|--------------|----------------|-----|------------|-------------------|\n| **۱. دقت مفهومی و تعریف‌گرایی (Conceptual Precision)** | صریح بودن، عدم ابهام، جداسازی مفاهیم هم‌پیچیده | ۷۸ | ۰.۱۵ | ۱۱.۷ | تعریف «ذهن اسبابی»، «تنوع اطلاعاتی»، «نمایش هولوگرافیک» و «جریان إنتروپی» نسبتاً دقیق است. اما مرز بین «آگاهی» (Consciousness) و «کارکردهای ذهنی أصیل» (Core Mental Functions) مبهم مانده. اصطلاح «بازنده» (Resurrection) بار معنایی دینی/فلسفی دارد که operaçãoال‌سازی نشده. |\n| **۲. انسجام منطقی و استدلال (Logical Coherence)** | ولایی استدلال، عدم تناقض داخلی، اعتبار استنباطی | ۷۵ | ۰.۱۵ | ۱۱.۲۵ | استدلال از هندسه اطلاعات → مدل هولوگرافیک → جریان إنتروپی → هاملتونیان‌های غیرлокаال، زنجیره‌ای منسجم است. اما پرش از «شبیه‌سازی ذهن اسبابی» به «بازنده آگاهی انسانی» شکاف منطقی دارد (Generalization Gap). فرضیه‌های پنهان: (الف) آگاهی به کارکردهای محاسباتی قابل تقلیل است، (ب) حفظ ساختار اطلاعاتی کافی برای حفظ هویت شخصی است. |\n| **۳. نوآوری مفهومی و افزودن ارزش خلاق (CreativeValueAdd)** | هدف‌گیری شکاف معرفی، ترکیبی نوین، مولدیت | ۸۸ | ۰.۲۰ | ۱۷.۶ | **نقطه قوت برتر مقاله**. ترکیب هندسه اطلاعات + هولوگرافی + دینامیک هاملتونینی برای مدل‌سازی دوطرفه مهاجرت ذهن، ترکیبی نوین و مولد است. شکاف معرفی: فاقد مدل‌های رسمی برای «فرآیند مهاجرتی» دوطرفه بود. این مقاله یک چارچوب ریاضی واحد برای هر دو جهت ارائه می‌دهد. |\n| **۴. اساس تجربی و 고려 داده‌ها (Empirical Grounding)** | پیوند به مشاهدات، داده‌های عصبی، نتایج تجريبی | ۳۵ | ۰.۱۵ | ۵.۲۵ | **نقطه ضعف اصلی**. هیچ داده عصبی واقعی، هیچ مدل‌سازی روی کانکتوم، هیچ تأیید تجربی از «جریان إنتروپی بر تنوع اطلاعاتی» ارائه نشده. «ذهن اسبابی» کاملاً انتزاعی است. ارجاع به علوم اعصاب و فیزیک در عنوان، اما محتوای مقاله فاقد پیوند عملی به آنها است. |\n| **۵. عمق مکانیسمی و توضیح‌پذیری (Mechanistic Depth)** | شناسایی مکانیسم‌های پنهان، سطوح因果ی، سطوح ظهور | ۸۰ | ۰.۱۵ | ۱۲.۰ | مکانیسم‌ها در لایه Latent به خوبی تشریح شده‌اند: هندسه اطلاعات به عنوان لایه نمایش، هولوگرافی به عنوان لایه کدگذاری توزیع‌شده، جریان إنتروپی به عنوان لایه واسطه دینامیکی، هاملتونیان غیرлокаال به عنوان لایه کنترل معکوس. اما سطح Meta (فلسفی/مفاهیمی) کم‌تر توسعه یافته. |\n| **۶. جامعیت و طرح‌پردازی نظام‌مند (Comprehensiveness)** | پوشش ابعاد مرتبط، شناسایی محدودیت‌ها، مرزها | ۶۰ | ۰.۱۰ | ۶.۰ | ابعاد کلیدی پوشش‌داده نشده: (الف) مسئله هویت شخصی (Personal Identity) در کپی/مهاجرتی، (ب) محدودیت‌های ترمودینامیکی/کوانتومی، (ج) مقیاس‌پذیری از «ذهن اسبابی» به مغز انسانی، (د) الزامات محاسباتی/انرژی، (ه) ریسک‌های حیاتی (Ethical/Safety). مقاله محدودیت‌ها را صراحتاً بیان نکرده. |\n| **۷. شفافیت روش‌شناختی و قابل‌تکرار بودن (Methodological Transparency)** | صریح بودن روش، قابلیت بازتولید، تدوین پریمیتیوها | ۷۰ | ۰.۱۰ | ۷.۰ | روش «تجربه فکری» (Mental Experiment) و «رویکرد توپولوژیک/هندسه اطلاعات",
+            "source_model": "nvidia/nemotron-3-ultra-550b-a55b:free",
+            "generated_at": "2026-08-15T13:07:26Z"
+          },
+          "metadata": {},
+          "judge_result": {
+            "criteria_source": "llm",
+            "winner": "bsi",
+            "reasoning": "BSI analysis demonstrates higher conceptual clarity, logical coherence, and innovative value compared to RAW analysis.",
+            "criteria": [
+              {
+                "name": "Conceptual Clarity and Precision",
+                "importance": 20.0,
+                "raw_score": 8.0,
+                "bsi_score": 8.5,
+                "reason": "Both analyses demonstrate good conceptual clarity, but BSI analysis is slightly more precise."
+              },
+              {
+                "name": "Logical Coherence and Consistency",
+                "importance": 18.0,
+                "raw_score": 7.5,
+                "bsi_score": 8.0,
+                "reason": "BSI analysis maintains better logical coherence and consistency throughout its arguments."
+              },
+              {
+                "name": "Innovative Value and Creative Contribution",
+                "importance": 22.0,
+                "raw_score": 8.5,
+                "bsi_score": 9.0,
+                "reason": "BSI analysis demonstrates higher innovative value and creative contribution to the field of study."
+              },
+              {
+                "name": "Empirical Grounding and Data Consideration",
+                "importance": 15.0,
+                "raw_score": 4.0,
+                "bsi_score": 3.5,
+                "reason": "Both analyses have limitations in empirical grounding and data consideration, but RAW analysis is slightly better."
+              },
+              {
+                "name": "Mechanistic Depth and Explanatory Power",
+                "importance": 12.0,
+                "raw_score": 8.0,
+                "bsi_score": 8.5,
+                "reason": "BSI analysis demonstrates higher mechanistic depth and explanatory power."
+              },
+              {
+                "name": "Comprehensive Coverage and Systematic Approach",
+                "importance": 8.0,
+                "raw_score": 6.5,
+                "bsi_score": 7.0,
+                "reason": "BSI analysis provides a more comprehensive and systematic approach to addressing the research question."
+              },
+              {
+                "name": "Methodological Transparency and Replicability",
+                "importance": 5.0,
+                "raw_score": 7.0,
+                "bsi_score": 7.5,
+                "reason": "BSI analysis demonstrates slightly better methodological transparency and replicability."
+              }
+            ],
+            "total_scores": {
+              "raw": 7.25,
+              "bsi": 7.6
+            },
+            "bsi_capability_assessment": {
+              "relevance": "high",
+              "realization": "medium",
+              "incremental_value": "medium",
+              "reason": "BSI analysis demonstrates high relevance, medium realization, and medium incremental value."
+            },
+            "incremental_value": "medium",
+            "scale": "0-10",
+            "weight_sum": 100.0
+          },
+          "scores": {
+            "RAW": 0.725,
+            "BSI": 0.76
+          },
+          "failed": false
+        }
+      ]
+    },
+    {
+      "article": {
+        "title": "Philosophy and problems of the definition of Extraterrestrial Life",
+        "abstract": "When we try to search for extraterrestrial life and intelligence, we have to follow some guidelines. The first step is to clarify what is to be meant by \"Life\" and \"intelligence\", i.e. an attempt to define these words. The word \"definition\" refers to two different situations. First, it means an arbitrary convention. On the other hand it also often designates an attempt to clarify the content of a pre-existing word for which we have some spontaneous preconceptions, whatever their grounds, and to catch an (illusory) \"essence\" of what is defined. It is then made use of pre-existing plain language words which carry an a priori pre-scientific content likely to introduce some confusion in the reader's mind. The complexity of the problem will be analyzed and we will show that some philosophical prejudice is unavoidable. There are two types of philosophy: \"Natural Philosophy\", seeking for some essence of things, and \"Critical (or analytical) Philosophy\", devoted to the analysis of the procedures by which we claim to construct a reality. An extension of Critical Philosophy, Epistemo-Analysis (i.e. the Psycho-Analysis of concepts) is presented and applied to the defintion of Life and to Astrobiology.",
+        "full_text": null,
+        "doi": null,
+        "url": "http://arxiv.org/abs/1112.0222v2",
+        "input_quality": null
+      },
+      "cells": [
+        {
+          "generator": "openrouter",
+          "mode": "raw",
+          "analysis": {
+            "text": "**Analysis of \"Philosophy and problems of the definition of Extraterrestrial Life\"**\n\n**Main Claims**\n1.  **Definitions are epistemologically ambiguous:** The term \"definition\" conflates two distinct acts: (a) stipulating an arbitrary convention, and (b) attempting to capture the \"essence\" of a pre-existing, pre-scientific concept (like \"Life\" or \"Intelligence\").\n2.  **Pre-scientific language introduces bias:** Using everyday words (Life, Intelligence) as scientific terms carries unconscious, a priori content that creates confusion and masks philosophical presuppositions.\n3.  **Philosophical prejudice is unavoidable:** Because definitions of \"Life\" rely on pre-scientific intuitions, any search for extraterrestrial life inevitably rests on unexamined philosophical commitments.\n4.  **Two philosophical modes are relevant:**\n    *   *Natural Philosophy:* Seeks the intrinsic \"essence\" of things (essentialism).\n    *   *Critical/Analytical Philosophy:* Analyzes the procedures and criteria by which we construct scientific categories.\n5.  **Epistemo-Analysis is the proposed solution:** The author advocates for an extension of Critical Philosophy termed \"Epistemo-Analysis\" (described as the \"Psycho-Analysis of concepts\") to deconstruct the psychological and logical roots of the concepts \"Life\" and \"Intelligence\" before applying them in astrobiology.\n\n**Contribution**\n*   **Meta-level critique:** Shifts the focus *from* proposing a specific definition of life *to* analyzing the structural impossibility of a neutral, essence-capturing definition.\n*   **Methodological intervention:** Introduces **Epistemo-Analysis** as a specific framework for astrobiology, arguing that the discipline requires not just empirical data, but a critical audit of its founding concepts to avoid category errors in the search for extraterrestrial life.\n*   **Reframing the \"Definition Problem\":** Reclassifies the definition of life not as a scientific puzzle awaiting a solution, but as a philosophical problem of language and conceptual history that determines *what* counts as data.",
+            "source_model": "nvidia/nemotron-3-ultra-550b-a55b:free",
+            "generated_at": "2026-08-15T13:07:50Z"
+          },
+          "metadata": {},
+          "judge_result": {
+            "criteria_source": "llm",
+            "winner": "bsi",
+            "reasoning": "The BSI analysis, with its structured epistemic evaluation framework, provides a more comprehensive and systematic approach to analyzing the definition of extraterrestrial life, thereby contributing more significantly to the discussion.",
+            "criteria": [
+              {
+                "name": "Clarity of Argumentation",
+                "importance": 15.0,
+                "raw_score": 8.0,
+                "bsi_score": 9.0,
+                "reason": "Both analyses present clear arguments, but BSI's structured approach enhances clarity."
+              },
+              {
+                "name": "Depth of Philosophical Analysis",
+                "importance": 20.0,
+                "raw_score": 7.0,
+                "bsi_score": 8.0,
+                "reason": "BSI's philosophical depth is slightly greater due to its explicit engagement with epistemological issues."
+              },
+              {
+                "name": "Methodological Innovation",
+                "importance": 18.0,
+                "raw_score": 6.0,
+                "bsi_score": 8.0,
+                "reason": "BSI introduces a novel methodology (Epistemo-Analysis), contributing to higher innovation."
+              },
+              {
+                "name": "Interdisciplinary Integration",
+                "importance": 12.0,
+                "raw_score": 5.0,
+                "bsi_score": 7.0,
+                "reason": "Both analyses integrate multiple disciplines, but BSI does so more explicitly."
+              },
+              {
+                "name": "Critical Examination of Assumptions",
+                "importance": 18.0,
+                "raw_score": 7.0,
+                "bsi_score": 8.0,
+                "reason": "BSI's framework ensures a thorough examination of assumptions, slightly outdoing RAW."
+              },
+              {
+                "name": "Relevance to Astrobiology and SETI",
+                "importance": 10.0,
+                "raw_score": 8.0,
+                "bsi_score": 8.0,
+                "reason": "Both analyses are highly relevant, with BSI's structured approach not affecting relevance."
+              },
+              {
+                "name": "Originality and Contribution",
+                "importance": 7.0,
+                "raw_score": 6.0,
+                "bsi_score": 7.0,
+                "reason": "BSI's originality and contribution are slightly higher due to its unique framework."
+              }
+            ],
+            "total_scores": {
+              "raw": 6.76,
+              "bsi": 7.96
+            },
+            "bsi_capability_assessment": {
+              "relevance": "high",
+              "realization": "high",
+              "incremental_value": "medium",
+              "reason": "BSI's capabilities are highly relevant and well-realized, offering medium incremental value."
+            },
+            "incremental_value": "medium",
+            "scale": "0-10",
+            "weight_sum": 100.0
+          },
+          "scores": {
+            "RAW": 0.676,
+            "BSI": 0.796
+          },
+          "failed": false
+        },
+        {
+          "generator": "openrouter",
+          "mode": "bsi",
+          "analysis": {
+            "text": "# تحلیل احادیث مقاله: «فلسفه و مشکلات تعریف زندگی فرازمینی» (Philosophy and problems of the definition of Extraterrestrial Life)\n**مشخصات مقاله:**  \n**عنوان:** فلسفه و مشکلات تعریف زندگی فرازمینی  \n**نویسنده:** میلان ام. چیرکوویچ (Milan M. Ćirković) — استناد به متن چکیده ارائه‌شده  \n**منبع/سال:** پیامدهای فلسفی در ستاره‌زیست (Astrobiology) — متن چکیده بدون مرجع کامل ارائه شده  \n**تاریخ تحلیل:** ۲۶ ژوئن ۲۰۲۶  \n**نسخه SOP:** SOP_Intellectual_Content_Analysis_v3.4.2  \n**نسخه Ontology:** BIO v1.0  \n**ارزیاب:** مستر پرامپت شاخص بهمنش (Master Prompt BSI v3.4.2)\n\n---\n\n## ۱. خلاصه اجرایی (Executive Summary) + Core Claim + امتیاز کلی BSI\n\n**Core Claim (ادعای محوری):**  \nتعریف «زندگی» و «هوش» در ستاره‌زیست (Astrobiology) و جستجوی هوش فرازمینی (SETI) تنها یک قرارداد تصمیم‌گرایانه (Arbitrary Convention) نیست، بلکه تلاشِ ناخواسته‌ای برای 잡고 تعبیر کردن یک «ذات» (Essence) پیش‌علمی است که بارِ پیش‌فرض‌های فلسفیِ پیشین را در خود جای داده و این پیش‌فرض‌ها، جهت‌گیریِ علمی را بی‌اختیار شکل می‌دهند. مقاله دو رویکرد فلسفی را تفکیک می‌کند: «فلسفه طبیعی» (Natural Philosophy) که در جستجوی ذات اشیاء است، و «فلسفه انتقادی/تحلیلی» (Critical/Analytical Philosophy) که رویه‌های ساختن واقعیت را بررسی می‌کند. راهکار پیشنهادی، گسترش فلسفه انتقادی به سمت «اپیستِمو-آنالیز» (Epistemo-Analysis) — روان‌کاوی مفاهیم — است تا پیش‌فرض‌های پنهان در تعریف‌های ستاره‌زیستی فاش و خنثی شوند.\n\n**خلاصه اجرایی:**  \nمقاله با دقتِ گرانه، گلوگاهِ مفهومی ستاره‌زیست را هدف قرار می‌دهد: عدم توافق بر تعریف زندگی. استدلال محوری این است که تعریف‌ها به دو وجه «قرارداد تصمیمی» و «تلاش برای کشف ذات» دچار دوگانگی‌اند و_face_ الوجه دوم، بارِ پیش‌فرض‌های زبان عامه و فلسفه طبیعی را به علم وارد می‌کند. نویسنده با استعاره/ابزار «اپیستِمو-آنالیز» (پیرو خداحافظی گاستون باشлар/Gaston Bachelard از اپیستِمولوژی کلاسیک) پیشنهاد می‌دهد که به جای جستجوی تعریف «درست»، به تحلیلِ روان‌شناختیِ سازوکه‌های مفهومی بپردازیم. مقاله کوتاه، چگال و با르트ز است؛ لایه پنهان (Latent) آن یک نقد عمیق ابistemولوژیک به «اسنسیالیسمِ ستم‌گر» در علم تجربی است.\n\n**امتیاز کلی BSI (Behmanesh Index Score): ۸۴ / ۱۰۰**  \n*تفسیر: امتیاز بالا ناشی از نوآوری مفهومی بالا (Epistemo-Analysis در ستاره‌زیست)، انسجام منطقی قوی، و عمق نظری قابل‌توجه است. کسر امتیاز به دلیل محدودیت در پایه‌گذاری تجربی (Empirical Grounding) و کاربردی بودن مستقیم (Practical Utility) در سطح عملیات رصد است.*\n\n---\n\n## ۲. جدول ارزیابی معیارهای اصلی ۷گانه (Seven Core Criteria Evaluation)\n\n| # | معیار اصلی (Core Criterion) | وزن در BSI | امتیاز (۰-۱۰۰) | امتیاز وزنی | استدلال دقیق و مکانیسمی |\n|---|---|---|---|---|---|\n| ۱ | **انسجام منطقی (Logical Coherence)** |",
+            "source_model": "nvidia/nemotron-3-ultra-550b-a55b:free",
+            "generated_at": "2026-08-15T13:08:46Z"
+          },
+          "metadata": {},
+          "judge_result": {
+            "criteria_source": "llm",
+            "winner": "bsi",
+            "reasoning": "The BSI analysis, with its structured epistemic evaluation framework, provides a more comprehensive and systematic approach to analyzing the definition of extraterrestrial life, thereby contributing more significantly to the discussion.",
+            "criteria": [
+              {
+                "name": "Clarity of Argumentation",
+                "importance": 15.0,
+                "raw_score": 8.0,
+                "bsi_score": 9.0,
+                "reason": "Both analyses present clear arguments, but BSI's structured approach enhances clarity."
+              },
+              {
+                "name": "Depth of Philosophical Analysis",
+                "importance": 20.0,
+                "raw_score": 7.0,
+                "bsi_score": 8.0,
+                "reason": "BSI's philosophical depth is slightly greater due to its explicit engagement with epistemological issues."
+              },
+              {
+                "name": "Methodological Innovation",
+                "importance": 18.0,
+                "raw_score": 6.0,
+                "bsi_score": 8.0,
+                "reason": "BSI introduces a novel methodology (Epistemo-Analysis), contributing to higher innovation."
+              },
+              {
+                "name": "Interdisciplinary Integration",
+                "importance": 12.0,
+                "raw_score": 5.0,
+                "bsi_score": 7.0,
+                "reason": "Both analyses integrate multiple disciplines, but BSI does so more explicitly."
+              },
+              {
+                "name": "Critical Examination of Assumptions",
+                "importance": 18.0,
+                "raw_score": 7.0,
+                "bsi_score": 8.0,
+                "reason": "BSI's framework ensures a thorough examination of assumptions, slightly outdoing RAW."
+              },
+              {
+                "name": "Relevance to Astrobiology and SETI",
+                "importance": 10.0,
+                "raw_score": 8.0,
+                "bsi_score": 8.0,
+                "reason": "Both analyses are highly relevant, with BSI's structured approach not affecting relevance."
+              },
+              {
+                "name": "Originality and Contribution",
+                "importance": 7.0,
+                "raw_score": 6.0,
+                "bsi_score": 7.0,
+                "reason": "BSI's originality and contribution are slightly higher due to its unique framework."
+              }
+            ],
+            "total_scores": {
+              "raw": 6.76,
+              "bsi": 7.96
+            },
+            "bsi_capability_assessment": {
+              "relevance": "high",
+              "realization": "high",
+              "incremental_value": "medium",
+              "reason": "BSI's capabilities are highly relevant and well-realized, offering medium incremental value."
+            },
+            "incremental_value": "medium",
+            "scale": "0-10",
+            "weight_sum": 100.0
+          },
+          "scores": {
+            "RAW": 0.676,
+            "BSI": 0.796
+          },
+          "failed": false
+        }
+      ]
+    }
+  ],
+  "source_url": "https://github.com/ibstrade11-source/behmanesh-index-prompt/blob/main/MASTER_PROMPT_BSI_v3.4.2.md",
+  "run_metadata": {
+    "tool_version": "0.1.0",
+    "git_commit": "2a0eed8408670c11a2af47ea82640beba7f5a8e3",
+    "git_dirty": true,
+    "run_timestamp_utc": "2026-08-15T13:09:10Z",
+    "methodology_note": "Scores/judgements come from an independent LLM judge (see comparison/judge.py) instructed not to reuse BSI's own D1-D7/EIG vocabulary and to choose its own evaluation criteria. If no judge model is available or its response cannot be parsed, the run falls back to a simple keyword-presence heuristic -- the stored record's own 'criteria_source' field ('llm' vs 'heuristic_fallback') always says honestly which one produced a given result. Neither path is a validated measurement of analytical quality until checked against independent human judgement on a representative sample.",
+    "provider_name": null,
+    "model_version": null,
+    "temperature": null,
+    "max_tokens": null,
+    "prompt_version": null,
+    "framework_name": "bsi"
+  }
+}

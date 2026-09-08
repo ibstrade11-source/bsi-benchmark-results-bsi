@@ -1,0 +1,905 @@
+{
+  "dataset_name": "experimental neuroscience brain",
+  "results": [
+    {
+      "article": {
+        "title": "Precise measurement of CMB polarisation from Dome-C: the BRAIN and CLOVER experiments",
+        "abstract": "The characterisation of CMB polarisation is one of the next challenge in observationnal cosmology. This is especially true for the so-called B-modes that are at least 3 order of magnitude lower than CMB temperature fluctuations. A precise measurement of the angular power spectrum of these B-modes will give important constraints on inflation parameters. In this talk, I will describe two complementary experiments, BRAIN and CLOVER, dedicated to CMB polarisation measurement. These experiments are proposed to be installed in Dome-C, Antarctica, to take advantage of the extreme dryness of the atmosphere and to allow long integration time.",
+        "full_text": null,
+        "doi": null,
+        "url": "http://arxiv.org/abs/astro-ph/0412590v2",
+        "input_quality": null
+      },
+      "cells": [
+        {
+          "generator": "openrouter",
+          "mode": "raw",
+          "analysis": {
+            "text": "**Analysis of \"Precise measurement of CMB polarisation from Dome-C: the BRAIN and CLOVER experiments\"**\n\n**Type of Document:** Conference proceeding / Talk abstract (indicated by \"In this talk, I will describe...\"). It presents a *proposal* and *design rationale*, not observational results.\n\n**Main Claims:**\n1.  **Scientific Target:** The primary goal is the detection and characterization of CMB **B-mode polarization**, which the authors identify as a critical challenge in observational cosmology.\n2.  **Signal Magnitude:** B-modes are estimated to be **at least three orders of magnitude fainter** than CMB temperature anisotropies.\n3.  **Cosmological Payoff:** A precise measurement of the B-mode angular power spectrum would provide **strong constraints on inflationary parameters** (specifically the tensor-to-scalar ratio, *r*).\n4.  **Instrumental Strategy:** Two **complementary experiments** are proposed:\n    *   **BRAIN** (Background Radiation Anisotropy INvestigator): Typically designed as a bolometric interferometer targeting large angular scales (low multipoles).\n    *   **CLOVER** (Cosmic Microwave Background Polarization Experiment): Typically designed as a filled-aperture telescope with focal plane arrays targeting intermediate angular scales (recombination bump).\n5.  **Site Justification:** **Dome C, Antarctica** is selected for two critical advantages:\n    *   **Extreme atmospheric dryness** (low precipitable water vapor), minimizing atmospheric emission and absorption at millimeter wavelengths.\n    *   **Long integration times** enabled by the continuous polar night (winter), allowing stable, systematic-error-limited observations.\n\n**Contribution:**\n*   **Experimental Design & Site Advocacy:** The work serves as a foundational reference defining the scientific case, instrumental concepts (interferometry vs. imaging), and site-specific advantages for a major CMB polarization campaign at Dome C.\n*   **Pathfinder Role:** It framed the technical requirements (sensitivity, systematic control, frequency coverage) that guided the actual deployment and operation of these instruments (BRAIN operated ~2009–2012; CLOVER was constructed but faced deployment delays/cancellation).\n*   **Strategic Context:** It highlights the early recognition (mid-2000s) that ground-based B-mode searches required the unique atmospheric stability of the Antarctic plateau to compete with satellite missions (e.g., Planck) and other ground sites (e.g., Atacama).",
+            "source_model": "nvidia/nemotron-3-ultra-550b-a55b:free",
+            "generated_at": "2026-08-15T13:50:15Z"
+          },
+          "metadata": {},
+          "judge_result": {
+            "criteria_source": "llm",
+            "winner": "raw",
+            "reasoning": "The RAW analysis, despite its simplicity, engages more effectively with the broader scientific context and implications of the experiments, offering a slightly more comprehensive overview of the research goals and challenges.",
+            "criteria": [
+              {
+                "name": "Depth of Scientific Contextualization",
+                "importance": 15.0,
+                "raw_score": 8.0,
+                "bsi_score": 6.0,
+                "reason": "RAW provides a clearer overview of the scientific context and goals, while BSI focuses more on methodological aspects without deeply engaging with the scientific background."
+              },
+              {
+                "name": "Clarity and Coherence of Methodological Explanation",
+                "importance": 20.0,
+                "raw_score": 7.0,
+                "bsi_score": 8.0,
+                "reason": "BSI offers a more detailed and structured approach to explaining the methodological aspects, enhancing clarity, although it lacks engagement with the broader scientific implications."
+              },
+              {
+                "name": "Epistemic Robustness and Critical Thinking",
+                "importance": 15.0,
+                "raw_score": 6.0,
+                "bsi_score": 5.0,
+                "reason": "Both analyses lack a deep critical examination of assumptions and potential biases, but RAW slightly better addresses the importance of rigorous testing and validation in the field."
+              },
+              {
+                "name": "Creative Value Add and Innovation",
+                "importance": 10.0,
+                "raw_score": 4.0,
+                "bsi_score": 3.0,
+                "reason": "Neither analysis presents groundbreaking new ideas, but RAW's discussion around the strategic advantages of the Dome-C site hints at a more innovative approach to overcoming observational challenges."
+              },
+              {
+                "name": "Interdisciplinary Breadth and Relevance",
+                "importance": 10.0,
+                "raw_score": 5.0,
+                "bsi_score": 4.0,
+                "reason": "RAW touches upon the broader cosmological implications more directly, suggesting a slightly wider interdisciplinary relevance, although both analyses are largely focused on the specific experimental setup."
+              },
+              {
+                "name": "Evidence Quality and Use",
+                "importance": 15.0,
+                "raw_score": 5.0,
+                "bsi_score": 6.0,
+                "reason": "BSI mentions the importance of evidence in a more structured manner, but both analyses are limited by the absence of concrete, presented evidence to support claims."
+              },
+              {
+                "name": "Longitudinal Coherence and Temporal Considerations",
+                "importance": 15.0,
+                "raw_score": 7.0,
+                "bsi_score": 5.0,
+                "reason": "RAW offers a clearer temporal perspective on the development and deployment of the experiments, enhancing longitudinal coherence."
+              }
+            ],
+            "total_scores": {
+              "raw": 6.2,
+              "bsi": 5.6
+            },
+            "bsi_capability_assessment": {
+              "relevance": "medium",
+              "realization": "low",
+              "incremental_value": "low",
+              "reason": "While BSI's structured approach has the potential to add value, its capability in this analysis is limited by the lack of depth in engaging with the scientific context and implications."
+            },
+            "incremental_value": "low",
+            "scale": "0-10",
+            "weight_sum": 100.0
+          },
+          "scores": {
+            "RAW": 0.62,
+            "BSI": 0.56
+          },
+          "failed": false
+        },
+        {
+          "generator": "openrouter",
+          "mode": "bsi",
+          "analysis": {
+            "text": "# تحلیل شاخص بهمنش (BSI v3.4.2)\n**موضوع تحلیل:**Precise measurement of CMB polarisation from Dome-C: the BRAIN and CLOVER experiments  \n**نوع محتوا:** چکیده‌ی سخنرانی/پروپوزال آزمایشی (Conference Talk Abstract / Experimental Proposal)  \n**نویسنده/ارائه‌دهنده:** نام مؤلف در متن ارائه نشده (متن چکیده besar회议)  \n**تاریخ تحلیل:** ۲۶ ژوئن ۲۰۲۶  \n**نسخه SOP:** ۳.۴.۲ | **نسخه Ontology:** BIO v1.0  \n\n---\n\n## ۱. خلاصه اجرایی (Executive Summary) + Core Claim + امتیاز کلی BSI\n\n**خلاصه اجرایی:**  \nمتن ورودی چکیده‌ای مختصر از یک سخنرانی علمی است که دو آزمایش مکمل **BRAIN** و **CLOVER** را برای اندازه‌گیری دقیق قطب‌سازی (Polarisation)후 منظر ماکروویونی کیهانی (CMB) معرفی می‌کند. هدف اصلی این آزمایش‌ها، شناسایی **B-modeها** است که سیگنال‌های آن‌ها حداقل سه مرتبه کوچکتر از نوسانات دمای CMB هستند. escritoresானucleotide‌گیری دقیق از طیف توان زاویه‌ای (Angular Power Spectrum) این B-modeها، محدودیت‌های مهمی بر پارامترهای تورم (Inflation) در کیهان اولیه قرار می‌دهد. مزیت استراتژیک پیشنهاد شده، نصب این آزمایش‌ها در **دوم-سی (Dome-C)، قطب جنوب** است تا از خشکی اتمسفری فوق‌العاده و امکان زمان یکپارچه‌سازی طولانی (Long Integration Time) بهره برده شود.\n\n**Core Claim (ادعای محوری):**  \n«نصب آزمایش‌های BRAIN و CLOVER در دوم-سی، به razón شرایط اتمسفری منحصر‌به‌فرد و امکان یکپارچه‌سازی طولانی، مسیر را برای اندازه‌گیری دقیق B-modeهای CMB و در نتیجه محدودسازی پارامترهای تورم هموار می‌سازد.»\n\n**امتیاز کلی BSI:** **۵۸ / ۱۰۰**  \n*توضیح: متن به دلیل ماهیت چکیده‌ای، فاقد جزئیات روش‌شناختی، داده‌های پیشین، تحلیل ریسک و مکانیسم‌های داخلی است. امکان ارزیابی عمیق لایه‌ها و CreativeValueAdd بسیار محدود است.*\n\n---\n\n## ۲. جدول ارزیابی معیارهای اصلی ۷گانه\n\n| معیار اصلی | وزن (٪) | امتیاز خام (۰-۱۰۰) | امتیاز وزنی | مستندات و استدلال |\n| :--- | :---: | :---: | :---: | :--- |\n| **۱. دقت نظری و منطقی (Theoretical Rigor)** | ۱۵ | ۶۰ | ۹.۰ | ادعای «حداقل سه مرتبه کوچکتر» برای B-modeها نسبت به دمای CMB در سطح مرتبه‌ها صحیح است (r < 0.01). اما عدم ذکر مدل‌های تورم خاص یا مقیاس انرژی (Energy Scale) دقت را کاهش می‌دهد. |\n| **۲. روбуستی تجربی/روانشناختی (Empirical Robustness)** | ۲۰ | ۳۰ | ۶.۰ | هیچ داده‌ای، نتیجه پیشین (Pathfinder)، نویز الأدوات (Instrumental Noise) یا تحلیل سیستماتیک (Systematics) ارائه نشده. صرفاً پیشنهاد مکان است. |\n| **۳. نوآوری مفهومی (Conceptual Novelty)** | ۱۵ | ۴۰ | ۶.۰ | آزمایش‌های BRAIN و CLOVER در 그때ه 제안 شده شناخته شده بودند، اما در بافت این چکیده، نوآوری مفهومی جدیدی (مثل تکنیک جدید ماژولاسیون یا کنترل سیستماتیک) نشان داده نشده. |\n| **۴. انسجام منطقی (Logical Coherence)** | ۱۵ | ۷۵ | ۱۱.۲۵ | استدلال خطی: هدف (B-mode) → چالش (سیگنال ضعیف/فوریه) → راهکار (مکان دوم-سی + دو آزمایش مکمل) → نتیجه (محدودیت تورم). ساختار منطقی صاف و بدون تضاد است. |\n| **۵. عمق مکانیسمی (Mechanistic Depth)** | ۱۵ | ۲۰ | ۳.۰ | هیچ مکانیسمی برای جداً‌سازی E-mode به B-mode، کنترل فوریه اتمسفری، یا بیشینی ابزار (Optics/Detectors) تشریح نشده. لایه Latent تقریباً خالی است. |\n| **۶. ارزشی‌افزودنی خلاقانه (CreativeValueAdd)** | ۱۰ | ۳۵ | ۳.۵ | تلفیق دو آزمایش مکمل (Complementarity) یک سیاست طراحی خوب است، اما در سطح چکیده،ynthesized 되지 않았습니다.Gap شناختی (Epistemic Gap) به صراحت تعریف نشده. |\n| **۷. قابلیت تعمیم و اثربخشی (Generalizability & Impact)** | ۱۰ | ۶۵ | ۶.۵ | در صورت موفقیت، تأثیر بر косمولوژی پایه بالا است. اما تعمیم‌پذیری روش به سایر مکان‌ها یا مقیاس‌ها بحث نشده. ریسک اجرای قطب جنوب بالا است. |\n| **مجموع** | **۱۰۰** | — | **۴۵.۷۵** | **امتیاز اصلاح‌شده با جریمه عدم شفافیت داده: ۵۸** |\n\n> *ملاحظه: امتیاز نهایی ۵۸ با در نظر گرفتن «پتانسیل اثربخشی» و «صحت پیش‌فرض‌های پایه» از میانگین وزنی (۴۵.۷۵) به سمت بالا تعدیل شده، اما جریمه‌ی عدم ارائه داده/مکانیسم اعمال گردیده است.*\n\n---\n\n## ۳. جدول CreativeValueAdd (ارزشی‌افزودنی خلاقانه)\n\n| زیرمعیار | وزن نسبی | امتیاز (۰-۱۰۰) | امتیاز وزنی | تحلیل و مستندات |\n| :--- | :---: | :---: | :---: | :--- |\n| **TargetingEpistemic Gap (هدف‌گیری گپ شناختی)** | ۳۵٪ | ۴۰ | ۱۴.۰ | **گپ ضمنی:** «چگونه B-modeهای اولیه را در حضور فوریه‌های لغزشی (Lensing B-modes) و سیستماتیک‌های الأدوات با حساسیت r~0.01 جدا کنیم؟»<br>**نقد:** چکیده گپ را به «دقت اندازه‌گیری» و «مکان» تقلیل می‌دهد. مکانیسم جداسازی مؤلفه‌ها (Component Separation) یا کنترل سیستماتیک باینری (Beam Systematics) ذكر نشده. هدف‌گیری سطحی است. |\n| **Combinatorial Synthesis (تلفیق ترکیبی)** | ۴۰٪ | ۳۵ | ۱۴.۰ | **ترکیب:** دو آزمایش BRAIN (معمولاً مقیاس زاویه بزرگ/درجه‌ها) و CLOVER (مقیاس متوسط/دقیقه‌ها) + مکان دوم-سی.<br>**نقد:** «مکمل بودن» ادعا شده اما مکانیسم تکمیل (مثلاً: BRAIN برای पुनرنسانی فوریه عریض و CLOVER برای باند تورم) تشریح نشده. ترکیب توصیفی است، نه مکانیسمی-عملیاتی. |\n| **Generative Capacity (ظرفیت مولد/تولیدکننده)** | ۲۵٪ | ۳۰ | ۷.۵ | **پیش‌بینی/تولید:** اگر موفق باشد، محدودیت r → انرژی تورم. اما چکیده مسیر تولید دانش جدید را (مثل: pipeline تحلیل، بلایندیینگ، شبیه‌سازی",
+            "source_model": "nvidia/nemotron-3-ultra-550b-a55b:free",
+            "generated_at": "2026-08-15T13:51:05Z"
+          },
+          "metadata": {},
+          "judge_result": {
+            "criteria_source": "llm",
+            "winner": "raw",
+            "reasoning": "The RAW analysis, despite its simplicity, engages more effectively with the broader scientific context and implications of the experiments, offering a slightly more comprehensive overview of the research goals and challenges.",
+            "criteria": [
+              {
+                "name": "Depth of Scientific Contextualization",
+                "importance": 15.0,
+                "raw_score": 8.0,
+                "bsi_score": 6.0,
+                "reason": "RAW provides a clearer overview of the scientific context and goals, while BSI focuses more on methodological aspects without deeply engaging with the scientific background."
+              },
+              {
+                "name": "Clarity and Coherence of Methodological Explanation",
+                "importance": 20.0,
+                "raw_score": 7.0,
+                "bsi_score": 8.0,
+                "reason": "BSI offers a more detailed and structured approach to explaining the methodological aspects, enhancing clarity, although it lacks engagement with the broader scientific implications."
+              },
+              {
+                "name": "Epistemic Robustness and Critical Thinking",
+                "importance": 15.0,
+                "raw_score": 6.0,
+                "bsi_score": 5.0,
+                "reason": "Both analyses lack a deep critical examination of assumptions and potential biases, but RAW slightly better addresses the importance of rigorous testing and validation in the field."
+              },
+              {
+                "name": "Creative Value Add and Innovation",
+                "importance": 10.0,
+                "raw_score": 4.0,
+                "bsi_score": 3.0,
+                "reason": "Neither analysis presents groundbreaking new ideas, but RAW's discussion around the strategic advantages of the Dome-C site hints at a more innovative approach to overcoming observational challenges."
+              },
+              {
+                "name": "Interdisciplinary Breadth and Relevance",
+                "importance": 10.0,
+                "raw_score": 5.0,
+                "bsi_score": 4.0,
+                "reason": "RAW touches upon the broader cosmological implications more directly, suggesting a slightly wider interdisciplinary relevance, although both analyses are largely focused on the specific experimental setup."
+              },
+              {
+                "name": "Evidence Quality and Use",
+                "importance": 15.0,
+                "raw_score": 5.0,
+                "bsi_score": 6.0,
+                "reason": "BSI mentions the importance of evidence in a more structured manner, but both analyses are limited by the absence of concrete, presented evidence to support claims."
+              },
+              {
+                "name": "Longitudinal Coherence and Temporal Considerations",
+                "importance": 15.0,
+                "raw_score": 7.0,
+                "bsi_score": 5.0,
+                "reason": "RAW offers a clearer temporal perspective on the development and deployment of the experiments, enhancing longitudinal coherence."
+              }
+            ],
+            "total_scores": {
+              "raw": 6.2,
+              "bsi": 5.6
+            },
+            "bsi_capability_assessment": {
+              "relevance": "medium",
+              "realization": "low",
+              "incremental_value": "low",
+              "reason": "While BSI's structured approach has the potential to add value, its capability in this analysis is limited by the lack of depth in engaging with the scientific context and implications."
+            },
+            "incremental_value": "low",
+            "scale": "0-10",
+            "weight_sum": 100.0
+          },
+          "scores": {
+            "RAW": 0.62,
+            "BSI": 0.56
+          },
+          "failed": false
+        }
+      ]
+    },
+    {
+      "article": {
+        "title": "Technological Competence is a Precondition for Effective Implementation of Virtual Reality Head Mounted Displays in Human Neuroscience: A Technological Review and Meta-analysis",
+        "abstract": "Immersive virtual reality (VR) emerges as a promising research and clinical tool. However, several studies suggest that VR induced adverse symptoms and effects (VRISE) may undermine the health and safety standards, and the reliability of the scientific results. In the current literature review, the technical reasons for the adverse symptomatology are investigated to provide suggestions and technological knowledge for the implementation of VR head-mounted display (HMD) systems in cognitive neuroscience. The technological systematic literature indicated features pertinent to display, sound, motion tracking, navigation, ergonomic interactions, user experience, and computer hardware that should be considered by the researchers. Subsequently, a meta-analysis of 44 neuroscientific or neuropsychological studies involving VR HMD systems was performed. The meta-analysis of the VR studies demonstrated that new generation HMDs induced significantly less VRISE and marginally fewer dropouts.Importantly, the commercial versions of the new generation HMDs with ergonomic interactions had zero incidents of adverse symptomatology and dropouts. HMDs equivalent to or greater than the commercial versions of contemporary HMDs accompanied with ergonomic interactions are suitable for implementation in cognitive neuroscience. In conclusion, researchers technological competency, along with meticulous methods and reports pertinent to software, hardware, and VRISE, are paramount to ensure the health and safety standards and the reliability of neuroscientific results.",
+        "full_text": null,
+        "doi": "10.3389/fnhum.2019.00342",
+        "url": "http://arxiv.org/abs/2101.08123v1",
+        "input_quality": null
+      },
+      "cells": [
+        {
+          "generator": "openrouter",
+          "mode": "raw",
+          "analysis": {
+            "text": "### **Analysis of Article: \"Technological Competence is a Precondition for Effective Implementation of Virtual Reality Head Mounted Displays in Human Neuroscience\"**\n\n#### **1. Core Objective**\nThe article argues that **technological competence**—defined as rigorous knowledge of hardware/software specifications and their physiological impacts—is a mandatory prerequisite for valid, safe, and reliable use of VR Head-Mounted Displays (HMDs) in cognitive neuroscience. It contends that neglecting technical parameters leads to **VR-Induced Symptoms and Effects (VRISE)**, compromising both participant safety and data integrity.\n\n#### **2. Methodology**\nA two-pronged approach was employed:\n*   **Technological Systematic Literature Review:** Identified critical technical specifications across seven domains: display (latency, refresh rate, FOV), audio, motion tracking (degrees of freedom, latency), navigation/locomotion, ergonomic interaction, user experience, and computer hardware performance.\n*   **Meta-Analysis:** Quantitative synthesis of **44 neuroscientific/neuropsychological studies** utilizing VR HMDs, comparing outcomes between \"previous generation\" and \"new generation\" commercial HMDs.\n\n#### **3. Main Claims & Findings**\n*   **Technical Drivers of VRISE:** Adverse symptoms (nausea, disorientation, eye strain) are not inherent to VR *per se* but are caused by specific technical deficiencies: high motion-to-photon latency, low refresh rates, limited field of view (FOV), inadequate tracking (3DoF vs. 6DoF), poorly implemented locomotion (artificial vs. physical), and insufficient rendering hardware.\n*   **Generational Improvement:** The meta-analysis confirms **new generation HMDs (commercial tethered/standalone 6DoF systems, e.g., Oculus Rift CV1, HTC Vive, Quest series) induce significantly lower VRISE scores and marginally fewer dropouts** compared to previous generation (development kits, 3DoF, mobile-based) systems.\n*   **The \"Zero Incident\" Threshold:** A critical finding is that **commercial versions of new generation HMDs equipped with ergonomic interaction paradigms (natural locomotion, intuitive controllers) reported zero incidents of adverse symptomatology and zero dropouts** across the analyzed studies.\n*   **Suitability Criterion:** HMDs meeting or exceeding the specifications of current commercial 6DoF systems, *when paired with ergonomic interaction design*, are deemed suitable for cognitive neuroscience implementation.\n\n#### **4. Contribution to the Field**\n*   **Shift from \"VR vs. Non-VR\" to \"Good VR vs. Bad VR\":** Moves the discourse beyond whether VR is valid, establishing that **validity is contingent on specific, measurable hardware/software thresholds**.\n*   **Quantitative Benchmarking:** Provides the first meta-analytic evidence linking specific hardware generations and interaction designs directly to safety/retention metrics (VRISE/dropout rates) in a neuroscience context.\n*   **Standardization Imperative:** Establishes **mandatory reporting standards**: future publications must detail HMD specs (latency, refresh rate, FOV, tracking), PC/GPU specs, locomotion method, and VRISE screening/monitoring protocols to ensure reproducibility and safety compliance.\n*   **Reframing Researcher Responsibility:** Positions \"technological competence\" not as optional technical support, but as a core **methodological competence** equivalent to statistical literacy or neuroimaging physics knowledge.\n\n#### **5. Limitations & Gaps (Inferred from Abstract)**\n*   **Publication Bias Risk:** Meta-analysis relies on published studies; studies with high dropout/VRISE may go unpublished.\n*   **Definition of \"Ergonomic Interactions\":** The abstract treats this as a binary moderator (present/absent) without detailing the specific interaction mechanics (e.g., teleportation vs. redirected walking vs. physical walking) that yielded \"zero incidents.\"\n*   **Population Generalizability:** \"Zero incidents\" likely reflects healthy adult samples; clinical populations (e.g., vestibular disorders, TBI, elderly) may have lower tolerance thresholds not captured here.\n*   **Rapid Obsolescence:** \"New generation\" and \"commercial versions\" are moving targets; the specific specs defining the threshold (e.g., 90Hz vs 120Hz, inside-out vs outside-in tracking) require explicit versioning for future replication.",
+            "source_model": "nvidia/nemotron-3-ultra-550b-a55b:free",
+            "generated_at": "2026-08-15T13:53:19Z"
+          },
+          "metadata": {},
+          "judge_result": {
+            "criteria_source": "llm",
+            "winner": "bsi",
+            "reasoning": "BSI's comprehensive approach and detailed analysis make it the overall winner.",
+            "criteria": [
+              {
+                "name": "Relevance and Accuracy of Technological Specifications",
+                "importance": 15.0,
+                "raw_score": 7.0,
+                "bsi_score": 8.0,
+                "reason": "BSI provides more detailed technological specifications."
+              },
+              {
+                "name": "Methodological Rigor",
+                "importance": 20.0,
+                "raw_score": 8.0,
+                "bsi_score": 9.0,
+                "reason": "BSI combines technological review with meta-analysis effectively."
+              },
+              {
+                "name": "Contribution to the Field",
+                "importance": 20.0,
+                "raw_score": 8.0,
+                "bsi_score": 9.0,
+                "reason": "BSI offers novel insights into VRISE and technological competence."
+              },
+              {
+                "name": "Critical Evaluation of VRISE",
+                "importance": 15.0,
+                "raw_score": 7.0,
+                "bsi_score": 8.0,
+                "reason": "BSI evaluates VRISE factors thoroughly."
+              },
+              {
+                "name": "Operational and Practical Recommendations",
+                "importance": 10.0,
+                "raw_score": 8.0,
+                "bsi_score": 9.0,
+                "reason": "BSI provides useful recommendations for researchers."
+              },
+              {
+                "name": "Interdisciplinary Integration",
+                "importance": 10.0,
+                "raw_score": 7.0,
+                "bsi_score": 8.0,
+                "reason": "BSI integrates technological and substantive knowledge effectively."
+              },
+              {
+                "name": "Clarity and Reproducibility",
+                "importance": 10.0,
+                "raw_score": 7.0,
+                "bsi_score": 8.0,
+                "reason": "BSI presents findings clearly but could enhance reproducibility details."
+              }
+            ],
+            "total_scores": {
+              "raw": 7.5,
+              "bsi": 8.5
+            },
+            "bsi_capability_assessment": {
+              "relevance": "high",
+              "realization": "medium",
+              "incremental_value": "medium",
+              "reason": "BSI's capabilities are relevant and provide medium realization and incremental value."
+            },
+            "incremental_value": "medium",
+            "scale": "0-10",
+            "weight_sum": 100.0
+          },
+          "scores": {
+            "RAW": 0.75,
+            "BSI": 0.85
+          },
+          "failed": false
+        },
+        {
+          "generator": "openrouter",
+          "mode": "bsi",
+          "analysis": {
+            "text": "# تحلیل مقاله: «تظاہر تکنولوژیک پیش‌شرط اجرای موثر نمایشگرهای سرپوشیده واقعیت مجازی در علوم عصبی انسان: یک مرور و فراتحلیل تکنولوژیک»\n\n**مشخصات مقاله:**\n- **عنوان:** Technological Competence is a Precondition for Effective Implementation of Virtual Reality Head Mounted Displays in Human Neuroscience: A Technological Review and Meta-analysis\n- **نوع مطالعه:** مرور نظام‌مند تکنولوژیک (Technological Systematic Review) + فراتحلیل (Meta-analysis)\n- **حجم نمونه فراتحلیل:** ۴۴ مطالعه علوم عصبی/روان‌شناسی عصبی\n- **موضوع محوری:**_links_ بین توانایی تکنولوژیک محققان، ویژگی‌های سخت‌افزاری/نرم‌افزاری HMD، عوارض جانبی واقعیت مجازی (VRISE)، و اعتبار نتایج علمی\n\n---\n\n## ۱. خلاصه اجرایی (Executive Summary) + Core Claim + امتیاز کلی BSI\n\n### Core Claim (ادعای اصلی)\n**«تظاہر تکنولوژیک محققان، پیش‌شرط لازمه برای اجرای موثر HMDهای واقعیت مجازی در پژوهش‌های علوم عصبی است؛ generación جدید HMDهای تجاری با تعاملات ارگونومیک، عوارض VRISE و.Dropout را به صفر می‌رسانند، و گزارش‌سازی دقیق سخت‌افزار/نرم‌افزار/ VRISE برای تضمین ایمنی و اعتبار علمی غیرقابل‌تفاوت است.»**\n\n### خلاصه اجرایی\nمقاله حاضر دوulaires را ترکیب می‌کند: (۱) یک مرور نظام‌مند تکنولوژیک که ویژگی‌های کلیدی HMD (نمایشگر، صدا، ردیابی حرکت، ناوبری، ارگونومی، تجربه کاربر، سخت‌افزار محاسبه) را شناسایی و دسته‌بندی می‌کند، و (۲) یک فراتحلیل ۴۴ مطالعه علوم عصبی که نشان می‌دهد HMDهای نسل جدید به‌ویژه نسخه‌های تجاری با تعاملات ارگونومیک، به کاهش معنادار VRISE و کم‌تر شدن Dropout منجر شده‌اند. یافته کلیدی: **HMDهای معادل یا برتر از نسخه‌های تجاری معاصر، همراه با تعاملات ارگونومیک، برای کاربرد در علوم عصبی شناختی مناسب‌اند**. مقاله بر ضرورت گزارش‌سازی شفاف پارامترهای تکنولوژیک و پروفایل VRISE تأکید دارد تا بازتولیدپذیری و ایمنی تضمین شود.\n\n### امتیاز کلی BSI: **۸۲/۱۰۰** (Upper-Mid Tier — Solid Contribution with Notable Gaps)\n\n**دلیل‌دهی امتیاز:**\n- **نقاط قوت:** ترکیب نوین مرور تکنولوژیک + فراتحلیل تجربی؛ شناسایی مختص پارامترهای تکنولوژیک؛ یافته عملیاتی کلیدی (صفر VRISE در HMDهای تجاری ارگونومیک)؛ تأکید بر گزارش‌سازی استاندارد.\n- **نقاط ضعف:** عدم ارائه اثرात्रा (Effect Sizes) و فاصله‌های اطمینان در چکیده؛ ابهام در تعریف عملیاتی «تظاہر تکنولوژیک»; عدم بررسی تداخل‌های متغیرهای مخلوط (مثل طراحی پارادایم، جمعیت بیمار vs سالم)؛ محدودیت تعمیم به دامنه‌های غیرعلوم عصبی.\n\n---\n\n## ۲. جدول ارزیابی معیارهای اصلی ۷گانه\n\n| معیار اصلی (وزن) | امتیاز (از ۱۰) | امتیاز وزنی | تحلیل و استدلال |\n|------------------|----------------|------------|----------------|\n| **۱. اصالت معرفت‌شناختی (Epistemic Originality) — ۱۵٪** | ۷.۵ | ۱.۱۲۵ | ترکیب مرور تکنولوژیک + فراتحلیل نوین است، اما هرکدام به‌تنهایی روال شناخته‌شده‌اند. «فروشگاه پارامترهای تکنولوژیک»貢獻 معتدی است. |\n| **۲. سخت‌گیری روش‌شناختی (Methodological Rigor) — ۲۰٪** | ۸.۰ | ۱.۶۰۰ | مرور نظام‌مند + فراتحلیل با نرخ.Dropout گزارش‌شده. اما: عدم گزارش PRISMA، عدم ارزیابی ریسک سوگیری (RoB)، عدم تحلیل حساسیت، ابهام در استخراج داده‌های VRISE (مقیاس‌های متفاوت SSQ، نامشخص بودن cut-off). |\n| **۳. عمق نظری (Theoretical Depth) — ۱۵٪** | ۷.۰ | ۱.۰۵۰ | چارچوب نظری صریح ارائه نشده است..link میان «تظاہر تکنولوژیک» و «اعتمادپذیری نتایج» استدلالی است، نه مدل‌سازی شده. مکانیسم‌های واسطه (مثل بار شناختی، حضور، سیکنس) تشریح نشده‌اند. |\n| **۴. ارزش افزوده خلاقانه (CreativeValueAdd) — ۲۰٪** | ۸.۵ | ۱.۷۰۰ | **(تحلیل جداگانه در بخش ۳)** — تمرکز برEpistemic Gap (گزارش‌سازی پارامترهای تکنولوژیک) و Combinatorial Synthesis (مرور + فراتحلیل) قوی است. |\n| **۵. کاربردپذیری و tác động (Applicability & Impact) — ۱۵٪** | ۹.۰ | ۱.۳۵۰ | پیشنهادات عملیاتی مستقیم برای محققان (چک‌لیست سخت‌افزار/نرم‌افزار، پروتکل VRISE). tác động بالا در استانداردسازی روش‌شناسی علوم عصبی VR. |\n| **۶. انسجام منطقی و استدلالی (Logical Coherence) — ۱۰٪** | ۸.۵ | ۰.۸۵۰ | استدلال از داده‌ها به نتیجه منسجم است. اما پرش از «HMD تجاری = صفر VRISE» به «تظاہر تکنولوژیک پیش‌شرط است» نیاز به предпفرض صریح‌تر دارد. |\n| **۷. شفافیت و بازتولیدپذیری (Transparency & Reproducibility) — ۵٪** | ۶.۰ | ۰.۳۰۰ | چکیده داده‌های خام فراتحلیل، کدها، یا تشریح جستجوی مرور را گزارش نمی‌دهد. عدم ثبت پروتکل (PROSPERO/OSF) ذکر نشده. |\n\n**مجموع امتیاز وزنی: ۸۲/۱۰۰**\n\n---\n\n## ۳. جدول CreativeValueAdd با ۳ زیرمعیار\n\n| زیرمعیار (وزن) | امتیاز (از ۱۰) | امتیاز وزنی | تحلیل تشریحی |\n|----------------|----------------|------------|----------------|\n| **Epistemic Gap Targeting (۳۵٪)** | ۹.۰ | ۳.۱۵ | مقاله یک شکاف معرفت‌شناختی دقیق و پراکنده را هدف می‌گیرد: **نارسازی گزارش‌سازی پارامترهای تکنولوژیک در مطالعات VR علوم عصبی**. این شکاف مستقیماً به «اعتبار داخلی» (Internal Validity) و «ایمنی مشارکت‌کننده» مرتبط است. شناسایی ۷ دسته پارامتر (نمایشگر، صدا، ردیابی، ناوبری، ارگونومی، UX، سخت‌افزار) یک «نقشه شکاف» جامع فراهم می‌کند. فراتر از بیان مسئله، داده‌های فراتحلیل را به عنوان مدرک تجربی برای اولویت‌بندی پارامترها به کار می‌برد. |\n| **Combinatorial Synthesis (۴۰٪)** | ۸.۵ | ۳.۴۰ | ترکیب **مرور نظام‌مند تکنولوژیک** (معمولاً در مهندسی/عامل انسانی) با **فراتحلیل علوم عصبی/روان‌شناسی** یک سنتز ترکیبی قوی است. این ترکیب به دوulaires اجازه می‌دهد: (الف) مرور، اولویت‌های تجربی را از فراتحلیل می‌گیرد؛ (ب) فراتحلیل، متغیرهای مخلوط تکنولوژیک را از مرور می‌شناسد. اما یکپارچگی کامل تحقق نیافته: مرور و فراتحلیل در چکیده به صورت موازی報告 شده‌اند، نه به‌صورت یکپارچه (مثلاً: متا‌رگرسیون با پیش‌بین‌های تکنولوژیک). |\n| **Generative Capacity (۲۵٪)** | ۸.۰ | ۲.۰۰ | مقاله پتانسیل مولد بالایی دارد: (",
+            "source_model": "nvidia/nemotron-3-ultra-550b-a55b:free",
+            "generated_at": "2026-08-15T13:54:29Z"
+          },
+          "metadata": {},
+          "judge_result": {
+            "criteria_source": "llm",
+            "winner": "bsi",
+            "reasoning": "BSI's comprehensive approach and detailed analysis make it the overall winner.",
+            "criteria": [
+              {
+                "name": "Relevance and Accuracy of Technological Specifications",
+                "importance": 15.0,
+                "raw_score": 7.0,
+                "bsi_score": 8.0,
+                "reason": "BSI provides more detailed technological specifications."
+              },
+              {
+                "name": "Methodological Rigor",
+                "importance": 20.0,
+                "raw_score": 8.0,
+                "bsi_score": 9.0,
+                "reason": "BSI combines technological review with meta-analysis effectively."
+              },
+              {
+                "name": "Contribution to the Field",
+                "importance": 20.0,
+                "raw_score": 8.0,
+                "bsi_score": 9.0,
+                "reason": "BSI offers novel insights into VRISE and technological competence."
+              },
+              {
+                "name": "Critical Evaluation of VRISE",
+                "importance": 15.0,
+                "raw_score": 7.0,
+                "bsi_score": 8.0,
+                "reason": "BSI evaluates VRISE factors thoroughly."
+              },
+              {
+                "name": "Operational and Practical Recommendations",
+                "importance": 10.0,
+                "raw_score": 8.0,
+                "bsi_score": 9.0,
+                "reason": "BSI provides useful recommendations for researchers."
+              },
+              {
+                "name": "Interdisciplinary Integration",
+                "importance": 10.0,
+                "raw_score": 7.0,
+                "bsi_score": 8.0,
+                "reason": "BSI integrates technological and substantive knowledge effectively."
+              },
+              {
+                "name": "Clarity and Reproducibility",
+                "importance": 10.0,
+                "raw_score": 7.0,
+                "bsi_score": 8.0,
+                "reason": "BSI presents findings clearly but could enhance reproducibility details."
+              }
+            ],
+            "total_scores": {
+              "raw": 7.5,
+              "bsi": 8.5
+            },
+            "bsi_capability_assessment": {
+              "relevance": "high",
+              "realization": "medium",
+              "incremental_value": "medium",
+              "reason": "BSI's capabilities are relevant and provide medium realization and incremental value."
+            },
+            "incremental_value": "medium",
+            "scale": "0-10",
+            "weight_sum": 100.0
+          },
+          "scores": {
+            "RAW": 0.75,
+            "BSI": 0.85
+          },
+          "failed": false
+        }
+      ]
+    },
+    {
+      "article": {
+        "title": "Efficient embedding network for 3D brain tumor segmentation",
+        "abstract": "3D medical image processing with deep learning greatly suffers from a lack of data. Thus, studies carried out in this field are limited compared to works related to 2D natural image analysis, where very large datasets exist. As a result, powerful and efficient 2D convolutional neural networks have been developed and trained. In this paper, we investigate a way to transfer the performance of a two-dimensional classiffication network for the purpose of three-dimensional semantic segmentation of brain tumors. We propose an asymmetric U-Net network by incorporating the EfficientNet model as part of the encoding branch. As the input data is in 3D, the first layers of the encoder are devoted to the reduction of the third dimension in order to fit the input of the EfficientNet network. Experimental results on validation and test data from the BraTS 2020 challenge demonstrate that the proposed method achieve promising performance.",
+        "full_text": null,
+        "doi": null,
+        "url": "http://arxiv.org/abs/2011.11052v1",
+        "input_quality": null
+      },
+      "cells": [
+        {
+          "generator": "openrouter",
+          "mode": "raw",
+          "analysis": {
+            "text": "**Analysis of \"Efficient embedding network for 3D brain tumor segmentation\"**\n\n**1. Problem Addressed**\nThe paper tackles the **data scarcity bottleneck in 3D medical image analysis**. It posits that the lack of large-scale annotated 3D datasets hinders the development of deep learning models for volumetric segmentation, unlike 2D natural image analysis where large datasets (e.g., ImageNet) have enabled powerful pre-trained architectures.\n\n**2. Proposed Method: Asymmetric U-Net with EfficientNet Encoder**\n*   **Architecture:** A U-Net variant featuring an **asymmetric design**.\n*   **Transfer Learning Strategy:** Leverages a pre-trained **2D EfficientNet** (originally designed for image classification) as the **encoder backbone**.\n*   **Dimension Adaptation:** Because EfficientNet expects 2D input, the **initial encoder layers are custom-designed to reduce the 3D volumetric input (spatial depth) into a 2D feature representation** compatible with the pre-trained weights.\n*   **Decoder:** A standard (presumably 3D or upsampled 2D) decoder performs the final semantic segmentation.\n\n**3. Validation & Results**\n*   **Dataset:** BraTS 2020 Challenge data (standard benchmark for glioma segmentation).\n*   **Claim:** The method achieves **\"promising performance\"** on both validation and test sets.\n*   *Critique Note:* The abstract lacks specific quantitative metrics (Dice score, Hausdorff distance, inference time, parameter count), making it impossible to verify the \"efficiency\" or \"promising\" claims relative to SOTA 3D U-Nets (e.g., nnU-Net) or other hybrid approaches.\n\n**4. Main Contribution**\n*   **Practical Transfer Learning Pipeline:** Demonstrates a feasible mechanism to **bridge the 2D/3D domain gap** for medical segmentation by using a \"dimension-reduction stem\" to adapt volumetric data for off-the-shelf 2D classification backbones.\n*   **Parameter Efficiency:** Implicitly argues for reduced parameter count and training data requirements by utilizing ImageNet pre-trained weights via EfficientNet, mitigating the 3D data scarcity issue.\n\n**5. Limitations / Gaps (Based solely on Abstract)**\n*   **Vague Metrics:** \"Promising performance\" is subjective without Dice scores (Whole Tumor, Tumor Core, Enhancing Tumor) or comparison baselines.\n*   **Information Loss:** The abstract does not address potential information loss caused by the aggressive early reduction of the 3rd dimension (z-axis/anatomical depth).\n*   **Efficiency Definition:** \"Efficient\" in the title likely refers to parameter count/model size (EfficientNet's hallmark), but computational efficiency (FLOPs, latency, memory) for 3D inference is unquantified.",
+            "source_model": "nvidia/nemotron-3-ultra-550b-a55b:free",
+            "generated_at": "2026-08-15T14:10:12Z"
+          },
+          "metadata": {},
+          "judge_result": {
+            "criteria_source": "llm",
+            "winner": "bsi",
+            "reasoning": "The BSI analysis provides a more structured and comprehensive approach to evaluating the Efficient embedding network for 3D brain tumor segmentation, addressing key aspects such as epistemic robustness, methodological rigor, and practical utility. While it presents a complex framework that may not be fully realized in the provided text, its relevance and potential for incremental value over RAW are notable.",
+            "criteria": [
+              {
+                "name": "Epistemic Robustness",
+                "importance": 20.0,
+                "raw_score": 8.0,
+                "bsi_score": 9.0,
+                "reason": "Both analyses discuss the problem of data scarcity in 3D medical image analysis, but BSI provides a more structured approach to evaluating epistemic robustness."
+              },
+              {
+                "name": "Methodological Rigor",
+                "importance": 25.0,
+                "raw_score": 6.0,
+                "bsi_score": 8.0,
+                "reason": "BSI analysis, despite its complexities, attempts to provide a more detailed methodological approach, including the use of a dimensionality reduction strategy for adapting 3D data to 2D EfficientNet."
+              },
+              {
+                "name": "Practical Utility",
+                "importance": 20.0,
+                "raw_score": 8.0,
+                "bsi_score": 9.0,
+                "reason": "Both analyses emphasize the practical utility of their approach for brain tumor segmentation, but BSI's focus on using pre-trained 2D models for efficiency could offer more immediate practical benefits."
+              },
+              {
+                "name": "Logical Coherence",
+                "importance": 15.0,
+                "raw_score": 8.0,
+                "bsi_score": 9.0,
+                "reason": "BSI's analysis, while complex, presents a logically coherent argument from problem statement to proposed solution, incorporating elements like dimensionality reduction and transfer learning."
+              },
+              {
+                "name": "Innovative Contribution",
+                "importance": 10.0,
+                "raw_score": 7.0,
+                "bsi_score": 8.0,
+                "reason": "BSI's use of an asymmetric U-Net with EfficientNet as the encoder and a novel dimension reduction strategy could be seen as a more innovative contribution compared to RAW's more general discussion."
+              },
+              {
+                "name": "Reproducibility and Transparency",
+                "importance": 10.0,
+                "raw_score": 5.0,
+                "bsi_score": 6.0,
+                "reason": "While neither analysis fully addresses reproducibility and transparency, BSI's reference to specific architectures and challenges provides slightly more detail."
+              }
+            ],
+            "total_scores": {
+              "raw": 7.1,
+              "bsi": 8.35
+            },
+            "bsi_capability_assessment": {
+              "relevance": "high",
+              "realization": "medium",
+              "incremental_value": "medium",
+              "reason": "BSI's capabilities, such as epistemic robustness evaluation and the structured analysis framework, are highly relevant. However, the realization of these capabilities in the provided analysis could be improved, particularly in terms of clarity and specificity, offering medium incremental value over RAW."
+            },
+            "incremental_value": "medium",
+            "scale": "0-10",
+            "weight_sum": 100.0
+          },
+          "scores": {
+            "RAW": 0.71,
+            "BSI": 0.835
+          },
+          "failed": false
+        },
+        {
+          "generator": "openrouter",
+          "mode": "bsi",
+          "analysis": {
+            "text": "# تحلیل ارزیابی محتوای فکری بر اساس شاخص بهمنش (BSI v3.4.2)\n\n**موضوع تحلیل:** مقاله علمی «شبکه توپیابی کارآمد برای برش‌سازی (Segmentation) سه‌بعدی تumeurs مغز»  \n**نویسندگان:** (نام‌نویسان در چکیده ذکر نشده‌اند)  \n**منبع/مجموعه داده‌ها:** چالش BraTS 2020  \n**تاریخ تحلیل:** ۲۶ ژوئن ۲۰۲۶  \n**نسخه SOP:** ۳.۴.۲ | **نسخه Ontology:** BIO v1.0  \n\n---\n\n## ۱. خلاصه اجرایی (Executive Summary) + Core Claim + امتیاز کلی BSI\n\n**Core Claim (ادعای مرکزی):**  \n«استفاده از یک معماری U-Net نامتقارن (Asymmetric U-Net) با به‌کارگیری مدل EfficientNet به‌عنوان شاخه کدکننده (Encoder)، پیش از آن که لایه‌های اولیهابعاد سومِ حجم‌های سه‌بعدی MRI را کاهش دهند تا با ورودی دو بعدی EfficientNet سازگار شوند، می‌تواند عملکردِ برش‌سازی تumeurs مغزی را بر روی داده‌های محدود پزشکی سه‌بعدی، با انتقال دانش از مدل‌های پیش‌آموزش‌دیده بر روی تصاویر دو بعدی طبیعی، به طور قابل‌قبولی ارتقا دهد.»\n\n**خلاصه اجرایی:**  \nمقاله پیش رو به چالش بنیادین «کمبود داده‌های برچسب‌گذاری‌شده سه‌بعدی در تصویربرداری پزشکی» (Data Scarcity in 3D Medical Imaging) پاسخ می‌دهد. رویکرد پیشنهادی، استراتژیِ انتقال یادگیری (Transfer Learning) را از حوزه‌ی طبقه‌بندی (Classification) دو بعدی به برش‌سازی (Segmentation) سه‌بعدی تعمیم می‌دهد. نوآوری کلیدی، طراحیِ یک مسیرِ کاهش أبعاد (Dimensionality Reduction) در لایه‌های اولیۀ کدکننده است که فضای سه‌بعدی را به دنباله‌ای از برش‌های دو بعدی یا نمایش‌های فشرده تبدیل می‌کند تا از استخراج‌کننده‌های ویژگی کارآمد EfficientNet (پیش‌آموزش‌دیده بر روی ImageNet) بهره‌برداری شود. نتایج بر روی داده‌های اعتبارسنجی و آزمون BraTS 2020، «عملکردِ обещаکننده» (Promising Performance) را گزارش می‌دهد، هرچند معیارهای کمی دقیق (Dice Score، Hausdorff Distance، پارامترها، FLOPs) در چکیده گنجانده نشده‌اند.\n\n**امتیاز کلی BSI (محاسبه‌شده بر اساس میانگین وزنی ۷ معیار اصلی + CreativeValueAdd):**  \n**۷۲ / ۱۰۰**  \n*(توضیح: امتیاز پایه از نوآوری معماری و حل مسئله انتقال ابعاد است؛ کسر امتیاز ناشی از عدم گزارش معیارهای کمی در چکیده، ابهام در مکانیسم کاهش ابعاد، و عدم تشریح تحلیل آبلاسیون است.)*\n\n---\n\n## ۲. جدول ارزیابی معیارهای اصلی ۷گانه (Core Criteria Evaluation)\n\n| کد معیار | نام معیار (Core Criterion) | وزن در BSI | امتیاز خام (۰-۱۰۰) | امتیاز وزنی | استدلال ارزیابی (Evidence-Based Justification) |\n| :--- | :--- | :---: | :---: | :---: | :--- |\n| **C1** | **نوآوری مفهومی و epistemic (Conceptual Novelty)** | ۱۵٪ | ۷۵ | ۱۱.۲۵ | ترکیب Asymmetric U-Net + EfficientNet + 3D-to-2D Adapter نوآوری معماری معناداری است، اگرچه ایده Transfer Learning در پزشکی رایج است، نحوه حل ناسازگاری ابعاد (Dimension Mismatch) به شیوه Adapter لایه‌های اولیه، پیاده‌سازی تازه‌ای دارد. |\n| **C2** | **سختی مسئله و عمق فنی (Problem Hardness & Technical Depth)** | ۱۵٪ | ۷۰ | ۱۰.۵۰ | مسئله برش‌سازی ۳D با داده کم، سخت است. کاهش ابعاد در لایه‌های اولیه چالش حفظ اطلاعات فضایی (Spatial Information Loss) را به همراه دارد که مقاله در چکیده به مکانیسم دقیق آن (مثلا: 3D Conv، Pooling، یا Reshape) و تاثیر بر گرادیان‌ها اشاره نکرده است. |\n| **C3** | **엄میت روش‌شناسی و صحت داخلی (Methodological Rigor & Internal Validity)** | ۱۵٪ | ۶۰ | ۹.۰۰ | **نقطه ضعف اصلی.** چکیده فاقد جزئیات حیاتی است: تنظیم‌ پارامترهای EfficientNet (Frozen/Fine-tuned؟)، فنکشن از دست رفتن (Loss Function)، استراتژی بهینه‌سازی، و مهم‌تر از همه: نتایج آبلاسیون (Ablation) برای اثبات اثر هر جزء (Adapter vs EfficientNet vs Decoder). ادعای \"Promising\" بدون عدد، صحت داخلی را ضعیف می‌کند. |\n| **C4** | **تکرارپذیری و شفافیت محاسباتی (Reproducibility & Computational Transparency)** | ۱۰٪ | ۵۵ | ۵.۵۰ | معماری کلی توصیف شده (U-Net + EfficientNet) اما hiperparameters، نسخه فریم‌ورک، سخت‌افزار، و کد منبع (GitHub) در چکیده نیست. پیچیدگی محاسباتی (Params/FLOPs) برای EfficientNet در مسیر ۳D گزارش نشده. |\n| **C5** | **ارزش عملی و اثربخزی در جهان واقعی (Practical Utility & Real-World Efficacy)** | ۱۵٪ | ۷۵ | ۱۱.۲۵ | برش‌سازی تumeurs مغزی (BraTS) کاربرد بالینی مستقیم و پراستفاده دارد. اگر Dice از ۰.۸۵ (معیار کلینیک) عبور کرده باشد، ارزش عملی بالاست. استفاده از Backbone کارآمد (EfficientNet) امید را برای استقرار در محیط‌های محدود منابع (Edge Deployment) بالا می‌برد. |\n| **C6** | **انسجام منطقی و vứبستگی داخلی (Logical Coherence & Internal Consistency)** | ۱۵٪ | ۸۰ | ۱۲.۰۰ | استدلال منطقی قوی: مشکل داده کم -> پیش‌آموزش ۲D -> ناسازگاری ابعاد -> ماژول Adapter -> حل شده. جریان استدلال در چکیده بی‌نقص است. عدم تضاد در ادعاها. |\n| **C7** | **تأثیرگذاری احتمالی و سیگنال‌های استنادی (Potential Impact & Citation Signals)** | ۱۵٪ | ۷۵ | ۱۱.۲۵ | انتشار در چالش معتبر BraTS، ترکیب مدولار (Plug-and-play Backbone)، و مسئله داغ \"Efficient 3D Medical AI\" پتانسیل استنادی بالا را تضمین می‌کند. الگو برای انتقال سایر Backboneهای ۲D (ConvNeXt, ViT) است. |\n| **مجموع معیارهای اصلی** | | **۱۰۰٪** | | **۷۰.۷۵** | |\n\n---\n\n## ۳. جدول CreativeValueAdd (ارزش افزوده خلاقانه) با ۳ زیرمعیار وزنی\n\n| زیرمعیار",
+            "source_model": "nvidia/nemotron-3-ultra-550b-a55b:free",
+            "generated_at": "2026-08-15T13:57:56Z"
+          },
+          "metadata": {},
+          "judge_result": {
+            "criteria_source": "llm",
+            "winner": "bsi",
+            "reasoning": "The BSI analysis provides a more structured and comprehensive approach to evaluating the Efficient embedding network for 3D brain tumor segmentation, addressing key aspects such as epistemic robustness, methodological rigor, and practical utility. While it presents a complex framework that may not be fully realized in the provided text, its relevance and potential for incremental value over RAW are notable.",
+            "criteria": [
+              {
+                "name": "Epistemic Robustness",
+                "importance": 20.0,
+                "raw_score": 8.0,
+                "bsi_score": 9.0,
+                "reason": "Both analyses discuss the problem of data scarcity in 3D medical image analysis, but BSI provides a more structured approach to evaluating epistemic robustness."
+              },
+              {
+                "name": "Methodological Rigor",
+                "importance": 25.0,
+                "raw_score": 6.0,
+                "bsi_score": 8.0,
+                "reason": "BSI analysis, despite its complexities, attempts to provide a more detailed methodological approach, including the use of a dimensionality reduction strategy for adapting 3D data to 2D EfficientNet."
+              },
+              {
+                "name": "Practical Utility",
+                "importance": 20.0,
+                "raw_score": 8.0,
+                "bsi_score": 9.0,
+                "reason": "Both analyses emphasize the practical utility of their approach for brain tumor segmentation, but BSI's focus on using pre-trained 2D models for efficiency could offer more immediate practical benefits."
+              },
+              {
+                "name": "Logical Coherence",
+                "importance": 15.0,
+                "raw_score": 8.0,
+                "bsi_score": 9.0,
+                "reason": "BSI's analysis, while complex, presents a logically coherent argument from problem statement to proposed solution, incorporating elements like dimensionality reduction and transfer learning."
+              },
+              {
+                "name": "Innovative Contribution",
+                "importance": 10.0,
+                "raw_score": 7.0,
+                "bsi_score": 8.0,
+                "reason": "BSI's use of an asymmetric U-Net with EfficientNet as the encoder and a novel dimension reduction strategy could be seen as a more innovative contribution compared to RAW's more general discussion."
+              },
+              {
+                "name": "Reproducibility and Transparency",
+                "importance": 10.0,
+                "raw_score": 5.0,
+                "bsi_score": 6.0,
+                "reason": "While neither analysis fully addresses reproducibility and transparency, BSI's reference to specific architectures and challenges provides slightly more detail."
+              }
+            ],
+            "total_scores": {
+              "raw": 7.1,
+              "bsi": 8.35
+            },
+            "bsi_capability_assessment": {
+              "relevance": "high",
+              "realization": "medium",
+              "incremental_value": "medium",
+              "reason": "BSI's capabilities, such as epistemic robustness evaluation and the structured analysis framework, are highly relevant. However, the realization of these capabilities in the provided analysis could be improved, particularly in terms of clarity and specificity, offering medium incremental value over RAW."
+            },
+            "incremental_value": "medium",
+            "scale": "0-10",
+            "weight_sum": 100.0
+          },
+          "scores": {
+            "RAW": 0.71,
+            "BSI": 0.835
+          },
+          "failed": false
+        }
+      ]
+    },
+    {
+      "article": {
+        "title": "Quantum Physics in Neuroscience and Psychology: A New Theory With Respect to Mind/Brain Interaction",
+        "abstract": "The cognitive frame in which most neuropsychological research on the neural basis of behavior is conducted contains the assumption that brain mechanisms per se fully suffice to explain all psychologically described phenomena. This assumption stems from the idea that the brain is made up entirely of material particles and fields, and that all causal mechanisms must therefore be formulated solely in terms of properties of these elements. One consequence of this stance is that psychological terms having intrinsic mentalistic and/or experiential content (terms such as \"feeling,\" \"knowing,\" and \"effort\") have not been included as primary causal factors in neuropsychological research: insofar as properties are not described in material terms they are deemed irrelevant to the causal mechanisms underlying brain function. However, the origin of this demand that experiential realities be excluded from the causal base is a theory of nature that has been known for more that three quarters of a century to be fundamentally incorrect. It is explained here why it is consequently scientifically unwarranted to assume that material factors alone can in principle explain all causal mechanisms relevant to neuroscience. More importantly, it is explained how a key quantum effect can be introduced into brain dynamics in a simple and practical way that provides a rationally coherent, causally formulated, physics-based way of understanding and using the psychological and physical data derived from the growing set of studies of the capacity of directed attention and mental effort to systematically alter brain function.",
+        "full_text": null,
+        "doi": null,
+        "url": "http://arxiv.org/abs/q-bio/0401019v1",
+        "input_quality": null
+      },
+      "cells": [
+        {
+          "generator": "openrouter",
+          "mode": "raw",
+          "analysis": {
+            "text": "**Article Analysis: Stapp (2001/2004) – \"Quantum Physics in Neuroscience and Psychology...\"**\n\n**1. Core Thesis**\nThe article argues that the standard neuroscientific framework—which assumes brain mechanisms *alone* (described purely by classical physics) suffice to explain behavior—is scientifically obsolete. It contends that because classical physics has been superseded by quantum mechanics (QM), the exclusion of mentalistic terms (e.g., \"effort,\" \"feeling\") from the causal architecture of the brain is unwarranted. The author proposes a specific QM-based mechanism (von Neumann’s orthodox interpretation) to formally integrate \"mental effort\" as a causal variable capable of systematically altering brain function.\n\n**2. Main Claims & Argument Structure**\n\n*   **Critique of Classical Physicalism:** The dominant \"cognitive frame\" relies on a classical physics ontology (material particles/fields) where causation is bottom-up and purely physical. Consequently, subjective/psychological properties are treated as epiphenomenal or identity-mapped to neural states, never as *independent causal agents*.\n*   **The \"Known to be False\" Premise:** Classical mechanics is not an approximation valid for macroscopic neural systems; it is a fundamentally incorrect theory of nature (invalidated ~75+ years prior). Therefore, arguments insisting that \"the brain is too warm/wet for quantum effects\" rely on the wrong physics. The correct physics (QM) *requires* an observer/participant role.\n*   **The Quantum Mechanism (von Neumann/Wigner/Stapp):**\n    *   **Process 2 (Schrödinger Evolution):** The brain evolves deterministically into a superposition of potential states (representing alternative possible actions/experiences).\n    *   **Process 1 (The \"Heisenberg Choice\"):** The \"mental\" aspect enters as the *choice* of which question is posed to nature (i.e., which projection operator *P* is applied). This is not determined by the Schrödinger equation.\n    *   **Process 3 (Nature's Answer):** Nature returns \"Yes\" (collapse to *PΨ*) or \"No\" (collapse to *(1-P)Ψ*) with Born rule probabilities.\n*   **The \"Quantum Zeno Effect\" (QZE) as Leverage:** This is the central practical contribution. Rapid, repeated \"mental effort\" (re-posing the same question *P* via Process 1) exploits the QZE. This inhibits the unitary evolution (Process 2) that would otherwise dissipate the neural template for a specific action, thereby **stabilizing a specific brain state/behavior against thermal decoherence**.\n*   **Empirical Bridge:** The theory claims to provide a \"rationally coherent, causally formulated\" explanation for empirical data showing that **directed attention and mental effort** (e.g., in OCD therapy, placebo, mindfulness, motor learning) systematically alter cerebral blood flow and neural circuitry (citing Schwartz, Begley, etc.).\n\n**3. Specific Contribution to the Field**\n\n*   **Ontological Shift:** Moves \"mental effort\" from a folk-psychological placeholder or epiphenomenon to a **fundamental, mathematically defined causal variable** (the selection of the projection operator *P*) within physical theory.\n*   **Solution to the \"Causal Closure\" Problem:** Offers a way for mental causation to violate neither energy conservation nor the Schrödinger equation. The mental act selects *which* Hamiltonian evolution is probed; the physical brain dynamics supply the state vector. The energy cost of the \"Yes/No\" answer is supplied by the physical brain apparatus, not the mental agent.\n*   **Mechanism for Top-Down Control:** Provides a specific dynamical mechanism (QZE via Process 1) for *how* \"top-down\" cognitive control emerges from micro-physics, addressing the \"combination problem\" of how micro-indeterminacy yields macro-coherence.\n*   **Testability (in principle):** Predicts that the efficacy of mental effort correlates with the *rate* of attentional re-posing (Process 1 frequency) required to overcome the decoherence timescale of the relevant neural assemblies.\n\n**4. Critical Context / Limitations (Factual Context)**\n*   **Interpretation Dependence:** The model relies entirely on the **von Neumann (orthodox/Copenhagen) interpretation** of QM, specifically the physical reality of the \"Heisenberg cut\" and Process 1. It is incompatible with Many-Worlds, Bohmian Mechanics, or objective collapse models (GRW) without modification.\n*   **Decoherence Timescales:** The primary neuroscientific objection (Tegmark, 2000; Reimers et al.) remains that neuronal decoherence times (~10⁻¹³–10⁻²⁰ s) are vastly shorter than cognitive timescales (~10⁻³–10⁻¹ s), making sustained superpositions required for QZE physically implausible in standard \"warm, wet\" neural tissue. The abstract dismisses this by rejecting classical physics, but does not resolve the specific decoherence calculation within the abstract.\n*   **Status:** This is a **theoretical framework paper**, not an experimental report. Its contribution is conceptual/mathematical modeling, not new empirical data.\n\n**Summary**\nThe article proposes **Orthodox Quantum Mechanics (von Neumann)** as the necessary replacement for classical mechanics in neuroscience. Its signature contribution is formalizing **mental effort as the \"Heisenberg Choice\" (Process 1)** and identifying the **Quantum Zeno Effect** as the dynamical mechanism allowing this choice to exert top-down causal control over neural plasticity and behavior, offering a physics-based account for the efficacy of cognitive therapies.",
+            "source_model": "nvidia/nemotron-3-ultra-550b-a55b:free",
+            "generated_at": "2026-08-15T16:51:58Z"
+          },
+          "metadata": {},
+          "judge_result": {
+            "criteria_source": "llm",
+            "winner": "bsi",
+            "reasoning": "The BSI analysis demonstrates superior scientific rigor, novelty, and predictive power, particularly in its application of quantum mechanics to understand the mind-brain interaction. Its approach is more coherent, transparent, and aligned with the Bio Ontology framework, making it the winner in terms of analytical quality.",
+            "criteria": [
+              {
+                "name": "Scientific Rigor and Validity",
+                "importance": 25.0,
+                "raw_score": 8.0,
+                "bsi_score": 8.5,
+                "reason": "Both analyses demonstrate a strong understanding of the scientific concepts, but BSI provides a more detailed and nuanced explanation of the quantum mechanics principles and their application to neuroscience."
+              },
+              {
+                "name": "Epistemic Gap Targeting and Novelty",
+                "importance": 20.0,
+                "raw_score": 7.0,
+                "bsi_score": 9.0,
+                "reason": "BSI identifies a significant epistemic gap in the classical physics approach to neuroscience and provides a novel solution by incorporating quantum mechanics, whereas RAW analysis focuses more on the critique of classical physicalism without fully developing the alternative."
+              },
+              {
+                "name": "Combinatorial Synthesis and Interdisciplinary Approach",
+                "importance": 20.0,
+                "raw_score": 8.0,
+                "bsi_score": 8.5,
+                "reason": "Both analyses combine insights from physics, neuroscience, and philosophy, but BSI's approach is more integrated and synthesizes these fields more effectively to address the mind-brain interaction."
+              },
+              {
+                "name": "Generative Capacity and Predictive Power",
+                "importance": 15.0,
+                "raw_score": 6.0,
+                "bsi_score": 8.0,
+                "reason": "BSI provides more specific and testable predictions regarding the application of quantum mechanics to neuroscience, such as the Quantum Zeno Effect, offering a clearer direction for future research."
+              },
+              {
+                "name": "Logical Coherence and Internal Consistency",
+                "importance": 10.0,
+                "raw_score": 8.0,
+                "bsi_score": 9.0,
+                "reason": "BSI's analysis is highly coherent and consistent in its application of quantum mechanics to neuroscience, providing a clear and logical framework for understanding the role of mental effort in brain dynamics."
+              },
+              {
+                "name": "Epistemic Transparency and Methodological Clarity",
+                "importance": 5.0,
+                "raw_score": 7.0,
+                "bsi_score": 7.5,
+                "reason": "While both analyses are clear in their methodologies, BSI provides a slightly more detailed explanation of its theoretical underpinnings and assumptions, enhancing transparency."
+              },
+              {
+                "name": "Alignment with Bio Ontology and Formalization",
+                "importance": 5.0,
+                "raw_score": 6.0,
+                "bsi_score": 8.0,
+                "reason": "BSI's approach is more aligned with the Bio Ontology framework, demonstrating a higher level of formalization and theoretical consistency, which is beneficial for computational modeling and further research."
+              }
+            ],
+            "total_scores": {
+              "raw": 7.35,
+              "bsi": 8.5
+            },
+            "bsi_capability_assessment": {
+              "relevance": "high",
+              "realization": "high",
+              "incremental_value": "high",
+              "reason": "BSI's capabilities, such as its detailed analysis of quantum mechanics and its application to neuroscience, are highly relevant and effectively realized in this context, providing significant incremental value beyond the RAW analysis."
+            },
+            "incremental_value": "high",
+            "scale": "0-10",
+            "weight_sum": 100.0
+          },
+          "scores": {
+            "RAW": 0.735,
+            "BSI": 0.85
+          },
+          "failed": false
+        },
+        {
+          "generator": "openrouter",
+          "mode": "bsi",
+          "analysis": {
+            "text": "# تحلیلRefereed Article: «مکانیک کوانتوم در علوم اعصاب و روان‌شناسی: یک نظریه جدید در ارتباط ذهن/مغز»\n\n**مشخصات مقاله:**\n- **عنوان:** Quantum Physics in Neuroscience and Psychology: A New Theory With Respect to Mind/Brain Interaction\n- **نویسنده:** هنری پی. استاپ (Henry P. Stapp) — استنادی از محققان پیشرو در تفسیر کوانتومی آگاهی\n- **منبع/سال:** پیش‌печат/مقاله مرجع (معمولاً انتساب به *Physical Review* یا *Journal of Consciousness Studies*، تقریبا ۱۹۹۰–۲۰۰۰)\n- **نوع محتوا:** مقاله نظری-تعبیروارانه (Theoretical/Interpretive) با استدلال فلسفی-فیزیکی\n- **تاریخ تحلیل:** ۲۶ ژوئن ۲۰۲۶\n- **نسخه SOP:** ۳.۴.۲ | **نسخه Ontology:** BIO v1.0\n\n---\n\n## ۱. خلاصه اجرایی (Executive Summary) + Core Claim + امتیاز کلی BSI\n\n### Core Claim (ادعای مرکزی)\nاستاپ استدلال می‌کند که **فیزیک کلاسیک (نیوتنی) اساس ناکافی برای توضیح تعامل ذهن-مغز است** و **مکانیک کوانتوم** — به‌ویژه فرایند «تقلیل بسته موجی» (Wavefunction Collapse) و اثر «زِنون کوانتومی» (Quantum Zeno Effect) — چارچوبی **علّی، منسجم فیزیکی و تجربی‌محور** فراهم می‌کند که در آن «توجه» (Attention) و «تلاش ذهنی» (Mental Effort) به‌عنوان **عامل‌های علّی اولیه** (Primary Causal Factors) در دینامیک مغزی عمل می‌کنند، نه پدیده‌های ثانویه (Epiphenomena).\n\n### خلاصه اجرایی\nمقاله با نقد «فرضیه کامل‌بودن مکانیزم‌های مغزی» (Completeness Assumption) آغاز می‌شود: فرض بر این که مغز کاملاً از ذرات و میدان‌های maddi (مادی) تشکیل شده و بنابراین همه علت‌ها باید به زبان خواص maddi بیان شوند. استاپ نشان می‌دهد که این فرض بر **فیزیک کلاسیک منسوخ** استوار است، در حالی که مکانیک کوانتوم — теории علم تجربی کنونی — **آگاهی/مشاهدۀciente** را در بستر علّی خود جای می‌دهد (via Von Neumann–Wigner interpretation). سپس با استناد به کارهایPosner و Becker و Schwartz et al. درباره‌тераپی شناختی-رفتاری (CBT) و تغییرات مغزی ناشی از «توجه آگاهانه» (Mindful Attention)، مکانیزم **«اثر زِنون کوانتومی» را به‌عنوان موتور فیزیکی تلاش ذهنی** پیشنهاد می‌دهد: تمرکز مداوم توجه، تقلیل بسته موجی را تثبیت می‌کند → الگوهای عصبی خاص تثبیت می‌شوند → تغییر ساختاری مغز (Neuroplasticity) محقق می‌شود. مقاله ادعاهای تجربی قابل‌تست (Testable Predictions) ارائه می‌دهد و راهی برای یکپارچه‌سازی داده‌های روان‌شناختی (Psychological Data) و فیزیولوژیک (Physiological Data) می‌گشاید.\n\n### امتیاز کلی BSI (Overall BSI Score)\n| مولفه | امتیاز (از ۱۰) | وزن | امتیاز وزنی |\n|--------|----------------|-----|------------|\n| دقت علمی و اعتبار استدلال (Scientific Rigor) | ۸.۵ | ۰.۲۵ | ۲.۱۲۵ |\n| نوآوری مفهومی و شکاف‌شناسایی (Epistemic Gap Targeting) | ۹.۰ | ۰.۲۰ | ۱.۸۰۰ |\n| ظرفیت ترکیبی (Combinatorial Synthesis) | ۸.۵ | ۰.۲۰ | ۱.۷۰۰ |\n| تولید پدیده/پیش‌بینی (Generative Capacity) | ۸.۰ | ۰.۱۵ | ۱.۲۰۰ |\n| انسجام منطقی درونی (Logical Coherence) | ۹.۰ | ۰.۱۰ | ۰.۹۰۰ |\n| شفافیت روش‌شناختی (Epistemic Transparency) | ۷.۵ | ۰.۰۵ | ۰.۳۷۵ |\n| تطبیق با BIO Ontology | ۸.۰ | ۰.۰۵ | ۰.۴۰۰ |\n| **مجموع امتیاز کلی BSI** |  | **۱.۰۰** | **۸.۵۰ / ۱۰** |\n\n**تفسیر امتیاز:** مقاله در سطح **«شاخص برتر / پیشگام»** (Flagship Tier) قرار می‌گیرد. استدلال فیزیکی-فلسفی قوی، شکاف‌زدن میان فیزیک کلاسیک و پدیده‌های ذهنی، و پیش‌بینی‌های تجربی قابل‌تست نقاط قوت اصلی‌اند. ضعف اصلی در **«شفافیت روش‌شناختی»** (اعتماد به تفسیر خاصVon Neumann–Wigner بدون بحث جایگزین‌ها) و **«تطبیق BIO»** (نیاز بهformalization بیشتر برای ادغام در مدل‌های محاسباتی) است.\n\n---\n\n## ۲. جدول ارزیابی معیارهای اصلی ۷گانه (دetailed)\n\n| # | معیار اصلی (Primary Criterion) | امتیاز | استدلال تشریحی و مستند |\n|---|--------------------------------|-------|--------------------------|\n| ۱ | **دقت علمی و اعتبار استدلال** (Scientific Rigor & Validity) | ۸.۵ | استدلال بر پایه فیزیک کوانتوم استاندارد (Von Neumann formulation) بنا شده، نه فیزییک حاشیه‌ای. ارجاع به اثربخشی CBT در OCD (Schwartz et al.) داده تجربی فراهم می‌کند. ضعف: عدم تعامل با تفسیرهای رقیب (Decoherence, Many-Worlds, QBism) که چالش «مشکله ölçment» را به‌شکل دیگری طرح می‌کنند. |\n| ۲ | **نوآوری مفهومی و شکاف‌شناسایی** (Epistemic Gap Targeting) | ۹.۰ | شکاف بنیادین: **«استثنای پدیده‌های ذهنی از بستر علّی در علم اعصاب کلاسیک»**. مقاله این شکاف را به ریشه فیزییکی (فیزیک کلاسیک منسوخ) می‌رساند و راه‌حل کوانتومی می‌دهد. شناسایی دقیق «تلاش ذهنی» به‌عنوان متغیر علّی از پیش ازنظرمثال می‌گذرد. |\n| ۳ | **ظرفیت ترکیبی** (Combinatorial Synthesis) | ۸.۵ | ترکیب سه دامنه: (الف) فیزیک کوانتوم (Von Neumann–Stapp)، (ب) علوم اعصاب تجربی (Neuroplasticity, CBT fMRI data)، (ج) فلسفه ذهن (Interactionist Dualism / Non-reductive Physicalism). سینتزی که هرکدام به‌تنهایی نمی‌داشتند. |\n| ۴ | **تولید پدیده/پیش‌بینی** (Generative Capacity) | ۸.۰ | پیش‌بینی‌های صریح: (۱) اثر زِنون کوانتومی در قشر پیش‌پیشانی (PFC) قابل‌سنجش است، (۲) تغییرات زمانی تقلیل بسته موجی با EEG/MEG ردیابی‌پذیر، (۳) درمان‌های مبتنی بر تمرکز توجه (Mindfulness) اثرات کوانتوم-مغزی پیش‌بینی‌شده دارند. ضعف: پیش‌بینی‌های کمی دقیق (Quantitative Predictions) کم",
+            "source_model": "nvidia/nemotron-3-ultra-550b-a55b:free",
+            "generated_at": "2026-08-15T16:26:32Z"
+          },
+          "metadata": {},
+          "judge_result": {
+            "criteria_source": "llm",
+            "winner": "bsi",
+            "reasoning": "The BSI analysis demonstrates superior scientific rigor, novelty, and predictive power, particularly in its application of quantum mechanics to understand the mind-brain interaction. Its approach is more coherent, transparent, and aligned with the Bio Ontology framework, making it the winner in terms of analytical quality.",
+            "criteria": [
+              {
+                "name": "Scientific Rigor and Validity",
+                "importance": 25.0,
+                "raw_score": 8.0,
+                "bsi_score": 8.5,
+                "reason": "Both analyses demonstrate a strong understanding of the scientific concepts, but BSI provides a more detailed and nuanced explanation of the quantum mechanics principles and their application to neuroscience."
+              },
+              {
+                "name": "Epistemic Gap Targeting and Novelty",
+                "importance": 20.0,
+                "raw_score": 7.0,
+                "bsi_score": 9.0,
+                "reason": "BSI identifies a significant epistemic gap in the classical physics approach to neuroscience and provides a novel solution by incorporating quantum mechanics, whereas RAW analysis focuses more on the critique of classical physicalism without fully developing the alternative."
+              },
+              {
+                "name": "Combinatorial Synthesis and Interdisciplinary Approach",
+                "importance": 20.0,
+                "raw_score": 8.0,
+                "bsi_score": 8.5,
+                "reason": "Both analyses combine insights from physics, neuroscience, and philosophy, but BSI's approach is more integrated and synthesizes these fields more effectively to address the mind-brain interaction."
+              },
+              {
+                "name": "Generative Capacity and Predictive Power",
+                "importance": 15.0,
+                "raw_score": 6.0,
+                "bsi_score": 8.0,
+                "reason": "BSI provides more specific and testable predictions regarding the application of quantum mechanics to neuroscience, such as the Quantum Zeno Effect, offering a clearer direction for future research."
+              },
+              {
+                "name": "Logical Coherence and Internal Consistency",
+                "importance": 10.0,
+                "raw_score": 8.0,
+                "bsi_score": 9.0,
+                "reason": "BSI's analysis is highly coherent and consistent in its application of quantum mechanics to neuroscience, providing a clear and logical framework for understanding the role of mental effort in brain dynamics."
+              },
+              {
+                "name": "Epistemic Transparency and Methodological Clarity",
+                "importance": 5.0,
+                "raw_score": 7.0,
+                "bsi_score": 7.5,
+                "reason": "While both analyses are clear in their methodologies, BSI provides a slightly more detailed explanation of its theoretical underpinnings and assumptions, enhancing transparency."
+              },
+              {
+                "name": "Alignment with Bio Ontology and Formalization",
+                "importance": 5.0,
+                "raw_score": 6.0,
+                "bsi_score": 8.0,
+                "reason": "BSI's approach is more aligned with the Bio Ontology framework, demonstrating a higher level of formalization and theoretical consistency, which is beneficial for computational modeling and further research."
+              }
+            ],
+            "total_scores": {
+              "raw": 7.35,
+              "bsi": 8.5
+            },
+            "bsi_capability_assessment": {
+              "relevance": "high",
+              "realization": "high",
+              "incremental_value": "high",
+              "reason": "BSI's capabilities, such as its detailed analysis of quantum mechanics and its application to neuroscience, are highly relevant and effectively realized in this context, providing significant incremental value beyond the RAW analysis."
+            },
+            "incremental_value": "high",
+            "scale": "0-10",
+            "weight_sum": 100.0
+          },
+          "scores": {
+            "RAW": 0.735,
+            "BSI": 0.85
+          },
+          "failed": false
+        }
+      ]
+    },
+    {
+      "article": {
+        "title": "What can a mathematician do in neuroscience?",
+        "abstract": "Mammalian brain is one of the most complex objects in the known universe, as it governs every aspect of animal's and human behavior. It is fair to say that we have a very limited knowledge of how the brain operates and functions. Computational Neuroscience is a scientific discipline that attempts to understand and describe the brain in terms of mathematical modeling. This user-friendly review tries to introduce this relatively new field to mathematicians and physicists by showing examples of recent trends. It also discusses briefly future prospects for constructing an integrated theory of brain function.",
+        "full_text": null,
+        "doi": "10.14708/ma.v40i1.277",
+        "url": "http://arxiv.org/abs/1405.4239v1",
+        "input_quality": null
+      },
+      "cells": [
+        {
+          "generator": "openrouter",
+          "mode": "raw",
+          "analysis": {
+            "text": "**Analysis of \"What can a mathematician do in neuroscience?\"**\n\n**1. Nature of the Work**\nThis is a **review/article** (explicitly described as a \"user-friendly review\") intended as an entry point for a specific disciplinary audience, rather than a primary research paper presenting novel empirical data or theorems.\n\n**2. Main Claims**\n*   **Complexity Gap:** The mammalian brain constitutes one of the most complex known systems, and current understanding of its operational mechanisms remains \"very limited.\"\n*   **Role of Computational Neuroscience:** The discipline is defined explicitly as the attempt to understand the brain *through mathematical modeling*.\n*   **Opportunity for Mathematicians/Physicists:** The field is \"relatively new\" and actively requires the theoretical tools, rigor, and perspectives of mathematicians and physicists to advance.\n*   **Need for Integration:** Current efforts are fragmented; a significant future goal is the construction of an **\"integrated theory of brain function.\"**\n\n**3. Contribution**\n*   **Disciplinary Bridge:** Serves as a targeted recruitment and orientation document, lowering the barrier to entry for quantitative scientists (mathematicians/physicists) unfamiliar with neuroscience jargon or problems.\n*   **Landscape Mapping:** Surveys \"recent trends\" (at the time of publication) to demonstrate the breadth of applicable mathematical domains (e.g., dynamical systems, statistics, information theory, network theory).\n*   **Strategic Framing:** Reframing neuroscience not merely as an application area for existing math, but as a domain requiring *new* mathematical theory—specifically advocating for a unified theoretical framework.\n\n**4. Target Audience & Utility**\n*   **Primary:** Mathematicians and physicists considering a transition into neuroscience.\n*   **Utility:** Provides a high-level \"menu\" of problem classes and methodological needs, arguing that the field's maturity depends on deep theoretical contributions rather than just data analysis.",
+            "source_model": "nvidia/nemotron-3-ultra-550b-a55b:free",
+            "generated_at": "2026-08-15T14:01:05Z"
+          },
+          "metadata": {},
+          "judge_result": {
+            "criteria_source": "llm",
+            "winner": "bsi",
+            "reasoning": "BSI analysis provides a more comprehensive and nuanced understanding of computational neuroscience, demonstrating a stronger ability to integrate different concepts and methods.",
+            "criteria": [
+              {
+                "name": "Interdisciplinary Relevance",
+                "importance": 20.0,
+                "raw_score": 8.0,
+                "bsi_score": 9.0,
+                "reason": "BSI analysis demonstrates a better understanding of the connection between mathematics and neuroscience."
+              },
+              {
+                "name": "Mechanistic Depth",
+                "importance": 20.0,
+                "raw_score": 6.0,
+                "bsi_score": 8.0,
+                "reason": "BSI analysis provides more depth in explaining the underlying mechanisms of brain function and mathematical modeling."
+              },
+              {
+                "name": "Epistemic Robustness",
+                "importance": 15.0,
+                "raw_score": 7.0,
+                "bsi_score": 8.0,
+                "reason": "BSI analysis demonstrates a clearer understanding of the limitations and uncertainties in the field."
+              },
+              {
+                "name": "Creative Value Add",
+                "importance": 15.0,
+                "raw_score": 6.0,
+                "bsi_score": 8.0,
+                "reason": "BSI analysis identifies new opportunities and perspectives for mathematicians and physicists in neuroscience."
+              },
+              {
+                "name": "Clarity and Accessibility",
+                "importance": 10.0,
+                "raw_score": 8.0,
+                "bsi_score": 9.0,
+                "reason": "BSI analysis communicates complex ideas more effectively to a non-expert audience."
+              },
+              {
+                "name": "Integration and Synthesis",
+                "importance": 10.0,
+                "raw_score": 7.0,
+                "bsi_score": 8.0,
+                "reason": "BSI analysis integrates different concepts and methods more effectively to provide a comprehensive understanding of the field."
+              },
+              {
+                "name": "Future Directions and Implications",
+                "importance": 10.0,
+                "raw_score": 6.0,
+                "bsi_score": 8.0,
+                "reason": "BSI analysis discusses potential future developments and implications of computational neuroscience more effectively."
+              }
+            ],
+            "total_scores": {
+              "raw": 6.85,
+              "bsi": 8.3
+            },
+            "bsi_capability_assessment": {
+              "relevance": "high",
+              "realization": "medium",
+              "incremental_value": "medium",
+              "reason": "BSI analysis demonstrates a strong understanding of the field and provides incremental value through its creative and integrative perspectives."
+            },
+            "incremental_value": "medium",
+            "scale": "0-10",
+            "weight_sum": 100.0
+          },
+          "scores": {
+            "RAW": 0.685,
+            "BSI": 0.83
+          },
+          "failed": false
+        },
+        {
+          "generator": "openrouter",
+          "mode": "bsi",
+          "analysis": {
+            "text": "# تحلیل مقاله: «یک ریاضی‌دان در علوم اعصاب می‌تواند چه کند؟»  \n**نسخه تحلیل:** BSI v3.4.2 | **تاریخ تحلیل:** ۲۶ ژوئن ۲۰۲۶ | **ارزیاب:** مستر پرامپت شاخص بهمنش (Master Prompt BSI v3.4.2)  \n**مقاله ورودی:** عنوان: *What can a mathematician do in neuroscience?* | چکیده: *مغز ثدیان یکی از پیچیده‌ترین اشیاء در جهان شناخته‌شده است... علوم اعصاب محاسباتی سعی دارد مغز را از طریق مدل‌سازی ریاضی درک و توصیف کند. این مرورگاه کاربرپسند سعی دارد این حوزه نسبتاً جدید را برای ریاضی‌دانان و فیزیک‌دانان با ارائه نمونه‌های روندهای اخیر معرفی کند. همچنین به طور مختصر به چشم‌اندازهای آینده برای ساخت یک نظریه یکپارچه عملکرد مغز می‌پردازد.*\n\n---\n\n## ۱. خلاصه اجرایی (Executive Summary) + Core Claim + امتیاز کلی BSI\n\n**خلاصه اجرایی:**  \nمقاله حاضر یک **مرورگاه (Review)** εισαγωγی و دیدگاه‌محور است که به جای ارائه داده‌های تجربی جدید یا مدل‌سازی اصلی، به **تبلیغ و چارچوب‌بندی حوزه علوم اعصاب محاسباتی (Computational Neuroscience)** به عنوان مقصد اصلی برای ریاضی‌دانان و فیزیک‌دانان می‌پردازد. متن با تاکید بر «پیچیدگی فراگیر مغز» و «محدودیت دانش موجود»، فضای проблем را باز کرده و علوم اعصاب محاسباتی را به عنوان راهکار metodological (متدولوژیک) برای مقابله با این پیچیدگی позиционирование می‌کند. استدلال اصلی بر پایه **تقریب‌های متوالی (Successive Approximations)** و **مدل‌سازی چندمقیاسی (Multi-scale Modeling)** بنا شده است.\n\n**Core Claim (ادعای مرکزی):**  \n> «علوم اعصاب محاسباتی، با بهره‌گیری از ابزارهای ریاضی (سیستم‌های دینامیکی، نظریه احتمال، نظریه اطلاعات، جبر خطی) و فیزیک (مکانیک آماری، نظریه میدان)، چارچوبی ضروری و کفایت‌دار برای تبدیل داده‌های بیولوژیکی پراکنده به نظریه‌های پیش‌بینانه و یکپارچه عملکرد مغز فراهم می‌آورد؛ و ورود ریاضی‌دانان برای عبور از توصیف‌گرایی به درک مکانیسمی، حیاتی و غیرقابل‌اجتناب است.»\n\n**امتیاز کلی BSI (BSI Overall Score): ۶.۲ از ۱۰**  \n*استدلال امتیازدهی: مقاله به عنوان یک «مرورگاه دیدگاه‌محور (Perspective Review)» در سطح مانیفست عملکرد خوبی دارد (وضوح، مخاطب‌شناسی، شهود اولیه قوی). اما در لایه Latent، مکانیسم‌های 구체ی برای «نظریه یکپارچه» ارائه نمی‌دهد، Feedback Loops بین نظریه و تجربه را سطحی بررسی می‌کند، و Leverage Points را بیشتر در سطح «ابزار» تا «پارادایم» شناسایی می‌کند. CreativeValueAdd در میانگین قرار دارد (Epistemic Gap Targeting قوی، Combinatorial Synthesis متوسط، Generative Capacity محدود).*\n\n---\n\n## ۲. جدول ارزیابی معیارهای اصلی ۷گانه (Seven Core Criteria Evaluation)\n\n| معیار اصلی (Core Criterion) | وزن (Weight) | امتیاز (Score /10) | امتیاز وزنی (Weighted) | استدلال ارزیابی (مکانیسمی و استدلالی) |\n| :--- | :---: | :---: | :---: | :--- |\n| **۱.انسجام منطقی و استدلالی (Logical Coherence)** | ۱۵٪ | ۸.۰ | ۱.۲۰ | استدلال از «پیچیدگی» به «نیاز به ریاضی» و از آنجا به «علوم اعصاب محاسباتی» به صورت خطی و بدون پرش منطقی جریان دارد. پیش‌فرض‌های پنهان (مانند کفایت ریاضی برای بیولوژی) صریح نشده اما منطقی پذیرفته شده‌اند. |\n| **۲. عمق مکانیسمی (Mechanistic Depth)** | ۲۰٪ | ۵.۵ | ۱.۱۰ | به عنوان یک چکیده مرورگاه، نام مکانیسم‌های خاص (مثل: attractor dynamics، balanced networks، predictive coding) برده شده اما «نحوه» کارکرد آن‌ها برای حل مسئله مغز تشریح نشده. عمق در سطح «نام‌گذاری» است، نه «تولید مکانیسم». |\n| **۳. نوآوری معرفتی (Epistemic Novelty)** | ۱۵٪ | ۶.۰ | ۰.۹۰ | ادعای «نظریه یکپارچه» نوآورانه است، اما مقاله خود این نظریه را ارائه نمی‌دهد، فقط «چشم‌انداز» می‌دهد. نوآوری در **فراخوانی جامعه ریاضی** است، نه در محتوای علمی جدید. |\n| **۴. ارزش ترکیبیcombinatorial (Combinatorial Value)** | ۱۵٪ | ۷.۰ | ۱.۰۵ | ترکیب Ribeiros: ریاضی خالص + فیزیک آماری + داده‌های بیولوژیکی + مهندسی عصبی. ترکیب غنی اما در چکیده به صورت لی",
+            "source_model": "nvidia/nemotron-3-ultra-550b-a55b:free",
+            "generated_at": "2026-08-15T16:28:30Z"
+          },
+          "metadata": {},
+          "judge_result": {
+            "criteria_source": "llm",
+            "winner": "bsi",
+            "reasoning": "BSI analysis provides a more comprehensive and nuanced understanding of computational neuroscience, demonstrating a stronger ability to integrate different concepts and methods.",
+            "criteria": [
+              {
+                "name": "Interdisciplinary Relevance",
+                "importance": 20.0,
+                "raw_score": 8.0,
+                "bsi_score": 9.0,
+                "reason": "BSI analysis demonstrates a better understanding of the connection between mathematics and neuroscience."
+              },
+              {
+                "name": "Mechanistic Depth",
+                "importance": 20.0,
+                "raw_score": 6.0,
+                "bsi_score": 8.0,
+                "reason": "BSI analysis provides more depth in explaining the underlying mechanisms of brain function and mathematical modeling."
+              },
+              {
+                "name": "Epistemic Robustness",
+                "importance": 15.0,
+                "raw_score": 7.0,
+                "bsi_score": 8.0,
+                "reason": "BSI analysis demonstrates a clearer understanding of the limitations and uncertainties in the field."
+              },
+              {
+                "name": "Creative Value Add",
+                "importance": 15.0,
+                "raw_score": 6.0,
+                "bsi_score": 8.0,
+                "reason": "BSI analysis identifies new opportunities and perspectives for mathematicians and physicists in neuroscience."
+              },
+              {
+                "name": "Clarity and Accessibility",
+                "importance": 10.0,
+                "raw_score": 8.0,
+                "bsi_score": 9.0,
+                "reason": "BSI analysis communicates complex ideas more effectively to a non-expert audience."
+              },
+              {
+                "name": "Integration and Synthesis",
+                "importance": 10.0,
+                "raw_score": 7.0,
+                "bsi_score": 8.0,
+                "reason": "BSI analysis integrates different concepts and methods more effectively to provide a comprehensive understanding of the field."
+              },
+              {
+                "name": "Future Directions and Implications",
+                "importance": 10.0,
+                "raw_score": 6.0,
+                "bsi_score": 8.0,
+                "reason": "BSI analysis discusses potential future developments and implications of computational neuroscience more effectively."
+              }
+            ],
+            "total_scores": {
+              "raw": 6.85,
+              "bsi": 8.3
+            },
+            "bsi_capability_assessment": {
+              "relevance": "high",
+              "realization": "medium",
+              "incremental_value": "medium",
+              "reason": "BSI analysis demonstrates a strong understanding of the field and provides incremental value through its creative and integrative perspectives."
+            },
+            "incremental_value": "medium",
+            "scale": "0-10",
+            "weight_sum": 100.0
+          },
+          "scores": {
+            "RAW": 0.685,
+            "BSI": 0.83
+          },
+          "failed": false
+        }
+      ]
+    }
+  ],
+  "source_url": "https://github.com/ibstrade11-source/behmanesh-index-prompt/blob/main/MASTER_PROMPT_BSI_v3.4.2.md",
+  "run_metadata": {
+    "tool_version": "0.1.0",
+    "git_commit": "2a0eed8408670c11a2af47ea82640beba7f5a8e3",
+    "git_dirty": true,
+    "run_timestamp_utc": "2026-08-16T13:30:20Z",
+    "methodology_note": "Scores/judgements come from an independent LLM judge (see comparison/judge.py) instructed not to reuse BSI's own D1-D7/EIG vocabulary and to choose its own evaluation criteria. If no judge model is available or its response cannot be parsed, the run falls back to a simple keyword-presence heuristic -- the stored record's own 'criteria_source' field ('llm' vs 'heuristic_fallback') always says honestly which one produced a given result. Neither path is a validated measurement of analytical quality until checked against independent human judgement on a representative sample.",
+    "provider_name": null,
+    "model_version": null,
+    "temperature": null,
+    "max_tokens": null,
+    "prompt_version": null,
+    "framework_name": "bsi"
+  }
+}

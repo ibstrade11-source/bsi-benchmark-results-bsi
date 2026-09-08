@@ -1,0 +1,170 @@
+{
+  "dataset_name": "politics governance public policy artificial intelligence government institutional risk regulation",
+  "results": [
+    {
+      "article": {
+        "title": "Advancing Artificial Intelligence and Machine Learning in the U.S. Government Through Improved Public Competitions",
+        "abstract": "In the last two years, the U.S. government has emphasized the importance of accelerating artificial intelligence (AI) and machine learning (ML) within the government and across the nation. In particular, the National Artificial Intelligence Initiative Act of 2020, which became law on January 1, 2021, provides for a coordinated program across the entire federal government to accelerate AI research and application. The U.S. government can benefit from public artificial intelligence and machine learning challenges through the development of novel algorithms and participation in experiential training. Although the public, private, and non-profit sectors have a history of leveraging crowdsourcing initiatives to generate novel solutions to difficult problems and engage stakeholders, interest in public competitions has waned in recent years as a result of at least three major factors: (1) a lack of high-quality, high-impact data; (2) a narrow engagement focus on specialized groups; and (3) insufficient operationalization of challenge results. Herein we identify common issues and recommend approaches to increase the effectiveness of challenges. To address these barriers, enabling the use of public competitions for accelerating AI and ML practice, the U.S. government must leverage methods that protect sensitive data while enabling modelling, enable easier participation, empower deployment of validated models, and incentivize engagement from broad sections of the population.",
+        "doi": null,
+        "url": "http://arxiv.org/abs/2112.01275v1",
+        "input_quality": null
+      },
+      "cells": [
+        {
+          "generator": "openrouter",
+          "mode": "raw",
+          "analysis": {
+            "text": "**Article Analysis**\n\n**Context & Motivation**\nThe article situates itself within the U.S. federal mandate established by the **National Artificial Intelligence Initiative Act of 2020**, which requires a coordinated, whole-of-government approach to accelerating AI/ML research and adoption. The authors argue that **public competitions (challenges/crowdsourcing)** are a critical mechanism for achieving this mandate by generating novel algorithms and providing experiential workforce training.\n\n**Core Problem: Declining Efficacy of Public Competitions**\nThe authors identify a decay in the utility of government-sponsored AI/ML challenges driven by three structural barriers:\n1.  **Data Scarcity:** Lack of accessible *high-quality, high-impact datasets* (often due to sensitivity/classification restrictions).\n2.  **Narrow Participation:** Engagement strategies target limited, specialized expert communities rather than the broader talent pool.\n3.  **Implementation Gap (\"Valley of Death\"):** Failure to *operationalize* winning models—transitioning them from prototype to deployed production systems.\n\n**Proposed Solutions / Recommendations**\nTo revitalize challenges as a strategic tool, the paper prescribes four specific operational shifts:\n*   **Data Accessibility:** Adopt privacy-preserving frameworks (e.g., synthetic data generation, federated learning, secure enclaves) to release sensitive data for modeling without compromising security.\n*   **Lowered Barriers to Entry:** Simplify participation logistics (administrative, technical, legal) to attract non-traditional solvers and diverse demographics.\n*   **Deployment Pathways:** Establish formal mechanisms to validate, harden, and integrate challenge-winning models into government operational workflows.\n*   **Broad Incentivization:** Restructure incentive models (beyond monetary prizes) to motivate sustained engagement from academia, industry, and the general public.\n\n**Contribution & Claim**\nThe article does not present new empirical research or technical benchmarks. Its contribution is **policy-oriented and prescriptive**: it synthesizes recognized systemic failures in federal AI crowdsourcing into a cohesive diagnostic framework and offers a targeted, actionable roadmap for federal agencies to align challenge mechanisms with the statutory goals of the 2020 AI Initiative Act.",
+            "source_model": "nvidia/nemotron-3-ultra-550b-a55b:free",
+            "generated_at": "2026-08-13T16:09:42Z"
+          },
+          "metadata": {},
+          "judge_result": {
+            "criteria_source": "llm",
+            "winner": "bsi",
+            "reasoning": "BSI's analysis provides a more structured approach to evaluating the article's claims, highlighting the importance of logical coherence, evidence robustness, and practical utility. While both analyses have strengths and weaknesses, BSI's analysis provides a more comprehensive evaluation of the article's content.",
+            "criteria": [
+              {
+                "name": "Contextual Relevance",
+                "importance": 20.0,
+                "raw_score": 8.0,
+                "bsi_score": 9.0,
+                "reason": "Both analyses are relevant to the article's context, but BSI provides a more structured approach to understanding the epistemic robustness of the claims."
+              },
+              {
+                "name": "Logical Coherence",
+                "importance": 25.0,
+                "raw_score": 7.0,
+                "bsi_score": 8.0,
+                "reason": "Both analyses demonstrate logical coherence, but BSI's evaluation of logical coherence is more detailed and systematic."
+              },
+              {
+                "name": "Evidence Robustness",
+                "importance": 20.0,
+                "raw_score": 4.0,
+                "bsi_score": 3.0,
+                "reason": "Neither analysis provides strong evidence to support its claims, but BSI's evaluation of evidence robustness highlights the lack of empirical data in the article."
+              },
+              {
+                "name": "Conceptual Novelty",
+                "importance": 15.0,
+                "raw_score": 5.0,
+                "bsi_score": 6.0,
+                "reason": "BSI's analysis identifies the combination of public competitions and barriers as a novel concept, while RAW's analysis does not explicitly highlight this novelty."
+              },
+              {
+                "name": "Practical Utility",
+                "importance": 20.0,
+                "raw_score": 8.0,
+                "bsi_score": 9.0,
+                "reason": "Both analyses demonstrate practical utility, but BSI's evaluation of practical utility highlights the potential for the proposed solutions to be implemented in a real-world context."
+              }
+            ],
+            "total_scores": {
+              "raw": 6.5,
+              "bsi": 7.1
+            },
+            "bsi_capability_assessment": {
+              "relevance": "high",
+              "realization": "medium",
+              "incremental_value": "medium",
+              "reason": "BSI's capabilities, such as evaluating logical coherence and evidence robustness, are relevant to the article's analysis. However, the realization of these capabilities is medium, as some aspects of the analysis, such as the evaluation of conceptual novelty, could be more detailed. The incremental value of BSI is medium, as it provides a more structured approach to analysis, but some of the insights could be obtained through a careful reading of the article."
+            },
+            "incremental_value": "medium",
+            "scale": "0-10",
+            "weight_sum": 100.0
+          },
+          "scores": {
+            "RAW": 0.65,
+            "BSI": 0.71
+          },
+          "failed": false
+        },
+        {
+          "generator": "openrouter",
+          "mode": "bsi",
+          "analysis": {
+            "text": "# تحلیل شاخص بهمنش (BSI v3.4.2)  \n**مقاله/محتوا:** «پیشبرد هوش مصنوعی و یادگیری ماشین در دولت آمریکا از طریق بهبود مسابقات عمومی»  \n**نوع محتوا:** چکیده مقاله سیاست‌گذاری/استراتژیک (Policy/Strategy Abstract)  \n**تاریخ تحلیل:** ۲۶ ژوئن ۲۰۲۶  \n**نسخه SOP:** ۳.۴.۲ | **نسخه Ontology:** BIO v1.0  \n\n---\n\n## ۱. خلاصه اجرایی (Executive Summary) + Core Claim + امتیاز کلی BSI\n\n**Core Claim (ادعای مرکزی):**  \nدولت آمریکا می‌تواند از طریق «مسابقات عمومی» (Public Competitions/Challenges) پذیرش و پیشبرد هوش مصنوعی (AI) و یادگیری ماشین (ML) را تسریع کند، اما سه مانع بنیادین — (۱) فقدان داده‌های باکیفیت و بااکثرت، (۲) تمرکز مشارکت بر گروه‌های تخصصی باریک، و (۳) نارسازی عملکردی نتایج چالش‌ها — باعث کاهش علاقه در سال‌های اخیر شده‌اند. برونداد این موانع نیازمند چهار 젖ه استراتژیک است: حفاظت از داده‌های حساس در حین مدل‌سازی، ساده‌سازی مشارکت، قدرتمندسازی استقرار مدل‌های اعتبارسنجی‌شده، و ترغیب مشارکت گسترده‌ای از لایه‌های متنوع جمعیت.\n\n**خلاصه اجرایی:**  \nمقاله حاضر یک مانیفست سیاست‌گذاری مختصر است که بستر مسئله را در چارچوب «قانون مهارت ملی هوش مصنوعی ۲۰۲۰» (NAIIA) قرار می‌دهد، سه مانع ساختاری را شناسایی کرده و چهار جهت راهکار کلان را پیشنهاد می‌دهد. محتوای چکیده فاقد داده‌های تجربی، مطالعه موردی (Case Study) یا شواهد کمی است و در سطح «تشخیص مسئله و طرح چارچوب راهکار» (Problem Framing & High-level Prescription) مانده است. منطق داخلی متن سادگی دارد: اگر موانع برطرف شوند → مسابقات کارآمد خواهند بود → تسریع AI/ML محقق می‌شود. این زنجیره علیتی تنها در سطح ادعا است و mekanism‌های واسطه (Mediating Mechanisms) آن تشریح نشده‌اند.\n\n**امتیاز کلی BSI:** **۶.۲ / ۱۰**  \n*تفسیر: skor در بازه «متوسط به بالا» قرار دارد. برتری در «کاربردی بودن» و «تطبیق با اولویت‌های استراتژیک» وجود دارد، اما ضعف عمیق در «استواری شواهد»، «جدید بودن مفهومی» و «شفافیت مکانیسمی» امتیاز را կبوده است.*\n\n---\n\n## ۲. جدول ارزیابی معیارهای اصلی ۷گانه (Main Criteria Evaluation)\n\n| # | معیار (Criterion) | امتیاز (۰–۱۰) | استدلال مختصر (Evidence-based Justification) |\n|---|-------------------|---------------|-----------------------------------------------|\n| ۱ | **انسجام منطقی (Logical Coherence)** | ۷.۵ | ساختار استدلال/std: Context → Barriers → Recommendations. هیچ تناقض داخلی یا پرش منطقی صریحی وجود ندارد. اما عمق استدلال (Depth of Reasoning) محدود به سطح توصیفی است. |\n| ۲ | **استواری شواهد (Evidence Robustness)** | ۳.۰ | چکیده فاقد هرگونه ارجاع به داده‌های کمی، مطالعه موردی، نتایج piloto، یا متا‌تحلیل است. ادعاها (مانند «کاهش علاقه در سال‌های اخیر») بدون سند گزارش شده‌اند. |\n| ۳ | **جدید بودن مفهومی (Conceptual Novelty)** | ۴.۵ | ترکیب «مسابقات عامة» + «موانع داده/مشارکت/استقرار» در بستر دولت آمریکا ترکیبی تازه دارد، اما هر یک از مولفه‌ها در ادبیات Open Innovation و Challenge.gov پیشین وجود داشته‌اند. نوآوری در «ترکیب» است، نه در «مولفه». |\n| ۴ | **کاربردی بودن (Practical Utility)** | ۸.۰ | چهار راهکار کلان (PETs, Ease of Participation, Deployment Pipeline, Broad Incentives) مستقیماً قابل اجرا در سطح پلتفرم Challenge.gov و آژانس‌ها هستند. ارزش عملیاتی بالا. |\n| ۵ | **شفاف",
+            "source_model": "nvidia/nemotron-3-ultra-550b-a55b:free",
+            "generated_at": "2026-08-13T16:11:17Z"
+          },
+          "metadata": {},
+          "judge_result": {
+            "criteria_source": "llm",
+            "winner": "bsi",
+            "reasoning": "BSI's analysis provides a more structured approach to evaluating the article's claims, highlighting the importance of logical coherence, evidence robustness, and practical utility. While both analyses have strengths and weaknesses, BSI's analysis provides a more comprehensive evaluation of the article's content.",
+            "criteria": [
+              {
+                "name": "Contextual Relevance",
+                "importance": 20.0,
+                "raw_score": 8.0,
+                "bsi_score": 9.0,
+                "reason": "Both analyses are relevant to the article's context, but BSI provides a more structured approach to understanding the epistemic robustness of the claims."
+              },
+              {
+                "name": "Logical Coherence",
+                "importance": 25.0,
+                "raw_score": 7.0,
+                "bsi_score": 8.0,
+                "reason": "Both analyses demonstrate logical coherence, but BSI's evaluation of logical coherence is more detailed and systematic."
+              },
+              {
+                "name": "Evidence Robustness",
+                "importance": 20.0,
+                "raw_score": 4.0,
+                "bsi_score": 3.0,
+                "reason": "Neither analysis provides strong evidence to support its claims, but BSI's evaluation of evidence robustness highlights the lack of empirical data in the article."
+              },
+              {
+                "name": "Conceptual Novelty",
+                "importance": 15.0,
+                "raw_score": 5.0,
+                "bsi_score": 6.0,
+                "reason": "BSI's analysis identifies the combination of public competitions and barriers as a novel concept, while RAW's analysis does not explicitly highlight this novelty."
+              },
+              {
+                "name": "Practical Utility",
+                "importance": 20.0,
+                "raw_score": 8.0,
+                "bsi_score": 9.0,
+                "reason": "Both analyses demonstrate practical utility, but BSI's evaluation of practical utility highlights the potential for the proposed solutions to be implemented in a real-world context."
+              }
+            ],
+            "total_scores": {
+              "raw": 6.5,
+              "bsi": 7.1
+            },
+            "bsi_capability_assessment": {
+              "relevance": "high",
+              "realization": "medium",
+              "incremental_value": "medium",
+              "reason": "BSI's capabilities, such as evaluating logical coherence and evidence robustness, are relevant to the article's analysis. However, the realization of these capabilities is medium, as some aspects of the analysis, such as the evaluation of conceptual novelty, could be more detailed. The incremental value of BSI is medium, as it provides a more structured approach to analysis, but some of the insights could be obtained through a careful reading of the article."
+            },
+            "incremental_value": "medium",
+            "scale": "0-10",
+            "weight_sum": 100.0
+          },
+          "scores": {
+            "RAW": 0.65,
+            "BSI": 0.71
+          },
+          "failed": false
+        }
+      ]
+    }
+  ],
+  "source_url": "https://github.com/ibstrade11-source/behmanesh-index-prompt/blob/main/MASTER_PROMPT_BSI_v3.4.2.md",
+  "run_metadata": {
+    "tool_version": "0.1.0",
+    "git_commit": "024b97bfb660473e5170d398bbc2ddb79f5db5a8",
+    "git_dirty": true,
+    "run_timestamp_utc": "2026-08-13T16:09:02Z",
+    "methodology_note": "Scores/judgements come from an independent LLM judge (see comparison/judge.py) instructed not to reuse BSI's own D1-D7/EIG vocabulary and to choose its own evaluation criteria. If no judge model is available or its response cannot be parsed, the run falls back to a simple keyword-presence heuristic -- the stored record's own 'criteria_source' field ('llm' vs 'heuristic_fallback') always says honestly which one produced a given result. Neither path is a validated measurement of analytical quality until checked against independent human judgement on a representative sample.",
+    "provider_name": null,
+    "model_version": null,
+    "temperature": null,
+    "max_tokens": null,
+    "prompt_version": null,
+    "framework_name": "bsi"
+  }
+}

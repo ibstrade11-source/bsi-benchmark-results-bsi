@@ -1,0 +1,190 @@
+{
+  "dataset_name": "social capital community trust inequality",
+  "results": [
+    {
+      "article": {
+        "title": "Social Capital: Implications for Development Theory, Research, and Policy",
+        "abstract": "In the 1990s the concept of social capital—defined here as the norms and networks that enable people to act collectively—enjoyed a remarkable rise to prominence across all the social science disciplines. The authors trace the evolution of social capital research as it pertains to economic development and identify four distinct approaches the research has taken: communitarian, networks, institutional, and synergy. The evidence suggests that of the four, the synergy view, with its emphasis on incorporating different levels and dimensions of social capital and its recognition of the positive and negative outcomes that social capital can generate, has the greatest empirical support and lends itself best to comprehensive and coherent policy prescriptions. The authors argue that a significant virtue of the idea of and discourse on social capital is that it helps to bridge orthodox divides among scholars, practitioners, and policymakers.",
+        "full_text": null,
+        "doi": "https://doi.org/10.1093/wbro/15.2.225",
+        "url": "https://openalex.org/W2109745229",
+        "input_quality": {
+          "has_title": true,
+          "has_abstract": true,
+          "source": "openalex",
+          "enriched": false
+        }
+      },
+      "cells": [
+        {
+          "generator": "groq",
+          "mode": "raw",
+          "analysis": {
+            "text": "The article \"Social Capital: Implications for Development Theory, Research, and Policy\" makes the following main claims and contributions:\n\n1. **Definition and Evolution**: The authors define social capital as \"the norms and networks that enable people to act collectively\" and trace its evolution in social science research, particularly in the context of economic development.\n2. **Four Distinct Approaches**: They identify four distinct approaches to social capital research: communitarian, networks, institutional, and synergy.\n3. **Empirical Support and Policy Implications**: The authors argue that the synergy view, which incorporates multiple levels and dimensions of social capital and recognizes both positive and negative outcomes, has the greatest empirical support and provides the most comprehensive and coherent policy prescriptions.\n4. **Interdisciplinary Bridging**: The concept of social capital is seen as a virtue that helps bridge divides among scholars, practitioners, and policymakers across different disciplines.\n\nThe article's main contribution lies in its comprehensive review of social capital research, its identification of distinct approaches, and its argument for the synergy view as the most empirically supported and policy-relevant framework. By highlighting the concept's potential to bridge disciplinary divides, the authors also underscore its significance for development theory, research, and policy.",
+            "source_model": "llama-3.3-70b-versatile",
+            "generated_at": "2026-08-13T13:29:20Z"
+          },
+          "metadata": {},
+          "judge_result": {
+            "criteria_source": "llm",
+            "winner": "tie",
+            "reasoning": "Both analyses accurately capture the article's core definition, four approaches, synergy argument, bridging claim, and nuance about positive/negative outcomes. BSI is slightly more structured on policy implications; RAW is slightly more explicit on definition evolution and the bridging constituency. Differences are minor and complementary, not decisive.",
+            "criteria": [
+              {
+                "name": "Accuracy of core concept definition and evolution",
+                "importance": 20.0,
+                "raw_score": 9.0,
+                "bsi_score": 8.0,
+                "reason": "The article's foundation is its definition of social capital and its historical evolution in social science; RAW explicitly captures both the definition and the evolution tracing, while BSI gives the definition but omits the evolution dimension."
+              },
+              {
+                "name": "Coverage and differentiation of the four approaches",
+                "importance": 20.0,
+                "raw_score": 9.0,
+                "bsi_score": 9.0,
+                "reason": "Both analyses correctly identify and name all four approaches (communitarian, networks, institutional, synergy); BSI adds brief descriptive phrases for each, but RAW's coverage is equally complete for a summary task."
+              },
+              {
+                "name": "Treatment of synergy view as empirically supported framework",
+                "importance": 15.0,
+                "raw_score": 9.0,
+                "bsi_score": 9.0,
+                "reason": "The article's central argument is that the synergy view has the greatest empirical support; both analyses convey this claim accurately and with similar emphasis."
+              },
+              {
+                "name": "Identification of development theory, research, and policy implications",
+                "importance": 20.0,
+                "raw_score": 7.0,
+                "bsi_score": 9.0,
+                "reason": "The article's title explicitly promises implications for development theory, research, and policy; BSI provides a structured bullet-point breakdown covering bridging divides, comprehensive policy prescriptions, and positive/negative outcomes, while RAW mentions policy prescriptions and bridging but with less granularity."
+              },
+              {
+                "name": "Recognition of interdisciplinary bridging function",
+                "importance": 10.0,
+                "raw_score": 9.0,
+                "bsi_score": 9.0,
+                "reason": "The article frames bridging disciplinary divides as a key virtue of the social capital concept; both analyses capture this, RAW with explicit reference to scholars, practitioners, and policymakers, BSI with 'bridging orthodox divides' and 'integrated understanding'."
+              },
+              {
+                "name": "Nuanced treatment of positive and negative outcomes",
+                "importance": 15.0,
+                "raw_score": 8.0,
+                "bsi_score": 9.0,
+                "reason": "A hallmark of the synergy view is acknowledging both positive and negative consequences; both analyses note this, but BSI states it more directly as a standalone implication."
+              }
+            ],
+            "total_scores": {
+              "raw": 8.45,
+              "bsi": 8.8
+            },
+            "bsi_capability_assessment": {
+              "relevance": "medium",
+              "realization": "low",
+              "incremental_value": "low",
+              "reason": "The article is a conceptual review, not a complex causal analysis; BSI's specialized structural capabilities (e.g., multi-level dynamics, endogenous framing) are moderately relevant but not visibly deployed in the supplied BSI analysis, which reads as a conventional summary. Incremental value over RAW is low."
+            },
+            "incremental_value": "low",
+            "scale": "0-10",
+            "weight_sum": 100.0
+          },
+          "scores": {
+            "RAW": 0.845,
+            "BSI": 0.88
+          },
+          "failed": false
+        },
+        {
+          "generator": "groq",
+          "mode": "bsi",
+          "analysis": {
+            "text": "The concept of social capital has gained significant attention across various social science disciplines since the 1990s. It refers to the norms and networks that enable collective action among people. Research on social capital in the context of economic development has taken four distinct approaches:\n\n1. **Communitarian**: This approach focuses on the importance of community and social bonds in facilitating collective action.\n2. **Networks**: This approach emphasizes the role of social networks and relationships in accessing resources and information.\n3. **Institutional**: This approach highlights the role of formal and informal institutions in shaping social capital and its outcomes.\n4. **Synergy**: This approach recognizes the interplay between different levels and dimensions of social capital, acknowledging that social capital can have both positive and negative consequences.\n\nThe synergy view is considered to have the most empirical support and is seen as the most comprehensive and coherent approach to understanding social capital. It allows for a nuanced understanding of the complex relationships between social capital, economic development, and policy outcomes.\n\nThe concept of social capital has several implications for development theory, research, and policy:\n\n* **Bridging orthodox divides**: Social capital helps to bridge the gap between different theoretical perspectives and disciplinary approaches, facilitating a more integrated understanding of development issues.\n* **Comprehensive policy prescriptions**: The synergy view of social capital provides a framework for developing comprehensive and coherent policy prescriptions that take into account the complex interactions between different levels and dimensions of social capital.\n* **Recognizing positive and negative outcomes**: The synergy view acknowledges that social capital can have both positive and negative consequences, allowing for a more nuanced understanding of its role in development outcomes.\n\nOverall, the concept of social capital has the potential to inform development theory, research, and policy, and its synergy view is considered the most promising approach for understanding its complex relationships with economic development and policy outcomes.",
+            "source_model": "llama-3.3-70b-versatile",
+            "generated_at": "2026-08-13T13:29:24Z"
+          },
+          "metadata": {},
+          "judge_result": {
+            "criteria_source": "llm",
+            "winner": "tie",
+            "reasoning": "Both analyses accurately capture the article's core definition, four approaches, synergy argument, bridging claim, and nuance about positive/negative outcomes. BSI is slightly more structured on policy implications; RAW is slightly more explicit on definition evolution and the bridging constituency. Differences are minor and complementary, not decisive.",
+            "criteria": [
+              {
+                "name": "Accuracy of core concept definition and evolution",
+                "importance": 20.0,
+                "raw_score": 9.0,
+                "bsi_score": 8.0,
+                "reason": "The article's foundation is its definition of social capital and its historical evolution in social science; RAW explicitly captures both the definition and the evolution tracing, while BSI gives the definition but omits the evolution dimension."
+              },
+              {
+                "name": "Coverage and differentiation of the four approaches",
+                "importance": 20.0,
+                "raw_score": 9.0,
+                "bsi_score": 9.0,
+                "reason": "Both analyses correctly identify and name all four approaches (communitarian, networks, institutional, synergy); BSI adds brief descriptive phrases for each, but RAW's coverage is equally complete for a summary task."
+              },
+              {
+                "name": "Treatment of synergy view as empirically supported framework",
+                "importance": 15.0,
+                "raw_score": 9.0,
+                "bsi_score": 9.0,
+                "reason": "The article's central argument is that the synergy view has the greatest empirical support; both analyses convey this claim accurately and with similar emphasis."
+              },
+              {
+                "name": "Identification of development theory, research, and policy implications",
+                "importance": 20.0,
+                "raw_score": 7.0,
+                "bsi_score": 9.0,
+                "reason": "The article's title explicitly promises implications for development theory, research, and policy; BSI provides a structured bullet-point breakdown covering bridging divides, comprehensive policy prescriptions, and positive/negative outcomes, while RAW mentions policy prescriptions and bridging but with less granularity."
+              },
+              {
+                "name": "Recognition of interdisciplinary bridging function",
+                "importance": 10.0,
+                "raw_score": 9.0,
+                "bsi_score": 9.0,
+                "reason": "The article frames bridging disciplinary divides as a key virtue of the social capital concept; both analyses capture this, RAW with explicit reference to scholars, practitioners, and policymakers, BSI with 'bridging orthodox divides' and 'integrated understanding'."
+              },
+              {
+                "name": "Nuanced treatment of positive and negative outcomes",
+                "importance": 15.0,
+                "raw_score": 8.0,
+                "bsi_score": 9.0,
+                "reason": "A hallmark of the synergy view is acknowledging both positive and negative consequences; both analyses note this, but BSI states it more directly as a standalone implication."
+              }
+            ],
+            "total_scores": {
+              "raw": 8.45,
+              "bsi": 8.8
+            },
+            "bsi_capability_assessment": {
+              "relevance": "medium",
+              "realization": "low",
+              "incremental_value": "low",
+              "reason": "The article is a conceptual review, not a complex causal analysis; BSI's specialized structural capabilities (e.g., multi-level dynamics, endogenous framing) are moderately relevant but not visibly deployed in the supplied BSI analysis, which reads as a conventional summary. Incremental value over RAW is low."
+            },
+            "incremental_value": "low",
+            "scale": "0-10",
+            "weight_sum": 100.0
+          },
+          "scores": {
+            "RAW": 0.845,
+            "BSI": 0.88
+          },
+          "failed": false
+        }
+      ]
+    }
+  ],
+  "source_url": "https://github.com/ibstrade11-source/behmanesh-index-prompt/blob/main/MASTER_PROMPT_BSI_v3.4.2.md",
+  "run_metadata": {
+    "tool_version": "0.1.0",
+    "git_commit": "86fb38868d0d36ae348cb4f9ffd7c49190f311bf",
+    "git_dirty": false,
+    "run_timestamp_utc": "2026-08-25T23:42:53Z",
+    "methodology_note": "Scores/judgements come from an independent LLM judge (see comparison/judge.py) instructed not to reuse BSI's own D1-D7/EIG vocabulary and to choose its own evaluation criteria. If no judge model is available or its response cannot be parsed, the run falls back to a simple keyword-presence heuristic -- the stored record's own 'criteria_source' field ('llm' vs 'heuristic_fallback') always says honestly which one produced a given result. Neither path is a validated measurement of analytical quality until checked against independent human judgement on a representative sample.",
+    "provider_name": null,
+    "model_version": null,
+    "temperature": null,
+    "max_tokens": null,
+    "prompt_version": null,
+    "framework_name": "bsi"
+  }
+}

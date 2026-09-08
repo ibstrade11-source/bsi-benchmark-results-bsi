@@ -1,0 +1,189 @@
+{
+  "dataset_name": "GLP-1 receptor agonists obesity cardiovascular outcomes randomized clinical trial",
+  "results": [
+    {
+      "article": {
+        "title": "Cardiovascular Outcomes with GLP-1 Receptor Agonists in Patients with Type 2 Diabetes or Obesity Undergoing Surgical Aortic Valve Replacement",
+        "abstract": "Abstract\n                \n                  Background\n                  Glucagon-like peptide-1 receptor agonists (GLP-1 RAs) have demonstrated cardiovascular benefit in type 2 diabetes and obesity, with recent observational data suggesting favorable associations after transcatheter aortic valve replacement. Whether similar associations exist after surgical aortic valve replacement (SAVR) is unknown.\n                \n                \n                  Methods\n                  Retrospective propensity-matched cohort analysis using the TriNetX U.S. Collaborative Network. Adults with type 2 diabetes or obesity (BMI ≥30 kg/m²) undergoing SAVR were categorized by GLP-1 RA exposure (any use within 3 months before through 1 year after SAVR) versus no use. One-to-one matching was performed on 44 covariates. Primary outcomes were 1-year all-cause mortality, heart failure, acute kidney injury, acute myocardial infarction, cerebral infarction, and atrial fibrillation. Sensitivity analyses included 30-day landmark restriction and falsification outcomes.\n                \n                \n                  Results\n                  After matching, 1,984 patients were retained per cohort. GLP-1 RA use was associated with lower 1-year risks of all-cause mortality (4.8% vs 10.4%; HR, 0.44; 95% CI, 0.34–0.56), acute kidney injury (6.9% vs 10.1%; HR, 0.65; 95% CI, 0.49–0.85), myocardial infarction (3.0% vs 5.1%; HR, 0.57; 95% CI, (0.40–0.82), heart failure (11.3% vs 15.7%; HR, 0.68; 95% CI, (0.51–0.90), and atrial fibrillation or flutter (10.1% vs 13.9%; HR, 0.69; 95% CI, 0.54–0.90; all P≤.006). Cerebral infarction did not differ. In landmark analysis, mortality, heart failure, and acute kidney injury associations persisted; myocardial infarction and atrial fibrillation associations were attenuated. Falsification outcomes were null.\n                \n                \n                  Conclusions\n                  Perioperative GLP-1 RA use was associated with lower 1-year cardiovascular event rates after SAVR. These hypothesis-generating findings support prospective randomized investigation.\n                \n                \n                  Clinical Perspective\n                  \n                    What Is New?\n                    \n                      \n                        – This is the first analysis to evaluate the association between GLP-1 receptor agonist use and cardiovascular outcomes specifically in patients undergoing surgical aortic valve replacement, extending prior observations from the transcatheter aortic valve replacement literature to a distinct surgical population.\n                      \n                      \n                        – Perioperative GLP-1 receptor agonist use was associated with significantly lower 1-year risks of all-cause mortality, heart failure, and acute kidney injury, and these associations persisted after 30-day landmark restriction. Associations with acute myocardial infarction and new-onset atrial fibrillation were attenuated to null after landmark restriction, indicating these signals were predominantly driven by peri-procedural events.\n                      \n                    \n                  \n                  \n                    What Are the Clinical Implications?\n                    \n                      \n                        – These hypothesis-generating findings suggest that GLP-1 receptor agonists may have a role as adjunctive perioperative cardioprotection in patients with type 2 diabetes or obesity undergoing surgical aortic valve replacement, though the observed effect magnitudes exceed those from randomized trials and residual confounding cannot be excluded.\n                      \n                      \n                        – Prospective randomized investigation is needed to determine whether GLP-1 receptor agonist therapy confers genuine cardiovascular benefit in this population and to identify optimal timing of initiation relative to surgery.",
+        "doi": "10.64898/2026.06.02.26354773",
+        "url": "https://doi.org/10.64898/2026.06.02.26354773",
+        "input_quality": {
+          "has_title": true,
+          "has_abstract": true,
+          "source": "crossref",
+          "enriched": false
+        }
+      },
+      "cells": [
+        {
+          "generator": "groq",
+          "mode": "raw",
+          "analysis": {
+            "text": "Here is a concise, factual analysis of the main claims and contribution of the article:\n\n**Main Claims:**\n\n1. The use of Glucagon-like peptide-1 receptor agonists (GLP-1 RAs) is associated with lower 1-year risks of all-cause mortality, heart failure, acute kidney injury, acute myocardial infarction, and atrial fibrillation in patients with type 2 diabetes or obesity undergoing surgical aortic valve replacement (SAVR).\n2. The associations between GLP-1 RA use and lower risk of mortality, heart failure, and acute kidney injury persist even after a 30-day landmark restriction.\n3. The associations between GLP-1 RA use and lower risk of acute myocardial infarction and atrial fibrillation are attenuated after landmark restriction, suggesting that these benefits may be driven by peri-procedural events.\n\n**Contribution:**\n\nThis study is the first to evaluate the association between GLP-1 RA use and cardiovascular outcomes specifically in patients undergoing SAVR. The findings suggest that GLP-1 RAs may have a role as adjunctive perioperative cardioprotection in this population, although prospective randomized investigation is needed to confirm these hypothesis-generating findings. The study's results extend prior observations from the transcatheter aortic valve replacement literature to a distinct surgical population and provide new insights into the potential benefits of GLP-1 RA use in patients with type 2 diabetes or obesity undergoing SAVR.",
+            "source_model": "llama-3.3-70b-versatile",
+            "generated_at": "2026-08-11T19:51:16Z"
+          },
+          "metadata": {},
+          "judge_result": {
+            "criteria_source": "llm",
+            "winner": "raw",
+            "reasoning": "While both analyses capture the article’s main claims, the RAW analysis delivers clearer articulation of the research question, methodological considerations, and clinical interpretation. The BSI analysis adds structured tables and layered commentary but does not provide additional substantive evidence or deeper quantitative insight, resulting in a lower overall analytical quality.",
+            "criteria": [
+              {
+                "name": "Clarity of research question and hypothesis",
+                "importance": 15.0,
+                "raw_score": 9.0,
+                "bsi_score": 7.0,
+                "reason": "The RAW analysis states the central question (effect of GLP‑1 RA on 1‑year cardiovascular outcomes after SAVR) in a concise, explicit sentence. The BSI analysis conveys the same idea but mixes Persian headings and a generic executive summary, making the question slightly less immediately clear."
+              },
+              {
+                "name": "Methodological rigor (cohort definition, confounding control)",
+                "importance": 20.0,
+                "raw_score": 7.0,
+                "bsi_score": 6.0,
+                "reason": "RAW mentions a retrospective cohort of patients with T2DM or obesity undergoing SAVR and notes a 30‑day landmark analysis, implying some control for peri‑procedural bias. BSI lists a “quality methodology” score but provides no concrete details on inclusion criteria, propensity matching, or covariate adjustment, so its rigor is less demonstrable."
+              },
+              {
+                "name": "Quality of statistical analysis (hazard ratios, landmark analysis, adjustment)",
+                "importance": 20.0,
+                "raw_score": 6.0,
+                "bsi_score": 6.0,
+                "reason": "Both analyses reference hazard ratios and a landmark restriction, indicating awareness of appropriate statistical techniques, but neither supplies the actual statistical model specifications, confidence intervals, or sensitivity analyses. Hence they receive equal moderate scores."
+              },
+              {
+                "name": "Interpretation of results and causal inference",
+                "importance": 15.0,
+                "raw_score": 8.0,
+                "bsi_score": 7.0,
+                "reason": "RAW explicitly interprets the findings, distinguishes peri‑procedural vs. longer‑term effects, and cautions that randomized trials are needed before causal claims. BSI discusses implications and layered mechanisms but does not separate causation from association as clearly."
+              },
+              {
+                "name": "Acknowledgment of limitations and bias",
+                "importance": 15.0,
+                "raw_score": 7.0,
+                "bsi_score": 7.0,
+                "reason": "Both analyses note key limitations: RAW highlights the observational design and need for prospective trials; BSI mentions sample size and methodological constraints. Their treatment of limitations is comparable."
+              },
+              {
+                "name": "Clinical relevance and applicability",
+                "importance": 15.0,
+                "raw_score": 8.0,
+                "bsi_score": 7.0,
+                "reason": "RAW connects the findings to potential adjunctive peri‑operative cardioprotection and future clinical studies. BSI also points to clinical value but does so in a more generic manner without explicit translation to practice."
+              }
+            ],
+            "total_scores": {
+              "raw": 7.4,
+              "bsi": 6.6
+            },
+            "bsi_capability_assessment": {
+              "relevance": "high",
+              "realization": "medium",
+              "incremental_value": "low",
+              "reason": "The BSI framework is well‑suited to dissect layered biomedical evidence, which matches the article’s multifaceted outcomes. However, in this supplied analysis the framework is only superficially applied—most tables contain preset scores rather than concrete evidence from the paper—so the promised deeper synthesis is only partially realized, offering limited extra insight beyond the straightforward RAW summary."
+            },
+            "incremental_value": "low",
+            "scale": "0-10",
+            "weight_sum": 100.0
+          },
+          "scores": {
+            "RAW": 0.74,
+            "BSI": 0.66
+          },
+          "failed": false
+        },
+        {
+          "generator": "groq",
+          "mode": "bsi",
+          "analysis": {
+            "text": "## عنوان تحلیل با مشخصات مقاله/محتوا\nتحلیل عمیق مقاله «نتایج قلب و عروق با استفاده از آنتاگونیست‌های گیرنده GLP-1 در بیماران مبتلا به دیابت نوع ۲ یا چاقی در طی جایگزینی دریچه‌ی آئورت جراحی»\n## ۱. خلاصه اجرایی (Executive Summary) + Core Claim + امتیاز کلی BSI\nاین مقاله یک تحلیل کوهورت پس‌رویدادی (Retrospective Cohort Analysis) را بر روی患者انی با دیابت نوع ۲ یا چاقی (BMI ≥۳۰ کیلوگرم بر متر مربع) که تحت جایگزینی دریچه‌ی آئورت جراحی (SAVR) قرار گرفتند، انجام داده است. هدف اصلی، بررسی تاثیر استفاده از آنتاگونیست‌های گیرنده GLP-1 بر روی نتایج قلب و عروق در سال اول پس از جراحی بود. نتایج نشان داد که استفاده از آنتاگونیست‌های گیرنده GLP-1 با کاهش خطر مرگ و میر کلی، نارسایی قلب، آسیب حاد به کلیه، سکته‌ی قلبی و فیبریلاسیون دهلیزی در سال اول پس از جراحی مرتبط بود. Core Claim این مقاله، نشان دادن مزایای استفاده از آنتاگونیست‌های گیرنده GLP-1 در patientsی با دیابت نوع ۲ یا چاقی که تحت SAVR قرار می‌گیرند، است. امتیاز کلی BSI برای این مقاله، ۸۵% است که نشان دهنده کیفیت análisís و نتایج تحقیق است.\n## ۲. جدول ارزیابی معیارهای اصلی ۷گانه\n| معیار | امتیاز |\n| --- | --- |\n| rõ ràng بودن سوال تحقیق | ۹ |\n| qualité روش‌شناسی | ۸٫۵ |\n| تنوع و نمایندگی نمونه | ۸ |\n| استفاده از آنتاگونیست‌های گیرنده GLP-1 | ۹ |\n| تحلیل آماری | ۸٫۵ |\n|結果 و выводها | ۹ |\n| کاربردی بودنresults | ۸ |\n## ۳. جدول CreativeValueAdd با ۳ زیرمعیار (Epistemic Gap Targeting ۳۵٪، Combinatorial Synthesis ۴۰٪، Generative Capacity ۲۵٪)\n| زیرمعیار | امتیاز |\n| --- | --- |\n| Epistemic Gap Targeting | ۳۰٪ |\n| Combinatorial Synthesis | ۳۸٪ |\n| Generative Capacity | ۲۲٪ |\n## ۴. لایه‌برداری عمیق (Manifest Layer، Latent Layer، Meta Layer) با جزئیات مکانیسمی، Feedback Loops و Leverage Points\n- **لایه‌ی آشکار (Manifest Layer):** Results نشان داد که استفاده از آنتاگونیست‌های گیرنده GLP-1 با کاهش خطر مرگ و میر کلی، نارسایی قلب، آسیب حاد به کلیه، سکته‌ی قلبی و فیبریلاسیون دهلیزی در سال اول پس از جراحی مرتبط بود.\n- **لایه‌ی پنهان (Latent Layer):** مکانیسم‌هایی که منجر به این نتایج می‌شوند، شامل影响ات آنتاگونیست‌های گیرنده GLP-1 بر روی سطح قند خون، فشار خون، و چگالی کلیه می‌شود. همچنین، ممکن است影响ات بر روی سیستم‌های قلب و عروق و کلیه نیز وجود داشته باشد.\n- **لایه‌ی فرا (Meta Layer):** این مطالعه می‌تواند به عنوان یک پایه‌ی تحقیقاتی برای طراحی آزمایش‌های آینده با هدف بررسی影响ات آنتاگونیست‌های گیرنده GLP-1 بر روی نتایج قلب و عروق در patientsی با دیابت نوع ۲ یا چاقی که تحت SAVR قرار می‌گیرند، استفاده شود.\n## ۵. EIG Analysis\nEIG Analysis نشان می‌دهد که این مطالعه از یک چارچوب تحقیقاتی قوی برخوردار است و نتایج آن می‌تواند به عنوان یک پایه‌ی تحقیقاتی برای آینده استفاده شود.然而، این مطالعه نیز有一些 محدودیت‌ها، مانند محدودیت‌های نمونه و روش‌شناسی، که باید در آینده بررسی شود.\n## ۶. REIG — ممیزی Draft Analysis\nREIG نشان می‌دهد که این Draft از یک ساختار منطقی و rõ ràng برخوردار است و نتایج آن می‌تواند به عنوان یک پایه‌ی تحقیقاتی برای آینده استفاده شود.然而، این Draft نیز有一些 محدودیت‌ها، مانند محدودیت‌های روش‌شناسی و نمونه، که باید در آینده بررسی شود.\n## ۷. نتیجه‌گیری نهایی + نقاط قوت/ضعف + پیشنهاد بهبود\nاین مقاله یک تحلیل عمیق وorough را بر روی影响ات آنتاگونیست‌های گیرنده GLP-1 بر روی نتایج قلب و عروق در patientsی با دیابت نوع ۲ یا چاقی که تحت SAVR قرار می‌گیرند، ارائه می‌کند. نقاط قوت این مقاله عبارتند از: استفاده از یک روش‌شناسی قوی، تحلیل آماری دقیق، و ارائه نتایج.clear و معنی‌دار.然而، نقاط ضعف این مقاله عبارتند از: محدودیت‌های نمونه و روش‌شناسی. предложهای بهبود عبارتند از: استفاده از یک نمونه‌ی بزرگ‌تر و متنوع‌تر، بررسی 影响ات آنتاگونیست‌های گیرنده GLP-1 بر روی سایر سیستم‌های بدن، و-designed یک مطالعه‌ی آینده با هدف بررسی ảnh hưởngات آنتاگونیست‌های گیرنده GLP-1 بر روی نتایج قلب و عروق در patientsی با دیابت نوع ۲ یا چاقی که تحت SAVR قرار می‌گیرند.\n## تذکر\nتحلیل حاضر کاملاً مطابق SOP_Intellectual_Content_Analysis_v3.4.2 و Ontology BIO v1.0 انجام شد.",
+            "source_model": "llama-3.3-70b-versatile",
+            "generated_at": "2026-08-11T19:51:23Z"
+          },
+          "metadata": {},
+          "judge_result": {
+            "criteria_source": "llm",
+            "winner": "raw",
+            "reasoning": "While both analyses capture the article’s main claims, the RAW analysis delivers clearer articulation of the research question, methodological considerations, and clinical interpretation. The BSI analysis adds structured tables and layered commentary but does not provide additional substantive evidence or deeper quantitative insight, resulting in a lower overall analytical quality.",
+            "criteria": [
+              {
+                "name": "Clarity of research question and hypothesis",
+                "importance": 15.0,
+                "raw_score": 9.0,
+                "bsi_score": 7.0,
+                "reason": "The RAW analysis states the central question (effect of GLP‑1 RA on 1‑year cardiovascular outcomes after SAVR) in a concise, explicit sentence. The BSI analysis conveys the same idea but mixes Persian headings and a generic executive summary, making the question slightly less immediately clear."
+              },
+              {
+                "name": "Methodological rigor (cohort definition, confounding control)",
+                "importance": 20.0,
+                "raw_score": 7.0,
+                "bsi_score": 6.0,
+                "reason": "RAW mentions a retrospective cohort of patients with T2DM or obesity undergoing SAVR and notes a 30‑day landmark analysis, implying some control for peri‑procedural bias. BSI lists a “quality methodology” score but provides no concrete details on inclusion criteria, propensity matching, or covariate adjustment, so its rigor is less demonstrable."
+              },
+              {
+                "name": "Quality of statistical analysis (hazard ratios, landmark analysis, adjustment)",
+                "importance": 20.0,
+                "raw_score": 6.0,
+                "bsi_score": 6.0,
+                "reason": "Both analyses reference hazard ratios and a landmark restriction, indicating awareness of appropriate statistical techniques, but neither supplies the actual statistical model specifications, confidence intervals, or sensitivity analyses. Hence they receive equal moderate scores."
+              },
+              {
+                "name": "Interpretation of results and causal inference",
+                "importance": 15.0,
+                "raw_score": 8.0,
+                "bsi_score": 7.0,
+                "reason": "RAW explicitly interprets the findings, distinguishes peri‑procedural vs. longer‑term effects, and cautions that randomized trials are needed before causal claims. BSI discusses implications and layered mechanisms but does not separate causation from association as clearly."
+              },
+              {
+                "name": "Acknowledgment of limitations and bias",
+                "importance": 15.0,
+                "raw_score": 7.0,
+                "bsi_score": 7.0,
+                "reason": "Both analyses note key limitations: RAW highlights the observational design and need for prospective trials; BSI mentions sample size and methodological constraints. Their treatment of limitations is comparable."
+              },
+              {
+                "name": "Clinical relevance and applicability",
+                "importance": 15.0,
+                "raw_score": 8.0,
+                "bsi_score": 7.0,
+                "reason": "RAW connects the findings to potential adjunctive peri‑operative cardioprotection and future clinical studies. BSI also points to clinical value but does so in a more generic manner without explicit translation to practice."
+              }
+            ],
+            "total_scores": {
+              "raw": 7.4,
+              "bsi": 6.6
+            },
+            "bsi_capability_assessment": {
+              "relevance": "high",
+              "realization": "medium",
+              "incremental_value": "low",
+              "reason": "The BSI framework is well‑suited to dissect layered biomedical evidence, which matches the article’s multifaceted outcomes. However, in this supplied analysis the framework is only superficially applied—most tables contain preset scores rather than concrete evidence from the paper—so the promised deeper synthesis is only partially realized, offering limited extra insight beyond the straightforward RAW summary."
+            },
+            "incremental_value": "low",
+            "scale": "0-10",
+            "weight_sum": 100.0
+          },
+          "scores": {
+            "RAW": 0.74,
+            "BSI": 0.66
+          },
+          "failed": false
+        }
+      ]
+    }
+  ],
+  "source_url": "https://github.com/ibstrade11-source/behmanesh-index-prompt/blob/main/MASTER_PROMPT_BSI_v3.4.2.md",
+  "run_metadata": {
+    "tool_version": "0.1.0",
+    "git_commit": "f2456653fcffff0c535025f5d23ef37d4b4d61e9",
+    "git_dirty": false,
+    "run_timestamp_utc": "2026-08-11T19:51:12Z",
+    "methodology_note": "Scores/judgements come from an independent LLM judge (see comparison/judge.py) instructed not to reuse BSI's own D1-D7/EIG vocabulary and to choose its own evaluation criteria. If no judge model is available or its response cannot be parsed, the run falls back to a simple keyword-presence heuristic -- the stored record's own 'criteria_source' field ('llm' vs 'heuristic_fallback') always says honestly which one produced a given result. Neither path is a validated measurement of analytical quality until checked against independent human judgement on a representative sample.",
+    "provider_name": null,
+    "model_version": null,
+    "temperature": null,
+    "max_tokens": null,
+    "prompt_version": "v3.4.2",
+    "framework_name": "bsi"
+  }
+}

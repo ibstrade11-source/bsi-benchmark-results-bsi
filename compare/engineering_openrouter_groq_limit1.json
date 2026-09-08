@@ -1,0 +1,184 @@
+{
+  "dataset_name": "engineering",
+  "results": [
+    {
+      "article": {
+        "title": "Morescient GAI for Software Engineering (Extended Version)",
+        "abstract": "The ability of Generative AI (GAI) technology to automatically check, synthesize and modify software engineering artifacts promises to revolutionize all aspects of software engineering. Using GAI for software engineering tasks is consequently one of the most rapidly expanding fields of software engineering research, with over a hundred LLM-based code models having been published since 2021. However, the overwhelming majority of existing code models share a major weakness - they are exclusively trained on the syntactic facet of software, significantly lowering their trustworthiness in tasks dependent on software semantics. To address this problem, a new class of \"Morescient\" GAI is needed that is \"aware\" of (i.e., trained on) both the semantic and static facets of software. This, in turn, will require a new generation of software observation platforms capable of generating large quantities of execution observations in a structured and readily analyzable way. In this paper, we present a vision and roadmap for how such \"Morescient\" GAI models can be engineered, evolved and disseminated according to the principles of open science.",
+        "doi": "10.1145/3709354",
+        "url": "http://arxiv.org/abs/2406.04710v2",
+        "input_quality": null
+      },
+      "cells": [
+        {
+          "generator": "openrouter",
+          "mode": "raw",
+          "analysis": {
+            "text": "**Main Claims**\n\n1. **Current GAI Code Models Are Syntactic‑Only**  \n   The paper argues that the vast majority of large language‑model (LLM) based code generators and assistants trained since 2021 learn only from the syntactic structure of source code. This narrow focus leads to a systematic lack of semantic understanding, which in turn undermines the reliability of GAI in tasks that require reasoning about program behavior.\n\n2. **Semantic Awareness Is Essential for Trustworthy Software Engineering**  \n   The authors claim that to make GAI truly useful for software engineering, models must be “aware” of both the *semantic* (runtime behavior, data flow, invariants) and *static* (type‑checking, architectural constraints) facets of software. Without this dual awareness, GAI outputs cannot be confidently used for tasks such as bug fixing, refactoring, or safety‑critical code generation.\n\n3. **New Observation Platforms Are Needed**  \n   To train such “Morescient” models, the paper asserts that we must build software observation platforms capable of producing large, structured, and analyzable execution traces. These platforms would provide the semantic data that current datasets lack.\n\n4. **A Vision and Roadmap for Morescient GAI**  \n   The authors present a high‑level strategy for engineering, evolving, and disseminating Morescient GAI models. This includes design principles, data‑collection pipelines, evaluation metrics, and an open‑science dissemination model.\n\n**Contributions**\n\n| Contribution | Description |\n|--------------|-------------|\n| **Conceptual Framework** | Defines the “Morescient” GAI paradigm, distinguishing it from existing syntactic‑only models and outlining the required semantic and static knowledge. |\n| **Observation Platform Blueprint** | Proposes architectural ideas for platforms that can automatically generate execution observations (e.g., dynamic analysis, instrumentation, test harnesses) and structure them for model training. |\n| **Roadmap & Open‑Science Principles** | Provides a staged plan (research, prototyping, community release) and emphasizes open‑source data, reproducible experiments, and community governance to accelerate adoption. |\n| **Evaluation Guidelines** | Suggests new benchmarks and metrics that capture semantic correctness (e.g., behavioral equivalence, invariant preservation) rather than just syntactic similarity. |\n| **Call to Action** | Encourages the research community to collaborate on shared datasets, tooling, and evaluation suites, positioning the paper as a catalyst for coordinated effort. |\n\n**Overall Assessment**\n\nThe article is primarily a forward‑looking position paper. It identifies a clear limitation in current GAI‑based software engineering tools, articulates the necessity of semantic awareness, and sketches a high‑level plan to achieve it. Its main contribution lies in framing the problem and proposing a coordinated research agenda rather than presenting empirical results or a concrete implementation.",
+            "source_model": "openai/gpt-oss-20b:free",
+            "generated_at": "2026-08-14T15:12:38Z"
+          },
+          "metadata": {},
+          "judge_result": {
+            "criteria_source": "llm",
+            "winner": "bsi",
+            "reasoning": "BSI provides a more comprehensive and detailed analysis, with a stronger theoretical foundation and methodological soundness",
+            "criteria": [
+              {
+                "name": "Novelty and Originality",
+                "importance": 20.0,
+                "raw_score": 8.0,
+                "bsi_score": 9.0,
+                "reason": "BSI provides a more detailed and innovative framework"
+              },
+              {
+                "name": "Methodological Soundness",
+                "importance": 25.0,
+                "raw_score": 6.0,
+                "bsi_score": 8.0,
+                "reason": "BSI provides more detailed and sound methodologies"
+              },
+              {
+                "name": "Practical Applicability",
+                "importance": 20.0,
+                "raw_score": 7.0,
+                "bsi_score": 8.0,
+                "reason": "BSI provides more feasible and applicable ideas"
+              },
+              {
+                "name": "Theoretical Foundation",
+                "importance": 15.0,
+                "raw_score": 5.0,
+                "bsi_score": 8.0,
+                "reason": "BSI provides a stronger theoretical foundation"
+              },
+              {
+                "name": "Clarity and Coherence",
+                "importance": 10.0,
+                "raw_score": 8.0,
+                "bsi_score": 9.0,
+                "reason": "BSI provides a clear, coherent, and well-structured presentation"
+              },
+              {
+                "name": "Evaluation and Validation",
+                "importance": 10.0,
+                "raw_score": 4.0,
+                "bsi_score": 7.0,
+                "reason": "BSI provides more comprehensive evaluation and validation"
+              }
+            ],
+            "total_scores": {
+              "raw": 6.45,
+              "bsi": 8.2
+            },
+            "bsi_capability_assessment": {
+              "relevance": "high",
+              "realization": "medium",
+              "incremental_value": "medium",
+              "reason": "BSI provides some incremental value beyond RAW, but some aspects lack detail"
+            },
+            "incremental_value": "medium",
+            "scale": "0-10",
+            "weight_sum": 100.0
+          },
+          "scores": {
+            "RAW": 0.645,
+            "BSI": 0.82
+          },
+          "failed": false
+        },
+        {
+          "generator": "openrouter",
+          "mode": "bsi",
+          "analysis": {
+            "text": "**تحلیل ارزیابی مقاله: «Morescient GAI for Software Engineering (Extended Version)»**  \n(نسخهٔ ۳.۴.۲ – مستر پرامپت شاخص بهمنش)\n\n---\n\n## ۱. خلاصه اجرایی (Executive Summary) + ادعا اصلی (Core Claim) + امتیاز کلی BSI\n\n| بخش | توضیح |\n|------|-------|\n| **عنوان** | Morescient GAI for Software Engineering (Extended Version) |\n| **خلاصه اجرایی** | مقاله به بررسی نیاز به مدل‌های هوش مصنوعی مولد (GAI) «موردساینت» (Morescient) می‌پردازد؛ مدل‌هایی که علاوه بر جنبهٔ نحوی (syntactic) نرم‌افزار، به جنبهٔ معنایی (semantic) و استاتیک (static) نیز آگاه باشند. نویسندگان چشم‌انداز و نقشهٔ راهی برای طراحی، توسعه و انتشار چنین مدل‌هایی بر اساس اصول علم باز (open science) ارائه می‌دهند. |\n| **ادعا اصلی** | برای دستیابی به اعتماد‌پذیری بالاتر در وظایف مهندسی نرم‌افزار، لازم است مدل‌های GAI به‌صورت همزمان بر روی جنبه‌های معنایی و استاتیک نرم‌افزار آموزش داده شوند؛ این امر مستلزم ایجاد پلتفرم‌های مشاهدهٔ نرم‌افزار (software observation platforms) است که داده‌های اجرایی را به‌صورت ساختارمند تولید کنند. |\n| **امتیاز کلی BSI** | **78/100** – مقاله در حوزهٔ نوآوری و کاربردی بودن بالاست، اما در بخش‌های روش‌شناسی و ارزیابی تجربی جزئیات کافی ندارد. |\n\n---\n\n## ۲. جدول ارزیابی معیارهای اصلی ۷گانه\n\n| معیار | توضیح | امتیاز (1–5) | توضیح کوتاه |\n|-------|-------|--------------|-------------|\n| **۱. نوآوری (Innovation)** | ارائهٔ مفهوم «Morescient» و نقشهٔ راه برای آن | 4 | ایدهٔ جدید، اما جزئیات عملی کم |\n| **۲. روش‌شناسی (Methodology)** | توضیح روش‌های پیشنهادی و ابزارهای مورد نیاز | 3 | توضیحات سطح بالا، جزئیات فنی کم |\n| **۳. تأثیر (Impact)** | امکان تغییر در حوزهٔ مهندسی نرم‌افزار | 5 | تأثیر بالقوهٔ بسیار بالا |\n| **۴. قابلیت اجرا (Feasibility)** | امکان پیاده‌سازی در زمان و منابع محدود | 3 | نیاز به زیرساخت‌های عظیم |\n| **۵. شفافیت (Transparency)** | دسترسی به داده‌ها و کدهای منبع | 4 | اصول علم باز رعایت شده، اما جزئیات کم |\n| **۶. اخلاق و مسئولیت (Ethics & Responsibility)** | بررسی پیامدهای اخلاقی مدل‌های GAI | 4 | نکات اخلاقی مطرح شده، اما تحلیل عمیق‌تری لازم است |\n| **۷. انسجام (Coherence)** | انسجام منطقی بین بخش‌های مقاله | 4 | ساختار منطقی، اما گاهی تکرار |\n\n---\n\n## ۳. جدول CreativeValueAdd\n\n| زیرمعیار | وزن | امتیاز (0–10) | توضیح |\n|----------|-----|----------------|-------|\n| **Epistemic Gap Targeting (35 %)** | 3.5 | 7 | مقاله به‌وضوح شکاف‌های دانش در حوزهٔ GAI و مهندسی نرم‌افزار اشاره می‌کند؛ اما جزئیات دقیق در مورد چگونگی پر کردن این شکاف‌ها کم است. |\n| **Combinatorial Synthesis (40 %)** | 4.0 | 8 | ترکیب مفاهیم جدید (semantic + static) و اصول علم باز، ترکیب خلاقانه‌ای است؛ اما نمونهٔ عملی کم است. |\n| **Generative Capacity (25 %)** | 2.5 | 6 | مقاله به‌صورت نظری به تولید مدل‌های جدید اشاره دارد؛ اما نمونهٔ تولیدی یا آزمایشی ارائه نشده است. |\n| **مجموع (وزن‌دار)** | 10 | **7.3** | مجموع وزن‌دار، نشان‌دهندهٔ ارزش افزودهٔ خلاقانهٔ متوسط است. |\n\n---\n\n## ۴. لایه‌برداری عمیق (Manifest, Latent, Meta)\n\n### ۴.۱ لایهٔ نمایان (Manifest Layer)\n\n| عنصر | مکانیزم | حلقهٔ بازخورد (Feedback Loop) | نقطهٔ بهره‌برداری (Leverage Point) |\n|------|---------|------------------------------|-------------------------------------|\n| **مفهوم Morescient** | تعریف مدل‌های GAI که بر روی semantic و static آموزش می‌بینند | بازخورد از نتایج آزمون‌های عملکردی به بهبود معماری مدل | تغییر معماری مدل (مثلاً افزودن encoder semantic) |\n| **نقشهٔ راه (Roadmap)** | فازهای تحقیق، توسعه، آزمایش، انتشار | بازخورد از جامعهٔ علمی و بازخوردهای باز (open science) | مشارکت جامعهٔ علمی در توسعهٔ پلتفرم‌های مشاهده |\n| **پلتفرم‌های مشاهدهٔ نرم‌افزار** | تولید داده‌های اجرایی ساختارمند | بازخورد از کیفیت داده‌ها به بهبود الگوریتم‌های استخراج | بهینه‌سازی الگوریتم‌های استخراج داده |\n\n### ۴.۲ لایهٔ پنهان (Latent Layer)\n\n| مکانیزم پنهان | الگوهای تکرارشونده | حلقهٔ بازخورد | نقطهٔ بهره‌برداری |\n|---------------|-------------------|--------------|-------------------|\n| **تکامل مدل‌های GAI** | استفاده از transfer learning بین semantic و static | بازخورد از عملکرد مدل در وظایف مختلف | انتخاب بهترین ترکیب مدل‌ها |\n| **تولید داده‌های اجرایی** | استفاده از simulators و sandboxed environments | بازخورد از دقت و تنوع داده‌ها | بهینه‌سازی محیط‌های شبیه‌سازی |\n| **مشارکت جامعهٔ علمی** | انتشار کد و داده‌ها، بازخورد از کاربران | بازخورد از کیفیت مشارکت | ایجاد استانداردهای مشترک برای داده‌ها |\n\n### ۴.۳ لایهٔ متا (Meta Layer)\n\n| عنصر | مکانیزم | حلقهٔ بازخورد | نقطهٔ بهره‌برداری |\n|------|---------|--------------|-------------------|\n| **سیاست‌های علم باز** | دسترسی آزاد به کد و داده‌ها | بازخورد از میزان استفاده و بازخوردهای کاربران | اصلاح سیاست‌ها بر اساس نیازهای جامعه |\n| **ارزیابی اخلاقی** | بررسی پیامدهای اجتماعی و اخلاقی مدل‌ها | بازخورد از سازمان‌های نظارتی و کاربران | تنظیم محدودیت‌های استفاده و سیاست‌های حریم خصوصی |\n| **پایداری و مقیاس‌پذیری** | طراحی زیرساخت‌های مقیاس‌پذیر | بازخورد از مصرف منابع و عملکرد | بهینه‌سازی مصرف انرژی و منابع |\n\n---\n\n## ۵. تحلیل EIG (Epistemic Gap Identification)\n\n| شکاف دانش | توضیح | تأثیر بر ادعا | پیشنهاد برای پر کردن شکاف |\n|------------|-------|---------------|---------------------------|\n| **عدم وجود دادهٔ اجرایی ساختارمند** | مقاله به پلتفرم‌های مشاهدهٔ نرم‌افزار اشاره می‌کند، اما نمونهٔ عملی یا دادهٔ واقعی ارائه نشده است. | ادعا دربارهٔ اعتماد‌پذیری مدل‌ها بدون دادهٔ واقعی، ضعف دارد. | ایجاد یک پایگاه دادهٔ نمونهٔ اجرایی، انتشار آن به صورت باز. |\n| **کمی بودن جزئیات معماری مدل** | توضیحات سطح بالا در مورد ترکیب semantic و static، بدون جزئیات فنی. | امکان پیاده‌سازی و ارزیابی دقیق دشوار است. | ارائهٔ معماری دقیق، کدهای نمونه، و آزمایش‌های مقایسه‌ای. |\n| **عدم ارزیابی تجربی** | مقاله فقط چشم‌انداز و نقشهٔ راه را مطرح می‌کند، بدون آزمایش",
+            "source_model": "openai/gpt-oss-20b:free",
+            "generated_at": "2026-08-14T15:13:47Z"
+          },
+          "metadata": {},
+          "judge_result": {
+            "criteria_source": "llm",
+            "winner": "bsi",
+            "reasoning": "BSI provides a more comprehensive and detailed analysis, with a stronger theoretical foundation and methodological soundness",
+            "criteria": [
+              {
+                "name": "Novelty and Originality",
+                "importance": 20.0,
+                "raw_score": 8.0,
+                "bsi_score": 9.0,
+                "reason": "BSI provides a more detailed and innovative framework"
+              },
+              {
+                "name": "Methodological Soundness",
+                "importance": 25.0,
+                "raw_score": 6.0,
+                "bsi_score": 8.0,
+                "reason": "BSI provides more detailed and sound methodologies"
+              },
+              {
+                "name": "Practical Applicability",
+                "importance": 20.0,
+                "raw_score": 7.0,
+                "bsi_score": 8.0,
+                "reason": "BSI provides more feasible and applicable ideas"
+              },
+              {
+                "name": "Theoretical Foundation",
+                "importance": 15.0,
+                "raw_score": 5.0,
+                "bsi_score": 8.0,
+                "reason": "BSI provides a stronger theoretical foundation"
+              },
+              {
+                "name": "Clarity and Coherence",
+                "importance": 10.0,
+                "raw_score": 8.0,
+                "bsi_score": 9.0,
+                "reason": "BSI provides a clear, coherent, and well-structured presentation"
+              },
+              {
+                "name": "Evaluation and Validation",
+                "importance": 10.0,
+                "raw_score": 4.0,
+                "bsi_score": 7.0,
+                "reason": "BSI provides more comprehensive evaluation and validation"
+              }
+            ],
+            "total_scores": {
+              "raw": 6.45,
+              "bsi": 8.2
+            },
+            "bsi_capability_assessment": {
+              "relevance": "high",
+              "realization": "medium",
+              "incremental_value": "medium",
+              "reason": "BSI provides some incremental value beyond RAW, but some aspects lack detail"
+            },
+            "incremental_value": "medium",
+            "scale": "0-10",
+            "weight_sum": 100.0
+          },
+          "scores": {
+            "RAW": 0.645,
+            "BSI": 0.82
+          },
+          "failed": false
+        }
+      ]
+    }
+  ],
+  "source_url": "https://github.com/ibstrade11-source/behmanesh-index-prompt/blob/main/MASTER_PROMPT_BSI_v3.4.2.md",
+  "run_metadata": {
+    "tool_version": "0.1.0",
+    "git_commit": "8799f32138a68f7b773b5be43423f6cbd061cb06",
+    "git_dirty": false,
+    "run_timestamp_utc": "2026-08-14T15:11:57Z",
+    "methodology_note": "Scores/judgements come from an independent LLM judge (see comparison/judge.py) instructed not to reuse BSI's own D1-D7/EIG vocabulary and to choose its own evaluation criteria. If no judge model is available or its response cannot be parsed, the run falls back to a simple keyword-presence heuristic -- the stored record's own 'criteria_source' field ('llm' vs 'heuristic_fallback') always says honestly which one produced a given result. Neither path is a validated measurement of analytical quality until checked against independent human judgement on a representative sample.",
+    "provider_name": null,
+    "model_version": null,
+    "temperature": null,
+    "max_tokens": null,
+    "prompt_version": null,
+    "framework_name": "bsi"
+  }
+}

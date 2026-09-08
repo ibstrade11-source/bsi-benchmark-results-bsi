@@ -1,0 +1,81 @@
+{
+  "dataset_name": "A Long History: From Universal Language to Artificial Intelligence",
+  "results": [],
+  "source_url": "https://github.com/ibstrade11-source/behmanesh-index-prompt/blob/main/MASTER_PROMPT_BSI_v3.4.2.md",
+  "run_metadata": {
+    "tool_version": "0.1.0",
+    "git_commit": "89a941006de1ccab30f7a16e09f86841cd5991eb",
+    "git_dirty": true,
+    "run_timestamp_utc": "2026-09-07T15:34:36Z",
+    "methodology_note": "Scores/judgements come from an independent LLM judge (see comparison/judge.py) instructed not to reuse BSI's own D1-D7/EIG vocabulary and to choose its own evaluation criteria. If no judge model is available or its response cannot be parsed, the run falls back to a simple keyword-presence heuristic -- the stored record's own 'criteria_source' field ('llm' vs 'heuristic_fallback') always says honestly which one produced a given result. Neither path is a validated measurement of analytical quality until checked against independent human judgement on a representative sample.",
+    "provider_name": null,
+    "model_version": null,
+    "temperature": null,
+    "max_tokens": null,
+    "prompt_version": null,
+    "framework_name": "bsi"
+  },
+  "retrieval_metadata": {
+    "retrieval_status": "invalid",
+    "retrieval_validation": {
+      "retrieval_status": "invalid",
+      "retrieval_validation": "title_mismatch",
+      "query_type": "title",
+      "requested_query": "A Long History: From Universal Language to Artificial Intelligence",
+      "match_score": 0.2944,
+      "threshold": 0.72,
+      "candidate_count": 5,
+      "reason": "title_query_mismatch"
+    },
+    "rejected_articles": [
+      {
+        "title": "Ethical principles for artificial intelligence in education",
+        "doi": "https://doi.org/10.1007/s10639-022-11316-w",
+        "url": "https://openalex.org/W4304943299",
+        "rank": 5,
+        "match_score": 0.2944,
+        "status": "invalid_retrieval",
+        "reason": "title_query_mismatch"
+      },
+      {
+        "title": "Explainability for artificial intelligence in healthcare: a multidisciplinary perspective",
+        "doi": "https://doi.org/10.1186/s12911-020-01332-6",
+        "url": "https://openalex.org/W3109650690",
+        "rank": 2,
+        "match_score": 0.2867,
+        "status": "invalid_retrieval",
+        "reason": "title_query_mismatch"
+      },
+      {
+        "title": "Foundation models for generalist medical artificial intelligence",
+        "doi": "https://doi.org/10.1038/s41586-023-05881-4",
+        "url": "https://openalex.org/W4365143687",
+        "rank": 3,
+        "match_score": 0.2867,
+        "status": "invalid_retrieval",
+        "reason": "title_query_mismatch"
+      },
+      {
+        "title": "Interpreting Black-Box Models: A Review on Explainable Artificial Intelligence",
+        "doi": "https://doi.org/10.1007/s12559-023-10179-8",
+        "url": "https://openalex.org/W4386142022",
+        "rank": 4,
+        "match_score": 0.275,
+        "status": "invalid_retrieval",
+        "reason": "title_query_mismatch"
+      },
+      {
+        "title": "Artificial Intelligence (AI): Multidisciplinary perspectives on emerging challenges, opportunities, and agenda for research, practice and policy",
+        "doi": "https://doi.org/10.1016/j.ijinfomgt.2019.08.002",
+        "url": "https://openalex.org/W2969625533",
+        "rank": 1,
+        "match_score": 0.2604,
+        "status": "invalid_retrieval",
+        "reason": "title_query_mismatch"
+      }
+    ],
+    "skipped_count": 0,
+    "skipped_titles": []
+  },
+  "benchmark_status": "not_benchmarkable"
+}

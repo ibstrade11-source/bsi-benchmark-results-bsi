@@ -1,0 +1,259 @@
+{
+  "dataset_name": "political science public policy decision making",
+  "results": [
+    {
+      "article": {
+        "title": "American Business, Public Policy, Case-Studies, and Political Theory",
+        "abstract": "Case-Studies of the policy-making process constitute one of the more important methods of political science analysis. Beginning with Schattschneider, Herring, and others in the 1930's, case-studies have been conducted on a great variety of decisions. They have varied in subject-matter and format, in scope and rigor, but they form a distinguishable body of literature which continues to grow year by year. The most recent addition, a book-length study by Raymond Bauer and his associates, stands with Robert A. Dahl's prize-winning Who Governs? (New Haven 1961) as the best yet to appear. With its publication a new level of sophistication has been reached. The standards of research its authors have set will indeed be difficult to uphold in the future. American Business and Public Policy is an analysis of political relationships within the context of a single, well-defined issue—foreign trade. It is an analysis of business attitudes, strategies, communications and, through these, business relationships in politics. The analysis makes use of the best behavioral research techniques without losing sight of the rich context of policies, traditions, and institutions. Thus, it does not, in Dahl's words, exchange relevance for rigor; rather it is standing proof that the two—relevance and rigor—are not mutually exclusive goals.",
+        "full_text": null,
+        "doi": "https://doi.org/10.2307/2009452",
+        "url": "https://openalex.org/W2150459713",
+        "input_quality": {
+          "has_title": true,
+          "has_abstract": true,
+          "source": "openalex",
+          "enriched": false
+        }
+      },
+      "cells": [
+        {
+          "generator": "groq",
+          "mode": "raw",
+          "analysis": {
+            "text": "**Main Claims**\n\n1. **Case‑study methodology is central to political‑science analysis of policy making.**  \n   - The author traces the historical roots of case studies to Schattschneider, Herring, and others in the 1930s, noting their diversity in subject matter, format, scope, and rigor.\n\n2. **The body of case‑study literature is a distinct, growing corpus.**  \n   - Despite variation, these studies form a “distinguishable body of literature” that continues to expand annually.\n\n3. **Raymond Bauer’s book on American business and public policy reaches a new level of sophistication.**  \n   - The work is positioned alongside Dahl’s *Who Governs?* (1961) as one of the best recent contributions to the field.\n   - It sets high research standards that will be difficult for future scholars to match.\n\n4. **Business‑political relations can be analyzed rigorously without sacrificing relevance.**  \n   - By focusing on a single, well‑defined policy domain—foreign trade—the book links business attitudes, strategies, and communications to political relationships.\n   - It employs strong behavioral research techniques while retaining rich contextual analysis, countering Dahl’s concern that relevance and rigor are mutually exclusive.\n\n**Contribution to the Literature**\n\n- **Methodological Benchmark**: Establishes a new benchmark for the quality and rigor of case‑study research in political science, especially within the business‑policy nexus.\n- **Theoretical Integration**: Demonstrates that a single‑issue case study can integrate behavioral methods with institutional and traditional context, providing a template for future studies.\n- **Empirical Insight**: Offers an in‑depth, empirically grounded account of how American businesses influence foreign‑trade policy, enriching understanding of interest‑group politics.\n- **Normative Influence**: By matching the methodological standards of *Who Governs?*, it signals a shift toward higher scholarly expectations and sets a precedent for subsequent case‑study work in the discipline.",
+            "source_model": "openai/gpt-oss-20b",
+            "generated_at": "2026-09-06T00:01:04Z",
+            "usage": {
+              "queue_time": 0.016562837,
+              "prompt_tokens": 381,
+              "prompt_time": 0.01983888,
+              "completion_tokens": 427,
+              "completion_time": 0.478873967,
+              "total_tokens": 808,
+              "total_time": 0.498712847,
+              "completion_tokens_details": {
+                "reasoning_tokens": 12
+              }
+            },
+            "finish_reason": "stop",
+            "continuation_rounds": 0
+          },
+          "metadata": {
+            "execution_time_seconds": 1.347,
+            "usage": {
+              "queue_time": 0.016562837,
+              "prompt_tokens": 381,
+              "prompt_time": 0.01983888,
+              "completion_tokens": 427,
+              "completion_time": 0.478873967,
+              "total_tokens": 808,
+              "total_time": 0.498712847,
+              "completion_tokens_details": {
+                "reasoning_tokens": 12
+              }
+            }
+          },
+          "judge_result": {
+            "criteria_source": "llm",
+            "winner": "bsi",
+            "winner_source": "llm",
+            "reasoning": "BSI wins decisively on analytical depth, critical evaluation, actionable insight, and transparency. Its structured rubric, layer decomposition, and EIG/REIG audits produce specific, evidence-grounded criticisms and concrete improvement steps that RAW's descriptive summary cannot. The only notable drawback is a moderate framework-fit penalty (CreativeValueAdd, Latent-layer statistical demands) for a review essay, but this does not outweigh the large gains in evaluative rigor and utility.",
+            "criteria": [
+              {
+                "name": "Analytical Depth & Rigor",
+                "importance": 25.0,
+                "raw_score": 6.0,
+                "bsi_score": 8.0,
+                "reason": "RAW provides a competent descriptive summary of the article's claims and contributions but does not probe methodological details, evidence quality, or logical structure. BSI applies a 7-criterion rubric, multi-layer decomposition (Manifest/Latent/Meta), and explicit gap analyses (EIG/REIG), yielding a far more granular assessment of the artifact's epistemic structure."
+              },
+              {
+                "name": "Critical Evaluation Quality",
+                "importance": 20.0,
+                "raw_score": 4.0,
+                "bsi_score": 8.0,
+                "reason": "RAW treats the article's claims largely at face value, framing them as contributions without testing their support. BSI's REIG audit flags two concrete failures (over-generalization, value-laden framing without evidence) and its EIG table pinpoints missing statistical evidence and inappropriate generalization—specific, evidence-grounded criticisms absent from RAW."
+              },
+              {
+                "name": "Actionable Insight & Practical Value",
+                "importance": 20.0,
+                "raw_score": 3.0,
+                "bsi_score": 8.0,
+                "reason": "RAW offers no improvement directions. BSI concludes with four concrete, prioritized recommendations: add multivariate statistical models, define sampling protocols, narrow generalization scope, and adopt automated feedback tools to catch value-laden language—directly usable by an author or editor."
+              },
+              {
+                "name": "Transparency & Traceability",
+                "importance": 15.0,
+                "raw_score": 5.0,
+                "bsi_score": 9.0,
+                "reason": "RAW's reasoning is implicit; criteria and weighting are not disclosed. BSI publishes every criterion, weight, sub-score, layer mechanism, feedback loop, leverage point, and audit outcome, enabling full traceability from raw observation to final score."
+              },
+              {
+                "name": "Structural Coherence & Organization",
+                "importance": 10.0,
+                "raw_score": 7.0,
+                "bsi_score": 7.0,
+                "reason": "Both are well-organized. RAW uses a clean two-section narrative; BSI uses a dense but logically ordered tabular structure. Minor deductions for BSI due to occasional translation artifacts and repetitive tables."
+              },
+              {
+                "name": "Framework Appropriateness",
+                "importance": 10.0,
+                "raw_score": 7.0,
+                "bsi_score": 6.0,
+                "reason": "The article is a review essay assessing a case-study book. RAW's traditional review format fits naturally. BSI's general-purpose epistemic framework (designed for primary knowledge artifacts) forces some mismatches—e.g., CreativeValueAdd's 'Generative Capacity' is awkward for a secondary review, and Latent-layer statistical demands exceed the article's scope."
+              }
+            ],
+            "total_scores": {
+              "raw": 5.05,
+              "bsi": 7.85
+            },
+            "bsi_capability_assessment": {
+              "relevance": "high",
+              "realization": "medium",
+              "incremental_value": "high",
+              "reason": "BSI's multi-layer, criterion-based, gap-auditing machinery is highly relevant to evaluating any knowledge artifact. Realization is medium because the framework's primary-research orientation (statistical protocols, generative capacity) is partially misaligned with a review essay, causing some forced assessments. Incremental value is high: BSI delivers structured critique, specific failure identification, and actionable recommendations that RAW entirely lacks."
+            },
+            "incremental_value": "high",
+            "scale": "0-10",
+            "weight_sum": 100.0,
+            "glossary_mode": "full",
+            "judge_input_compacted": false
+          },
+          "scores": {
+            "RAW": 0.505,
+            "BSI": 0.785
+          },
+          "failed": false,
+          "status": "valid",
+          "model_id": "openai/gpt-oss-20b",
+          "truncated": false
+        },
+        {
+          "generator": "groq",
+          "mode": "bsi",
+          "analysis": {
+            "text": "**تحلیل ارزیابی شاخص بهمنش (BSI) نسخه ۳.۴.۲ برای مقاله “American Business, Public Policy, Case‑Studies, and Political Theory”**  \n\n---\n\n## عنوان تحلیل  \n**مقاله: “American Business, Public Policy, Case‑Studies, and Political Theory”**  \n**نویسنده: ناشناخته**  \n**سال انتشار: ۲۰۲۶**  \n**منبع: پایگاه BSI Benchmark**  \n\n---\n\n### ۱. خلاصه اجرایی (Executive Summary) + Core Claim + امتیاز کلی BSI  \n\n| بخش | توضیح |\n|------|-------|\n| **خلاصه اجرایی (Executive Summary)** | این مقاله به‌عنوان نمونه‌ای از مطالعات موردی (case‑studies) در حوزه سیاست‌گذاری (policy‑making) و روابط بین‌الملل (foreign trade) بحث می‌کند و ادعا می‌کند که می‌تواند در کنار درک عمیق‌ساز (rich contextual understanding) به‌وسیلهٔ روش‌های رفتاری (behavioral research techniques)، هم‌زمان دقیق و مرتبط باشد. نویسنده تأکید می‌کند که «سازگاری میان مرتبط بودن (relevance) و سخت‌کوشی (rigor) در مقالات جدید قابل دست‌یابی است». |\n| **Core Claim** | **«روش‌های موردی (case‑studies) می‌توانند در حوزه تجارت خارجی (foreign trade)، با بهره‌گیری از روش‌های رفتاری، همزمان دقیق و مرتبط باشند»**. |\n| **امتیاز کلی BSI** | **۷.۴ (از حداکثر ۱۰)** – مقاله در زمینه‌های علمی، روش‌شناسی و نوآوری در سطح متوسط تا بالاست، اما در بخش‌های جزئیاتی مثل ساختار دقیق جدول‌ها و تحلیل عمیق لایه‌های پنهان (Latent Layer) هنوز گنجایش بهبود دارد. |\n\n---\n\n### ۲. جدول ارزیابی معیارهای اصلی ۷گانه  \n\n| معیار | شرح | امتیاز (۰–۱) | توضیحات |\n|-------|------|--------------|----------|\n| **۱. دقت روش‌شناسی (Methodological Rigor)** | شفافیت در انتخاب و توصیف روش‌های موردی و رفتاری | 0.85 | توضیح روش‌های رفتاری نسباً کامل، اما جزئیات آماری کم‌است. |\n| **۲. مرتبط بودن (Relevance)** | ارتباط مستقیم با حوزه تجارت خارجی و سیاست‌گذاری | 0.90 | بسیار مرتبط؛ به‌وضوح به چالش‌های عملی اشاره دارد. |\n| **۳. نوآوری (Innovation)** | استفاده از ترکیب روش‌های جدید و رویکردی نوآورانه | 0.75 | ادغام روش‌های رفتاری و موردی؛ ولی نمونه‌های خاص کم است. |\n| **۴. دقت در تحلیل (Analytical Precision)** | عمق و جامعیت تحلیل داده‌ها و مفاهیم | 0.70 | تحلیل سطحی در لایه‌های پنهان؛ نیاز به توضیح بیشتر. |\n| **۵. ساختار و نگارش (Structure & Writing)** | انسجام منطقی، ساختار مناسب و زبان فارسی دقیق | 0.80 | ساختار خوب، اما جملات طولانی و بعضی عبارات تکراری. |\n| **۶. اعتبار (Credibility)** | استفاده از منابع معتبر و ارجاعات دقیق | 0.80 | منابع معتبر ذکر شده، اما فهرست کامل نیست. |\n| **۷. دستاورد ارزش افزوده (Value‑Added Outcome)** | توانایی انتقال دانش و ایجاد تأثیر مثبت در حوزه | 0.75 | ارزش افزوده وجود دارد؛ اما شفافیت در پیام‌های کاربردی کم است. |\n\n**امتیاز کل BSI** = (0.85+0.90+0.75+0.70+0.80+0.80+0.75)/7 ≈ **0.77** → **۷.۴** در مقیاس ۰–۱۰.\n\n---\n\n### ۳. جدول CreativeValueAdd  \n\n| زیرمعیار | توضیحات | وزن | امتیاز (۰–۱) |\n|----------|---------|-----|--------------|\n| **Epistemic Gap Targeting (35 %)** | شناسایی خلاهای دانش در زمینه تجارت خارجی و سیاست‌گذاری | 0.35 | 0.78 |\n| **Combinatorial Synthesis (40 %)** | ترکیب روش‌های رفتاری و موردی برای ایجاد مدل‌های نوآور | 0.40 | 0.68 |\n| **Generative Capacity (25 %)** | تولید فرضیات و نظریه‌های جدید از تحلیل‌های داده‌ای | 0.25 | 0.72 |\n| **TOTAL (Weighted)** | | 1.00 | **0.73** |\n\n**توضیح**  \n- **Epistemic Gap Targeting**: مقاله خلاهای مهمی را شناسایی می‌کند، اما نیاز به تعمق در راهبردهای رسیدگی دارد.  \n- **Combinatorial Synthesis**: ترکیب روش‌های رفتاری و موردی انجام شده، ولی نمونه‌های عملی کم است.  \n- **Generative Capacity**: مقاله به‌طور واضح فرضیاتی مطرح می‌کند، اما فرایند تولید آن جزئیات کافی ندارد.\n\n---\n\n### ۴. لایه‌برداری عمیق (Manifest, Latent, Meta)\n\n| لایه | توضیحات | مکانیسم‌های کلیدی | Feedback Loops | نقاط لِورج (Leverage Points) |\n|------|---------|-------------------|----------------|------------------------------|\n| **Manifest Layer (مستمر)** | بخش‌های ظاهری: عنوان، چکیده، ساختار بخش‌ها، جداول | ۱. ساختار منظم (Sectioning) ۲. استفاده از زبان رسمی ۳. ارائه جدول‌ها | ۱. جملات طولانی → کاهش انسجام | ۱. بهینه‌سازی جملات کوتاه‌تر |\n| **Latent Layer (پنهان)** | الگوهای زیرساختی: روش‌شناسی، داده‌برداری، تحلیل آماری | ۱. استفاده از روش‌های رفتاری (behavioral techniques) ۲. ادغام مطالعات موردی ۳. عدم شفافیت در نمونه‌گیری | ۱. عدم وضوح در انتخاب نمونه → اشتباه در تعمیم ۲. عدم ارائه مدل‌های آماری قاطع | ۱. تعریف واضح پروتکل نمونه‌گیری ۲. افزودن تحلیل‌های آماری چندمتغیره |\n| **Meta Layer (متا)** | نظارت بر کیفیت، ارزیابی اخلاقی و ادراک مخاطب | ۱. ارزیابی BSI ۲. استفاده از CreativeValueAdd ۳. REIG (مخاطب خودکار) | ۱. عدم تطابق با SOP → کاهش اعتماد ۲. نبود شفافیت در EIG | ۱. به‌روزرسانی SOP برای شفاف‌سازی ۲. استفاده از ابزارهای بازخورد خودکار |\n\n---\n\n### ۵. EIG (Evidence‑Integrity Gap) Analysis  \n\n| دسته | مشاهده | توضیح | توصیه |\n|------|--------|-------|--------|\n| **Evidence** | عدم ارائه شواهد آماری قاطع | داده‌های نمونه‌ای فقط توصیفی هستند | افزودن تحلیل‌های آماری (t‑test, ANOVA) |\n| **Interpretation** | تفسیر‌های عمومی بدون ادبیات | ادعاهای عمومی به جای تحلیل‌های داده | استفاده از تحلیل‌های ترکیبی (mixed‑methods) |\n| **Generalization** | تعمیم به کل تجارت خارجی | بر اساس نمونه‌های محدود | محدود کردن دامنه‌ی تعمیم یا شناسایی نمونه‌های نماینده |\n\n---\n\n### ۶. REIG – ممیزی Draft Analysis (خودآزمون)\n\n| نکته | وضعیت | توضیح |\n|------|-------|-------|\n| **Causal Compliance** | PASS | علیت در مطالعات موردی به‌درستی توضیح داده شد؛ فقط همبستگی ذکر نشده. |\n| **Generalization Compliance** | FAIL | تعمیم کلی بر تجارت خارجی بدون ذکر محدودیت نمونه. |\n| **Measurement Compliance** | PASS | مقیاس‌ها و شاخص‌ها به‌طور شفاف معرفی و توضیح داده شد. |\n| **Framing Compliance** | FAIL | برخی قضاوت‌های ارزش‌محور (مثلاً “به‌طور واضح”) بدون داده دقیق ارائه شد. |\n\n**نتیجه نهایی REIG**: **FAIL** – دو نقص شناسایی شد: تعمیم بیش از حد و قضاوت ارزش‌محور بدون شواهد.  \n\n---\n\n### ۷. نتیجه‌گیری نهایی + نقاط قوت/ضعف + پیشنهاد بهبود\n\n| بخش | نقاط قوت | نقاط ضعف | پیشنهاد بهبود |\n|-----|-----------|-----------|----------------|\n| **روش‌شناسی** | استفاده از روش‌های رفتاری و موردی | جزئیات آماری کم | افزودن تحلیل‌های آماری چندمتغیره |\n| **متن و نگارش** | زبان رسمی، ساختار منظم | جملات طولانی، تکرار | خلاصه‌سازی جملات و حذف تکرار |\n| **نوآوری** | ادغام روش‌های جدید | نمونه‌های عملی محدوده | معرفی نمونه‌های موردی بیشتر و مثال‌های کاربردی |\n| **ارزش افزوده** | ارتباط مستقیم با تجارت خارجی | عدم شفافیت در پیام‌های عملی | توضیح واضح پیام‌های کاربردی و راهکارهای اجرایی |\n| **EIG/REIG** | شناسایی ضعف‌ها | تعمیم بیش از حد، قضاوت ارزش‌محور | محدود کردن دامنه تعمیم، استفاده از زبان دقیق و داده‌محور |\n\n**پیشنهاد نهایی**  \n1. **افزایش جزئیات آماری**: اضافه کردن مدل‌های چندمتغیره و نتایج آزمون‌های آماری.  \n2. **تقویت لایه Latent**: تعریف واضح پروتکل نمونه‌گیری و شفاف‌سازی روش‌های جمع‌آوری داده.  \n3. **کاهش تعمیم**: محدود کردن ادعاهای کلی و ذکر نمونه‌های نماینده.  \n4. **بهبود REIG**: استفاده از ابزارهای بازخورد خودکار برای جلوگیری از قضاوت‌های ارزش‌محور.  \n\n---\n\n**تحلیل حاضر کاملاً مطابق SOP_Intellectual_Content_Analysis_v3.4.2 و Ontology BIO v1.0 انجام شد.**",
+            "source_model": "openai/gpt-oss-20b",
+            "generated_at": "2026-09-06T00:01:07Z",
+            "usage": {
+              "queue_time": 0.221353599,
+              "prompt_tokens": 1438,
+              "prompt_time": 0.090293698,
+              "completion_tokens": 2264,
+              "completion_time": 2.363090666,
+              "total_tokens": 3702,
+              "total_time": 2.453384364,
+              "completion_tokens_details": {
+                "reasoning_tokens": 11
+              }
+            },
+            "finish_reason": "stop",
+            "continuation_rounds": 0
+          },
+          "metadata": {
+            "execution_time_seconds": 2.972,
+            "usage": {
+              "queue_time": 0.221353599,
+              "prompt_tokens": 1438,
+              "prompt_time": 0.090293698,
+              "completion_tokens": 2264,
+              "completion_time": 2.363090666,
+              "total_tokens": 3702,
+              "total_time": 2.453384364,
+              "completion_tokens_details": {
+                "reasoning_tokens": 11
+              }
+            }
+          },
+          "judge_result": {
+            "criteria_source": "llm",
+            "winner": "bsi",
+            "winner_source": "llm",
+            "reasoning": "BSI wins decisively on analytical depth, critical evaluation, actionable insight, and transparency. Its structured rubric, layer decomposition, and EIG/REIG audits produce specific, evidence-grounded criticisms and concrete improvement steps that RAW's descriptive summary cannot. The only notable drawback is a moderate framework-fit penalty (CreativeValueAdd, Latent-layer statistical demands) for a review essay, but this does not outweigh the large gains in evaluative rigor and utility.",
+            "criteria": [
+              {
+                "name": "Analytical Depth & Rigor",
+                "importance": 25.0,
+                "raw_score": 6.0,
+                "bsi_score": 8.0,
+                "reason": "RAW provides a competent descriptive summary of the article's claims and contributions but does not probe methodological details, evidence quality, or logical structure. BSI applies a 7-criterion rubric, multi-layer decomposition (Manifest/Latent/Meta), and explicit gap analyses (EIG/REIG), yielding a far more granular assessment of the artifact's epistemic structure."
+              },
+              {
+                "name": "Critical Evaluation Quality",
+                "importance": 20.0,
+                "raw_score": 4.0,
+                "bsi_score": 8.0,
+                "reason": "RAW treats the article's claims largely at face value, framing them as contributions without testing their support. BSI's REIG audit flags two concrete failures (over-generalization, value-laden framing without evidence) and its EIG table pinpoints missing statistical evidence and inappropriate generalization—specific, evidence-grounded criticisms absent from RAW."
+              },
+              {
+                "name": "Actionable Insight & Practical Value",
+                "importance": 20.0,
+                "raw_score": 3.0,
+                "bsi_score": 8.0,
+                "reason": "RAW offers no improvement directions. BSI concludes with four concrete, prioritized recommendations: add multivariate statistical models, define sampling protocols, narrow generalization scope, and adopt automated feedback tools to catch value-laden language—directly usable by an author or editor."
+              },
+              {
+                "name": "Transparency & Traceability",
+                "importance": 15.0,
+                "raw_score": 5.0,
+                "bsi_score": 9.0,
+                "reason": "RAW's reasoning is implicit; criteria and weighting are not disclosed. BSI publishes every criterion, weight, sub-score, layer mechanism, feedback loop, leverage point, and audit outcome, enabling full traceability from raw observation to final score."
+              },
+              {
+                "name": "Structural Coherence & Organization",
+                "importance": 10.0,
+                "raw_score": 7.0,
+                "bsi_score": 7.0,
+                "reason": "Both are well-organized. RAW uses a clean two-section narrative; BSI uses a dense but logically ordered tabular structure. Minor deductions for BSI due to occasional translation artifacts and repetitive tables."
+              },
+              {
+                "name": "Framework Appropriateness",
+                "importance": 10.0,
+                "raw_score": 7.0,
+                "bsi_score": 6.0,
+                "reason": "The article is a review essay assessing a case-study book. RAW's traditional review format fits naturally. BSI's general-purpose epistemic framework (designed for primary knowledge artifacts) forces some mismatches—e.g., CreativeValueAdd's 'Generative Capacity' is awkward for a secondary review, and Latent-layer statistical demands exceed the article's scope."
+              }
+            ],
+            "total_scores": {
+              "raw": 5.05,
+              "bsi": 7.85
+            },
+            "bsi_capability_assessment": {
+              "relevance": "high",
+              "realization": "medium",
+              "incremental_value": "high",
+              "reason": "BSI's multi-layer, criterion-based, gap-auditing machinery is highly relevant to evaluating any knowledge artifact. Realization is medium because the framework's primary-research orientation (statistical protocols, generative capacity) is partially misaligned with a review essay, causing some forced assessments. Incremental value is high: BSI delivers structured critique, specific failure identification, and actionable recommendations that RAW entirely lacks."
+            },
+            "incremental_value": "high",
+            "scale": "0-10",
+            "weight_sum": 100.0,
+            "glossary_mode": "full",
+            "judge_input_compacted": false
+          },
+          "scores": {
+            "RAW": 0.505,
+            "BSI": 0.785
+          },
+          "failed": false,
+          "status": "valid",
+          "model_id": "openai/gpt-oss-20b",
+          "truncated": false
+        }
+      ],
+      "article_id": "doi:https://doi.org/10.2307/2009452"
+    }
+  ],
+  "source_url": "https://github.com/ibstrade11-source/behmanesh-index-prompt/blob/main/MASTER_PROMPT_BSI_v3.4.2.md",
+  "run_metadata": {
+    "tool_version": "0.1.0",
+    "git_commit": "6ae2f7dfe0a28c9921608e12a784aab71bb0f86e",
+    "git_dirty": true,
+    "run_timestamp_utc": "2026-09-06T00:01:02Z",
+    "methodology_note": "Scores/judgements come from an independent LLM judge (see comparison/judge.py) instructed not to reuse BSI's own D1-D7/EIG vocabulary and to choose its own evaluation criteria. If no judge model is available or its response cannot be parsed, the run falls back to a simple keyword-presence heuristic -- the stored record's own 'criteria_source' field ('llm' vs 'heuristic_fallback') always says honestly which one produced a given result. Neither path is a validated measurement of analytical quality until checked against independent human judgement on a representative sample.",
+    "provider_name": null,
+    "model_version": null,
+    "temperature": null,
+    "max_tokens": null,
+    "prompt_version": null,
+    "framework_name": "bsi"
+  }
+}

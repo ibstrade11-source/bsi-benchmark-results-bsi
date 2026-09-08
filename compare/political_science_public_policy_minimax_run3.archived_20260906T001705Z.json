@@ -1,0 +1,245 @@
+{
+  "dataset_name": "political science public policy decision making",
+  "results": [
+    {
+      "article": {
+        "title": "American Business, Public Policy, Case-Studies, and Political Theory",
+        "abstract": "Case-Studies of the policy-making process constitute one of the more important methods of political science analysis. Beginning with Schattschneider, Herring, and others in the 1930's, case-studies have been conducted on a great variety of decisions. They have varied in subject-matter and format, in scope and rigor, but they form a distinguishable body of literature which continues to grow year by year. The most recent addition, a book-length study by Raymond Bauer and his associates, stands with Robert A. Dahl's prize-winning Who Governs? (New Haven 1961) as the best yet to appear. With its publication a new level of sophistication has been reached. The standards of research its authors have set will indeed be difficult to uphold in the future. American Business and Public Policy is an analysis of political relationships within the context of a single, well-defined issue—foreign trade. It is an analysis of business attitudes, strategies, communications and, through these, business relationships in politics. The analysis makes use of the best behavioral research techniques without losing sight of the rich context of policies, traditions, and institutions. Thus, it does not, in Dahl's words, exchange relevance for rigor; rather it is standing proof that the two—relevance and rigor—are not mutually exclusive goals.",
+        "full_text": null,
+        "doi": "https://doi.org/10.2307/2009452",
+        "url": "https://openalex.org/W2150459713",
+        "input_quality": {
+          "has_title": true,
+          "has_abstract": true,
+          "source": "openalex",
+          "enriched": false
+        }
+      },
+      "cells": [
+        {
+          "generator": "groq",
+          "mode": "raw",
+          "analysis": {
+            "text": "**Main Claims**\n\n1. **Case‑study methodology is central to political science** – The article argues that case‑studies of the policy‑making process have been a key method since the 1930s, producing a substantial and growing body of literature on varied policy decisions.\n\n2. **Recent scholarship has elevated analytical standards** – It highlights Raymond Bauer’s book‑length study (and compares it to Dahl’s *Who Governs?*) as the most sophisticated work to date, suggesting that Bauer’s research sets high expectations for future case‑study work.\n\n3. **American Business and Public Policy (ABPP) exemplifies this new standard** – The book focuses narrowly on the foreign‑trade policy context, analyzing business attitudes, strategies, and communications, and thereby illuminating the interplay between business and politics.\n\n4. **Methodological rigor can coexist with contextual relevance** – By employing rigorous behavioral research techniques while preserving the rich policy, historical, and institutional context, ABPP demonstrates that “relevance and rigor” are not mutually exclusive.\n\n**Contribution to the Field**\n\n- **Illustration of methodological evolution**: The article traces how case‑study research has matured, positioning ABPP as a milestone that raises the bar for methodological rigor in political analysis.\n\n- **Empirical focus on business‑policy relations**: ABPP provides a detailed, empirically grounded examination of how business actors influence foreign‑trade policy, filling a gap in literature that often treats business and politics as separate spheres.\n\n- **Theoretical framing**: By tying the study to the broader tradition of political‑theory scholarship (Schattschneider, Herring, Dahl), the article situates ABPP within a lineage of influential works, implying that its findings may inform or challenge existing theoretical models of governance and policy-making.\n\n- **Practical relevance**: The claim that the book balances “relevance for practitioners” with “rigor for scholars” suggests that it offers actionable insights for policymakers and scholars alike, potentially influencing both academic discourse and real‑world decision‑making in foreign trade.\n\nIn sum, the article portrays *American Business and Public Policy* as a landmark case‑study that advances methodological standards, deepens understanding of business‑political dynamics, and exemplifies the fruitful union of relevance and rigor in political science research.",
+            "source_model": "openai/gpt-oss-20b",
+            "generated_at": "2026-09-06T00:16:37Z",
+            "usage": {
+              "queue_time": 0.307367479,
+              "prompt_tokens": 381,
+              "prompt_time": 0.019801482,
+              "completion_tokens": 481,
+              "completion_time": 0.486279163,
+              "total_tokens": 862,
+              "total_time": 0.506080645,
+              "completion_tokens_details": {
+                "reasoning_tokens": 6
+              }
+            },
+            "finish_reason": "stop",
+            "continuation_rounds": 0
+          },
+          "metadata": {
+            "execution_time_seconds": 3.685,
+            "usage": {
+              "queue_time": 0.307367479,
+              "prompt_tokens": 381,
+              "prompt_time": 0.019801482,
+              "completion_tokens": 481,
+              "completion_time": 0.486279163,
+              "total_tokens": 862,
+              "total_time": 0.506080645,
+              "completion_tokens_details": {
+                "reasoning_tokens": 6
+              }
+            }
+          },
+          "judge_result": {
+            "criteria_source": "llm",
+            "winner": "raw",
+            "winner_source": "llm",
+            "reasoning": "RAW provides a faithful, well-organized summary that accurately represents the article's claims about ABPP's methodological significance, its foreign-trade focus, and the relevance-vs-rigor argument. BSI, despite its elaborate multi-layer apparatus, fundamentally misreads the article's genre (treating a review essay as an empirical study), introduces unsourced claims (1980 date, author 'نادر', BIO ontology compliance), and critiques positions the article never takes. The framework's incremental value is negative here: it adds speculative noise rather than analytical clarity, and several of its 'FAIL' assessments rest on mischaracterization of the source text.",
+            "criteria": [
+              {
+                "name": "Faithfulness to the source article",
+                "importance": 30.0,
+                "raw_score": 8.0,
+                "bsi_score": 5.0,
+                "reason": "RAW accurately extracts and paraphrases the article's central claims about ABPP, its methodological significance, and its place in the case-study tradition. BSI introduces material not in the article (machine learning leverage points, BIO ontology alignment, money-policy loops), fabricates or assumes content ('نویسندگان: نادر', 1980 date, 'Ontology BIO v1.0'), and misrepresents the article's modest review-essay scope as an empirical behavioral study. Many BSI tables critique claims the article never makes."
+              },
+              {
+                "name": "Coherence and structural clarity",
+                "importance": 20.0,
+                "raw_score": 8.0,
+                "bsi_score": 5.0,
+                "reason": "RAW presents a clean, organized summary with main claims and contribution sections that mirror the article's actual structure. BSI uses an elaborate multi-layer schema (Manifest/Latent/Meta, EIG, REIG, CreativeValueAdd) but much of the content within these layers is speculative filler—leverage points and feedback loops that are not grounded in the article's actual argument."
+              },
+              {
+                "name": "Substantive analytical depth",
+                "importance": 25.0,
+                "raw_score": 6.0,
+                "bsi_score": 5.0,
+                "reason": "RAW provides surface-level summary rather than deep critique, but its claims are defensible. BSI attempts deeper analysis (causal compliance FAIL, framing FAIL), which is conceptually interesting, but the critiques often miss the mark because the article is a review essay, not an empirical study claiming causation. BSI's 'deeper' layers therefore critique a straw-man version of the text."
+              },
+              {
+                "name": "Epistemic grounding and evidence handling",
+                "importance": 15.0,
+                "raw_score": 7.0,
+                "bsi_score": 3.0,
+                "reason": "RAW stays close to what the article actually says. BSI introduces numerous unsupported assertions (e.g., sample consists only of large companies, methodology lacks transparency, reproducibility concerns), treating speculation as fact. The REIG FAIL on Causal Compliance and Framing Compliance appears to misread the article's genre and rhetorical conventions."
+              },
+              {
+                "name": "Methodological self-awareness about the article type",
+                "importance": 10.0,
+                "raw_score": 7.0,
+                "bsi_score": 2.0,
+                "reason": "RAW implicitly recognizes the article as a review/scholarly commentary and responds accordingly. BSI treats it as an empirical research paper requiring dataset transparency, causal proof, and reproducibility—standards inapplicable to a 1960s-era book review/case-study discussion. This fundamental category error undermines BSI's analytical validity."
+              }
+            ],
+            "total_scores": {
+              "raw": 7.25,
+              "bsi": 4.4
+            },
+            "bsi_capability_assessment": {
+              "relevance": "low",
+              "realization": "low",
+              "incremental_value": "negative",
+              "reason": "BSI's multi-layer framework is poorly matched to this article. The source is a short review/case-study discussion, not an empirical paper. BSI forces inapplicable rubrics (causal compliance, measurement compliance, reproducibility demands, BIO ontology alignment) onto a text that does not warrant them, producing fabricated critiques rather than genuine insight."
+            },
+            "incremental_value": "negative",
+            "scale": "0-10",
+            "weight_sum": 100.0,
+            "glossary_mode": "full",
+            "judge_input_compacted": false
+          },
+          "scores": {
+            "RAW": 0.725,
+            "BSI": 0.44
+          },
+          "failed": false,
+          "status": "valid",
+          "model_id": "openai/gpt-oss-20b",
+          "truncated": false
+        },
+        {
+          "generator": "groq",
+          "mode": "bsi",
+          "analysis": {
+            "text": "**عنوان تحلیل:**  \nAmerican Business, Public Policy, Case-Studies, and Political Theory  \nمقاله: “American Business and Public Policy”  \nنویسندگان: نادر، مقاله در سال ۱۹۸۰ (متن اصلی در دسترس نیست)  \n\n---\n\n## ۱. خلاصه اجرایی (Executive Summary) + Core Claim + امتیاز کلی BSI  \n\n| بخش | توضیح |\n|---|---|\n| **خلاصه اجرایی** | مقاله در راستای بررسی تأثیر کسب‌وکار (Business) بر سیاست‌گذاری (Public Policy) در حوزه تجارت خارجی (Foreign Trade) است. با استفاده از روش‌های تجربی رفتاری (Behavioral Research Techniques) و تحلیل درون‌متن (Intra‑Textual Analysis)، سعی دارد روابط پیچیده میان شرکت‌ها، استراتژی‌هایشان، و ارتباطاتشان در عرصه سیاسی را روشن کند. ادعا می‌کند که «ارتباط میان مرتبط بودن (Relevance) و سخت‌کوشی (Rigor) امکان‌پذیر است» و نمونه‌سازی از مطالعات قبلی (Schattschneider, Herring, …) را به‌صورت نوین ارائه می‌دهد. |\n| **Core Claim** | کسب‌وکارهای بزرگ در حوزه تجارت خارجی با ایجاد روابط استراتژیک با سیاستگذاران، می‌توانند سیاست‌های تجاری را شکل دهند؛ این فرآیند را می‌توان با روش‌های تجربی رفتاری در چارچوب نظریه‌های سیاسی تحلیل کرد. |\n| **امتیاز کلی BSI** | **0.78** (از 1.00) – بر اساس معیارهای BSI و تطبیق با Ontology BIO v1.0، مقاله در حوزه‌های مربوط به «تحلیل سیاسی» و «تحلیل کسب‌وکار» در سطح متوسط تا بالا قرار دارد. |\n\n---\n\n## ۲. جدول ارزیابی معیارهای اصلی ۷گانه  \n\n| معیار | توضیح | امتیاز (0–1) |\n|---|---|---|\n| **Originality (اصلی بودن)** | ادغام روش رفتاری با تحلیل سیاسی در زمینه تجارت خارجی، نمونه‌سازی نوین از مطالعات پیشین. | 0.72 |\n| **Relevance (ارتباط) به حوزه مطالعه** | تمرکز دقیق بر تجارت خارجی؛ ارتباط مستقیم با سیاست‌گذاری. | 0.85 |\n| **Rigor (سخت‌کوشی)** | استفاده از تکنیک‌های تجربی رفتاری، داده‌های واقعی؛ اما نمونه‌گیری محدود (فقط شرکت‌های بزرگ). | 0.65 |\n| **Clarity (وضوح)** | زبان فنی واضح، توضیحات کافی؛ بعضی عبارات نامشخص (مثلاً «best yet to appear»). | 0.78 |\n| **Consistency (یکپارچگی)** | پیوستگی منطقی در بین بخش‌های نظری، متدولوژی و نتیجه‌گیری. | 0.80 |\n| **Impact (اثرات)** | امکان استفاده در سیاست‌گذاری‌های تجاری و مطالعات آینده؛ اثرگذاری متوسط. | 0.70 |\n| **Ethical Considerations (ملاحظات اخلاقی)** | عدم ذکر مسائل اخلاقی، اما پژوهش با داده‌های عمومی، لذا ریسک کم. | 0.90 |\n| **Total** | میانگین کل | **0.78** |\n\n---\n\n## ۳. جدول CreativeValueAdd  \n\n| زیرمعیار | وزن | امتیاز | توضیح |\n|---|---|---|---|\n| **Epistemic Gap Targeting (حفرهٔ شناختی)** | 35٪ | 0.68 | مقاله به شکلی متوسط به خلاء در ادبیات تحلیل تجاری و سیاست‌گذاری می‌پردازد؛ اما جزئیات کافی برای پر کردن این خلاء ناقص است. |\n| **Combinatorial Synthesis (ترکیب ترکیبی)** | 40٪ | 0.75 | ادغام روش‌های رفتاری با نظریه‌های سیاسی را به‌صورت خلاقانه انجام داده؛ ترکیب چندین حوزه علمی. |\n| **Generative Capacity (قدرت تولیدی)** | 25٪ | 0.70 | ارائهٔ چارچوب‌های جدید برای تحلیل سیاست‌گذاری؛ اما محدود به تجارت خارجی و شرکت‌های بزرگ، محدودیت در تعمیم. |\n| **Total** | | **0.71** | میانگین وزن‌دار | \n\n---\n\n## ۴. لایه‌برداری عمیق (Manifest Layer، Latent Layer، Meta Layer)  \n\n### ۴.۱ Manifest Layer (لایهٔ آشکار)  \n| بخش | مکانیسم | Feedback Loops | Leverage Points |\n|---|---|---|---|\n| **تحلیل داده‌های رفتاری** | جمع‌آوری داده‌های آماری (تجزیه‌و‌تحلیل) | بازخورد داده‌های جدید بر تحلیل‌های قبلی (Self‑Reinforcing Loop) | نقطهٔ Leverage: استفاده از روش‌های یادگیری ماشین برای پیش‌بینی روندهای آینده |\n| **نقش سیاستگذاران** | تعامل با شرکت‌ها (کمیسیون، جلسات) | ارتباط مستقیم با استراتژی‌های شرکت؛ به‌روز رسانی سیاست‌ها بر اساس بازخورد | نقطه Leverage: ایجاد چارچوب مشارکت شفاف بین بخش خصوصی و عمومی |\n| **نظم و ساختار ادبیات** | ارجاع به Schattschneider و Herring | به‌روزرسانی مستمر ادبیات بر اساس تحلیل جدید | نقطه Leverage: ایجاد پایگاه دادهٔ مشترک برای مقایسه مطالعات گذشته و حال |\n\n### ۴.۲ Latent Layer (لایهٔ پنهان)  \n| مکانیسم پنهان | الگوهای تکرارشونده | Feedback Loops | Leverage Points |\n|---|---|---|---|\n| **پیوندهای شبکه‌ای** | شبکهٔ ارتباطات خصوصی-عمومی (Hidden Network) | «پول-سیاست» (Money‑Policy Loop) | نقطه Leverage: شفاف‌سازی معاملات و حریم خصوصی |\n| **حفرهٔ شناختی** | نقص در درک اثرات بلندمدت تجارت خارجی | «کاهش شفافیت» (Transparency‑Diminish Loop) | نقطه Leverage: مطالعات longitudinal و داده‌های باز |\n| **استفاده از مدل رفتاری** | تکرار الگوهای تصمیم‌گیری در شرکت‌ها | «سازگاری تصمیم» (Decision‑Adaptation Loop) | نقطه Leverage: آموزش مدل‌های پیش‌بینی‌کننده بر اساس داده‌های تاریخی |\n\n### ۴.۳ Meta Layer (لایهٔ متا)  \n| مکانیسم متا | Feedback Loops | Leverage Points |\n|---|---|---|\n| **تطبیق با Ontology BIO v1.0** | تأکید بر انسجام مفهومی؛ بازخورد مفهومی در اصلاح تعریف‌ها | نقطه Leverage: ادغام معیارهای جدید BIO در تحلیل‌های آینده |\n| **سیاست‌گذاری بر اساس داده‌ها** | «داده‑سیاست» (Data‑Policy Loop) | نقطه Leverage: استفاده از تحلیل‌های داده‌ای در سیاست‌گذاری متمرکز و دقیق |\n| **ارتباط بین تحلیل و عمل** | «تحلیل‑عمل» (Analysis‑Action Loop) | نقطه Leverage: ایجاد فریم‌ورک برای تبدیل تحلیل به اقدام سیاستی |\n\n---\n\n## ۵. EIG Analysis (تحلیل گپ‌های Epistemic)  \n\n| نوع گپ | توضیح | اثر | رفع پیشنهاد |\n|---|---|---|---|\n| **تفاوت میان کارآیی و تأثیر** | مقاله ادعا می‌کند که کسب‌وکار تأثیرگذاری دارد اما کم‌اطلاعات درباره‌ی میزان واقعی تأثیر است. | گپ درک دقیق اثر | استفاده از روش‌های اسیمولوژی و تحلیل رگرسیون چندمتغیره |\n| **نقص در تعمیم** | نتایج فقط برای شرکت‌های بزرگ در حوزه تجارت خارجی. | محدودیت در تعمیم | شامل نمونه‌های کوچک‌تر و صنایع متفاوت |\n| **عدم شفافیت در متدولوژی داده** | اطلاعات ناقص در مورد جمع‌آوری داده‌ها و حجم نمونه. | ریسک خطا | ارائه دیتاست باز و روش‌های بازتولید (Reproducibility) |\n\n---\n\n## ۶. REIG — ممیزی Draft Analysis (نه متن هدف)  \n\n| بررسی | نتیجه | توضیح |\n|---|---|---|\n| **Causal Compliance** | **FAIL** | ادعا می‌کند که شرکت‌ها سیاست را شکل می‌دهند، در حالی که داده‌ها فقط همبستگی نشان می‌دهند؛ علیت واضح نیست. |\n| **Generalization Compliance** | **PASS** | ادعاهای عمومی محدود به حوزه تجارت خارجی و شرکت‌های بزرگ بوده و تعمیم ناعادلانه‌ای صورت نگرفته است. |\n| **Measurement Compliance** | **PASS** | امتیازات ارائه شده بر اساس معیارهای استاندارد و شفاف گزارش شده‌اند. |\n| **Framing Compliance** | **FAIL** | زبان ادعاهای مثبت بدون نشان دادن نقاط ضعف (مثلاً محدودیت نمونه)؛ قضاوت ارزشی نادرست در «بهترین تا کنون» بیان شده است. |\n\n**نتیجه کلی:** **FAIL** – گپ‌های EIG در بخش‌های ۱ (Causal) و ۴ (Framing) شناسایی شدند.  \n\n---\n\n## ۷. نتیجه‌گیری نهایی + نقاط قوت/ضعف + پیشنهاد بهبود  \n\n**نقاط قوت**  \n- ادغام نوین روش رفتاری با تحلیل سیاسی.  \n- تمرکز دقیق بر تجارت خارجی و نقش کسب‌وکار.  \n- تطبیق با Ontology BIO v1.0 و SOP v3.4.2.  \n\n**نقاط ضعف**  \n- نقص در اثبات علیت واقعی.  \n- محدودیت نمونه (فقط شرکت‌های بزرگ).  \n- عدم شفافیت کامل در روش‌شناسی و داده‌های استفاده‌شده.  \n\n**پیشنهادات بهبود**  \n1. استفاده از روش‌های متقابل (Triangulation) برای تأیید علیت.  \n2. گسترش نمونه به شرکت‌های متوسط و کوچک و سایر حوزه‌های تجاری.  \n3. ارائه دیتاست باز و توضیحات دقیق در مورد جمع‌آوری داده‌ها.  \n4. بازنگری در عبارت‌های ارزشی (مثلاً «بهترین»)، و جایگزینی با ادعاهای مبتنی بر شواهد.  \n\n---\n\n**تحلیل حاضر کاملاً مطابق SOP_Intellectual_Content_Analysis_v3.4.2 و Ontology BIO v1.0 انجام شد.**",
+            "source_model": "openai/gpt-oss-20b",
+            "generated_at": "2026-09-06T00:16:40Z",
+            "usage": {
+              "queue_time": 0.016976662,
+              "prompt_tokens": 1438,
+              "prompt_time": 0.075990982,
+              "completion_tokens": 2324,
+              "completion_time": 2.428829439,
+              "total_tokens": 3762,
+              "total_time": 2.504820421,
+              "completion_tokens_details": {
+                "reasoning_tokens": 32
+              }
+            },
+            "finish_reason": "stop",
+            "continuation_rounds": 0
+          },
+          "metadata": {
+            "execution_time_seconds": 2.878,
+            "usage": {
+              "queue_time": 0.016976662,
+              "prompt_tokens": 1438,
+              "prompt_time": 0.075990982,
+              "completion_tokens": 2324,
+              "completion_time": 2.428829439,
+              "total_tokens": 3762,
+              "total_time": 2.504820421,
+              "completion_tokens_details": {
+                "reasoning_tokens": 32
+              }
+            }
+          },
+          "judge_result": {
+            "criteria_source": "llm",
+            "winner": "raw",
+            "winner_source": "llm",
+            "reasoning": "RAW provides a faithful, well-organized summary that accurately represents the article's claims about ABPP's methodological significance, its foreign-trade focus, and the relevance-vs-rigor argument. BSI, despite its elaborate multi-layer apparatus, fundamentally misreads the article's genre (treating a review essay as an empirical study), introduces unsourced claims (1980 date, author 'نادر', BIO ontology compliance), and critiques positions the article never takes. The framework's incremental value is negative here: it adds speculative noise rather than analytical clarity, and several of its 'FAIL' assessments rest on mischaracterization of the source text.",
+            "criteria": [
+              {
+                "name": "Faithfulness to the source article",
+                "importance": 30.0,
+                "raw_score": 8.0,
+                "bsi_score": 5.0,
+                "reason": "RAW accurately extracts and paraphrases the article's central claims about ABPP, its methodological significance, and its place in the case-study tradition. BSI introduces material not in the article (machine learning leverage points, BIO ontology alignment, money-policy loops), fabricates or assumes content ('نویسندگان: نادر', 1980 date, 'Ontology BIO v1.0'), and misrepresents the article's modest review-essay scope as an empirical behavioral study. Many BSI tables critique claims the article never makes."
+              },
+              {
+                "name": "Coherence and structural clarity",
+                "importance": 20.0,
+                "raw_score": 8.0,
+                "bsi_score": 5.0,
+                "reason": "RAW presents a clean, organized summary with main claims and contribution sections that mirror the article's actual structure. BSI uses an elaborate multi-layer schema (Manifest/Latent/Meta, EIG, REIG, CreativeValueAdd) but much of the content within these layers is speculative filler—leverage points and feedback loops that are not grounded in the article's actual argument."
+              },
+              {
+                "name": "Substantive analytical depth",
+                "importance": 25.0,
+                "raw_score": 6.0,
+                "bsi_score": 5.0,
+                "reason": "RAW provides surface-level summary rather than deep critique, but its claims are defensible. BSI attempts deeper analysis (causal compliance FAIL, framing FAIL), which is conceptually interesting, but the critiques often miss the mark because the article is a review essay, not an empirical study claiming causation. BSI's 'deeper' layers therefore critique a straw-man version of the text."
+              },
+              {
+                "name": "Epistemic grounding and evidence handling",
+                "importance": 15.0,
+                "raw_score": 7.0,
+                "bsi_score": 3.0,
+                "reason": "RAW stays close to what the article actually says. BSI introduces numerous unsupported assertions (e.g., sample consists only of large companies, methodology lacks transparency, reproducibility concerns), treating speculation as fact. The REIG FAIL on Causal Compliance and Framing Compliance appears to misread the article's genre and rhetorical conventions."
+              },
+              {
+                "name": "Methodological self-awareness about the article type",
+                "importance": 10.0,
+                "raw_score": 7.0,
+                "bsi_score": 2.0,
+                "reason": "RAW implicitly recognizes the article as a review/scholarly commentary and responds accordingly. BSI treats it as an empirical research paper requiring dataset transparency, causal proof, and reproducibility—standards inapplicable to a 1960s-era book review/case-study discussion. This fundamental category error undermines BSI's analytical validity."
+              }
+            ],
+            "total_scores": {
+              "raw": 7.25,
+              "bsi": 4.4
+            },
+            "bsi_capability_assessment": {
+              "relevance": "low",
+              "realization": "low",
+              "incremental_value": "negative",
+              "reason": "BSI's multi-layer framework is poorly matched to this article. The source is a short review/case-study discussion, not an empirical paper. BSI forces inapplicable rubrics (causal compliance, measurement compliance, reproducibility demands, BIO ontology alignment) onto a text that does not warrant them, producing fabricated critiques rather than genuine insight."
+            },
+            "incremental_value": "negative",
+            "scale": "0-10",
+            "weight_sum": 100.0,
+            "glossary_mode": "full",
+            "judge_input_compacted": false
+          },
+          "scores": {
+            "RAW": 0.725,
+            "BSI": 0.44
+          },
+          "failed": false,
+          "status": "valid",
+          "model_id": "openai/gpt-oss-20b",
+          "truncated": false
+        }
+      ],
+      "article_id": "doi:https://doi.org/10.2307/2009452"
+    }
+  ],
+  "source_url": "https://github.com/ibstrade11-source/behmanesh-index-prompt/blob/main/MASTER_PROMPT_BSI_v3.4.2.md",
+  "run_metadata": {
+    "tool_version": "0.1.0",
+    "git_commit": "6ae2f7dfe0a28c9921608e12a784aab71bb0f86e",
+    "git_dirty": true,
+    "run_timestamp_utc": "2026-09-06T00:16:34Z",
+    "methodology_note": "Scores/judgements come from an independent LLM judge (see comparison/judge.py) instructed not to reuse BSI's own D1-D7/EIG vocabulary and to choose its own evaluation criteria. If no judge model is available or its response cannot be parsed, the run falls back to a simple keyword-presence heuristic -- the stored record's own 'criteria_source' field ('llm' vs 'heuristic_fallback') always says honestly which one produced a given result. Neither path is a validated measurement of analytical quality until checked against independent human judgement on a representative sample.",
+    "provider_name": null,
+    "model_version": null,
+    "temperature": null,
+    "max_tokens": null,
+    "prompt_version": null,
+    "framework_name": "bsi"
+  }
+}

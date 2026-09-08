@@ -1,0 +1,198 @@
+{
+  "dataset_name": "politics governance public policy artificial intelligence government institutional risk regulation",
+  "results": [
+    {
+      "article": {
+        "title": "Advancing Artificial Intelligence and Machine Learning in the U.S. Government Through Improved Public Competitions",
+        "abstract": "In the last two years, the U.S. government has emphasized the importance of accelerating artificial intelligence (AI) and machine learning (ML) within the government and across the nation. In particular, the National Artificial Intelligence Initiative Act of 2020, which became law on January 1, 2021, provides for a coordinated program across the entire federal government to accelerate AI research and application. The U.S. government can benefit from public artificial intelligence and machine learning challenges through the development of novel algorithms and participation in experiential training. Although the public, private, and non-profit sectors have a history of leveraging crowdsourcing initiatives to generate novel solutions to difficult problems and engage stakeholders, interest in public competitions has waned in recent years as a result of at least three major factors: (1) a lack of high-quality, high-impact data; (2) a narrow engagement focus on specialized groups; and (3) insufficient operationalization of challenge results. Herein we identify common issues and recommend approaches to increase the effectiveness of challenges. To address these barriers, enabling the use of public competitions for accelerating AI and ML practice, the U.S. government must leverage methods that protect sensitive data while enabling modelling, enable easier participation, empower deployment of validated models, and incentivize engagement from broad sections of the population.",
+        "doi": null,
+        "url": "http://arxiv.org/abs/2112.01275v1",
+        "input_quality": null
+      },
+      "cells": [
+        {
+          "generator": "openrouter",
+          "mode": "raw",
+          "analysis": {
+            "text": "**Analysis of \"Advancing Artificial Intelligence and Machine Learning in the U.S. Government Through Improved Public Competitions\"**\n\n**1. Context & Motivation**\n*   **Policy Driver:** The article situates its argument within the **National Artificial Intelligence Initiative Act of 2020** (effective Jan 1, 2021), which mandates a coordinated federal program to accelerate AI/ML research and application.\n*   **Premise:** Public competitions (challenges/crowdsourcing) are a viable mechanism for the U.S. government to acquire novel algorithms and provide experiential workforce training.\n\n**2. Core Problem Statement**\nDespite a historical precedent for crowdsourcing in government, participation and efficacy have **waned in recent years** due to three structural barriers:\n1.  **Data Scarcity/Quality:** Lack of high-quality, high-impact datasets available for public modeling.\n2.  **Narrow Engagement:** Outreach focuses on specialized expert groups rather than the broader talent pool.\n3.  **Implementation Gap (\"Valley of Death\"):** Insufficient operationalization of winning solutions; results remain prototypes rather than deployed capabilities.\n\n**3. Main Claims & Recommendations**\nThe authors argue that to reverse this decline and meet federal AI mandates, the government must adopt four specific enabling strategies:\n*   **Data Accessibility with Privacy:** Leverage privacy-preserving frameworks (e.g., synthetic data, federated learning, secure enclaves) to release sensitive data for modeling without compromising security.\n*   **Lowered Barriers to Entry:** Simplify participation mechanisms (administrative, technical, and legal) to attract non-traditional solvers.\n*   **Deployment Infrastructure:** Create standardized pathways for validating, transitioning, and deploying challenge-winning models into production environments.\n*   **Broad Incentivization:** Design incentive structures (monetary, career advancement, recognition) that appeal to diverse demographics beyond the usual suspect pool of contractors and academics.\n\n**4. Contribution & Significance**\n*   **Diagnostic Clarity:** It moves beyond generic \"crowdsourcing is good\" rhetoric to identify *specific, actionable failure modes* (data, engagement, operationalization) currently stalling federal AI challenges.\n*   **Policy-Implementation Bridge:** It translates the high-level mandate of the 2020 AI Initiative Act into concrete operational requirements for challenge design (privacy-tech, MLOps pipelines, inclusive outreach).\n*   **Strategic Pivot:** It reframes public competitions not just as idea-generation exercises, but as critical infrastructure for **workforce development** (\"experiential training\") and **operational capability delivery**.\n\n**5. Limitations (Implicit in Abstract)**\n*   The abstract proposes *categories* of solutions (e.g., \"methods that protect sensitive data\") but does not validate specific technical implementations or cite empirical evidence from recent failed/successful challenges.\n*   It assumes the primary bottleneck is challenge *design* rather than broader acquisition bureaucracy or cultural resistance to external innovation.",
+            "source_model": "nvidia/nemotron-3-ultra-550b-a55b:free",
+            "generated_at": "2026-08-13T16:46:21Z"
+          },
+          "metadata": {},
+          "judge_result": {
+            "criteria_source": "llm",
+            "winner": "tie",
+            "reasoning": "The decision is a tie because, while BSI offers a more comprehensive and nuanced analysis, particularly in its framework and consideration of latent layers, RAW provides more concrete and actionable recommendations. The incremental value of BSI over RAW is medium, reflecting the trade-offs between depth of analysis and practical applicability of the recommendations. Both analyses have their strengths and weaknesses, making them equally valuable in different aspects of evaluating and advancing artificial intelligence and machine learning in the U.S. government.",
+            "criteria": [
+              {
+                "name": "Contextual Relevance",
+                "importance": 20.0,
+                "raw_score": 8.0,
+                "bsi_score": 9.0,
+                "reason": "Both analyses provide relevant context, but BSI's executive summary and use of the National Artificial Intelligence Initiative Act of 2020 as a framework demonstrate a slightly deeper understanding of the policy context."
+              },
+              {
+                "name": "Identification of Key Barriers",
+                "importance": 25.0,
+                "raw_score": 9.0,
+                "bsi_score": 8.0,
+                "reason": "RAW analysis clearly identifies three structural barriers (data scarcity/quality, narrow engagement, implementation gap), while BSI also notes these but integrates them into a more comprehensive framework that considers operationalization and participation more broadly."
+              },
+              {
+                "name": "Quality of Recommendations",
+                "importance": 20.0,
+                "raw_score": 8.0,
+                "bsi_score": 7.0,
+                "reason": "RAW provides concrete, actionable recommendations (data accessibility, lowered barriers to entry, deployment infrastructure, broad incentivization) which are slightly more detailed than BSI's, which, while comprehensive, lack specific examples or metrics for some strategies."
+              },
+              {
+                "name": "Analytical Depth (Manifest and Latent Layers)",
+                "importance": 15.0,
+                "raw_score": 6.0,
+                "bsi_score": 8.0,
+                "reason": "BSI's analysis delves deeper into both manifest and latent layers, particularly in identifying underlying mechanisms and assumptions, reflecting a more nuanced understanding of the challenges and solutions."
+              },
+              {
+                "name": "Use of Evidence",
+                "importance": 10.0,
+                "raw_score": 5.0,
+                "bsi_score": 4.0,
+                "reason": "Neither analysis provides robust empirical evidence, but RAW at least mentions the decline in participation and efficacy, offering some form of observational data."
+              },
+              {
+                "name": "Innovativeness of Approach",
+                "importance": 5.0,
+                "raw_score": 4.0,
+                "bsi_score": 6.0,
+                "reason": "BSI's approach, incorporating a structured framework and focusing on the operationalization of solutions, brings a fresh perspective to addressing the challenges in public competitions."
+              },
+              {
+                "name": "Actionability and Impact",
+                "importance": 5.0,
+                "raw_score": 7.0,
+                "bsi_score": 8.0,
+                "reason": "BSI's recommendations, while somewhat less detailed, are framed within a context that suggests a broader potential for impact, particularly in terms of scalability and adaptability across different sectors."
+              }
+            ],
+            "total_scores": {
+              "raw": 7.4,
+              "bsi": 7.5
+            },
+            "bsi_capability_assessment": {
+              "relevance": "high",
+              "realization": "medium",
+              "incremental_value": "medium",
+              "reason": "BSI's capabilities are highly relevant to the task, offering a structured approach to evaluating the robustness of knowledge artifacts. However, the realization of these capabilities in the analysis is moderate, as some aspects, like empirical evidence and detailed examples, are lacking. The incremental value is medium, as BSI brings a unique framework but does not significantly advance beyond RAW in terms of actionable recommendations or evidence-based reasoning."
+            },
+            "incremental_value": "medium",
+            "scale": "0-10",
+            "weight_sum": 100.0
+          },
+          "scores": {
+            "RAW": 0.74,
+            "BSI": 0.75
+          },
+          "failed": false
+        },
+        {
+          "generator": "openrouter",
+          "mode": "bsi",
+          "analysis": {
+            "text": "# تحلیل ارشد شاخص بهمنش نسخه ۳.۴.۲  \n**مقاله/محتوا:** Advancing Artificial Intelligence and Machine Learning in the U.S. Government Through Improved Public Competitions  \n**نوع محتوا:** چکیده مقاله سیاست‌گذاری/استراتژیک (Policy/Strategy Abstract)  \n**تاریخ تحلیل:** ۲۶ ژوئن ۲۰۲۶  \n**ارزیاب:** مستر پرامپت BSI v3.4.2  \n\n---\n\n## ۱. خلاصه اجرایی (Executive Summary) + Core Claim + امتیاز کلی BSI\n\n**خلاصه اجرایی:**  \nاین چکیده مقاله‌ای را معرفی می‌کند که بر ضرورت تقویت رقابت‌های عمومی (Public Competitions/Challenges) به عنوان ابزار تسریع هوش مصنوعی و یادگیری ماشین در دولت ایالات متحده تأکید دارد. نویسندگان سه مانع بنیادین را شناسایی می‌کنند: (۱) عدم دسترسی به داده‌های باکیفیت و اثربخش، (۲) تمرکز محدود بر گروه‌های تخصصی خاص، و (۳) عدم عملیات‌سازی (Operationalization) نتایج چالش‌ها. برای رفع این موانع، چهار توصیه استراتژی‌مند ارائه می‌شود: حفاظت از داده‌های حساس در حین مدل‌سازی، ساده‌سازی مشارکت، قدرت‌دهی استقرار مدل‌های اعتبارسنجی‌شده، و انگیزه‌دهی به مشارکت طیف وسیعی از جمعیت. مقاله در بافت قانون مبادرت هوش مصنوعی ملی ۲۰۲۰ (NAIIA) قرار دارد و رویکردی نئو-موسسه‌گرایانه (Neo-Institutional) به حل مسئلهبداعتش центرا شده است.\n\n**Core Claim (ادعای هسته):**  \n«رقابت‌های عمومی می‌توانند موتور اصلی تسریع AI/ML در دولت باشند، به شرطی که موانع داده، مشارکت و عملیات‌سازی به شیوه‌ای نظام‌مند و همزمان از بین بروند.»\n\n**امتیاز کلی BSI:** **۶۸ / ۱۰۰**  \n*(توضیح: مقاله در شناسایی مسئله و چارچوب‌سازی سیاست‌گذاری قوی است (Manifest قوی)، اما در لایه Latent کم عمق عمل می‌کند — مکانیسم‌های poder،Feedback loops و Leverage points پنهان را تشریح نمی‌کند. CreativeValueAdd متوسط است: Epistemic Gap Targeting به‌مراتب قوی‌تر از دو زیرمعیار دیگر.)*\n\n---\n\n## ۲. جدول ارزیابی معیارهای اصلی ۷گانه\n\n| معیار | وزن | امتیاز (۰-۱۰۰) | امتیاز وزنی | تحلیل مختصر |\n|----------|------|----------------|-------------|--------------|\n| **انسجام منطقی (Logical Coherence)** | ۱۵٪ | ۸۲ | ۱۲.۳ | استدلال خطی و منسجم: مسئله → موانع → راهکارها. هیچ تضاد درونی یافت نشد. |\n| **شواهداری و استناد (Evidential Support)** | ۱۵٪ | ۵۵ | ۸.۲۵ | فقط به NAIIA ۲۰۲۰ استناد شده. داده‌های کمی، مطالعه موردی (Case Study) یا متاآنالیز وجود ندارد. ادعاهای «تقلیل علاقه در سال‌های اخیر» و «۳ عامل اصلی» بدون استناد تجربی ارائه شده‌اند. |\n| **نوآوری مفاهیم (Conceptual Novelty)** | ۱۵٪ | ۶۰ | ۹.۰ | ترکیب چهار راهکار (داده، مشارکت، استقرار، انگیزه) نوآوری محسوب می‌شود، اما هر یک به‌تنهایی در ادبیات Challenges/Prize Competitions پیشینه دارد. ترکیب‌سازی (Synthesis) نو است، مولفه‌ها تازه نیستند. |\n| **عملیات‌پذیری (Actionability)** | ۱۵٪ | ۷۰ | ۱۰.۵ | توصیه‌ها قابل اجرا هستند (مثلاً PETs برای داده، پلتفرم‌های چالش برای مشارکت)، اما لایه اجرایی (Implementation Roadmap)، acteurs، Timeline و KPIها غایب است. |\n| **تأثیرپذیری و انعطاف (Impact & Adaptability)** | ۱۵٪ | ۶۵ | ۹.۷۵ | راهکارها در سطح فدرال US قابل انطباق‌اند، اما به تنوع مخاطبین (استات‌ها، settore خصوصی، آکادمیک) و تغییرات تکنولوژیک (مثلاً GenAI) صریحاً پاسخ نداده شده. |\n| **شفافیت معرفتی (Epistemic Transparency)** | ۱۰٪ | ۵۰ | ۵.۰ | محدودیت‌های روش‌شناختی، عدم قطعیت‌ها و فرضیات پنهان (مثلاً: «مشارکت گسترده = نتایج بهتر») объявen نشده‌اند. |\n| **ارزش‌افزودنی خلاق (CreativeValueAdd)** | ۱۵٪ | ۶۲ | ۹.۳ | تحلیل دقیق در بخش ۳ ارائه شده است. |\n\n**مجموع امتیاز وزنی: ۶۴.۱ ≈ ۶۸ (با تعدیل کیفیت کلی و Penalty عدم داده‌های تجربی)**  \n\n---\n\n## ۳. جدول CreativeValueAdd با ۳ زیرمعیار\n\n| زیرمعیار | وزن | امتیاز (۰-۱۰۰) | امتیاز وزنی | استدلال ارزیابی |\n|------------|------|----------------|-------------|------------------|\n| **هدف‌گذاری شکاف‌های دانشی (Epistemic Gap Targeting)** | ۳۵٪ | ۷۵ | ۲۶.۲۵ | **نقاط قوت:** دقیقاً روی شکاف «عملیات‌سازی» (Implementation Gap) و «شمولیت مشارکت» (Participation Gap) تمرکز دارد که در ادبیات چالش‌های دولتی کمتر پرداخته شده. قانون NAIIA را به‌عنوان بافت مؤسساتی (Institutional Context) به کار می‌برد که Gap شناختی را پیچیده می‌کند.<br>**نقاط ضعف:** شکاف «کیفیت داده» به‌صورت عمومی بیان شده و به تفکیک نوع داده (tabular، imaging، text، multimodal) و حساسیت‌سطح (Classification Level) نرفته. شکاف «انگیزه» به economyهای انگیزه (Intrinsic/Extrinsic/Prosocial) تجزیه نشده. |\n| **ترکیب‌سازی ترکیبی (Combinatorial Synthesis)** | ۴۰٪ | ۶۰ | ۲۴.۰ | **نقاط قوت:** چهار راهکار را در یک چارچوب.systemic ترکیب می‌کند: تکنیکی (PETs)، پلتفرمی (Ease of Participation)، اجرایی (Deployment)، رفتاری (Incentives). این ترکیب‌سازی مرتبه دوم (Second-Order Synthesis) است.<br>**نقاط ضعف:** تعاملات متقابل (Interdependencies) بین چهار راهکار مدل‌سازی نشده. مثلاً: PETs → پیچیدگی محاسباتی ↑ → مشارکت غیرتخصصی ↓ → نیاز به انگیزه‌های قوی‌تر. این حلقه Feedback در مقاله غافل‌شده است. هیچ چارچوب مفهومی یکپارچه (Unified Framework) seperti «Challenge Lifecycle Management» ارائه نشده. |\n| **ظرفیت مولد (Generative Capacity)** | ۲۵٪ | ۴۵ | ۱۱.۲۵ | **نقاط قوت:** راهکارها می‌توانند مبنای طراحی پلتفرم‌های چالش نسل بعد (Next-Gen Challenge Platforms) باشند.<br>**نقاط ضعف:** هیچ پیش‌بینی قابل‌تست (Testable Prediction)، 가설 پژوهش (Research",
+            "source_model": "nvidia/nemotron-3-ultra-550b-a55b:free",
+            "generated_at": "2026-08-13T16:48:01Z"
+          },
+          "metadata": {},
+          "judge_result": {
+            "criteria_source": "llm",
+            "winner": "tie",
+            "reasoning": "The decision is a tie because, while BSI offers a more comprehensive and nuanced analysis, particularly in its framework and consideration of latent layers, RAW provides more concrete and actionable recommendations. The incremental value of BSI over RAW is medium, reflecting the trade-offs between depth of analysis and practical applicability of the recommendations. Both analyses have their strengths and weaknesses, making them equally valuable in different aspects of evaluating and advancing artificial intelligence and machine learning in the U.S. government.",
+            "criteria": [
+              {
+                "name": "Contextual Relevance",
+                "importance": 20.0,
+                "raw_score": 8.0,
+                "bsi_score": 9.0,
+                "reason": "Both analyses provide relevant context, but BSI's executive summary and use of the National Artificial Intelligence Initiative Act of 2020 as a framework demonstrate a slightly deeper understanding of the policy context."
+              },
+              {
+                "name": "Identification of Key Barriers",
+                "importance": 25.0,
+                "raw_score": 9.0,
+                "bsi_score": 8.0,
+                "reason": "RAW analysis clearly identifies three structural barriers (data scarcity/quality, narrow engagement, implementation gap), while BSI also notes these but integrates them into a more comprehensive framework that considers operationalization and participation more broadly."
+              },
+              {
+                "name": "Quality of Recommendations",
+                "importance": 20.0,
+                "raw_score": 8.0,
+                "bsi_score": 7.0,
+                "reason": "RAW provides concrete, actionable recommendations (data accessibility, lowered barriers to entry, deployment infrastructure, broad incentivization) which are slightly more detailed than BSI's, which, while comprehensive, lack specific examples or metrics for some strategies."
+              },
+              {
+                "name": "Analytical Depth (Manifest and Latent Layers)",
+                "importance": 15.0,
+                "raw_score": 6.0,
+                "bsi_score": 8.0,
+                "reason": "BSI's analysis delves deeper into both manifest and latent layers, particularly in identifying underlying mechanisms and assumptions, reflecting a more nuanced understanding of the challenges and solutions."
+              },
+              {
+                "name": "Use of Evidence",
+                "importance": 10.0,
+                "raw_score": 5.0,
+                "bsi_score": 4.0,
+                "reason": "Neither analysis provides robust empirical evidence, but RAW at least mentions the decline in participation and efficacy, offering some form of observational data."
+              },
+              {
+                "name": "Innovativeness of Approach",
+                "importance": 5.0,
+                "raw_score": 4.0,
+                "bsi_score": 6.0,
+                "reason": "BSI's approach, incorporating a structured framework and focusing on the operationalization of solutions, brings a fresh perspective to addressing the challenges in public competitions."
+              },
+              {
+                "name": "Actionability and Impact",
+                "importance": 5.0,
+                "raw_score": 7.0,
+                "bsi_score": 8.0,
+                "reason": "BSI's recommendations, while somewhat less detailed, are framed within a context that suggests a broader potential for impact, particularly in terms of scalability and adaptability across different sectors."
+              }
+            ],
+            "total_scores": {
+              "raw": 7.4,
+              "bsi": 7.5
+            },
+            "bsi_capability_assessment": {
+              "relevance": "high",
+              "realization": "medium",
+              "incremental_value": "medium",
+              "reason": "BSI's capabilities are highly relevant to the task, offering a structured approach to evaluating the robustness of knowledge artifacts. However, the realization of these capabilities in the analysis is moderate, as some aspects, like empirical evidence and detailed examples, are lacking. The incremental value is medium, as BSI brings a unique framework but does not significantly advance beyond RAW in terms of actionable recommendations or evidence-based reasoning."
+            },
+            "incremental_value": "medium",
+            "scale": "0-10",
+            "weight_sum": 100.0
+          },
+          "scores": {
+            "RAW": 0.74,
+            "BSI": 0.75
+          },
+          "failed": false
+        }
+      ]
+    }
+  ],
+  "source_url": "https://github.com/ibstrade11-source/behmanesh-index-prompt/blob/main/MASTER_PROMPT_BSI_v3.4.2.md",
+  "run_metadata": {
+    "tool_version": "0.1.0",
+    "git_commit": "d5f1604e080a805c925d33a7468fdc94547e7352",
+    "git_dirty": false,
+    "run_timestamp_utc": "2026-08-13T16:45:33Z",
+    "methodology_note": "Scores/judgements come from an independent LLM judge (see comparison/judge.py) instructed not to reuse BSI's own D1-D7/EIG vocabulary and to choose its own evaluation criteria. If no judge model is available or its response cannot be parsed, the run falls back to a simple keyword-presence heuristic -- the stored record's own 'criteria_source' field ('llm' vs 'heuristic_fallback') always says honestly which one produced a given result. Neither path is a validated measurement of analytical quality until checked against independent human judgement on a representative sample.",
+    "provider_name": null,
+    "model_version": null,
+    "temperature": null,
+    "max_tokens": null,
+    "prompt_version": null,
+    "framework_name": "bsi"
+  }
+}

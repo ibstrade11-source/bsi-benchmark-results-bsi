@@ -1,0 +1,190 @@
+{
+  "dataset_name": "epistemic regress problem foundationalism coherentism justification",
+  "results": [
+    {
+      "article": {
+        "title": "Epistemic justification: internalism vs. externalism, foundations vs. virtues",
+        "abstract": "Introduction. Laurence BonJour and Ernest Sosa. Part I: A Version of Internalist Foundationalism: Laurence BonJour:. 1. The Regress Problem and Foundationalism. 2. Externalist Accounts of Justification. 3. In Search of Coherentism. 4. Back to Foundationalism. 5. The Conceptualization of Sensory Experience and the Problem of the External World. Part II: Beyond Internal Foundations to External Virtues: Ernest Sosa:. 6. Knowledge and Justification. 7. Does Knowledge Have Foundation. 8. Skepticism and the Internal/External Divide. 9. A Virtue Epistemology. Part III: Replies:. 10. Reply to Sosa. 11. Reply to Bonjour. Bibliography. Index.",
+        "full_text": null,
+        "doi": "https://doi.org/10.5860/choice.41-2097",
+        "url": "https://openalex.org/W149610102",
+        "input_quality": {
+          "has_title": true,
+          "has_abstract": true,
+          "source": "openalex",
+          "enriched": false
+        }
+      },
+      "cells": [
+        {
+          "generator": "groq",
+          "mode": "raw",
+          "analysis": {
+            "text": "**Concise Factual Analysis**\n\n| Section | Main Claims | Contribution |\n|---------|-------------|--------------|\n| **Overall Theme** | The paper examines the debate between internalist and externalist conceptions of epistemic justification, and how these relate to foundationalism (internal foundations) versus virtue epistemology (external virtues). | Provides a structured comparison of two major epistemological traditions, clarifying their assumptions about what counts as justification. |\n| **Part I – Laurence BonJour** | 1. *Regress Problem & Foundationalism*: Justification cannot be an infinite chain; therefore foundational beliefs are required. 2. *Externalist Accounts*: Some externalist views (e.g., reliabilism) can avoid regress but conflict with intuitive internalism. 3. *Coherentism Search*: Attempts at coherentist solutions fail to solve the regress without abandoning justification. 4. *Return to Foundationalism*: Reaffirms internalist foundationalism as the most coherent solution. 5. *Sensory Experience & External World*: The conceptualization of sensory experience is critical for understanding the external world and justifying belief. | Reinforces BonJour’s internalist foundationalism, arguing that only internalist foundations can adequately resolve the regress problem and account for the empirical link to the external world. |\n| **Part II – Ernest Sosa** | 6. *Knowledge & Justification*: Knowledge is a special kind of justified true belief that requires a “virtuous” epistemic agent. 7. *Does Knowledge Have Foundation?* Sosa argues that knowledge does not need a foundational basis; instead, it relies on the agent’s intellectual virtues. 8. *Skepticism & Internal/External Divide*: Skepticism is best addressed by external virtue accounts, which can bypass the regress while preserving internal standards. 9. *Virtue Epistemology*: Proposes that epistemic justification is a matter of epistemic competence and virtue, rather than purely structural (internal or external). | Presents Sosa’s virtue epistemology as a viable alternative to traditional internalist/externalist dichotomies, offering a framework where justification is embedded in the agent’s intellectual character. |\n| **Part III – Replies** | 10. *Reply to Sosa*: Critiques Sosa’s virtue account, arguing that it lacks clear criteria for determining virtues and cannot adequately replace the internalist foundation. 11. *Reply to BonJour*: Addresses BonJour’s arguments, pointing out possible weaknesses in his reliance on internalist foundations and opening the door to hybrid or external approaches. | Provides a balanced critique of both positions, highlighting potential deficiencies and encouraging further refinement of each theory. |\n| **Bibliography & Index** | Comprehensive references and indexing support the article’s scholarly rigor. | Facilitates further research and situates the paper within the broader epistemological literature. |\n\n**Key Takeaways**\n\n1. **Internalist Foundationalism (BonJour)** – Justification requires internal, foundational beliefs to avoid infinite regress; sensory experience grounds knowledge of the external world.  \n2. **Externalist Virtue Epistemology (Sosa)** – Justification can be grounded in the agent’s intellectual virtues; knowledge is not dependent on foundational beliefs.  \n3. **Comparative Analysis** – The paper systematically contrasts the two approaches, offers critiques, and suggests that a hybrid or more nuanced theory may be necessary.  \n\n**Contribution**  \nThe article offers a clear, systematic comparison between internalist foundationalism and externalist virtue epistemology, illuminating their respective strengths and weaknesses. By structuring the discussion around BonJour and Sosa, it provides readers with a coherent narrative that advances the debate on epistemic justification and encourages future work toward integrative epistemological models.",
+            "source_model": "openai/gpt-oss-20b",
+            "generated_at": "2026-08-26T17:19:49Z"
+          },
+          "metadata": {},
+          "judge_result": {
+            "criteria_source": "llm",
+            "winner": "raw",
+            "reasoning": "RAW provides a more accurate, clearer, and better-structured summary of the philosophical dialectic. BSI introduces analytical scaffolding (layers, CreativeValueAdd, criterion scores) but with terminological errors, forced framework application (e.g., 'scientific rigor' on philosophy), and speculative mechanisms that don't clearly derive from the text. The incremental value of BSI here is low: it adds structure without commensurate interpretive gain.",
+            "criteria": [
+              {
+                "name": "Accuracy of philosophical representation",
+                "importance": 25.0,
+                "raw_score": 8.0,
+                "bsi_score": 7.0,
+                "reason": "RAW accurately captures BonJour's internalist foundationalism and Sosa's virtue epistemology with correct terminology. BSI's executive summary contains a terminological error ('externalist internalism' / 'اینرالیسم بیرونی') and the manifest layer oversimplifies externalism as mere 'causality'."
+              },
+              {
+                "name": "Structural clarity of the dialectic",
+                "importance": 20.0,
+                "raw_score": 8.0,
+                "bsi_score": 7.0,
+                "reason": "RAW's table cleanly separates the three parts (BonJour, Sosa, Replies) and shows the internalism/externalism and foundationalism/virtue structure. BSI's manifest/latent/meta layering adds analytical structure but the manifest table conflates categories (e.g., listing 'accessibility' as mechanism for internalism) and the latent layer introduces speculative feedback loops not in the text."
+              },
+              {
+                "name": "Critical engagement depth",
+                "importance": 20.0,
+                "raw_score": 5.0,
+                "bsi_score": 6.0,
+                "reason": "Both analyses are more descriptive than critical. RAW notes 'balanced critique' but doesn't elaborate. BSI's criterion scores (e.g., Logical Coherence 7.5, Innovation 6.0) imply evaluation but the justifications are thin; the latent layer mechanisms read as analyst projections rather than text-derived insights."
+              },
+              {
+                "name": "Identification of key tensions/gaps",
+                "importance": 15.0,
+                "raw_score": 5.0,
+                "bsi_score": 7.0,
+                "reason": "RAW merely states a hybrid 'may be necessary.' BSI's CreativeValueAdd explicitly targets the epistemic gap between internalism/externalism (7.8) and attempts combinatorial synthesis (6.5), showing better gap awareness even if the synthesis remains underdeveloped."
+              },
+              {
+                "name": "Synthesis/integration insight",
+                "importance": 10.0,
+                "raw_score": 5.0,
+                "bsi_score": 6.0,
+                "reason": "RAW suggests a hybrid theory without specifics. BSI's core claim asserts combination is possible and the CreativeValueAdd breaks down synthesis components, but the generative capacity score (5.2) honestly reflects limited novel model generation."
+              },
+              {
+                "name": "Scholarly context awareness",
+                "importance": 10.0,
+                "raw_score": 6.0,
+                "bsi_score": 5.0,
+                "reason": "RAW references the bibliography/index as supporting scholarly rigor. BSI mentions the authors' credibility but doesn't engage broader epistemology literature, and the 'Scientific Rigor' criterion (8.0) is misapplied to a philosophical review article."
+              }
+            ],
+            "total_scores": {
+              "raw": 6.45,
+              "bsi": 6.5
+            },
+            "bsi_capability_assessment": {
+              "relevance": "medium",
+              "realization": "medium",
+              "incremental_value": "low",
+              "reason": "BSI's multi-layer structure and CreativeValueAdd framework are relevant to philosophical analysis and partially realized (gap targeting, synthesis breakdown). However, terminology errors, misapplied 'scientific rigor' criterion, speculative latent mechanisms, and Persian/English mixing reduce clarity. The framework adds modest structural scaffolding but doesn't yield substantially deeper philosophical insight over RAW."
+            },
+            "incremental_value": "low",
+            "scale": "0-10",
+            "weight_sum": 100.0
+          },
+          "scores": {
+            "RAW": 0.645,
+            "BSI": 0.65
+          },
+          "failed": false
+        },
+        {
+          "generator": "groq",
+          "mode": "bsi",
+          "analysis": {
+            "text": "**عنوان تحلیل: تحلیل عمیق مقاله «Epistemic justification: internalism vs. externalism, foundations vs. virtues»**  \n*(نام مقاله، نویسنده، تاریخ انتشار و سایر مشخصات در صورت موجود بودن، در این تحلیل به‌جای آن به عنوان “مقاله مورد بررسی” ذکر می‌شود.)*  \n\n---\n\n### ۱. خلاصه اجرایی (Executive Summary) + Core Claim + امتیاز کلی BSI  \n| بخش | توضیح |\n|------|-------|\n| **خلاصه اجرایی (Executive Summary)** | مقاله به‌طور جامع و جدی به دو ردهٔ فلسفی اصلی در حوزهٔ توجیه (justification) می‌پردازد: **اینرالیسم درونی** و **اینرالیسم بیرونی**، و دو رویکرد فکری مرتبط: **پایه‌سنجی (foundations)** و **ارزش‌پنداری (virtues)**. در بخش اول، لورنس بون‌ژور (Laurence BonJour) به بررسی مشکلات رِگِرس (regress) و چالش‌های توجیه درونی، و همچنین بررسی ممکن بودن کوهیرنسم (coherentism) می‌پردازد. در بخش دوم، ارنست سوزا (Ernest Sosa) به جای بنیاد‌های درونی، به ارزش‌های معرفتی (epistemic virtues) می‌پردازد و بحث می‌کند که آیا دانش دارای پایه است یا خیر. بخش سوم شامل پاسخ‌های متقابل به ادعاهای سوزا و بون‌ژور است. مقاله به‌طور متوازن و بدون تعصب، سعی می‌کند که نقاط قوت و ضعف هر دیدگاه را بررسی کند و در نهایت به ترکیب ممکن بین این دو دستهٔ فلسفی بپردازد. |\n| **Core Claim** | ادعای مرکزی مقاله این است که: **«پایه‌سنجی درونی (internalist foundationalism) و ارزش‌پنداری بیرونی (externalist virtue epistemology) هر دو می‌توانند در توضیح توجیه معرفتی موثر باشند و ترکیب آن‌ها ممکن است به تئوریٔ جامع‌تری منجر شود.»** |\n| **امتیاز کلی BSI** | **6.8/10** – مقاله در سطح متوسط به بالا در معیارهای BSI است؛ اما در برخی بخش‌ها مانند شفافیت متغیرهای کلیدی، تشخیص دقیق لایه‌های پنهان و توضیح کامل چرخهٔ بازخورد (feedback loops) هنوز بهبود قابل توجهی وجود دارد. |\n\n---\n\n### ۲. جدول ارزیابی معیارهای اصلی ۷گانه  \n| معیار | توضیح | امتیاز (0–10) | توضیح جزئی |\n|-------|--------|---------------|------------|\n| **(A) انسجام منطقی (Logical Coherence)** | پیوستگی بین فرضیات، استدلال‌ها و نتیجه‌گیری‌ها. | 7.5 | استدلال‌ها معمولاً منطقی هستند، اما برخی بخش‌های پاسخ‌های متقابل (بخش III) گاهی به‌صورت تکراری و بدون تطبیق کامل با ادعاهای اولیه بیان می‌شوند. |\n| **(B) دقت علمی (Scientific Rigor)** | استفاده از منابع معتبر، روش‌های تحلیلی دقیق، و دقت در ارزیابی ادعاها. | 8.0 | مقاله به‌صورت دقیق به ادبیات موجود اشاره می‌کند، اما در برخی نقاط به‌دقت کم‌تری در توجیه داده‌های فلسفی (مثلاً ارجاعات به تجربیات شناختی) دارد. |\n| **(C) جامعیت (Comprehensiveness)** | پوشش کامل مباحث مرتبط و عدم حذف نکات کلیدی. | 7.0 | بخش‌های اصلی پوشش داده شده‌اند، اما در مورد تعامل بین توجیه درونی و بیرونی (interplay) تحلیل جزئی‌تری می‌توان بود. |\n| **(D) نوآوری (Innovation)** | ارائه دیدگاه یا چارچوب جدید، یا ترکیب فکری تازه. | 6.0 | مقاله ترکیبی است، اما نوآوری در سطح ایده‌ای واضح یا مدل ریاضیاتی قابل توجه نیست. |\n| **(E) شفافیت مفاهیم (Conceptual Clarity)** | تعریف دقیق مفاهیم کلیدی، اجتناب از اصطلاحات مبهم. | 7.5 | اصطلاحات مهم به‌وضوح تعریف شده‌اند، ولی در برخی بخش‌ها (مثلاً “پایه‌سنجی بیرونی”) ممکن است نیاز به تشریح دقیق‌تر باشد. |\n| **(F) اعتبار (Credibility)** | توانایی مقاله در برقراری اعتبار علمی و فلسفی. | 7.0 | نویسندگان معتبر در حوزه هستند؛ اما برخی ادعاها بدون شواهد کافی یا تحلیل دقیق پذیرفته شده‌اند. |\n| **(G) قابلیت تعمیم (Generalizability)** | قابلیت اعمال نتایج به زمینه‌های دیگر. | 6.5 | ادعاهای مقاله به‌عنوان نمونه‌ای از توجیه در فلسفه شناختی قابل تعمیم می‌باشند، ولی برای کاربردهای عملی (مثلاً در AI) توضیحات کافی نیست. |\n\n---\n\n### ۳. جدول CreativeValueAdd  \n| زیرمعیار | توضیح | امتیاز (0–10) | توجیه |\n|-----------|--------|---------------|-------|\n| **Epistemic Gap Targeting (35 %)** | میزان شناسایی و پر کردن شکاف‌های معرفتی موجود در ادبیات. | 7.8 | مقاله به‌وضوح شکاف بین توجیه درونی و بیرونی را نشان می‌دهد و تلاش می‌کند تا به‌وسیلهٔ ترکیب آن‌ها این شکاف را پر کند. |\n| **Combinatorial Synthesis (40 %)** | توانایی ترکیب مفاهیم یا مدل‌های مختلف به صورت خلاقانه. | 6.5 | ترکیب پایه‌سنجی و ارزش‌پنداری یک تلاش خلاقانه است، اما گسترش آن به صورت یک چارچوب واحد با جزئیات کافی، هنوز ناقص است. |\n| **Generative Capacity (25 %)** | قابلیت تولید فرضیات یا مدل‌های جدید و قابل آزمون. | 5.2 | مقاله عمدتاً بازنویسی و ترکیب ادبیات موجود است؛ بخش‌هایی که می‌توانند مدل‌های جدید تولید کنند، محدود باقی مانده‌اند. |\n\n**مجموع کل:** 19.5 / 30 ≈ **65 %** – در سطح متوسط از لحاظ خلاقیت. \n\n---\n\n### ۴. لایه‌برداری عمیق (Manifest, Latent, Meta)  \n\n#### 4.1 لایهٔ آشکار (Manifest Layer)  \n| عنصر | شرح | مکانیزم اصلی |\n|------|-----|--------------|\n| **تعریف توجیه درونی (Internalist Justification)** | ادعا بر این‌که توجیه ناشی از دسترسی به دلایل درونی است. | **دسترس‌پذیری (Accessibility)** – ارزیابی بر مبنای شناخت شخصی. |\n| **تعریف توجیه بیرونی (Externalist Justification)** | توجیه بر اساس روابط میان باور و دنیای بیرونی (مثلاً ارتباطات کدس). | **کدس‌پذیری (Causality)** – ارتباط بین باور و واقعیت بیرونی. |\n| **پایه‌سنجی (Foundationalism)** | باورهای پایه‌ای بدون پیش‌فرض‌پذیر بودن، که پایهٔ توجیه را تشکیل می‌دهند. | **پایه‌های بنیادی (Basic Beliefs)** – باورهای بدون ضرورت‌پذیر. |\n| **ارزش‌پنداری (Virtue Epistemology)** | تمرکز بر صفات معرفتی (مثلاً دقت، بازبینی، شفافیت). | **صفات (Virtues)** – معیارهای اخلاقی و معرفتی. |\n\n#### 4.2 لایهٔ پنهان (Latent Layer)  \n| مکانیسم | توضیح | Feedback Loops | Leverage Points |\n|----------|-------|----------------|-----------------|\n| **مکانیسم «پایه‌سازی داخلی»** | درونی‌سازی ادعاهای بنیادی از طریق تجربهٔ شخصی؛ این مکانیسم در واقع **سیاست‌گذاری شناختی (cognitive strategy)** است که از طریق تعمیم‌پذیری (generalization) به باورهای دیگر دست می‌یابد. | **بازخورد مثبت** – تجربهٔ موفق توجیه درونی باعث تقویت اعتماد به نفس شناختی، که در نهایت باعث افزایش اعتماد به باورهای پایه‌ای می‌شود. | **نکتهٔ لچک‌سازی (flexibility)** – تغییر در آستانهٔ پذیرش ادعاهای جدید می‌تواند به سرعت توجیه را گسترش یا محدود کند. |\n| **مکانیسم «ارتباط کدس»** | ارتباط بیرونی میان باور و واقعیت، که در عین حال بر اساس ساختارهای عصبی و تجربهٔ حسی شکل می‌گیرد. | **بازخورد معکوس** – نتیجهٔ تجربیات بیرونی می‌تواند باورهای درونی را تغییر دهد، در حالی که باورهای درونی",
+            "source_model": "openai/gpt-oss-20b",
+            "generated_at": "2026-08-26T17:19:53Z"
+          },
+          "metadata": {},
+          "judge_result": {
+            "criteria_source": "llm",
+            "winner": "raw",
+            "reasoning": "RAW provides a more accurate, clearer, and better-structured summary of the philosophical dialectic. BSI introduces analytical scaffolding (layers, CreativeValueAdd, criterion scores) but with terminological errors, forced framework application (e.g., 'scientific rigor' on philosophy), and speculative mechanisms that don't clearly derive from the text. The incremental value of BSI here is low: it adds structure without commensurate interpretive gain.",
+            "criteria": [
+              {
+                "name": "Accuracy of philosophical representation",
+                "importance": 25.0,
+                "raw_score": 8.0,
+                "bsi_score": 7.0,
+                "reason": "RAW accurately captures BonJour's internalist foundationalism and Sosa's virtue epistemology with correct terminology. BSI's executive summary contains a terminological error ('externalist internalism' / 'اینرالیسم بیرونی') and the manifest layer oversimplifies externalism as mere 'causality'."
+              },
+              {
+                "name": "Structural clarity of the dialectic",
+                "importance": 20.0,
+                "raw_score": 8.0,
+                "bsi_score": 7.0,
+                "reason": "RAW's table cleanly separates the three parts (BonJour, Sosa, Replies) and shows the internalism/externalism and foundationalism/virtue structure. BSI's manifest/latent/meta layering adds analytical structure but the manifest table conflates categories (e.g., listing 'accessibility' as mechanism for internalism) and the latent layer introduces speculative feedback loops not in the text."
+              },
+              {
+                "name": "Critical engagement depth",
+                "importance": 20.0,
+                "raw_score": 5.0,
+                "bsi_score": 6.0,
+                "reason": "Both analyses are more descriptive than critical. RAW notes 'balanced critique' but doesn't elaborate. BSI's criterion scores (e.g., Logical Coherence 7.5, Innovation 6.0) imply evaluation but the justifications are thin; the latent layer mechanisms read as analyst projections rather than text-derived insights."
+              },
+              {
+                "name": "Identification of key tensions/gaps",
+                "importance": 15.0,
+                "raw_score": 5.0,
+                "bsi_score": 7.0,
+                "reason": "RAW merely states a hybrid 'may be necessary.' BSI's CreativeValueAdd explicitly targets the epistemic gap between internalism/externalism (7.8) and attempts combinatorial synthesis (6.5), showing better gap awareness even if the synthesis remains underdeveloped."
+              },
+              {
+                "name": "Synthesis/integration insight",
+                "importance": 10.0,
+                "raw_score": 5.0,
+                "bsi_score": 6.0,
+                "reason": "RAW suggests a hybrid theory without specifics. BSI's core claim asserts combination is possible and the CreativeValueAdd breaks down synthesis components, but the generative capacity score (5.2) honestly reflects limited novel model generation."
+              },
+              {
+                "name": "Scholarly context awareness",
+                "importance": 10.0,
+                "raw_score": 6.0,
+                "bsi_score": 5.0,
+                "reason": "RAW references the bibliography/index as supporting scholarly rigor. BSI mentions the authors' credibility but doesn't engage broader epistemology literature, and the 'Scientific Rigor' criterion (8.0) is misapplied to a philosophical review article."
+              }
+            ],
+            "total_scores": {
+              "raw": 6.45,
+              "bsi": 6.5
+            },
+            "bsi_capability_assessment": {
+              "relevance": "medium",
+              "realization": "medium",
+              "incremental_value": "low",
+              "reason": "BSI's multi-layer structure and CreativeValueAdd framework are relevant to philosophical analysis and partially realized (gap targeting, synthesis breakdown). However, terminology errors, misapplied 'scientific rigor' criterion, speculative latent mechanisms, and Persian/English mixing reduce clarity. The framework adds modest structural scaffolding but doesn't yield substantially deeper philosophical insight over RAW."
+            },
+            "incremental_value": "low",
+            "scale": "0-10",
+            "weight_sum": 100.0
+          },
+          "scores": {
+            "RAW": 0.645,
+            "BSI": 0.65
+          },
+          "failed": false
+        }
+      ]
+    }
+  ],
+  "source_url": "https://github.com/ibstrade11-source/behmanesh-index-prompt/blob/main/MASTER_PROMPT_BSI_v3.4.2.md",
+  "run_metadata": {
+    "tool_version": "0.1.0",
+    "git_commit": "3f2472768ffb78813fdeef72757aa86785943a48",
+    "git_dirty": false,
+    "run_timestamp_utc": "2026-08-26T17:19:44Z",
+    "methodology_note": "Scores/judgements come from an independent LLM judge (see comparison/judge.py) instructed not to reuse BSI's own D1-D7/EIG vocabulary and to choose its own evaluation criteria. If no judge model is available or its response cannot be parsed, the run falls back to a simple keyword-presence heuristic -- the stored record's own 'criteria_source' field ('llm' vs 'heuristic_fallback') always says honestly which one produced a given result. Neither path is a validated measurement of analytical quality until checked against independent human judgement on a representative sample.",
+    "provider_name": null,
+    "model_version": null,
+    "temperature": null,
+    "max_tokens": null,
+    "prompt_version": "v3.4.2",
+    "framework_name": "bsi"
+  }
+}

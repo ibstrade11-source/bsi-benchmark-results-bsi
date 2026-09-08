@@ -1,0 +1,237 @@
+{
+  "dataset_name": "political science public policy decision making",
+  "results": [
+    {
+      "article": {
+        "title": "American Business, Public Policy, Case-Studies, and Political Theory",
+        "abstract": "Case-Studies of the policy-making process constitute one of the more important methods of political science analysis. Beginning with Schattschneider, Herring, and others in the 1930's, case-studies have been conducted on a great variety of decisions. They have varied in subject-matter and format, in scope and rigor, but they form a distinguishable body of literature which continues to grow year by year. The most recent addition, a book-length study by Raymond Bauer and his associates, stands with Robert A. Dahl's prize-winning Who Governs? (New Haven 1961) as the best yet to appear. With its publication a new level of sophistication has been reached. The standards of research its authors have set will indeed be difficult to uphold in the future. American Business and Public Policy is an analysis of political relationships within the context of a single, well-defined issue—foreign trade. It is an analysis of business attitudes, strategies, communications and, through these, business relationships in politics. The analysis makes use of the best behavioral research techniques without losing sight of the rich context of policies, traditions, and institutions. Thus, it does not, in Dahl's words, exchange relevance for rigor; rather it is standing proof that the two—relevance and rigor—are not mutually exclusive goals.",
+        "full_text": null,
+        "doi": "https://doi.org/10.2307/2009452",
+        "url": "https://openalex.org/W2150459713",
+        "input_quality": {
+          "has_title": true,
+          "has_abstract": true,
+          "source": "openalex",
+          "enriched": false
+        }
+      },
+      "cells": [
+        {
+          "generator": "groq",
+          "mode": "raw",
+          "analysis": {
+            "text": "**Main Claims**\n\n1. **Case‑study methodology is a core, growing method in political science** – The article traces the lineage from Schattschneider and Herring in the 1930s to contemporary work, asserting that case studies have diversified in subject matter, format, scope, and rigor.\n\n2. **Recent literature sets a new benchmark of sophistication** – It names Raymond Bauer’s book‑length study alongside Dahl’s *Who Governs?* (1961) as the most advanced contributions in the field, implying that these works establish higher standards for future research.\n\n3. **“American Business and Public Policy” exemplifies this standard** – The book is positioned as a rigorous yet contextually rich analysis of foreign trade policy, focusing on the political relationships of business actors.\n\n4. **Behavioral research techniques can be combined with contextual depth** – The author argues that the study demonstrates how to maintain relevance without sacrificing rigor, countering Dahl’s claim that the two goals are mutually exclusive.\n\n**Contribution to the Field**\n\n- **Methodological Clarification**: The article maps the evolution of case‑study research and delineates how current practices build upon early pioneers, thereby situating modern work within a historical trajectory.\n\n- **Benchmarking Quality**: By elevating Bauer’s study to a “prize‑winning” level, it provides a concrete reference point for scholars aiming to achieve similar methodological rigor and relevance.\n\n- **Interdisciplinary Integration**: The focus on business attitudes, strategies, and communications within the political science framework illustrates how economic actors can be analytically incorporated into policy‑making studies.\n\n- **Theoretical Implication**: It challenges the presumed trade‑off between relevance and rigor, proposing that a balanced approach is attainable and desirable.\n\nOverall, the article serves as a brief survey and endorsement of contemporary case‑study practice, highlighting a recent work as exemplifying the field’s highest standards.",
+            "source_model": "openai/gpt-oss-20b",
+            "generated_at": "2026-09-06T01:23:19Z",
+            "usage": {
+              "queue_time": 0.333790488,
+              "prompt_tokens": 381,
+              "prompt_time": 0.022377397,
+              "completion_tokens": 405,
+              "completion_time": 0.418564671,
+              "total_tokens": 786,
+              "total_time": 0.440942068,
+              "completion_tokens_details": {
+                "reasoning_tokens": 10
+              }
+            },
+            "finish_reason": "stop",
+            "continuation_rounds": 0
+          },
+          "metadata": {
+            "execution_time_seconds": 5.868,
+            "usage": {
+              "queue_time": 0.333790488,
+              "prompt_tokens": 381,
+              "prompt_time": 0.022377397,
+              "completion_tokens": 405,
+              "completion_time": 0.418564671,
+              "total_tokens": 786,
+              "total_time": 0.440942068,
+              "completion_tokens_details": {
+                "reasoning_tokens": 10
+              }
+            }
+          },
+          "judge_result": {
+            "criteria_source": "llm",
+            "winner": "raw",
+            "winner_source": "llm",
+            "reasoning": "RAW provides an accurate, coherent, and faithful summary of the core thesis, methodological implications, and historical context of the text. In contrast, BSI suffers from major translation errors, mischaracterizes the genre of the text as an empirical statistical study rather than a methodological review essay, and populates rigid structural templates with superficial, inaccurate claims.",
+            "criteria": [
+              {
+                "name": "Accurate Representation of Article Content & Context",
+                "importance": 30.0,
+                "raw_score": 9.0,
+                "bsi_score": 3.0,
+                "reason": "RAW accurately captures Theodore Lowi's classic review article discussing Bauer, Pool, and Dexter's book, the evolution of case studies, and the integration of behavioralism with policy theory. BSI severely misinterprets the text, mistranslating 'contextual depth' into spiritual/metaphysical context ('بستر معنوی') repeatedly and treating the review essay as an empirical primary dataset."
+              },
+              {
+                "name": "Methodological & Epistemic Depth",
+                "importance": 25.0,
+                "raw_score": 8.0,
+                "bsi_score": 4.0,
+                "reason": "RAW provides a clear, nuanced breakdown of methodological clarification, benchmarking, and the theoretical tension between rigor and relevance. BSI applies generic boilerplate templates (Manifest/Latent/Meta, EIG, REIG) without demonstrating genuine understanding of the substantive political theory debates."
+              },
+              {
+                "name": "Clarity, Coherence, and Terminology",
+                "importance": 25.0,
+                "raw_score": 9.0,
+                "bsi_score": 4.0,
+                "reason": "RAW is articulated cleanly and logically in English. BSI produces bizarre mistranslations and mechanical scoring tables that obscure rather than clarify the core arguments."
+              },
+              {
+                "name": "Actionable Synthesis & Field Contribution",
+                "importance": 20.0,
+                "raw_score": 8.0,
+                "bsi_score": 4.0,
+                "reason": "RAW succinctly identifies how the article bridges empirical behavioral methods with substantive political analysis. BSI's recommendations (e.g., adding machine learning and domestic trade) are generic hallucinations disconnected from the nature of the historical review essay."
+              }
+            ],
+            "total_scores": {
+              "raw": 8.55,
+              "bsi": 3.7
+            },
+            "bsi_capability_assessment": {
+              "relevance": "low",
+              "realization": "low",
+              "incremental_value": "negative",
+              "reason": "BSI applies an elaborate pseudo-formal framework filled with mistranslations (e.g., 'context' translated as 'معنوی') and factual misattributions, yielding misleading analytical output."
+            },
+            "incremental_value": "negative",
+            "scale": "0-10",
+            "weight_sum": 100.0,
+            "glossary_mode": "full",
+            "judge_input_compacted": false
+          },
+          "scores": {
+            "RAW": 0.855,
+            "BSI": 0.37
+          },
+          "failed": false,
+          "status": "valid",
+          "model_id": "openai/gpt-oss-20b",
+          "truncated": false
+        },
+        {
+          "generator": "groq",
+          "mode": "bsi",
+          "analysis": {
+            "text": "**تحلیل ارزیابی شاخص بهمنش (BSI) نسخه ۳.۴.۲**  \n**مقاله مورد بررسی:**  \n«American Business, Public Policy, Case-Studies, and Political Theory»  \n**نویسنده:** نام ذکر نشده (مقاله‌ای که در فهرست مقالات مورد بررسی قرار گرفته است)  \n**تاریخ:** 2026-09-06  \n\n---\n\n## ۱. عنوان تحلیل با مشخصات مقاله/محتوا  \n**عنوان مقاله:** *American Business, Public Policy, Case-Studies, and Political Theory*  \n**چکیده (Abstract):** مقاله، مطالعه‌ای بر روی فرآیند سیاست‌گذاری در حوزه تجارت خارجی است که با استفاده از روش‌های پژوهشی رفتاری، روابط سیاسی کسب‌وکارها را تحلیل می‌کند و به‌دلیل ترکیب کارایی پژوهشی و بستر معنوی سیاست‌گذاری، استانداردهای پژوهشی بالا را ارائه می‌دهد.  \n\n---\n\n## ۱.۱ خلاصه اجرایی (Executive Summary) + Core Claim + امتیاز کلی BSI  \n\n| بخش | توضیح | امتیاز (0–10) |\n|------|-------|---------------|\n| **خلاصه اجرایی (Executive Summary)** | مقاله با اشاره به تاریخچه مطالعات موردی در علوم سیاسی، به‌روزرسانی روش‌شناسی پژوهشی را با تأکید بر ترکیب پژوهش رفتاری و بستر معنوی سیاست‌گذاری ارائه می‌دهد. در ادامه، پژوهش بر روی تجارت خارجی و تأثیرات آن بر سیاست‌های کسب‌وکار و روابط سیاسی تمرکز دارد. | 9 |\n| **Core Claim** | «American Business and Public Policy» (آمریکای کسب‌وکار و سیاست عمومی) نمونه‌ای برجسته از تحلیل سیاست‌گذاری در حوزه تجارت خارجی است که نشان می‌دهد ترکیب کارایی پژوهشی (rigor) و ارتباطی (relevance) می‌تواند در پژوهش‌های سیاسی برقرار گردد. | 8.5 |\n| **امتیاز کلی BSI** | 9.0 (متوسط 8.8 از 10) – مقاله به‌خوبی استانداردهای روش‌شناسی را رعایت کرده و در حوزه‌ی خود، نوآوری و کارایی بالایی دارد. | 9.0 |\n\n**توضیح مختصر:** مقاله با اشاره به کارهای پیشین، به‌روزرسانی روش‌های پژوهشی را نشان می‌دهد و بر ترکیب پژوهش رفتاری و بستر معنوی تأکید دارد؛ این ترکیب باعث ایجاد یک چارچوب قوی و قابل اعتماد برای تحلیل سیاست‌های تجاری می‌شود.  \n\n---\n\n## ۲. جدول ارزیابی معیارهای اصلی ۷گانه  \n\n| معیار | توضیح | امتیاز (0–10) | توجیه |\n|-------|-------|--------------|--------|\n| **Relevance** | ارتباط مستقیم با موضوع تجارت خارجی و سیاست‌های کسب‌وکار. | 9 | مقاله مستقیماً به سیاست‌های تجارت خارجی می‌پردازد و تأثیر آن را بر کسب‌وکارها بررسی می‌کند. |\n| **Rigor** | استفاده از روش‌های پژوهشی رفتاری، تحلیل‌های آماری، و بررسی‌های عمیق. | 9 | پژوهش به‌وضوح از روش‌های تجربی و داده‌محور استفاده کرده و تحلیل‌های دقیق ارائه می‌کند. |\n| **Novelty** | نوآوری در ترکیب پژوهش رفتاری با بستر معنوی و استفاده از مطالعات موردی. | 8 | ترکیب دو رویکرد تازه است اما مشابه با مقالات پیشین در حوزه. |\n| **Depth** | تحلیل در سطح مفصل و بررسی روابط بین کسب‌وکار و سیاست. | 9 | به‌صورت عمیق و چندلایه تحلیل می‌شود. |\n| **Breadth** | پوشش گسترده از دیدگاه‌های مختلف سیاست‌گذاری. | 8 | تمرکز بر تجارت خارجی، اما دیگر حوزه‌های سیاست‌گذاری کمتر مطرح است. |\n| **Clarity** | ساختار منظم، زبان واضح و قابل فهم. | 9 | ساختار مقاله واضح و بخش‌های جداگانه با سرخط‌های مشخص. |\n| **Impact** | اثر بالقوه بر سیاست‌گذاری و پژوهش‌های آینده. | 8 | مقاله می‌تواند به‌عنوان نمونه‌ای برای پژوهش‌های بعدی در حوزه تجارت و سیاست استفاده شود. |\n\n**مجموع کل:** 60/70 (≈ 8.57/10)\n\n---\n\n## ۳. جدول CreativeValueAdd  \n| زیرمعیار | وزن | ارزیابی (0–10) | توجیه |\n|-----------|-----|----------------|--------|\n| **Epistemic Gap Targeting** (35 ٪) | 3.5 | 8 | مقاله به‌وضوح خلاء‌های شناختی در تحلیل سیاست‌های تجارت خارجی را شناسایی کرده و از طریق روش‌های پژوهشی رفتاری آن‌ها را پر کرده است. |\n| **Combinatorial Synthesis** (40 ٪) | 4 | 7 | ترکیب روش‌های رفتاری با تحلیل‌های معنوی یک نوآوری قابل توجه است؛ ولی هنوز در سطح تئوری جامع نیست. |\n| **Generative Capacity** (25 ٪) | 2.5 | 8 | پژوهش توانایی تولید مفاهیم جدید درباره‌ی تعاملات کسب‌وکار و سیاست را نشان می‌دهد؛ این توانایی در آینده برای توسعه نظریه‌ها مفید خواهد بود. |\n| **مجموع کل** | 10 | **8.3** |  |\n\n---\n\n## ۴. لایه‌برداری عمیق (Manifest Layer، Latent Layer، Meta Layer)  \n\n### ۴.۱ لایهٔ ظاهر (Manifest Layer)  \n| عنصر | توضیح | مکانیسم | Feedback Loop | Leverage Point |\n|------|-------|---------|---------------|----------------|\n| **موضوع اصلی** | تجارت خارجی و سیاست‌گذاری | تحلیل داده‌های تجربی | بازخورد بهبود روش‌شناسی پژوهشی | تأکید بر روش‌های تجربی |\n| **روش پژوهشی** | ترکیب پژوهش رفتاری و تحلیل معنوی | داده‌های کوانتیتاتیو و کیفی | اصلاح مدل‌ها بر اساس نتایج | استفاده از تحلیل‌های آماری دقیق |\n| **نتیجه‌گیری** | ترکیب کارایی پژوهشی و ارتباطی | بررسی تأثیرات کسب‌وکار | بازخورد به پژوهشگران دیگر | نمونه‌سازی برای مطالعات مشابه |\n\n### ۴.۲ لایهٔ پنهان (Latent Layer)  \n| مکانیسم | توصیف | الگو | Feedback Loop | Leverage Point |\n|----------|-------|------|---------------|----------------|\n| **مفهوم «تجارت خارجی»** | درک گسترده‌ی ارتباطات بین‌المللی | شبکه روابط بین دولت، کسب‌وکار، و جامعه | بازخورد از سیاست‌های جدید | تحلیل شبکه‌های ارتباطی |\n| **سیاست‌گذاری** | فرآیند تصمیم‌گیری چندسطحی | تعاملات میان نهادهای مختلف | بازخورد از نتایج سیاست | شفاف‌سازی فرآیندهای تصمیم‌گیری |\n| **پویایی رفتاری** | رفتارهای کسب‌وکار در پاسخ به سیاست | الگوی تعادلی بازخوردی | تغییر در سیاست‌ها بر رفتار | تنظیم سیاست بر اساس رفتار واقعی |\n\n### ۴.۳ لایهٔ متا (Meta Layer)  \n| عنصر | توضیح | مکانیسم | Feedback Loop | Leverage Point |\n|------|-------|---------|---------------|----------------|\n| **چارچوب نظری** | نظریه‌ی سیاست‌گذاری در تجارت خارجی | ترکیب تحلیل‌های رفتاری و معنوی | بازخورد بهبود چارچوب | ادغام نظرات بین‌رشته‌ای |\n| **اهمیت پژوهشی** | تأثیر بر پژوهش‌های آینده | شناسایی خلاء‌های شناختی | بازخورد از پژوهشگران جدید | توسعه روش‌های پژوهشی |\n\n---\n\n## ۵. EIG Analysis  \n**EIG (Evidence‑informed Gap) Analysis**:  \n- **Evidence**: داده‌های تجربی و کیفی ارائه شده توسط پژوهشگر؛  \n- **Informed**: پژوهش بر اساس چارچوب‌های معتبر و روش‌های تجربی؛  \n- **Gap**: فاصله‌های شناختی در تحلیل سیاست‌های تجارت خارجی و تعاملات کسب‌وکار و نهادهای حکومتی.  \n\n**نتیجه:** مقاله با شناسایی و پرکردن این خلاءها، یک پل معتبر بین داده و تئوری ایجاد کرده است؛ اما هنوز نیاز به گسترش دامنه مطالعات (مثلاً در حوزه‌های دیگر تجارت) دارد.  \n\n---\n\n## ۶. REIG – ممیزی Draft Analysis  \n**Draft Analysis**: بخش‌های ۱ تا ۵.  \n\n| نکته | پاس/فیل | توضیح |\n|------|----------|-------|\n| **Causal Compliance** | PASS | مقاله بر اساس داده‌های تجربی علت-اثر را مشخص کرده و از ادعاهای بر پایه همبستگی صرفاً اجتناب کرده است. |\n| **Generalization Compliance** | PASS | گسترش یافته‌های پژوهش به صورت منطقی و محدود به حوزه تجارت خارجی است؛ هیچ تعمیم غیرمجاز به حوزه‌های دیگر صورت نگرفته است. |\n| **Measurement Compliance** | PASS | امتیازهای داده‌شده بر اساس روش‌های استاندارد و با دقت گزارش شده‌اند. |\n| **Framing Compliance** | PASS | قضاوت‌های ارزشی محدود به بیان نتیجه‌گیری‌های مبتنی بر شواهد و بدون ادعاهای فراتر از داده‌ها است. |\n\n**نتیجه REIG:** **PASS** – تحلیل خود مقاله بدون نقص‌های قابل توجهی در زمینه‌های مورد بررسی است.  \n\n---\n\n## ۷. نتیجه‌گیری نهایی + نقاط قوت/ضعف + پیشنهاد بهبود  \n\n### ۷.۱ نقاط قوت  \n1. **ترکیب روش‌شناختی:** استفاده از پژوهش رفتاری همراه با تحلیل معنوی؛  \n2. **سختی پژوهشی:** روش‌های آماری دقیق و داده‌محور؛  \n3. **تاکید بر ارتباطی بودن:** بررسی تأثیر واقعی سیاست بر کسب‌وکار؛  \n4. **ساختار منظم:** تقسیم‌بندی واضح در لایه‌ها؛  \n5. **مشتاقانه به پرکردن خلاء شناختی:** EIG مثبت.\n\n### ۷.۲ نقاط ضعف  \n1. **دامنه محدود:** تمرکز صرف بر تجارت خارجی؛  \n2. **پایین بودن وزن ترکیب نظریه‌ای (Combinatorial Synthesis):** امکان گسترش به حوزه‌های دیگر؛  \n3. **کاهش قابلیت تعمیم:** ممکن است برای پژوهش‌های دیگر قابل استفاده نباشد؛  \n4. **نقاط ضعف در تحلیل شبکه‌های ارتباطی**: نیاز به تحلیل عمیق‌تر شبکه‌ها.\n\n### ۷.۳ پیشنهاد بهبود  \n1. **گسترش دامنه مطالعات:** اضافه کردن به‌دست آوردهای مربوط به تجارت داخلی و سیاست‌های مرتبط؛  \n2. **تقویت تحلیل شبکه‌ای:** استفاده از تحلیل شبکه‌های اجتماعی برای درک بهتر تعاملات بین نهادها؛  \n3. **افزایش وزن ترکیب نظریه‌ای:** ادغام نظریه‌های چندرشته‌ای برای تقویت سطوح ترکیبی؛  \n4. **به‌روزرسانی روش‌های تحلیل آماری:** بهره‌گیری از الگوریتم‌های یادگیری ماشین برای پیش‌بینی تأثیرات سیاست.  \n\n---\n\n**تحلیل حاضر کاملاً مطابق SOP_Intellectual_Content_Analysis_v3.4.2 و Ontology BIO v1.0 انجام شد.**",
+            "source_model": "openai/gpt-oss-20b",
+            "generated_at": "2026-09-06T01:23:23Z",
+            "usage": {
+              "queue_time": 0.302248138,
+              "prompt_tokens": 1438,
+              "prompt_time": 0.013753311,
+              "completion_tokens": 2507,
+              "completion_time": 2.990852937,
+              "total_tokens": 3945,
+              "total_time": 3.004606248,
+              "prompt_tokens_details": {
+                "cached_tokens": 1280
+              },
+              "completion_tokens_details": {
+                "reasoning_tokens": 9
+              }
+            },
+            "finish_reason": "stop",
+            "continuation_rounds": 0
+          },
+          "metadata": {
+            "execution_time_seconds": 4.329,
+            "usage": {
+              "queue_time": 0.302248138,
+              "prompt_tokens": 1438,
+              "prompt_time": 0.013753311,
+              "completion_tokens": 2507,
+              "completion_time": 2.990852937,
+              "total_tokens": 3945,
+              "total_time": 3.004606248,
+              "prompt_tokens_details": {
+                "cached_tokens": 1280
+              },
+              "completion_tokens_details": {
+                "reasoning_tokens": 9
+              }
+            }
+          },
+          "judge_result": {
+            "criteria_source": "llm",
+            "winner": "raw",
+            "winner_source": "llm",
+            "reasoning": "RAW provides an accurate, coherent, and faithful summary of the core thesis, methodological implications, and historical context of the text. In contrast, BSI suffers from major translation errors, mischaracterizes the genre of the text as an empirical statistical study rather than a methodological review essay, and populates rigid structural templates with superficial, inaccurate claims.",
+            "criteria": [
+              {
+                "name": "Accurate Representation of Article Content & Context",
+                "importance": 30.0,
+                "raw_score": 9.0,
+                "bsi_score": 3.0,
+                "reason": "RAW accurately captures Theodore Lowi's classic review article discussing Bauer, Pool, and Dexter's book, the evolution of case studies, and the integration of behavioralism with policy theory. BSI severely misinterprets the text, mistranslating 'contextual depth' into spiritual/metaphysical context ('بستر معنوی') repeatedly and treating the review essay as an empirical primary dataset."
+              },
+              {
+                "name": "Methodological & Epistemic Depth",
+                "importance": 25.0,
+                "raw_score": 8.0,
+                "bsi_score": 4.0,
+                "reason": "RAW provides a clear, nuanced breakdown of methodological clarification, benchmarking, and the theoretical tension between rigor and relevance. BSI applies generic boilerplate templates (Manifest/Latent/Meta, EIG, REIG) without demonstrating genuine understanding of the substantive political theory debates."
+              },
+              {
+                "name": "Clarity, Coherence, and Terminology",
+                "importance": 25.0,
+                "raw_score": 9.0,
+                "bsi_score": 4.0,
+                "reason": "RAW is articulated cleanly and logically in English. BSI produces bizarre mistranslations and mechanical scoring tables that obscure rather than clarify the core arguments."
+              },
+              {
+                "name": "Actionable Synthesis & Field Contribution",
+                "importance": 20.0,
+                "raw_score": 8.0,
+                "bsi_score": 4.0,
+                "reason": "RAW succinctly identifies how the article bridges empirical behavioral methods with substantive political analysis. BSI's recommendations (e.g., adding machine learning and domestic trade) are generic hallucinations disconnected from the nature of the historical review essay."
+              }
+            ],
+            "total_scores": {
+              "raw": 8.55,
+              "bsi": 3.7
+            },
+            "bsi_capability_assessment": {
+              "relevance": "low",
+              "realization": "low",
+              "incremental_value": "negative",
+              "reason": "BSI applies an elaborate pseudo-formal framework filled with mistranslations (e.g., 'context' translated as 'معنوی') and factual misattributions, yielding misleading analytical output."
+            },
+            "incremental_value": "negative",
+            "scale": "0-10",
+            "weight_sum": 100.0,
+            "glossary_mode": "full",
+            "judge_input_compacted": false
+          },
+          "scores": {
+            "RAW": 0.855,
+            "BSI": 0.37
+          },
+          "failed": false,
+          "status": "valid",
+          "model_id": "openai/gpt-oss-20b",
+          "truncated": false
+        }
+      ],
+      "article_id": "doi:https://doi.org/10.2307/2009452"
+    }
+  ],
+  "source_url": "https://github.com/ibstrade11-source/behmanesh-index-prompt/blob/main/MASTER_PROMPT_BSI_v3.4.2.md",
+  "run_metadata": {
+    "tool_version": "0.1.0",
+    "git_commit": "6ae2f7dfe0a28c9921608e12a784aab71bb0f86e",
+    "git_dirty": true,
+    "run_timestamp_utc": "2026-09-06T01:23:13Z",
+    "methodology_note": "Scores/judgements come from an independent LLM judge (see comparison/judge.py) instructed not to reuse BSI's own D1-D7/EIG vocabulary and to choose its own evaluation criteria. If no judge model is available or its response cannot be parsed, the run falls back to a simple keyword-presence heuristic -- the stored record's own 'criteria_source' field ('llm' vs 'heuristic_fallback') always says honestly which one produced a given result. Neither path is a validated measurement of analytical quality until checked against independent human judgement on a representative sample.",
+    "provider_name": null,
+    "model_version": null,
+    "temperature": null,
+    "max_tokens": null,
+    "prompt_version": null,
+    "framework_name": "bsi"
+  }
+}

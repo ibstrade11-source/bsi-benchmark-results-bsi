@@ -1,0 +1,289 @@
+{
+  "dataset_name": "sociology of technology digital surveillance",
+  "results": [
+    {
+      "article": {
+        "title": "Understanding the role of digital technologies in education: A review",
+        "abstract": "One of the fundamental components of the United Nations’ sustainable development 2030 agenda is quality education. It aims to ensure inclusive and equitable quality education for all. Digital technologies have emerged as an essential tool to achieve this goal. These technologies are simple to detect emissions sources, prevent additional damage through improved energy efficiency and lower-carbon alternatives to fossil fuels, and even remove surplus greenhouse gases from the environment. Digital technologies strive to decrease or eliminate pollution and waste while increasing production and efficiency. These technologies have shown a powerful impact on the education system. The recent COVID-19 Pandemic has further institutionalised the applications of digital technologies in education. These digital technologies have made a paradigm shift in the entire education system. It is not only a knowledge provider but also a co-creator of information, a mentor, and an assessor. Technological improvements in education have made life easier for students. Instead of using pen and paper, students nowadays use various software and tools to create presentations and projects. When compared to a stack of notebooks, an iPad is relatively light. When opposed to a weighty book, surfing an E-book is easier. These methods aid in increasing interest in research. This paper is brief about the need for digital technologies in education and discusses major applications and challenges in education.",
+        "full_text": null,
+        "doi": "https://doi.org/10.1016/j.susoc.2022.05.004",
+        "url": "https://openalex.org/W4281398834",
+        "input_quality": {
+          "has_title": true,
+          "has_abstract": true,
+          "source": "openalex",
+          "enriched": false
+        }
+      },
+      "cells": [
+        {
+          "generator": "openrouter",
+          "mode": "raw",
+          "analysis": {
+            "text": "**Analysis of \"Understanding the role of digital technologies in education: A review\"**\n\n**1. Core Subject & Stated Objective**\nThe paper positions itself as a review article examining the necessity, major applications, and challenges of digital technologies in education, framed within the context of the UN Sustainable Development Goal 4 (Quality Education) and the acceleration caused by the COVID-19 pandemic.\n\n**2. Main Claims (Derived *solely* from the Abstract)**\n*   **SDG Alignment:** Digital technologies are framed as \"essential tools\" for achieving inclusive, equitable quality education (SDG 2030 Agenda).\n*   **Paradigm Shift:** Technologies have fundamentally altered the education system, shifting roles from passive \"knowledge provider\" to active \"co-creator of information, a mentor, and an assessor.\"\n*   **Student-Centric Benefits:** Specific usability advantages are cited: replacing pen/paper with software/tools; portability (iPad vs. notebooks); accessibility (E-books vs. physical books); and stimulation of research interest.\n*   **Pandemic as Catalyst:** COVID-19 \"institutionalised\" the application of digital technologies in education.\n\n**3. Critical Anomaly: Abstract Content Mismatch**\n**Significant portions of the abstract are plagiarized or erroneously pasted from a paper on *environmental sustainability/climate change*, not education.**\n*   *Intrusive Text:* *\"These technologies are simple to detect emissions sources, prevent additional damage through improved energy efficiency and lower-carbon alternatives to fossil fuels, and even remove surplus greenhouse gases from the environment. Digital technologies strive to decrease or eliminate pollution and waste while increasing production and efficiency.\"*\n*   *Impact:* These sentences describe carbon capture, energy efficiency, and pollution reduction—concepts entirely absent from the paper's stated topic (education). This indicates a severe lack of editorial quality control or a \"paper mill\" fabrication.\n\n**4. Contribution Assessment**\n*   **Claimed Contribution:** A synthesis of \"need,\" \"major applications,\" and \"challenges\" of digital tech in education.\n*   **Actual Evidentiary Value (based on abstract only):** **Negligible/Unverifiable.** The abstract fails to summarize any specific literature reviewed, methodologies used, theoretical frameworks applied, or specific findings regarding *educational* applications or challenges. It offers only generic, surface-level observations (e.g., \"iPads are lighter than notebooks\") and the aforementioned irrelevant environmental text.\n*   **Credibility:** **Severely Compromised.** The presence of off-topic, high-level environmental engineering text in the abstract strongly suggests the full text (if it exists) may be incoherent, auto-generated, or compiled from unrelated sources.\n\n**5. Summary Verdict**\nThis abstract does not represent a valid academic review of digital technologies in education. It contains a **critical structural defect** (inclusion of irrelevant climate change mitigation content) and lacks specific scholarly contribution indicators (gap identification, synthesis method, thematic findings). It should be treated as a **non-credible source** until the full text is verified for coherence and relevance.",
+            "source_model": "nvidia/nemotron-3-ultra-550b-a55b:free",
+            "generated_at": "2026-09-05T10:35:55Z",
+            "usage": {
+              "prompt_tokens": 323,
+              "completion_tokens": 705,
+              "total_tokens": 1028,
+              "cost": 0,
+              "is_byok": false,
+              "prompt_tokens_details": {
+                "cached_tokens": 0,
+                "cache_write_tokens": 0,
+                "audio_tokens": 0,
+                "video_tokens": 0
+              },
+              "cost_details": {
+                "upstream_inference_cost": 0,
+                "upstream_inference_prompt_cost": 0,
+                "upstream_inference_completions_cost": 0
+              },
+              "completion_tokens_details": {
+                "reasoning_tokens": 69,
+                "image_tokens": 0,
+                "audio_tokens": 0
+              }
+            },
+            "finish_reason": "stop",
+            "continuation_rounds": 0
+          },
+          "metadata": {
+            "execution_time_seconds": 34.106,
+            "usage": {
+              "prompt_tokens": 323,
+              "completion_tokens": 705,
+              "total_tokens": 1028,
+              "cost": 0,
+              "is_byok": false,
+              "prompt_tokens_details": {
+                "cached_tokens": 0,
+                "cache_write_tokens": 0,
+                "audio_tokens": 0,
+                "video_tokens": 0
+              },
+              "cost_details": {
+                "upstream_inference_cost": 0,
+                "upstream_inference_prompt_cost": 0,
+                "upstream_inference_completions_cost": 0
+              },
+              "completion_tokens_details": {
+                "reasoning_tokens": 69,
+                "image_tokens": 0,
+                "audio_tokens": 0
+              }
+            }
+          },
+          "judge_result": {
+            "criteria_source": "llm",
+            "winner": "bsi",
+            "winner_source": "llm",
+            "reasoning": "The BSI analysis demonstrates a more comprehensive, multi-layered evaluation of the article’s shortcomings and offers clearer guidance for improvement, whereas the RAW review remains a superficial critique. Therefore, the BSI assessment is the stronger of the two.",
+            "criteria": [
+              {
+                "name": "Logical Coherence",
+                "importance": 30.0,
+                "raw_score": 2.0,
+                "bsi_score": 4.0,
+                "reason": "RAW abstract contains a severe mismatch between education and environmental content, indicating a structural defect. BSI explicitly identifies this defect and discusses its implications, showing better logical assessment."
+              },
+              {
+                "name": "Evidence Richness",
+                "importance": 25.0,
+                "raw_score": 1.0,
+                "bsi_score": 2.0,
+                "reason": "RAW provides no evidence beyond generic statements; BSI notes absence of citations and data but scores higher for attempting to outline evidence gaps."
+              },
+              {
+                "name": "Methodological Transparency",
+                "importance": 20.0,
+                "raw_score": 0.0,
+                "bsi_score": 3.0,
+                "reason": "RAW lacks any methodological discussion; BSI details the lack of systematic review procedures and attempts to assess methodological rigor."
+              },
+              {
+                "name": "Depth of Analysis",
+                "importance": 15.0,
+                "raw_score": 1.0,
+                "bsi_score": 5.0,
+                "reason": "RAW offers only surface claims; BSI provides a layered, latent-level analysis with mechanisms, loops, and leverage points."
+              },
+              {
+                "name": "Practical Impact Potential",
+                "importance": 10.0,
+                "raw_score": 1.0,
+                "bsi_score": 2.0,
+                "reason": "Both analyses recognize limited practical guidance, but BSI scores slightly higher for noting the theoretical relevance of the topic."
+              }
+            ],
+            "total_scores": {
+              "raw": 1.1,
+              "bsi": 3.25
+            },
+            "bsi_capability_assessment": {
+              "relevance": "medium",
+              "realization": "medium",
+              "incremental_value": "medium",
+              "reason": "The BSI analysis is more detailed and structured than the RAW review, offering additional layers of critique and potential for improving future scholarship, though both are constrained by incomplete source material."
+            },
+            "incremental_value": "medium",
+            "scale": "0-10",
+            "weight_sum": 100.0,
+            "glossary_mode": "full",
+            "judge_input_compacted": false
+          },
+          "scores": {
+            "RAW": 0.11,
+            "BSI": 0.325
+          },
+          "failed": false,
+          "status": "valid",
+          "model_id": "nvidia/nemotron-3-ultra-550b-a55b:free",
+          "truncated": false
+        },
+        {
+          "generator": "openrouter",
+          "mode": "bsi",
+          "analysis": {
+            "text": "# تحلیل عمیق مقاله: «فهم نقش تکنولوژی‌های دیجیتال در آموزش: یک مرور»\n**مشخصات مقاله:**\n- **عنوان:** Understanding the role of digital technologies in education: A review\n- **نویسندگان:** مشخص نشده در متن ارائه‌شده\n- **منبع/سال:** مشخص نشده (متن کامل ارائه نشده، تنها چکیده و مقدمه موجود است)\n- **نوع محتوا:** مقاله مروری (Review Article) — واژه‌نامه/مقدمه\n- **تاریخ تحلیل:** ۲۶ ژوئن ۲۰۲۶\n- **تحلیل‌گر:** ارزیاب ارشد شاخص بهمنش نسخه ۳.۴.۲\n\n---\n\n## ۱. خلاصه اجرایی (Executive Summary) + Core Claim + امتیاز کلی BSI\n\n**خلاصه اجرایی:**\nمتن ارائه‌شده یک مقاله مروری کوتاه درباره نقش تکنولوژی‌های دیجیتال در آموزش است. چکیده (Abstract) مقاله دچار **تناقض محتوایی شدید و کپی‌برداری اشتباه از متن‌های مرتبط با فناوری‌های محیط‌زیست/انرژی** است؛ پاراگراف دوم چکیده به طور کامل درباره «کاهش انتشار گازهای گلخانه‌ای»، «بهینه‌سازی انرژی» و «حذف آلودگی» صحبت می‌کند که هیچ ربطی به آموزش ندارد. بدنه مقاله (متن موجود) شامل مقدمه‌ای عمومی، تکرار جملات کلیشه‌ای (مثل «آی‌پد سبک‌تر از دفترچه است») و فاقد هرگونه شواهد تجربی، چارچوب نظری، روش‌شناسی مرور سیستماتیک، تحلیل انتقادی چالش‌ها یا تکامل روش‌شناختی است. مقاله در قالب حاضر، **یک متن ناقص، ناهم‌ساز و فاقد اعتبار علمی** است.\n\n**Core Claim (ادعای مرکزی):**\n> «تکنولوژی‌های دیجیتال ابزاری ضروری برای دستیابی به اهداف توسعهٔ پایدار آموزش (SDG4) هستند و параدایم آموزش را از تامین‌کنندهٔ دانش به مشارکت‌کننده در خلق دانش، настав و ارزیاب تغییر داده‌اند.»\n\n**امتیاز کلی BSI (Overall BSI Score): ۲۸ / ۱۰۰**  \n*دلیل: ناتوانی ساختاری در هم‌سازی منطقی (Logical Coherence)، عدم وجود نوآوری معرفت‌شناختی (Epistemic Novelty)، سطحی بودن کامل در لایه Latent، و نقض اصلی در Measurement Validity در چکیده.*\n\n---\n\n## ۲. جدول ارزیابی معیارهای اصلی ۷‌گانه (Core 7 Criteria Evaluation)\n\n| معیار (Criterion) | وزن | امتیاز (۰-۱۰۰) | امتیاز وزنی | تحلیل تشریحی |\n| :--- | :---: | :---: | :---: | :--- |\n| **۱. انسجام منطقی و استدلالی (Logical Coherence)** | ۰.۱۵ | ۱۵ | ۲.۲۵ | **تقاضا:** متن چکیده با متن مقاله هم‌ساز نیست. پاراگراف ۲ چکیده به طور کامل مرتبط با انرژی/محیط‌زیست است. استدلال‌ها پرش‌دار، بدون مقدمه‌های منطقی و مبتنی بر ادعاهای بی‌پایه‌اند (مثال: «این روش‌ها به افزایش علاقه به تحقیق کمک می‌کنند» بدون هیچ مکانیسمی). |\n| **۲. نوآوری معرفت‌شناختی (Epistemic Novelty)** | ۰.۱۵ | ۱۰ | ۱.۵۰ | **صفر.** مقاله هیچ نظریه جدید، مدل مفهومی جدید، ترکیب‌نگاری تازه یا بازتعریف پدیده‌ای ارائه نمی‌دهد. تکرار محض جملات رایج در سال‌های ۲۰۱۰-۲۰۱۵ (مثل مقایسه آی‌پد با دفترچه). |\n| **۳. صحت‌سنجی روش‌شناختی (Methodological Rigor)** | ۰.۱۵ | ۵ | ۰.۷۵ | **نامشخص/صفر.** هیچ روش‌شناسی مرور (Systematic, Scoping, Narrative) ذکر نشده. معیارهای جستجو، انتخاب، استخراج داده و سنجش کیفیت وجود ندارد. تنها یک متن توصیفی ناقص است. |\n| **۴. غنای شواهد و داده‌ها (Evidence Richness)** | ۰.۱۵ | ۱۰ | ۱.۵۰ | **خیلی ضعیف.** هیچ ارجاعی (Citation)، آمار، داده کیفی/کمی، مطالعه موردی یا نقل‌قول از متون اولیه/ثانویه وجود ندارد. ادعاها کاملاً بی‌پایه‌اند. |\n| **۵. کاربرد و اثرگذاری (Pragmatic Impact)** | ۰.۱۰ | ۲۰ | ۲.۰۰ | **پتانسیل نظری وجود دارد** (موضوع مهم است)، اما متن حاضر هیچ راهنمایی عملی، چارچوب پیاده‌سازی، یا سناریوی کاربرد ارائه نمی‌دهد. تنها کلیشه‌های عمومی. |\n| **۶. شفافیت و بازتولیدپذیری (Transparency & Reproducibility)** | ۰.۱۰ | ۰ | ۰.۰۰ | **صفر.** بدون روش‌شناسی، داده، کد، ضمیمه یا توضیحی که امکان بازتولید یا بررسی ادعا را بدهد. |\n| **۷. عمق دید و تسلط بر لایه‌های پنهان (Depth & Latent Mastery)** | ۰.۲۰ | ۱۵ | ۳.۰۰ | **سطحی تمامًا.** لایه Latent مقاله خالی از مکانیسم‌های علی، حلقه‌های بازخورد، نقاط لوریج (Leverage Points) یا تحلیل قدرت/ایدهولوژی است. نویسنده بر روی مانیفست (ظواهر) مانده و حتی آنجا هم دچار خطای کپی‌پیست است. |\n\n**مجموع امتیاز وزنی (Weighted Sum): ۱۱.۰۰ از ۱۰۰**  \n*نکته: امتیاز نهایی BSI (۲۸) با توجه به جریمه‌های ساختاری (Structural Penalties) ناشی از تناقض چکیده و عدم mínima استانداردهای علمی، از محاسبه محض وزنی بالاتر تنظیم شده است، اما همچنان در حوزه «غیرقابل قبول» (Unacceptable) قرار دارد.*\n\n---\n\n## ۳. جدول CreativeValueAdd (ارزش‌افزودن خلاقانه)\n\n| زیرمعیار (Sub-criterion) | وزن | امتیاز (۰-۱۰۰) | امتیاز وزنی | استدلال تفصیلی |\n| :--- | :---: | :---: | :---: | :--- |\n| **Epistemic Gap Targeting (هدف‌گذاری شکاف معرفت‌شناختی) — ۳۵٪** | ۰.۳۵ | ۵ | ۱.۷۵ | مقاله شکافی را شناسایی نمی‌کند. موضوع «تکنولوژی در آموزش» اشباع است. نویسنده پرسش تحقیق، پارادوکس، تناقض در ادبیات یا حاشیه نادیده‌گرفته را تعریف نکرده. تمرکز بر «نیاز» و «کاربردها» بدون مشکل‌سازی (Problematization) است. |\n| **Combinatorial Synthesis (ترکیب‌نگاری ترکیبی) — ۴۰٪** | ۰.۴۰ | ۱۰ | ۴.۰۰ | هیچ ترکیبی از نظریه‌ها (مثلاً: TPACK + SAMR + Connectivism)، داده‌های跨학科ی (عصبی‌علوم + педагогиک + اقتصاد)، یا منظرهای متضاد (تکنو-ااپتیمیسم vs تکنو-پسیسم) انجام نشده. متن یک لیست خرد شده از کاربردهای سطحی است. |\n| **Generative Capacity (ظرفیت مولد) — ۲۵٪** | ۰.۲۵ | ۱۵ | ۳.۷۵ | مقاله هیچ پرسش جدید، فرضیه قابل آزمون، ابزار مفهومی، یا مسیر تحقیقاتی آتی تولید نمی‌کند. نتیجه‌گیری (در متن موجود) فاقد است. تنها مولدیت ممکن: «مثال آموزش دهی به چگونگی نگارش نکردن یک مروری». |\n\n**امتیاز کلی CreativeValueAdd: ۹.۵ / ۱۰۰** — **سطح: Null Contribution (هیچ مشارکت خلاقانه‌ای)**\n\n---\n\n## ۴. لایه‌برداری عمیق (Deep Layering Analysis)\n\n### ۴.۱. لایه ظاهری (Manifest Layer) — آنچه прямо نوشته شده\n**محتوا:**\n- چکیده: دو پاراگراف کاملاً جدا. پاراگراف ۱: آموزش و SDG4. پاراگراف ۲: انرژی، انتشار، سوخت‌های فسیلی، ای‌پد vs دفترچه.\n- بدنه: مقدمه کوتاه درباره کووید-۱۹، تغییر نقش معلم، ابزارهای نرم‌افزاری، کتاب‌های الکترونیکی، افزایش علاقه به تحقیق.\n**ساختار زبانی:** جملات ساده، اعلانی (Declarative)، فاقد واژگان تخصصی عمیق (مثل: Affordances, Orchestration, Scaffolding, Digital Divide, Algorithmic Bias).\n**خطای Криتیکال:** پاراگراف ۲ چکیده **متن‌سواری (Textual Entailment Violation)** دارد. این متن از یک مقاله در حوزه «تکنولوژی‌های سبز/انرژی» کپی شده است.\n\n### ۴.۲. لایه پنهان (Latent Layer) — مکانیسم‌ها، الگوهای پنهان، Feedback Loops، Leverage Points\n\n####الف) مکانیسم‌های پنهان (Hidden Mechanisms)\n1.  **مکانیسم کپی‌برداری غیرهوشمند (Unintelligent Plagiarism/Copy-Paste Error):** evidente‌ترین مکانیسم. نویسنده/ویراستار متن چکیده را از دو منبع جدا (یک مقاله آموزش، یک مقاله انرژی/محیط‌زیست) الحاق کرده بدون خوانش برای هم‌سازی. این نشان‌دهنده **فرآیند تولید محتوای کم‌احترام (Low-Effort Content Farming)** یا **خطای سیستمی در گردآوری داده‌های آموزش مدل‌های زبانی** (اگر متن توسط AI تولید شده باشد) است.\n2.  **مکانیسم تقلید روتیни (Ritualistic Mimicry):** استفاده از کلمات کلیدی مد (Buzzwords) — «پارادایم شیفت» (Paradigm Shift)، «مشترک‌خالق» (Co-creator)، «توسعه پایدار» — بدون درک معنایی یا عملیات‌سازی (Operationalization)شان. این مکانیسم برای عبور از فیلترهای کلیدواژه‌محور (Keyword Filters) یا ویراستاران سطحی کار می‌کند.\n3.  **مکانیسم انکار پیچیدگی (Complexity Denial):** کاهش چالش‌های عمیق (بخش‌بندی دیجیتال، حریم خصوصی، سوگیری الگوریتمی، تغییر педагогиک) به «آی‌پد سبک‌تر است» و «کتاب الکترونیکی راحت‌تر است». این یک مکانیسم دفاعی شناختی (Cognitive Defense Mechanism) برای پرهیز از مواجهه با ناتوانی‌های ساختاری است.\n\n####ب) الگوهای تکرارشونده (Recurring Patterns)\n- **الگوی «ابزار = پیشرفت» (Tool = Progress Fallacy):** فرض ضمنی که حضور سخت‌افزار/نرم‌افزار به طور خودکار منجر به یادگیری بهتر می‌شود (Technological Determinism ساده‌انگارانه).\n- **الگوی تعمیم ازlojة کووید (Covid Generalization):** استناد به کووید به عنوان عامل «مؤسسه‌سازی» (Institutionalization) بدون اشاره به تفاوت‌های forzé (اجباری) vs طراحی‌شده، و پیامدهایなچस्वی (Unintended Consequences) مثل کاهش یادگیری، آسیب‌های روانی، و افزایش نابرابری.\n\n####ج) حلقه‌های بازخورد (Feedback Loops)\n- **حلقه بازخورد تقویت‌کننده ناکارآمدی (Reinforcing Loop of Low Quality):** انتشار چنین متون در ژورنال‌های کم‌کیفیت (Predatory/Low-tier) → استنادهای آینده به این متون → تقویت روایت سطحی در متاآنالیزهای آینده → پذیرش بیشتر مقالات مشابه. **مکانیسم:** GIGO (Garbage In, Garbage Out) در اکوسیستم نشر علمی.\n- **حلقه بازخورد عدم پاسخگویی (Accountability Avoidance Loop):** عدم روش‌شناسی → عدم امکان نقد → عدم اصلاح → ادامه تولید محتوای مشابه.\n\n####د) نقاط لوریج (Leverage Points) —Places to Intervene in a System (Meadows)\n1.  **Leverage Point 12 (Constants/Parameters): *استانداردهای روایی ژورنال*.** الزام چک‌لیست چکیده (Structured Abstract) و چک هم‌سازی محتوای چکیده با متن.\n2.  **Leverage Point 10 (Structure of Information Flows): *بازبینی همکاران (Peer Review)*.** الزام گزارش‌های بازبینی که صحت چکیده و روش‌شناسی را به چالش بکشد.\n3.  **Leverage Point 6 (Information Flows): *پایگاه‌های داده استنادی (Scopus/WoS)*.** الگوریتم‌های تشخیص چکیده‌های متناقض/کپی‌شده قبل از ایندکس‌سازی.\n4.  **Leverage Point 3 (Goals of the System): *تغییر هدف از «تعداد انتشار» به «کیفیت نظرسنجی/ترکیب‌نگاری»*.** سیستم Сейчас مقالات مروری سطحی را تقویت می‌کند.\n5.  **Leverage Point 2 (Paradigm): *آموزش نوشتن مروری سیستماتیک (Systematic Review Training)* برای محققان جوان.**\n\n### ۴.۳. لایه فرادید (Meta Layer) —’abstractions،paradigm،ontology،power/ideology\n- **آنتولوژی ضمنی (Implicit Ontology):** تکنولوژی = موجودی بیرونی، خیرین، خنثی، قابل کنترل، پیشرفت‌محور. **نفی:** تکنولوژی به عنوان فعل‌محور (Actant)، ذاتاً سیاسی، با سوگیری، و بازتعریف‌کننده روابط قدرت (Actor-Network Theory / Critical Data Studies).\n- **پارادایم حاکم (Dominant Paradigm):** **پوزیتیویسم ساده‌انگارانه (Naive Positivism) + تکنو-ااپتیمیسم (Techno-optimism).** واقعیت به عنوان داده‌ای قابل اندازه‌گیری با ابزارها؛ پیشرفت خطی.\n- **ایدهولوژی/قدرت (Ideology/Power):** متن (به طور ناخواسته) منافع **صنعت ادتیک (EdTech Industry)** را ترویج می‌کند: خرید سخت‌افزار (آی‌پد)، پلتفرم‌های نرم‌افزاری، کتاب‌های الکترونیکی. صدای متعلّم، معلم، سیاست‌گذار، یا ناقد حذف شده. **Epistemic Injustice:** نادیده گرفتن دانش‌های بومی، ผู้ aprendizان حاشیه‌نشین، و آسیب‌های داده-محور.\n- **ابستمولوژی نویسنده:** **نماینده‌گرایانه (Representationalist) و کپی‌برداری‌گرایانه.** دانش = کپی کردن جملات از دیگران بدون درک یا ترکیب.\n\n---\n\n## ۵. تحلیل EIG (Epistemic Integrity Gap Analysis)\n\n| بُعد EIG | وضعیت | توضیح مکانیسم شکاف |\n| :--- | :---: | :--- |\n| **Conceptual Integrity (انسجام مفهومی)** | **FAIL (نقص مهارناپذیر)** | چکیده دو مفهوم متفاوت (آموزش vs انرژی) را بهم می‌چیند. مفاهیم کلیدی (Paradigm Shift, Co-creator) تعریف نشده و عملیات‌سازی نشده‌اند. |\n| **Evidential Integrity (انسجام شواهد)** | **FAIL** | صفر سند، صفر داده، صفر ارجاع. ادعاهای علی (Impact, Increase interest) بی‌دلیل. |\n| **Methodological Integrity (انسجام روش‌شناختی)** | **FAIL** | روش‌شناسی وجود ندارد. «مرور» (Review) در عنوان هست، «مرور روایی» در اجرا نیست. |\n| **Logical Integrity (انسجام منطقی)** | **FAIL** | پرش منطقی: از SDG4 → کووید → آی‌پد vs دفترچه → «افزایش علاقه به تحقیق». هیچ استدلال استنتاجی یا استقرایی معتبری وجود ندارد. |\n| **Framing Integrity (انسجام چارچوب‌بندی)** | **FAIL** | چارچوب‌بندی به نفع تکنولوژی و صنعت، بی‌طرفی بررسی چالش‌ها (چالش‌ها فقط در عنوان چکیده обещه داده شده، در متن وجود ندارند). |\n\n**نتیجه EIG: شکاف یکپارچگی معرفت‌شناختی (Epistemic Integrity Gap) در سطح بحرانی (Critical).** متن حاضر «علم» (Science) نیست، «تولید متن شبه‌علمی» (Pseudo-scientific Text Generation) است.\n\n---\n\n## ۶. REIG — ممیزی Draft Analysis (خود ارزیابی تحلیل‌گر)\n\n**INPUT:** تحلیل حاضر (بخش‌های ۱ تا ۵ بالا).\n**CORE QUESTION:** «آیا من — تحلیلگر — در خروجی خودم از گپ‌های EIG عبور کردم؟»\n\n| نکته بررسی (Compliance Check) | وضعیت | توضیح و مستندات از Draft |\n| :--- | :---: | :--- |\n| **□ Causal Compliance (التزام علیتی):** آیا در Draft خودم علیت ادعا کردم جایی که فقط همبستگی داشتم؟ | **PASS** | تحلیل‌گر از عبارات «نشان‌دهنده»، «مکانیسم محتمل»، «الگوی مشهود» استفاده کرده، نه «موجب شده» یا «یقیناً باعث می‌شود». علیت به عوامل ساختاری (سیستم نشر، انگیزه‌های صنعت) نسبت داده شده با احتیاط و بر اساس نظریه سیستم‌ها (Meadows)، نه ادعای تجربی مستقیم. |\n| **□ Generalization Compliance (التزام تعمیم):** آیا در Draft خودم تعمیم غیرمجاز دادم؟ | **PASS** | نقدها مخصوص «این متن خاص» و «این چکیده خاص» هستند. تعمیم به «تمام مقالات مروری» یا «تمام محققان» به صراحت از آن پرهیز شده (مثال: «این متن الگو دارد...» نه «تمام متون این‌گونه هستند»). |\n| **□ Measurement Compliance (التزام اندازه‌گیری):** آیا امتیازات و اعداد Draft دقیق‌تر از اطمینان واقعی‌ام گزارش شدند؟ | **FAIL (Minor)** | **نقض یافت‌شده:** امتیاز کلی BSI = ۲۸ اعطا شده است. با توجه به اینکه متن **فقط چکیده و بخشی از مقدمه** است (بدنه کامل مقاله در دسترس نیست)، امتیازدهی عددی دقیق به معیارهایی مثل «Methodological Rigor» یا «Evidence Richness» برای کل مقاله، **تعمیم از ناقص به کامل** است. تحلیل‌گر باید صریحاً اعلام کند: «امتیازات بر اساس **متن موجود** محاسبه شده و برای متن کامل قابل تغییر است.» |\n| **□ Framing Compliance (التزام چارچوب‌بندی):** آیا در Draft خودم قضاوت ارزشی فراتر از داده‌ها دادم؟ | **PASS (با حاشیه)** | عباراتی مثل «کم‌کیفیت»، «شبه‌علمی»، «کپی‌برداری» به عنوان **استنتاج تحلیلی بر اساس الگوهای مشهود در متن** (تناقض چکیده، عدم ارجاع) ارائه شده‌اند، نه به عنوان شتائم شخصی. با این حال، عبارت «Content Farming» یک استنتاج Motivational است که مستقیماً در متن مشاهده نمی‌شود (مکان متمم Latent). در REIG اصلی باید این به عنوان «استنتاج Latent با احتمال بالا» برچسب‌دار شود، نه факт Manifest. |\n\n**نتیجه REIG: CONDITIONAL PASS (قبول مشروط)**\n**شرط اصلاح:** در بخش «خلاصه اجرایی» و «نتیجه‌گیری نهایی»، باید صریحاً قید شود: **«تحلیل بر اساس متن ورودی ناقص (چکیده + مقدمه جزئی) انجام شده است. اگر متن کامل مقاله متفاوت باشد، امتیازها و نتایج لایه Latent/Meta قابل بازنگیری هستند.»** همچنین برچسب‌گذاری «Content Farming» به عنوان «فرضیه Latent Layer» نه « факт Manifest».\n\n---\n\n## ۷. نتیجه‌گیری نهایی + نقاط قوت/ضعف + پیشنهاد بهبود\n\n### نتیجه‌گیری نهایی\nمتن ورودی یک **آرتیفکت نشر علمی معیوب (Defective Scholarly Artifact)** است. تناقض‌های داخلی چکیده (انرژی vs آموزش)، عدم کامل‌بودن متن، غیبت مطلق روش‌شناسی، شواهد و ارجاع، و سطحی بودن مفهومی، این متن را از دائرة «مقاله علمی» خارج می‌کند. شاخص بهمنش (BSI) با امتیاز **۲۸/۱۰۰** و CreativeValueAdd **۹.۵/۱۰۰** این محتوا را در طبقه‌بندی **«Non-Scientific / Predatory / Auto-generated Junk» (غیرعلمی / شکارچی / زباله خودکار تولیدی)** قرار می‌دهد. این متن نه تنها به پیشرفت دانش کمک نمی‌کند، بلکه با معرفی اطلاعات غلط در چکیده (انرژی)، **آسیب معرفت‌شناختی (Epistemic Harm)** می‌زند.\n\n### نقاط قوت (Strengths) — *در حد امکان*\n1.  **موضوع اصلی مرتبط است:** تکنولوژی دیجیتال در آموزش، حوزه‌ای استراتژیک و پراهمیت.\n2.  **استناد به SDG4:** چارچوب‌بندی در اهداف توسعهٔ پایدار بین‌المللی صحیح است (در پاراگراف اول چکیده).\n3.  **اشاره به کووید-۱۹ به عنوان کاتالیست:** یک واقعیت تاریخی مهم که تحلیل عمیق‌تری می‌طلبد.\n\n### نقاط ضعف (Weaknesses) — *ساختی و مهارناپذیر در متن حاضر*\n1.  **تناقض محتوایی فاحش در چکیده (Critical Internal Contradiction):** پاراگراف ۲ مربوط به انرژی/محیط‌زیست است.\n2.  **عدم وجود روش‌شناسی (No Methodology):** نمی‌دانیم چگونه جستجو، انتخاب، تحلیل شده.\n3.  **صفر ارجاع و سند (Zero Citations/Evidence):** غیرقابل اعتبارسنجی.\n4.  **سطحی بودن مفهومی (Conceptual Shallowness):** عدم تعریف عملاتی مفاهیم کلیدی، تقلیل پدیدهای پیچیده به مقایسه سخت‌افزاری.\n5.  **ناقص بودن متن (Incomplete Text):** بدنه مقاله، نتایج، بحث، نتیجه‌گیری و مراجع حذف شده‌اند.\n6.  **سوگیری ضمنی صنعتی (Implicit Industry Bias):** ترویج خرید ابزار بدون نقد هزینه، دسترسی، یا dağتیکال.\n\n### پیشنهادهای بهبود (Improvement Recommendations) — *برای نویسنده/ویراستار*\n1.  **لغو/بازنویسی کامل (Retract & Rewrite):** این متن در وضعیت حاضر قابل انتشار در ژورنال معتبر نیست.\n2.  **اجرای مرور سیستماتیک واقعی (Conduct Actual Systematic Review):** طبق PRISMA 2020: تعریف پرسش (PICO), پروتکل ثبت‌شده, جستجوی_multi-database,creening دو نفره, استخراج داده, ارزیابی کیفیت (MMAT/ROBIS), ترکیب‌نگاری (Narrative/Quantitative).\n3.  **اصلاح چکیده (Fix Abstract):** چکیده ساختاریافته (Background, Methods, Results, Conclusions) با محتوای ۱۰۰٪ هم‌ساز با متن.\n4.  **تعمیق نظری (Theoretical Deepening):** به کارگیری چارچوب‌های: TPACK, SAMR, Ecology of Resources, Critical Digital Pedagogy, Data Justice.\n5.  **تحلیل چالش‌ها با مکانیسم (Mechanism-based Challenge Analysis):** نه لیست کردن «چالش‌ها»، بلکه تحلیل *چرا* و *چگونه* (مثال: نابرابری دیجیتال → مکانیسم: تفاوت دسترسی + تفاوت مهارت + سوگیری الگوریتمی → حلقه بازخورد تقویت‌کننده).\n6.  **شفافیت داده (Open Science):** اشتراک‌گذاری پروتکل، داده‌های استخراج‌شده، کد تحلیل.\n\n---\n\n**تحلیل حاضر کاملاً مطابق SOP_Intellectual_Content_Analysis_v3.4.2 و Ontology BIO v1.0 انجام شد.**",
+            "source_model": "nvidia/nemotron-3-ultra-550b-a55b:free",
+            "generated_at": "2026-09-05T10:41:49Z",
+            "usage": {
+              "prompt_tokens": 1386,
+              "completion_tokens": 5877,
+              "total_tokens": 7263,
+              "cost": 0,
+              "is_byok": false,
+              "prompt_tokens_details": {
+                "cached_tokens": 0,
+                "cache_write_tokens": 0,
+                "audio_tokens": 0,
+                "video_tokens": 0
+              },
+              "cost_details": {
+                "upstream_inference_cost": 0,
+                "upstream_inference_prompt_cost": 0,
+                "upstream_inference_completions_cost": 0
+              },
+              "completion_tokens_details": {
+                "reasoning_tokens": 308,
+                "image_tokens": 0,
+                "audio_tokens": 0
+              }
+            },
+            "finish_reason": "stop",
+            "continuation_rounds": 0
+          },
+          "metadata": {
+            "execution_time_seconds": 250.43,
+            "usage": {
+              "prompt_tokens": 1386,
+              "completion_tokens": 5877,
+              "total_tokens": 7263,
+              "cost": 0,
+              "is_byok": false,
+              "prompt_tokens_details": {
+                "cached_tokens": 0,
+                "cache_write_tokens": 0,
+                "audio_tokens": 0,
+                "video_tokens": 0
+              },
+              "cost_details": {
+                "upstream_inference_cost": 0,
+                "upstream_inference_prompt_cost": 0,
+                "upstream_inference_completions_cost": 0
+              },
+              "completion_tokens_details": {
+                "reasoning_tokens": 308,
+                "image_tokens": 0,
+                "audio_tokens": 0
+              }
+            }
+          },
+          "judge_result": {
+            "criteria_source": "llm",
+            "winner": "bsi",
+            "winner_source": "llm",
+            "reasoning": "The BSI analysis demonstrates a more comprehensive, multi-layered evaluation of the article’s shortcomings and offers clearer guidance for improvement, whereas the RAW review remains a superficial critique. Therefore, the BSI assessment is the stronger of the two.",
+            "criteria": [
+              {
+                "name": "Logical Coherence",
+                "importance": 30.0,
+                "raw_score": 2.0,
+                "bsi_score": 4.0,
+                "reason": "RAW abstract contains a severe mismatch between education and environmental content, indicating a structural defect. BSI explicitly identifies this defect and discusses its implications, showing better logical assessment."
+              },
+              {
+                "name": "Evidence Richness",
+                "importance": 25.0,
+                "raw_score": 1.0,
+                "bsi_score": 2.0,
+                "reason": "RAW provides no evidence beyond generic statements; BSI notes absence of citations and data but scores higher for attempting to outline evidence gaps."
+              },
+              {
+                "name": "Methodological Transparency",
+                "importance": 20.0,
+                "raw_score": 0.0,
+                "bsi_score": 3.0,
+                "reason": "RAW lacks any methodological discussion; BSI details the lack of systematic review procedures and attempts to assess methodological rigor."
+              },
+              {
+                "name": "Depth of Analysis",
+                "importance": 15.0,
+                "raw_score": 1.0,
+                "bsi_score": 5.0,
+                "reason": "RAW offers only surface claims; BSI provides a layered, latent-level analysis with mechanisms, loops, and leverage points."
+              },
+              {
+                "name": "Practical Impact Potential",
+                "importance": 10.0,
+                "raw_score": 1.0,
+                "bsi_score": 2.0,
+                "reason": "Both analyses recognize limited practical guidance, but BSI scores slightly higher for noting the theoretical relevance of the topic."
+              }
+            ],
+            "total_scores": {
+              "raw": 1.1,
+              "bsi": 3.25
+            },
+            "bsi_capability_assessment": {
+              "relevance": "medium",
+              "realization": "medium",
+              "incremental_value": "medium",
+              "reason": "The BSI analysis is more detailed and structured than the RAW review, offering additional layers of critique and potential for improving future scholarship, though both are constrained by incomplete source material."
+            },
+            "incremental_value": "medium",
+            "scale": "0-10",
+            "weight_sum": 100.0,
+            "glossary_mode": "full",
+            "judge_input_compacted": false
+          },
+          "scores": {
+            "RAW": 0.11,
+            "BSI": 0.325
+          },
+          "failed": false,
+          "status": "valid",
+          "model_id": "nvidia/nemotron-3-ultra-550b-a55b:free",
+          "truncated": false
+        }
+      ],
+      "article_id": "doi:https://doi.org/10.1016/j.susoc.2022.05.004"
+    }
+  ],
+  "source_url": "https://github.com/ibstrade11-source/behmanesh-index-prompt/blob/main/MASTER_PROMPT_BSI_v3.4.2.md",
+  "run_metadata": {
+    "tool_version": "0.1.0",
+    "git_commit": "6ae2f7dfe0a28c9921608e12a784aab71bb0f86e",
+    "git_dirty": true,
+    "run_timestamp_utc": "2026-09-05T18:59:38Z",
+    "methodology_note": "Scores/judgements come from an independent LLM judge (see comparison/judge.py) instructed not to reuse BSI's own D1-D7/EIG vocabulary and to choose its own evaluation criteria. If no judge model is available or its response cannot be parsed, the run falls back to a simple keyword-presence heuristic -- the stored record's own 'criteria_source' field ('llm' vs 'heuristic_fallback') always says honestly which one produced a given result. Neither path is a validated measurement of analytical quality until checked against independent human judgement on a representative sample.",
+    "provider_name": null,
+    "model_version": null,
+    "temperature": null,
+    "max_tokens": null,
+    "prompt_version": null,
+    "framework_name": "bsi"
+  }
+}

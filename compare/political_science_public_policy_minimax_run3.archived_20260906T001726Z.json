@@ -1,0 +1,273 @@
+{
+  "dataset_name": "political science public policy decision making",
+  "results": [
+    {
+      "article": {
+        "title": "American Business, Public Policy, Case-Studies, and Political Theory",
+        "abstract": "Case-Studies of the policy-making process constitute one of the more important methods of political science analysis. Beginning with Schattschneider, Herring, and others in the 1930's, case-studies have been conducted on a great variety of decisions. They have varied in subject-matter and format, in scope and rigor, but they form a distinguishable body of literature which continues to grow year by year. The most recent addition, a book-length study by Raymond Bauer and his associates, stands with Robert A. Dahl's prize-winning Who Governs? (New Haven 1961) as the best yet to appear. With its publication a new level of sophistication has been reached. The standards of research its authors have set will indeed be difficult to uphold in the future. American Business and Public Policy is an analysis of political relationships within the context of a single, well-defined issue—foreign trade. It is an analysis of business attitudes, strategies, communications and, through these, business relationships in politics. The analysis makes use of the best behavioral research techniques without losing sight of the rich context of policies, traditions, and institutions. Thus, it does not, in Dahl's words, exchange relevance for rigor; rather it is standing proof that the two—relevance and rigor—are not mutually exclusive goals.",
+        "full_text": null,
+        "doi": "https://doi.org/10.2307/2009452",
+        "url": "https://openalex.org/W2150459713",
+        "input_quality": {
+          "has_title": true,
+          "has_abstract": true,
+          "source": "openalex",
+          "enriched": false
+        }
+      },
+      "cells": [
+        {
+          "generator": "groq",
+          "mode": "raw",
+          "analysis": {
+            "text": "**Main Claims**\n\n1. **Case‑study methodology is a cornerstone of political science** – The article traces its historical roots from the 1930s (Schattschneider, Herring, etc.) and asserts that case studies have become a distinct, growing body of literature covering diverse policy decisions.\n\n2. **Recent scholarship has reached a new level of sophistication** – The author positions Raymond Bauer’s book‑length study alongside Dahl’s *Who Governs?* (1961) as the best recent contribution, claiming it sets high research standards that future works will find hard to match.\n\n3. **Relevance and rigor are compatible** – Using *American Business and Public Policy* as a case study, the author argues that one can apply rigorous behavioral research methods while retaining contextual richness (policy, tradition, institutions), countering Dahl’s suggestion that these goals are mutually exclusive.\n\n**Contribution**\n\n- **Historical framing**: Provides a concise survey of the evolution and diversification of case‑study analysis in political science.\n- **Normative benchmark**: Positions Bauer’s work as a new methodological benchmark, encouraging higher standards in future research.\n- **Theoretical integration**: Demonstrates, via the foreign‑trade example, how behavioral techniques can be integrated with contextual analysis, offering a model for scholars seeking both relevance and rigor.\n\nOverall, the article functions as a short reflective piece that situates contemporary case‑study scholarship within its historical lineage and argues for a balanced methodological approach.",
+            "source_model": "openai/gpt-oss-20b",
+            "generated_at": "2026-09-06T00:17:06Z",
+            "usage": {
+              "queue_time": 0.220219717,
+              "prompt_tokens": 381,
+              "prompt_time": 0.019731658,
+              "completion_tokens": 319,
+              "completion_time": 0.324382664,
+              "total_tokens": 700,
+              "total_time": 0.344114322,
+              "completion_tokens_details": {
+                "reasoning_tokens": 12
+              }
+            },
+            "finish_reason": "stop",
+            "continuation_rounds": 0
+          },
+          "metadata": {
+            "execution_time_seconds": 1.107,
+            "usage": {
+              "queue_time": 0.220219717,
+              "prompt_tokens": 381,
+              "prompt_time": 0.019731658,
+              "completion_tokens": 319,
+              "completion_time": 0.324382664,
+              "total_tokens": 700,
+              "total_time": 0.344114322,
+              "completion_tokens_details": {
+                "reasoning_tokens": 12
+              }
+            }
+          },
+          "judge_result": {
+            "criteria_source": "llm",
+            "winner": "raw",
+            "winner_source": "llm",
+            "reasoning": "The article is a brief, reflective piece with limited methodological content. RAW's analysis is well-calibrated to this scale: it accurately identifies the three core claims, the contribution, and frames the piece appropriately as a short reflective essay without overclaiming. BSI attempts a multi-layer epistemic audit, but because the source article contains little mechanism, evidence, or causal structure to audit, BSI fabricates specifics (sampling design, institutional leverage points, Ontology BIO v1.0 alignment, statistical analyses) that do not exist in the article. This fabrication undermines epistemic integrity despite BSI's own framing of humility checks. BSI does add value by surfacing weaknesses RAW ignores, and by offering a structured critical lens — but the overall overclaim (8.3/10 for a short commentary), the internal inconsistency between its own PASS/FAIL flags and the headline score, and the language/clarity issues prevent it from outperforming RAW. RAW wins on accuracy, calibration, and transparency; BSI wins only on explicit weakness surfacing.",
+            "criteria": [
+              {
+                "name": "Identification and articulation of main claims",
+                "importance": 20.0,
+                "raw_score": 8.0,
+                "bsi_score": 7.0,
+                "reason": "RAW cleanly extracts three claims (case-study methodology as cornerstone; Bauer as new benchmark; rigor-relevance compatibility) and states contribution plainly. BSI restates a Core Claim in Persian, but the phrasing conflates the article's thesis with the book being reviewed, slightly muddling the exact claim."
+              },
+              {
+                "name": "Accuracy in representing the article's content",
+                "importance": 15.0,
+                "raw_score": 8.0,
+                "bsi_score": 5.0,
+                "reason": "RAW accurately identifies Bauer, Dahl, Schattschneider, and the historical lineage, staying within what the article actually does. BSI introduces fabricated specifics — 'sampling errors,' specific industry case selections, statistical analyses, and 'Ontology BIO v1.0' alignment — that the short reflective article does not contain, inflating apparent precision."
+              },
+              {
+                "name": "Methodological and mechanistic depth",
+                "importance": 15.0,
+                "raw_score": 4.0,
+                "bsi_score": 6.0,
+                "reason": "RAW acknowledges the article is a short reflective piece and does not over-claim mechanism. BSI attempts layered analysis (manifest/latent/meta), leverage points, and feedback loops, adding structural depth; however, much of this depth is fabricated since the article itself provides little mechanism to analyze."
+              },
+              {
+                "name": "Epistemic humility and avoidance of overclaim",
+                "importance": 20.0,
+                "raw_score": 7.0,
+                "bsi_score": 3.0,
+                "reason": "RAW appropriately treats the article as a brief reflective essay and avoids inflating its evidentiary weight. BSI assigns an overall score of 8.3/10 and a Core Claim score of 8.5/10 to what is essentially a short book-review-style commentary, which is a clear overclaim relative to the article's modest empirical and methodological footprint."
+              },
+              {
+                "name": "Internal consistency and structural coherence",
+                "importance": 10.0,
+                "raw_score": 8.0,
+                "bsi_score": 5.0,
+                "reason": "RAW's claims, contribution, and framing hang together coherently. BSI's structure is elaborate but internally inconsistent: it simultaneously awards 'Innovation: 9' and flags 'Framing Compliance: FAIL,' and the EIG/REIG verdicts are not reconciled with the overall 8.3 score."
+              },
+              {
+                "name": "Critical assessment of weaknesses and limitations",
+                "importance": 10.0,
+                "raw_score": 5.0,
+                "bsi_score": 8.0,
+                "reason": "RAW barely engages with the article's weaknesses, treating it favorably without critique. BSI explicitly identifies methodological transparency gaps, sampling limitations, and unsupported framing claims — genuine weaknesses that RAW misses."
+              },
+              {
+                "name": "Language clarity and reader accessibility",
+                "importance": 10.0,
+                "raw_score": 9.0,
+                "bsi_score": 5.0,
+                "reason": "RAW is written in clear English with a logical flow. BSI is rendered in Persian/Persian-mixed tables with jargon (Ontology BIO v1.0, REIG, EIG, leverage points) that is not grounded in the source article, reducing clarity for a reader trying to understand the article's content."
+              }
+            ],
+            "total_scores": {
+              "raw": 7.0,
+              "bsi": 5.45
+            },
+            "bsi_capability_assessment": {
+              "relevance": "medium",
+              "realization": "low",
+              "incremental_value": "low",
+              "reason": "BSI's layered architecture and gap-analysis vocabulary are theoretically relevant to evaluating a scholarly article, but realization here is weak: much of the mechanistic and latent-layer content (sampling design, institutional feedback loops, statistical claims) is fabricated rather than derived from the short reflective article. The only genuinely useful BSI contribution is the explicit weakness/limitation inventory, which RAW omits; otherwise BSI adds elaborate scaffolding on top of a thin source text."
+            },
+            "incremental_value": "low",
+            "scale": "0-10",
+            "weight_sum": 100.0,
+            "glossary_mode": "full",
+            "judge_input_compacted": false
+          },
+          "scores": {
+            "RAW": 0.7,
+            "BSI": 0.545
+          },
+          "failed": false,
+          "status": "valid",
+          "model_id": "openai/gpt-oss-20b",
+          "truncated": false
+        },
+        {
+          "generator": "groq",
+          "mode": "bsi",
+          "analysis": {
+            "text": "**عنوان تحلیل: تجزیه و تحلیل مقاله «American Business, Public Policy, Case‑Studies, and Political Theory»**  \n**سازنده تحلیل: ارزیاب ارشد شاخص بهمنش نسخه ۳.۴.۲**  \n**تاریخ تحلیل: 06 سپتامبر 2026**  \n\n---\n\n## 1. خلاصه اجرایی (Executive Summary) + Core Claim + امتیاز کلی BSI\n\n| بخش | توضیح | امتیاز BSI |\n|---|---|---|\n| **خلاصه اجرایی** | این مقاله بررسی می‌کند که چگونه شرکت‌های آمریکایی در فرآیند تصمیم‌گیری در حوزه تجارت خارجی فعالیت می‌کنند و درک می‌کند که آیا روش‌های تحقیقاتی رفتاری می‌توانند به‌دنبال درک دقیق روابط سیاسی در یک زمینه خاص (تجارت خارجی) باشند. مقاله با ارجاع به تاریخچه مطالعات موردی (case‑studies) و تأکید بر تعادل بین اعتبار و کاربردی بودن، ادعا می‌کند که این دو هدف می‌توانند همزمان تحقق یابند. | 8.2 / 10 |\n| **Core Claim** | ادعای اصلی مقاله این است که «تحلیل‌های مبتنی بر رفتار در زمینه تجارت خارجی، می‌توانند به‌صورت همزمان دقیق، معتبر و کاربردی باشند؛ به‌علاوه، این رویکرد نشان می‌دهد که ارتباط میان سیاست و تجارت می‌تواند در قالب مطالعات موردی با کیفیت بالای علمی تحلیل شود.» | 8.5 / 10 |\n| **امتیاز کلی BSI** | بر اساس معیارهای BSI (دقت، جامعیت، سازگاری با Ontology BIO v1.0، و سایر معیارهای کلیدی)، مقاله مجموعاً **8.3** از 10 نمره کسب می‌کند. | 8.3 / 10 |\n\n---\n\n## 2. جدول ارزیابی معیارهای اصلی ۷گانه\n\n| معیار BSI | تعریف | نمره (0–10) | توضیح |\n|---|---|---|---|\n| **1. دقت (Accuracy)** | صحت ادعاها و داده‌های ارائه‌شده | 9 | منابع معتبر (Dahl، Schattschneider، Bauer) به‌درستی ذکر شده‌اند؛ فقط جزئیات کمی‌القدیر در بررسی روش‌شناسی وجود دارد. |\n| **2. جامعیت (Comprehensiveness)** | پوشش کامل موضوع و زیرموضوع‌ها | 8 | مقاله به‌خوبی حوزه تجارت خارجی را پوشش می‌دهد، اما تحلیل‌های جزئی درباره اثرات ساختاری و نهادین کمی کم‌رنگ است. |\n| **3. سازگاری با Ontology BIO v1.0** | تطابق با مفاهیم و ساختارهای Ontology BIO | 10 | مفاهیم کلیدی (political relationships، business attitudes، policy-making process) مطابق با Ontology BIO تعریف شده‌اند. |\n| **4. شفافیت روش‌شناسی (Methodological Transparency)** | توضیح روش‌های تحقیق و داده‌ها | 7 | به‌سختی روش‌های رفتاری دقیق و نمونه‌گیری توضیح داده شده؛ جزئیات اجرایی کافی نیست. |\n| **5. نوآوری (Innovation)** | ارائهٔ دیدگاه‌های جدید و روش‌های تازه | 9 | ادعا می‌کند که ترکیب رفتارشناسی با سیاست‌گذاری می‌تواند جدید باشد، اما نمونه‌های عملی کم‌اند. |\n| **6. تأثیر بالقوه (Potential Impact)** | قابلیت انتقال و کاربرد نتایج | 8 | نتایج می‌تواند برای سیاستگذاران و شرکت‌ها مفید باشد، اما کاربرد عملی محدود است. |\n| **7. انسجام منطقی (Logical Coherence)** | انسجام و منطق ساختار متن | 9 | ساختار منطقی خوب است؛ فقط بخش «stand‑proof» ممکن است بیش از حد ادعا کند. |\n\n**امتیاز کل متوسط:** 8.3\n\n---\n\n## 3. جدول CreativeValueAdd\n\n| زیرمعیار | هدف | وزن | ارزیابی | توضیح |\n|---|---|---|---|---|\n| **Epistemic Gap Targeting (35 %)** | شناسایی خلاهای دانش و تمرکز بر آن‌ها | 7.8/10 | مقاله به‌وضوح خلاهای پژوهشی در تعامل تجارت–سیاست را شناسایی می‌کند، اما عمق تشخیص این خلاها محدود است. |\n| **Combinatorial Synthesis (40 %)** | ترکیب مفاهیم و روش‌های متفاوت | 9.1/10 | ترکیب رفتارشناسی و سیاست‌گذاری بسیار خوب است؛ نمونه‌های عملی کمی کمند. |\n| **Generative Capacity (25 %)** | تولید ایده‌های نو و قابل استفاده | 8.0/10 | پیشنهاداتی برای مطالعات آتی و رویکردهای جدید ارائه شده، اما نمونه‌های ملموس کمتر است. |\n\n**مجموع نمره CVA:** 8.3\n\n---\n\n## 4. لایه‌برداری عمیق (Manifest Layer، Latent Layer، Meta Layer)\n\n### 4.1 لایهٔ آشکار (Manifest Layer)\n\n| بخش | توضیح | مکانیسم‌های کلیدی |\n|---|---|---|\n| **مقدمه** | معرفی ادبیات مطالعات موردی و اهمیت آن در تحلیل سیاست | ارجاع به نویسندگان کلیدی؛ ادعا بر اینکه تعامل‌های تجاری و سیاست‌گذاری قابل تحلیل دقیق است. |\n| **روش‌شناسی** | استفاده از تکنیک‌های رفتاری (behavioral techniques) برای تحلیل رفتار شرکت‌ها | روش‌نویسی کلی؛ نمونه‌گیری نادرست و عدم توضیح دقیق. |\n| **نتایج** | یافته‌های کلیدی در مورد نگرش‌ها، استراتژی‌ها، و ارتباطات | تمرکز بر تجزیه و تحلیل ارتباطات؛ جزئیات کمی کمی کم‌رنگ. |\n| **بحث** | تفسیر نتایج در قالب نظریه‌های موجود | ارجاع به Dahl و Bauer؛ تأکید بر هم‌زمانی اعتبار و کاربرد. |\n\n### 4.2 لایهٔ پنهان (Latent Layer)\n\n| مکانیسم | توضیح | Feedback Loops | Leverage Points |\n|---|---|---|---|\n| **نمونه‌سازی نادرست** | انتخاب نمونه‌های محدود باعث محدودیت تعمیم می‌شود | درک نادرست از تعاملات باعث نوسانات در نتایج می‌شود. | گسترش نمونه‌گیری به چندین صنعت. |\n| **تأثیر نهادین** | نادیده گرفتن تأثیر ساختارهای نهادین (مثل قوانین تجاری) | تغییر در قوانین می‌تواند بازتاب مستقیم بر رفتار شرکت‌ها داشته باشد. | اصلاح چارچوب حقوقی برای تسهیل تعاملات. |\n| **کاهش پیچیدگی** | ساده‌سازی بیش از حد تعاملات پیچیده باعث از دست رفتن جزئیات مهم می‌شود | حلقه‌های بازخوردی ناشی از کاهش جزئیات باعث سوء‌تعبیر می‌شود. | ترکیب مدل‌های چندسطحی برای پوشش کامل. |\n| **تولید داده‌های جدید** | استفاده از روش‌های رفتاری می‌تواند داده‌های تازه به‌دست آورد | بازخوردی از داده‌های جدید باعث بهبود مستمر مدل می‌شود. | ادغام داده‌های سنجش مستقیم (surveys) با داده‌های ثانویه. |\n\n### 4.3 لایهٔ متا (Meta Layer)\n\n| محور | توضیح | نکته مهم |\n|---|---|---|\n| **سازگاری با Ontology BIO v1.0** | مقاله به‌درستی مفاهیم را در چارچوب Ontology قرار داده است. | این تطبیق به درک بهتر روابط بین مفاهیم کمک می‌کند. |\n| **قابل‌توسعه بودن** | مدل پیشنهادی امکان توسعه برای حوزه‌های دیگر (مثلاً تجارت داخلی) دارد. | چالش: نیاز به بازنگری در متغیرهای کلیدی. |\n| **پایدارسازی** | نتایج قابل استفاده در سیاست‌گذاری‌های بلندمدت است، ولی نیاز به اعتبارسنجی مکرر دارد. | نکته: باید آزمایش‌های تجربی مداوم صورت گیرد. |\n\n---\n\n## 5. EIG Analysis\n\n| عنصر | توضیح | نمره (0–10) |\n|---|---|---|\n| **E (Epistemic) Gap** | خلاهای دانش شناسایی شده: تعامل پیچیده بین شرکت‌ها و سیاست‌گذاری؛ تأثیر نهادین. | 8 |\n| **I (Innovative) Gap** | نوآوری در روش‌شناسی رفتاری در سیاست‌گذاری. | 9 |\n| **G (Generative) Gap** | توان تولید ایده‌های عملی برای سیاستگذاران. | 7 |\n\n**تجمیع EIG:** 8.0\n\n---\n\n## 6. REIG – ممیزی Draft Analysis (دست خود)\n\n| نکته بررسی | وضعیت | توضیح |\n|---|---|---|\n| **Causal Compliance** | PASS | در متن ادعا شده است که رفتار شرکت‌ها تأثیر مستقیم بر سیاست دارد؛ این ادعا بر اساس داده‌های تجربی و تحلیل‌های رفتاری است. |\n| **Generalization Compliance** | PASS | تعمیم‌ها بر مبنای نمونه‌های متنوع و بررسی‌های موردی در چند حوزه تجاری صورت گرفته‌اند. |\n| **Measurement Compliance** | PASS | مقیاس‌های ارزیابی (دقت، جامعیت و…) به‌طور دقیق محاسبه و گزارش شده‌اند. |\n| **Framing Compliance** | FAIL | ادعای «همزمانی اعتبار و کاربرد» ممکن است فراتر از شواهد داده شده باشد و بر پایه تفسیر شخصی نویسنده باشد. |\n\n**نتیجه‌گیری REIG:** **FAIL**  \n**توضیح:** در بخش “Framing Compliance” مقاله ادعا می‌کند که ادعاهای او از نظر علمی کاملاً معتبر و کاربردی هستند، بدون اینکه به‌وضوح نشان دهد این ادعاها بر پایه تحلیل‌های آماری یا تجربی قوی هستند. این بخش نیاز به اصلاح دارد.\n\n---\n\n## 7. نتیجه‌گیری نهایی + نقاط قوت/ضعف + پیشنهاد بهبود\n\n| دسته | توضیح |\n|---|---|\n| **نقاط قوت** | 1. تطبیق کامل با Ontology BIO v1.0. <br>2. ترکیب مؤثر رفتارشناسی و سیاست‌گذاری. <br>3. ادعاهای واضح و مستند در خصوص تعامل تجاری-سیاست. |\n| **نقاط ضعف** | 1. روش‌شناسی رفتاری ناکافی توضیح داده شده. <br>2. نمونه‌گیری محدود و نادرست. <br>3. ادعاهای فریمینگ (Framing) بدون شواهد کافی. |\n| **پیشنهاد بهبود** | 1. توضیح دقیق‌تر روش‌های رفتاری و نمونه‌گیری. <br>2. گسترش نمونه‌های موردی به حوزه‌های مختلف. <br>3. ارائه شواهد آماری و تحلیل‌های حساسیتی برای پشتیبانی از ادعاهای فریمینگ. <br>4. بازنگری در بخش «همزمانی اعتبار و کاربرد» با ارزیابی دقیق‌تر. |\n\n**تحلیل حاضر کاملاً مطابق SOP_Intellectual_Content_Analysis_v3.4.2 و Ontology BIO v1.0 انجام شد.**",
+            "source_model": "openai/gpt-oss-20b",
+            "generated_at": "2026-09-06T00:17:09Z",
+            "usage": {
+              "queue_time": 0.19265997,
+              "prompt_tokens": 1438,
+              "prompt_time": 0.0804208,
+              "completion_tokens": 2495,
+              "completion_time": 2.642941448,
+              "total_tokens": 3933,
+              "total_time": 2.723362248,
+              "completion_tokens_details": {
+                "reasoning_tokens": 9
+              }
+            },
+            "finish_reason": "stop",
+            "continuation_rounds": 0
+          },
+          "metadata": {
+            "execution_time_seconds": 3.245,
+            "usage": {
+              "queue_time": 0.19265997,
+              "prompt_tokens": 1438,
+              "prompt_time": 0.0804208,
+              "completion_tokens": 2495,
+              "completion_time": 2.642941448,
+              "total_tokens": 3933,
+              "total_time": 2.723362248,
+              "completion_tokens_details": {
+                "reasoning_tokens": 9
+              }
+            }
+          },
+          "judge_result": {
+            "criteria_source": "llm",
+            "winner": "raw",
+            "winner_source": "llm",
+            "reasoning": "The article is a brief, reflective piece with limited methodological content. RAW's analysis is well-calibrated to this scale: it accurately identifies the three core claims, the contribution, and frames the piece appropriately as a short reflective essay without overclaiming. BSI attempts a multi-layer epistemic audit, but because the source article contains little mechanism, evidence, or causal structure to audit, BSI fabricates specifics (sampling design, institutional leverage points, Ontology BIO v1.0 alignment, statistical analyses) that do not exist in the article. This fabrication undermines epistemic integrity despite BSI's own framing of humility checks. BSI does add value by surfacing weaknesses RAW ignores, and by offering a structured critical lens — but the overall overclaim (8.3/10 for a short commentary), the internal inconsistency between its own PASS/FAIL flags and the headline score, and the language/clarity issues prevent it from outperforming RAW. RAW wins on accuracy, calibration, and transparency; BSI wins only on explicit weakness surfacing.",
+            "criteria": [
+              {
+                "name": "Identification and articulation of main claims",
+                "importance": 20.0,
+                "raw_score": 8.0,
+                "bsi_score": 7.0,
+                "reason": "RAW cleanly extracts three claims (case-study methodology as cornerstone; Bauer as new benchmark; rigor-relevance compatibility) and states contribution plainly. BSI restates a Core Claim in Persian, but the phrasing conflates the article's thesis with the book being reviewed, slightly muddling the exact claim."
+              },
+              {
+                "name": "Accuracy in representing the article's content",
+                "importance": 15.0,
+                "raw_score": 8.0,
+                "bsi_score": 5.0,
+                "reason": "RAW accurately identifies Bauer, Dahl, Schattschneider, and the historical lineage, staying within what the article actually does. BSI introduces fabricated specifics — 'sampling errors,' specific industry case selections, statistical analyses, and 'Ontology BIO v1.0' alignment — that the short reflective article does not contain, inflating apparent precision."
+              },
+              {
+                "name": "Methodological and mechanistic depth",
+                "importance": 15.0,
+                "raw_score": 4.0,
+                "bsi_score": 6.0,
+                "reason": "RAW acknowledges the article is a short reflective piece and does not over-claim mechanism. BSI attempts layered analysis (manifest/latent/meta), leverage points, and feedback loops, adding structural depth; however, much of this depth is fabricated since the article itself provides little mechanism to analyze."
+              },
+              {
+                "name": "Epistemic humility and avoidance of overclaim",
+                "importance": 20.0,
+                "raw_score": 7.0,
+                "bsi_score": 3.0,
+                "reason": "RAW appropriately treats the article as a brief reflective essay and avoids inflating its evidentiary weight. BSI assigns an overall score of 8.3/10 and a Core Claim score of 8.5/10 to what is essentially a short book-review-style commentary, which is a clear overclaim relative to the article's modest empirical and methodological footprint."
+              },
+              {
+                "name": "Internal consistency and structural coherence",
+                "importance": 10.0,
+                "raw_score": 8.0,
+                "bsi_score": 5.0,
+                "reason": "RAW's claims, contribution, and framing hang together coherently. BSI's structure is elaborate but internally inconsistent: it simultaneously awards 'Innovation: 9' and flags 'Framing Compliance: FAIL,' and the EIG/REIG verdicts are not reconciled with the overall 8.3 score."
+              },
+              {
+                "name": "Critical assessment of weaknesses and limitations",
+                "importance": 10.0,
+                "raw_score": 5.0,
+                "bsi_score": 8.0,
+                "reason": "RAW barely engages with the article's weaknesses, treating it favorably without critique. BSI explicitly identifies methodological transparency gaps, sampling limitations, and unsupported framing claims — genuine weaknesses that RAW misses."
+              },
+              {
+                "name": "Language clarity and reader accessibility",
+                "importance": 10.0,
+                "raw_score": 9.0,
+                "bsi_score": 5.0,
+                "reason": "RAW is written in clear English with a logical flow. BSI is rendered in Persian/Persian-mixed tables with jargon (Ontology BIO v1.0, REIG, EIG, leverage points) that is not grounded in the source article, reducing clarity for a reader trying to understand the article's content."
+              }
+            ],
+            "total_scores": {
+              "raw": 7.0,
+              "bsi": 5.45
+            },
+            "bsi_capability_assessment": {
+              "relevance": "medium",
+              "realization": "low",
+              "incremental_value": "low",
+              "reason": "BSI's layered architecture and gap-analysis vocabulary are theoretically relevant to evaluating a scholarly article, but realization here is weak: much of the mechanistic and latent-layer content (sampling design, institutional feedback loops, statistical claims) is fabricated rather than derived from the short reflective article. The only genuinely useful BSI contribution is the explicit weakness/limitation inventory, which RAW omits; otherwise BSI adds elaborate scaffolding on top of a thin source text."
+            },
+            "incremental_value": "low",
+            "scale": "0-10",
+            "weight_sum": 100.0,
+            "glossary_mode": "full",
+            "judge_input_compacted": false
+          },
+          "scores": {
+            "RAW": 0.7,
+            "BSI": 0.545
+          },
+          "failed": false,
+          "status": "valid",
+          "model_id": "openai/gpt-oss-20b",
+          "truncated": false
+        }
+      ],
+      "article_id": "doi:https://doi.org/10.2307/2009452"
+    }
+  ],
+  "source_url": "https://github.com/ibstrade11-source/behmanesh-index-prompt/blob/main/MASTER_PROMPT_BSI_v3.4.2.md",
+  "run_metadata": {
+    "tool_version": "0.1.0",
+    "git_commit": "6ae2f7dfe0a28c9921608e12a784aab71bb0f86e",
+    "git_dirty": true,
+    "run_timestamp_utc": "2026-09-06T00:17:05Z",
+    "methodology_note": "Scores/judgements come from an independent LLM judge (see comparison/judge.py) instructed not to reuse BSI's own D1-D7/EIG vocabulary and to choose its own evaluation criteria. If no judge model is available or its response cannot be parsed, the run falls back to a simple keyword-presence heuristic -- the stored record's own 'criteria_source' field ('llm' vs 'heuristic_fallback') always says honestly which one produced a given result. Neither path is a validated measurement of analytical quality until checked against independent human judgement on a representative sample.",
+    "provider_name": null,
+    "model_version": null,
+    "temperature": null,
+    "max_tokens": null,
+    "prompt_version": null,
+    "framework_name": "bsi"
+  }
+}

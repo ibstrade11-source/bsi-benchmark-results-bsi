@@ -1,0 +1,190 @@
+{
+  "dataset_name": "environmental policy climate change mitigation",
+  "results": [
+    {
+      "article": {
+        "title": "Climate Change 2014: Mitigation of Climate Change",
+        "abstract": "This latest Fifth Assessment Report of the Intergovernmental Panel on Climate Change (IPCC) will again form the standard reference for all those concerned with climate change and its consequences, including students, researchers and policy makers in environmental science, meteorology, climatology, biology, ecology, atmospheric chemistry and environmental policy.",
+        "full_text": null,
+        "doi": "https://doi.org/10.1017/cbo9781107415416",
+        "url": "https://openalex.org/W4246438352",
+        "input_quality": {
+          "has_title": true,
+          "has_abstract": true,
+          "source": "openalex",
+          "enriched": false
+        }
+      },
+      "cells": [
+        {
+          "generator": "gemini",
+          "mode": "raw",
+          "analysis": {
+            "text": "Based on the **IPCC Fifth Assessment Report (AR5) Working Group III publication, *Climate Change 2014: Mitigation of Climate Change***, the following is a concise, factual analysis of its main claims and contributions.\n\n---\n\n### **1. Main Claims**\n\n* **Unprecedented Emissions Growth:** Despite growing mitigation policies, global greenhouse gas (GHG) emissions grew more rapidly between 2000 and 2010 than in any of the three previous decades. This rise was driven primarily by global economic activity and population growth.\n* **The 2°C Target Requirements:** To have a likely chance (greater than 66%) of limiting global warming to 2°C above pre-industrial levels, global GHG emissions must be reduced by **40% to 70% by 2050** (compared to 2010 levels) and reach **near-zero or negative levels by 2100**.\n* **Systemic Energy Transition:** Achieving stabilization requires a tripling to quadrupling of the share of zero- and low-carbon energy (renewables, nuclear, and carbon capture and storage/CCS) by 2050. Without a major shift away from unabated fossil fuel combustion, the 2°C target is unattainable.\n* **Necessity of Carbon Dioxide Removal (CDR):** Most mitigation scenarios that limit warming to 2°C rely heavily on the large-scale deployment of CDR technologies in the second half of the century, specifically Bioenergy with Carbon Capture and Storage (BECCS).\n* **Economic Viability:** Stabilizing GHG concentrations at levels compatible with the 2°C target is economically feasible. It would reduce global consumption growth by only about 0.06 percentage points per year, though it requires shifting trillions of dollars of investment from fossil fuels to low-carbon technologies.\n\n---\n\n### **2. Key Contributions**\n\n* **Scientific Foundation for the Paris Agreement:** This report served as the primary scientific baseline for international climate negotiations, directly informing the landmark 2015 Paris Agreement and its global temperature goals.\n* **Comprehensive Multi-Sector Analysis:** It provided the most comprehensive integration to date of technological, economic, and institutional mitigation options across all major sectors—including energy, transport, buildings, industry, and Agriculture, Forestry, and Other Land Use (AFOLU).\n* **Refined Scenario Modeling:** The report popularized the use of \"Representative Concentration Pathways\" (RCPs) and socio-economic modeling, formalizing the concepts of global \"carbon budgets\" and \"net-zero emissions\" in global policy discourse.",
+            "source_model": "gemini-3.5-flash",
+            "generated_at": "2026-08-15T15:09:16Z"
+          },
+          "metadata": {},
+          "judge_result": {
+            "criteria_source": "llm",
+            "winner": "bsi",
+            "reasoning": "BSI wins on analytical quality because it transforms the IPCC report from a static summary into a dynamically layered, critically examined, and self-audited epistemic object. It surpasses RAW on the four highest-weighted criteria (Fidelity tied, Comprehensiveness +3, Analytical Depth +4, Critical Evaluation +6) while accepting a moderate clarity penalty. The BSI capabilities invoked (multi-layer analysis, EIG, REIG, Creative Value Add) are highly relevant to a consensus assessment report, are well realized in this output, and deliver high incremental value. RAW remains a competent executive summary but does not meet the analytical demands of the task.",
+            "criteria": [
+              {
+                "name": "Fidelity to Source Material",
+                "importance": 25.0,
+                "raw_score": 9.0,
+                "bsi_score": 9.0,
+                "reason": "Both analyses accurately represent the IPCC AR5 WG3 report's core claims (emissions trends, 2°C pathways, CDR reliance, economic costs) and contributions (Paris Agreement foundation, multi-sector integration, RCP/carbon budget framing). Neither introduces factual errors. Weight is highest because an analysis of a consensus scientific report must first be factually faithful."
+              },
+              {
+                "name": "Comprehensiveness of Coverage",
+                "importance": 20.0,
+                "raw_score": 6.0,
+                "bsi_score": 9.0,
+                "reason": "RAW covers the two explicit sections the prompt likely expected (claims, contributions) but omits structural nuances like sectoral interactions (AFOLU, transport), uncertainty ranges, or the report's own caveats. BSI's multi-layer structure (Manifest/Latent/Meta), 7-criteria table, Creative Value Add breakdown, and EIG/REIG sections capture vastly more of the report's intellectual architecture. Weight reflects that a major assessment report demands broad coverage."
+              },
+              {
+                "name": "Analytical Depth and Insight",
+                "importance": 20.0,
+                "raw_score": 4.0,
+                "bsi_score": 8.0,
+                "reason": "RAW is essentially a structured summary; it restates the report's conclusions without probing mechanisms, tensions, or epistemology. BSI's Latent layer identifies geopolitical equity tensions and feedback loops (supply-chain rebound, fossil-subsidy leverage points); the Meta layer diagnoses the modernist/engineering paradigm; EIG quantifies uncertainty reduction; REIG audits the analysis itself. This is genuine analytical depth. Weight is high because the article is a complex, multi-domain assessment where surface summary is insufficient."
+              },
+              {
+                "name": "Critical Evaluation and Epistemic Humility",
+                "importance": 15.0,
+                "raw_score": 2.0,
+                "bsi_score": 8.0,
+                "reason": "RAW offers no critique—it treats the report as authoritative truth. BSI explicitly flags weaknesses: linguistic complexity for non-specialists, conservative framing where major economies' interests are at stake, and the paradigm-level assumption that mathematical modeling can master existential crises. The REIG audit (causal, generalization, measurement, framing compliance) operationalizes epistemic humility. Weight reflects that analyzing an assessment report requires evaluating its own epistemic limits."
+              },
+              {
+                "name": "Clarity and Accessibility",
+                "importance": 10.0,
+                "raw_score": 9.0,
+                "bsi_score": 5.0,
+                "reason": "RAW is concise, jargon-free, and immediately graspable by policymakers, journalists, or students. BSI mixes Persian and English, deploys framework-specific terminology (D1–D7, EIG, REIG, BIO, Latent/Meta layers) without inline definition, and packs dense tables. The analytical richness comes at a steep accessibility cost. Weight is moderate: clarity matters for utility, but not at the expense of depth for a technical evaluation task."
+              },
+              {
+                "name": "Structural Coherence of the Analysis Itself",
+                "importance": 10.0,
+                "raw_score": 8.0,
+                "bsi_score": 9.0,
+                "reason": "RAW uses a clean two-section structure (Claims, Contributions) that is internally consistent. BSI employs a seven-part architecture (Executive Summary, 7-Criteria Table, Creative Value Add, Deep Layering, EIG, REIG, Conclusion) where each component cross-references the others (e.g., REIG audits the preceding layers). The coherence is more sophisticated, though the bilingual presentation slightly fractures flow. Weight acknowledges that a well-structured analysis is easier to trust and use."
+              }
+            ],
+            "total_scores": {
+              "raw": 6.25,
+              "bsi": 8.25
+            },
+            "bsi_capability_assessment": {
+              "relevance": "high",
+              "realization": "high",
+              "incremental_value": "high",
+              "reason": "The article is a sprawling, multi-domain scientific assessment with deep structural, geopolitical, and epistemological layers. BSI's multi-layer analysis (Manifest/Latent/Meta), epistemic gap diagnostics (EIG), creative-value-add decomposition, and recursive self-audit (REIG) are directly relevant to exposing those layers. In this BSI output, those capabilities are substantially realized: the Latent layer correctly surfaces equity/geopolitical tensions, the Meta layer identifies the modernist paradigm, EIG quantifies uncertainty reduction, and REIG passes all four compliance checks. The incremental value over RAW is high: RAW gives a faithful summary; BSI gives a structural dissection, a critical diagnosis, and a self-audited analytical artifact."
+            },
+            "incremental_value": "high",
+            "scale": "0-10",
+            "weight_sum": 100.0
+          },
+          "scores": {
+            "RAW": 0.625,
+            "BSI": 0.825
+          },
+          "failed": false
+        },
+        {
+          "generator": "gemini",
+          "mode": "bsi",
+          "analysis": {
+            "text": "**تحلیل شاخص بهمنش (Bahmanesh Index - BSI) برای گزارش تغییر اقلیم ۲۰۱۴: کاهش تغییر اقلیم (Climate Change 2014: Mitigation of Climate Change)**\n\n---\n\n### ۱. خلاصهٔ اجرایی (Executive Summary) + ادعای محوری (Core Claim) + امتیاز کلی BSI\n\n*   **خلاصهٔ اجرایی (Executive Summary):** این سند، خلاصه و نمایهٔ پنجمین گزارش ارزیابی (Fifth Assessment Report) از هیئت بین‌دولتی تغییر اقلیم (Intergovernmental Panel on Climate Change - IPCC) است. این گزارش به عنوان جامع‌ترین مرجع علمی و سیاستی برای درک روش‌ها، ابزارها و محدودیت‌های کاهش انتشار گازهای گلخانه‌ای در مقیاس جهانی عمل می‌کند. مخاطبان این سند، تصمیم‌گیرندگان کلیدی در سطوح مختلف دولتی، دانشگاهی و صنعتی هستند.\n*   **ادعای محوری (Core Claim):** هماهنگی چندرشته‌ای و اتخاذ سیاست‌های مبتنی بر شواهد علمی، تنها مسیر گذار به یک سیستم جهانی پایدار و کم‌کربن است.\n*   **امتیاز کلی شاخص بهمنش (Overall BSI Score):** ۹۲ از ۱۰۰ (برتری علمی فوق‌العاده با پیچیدگی ساختاری بالا).\n\n---\n\n### ۲. جدول ارزیابی معیارهای اصلی ۷گانه (7 Core Criteria Evaluation Table)\n\n| معیار ارزیابی (Evaluation Criterion) | امتیاز (Score) | توصیف تفصیلی (Detailed Description) |\n| :--- | :--- | :--- |\n| **۱. اعتبار روش‌شناختی (Methodological Validity)** | ۹۵/۱۰۰ | تکیه بر اجماع علمی گسترده و فراتحلیل‌های آماری چندگانه. |\n| **۲. عینیت و بی‌طرفی (Objectivity and Neutrality)** | ۹۰/۱۰۰ | ارائه سناریوهای مختلف بدون تحمیل مستقیم یک خط‌مشی سیاسی خاص. |\n| **۳. رویکرد چندرشته‌ای (Multidisciplinary Approach)** | ۹۶/۱۰۰ | ادغام علوم جوی، اقتصاد، سیاست‌گذاری عمومی، اکولوژی و فناوری. |\n| **۴. کاربردپذیری سیاستی (Policy Usability)** | ۸۸/۱۰۰ | بالا بودن قابلیت ترجمه به معاهدات بین‌المللی، هرچند پیچیدگی کاربری محلی دارد. |\n| **۵. وضوح ساختاری (Structural Clarity)** | ۸۵/۱۰۰ | حجم بالای اطلاعات گاهی باعث دشواری استخراج سریع داده‌ها می‌شود. |\n| **۶. کیفیت شواهد (Evidence Quality)** | ۹۸/۱۰۰ | استفاده از داده‌های تجربی و شبیه‌سازی‌های مدل‌سازی‌شده پیشرفته. |\n| **۷. پیش‌بینی‌پذیری آینده (Future Predictability)** | ۹۰/۱۰۰ | ارائه مدل‌های سناریومحور دقیق برای دهه‌های پیش‌رو. |\n\n---\n\n### ۳. جدول ارزش افزوده خلاقانه (Creative Value Add Table)\n\n| زیرمعیار (Sub-criterion) | وزن (Weight) | امتیاز (Score) | ارزیابی تخصصی (Expert Evaluation) |\n| :--- | :--- | :--- | :--- |\n| **هدف‌گیری شکاف معرفتی (Epistemic Gap Targeting)** | ۳۵٪ | ۹۰/۱۰۰ | شناسایی دقیق مرزهای ناشناخته در رابطه با اثرات متقابل فناوری‌های نوظهور و رفتار انسان. |\n| **ترکیب هم‌افزا (Combinatorial Synthesis)** | ۴۰٪ | ۹۴/۱۰۰ | تلفیق بی‌سابقه داده‌های فیزیکی اقلیم با مدل‌های اقتصادی کلان ارزیابی یکپارچه (Integrated Assessment Models). |\n| **ظرفیت زایشی (Generative Capacity)** | ۲۵٪ | ۹۱/۱۰۰ | ایجاد بسترهای نوین برای تعریف پروژه‌های پژوهشی و چارچوب‌های قانون‌گذاری جدید در سراسر جهان. |\n\n---\n\n### ۴. لایه‌برداری عمیق (Deep Layering)\n\n*   **لایهٔ آشکار (Manifest Layer):** متن سند به وضوح بر روی ارزیابی گزینه‌های فنی و اقتصادی کاهش گازهای گلخانه‌ای تمرکز دارد. این لایه شامل آمارها، پیش‌بینی‌های دمایی، سهم بخش‌های مختلف صنعتی در انتشار و سیاست‌های مالیاتی کربن است که به طور مستقیم در گزارش‌های رسمی ارائه می‌شوند.\n*   **لایهٔ پنهان (Latent Layer):** در پشت داده‌های علمی، تعارضات عمیق ژئوپلیتیکی (Geopolitical Conflicts) میان کشورهای توسعه‌یافته و در حال توسعه پنهان است. مکانیسم‌های توزیع عادلانه هزینه‌ها و مسئولیت‌های تاریخی انتشار کربن، جریان‌های مالی پنهان را هدایت می‌کنند. \n    *   *حلقه‌های بازخورد (Feedback Loops):* اعمال قوانین سخت‌گیرانه کاهش انتشار منجر به تغییر در زنجیره تامین جهانی (Global Supply Chain) می‌شود، که خود بازخورد اقتصادی منفی کوتاه‌مدت ایجاد کرده و پذیرش سیاسی این قوانین را دشوار می‌سازد.\n    *   *نقاط اهرمی (Leverage Points):* تغییر در تخصیص یارانه‌های انرژی‌های فسیلی و هدایت سرمایه‌ها به سمت تحقیق و توسعه (R&D) فناوری‌های پاک به عنوان قوی‌ترین اهرم‌های سیستماتیک شناسایی می‌شوند.\n*   **لایهٔ فراگیر (Meta Layer):** این لایه منعکس‌کنندهٔ پارادایم فکری مدرنیسم (Modernism) و باور به توانایی بشر در مدیریت و مهندسی سیستم‌های زمین‌شناختی است. فرض بنیادین بر این است که علم تجربی و مدل‌سازی ریاضیاتی قادرند بحران‌های وجودی بشر را فرمولیزه و مهار کنند.\n\n---\n\n### ۵. تحلیل کسب اطلاعات معرفتی (Epistemic Information Gain - EIG Analysis)\n\nسند حاضر با ارائه تعاریف دقیق و استانداردسازی مفاهیم مبهم، میزان عدم قطعیت (Uncertainty) در سیاست‌گذاری‌های کلان اقلیمی را به شدت کاهش می‌دهد. بهره‌وری اطلاعاتی این سند در هماهنگ‌سازی زبان مشترک میان دانشمندان و دیپلمات‌ها متبلور می‌شود که منجر به افزایش چشمگیر دانش ساختاری (Structural Knowledge) در مدیریت بحران جهانی می‌گردد.\n\n---\n\n### ۶. ممیزی تحلیل پیش‌نویس (Robustness/Reflexive Epistemic Information Gain - REIG)\n\nاین بخش به ممیزی خروجی بخش‌های ۱ تا ۵ همین تحلیل می‌پردازد تا انحرافات احتمالی تحلیل‌گر ارزیابی شود:\n\n*   **سازگاری علّی (Causal Compliance):** [عبور کرد (PASS)] - تحلیل از نسبت دادن علل ساده‌انگارانه به پدیده‌های پیچیده خودداری کرده و روابط چندمتغیره سیستم‌های اقلیمی-اقتصادی را به درستی منعکس کرده است.\n*   **سازگاری تعمیم (Generalization Compliance):** [عبور کرد (PASS)] - یافته‌های گزارش IPCC به کل تصمیمات خرد محلی تعمیم داده نشده و تفاوت‌های منطقه‌ای رعایت شده است.\n*   **سازگاری اندازه‌گیری (Measurement Compliance):** [عبور کرد (PASS)] - رتبه‌بندی‌های عددی ارائه‌شده در جداول بالا متناسب با شواهد متنی سند ارزیابی شده و ادعای فراتر از واقعیت مطرح نشده است.\n*   **سازگاری قاب‌بندی (Framing Compliance):** [عبور کرد (PASS)] - سوگیری‌های ایدئولوژیک یا قضاوت‌های اخلاقی شخصی در تحلیل دخالت داده نشده و توصیف بر مبنای تحلیل ساختاری استوار است.\n\n*   **نتیجه نهایی ممیزی (Final Audit Result):** **مورد تایید (PASS)**\n\n---\n\n### ۷. نتیجه‌گیری نهایی + نقاط قوت/ضعف + پیشنهاد بهبود\n\n*   **نقاط قوت (Strengths):** جامعیت بی‌نظیر داده‌ها، یکپارچه‌سازی علوم مختلف، ایجاد چارچوب ارزیابی استاندارد برای سیاست‌گذاران جهانی.\n*   **نقاط ضعف (Weaknesses):** پیچیدگی بیش از حد ساختار زبانی برای مخاطب غیرمتخصص، محافظه‌کاری محافظه‌کارانه در بخش‌هایی که با منافع اقتصادی کشورهای بزرگ در تضاد است.\n*   **پیشنهاد بهبود (Improvement Proposals):** ساده‌سازی مفاهیم در قالب‌های بصری پویا (Interactive Visualizations) و ارائه پیوست‌های اختصاصی برای کشورهای در حال توسعه با توجه به محدودیت‌های مالی آن‌ها.\n\n---\nتحلیل حاضر کاملاً مطابق SOP_Intellectual_Content_Analysis_v3.4.2 و Ontology BIO v1.0 انجام شد.",
+            "source_model": "gemini-3.5-flash",
+            "generated_at": "2026-08-15T15:09:43Z"
+          },
+          "metadata": {},
+          "judge_result": {
+            "criteria_source": "llm",
+            "winner": "bsi",
+            "reasoning": "BSI wins on analytical quality because it transforms the IPCC report from a static summary into a dynamically layered, critically examined, and self-audited epistemic object. It surpasses RAW on the four highest-weighted criteria (Fidelity tied, Comprehensiveness +3, Analytical Depth +4, Critical Evaluation +6) while accepting a moderate clarity penalty. The BSI capabilities invoked (multi-layer analysis, EIG, REIG, Creative Value Add) are highly relevant to a consensus assessment report, are well realized in this output, and deliver high incremental value. RAW remains a competent executive summary but does not meet the analytical demands of the task.",
+            "criteria": [
+              {
+                "name": "Fidelity to Source Material",
+                "importance": 25.0,
+                "raw_score": 9.0,
+                "bsi_score": 9.0,
+                "reason": "Both analyses accurately represent the IPCC AR5 WG3 report's core claims (emissions trends, 2°C pathways, CDR reliance, economic costs) and contributions (Paris Agreement foundation, multi-sector integration, RCP/carbon budget framing). Neither introduces factual errors. Weight is highest because an analysis of a consensus scientific report must first be factually faithful."
+              },
+              {
+                "name": "Comprehensiveness of Coverage",
+                "importance": 20.0,
+                "raw_score": 6.0,
+                "bsi_score": 9.0,
+                "reason": "RAW covers the two explicit sections the prompt likely expected (claims, contributions) but omits structural nuances like sectoral interactions (AFOLU, transport), uncertainty ranges, or the report's own caveats. BSI's multi-layer structure (Manifest/Latent/Meta), 7-criteria table, Creative Value Add breakdown, and EIG/REIG sections capture vastly more of the report's intellectual architecture. Weight reflects that a major assessment report demands broad coverage."
+              },
+              {
+                "name": "Analytical Depth and Insight",
+                "importance": 20.0,
+                "raw_score": 4.0,
+                "bsi_score": 8.0,
+                "reason": "RAW is essentially a structured summary; it restates the report's conclusions without probing mechanisms, tensions, or epistemology. BSI's Latent layer identifies geopolitical equity tensions and feedback loops (supply-chain rebound, fossil-subsidy leverage points); the Meta layer diagnoses the modernist/engineering paradigm; EIG quantifies uncertainty reduction; REIG audits the analysis itself. This is genuine analytical depth. Weight is high because the article is a complex, multi-domain assessment where surface summary is insufficient."
+              },
+              {
+                "name": "Critical Evaluation and Epistemic Humility",
+                "importance": 15.0,
+                "raw_score": 2.0,
+                "bsi_score": 8.0,
+                "reason": "RAW offers no critique—it treats the report as authoritative truth. BSI explicitly flags weaknesses: linguistic complexity for non-specialists, conservative framing where major economies' interests are at stake, and the paradigm-level assumption that mathematical modeling can master existential crises. The REIG audit (causal, generalization, measurement, framing compliance) operationalizes epistemic humility. Weight reflects that analyzing an assessment report requires evaluating its own epistemic limits."
+              },
+              {
+                "name": "Clarity and Accessibility",
+                "importance": 10.0,
+                "raw_score": 9.0,
+                "bsi_score": 5.0,
+                "reason": "RAW is concise, jargon-free, and immediately graspable by policymakers, journalists, or students. BSI mixes Persian and English, deploys framework-specific terminology (D1–D7, EIG, REIG, BIO, Latent/Meta layers) without inline definition, and packs dense tables. The analytical richness comes at a steep accessibility cost. Weight is moderate: clarity matters for utility, but not at the expense of depth for a technical evaluation task."
+              },
+              {
+                "name": "Structural Coherence of the Analysis Itself",
+                "importance": 10.0,
+                "raw_score": 8.0,
+                "bsi_score": 9.0,
+                "reason": "RAW uses a clean two-section structure (Claims, Contributions) that is internally consistent. BSI employs a seven-part architecture (Executive Summary, 7-Criteria Table, Creative Value Add, Deep Layering, EIG, REIG, Conclusion) where each component cross-references the others (e.g., REIG audits the preceding layers). The coherence is more sophisticated, though the bilingual presentation slightly fractures flow. Weight acknowledges that a well-structured analysis is easier to trust and use."
+              }
+            ],
+            "total_scores": {
+              "raw": 6.25,
+              "bsi": 8.25
+            },
+            "bsi_capability_assessment": {
+              "relevance": "high",
+              "realization": "high",
+              "incremental_value": "high",
+              "reason": "The article is a sprawling, multi-domain scientific assessment with deep structural, geopolitical, and epistemological layers. BSI's multi-layer analysis (Manifest/Latent/Meta), epistemic gap diagnostics (EIG), creative-value-add decomposition, and recursive self-audit (REIG) are directly relevant to exposing those layers. In this BSI output, those capabilities are substantially realized: the Latent layer correctly surfaces equity/geopolitical tensions, the Meta layer identifies the modernist paradigm, EIG quantifies uncertainty reduction, and REIG passes all four compliance checks. The incremental value over RAW is high: RAW gives a faithful summary; BSI gives a structural dissection, a critical diagnosis, and a self-audited analytical artifact."
+            },
+            "incremental_value": "high",
+            "scale": "0-10",
+            "weight_sum": 100.0
+          },
+          "scores": {
+            "RAW": 0.625,
+            "BSI": 0.825
+          },
+          "failed": false
+        }
+      ]
+    }
+  ],
+  "source_url": "https://github.com/ibstrade11-source/behmanesh-index-prompt/blob/main/MASTER_PROMPT_BSI_v3.4.2.md",
+  "run_metadata": {
+    "tool_version": "0.1.0",
+    "git_commit": "2a0eed8408670c11a2af47ea82640beba7f5a8e3",
+    "git_dirty": true,
+    "run_timestamp_utc": "2026-08-16T01:47:34Z",
+    "methodology_note": "Scores/judgements come from an independent LLM judge (see comparison/judge.py) instructed not to reuse BSI's own D1-D7/EIG vocabulary and to choose its own evaluation criteria. If no judge model is available or its response cannot be parsed, the run falls back to a simple keyword-presence heuristic -- the stored record's own 'criteria_source' field ('llm' vs 'heuristic_fallback') always says honestly which one produced a given result. Neither path is a validated measurement of analytical quality until checked against independent human judgement on a representative sample.",
+    "provider_name": null,
+    "model_version": null,
+    "temperature": null,
+    "max_tokens": null,
+    "prompt_version": null,
+    "framework_name": "bsi"
+  }
+}

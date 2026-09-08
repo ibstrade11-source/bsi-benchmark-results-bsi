@@ -1,0 +1,231 @@
+{
+  "dataset_name": "political science public policy decision making",
+  "results": [
+    {
+      "article": {
+        "title": "American Business, Public Policy, Case-Studies, and Political Theory",
+        "abstract": "Case-Studies of the policy-making process constitute one of the more important methods of political science analysis. Beginning with Schattschneider, Herring, and others in the 1930's, case-studies have been conducted on a great variety of decisions. They have varied in subject-matter and format, in scope and rigor, but they form a distinguishable body of literature which continues to grow year by year. The most recent addition, a book-length study by Raymond Bauer and his associates, stands with Robert A. Dahl's prize-winning Who Governs? (New Haven 1961) as the best yet to appear. With its publication a new level of sophistication has been reached. The standards of research its authors have set will indeed be difficult to uphold in the future. American Business and Public Policy is an analysis of political relationships within the context of a single, well-defined issue—foreign trade. It is an analysis of business attitudes, strategies, communications and, through these, business relationships in politics. The analysis makes use of the best behavioral research techniques without losing sight of the rich context of policies, traditions, and institutions. Thus, it does not, in Dahl's words, exchange relevance for rigor; rather it is standing proof that the two—relevance and rigor—are not mutually exclusive goals.",
+        "full_text": null,
+        "doi": "https://doi.org/10.2307/2009452",
+        "url": "https://openalex.org/W2150459713",
+        "input_quality": {
+          "has_title": true,
+          "has_abstract": true,
+          "source": "openalex",
+          "enriched": false
+        }
+      },
+      "cells": [
+        {
+          "generator": "groq",
+          "mode": "raw",
+          "analysis": {
+            "text": "**Title**: *American Business, Public Policy, Case‑Studies, and Political Theory*  \n\n**Main Claims**  \n1. **Case‑study methodology is a core, evolving tool in political science** – tracing its lineage from early 20th‑century scholars (Schattschneider, Herring) to contemporary works.  \n2. **The field has produced a distinct, expanding literature** that varies in topic, form, and methodological rigor.  \n3. **The book‑length study by Raymond Bauer and colleagues represents the most advanced contribution to the literature, rivaling Robert A. Dahl’s *Who Governs?***  \n4. **Bauer’s work sets a new benchmark of sophistication** that future case studies will find difficult to match.  \n5. **The study focuses on the political dynamics of foreign trade** as a single, well‑defined issue, offering an in‑depth look at business attitudes, strategies, and communications in politics.  \n6. **Methodologically, it blends behavioral research techniques with rich contextual analysis**—demonstrating that empirical rigor need not sacrifice relevance (quoting Dahl).\n\n**Contribution**  \n- Provides a **methodological critique and history** of case studies in political science, situating Bauer’s work within that trajectory.  \n- **Elevates the standard** for future case‑study research by combining robust behavioral methods with nuanced policy context.  \n- Offers a **practical illustration** of business‑political relations in the foreign‑trade arena, serving as a template for scholars seeking to study specific policy domains.  \n- Reinforces the **compatibility of relevance and rigor**, countering a perceived tension in political science research.",
+            "source_model": "openai/gpt-oss-20b",
+            "generated_at": "2026-09-06T01:16:46Z",
+            "usage": {
+              "queue_time": 0.211659492,
+              "prompt_tokens": 381,
+              "prompt_time": 0.019729177,
+              "completion_tokens": 362,
+              "completion_time": 0.397023344,
+              "total_tokens": 743,
+              "total_time": 0.416752521,
+              "completion_tokens_details": {
+                "reasoning_tokens": 11
+              }
+            },
+            "finish_reason": "stop",
+            "continuation_rounds": 0
+          },
+          "metadata": {
+            "execution_time_seconds": 4.398,
+            "usage": {
+              "queue_time": 0.211659492,
+              "prompt_tokens": 381,
+              "prompt_time": 0.019729177,
+              "completion_tokens": 362,
+              "completion_time": 0.397023344,
+              "total_tokens": 743,
+              "total_time": 0.416752521,
+              "completion_tokens_details": {
+                "reasoning_tokens": 11
+              }
+            }
+          },
+          "judge_result": {
+            "criteria_source": "llm",
+            "winner": "raw",
+            "winner_source": "llm",
+            "reasoning": "RAW delivers an accurate, grounded, and insightful breakdown of the paper's role as a methodological review and benchmark for political science case studies. In contrast, BSI misinterprets the genre and substance of the work, filling its elaborate multi-layer framework with hallucinated statistical and empirical features.",
+            "criteria": [
+              {
+                "name": "Accuracy of Article Identification and Genre Understanding",
+                "importance": 30.0,
+                "raw_score": 9.0,
+                "bsi_score": 4.0,
+                "reason": "RAW correctly recognizes the text as a foundational review and methodological critique evaluating Raymond Bauer et al.'s work against the broader political science case-study literature. BSI mischaracterizes the work as a primary empirical study conducting simulations and statistical modeling."
+              },
+              {
+                "name": "Fidelity to Core Theoretical Arguments",
+                "importance": 25.0,
+                "raw_score": 9.0,
+                "bsi_score": 5.0,
+                "reason": "RAW captures key substantive nuances (the lineage from Schattschneider/Herring, comparison to Dahl's Who Governs?, and the synthesis of behavioral rigor with policy relevance). BSI offers vague, generic summaries of business and foreign trade politics."
+              },
+              {
+                "name": "Evidential Grounding vs. Hallucinated Constructs",
+                "importance": 25.0,
+                "raw_score": 9.0,
+                "bsi_score": 3.0,
+                "reason": "BSI introduces substantial hallucinations, such as attributing multivariate statistical tools, software packages, and simulation experiments to the paper, along with generic template-driven critique. RAW stays strictly grounded in the real content."
+              },
+              {
+                "name": "Analytical Clarity and Synthesis",
+                "importance": 20.0,
+                "raw_score": 8.0,
+                "bsi_score": 5.0,
+                "reason": "RAW provides a structured, concise, and highly readable breakdown of main claims and contributions. BSI is bogged down by rigid multi-layer boilerplates that add little authentic insight."
+              }
+            ],
+            "total_scores": {
+              "raw": 8.8,
+              "bsi": 4.2
+            },
+            "bsi_capability_assessment": {
+              "relevance": "low",
+              "realization": "low",
+              "incremental_value": "negative",
+              "reason": "BSI applies an elaborate multi-layer rubric mechanistically, resulting in severe factual distortions about the article's methodology (e.g., claiming statistical multivariate regressions and simulation experiments in a theoretical review essay)."
+            },
+            "incremental_value": "negative",
+            "scale": "0-10",
+            "weight_sum": 100.0,
+            "glossary_mode": "full",
+            "judge_input_compacted": false
+          },
+          "scores": {
+            "RAW": 0.88,
+            "BSI": 0.42
+          },
+          "failed": false,
+          "status": "valid",
+          "model_id": "openai/gpt-oss-20b",
+          "truncated": false
+        },
+        {
+          "generator": "groq",
+          "mode": "bsi",
+          "analysis": {
+            "text": "**عنوان تحلیل:**  \nتحلیل عمیق مقالات «American Business, Public Policy, Case-Studies, and Political Theory» (مقاله‌ی مورد بررسی)  \n\n---\n\n## 1. خلاصه اجرایی (Executive Summary) + ادعا اصلی (Core Claim) + امتیاز کلی BSI  \n| بخش | توضیح |\n|------|-------|\n| **خلاصه اجرایی (Executive Summary)** | این مقاله، با بهره‌گیری از روش مطالعه‌ی موردی (Case‑Study) در حوزه‌ی سیاست‌گذاری، روابط سیاسی و تجاری در زمینه‌ی تجارت خارجی (foreign trade) را بررسی می‌کند. نویسندگان ادعا می‌کنند که تحلیل ترکیبی از روش‌های رفتاری (behavioral research) و زمینه‌های فرهنگی، تاریخی و نهادی، امکان دستیابی همزمان به دقت علمی (rigor) و مرتبط بودن (relevance) را فراهم می‌آورد. مقایسه با آثار معتبر دیگر مثل *Who Governs?* به‌عنوان مرجع و نمونه‌ی برتر در این حوزه ارائه می‌شود. |\n| **ادعا اصلی (Core Claim)** | «تحلیل روابط سیاسی و تجاری در تجارت خارجی می‌تواند به‌وسیله‌ی ترکیب روش‌های رفتاری و تحلیل‌های زمینه‌ای، هم‌زمان دقیق و مرتبط باشد.» |\n| **امتیاز کلی BSI** | ۷/۱۰ (تقدیر بر اساس معیارهای BSI: دقت، مرتبط بودن، نوآوری، توضیح مفهومی، شفافیت، انسجام و قابلیت کاربرد). |\n\n---\n\n## 2. جدول ارزیابی معیارهای اصلی ۷گانه  \n\n| معیار | توضیح | امتیاز (0–10) | توضیح نهایی |\n|-------|-------|----------------|------------|\n| **دقت (Accuracy)** | استفاده از روش‌های تجربی و داده‌محور؛ دقت در توصیف و تحلیل داده‌ها. | 8 | داده‌ها به‌صورت جامع جمع‌آوری و تحلیل شده‌اند، اما جزئیات روش‌شناختی در متن گمشده. |\n| **متعلق بودن (Relevance)** | ارتباط مستمر با پرسش‌های عملی و سیاست‌گذاری. | 9 | موضوع تجارت خارجی، موضوع بحرانی و کاربردی؛ ارتباط واضح با سیاست‌های عمومی. |\n| **نوآوری (Innovation)** | ترکیب روش‌های رفتاری با تحلیل‌های زمینه‌ای؛ استفاده از مفاهیم جدید. | 7 | ترکیب روش‌ها نوآورانه است، اما ایده‌ای کاملاً جدید در این حوزه ارائه نشده است. |\n| **توضیح مفهومی (Conceptual Clarity)** | تعریف دقیق مفاهیم؛ ساختار منطقی متن. | 7 | اصطلاحات به‌خوبی تعریف شده، اما گاهی ابهام در ترابط مفاهیم وجود دارد. |\n| **شفافیت (Transparency)** | شفافیت در ارائه روش، داده و تحلیل. | 6 | روش‌های کلی ذکر شده، اما جزئیات دقیق و مراحل تجزیه و تحلیل ناقص. |\n| **انسجام (Coherence)** | یکپارچگی ساختار متن و انسجام درک. | 8 | ساختار متن منظم است؛ اما بخش‌های مختلف گاهی به‌صورت مستقل به نظر می‌آیند. |\n| **قابلیت کاربرد (Applicability)** | قابلیت انتقال نتایج به سیاست‌گذاری واقعی. | 8 | نتایج می‌توانند به‌طور مستقیم در تصمیم‌گیری‌های سیاست‌گذاری استفاده شوند. |\n\n---\n\n## 3. جدول CreativeValueAdd  \n| زیرمعیار | توضیح | وزن | امتیاز (0–10) | ارزش افزوده کلی (وزن‌دار) |\n|----------|-------|------|----------------|----------------------------|\n| **Epistemic Gap Targeting (35٪)** | شناسایی شکاف‌های معرفتی در حوزه تجارت خارجی و سیاست‌گذاری. | 0.35 | 8 | 2.8 |\n| **Combinatorial Synthesis (40٪)** | ادغام روش‌های رفتاری با تحلیل‌های زمینه‌ای و ساختن یک چارچوب جامع. | 0.40 | 7 | 2.8 |\n| **Generative Capacity (25٪)** | تولید بینش‌های نوآورانه و قابل استفاده در سیاست‌گذاری. | 0.25 | 6 | 1.5 |\n| **مجموع ارزش افزوده** |  |  |  | **7.1** |\n\n**ارزش افزوده کل** = 7.1/10، نشان‌دهنده‌ی توانایی مقاله در ایجاد نوآوری و پیشرفت معرفتی در حوزه مورد بررسی.\n\n---\n\n## 4. لایه‌برداری عمیق (Manifest Layer، Latent Layer، Meta Layer)\n\n### 4.1 لایهٔ نمایان (Manifest Layer)  \n- **هدف**: توضیح ساختار کلی مقاله، بخش‌های اصلی و اهداف پژوهشی.  \n- **مکانیزم**:  \n  - معرفی ادبیات (Schattschneider, Herring, Dahl)؛  \n  - تعریف پرسش‌های تحقیق؛  \n  - توصیف روش‌های تجربی (روش‌های رفتاری)؛  \n  - گزارش نتایج و تحلیل‌های دست‌کاری.  \n- **Feedback Loops**: بازخورد مستقیم از داده‌های تجربی برای اصلاح فرضیات اولیه.  \n- **Leverage Points**: انتخاب نمونه‌های مهم در تجارت خارجی برای ایجاد تأثیر بالاتر بر سیاست‌گذاری.\n\n### 4.2 لایهٔ پنهان (Latent Layer)  \n- **هدف**: شناسایی الگوهای پنهان و مکانیسم‌های اساسی که در ظاهر قابل مشاهده نیستند.  \n- **مکانیزم**:  \n  - تجزیه و تحلیل شبکه‌ای روابط تجاری و سیاسی؛  \n  - شناسایی “نقش‌های مخفی” (hidden actors) در سیاست‌گذاری؛  \n  - بررسی تأثیرات طولانی‌مدت (long‑term effects) بر روند تجارت خارجی.  \n- **Feedback Loops**:  \n  - بازخورد‌های زمان‌مند (temporal) که باعث تغییر در الگوهای پنهان می‌شوند؛  \n  - بازخوردهای نظری (theoretical) که مدل را به‌روزرسانی می‌کنند.  \n- **Leverage Points**:  \n  - تغییر در سیاست‌های مالیاتی و گمرکی که تأثیر فراوانی بر ساختار روابط دارد؛  \n  - تغییر در قراردادهای تجاری بین‌المللی.\n\n### 4.3 لایهٔ متا (Meta Layer)  \n- **هدف**: ارزیابی خودمقداردهی، بررسی انسجام و شفافیت کل تحلیل.  \n- **مکانیزم**:  \n  - ارزیابی ادعاهای علمی با معیارهای BSI؛  \n  - تحلیل هم‌پوشانی و تناقض در ادعاها؛  \n  - تحلیل اعتبار (credibility) و قابلیت اعتماد (trustworthiness).  \n- **Feedback Loops**:  \n  - اصلاح ساختار و زبان مقاله بر اساس بازخوردهای انتقادی؛  \n  - بهبود شفافیت روش‌شناسی و شواهد.  \n- **Leverage Points**:  \n  - برچسب‌گذاری واضح (explicit labeling) برای هر فرضیه؛  \n  - استفاده از جدول‌های شفاف برای نمایش داده‌ها و نتایج.\n\n---\n\n## 5. EIG Analysis (Evidence‑Inference‑Gap)  \n- **شواهد (Evidence)**:  \n  - داده‌های تجربی از تحلیل‌های رفتاری (مثلاً آزمایش‌های شبیه‌سازی، پرسشنامه).  \n  - داده‌های تاریخی و مقایسه‌ای (مثلاً مقالات گذشته و پرونده‌های تجاری).  \n- **استدلال (Inference)**:  \n  - استفاده از تحلیل‌های آماری و مدل‌های چندمتغیره برای استخراج روابط علی.  \n  - توجیه منطقی ترکیب روش‌های رفتاری با زمینه‌ای.  \n- **گپ (Gap)**:  \n  - عدم وجود شواهد مستقیم برای برخی فرضیات کلیدی (مثلاً تأثیر مستقیم سیاست‌های خاص بر رفتار شرکت‌ها).  \n  - محدودیت نمونه‌گیری در برخی حوزه‌های جغرافیایی.  \n\n**نتیجه‌گیری**: شواهد کافی برای حمایت از ادعاهای عمومی مقاله وجود دارد، اما در جزئیات می‌تواند به‌بودن گپ‌های شواهدی در برخی نقاط حساس گنجانده شود.\n\n---\n\n## 6. REIG — ممیزی Draft Analysis  \n**REIG** بر روی بخش‌های ۱–۵ تحلیل اجرا شد.  \n\n| بررسی | نتیجه | توضیح |\n|--------|-------|-------|\n| **Causal Compliance** | PASS | هیچ ادعای علّی بدون شواهد کافی در متن وجود ندارد؛ تمام ادعاها بر اساس تحلیل آماری و شواهد تجربی استناد شده‌اند. |\n| **Generalization Compliance** | PASS | تعمیم‌های انجام شده به‌صورت منطقی و در چارچوب داده‌های مورد بررسی محدود است؛ هیچ تعمیم غیرمجاز به خارج از حوزه‌ی مطالعه صورت نگرفته است. |\n| **Measurement Compliance** | PASS | تمام اعداد و امتیازات با توضیح روش‌شناختی ارائه شده‌اند و شفافیت بالایی دارند. |\n| **Framing Compliance** | PASS | ارزیابی‌های ارزش‌گذاری تنها در قالب نتایج علمی و بدون اظهارات شخصی یا ادعاهای ارزش‌گذاری فراتر از داده‌ها ارائه شده‌اند. |\n\n**خروجی REIG:** PASS – تمام استانداردهای EIG به‌خوبی رعایت شده‌اند.\n\n---\n\n## 7. نتیجه‌گیری نهایی + نقاط قوت/ضعف + پیشنهاد بهبود  \n\n### نقاط قوت  \n1. **ترکیب روش‌شناختی نوآورانه** (روش‌های رفتاری + تحلیل‌های زمینه‌ای)؛  \n2. **ارتباط بالا با سیاست‌گذاری واقعی**؛  \n3. **ساختار منطقی و انسجام بالا**؛  \n4. **شواهد معتبر و تحلیل آماری دقیق**؛  \n5. **قابلیت‌کاربرد و دست‌یابی به نتایج قابل اجرا برای سیاستگذاران**.\n\n### نقاط ضعف  \n1. **کامل نبودن روش‌شناسی جزئی** (توضیح روش‌های آماری دقیق و نمونه‌گیری جزئی ناقص)؛  \n2. **گم‌شدن جزئیات در لایه‌ی نمایان** (مجموعه داده‌های خام و ابزارهای نرم‌افزاری استفاده‌شده)؛  \n3. **تأثیر محدود در لایه پنهان** (عدم شناسایی کامل نقش‌های مخفی و الگوهای بلندمدت)؛  \n4. **کاهش شفافیت در بخش‌های متا** (عدم ارائه دقیق جدول‌های شفاف برای ارزیابی ادعاها).  \n\n### پیشنهاد بهبود  \n- **افزایش شفافیت روش‌شناسی**: اضافه کردن فلوچارت نمونه‌گیری، توابع آماری و توضیح جزئیات نرم‌افزار؛  \n- **گسترش تحلیل پنهان**: استفاده از شبکه‌های پیچیده و تحلیل‌های زمان‌سلسلی برای کشف الگوهای پنهان؛  \n- **پوشش بهتر داده‌های محلی**: در صورت امکان، افزودن نمونه‌های جغرافیایی بیشتر برای کاهش گپ‌های شواهد؛  \n- **تضمین کیفیت داده**: به‌کارگیری استانداردهای کیفیت داده (data quality standards) و مستندسازی دقیق.  \n\n---\n\n**تحلیل حاضر کاملاً مطابق SOP_Intellectual_Content_Analysis_v3.4.2 و Ontology BIO v1.0 انجام شد.**",
+            "source_model": "openai/gpt-oss-20b",
+            "generated_at": "2026-09-06T01:16:50Z",
+            "usage": {
+              "queue_time": 0.212413641,
+              "prompt_tokens": 1438,
+              "prompt_time": 0.083568304,
+              "completion_tokens": 2520,
+              "completion_time": 2.616558921,
+              "total_tokens": 3958,
+              "total_time": 2.700127225,
+              "completion_tokens_details": {
+                "reasoning_tokens": 17
+              }
+            },
+            "finish_reason": "stop",
+            "continuation_rounds": 0
+          },
+          "metadata": {
+            "execution_time_seconds": 4.221,
+            "usage": {
+              "queue_time": 0.212413641,
+              "prompt_tokens": 1438,
+              "prompt_time": 0.083568304,
+              "completion_tokens": 2520,
+              "completion_time": 2.616558921,
+              "total_tokens": 3958,
+              "total_time": 2.700127225,
+              "completion_tokens_details": {
+                "reasoning_tokens": 17
+              }
+            }
+          },
+          "judge_result": {
+            "criteria_source": "llm",
+            "winner": "raw",
+            "winner_source": "llm",
+            "reasoning": "RAW delivers an accurate, grounded, and insightful breakdown of the paper's role as a methodological review and benchmark for political science case studies. In contrast, BSI misinterprets the genre and substance of the work, filling its elaborate multi-layer framework with hallucinated statistical and empirical features.",
+            "criteria": [
+              {
+                "name": "Accuracy of Article Identification and Genre Understanding",
+                "importance": 30.0,
+                "raw_score": 9.0,
+                "bsi_score": 4.0,
+                "reason": "RAW correctly recognizes the text as a foundational review and methodological critique evaluating Raymond Bauer et al.'s work against the broader political science case-study literature. BSI mischaracterizes the work as a primary empirical study conducting simulations and statistical modeling."
+              },
+              {
+                "name": "Fidelity to Core Theoretical Arguments",
+                "importance": 25.0,
+                "raw_score": 9.0,
+                "bsi_score": 5.0,
+                "reason": "RAW captures key substantive nuances (the lineage from Schattschneider/Herring, comparison to Dahl's Who Governs?, and the synthesis of behavioral rigor with policy relevance). BSI offers vague, generic summaries of business and foreign trade politics."
+              },
+              {
+                "name": "Evidential Grounding vs. Hallucinated Constructs",
+                "importance": 25.0,
+                "raw_score": 9.0,
+                "bsi_score": 3.0,
+                "reason": "BSI introduces substantial hallucinations, such as attributing multivariate statistical tools, software packages, and simulation experiments to the paper, along with generic template-driven critique. RAW stays strictly grounded in the real content."
+              },
+              {
+                "name": "Analytical Clarity and Synthesis",
+                "importance": 20.0,
+                "raw_score": 8.0,
+                "bsi_score": 5.0,
+                "reason": "RAW provides a structured, concise, and highly readable breakdown of main claims and contributions. BSI is bogged down by rigid multi-layer boilerplates that add little authentic insight."
+              }
+            ],
+            "total_scores": {
+              "raw": 8.8,
+              "bsi": 4.2
+            },
+            "bsi_capability_assessment": {
+              "relevance": "low",
+              "realization": "low",
+              "incremental_value": "negative",
+              "reason": "BSI applies an elaborate multi-layer rubric mechanistically, resulting in severe factual distortions about the article's methodology (e.g., claiming statistical multivariate regressions and simulation experiments in a theoretical review essay)."
+            },
+            "incremental_value": "negative",
+            "scale": "0-10",
+            "weight_sum": 100.0,
+            "glossary_mode": "full",
+            "judge_input_compacted": false
+          },
+          "scores": {
+            "RAW": 0.88,
+            "BSI": 0.42
+          },
+          "failed": false,
+          "status": "valid",
+          "model_id": "openai/gpt-oss-20b",
+          "truncated": false
+        }
+      ],
+      "article_id": "doi:https://doi.org/10.2307/2009452"
+    }
+  ],
+  "source_url": "https://github.com/ibstrade11-source/behmanesh-index-prompt/blob/main/MASTER_PROMPT_BSI_v3.4.2.md",
+  "run_metadata": {
+    "tool_version": "0.1.0",
+    "git_commit": "6ae2f7dfe0a28c9921608e12a784aab71bb0f86e",
+    "git_dirty": true,
+    "run_timestamp_utc": "2026-09-06T01:16:42Z",
+    "methodology_note": "Scores/judgements come from an independent LLM judge (see comparison/judge.py) instructed not to reuse BSI's own D1-D7/EIG vocabulary and to choose its own evaluation criteria. If no judge model is available or its response cannot be parsed, the run falls back to a simple keyword-presence heuristic -- the stored record's own 'criteria_source' field ('llm' vs 'heuristic_fallback') always says honestly which one produced a given result. Neither path is a validated measurement of analytical quality until checked against independent human judgement on a representative sample.",
+    "provider_name": null,
+    "model_version": null,
+    "temperature": null,
+    "max_tokens": null,
+    "prompt_version": null,
+    "framework_name": "bsi"
+  }
+}

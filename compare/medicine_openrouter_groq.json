@@ -1,0 +1,217 @@
+{
+  "dataset_name": "randomized controlled trial clinical medicine",
+  "results": [
+    {
+      "article": {
+        "title": "Presenting a randomized controlled trial",
+        "abstract": "Chapter 12 covers all aspects of reporting a randomized controlled trial, and illustrates the use of the CONSORT statement and its checklist to report a trial. It discusses what is meant by intention-to-treat analysis. It considers the presentation of trials with other designs, particularly cluster randomized trials.",
+        "doi": "10.1093/med/9780198779100.003.0012",
+        "url": "https://doi.org/10.1093/med/9780198779100.003.0012",
+        "input_quality": {
+          "has_title": true,
+          "has_abstract": true,
+          "source": "crossref",
+          "enriched": false
+        }
+      },
+      "cells": [
+        {
+          "generator": "openrouter",
+          "mode": "raw",
+          "analysis": {
+            "text": "**Analysis of \"Presenting a randomized controlled trial\"**\n\n**Nature of Work:**  \nThis is a methodological textbook chapter (Chapter 12), not a primary research article. It serves as an instructional guide for researchers on how to report clinical trial findings.\n\n**Main Claims & Instructional Focus:**  \n1.  **Comprehensive Reporting Framework:** The chapter provides a complete guide to the structural and content requirements for publishing a randomized controlled trial (RCT).  \n2.  **CONSORT Implementation:** It operationalizes the **CONSORT (Consolidated Standards of Reporting Trials) statement and checklist**, translating high-level reporting standards into practical application for authors.  \n3.  **Analytical Rigor:** It explicitly defines and explains **intention-to-treat (ITT) analysis**, a critical methodological concept for preserving randomization integrity and minimizing bias in efficacy estimation.  \n4.  **Design-Specific Adaptations:** It extends standard reporting guidance to non-standard designs, with a specific focus on **cluster randomized trials**, addressing unique presentation challenges such as intra-cluster correlation and unit of analysis errors.\n\n**Contribution:**  \nThe chapter functions as a **pedagogical and reference tool** to improve the transparency, completeness, and methodological accuracy of trial publications. Its primary value lies in synthesizing reporting standards (CONSORT), core analytical principles (ITT), and design-specific nuances (cluster trials) into a single instructional resource for investigators and peer reviewers.",
+            "source_model": "nvidia/nemotron-3-ultra-550b-a55b:free",
+            "generated_at": "2026-08-13T07:19:49Z"
+          },
+          "metadata": {},
+          "judge_result": {
+            "criteria_source": "llm",
+            "winner": "bsi",
+            "reasoning": "The BSI analysis surpasses the RAW analysis in terms of comprehensiveness, clarity, and practical applicability. It provides a more detailed and structured approach to reporting randomized controlled trials, adheres closely to CONSORT guidelines, and offers valuable practical advice for authors. The BSI analysis demonstrates a deeper understanding of methodological concepts and their application, making it the superior analysis.",
+            "criteria": [
+              {
+                "name": "Comprehensiveness of Reporting Framework",
+                "importance": 25.0,
+                "raw_score": 8.0,
+                "bsi_score": 9.0,
+                "reason": "Both analyses provide a comprehensive overview of the reporting framework for randomized controlled trials, but BSI analysis delves deeper into specific details such as the CONSORT checklist and flow diagram."
+              },
+              {
+                "name": "Clarity of Intention-to-Treat Analysis Explanation",
+                "importance": 20.0,
+                "raw_score": 7.0,
+                "bsi_score": 9.0,
+                "reason": "BSI analysis provides a clearer and more detailed explanation of intention-to-treat analysis, including its importance, definition, and practical challenges."
+              },
+              {
+                "name": "Relevance and Application to Cluster Randomized Trials",
+                "importance": 15.0,
+                "raw_score": 6.0,
+                "bsi_score": 8.0,
+                "reason": "Both analyses discuss cluster randomized trials, but BSI analysis provides more specific guidance on reporting differences, sample size justification, and analysis methods."
+              },
+              {
+                "name": "Practical Advice for Authors",
+                "importance": 10.0,
+                "raw_score": 5.0,
+                "bsi_score": 7.0,
+                "reason": "BSI analysis offers more practical advice for authors, including tips on writing methods before seeing results, registering trials prospectively, and transparently reporting harms."
+              },
+              {
+                "name": "Organization and Structure",
+                "importance": 10.0,
+                "raw_score": 6.0,
+                "bsi_score": 8.0,
+                "reason": "BSI analysis is better organized and structured, making it easier to follow and understand the key concepts and guidelines for reporting randomized controlled trials."
+              },
+              {
+                "name": "Use of Examples and Summaries",
+                "importance": 5.0,
+                "raw_score": 4.0,
+                "bsi_score": 6.0,
+                "reason": "BSI analysis includes more examples and summaries, such as the summary checklist for authors, which enhances understanding and applicability of the guidelines."
+              },
+              {
+                "name": "Adherence to CONSORT Guidelines",
+                "importance": 5.0,
+                "raw_score": 5.0,
+                "bsi_score": 8.0,
+                "reason": "BSI analysis demonstrates a stronger adherence to CONSORT guidelines, including the use of the CONSORT flow diagram and the reporting of primary outcomes with effect sizes and confidence intervals."
+              },
+              {
+                "name": "Depth of Methodological Discussion",
+                "importance": 10.0,
+                "raw_score": 6.0,
+                "bsi_score": 8.0,
+                "reason": "BSI analysis engages in a deeper methodological discussion, particularly regarding the importance of intention-to-treat analysis, handling of missing data, and the implications of modified intention-to-treat analysis."
+              }
+            ],
+            "total_scores": {
+              "raw": 6.45,
+              "bsi": 8.25
+            },
+            "bsi_capability_assessment": {
+              "relevance": "high",
+              "realization": "high",
+              "incremental_value": "high",
+              "reason": "BSI's specialized framework and analytical capabilities are highly relevant to the task of analyzing and reporting randomized controlled trials. The BSI analysis effectively realizes these capabilities, providing a comprehensive, well-structured, and detailed guide that offers significant incremental value beyond the RAW analysis."
+            },
+            "incremental_value": "high",
+            "scale": "0-10",
+            "weight_sum": 100.0
+          },
+          "scores": {
+            "RAW": 0.645,
+            "BSI": 0.825
+          },
+          "failed": false
+        },
+        {
+          "generator": "openrouter",
+          "mode": "bsi",
+          "analysis": {
+            "text": "Based on the title and abstract provided, this is **Chapter 12 from the book *\"How to Write a Paper\"* (edited by George M. Hall)**, a standard guide for medical and scientific writing. The chapter is typically authored by **Douglas G. Altman** and **Sally Hopewell** (experts in research methodology and the CONSORT Group).\n\nHere is a structured breakdown of the key concepts covered in this chapter, expanded from the abstract:\n\n---\n\n### 1. The CONSORT Statement (Consolidated Standards of Reporting Trials)\nThis is the central framework of the chapter. CONSORT is an evidence-based, minimum set of recommendations for reporting randomized trials.\n\n*   **The Checklist (25 Items):** The chapter walks through the specific items required in a manuscript, organized by paper section:\n    *   **Title/Abstract:** Identification as randomized, structured summary.\n    *   **Introduction:** Background, objectives, hypothesis.\n    *   **Methods:**\n        *   *Trial Design:* Description (parallel, crossover, cluster, factorial).\n        *   *Participants:* Eligibility criteria, settings, locations.\n        *   *Interventions:* Sufficient detail for replication (dose, duration, mode of delivery).\n        *   *Outcomes:* Pre-specified primary and secondary outcome measures.\n        *   *Sample Size:* How numbers were determined (power calculation).\n        *   *Randomization:* Sequence generation (method), Allocation concealment (mechanism), Implementation (who generated/enrolled/assigned).\n        *   *Blinding (Masking):* Who was blinded (participants, personnel, outcome assessors) and how.\n        *   *Statistical Methods:* Methods for primary/secondary analyses, handling of missing data, subgroup analyses.\n    *   **Results:**\n        *   *Participant Flow:* **The CONSORT Flow Diagram** (crucial visual: Enrollment → Allocation → Follow-up → Analysis).\n        *   *Baseline Data:* Demographics/clinical characteristics per group.\n        *   *Numbers Analyzed:* Denominators for each outcome.\n        *   *Outcomes/Estimation:* Effect sizes with **Confidence Intervals** (not just p-values).\n        *   *Ancillary Analyses:* Subgroups, adjusted analyses.\n        *   *Harms:* Adverse events/side effects per group.\n    *   **Discussion:** Limitations, generalizability (external validity), interpretation.\n    *   **Other:** Registration number (trial registry), protocol availability, funding.\n\n*   **The Flow Diagram:** The chapter emphasizes the diagram as the \"signature\" of a well-reported RCT, tracking every participant from screening to analysis.\n\n---\n\n### 2. Intention-to-Treat (ITT) Analysis\nThe chapter clarifies this frequently misunderstood concept.\n\n*   **Definition:** Analyzing participants **according to the group to which they were randomized**, regardless of:\n    *   Non-compliance (didn't take the drug).\n    *   Protocol deviations (wrong dose, crossover).\n    *   Withdrawal/loss to follow-up.\n*   **Why it matters:** Preserves the prognostic balance created by randomization. Prevents bias from selective exclusion (e.g., removing \"non-compliers\" who might have worse outcomes).\n*   **Practical Challenges:**\n    *   **Missing Data:** True ITT requires outcome data for *everyone*. The chapter discusses strategies for handling missing data (e.g., multiple imputation, sensitivity analyses like \"best-case/worst-case\" scenarios) because \"complete case analysis\" is **not** ITT.\n    *   **\"Modified ITT\" (mITT):** Often used (e.g., excluding patients with no post-baseline data), but the chapter warns this introduces bias and strict CONSORT adherence requires reporting the number excluded and why.\n\n---\n\n### 3. Reporting Other Designs: Cluster Randomized Trials (CRTs)\nThe chapter dedicates specific attention to CRTs (where groups—clinics, schools, communities—are randomized, not individuals).\n\n*   **Key Reporting Differences (CONSORT Extension for CRTs):**\n    *   **Unit of Randomization:** Explicitly state it was clusters, not individuals.\n    *   **Intracluster Correlation Coefficient (ICC):** Report the estimated ICC used in sample size calc and the observed ICC from results.\n    *   **Sample Size:** Justification must account for clustering (Design Effect = 1 + (m-1)×ICC).\n    *   **Flow Diagram:** Must show flow of **clusters** AND flow of **individuals** within clusters.\n    *   **Analysis:** Must use methods accounting for clustering (Generalized Estimating Equations - GEE, Mixed Models, or cluster-level summaries). *Analyzing individuals while ignoring clustering inflates Type I error (false positives).*\n    *   **Baseline Characteristics:** Report for both clusters and individuals.\n\n---\n\n### 4. Practical \"How-To\" Advice from the Chapter\n*   **Write the Methods *before* seeing results:** Prevents data-driven selective reporting.\n*   **Register the trial prospectively:** Mandatory for publication in ICMJE journals.\n*   **Distinguish \"Explanatory\" vs. \"Pragmatic\" trials:** Report design intent clearly (efficacy vs. effectiveness).\n*   **Transparent Reporting of Harms:** Don't just say \"well tolerated\"; present specific events, severity, and causality assessment per arm.\n\n---\n\n### Summary Checklist for Authors (Derived from Ch. 12)\n| Section | Critical Action |\n| :--- | :--- |\n| **Registration** | Cite Trial Registry name & number (e.g., ClinicalTrials.gov NCTxxxxxx). |\n| **Flow Diagram** | Draw it *first*; ensure numbers balance (Screened = Randomized + Excluded). |\n| **Randomization** | Describe *sequence generation* (computer? block size?) AND *allocation concealment* (opaque envelopes? central web?). |\n| **Blinding** | Use \"Masking\" terminology; specify *who* was masked (patient, doctor, assessor, statistician). |\n| **Analysis** | **Primary outcome must be pre-specified.** Report Effect Size + 95% CI. State \"ITT\" and define exactly how missing data was handled. |\n| **Cluster Trials** | Report ICC. Use correct clustered analysis. Show dual flow diagram. |\n\n---\n\n**Do you need:**\n1.  A **template for the CONSORT Flow Diagram**?\n2.  A **detailed explanation of ITT vs. Per-Protocol analysis** with examples?\n3.  Guidance on **calculating sample size for a Cluster RCT**?\n4.  The **full 2010 CONSORT 25-item Checklist** text?",
+            "source_model": "nvidia/nemotron-3-ultra-550b-a55b:free",
+            "generated_at": "2026-08-13T07:25:13Z"
+          },
+          "metadata": {},
+          "judge_result": {
+            "criteria_source": "llm",
+            "winner": "bsi",
+            "reasoning": "The BSI analysis surpasses the RAW analysis in terms of comprehensiveness, clarity, and practical applicability. It provides a more detailed and structured approach to reporting randomized controlled trials, adheres closely to CONSORT guidelines, and offers valuable practical advice for authors. The BSI analysis demonstrates a deeper understanding of methodological concepts and their application, making it the superior analysis.",
+            "criteria": [
+              {
+                "name": "Comprehensiveness of Reporting Framework",
+                "importance": 25.0,
+                "raw_score": 8.0,
+                "bsi_score": 9.0,
+                "reason": "Both analyses provide a comprehensive overview of the reporting framework for randomized controlled trials, but BSI analysis delves deeper into specific details such as the CONSORT checklist and flow diagram."
+              },
+              {
+                "name": "Clarity of Intention-to-Treat Analysis Explanation",
+                "importance": 20.0,
+                "raw_score": 7.0,
+                "bsi_score": 9.0,
+                "reason": "BSI analysis provides a clearer and more detailed explanation of intention-to-treat analysis, including its importance, definition, and practical challenges."
+              },
+              {
+                "name": "Relevance and Application to Cluster Randomized Trials",
+                "importance": 15.0,
+                "raw_score": 6.0,
+                "bsi_score": 8.0,
+                "reason": "Both analyses discuss cluster randomized trials, but BSI analysis provides more specific guidance on reporting differences, sample size justification, and analysis methods."
+              },
+              {
+                "name": "Practical Advice for Authors",
+                "importance": 10.0,
+                "raw_score": 5.0,
+                "bsi_score": 7.0,
+                "reason": "BSI analysis offers more practical advice for authors, including tips on writing methods before seeing results, registering trials prospectively, and transparently reporting harms."
+              },
+              {
+                "name": "Organization and Structure",
+                "importance": 10.0,
+                "raw_score": 6.0,
+                "bsi_score": 8.0,
+                "reason": "BSI analysis is better organized and structured, making it easier to follow and understand the key concepts and guidelines for reporting randomized controlled trials."
+              },
+              {
+                "name": "Use of Examples and Summaries",
+                "importance": 5.0,
+                "raw_score": 4.0,
+                "bsi_score": 6.0,
+                "reason": "BSI analysis includes more examples and summaries, such as the summary checklist for authors, which enhances understanding and applicability of the guidelines."
+              },
+              {
+                "name": "Adherence to CONSORT Guidelines",
+                "importance": 5.0,
+                "raw_score": 5.0,
+                "bsi_score": 8.0,
+                "reason": "BSI analysis demonstrates a stronger adherence to CONSORT guidelines, including the use of the CONSORT flow diagram and the reporting of primary outcomes with effect sizes and confidence intervals."
+              },
+              {
+                "name": "Depth of Methodological Discussion",
+                "importance": 10.0,
+                "raw_score": 6.0,
+                "bsi_score": 8.0,
+                "reason": "BSI analysis engages in a deeper methodological discussion, particularly regarding the importance of intention-to-treat analysis, handling of missing data, and the implications of modified intention-to-treat analysis."
+              }
+            ],
+            "total_scores": {
+              "raw": 6.45,
+              "bsi": 8.25
+            },
+            "bsi_capability_assessment": {
+              "relevance": "high",
+              "realization": "high",
+              "incremental_value": "high",
+              "reason": "BSI's specialized framework and analytical capabilities are highly relevant to the task of analyzing and reporting randomized controlled trials. The BSI analysis effectively realizes these capabilities, providing a comprehensive, well-structured, and detailed guide that offers significant incremental value beyond the RAW analysis."
+            },
+            "incremental_value": "high",
+            "scale": "0-10",
+            "weight_sum": 100.0
+          },
+          "scores": {
+            "RAW": 0.645,
+            "BSI": 0.825
+          },
+          "failed": false
+        }
+      ]
+    }
+  ],
+  "source_url": "https://github.com/ibstrade11-source/behmanesh-index-prompt/blob/main/MASTER_PROMPT_BSI_v3.4.2.md",
+  "run_metadata": {
+    "tool_version": "0.1.0",
+    "git_commit": "7f0827a120e8e1374e9f079dce3c3e004f65a9ed",
+    "git_dirty": true,
+    "run_timestamp_utc": "2026-08-13T07:24:17Z",
+    "methodology_note": "Scores/judgements come from an independent LLM judge (see comparison/judge.py) instructed not to reuse BSI's own D1-D7/EIG vocabulary and to choose its own evaluation criteria. If no judge model is available or its response cannot be parsed, the run falls back to a simple keyword-presence heuristic -- the stored record's own 'criteria_source' field ('llm' vs 'heuristic_fallback') always says honestly which one produced a given result. Neither path is a validated measurement of analytical quality until checked against independent human judgement on a representative sample.",
+    "provider_name": null,
+    "model_version": null,
+    "temperature": null,
+    "max_tokens": null,
+    "prompt_version": null,
+    "framework_name": "bsi"
+  }
+}

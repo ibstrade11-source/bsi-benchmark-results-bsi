@@ -1,0 +1,175 @@
+{
+  "dataset_name": "social capital community trust inequality",
+  "results": [
+    {
+      "article": {
+        "title": "Social Capital: Implications for Development Theory, Research, and Policy",
+        "abstract": "In the 1990s the concept of social capital—defined here as the norms and networks that enable people to act collectively—enjoyed a remarkable rise to prominence across all the social science disciplines. The authors trace the evolution of social capital research as it pertains to economic development and identify four distinct approaches the research has taken: communitarian, networks, institutional, and synergy. The evidence suggests that of the four, the synergy view, with its emphasis on incorporating different levels and dimensions of social capital and its recognition of the positive and negative outcomes that social capital can generate, has the greatest empirical support and lends itself best to comprehensive and coherent policy prescriptions. The authors argue that a significant virtue of the idea of and discourse on social capital is that it helps to bridge orthodox divides among scholars, practitioners, and policymakers.",
+        "doi": "https://doi.org/10.1093/wbro/15.2.225",
+        "url": "https://openalex.org/W2109745229",
+        "input_quality": {
+          "has_title": true,
+          "has_abstract": true,
+          "source": "openalex",
+          "enriched": false
+        }
+      },
+      "cells": [
+        {
+          "generator": "groq",
+          "mode": "raw",
+          "analysis": {
+            "text": "This article analyzes the concept of social capital and its implications for development theory, research, and policy. The main claims are:\n\n1. Social capital, defined as the norms and networks that enable collective action, has gained significant attention across social science disciplines since the 1990s.\n2. The authors identify four distinct approaches to social capital research: communitarian, networks, institutional, and synergy.\n3. The synergy view, which considers multiple levels and dimensions of social capital and acknowledges both positive and negative outcomes, is found to have the greatest empirical support.\n4. The concept of social capital helps bridge gaps between scholars, practitioners, and policymakers, facilitating comprehensive and coherent policy prescriptions.\n\nThe article's contribution lies in:\n\n* Providing a comprehensive overview of the evolution of social capital research in the context of economic development\n* Identifying and evaluating the four distinct approaches to social capital research\n* Offering a framework (the synergy view) for understanding the complex and multifaceted nature of social capital, which can inform policy decisions\n* Highlighting the potential of social capital to foster collaboration and dialogue among diverse stakeholders in development research and practice.",
+            "source_model": "llama-3.3-70b-versatile",
+            "generated_at": "2026-08-13T12:50:19Z"
+          },
+          "metadata": {},
+          "judge_result": {
+            "criteria_source": "llm",
+            "winner": "bsi",
+            "reasoning": "Both analyses capture the article's substantive content equally well. BSI edges out RAW due to superior clarity and readability (structured headings, bullet points), which modestly improves accessibility for diverse audiences without adding new substantive content. Weighted scoring reflects this modest advantage.",
+            "criteria": [
+              {
+                "name": "Comprehensiveness of coverage",
+                "importance": 25.0,
+                "raw_score": 8.0,
+                "bsi_score": 8.0,
+                "reason": "A review article's primary value lies in how thoroughly it captures the field's main claims, approaches, and policy implications; thus comprehensiveness carries the highest weight."
+              },
+              {
+                "name": "Conceptual clarity and definitional precision",
+                "importance": 20.0,
+                "raw_score": 8.0,
+                "bsi_score": 8.0,
+                "reason": "Clear definition of social capital is foundational for any synthesis; weight reflects its importance but slightly less than overall coverage."
+              },
+              {
+                "name": "Identification and evaluation of distinct approaches",
+                "importance": 20.0,
+                "raw_score": 9.0,
+                "bsi_score": 9.0,
+                "reason": "The article's central contribution is distinguishing four research approaches; correctly identifying and evaluating them is crucial, warranting a high weight."
+              },
+              {
+                "name": "Synthesis quality and policy relevance (synergy view)",
+                "importance": 20.0,
+                "raw_score": 8.0,
+                "bsi_score": 8.0,
+                "reason": "The article's main analytical advance is the synergy view and its policy implications; synthesis quality directly determines practical usefulness."
+              },
+              {
+                "name": "Clarity and readability of presentation",
+                "importance": 15.0,
+                "raw_score": 7.0,
+                "bsi_score": 9.0,
+                "reason": "Readability affects accessibility for scholars, practitioners, and policymakers; important but secondary to substantive content."
+              }
+            ],
+            "total_scores": {
+              "raw": 8.05,
+              "bsi": 8.35
+            },
+            "bsi_capability_assessment": {
+              "relevance": "high",
+              "realization": "high",
+              "incremental_value": "medium",
+              "reason": "BSI's structured analytical framework is highly relevant for summarizing a review article; the supplied BSI analysis effectively realizes this structure (clear headings, bullet points). The incremental value over RAW is moderate: BSI adds clearer organization but does not introduce new substantive insights."
+            },
+            "incremental_value": "medium",
+            "scale": "0-10",
+            "weight_sum": 100.0
+          },
+          "scores": {
+            "RAW": 0.805,
+            "BSI": 0.835
+          },
+          "failed": false
+        },
+        {
+          "generator": "groq",
+          "mode": "bsi",
+          "analysis": {
+            "text": "This abstract discusses the concept of social capital and its implications for development theory, research, and policy. The key points are:\n\n1. **Definition of Social Capital**: Social capital is defined as the norms and networks that enable people to act collectively.\n2. **Evolution of Social Capital Research**: The concept of social capital gained prominence in the 1990s across all social science disciplines, particularly in the context of economic development.\n3. **Four Approaches to Social Capital Research**: The authors identify four distinct approaches to social capital research:\n\t* Communitarian\n\t* Networks\n\t* Institutional\n\t* Synergy\n4. **Empirical Support and Policy Implications**: The synergy view, which incorporates different levels and dimensions of social capital and recognizes both positive and negative outcomes, has the greatest empirical support and lends itself best to comprehensive and coherent policy prescriptions.\n5. **Bridging Orthodox Divides**: The concept of social capital helps bridge the gaps between scholars, practitioners, and policymakers from different disciplines and backgrounds.\n\nOverall, the abstract suggests that social capital is a valuable concept for understanding economic development and that a nuanced approach, such as the synergy view, can inform effective policy interventions.",
+            "source_model": "llama-3.3-70b-versatile",
+            "generated_at": "2026-08-13T12:50:20Z"
+          },
+          "metadata": {},
+          "judge_result": {
+            "criteria_source": "llm",
+            "winner": "bsi",
+            "reasoning": "Both analyses capture the article's substantive content equally well. BSI edges out RAW due to superior clarity and readability (structured headings, bullet points), which modestly improves accessibility for diverse audiences without adding new substantive content. Weighted scoring reflects this modest advantage.",
+            "criteria": [
+              {
+                "name": "Comprehensiveness of coverage",
+                "importance": 25.0,
+                "raw_score": 8.0,
+                "bsi_score": 8.0,
+                "reason": "A review article's primary value lies in how thoroughly it captures the field's main claims, approaches, and policy implications; thus comprehensiveness carries the highest weight."
+              },
+              {
+                "name": "Conceptual clarity and definitional precision",
+                "importance": 20.0,
+                "raw_score": 8.0,
+                "bsi_score": 8.0,
+                "reason": "Clear definition of social capital is foundational for any synthesis; weight reflects its importance but slightly less than overall coverage."
+              },
+              {
+                "name": "Identification and evaluation of distinct approaches",
+                "importance": 20.0,
+                "raw_score": 9.0,
+                "bsi_score": 9.0,
+                "reason": "The article's central contribution is distinguishing four research approaches; correctly identifying and evaluating them is crucial, warranting a high weight."
+              },
+              {
+                "name": "Synthesis quality and policy relevance (synergy view)",
+                "importance": 20.0,
+                "raw_score": 8.0,
+                "bsi_score": 8.0,
+                "reason": "The article's main analytical advance is the synergy view and its policy implications; synthesis quality directly determines practical usefulness."
+              },
+              {
+                "name": "Clarity and readability of presentation",
+                "importance": 15.0,
+                "raw_score": 7.0,
+                "bsi_score": 9.0,
+                "reason": "Readability affects accessibility for scholars, practitioners, and policymakers; important but secondary to substantive content."
+              }
+            ],
+            "total_scores": {
+              "raw": 8.05,
+              "bsi": 8.35
+            },
+            "bsi_capability_assessment": {
+              "relevance": "high",
+              "realization": "high",
+              "incremental_value": "medium",
+              "reason": "BSI's structured analytical framework is highly relevant for summarizing a review article; the supplied BSI analysis effectively realizes this structure (clear headings, bullet points). The incremental value over RAW is moderate: BSI adds clearer organization but does not introduce new substantive insights."
+            },
+            "incremental_value": "medium",
+            "scale": "0-10",
+            "weight_sum": 100.0
+          },
+          "scores": {
+            "RAW": 0.805,
+            "BSI": 0.835
+          },
+          "failed": false
+        }
+      ]
+    }
+  ],
+  "source_url": "https://github.com/ibstrade11-source/behmanesh-index-prompt/blob/main/MASTER_PROMPT_BSI_v3.4.2.md",
+  "run_metadata": {
+    "tool_version": "0.1.0",
+    "git_commit": "024b97bfb660473e5170d398bbc2ddb79f5db5a8",
+    "git_dirty": false,
+    "run_timestamp_utc": "2026-08-13T12:50:13Z",
+    "methodology_note": "Scores/judgements come from an independent LLM judge (see comparison/judge.py) instructed not to reuse BSI's own D1-D7/EIG vocabulary and to choose its own evaluation criteria. If no judge model is available or its response cannot be parsed, the run falls back to a simple keyword-presence heuristic -- the stored record's own 'criteria_source' field ('llm' vs 'heuristic_fallback') always says honestly which one produced a given result. Neither path is a validated measurement of analytical quality until checked against independent human judgement on a representative sample.",
+    "provider_name": null,
+    "model_version": null,
+    "temperature": null,
+    "max_tokens": null,
+    "prompt_version": null,
+    "framework_name": "bsi"
+  }
+}
