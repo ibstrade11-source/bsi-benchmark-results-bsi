@@ -1,0 +1,184 @@
+{
+  "dataset_name": "quantum physics",
+  "results": [
+    {
+      "article": {
+        "title": "Physics Briefing Book",
+        "abstract": "The European Particle Physics Strategy Update (EPPSU) process takes a bottom-up approach, whereby the community is first invited to submit proposals (also called inputs) for projects that it would like to see realised in the near-term, mid-term and longer-term future. National inputs as well as inputs from National Laboratories are also an important element of the process. All these inputs are then reviewed by the Physics Preparatory Group (PPG), whose role is to organize a Symposium around the submitted ideas and to prepare a community discussion on the importance and merits of the various proposals. The results of these discussions are then concisely summarised in this Briefing Book, prepared by the Conveners, assisted by Scientific Secretaries, and with further contributions provided by the Contributors listed on the title page. This constitutes the basis for the considerations of the European Strategy Group (ESG), consisting of scientific delegates from CERN Member States, Associate Member States, directors of major European laboratories, representatives of various European organizations as well as invitees from outside the European Community. The ESG has the mission to formulate the European Strategy Update for the consideration and approval of the CERN Council.",
+        "doi": null,
+        "url": "http://arxiv.org/abs/1910.11775v2",
+        "input_quality": null
+      },
+      "cells": [
+        {
+          "generator": "openrouter",
+          "mode": "raw",
+          "analysis": {
+            "text": "**Analysis of \"Physics Briefing Book\" (Abstract Only)**\n\n**Document Type:** Policy/Process Description (Front matter for a strategic planning document), not a standard research article.\n\n**Main Claims:**\n1.  **Process Definition:** The European Particle Physics Strategy Update (EPPSU) operates via a structured **bottom-up methodology**, soliciting project proposals (\"inputs\") from the scientific community, national bodies, and laboratories across near-, mid-, and long-term horizons.\n2.  **Governance Structure:** A defined hierarchical workflow governs the strategy formation:\n    *   **Physics Preparatory Group (PPG):** Reviews inputs, organizes a Symposium, and facilitates community discussion on scientific merit.\n    *   **Briefing Book:** Serves as the consolidated, concise summary of community discussions (prepared by Conveners/Secretaries/Contributors).\n    *   **European Strategy Group (ESG):** The decision-making body (comprising national delegates, lab directors, and external invitees) that uses the Briefing Book to formulate the final Strategy Update.\n    *   **CERN Council:** The final approval authority.\n3.  **Function of the Document:** The \"Physics Briefing Book\" itself is an **evidentiary synthesis document**—the primary input bridging community consultation and high-level policy formulation.\n\n**Contribution:**\n*   **Procedural Transparency:** Explicitly codifies the governance pipeline for European particle physics prioritization, ensuring traceability from grassroots proposals to Council-approved strategy.\n*   **Community Consensus Mechanism:** Establishes the Briefing Book as the critical \"single source of truth\" synthesizing diverse inputs (community, national, lab) for the ESG, preventing fragmentation in the decision-making process.\n*   **Strategic Foundation:** Provides the mandatory evidentiary basis required for the ESG to produce a credible, community-endorsed roadmap for resource allocation and facility planning in Europe.\n\n**Limitations (based *only* on abstract provided):**\n*   Contains **no scientific findings, physics priorities, specific project evaluations, or technical recommendations**. It describes the *container* for the strategy, not the strategy content itself.",
+            "source_model": "nvidia/nemotron-3-ultra-550b-a55b:free",
+            "generated_at": "2026-08-14T03:06:27Z"
+          },
+          "metadata": {},
+          "judge_result": {
+            "criteria_source": "llm",
+            "winner": "bsi",
+            "reasoning": "BSI analysis demonstrates a more detailed and structured approach, providing higher logical coherence and process transparency, despite limitations in epistemic robustness and creative value add.",
+            "criteria": [
+              {
+                "name": "Logical Coherence and Process Transparency",
+                "importance": 25.0,
+                "raw_score": 8.0,
+                "bsi_score": 9.0,
+                "reason": "Both analyses demonstrate logical coherence, but BSI analysis provides a more detailed and transparent process description."
+              },
+              {
+                "name": "Epistemic Robustness and Evidence Support",
+                "importance": 20.0,
+                "raw_score": 6.0,
+                "bsi_score": 5.0,
+                "reason": "RAW analysis mentions the lack of scientific findings, while BSI analysis highlights the evidential support, but neither provides strong evidence for epistemic robustness."
+              },
+              {
+                "name": "Governance Structure and Decision-Making Mechanism",
+                "importance": 20.0,
+                "raw_score": 7.0,
+                "bsi_score": 9.0,
+                "reason": "BSI analysis provides a more detailed and structured description of the governance structure and decision-making mechanism."
+              },
+              {
+                "name": "Community Consensus Mechanism and Strategic Foundation",
+                "importance": 15.0,
+                "raw_score": 8.0,
+                "bsi_score": 8.0,
+                "reason": "Both analyses highlight the importance of community consensus and strategic foundation, but BSI analysis provides more insight into the mechanism."
+              },
+              {
+                "name": "Practical Applicability and Impact",
+                "importance": 10.0,
+                "raw_score": 9.0,
+                "bsi_score": 9.0,
+                "reason": "Both analyses recognize the high practical applicability and impact of the Physics Briefing Book."
+              },
+              {
+                "name": "Interdisciplinary Integration and Creative Value Add",
+                "importance": 10.0,
+                "raw_score": 4.0,
+                "bsi_score": 3.0,
+                "reason": "Neither analysis demonstrates strong interdisciplinary integration or creative value add, but BSI analysis provides more self-awareness of its limitations."
+              }
+            ],
+            "total_scores": {
+              "raw": 7.1,
+              "bsi": 7.45
+            },
+            "bsi_capability_assessment": {
+              "relevance": "high",
+              "realization": "medium",
+              "incremental_value": "medium",
+              "reason": "BSI analysis provides relevant capabilities, such as process transparency and governance structure description, but its realization is limited by the lack of epistemic robustness and creative value add."
+            },
+            "incremental_value": "medium",
+            "scale": "0-10",
+            "weight_sum": 100.0
+          },
+          "scores": {
+            "RAW": 0.71,
+            "BSI": 0.745
+          },
+          "failed": false
+        },
+        {
+          "generator": "openrouter",
+          "mode": "bsi",
+          "analysis": {
+            "text": "# تحلیل مقاله: Physics Briefing Book (کتاب راهنمای فیزیک)\n\n**مشخصات مقاله:**\n*   **عنوان:** Physics Briefing Book\n*   **موضوع:** فرآیند بروزرسانی استراتژی فیزیک ذرات اروپا (EPPSU)\n*   **نوع محتوا:** گزارش فرآیندی / اداری-استراتژیک (Process Documentation)\n*   **منبع:** گروه آمادگی فیزیکی (Physics Preparatory Group - PPG) / کنوان‌گران (Conveners)\n*   **تاریخ تحلیل:** ۲۶ ژوئن ۲۰۲۶\n*   **تحلیل‌گر:** ارزیاب ارشد شاخص بهمنش نسخه ۳.۴.۲\n\n---\n\n## ۱. خلاصه اجرایی (Executive Summary) + Core Claim + امتیاز کلی BSI\n\n**خلاصه اجرایی:**\nمتن ورودی چکیده‌ای از «کتاب راهنمای فیزیک» است که پیش‌نویس و اساس کار گروه استراتژی اروپا (ESG) برای بروزرسانی استراتژی فیزیک ذرات (EPPSU) را تشریح می‌کند. این متن ادعای علمی-تئوری ندارد؛ بلکه یک **مکانیسم حکمرانی علمی (Scientific Governance Mechanism)** را توصیف می‌کند. فرآیند به صورت «پایین‌به‌بالا» (Bottom-up) طراحی شده: جامعه علمی پیشنهادها (Inputs) را ارائه می‌دهد، گروه آمادگی فیزیکی (PPG) این ورودی‌ها را کúra کرده، یک سمپوزیوم برگزار می‌کند و در نهایت این کتاب‌رهنما را تدوین می‌کند تاGruppo استراتژی اروپا (ESG) بر پایه آن تصمیم‌گیری نهایی برای شورای CERN انجام دهد.\n\n**Core Claim (ادعای هسته):**\n> «فرآیند EPPSU با استفاده از یک معماری تصمیم‌گیری پایین‌به‌بالا، مشارکتی و چندمرحله‌ای (ورودی جامعه → کُراتوری PPG → سمپوزیوم → کتاب‌رهنما → تصمیم ESG)، تضمین می‌کند که استراتژی نهایی فیزیک ذرات اروپا بازتاب‌دهنده اجماع علمی جامعه، اولویت‌بندی‌های واقع‌بینانه و امکان‌سنجی‌های فنی است، و(projectهای) انتخاب‌شده برای décadas آینده/projectهای پیشنهادی/legitimacy و پیوستگی سیاسی-علمی اللازمة را دارند.»\n\n**امتیاز کلی BSI: ۵۸ / ۱۰۰**\n\n*   **تبریر امتیاز:** متن به عنوان یک «سند فرآیندی» (Process Document) ارزیابی شده است، نه یک مقاله علمی با ادعای معرفت جدید. از نظر **انسجام منطقی (Logical Coherence)** و **شفافیت متدولوژی (Methodological Transparency)** امتیاز بالا دارد (فرآیند واضح است). اما از نظر **ارزش‌افزودن خلاقانه (CreativeValueAdd)**، **عمق لایه پنهان (Latent Depth)** و **ظرفیت مولد (Generative Capacity)** امتیاز پایین دریافت می‌کند، زیرا خودِ متن *تحلیل* یا *آیده* جدیدی تولید نمی‌کند، بلکه *مسیری* برای تولید تصمیم را توصیف می‌کند. لایه پنهان (قدرت، پول، جامعه‌شناسی علم) در متن صریح نشده است.\n\n---\n\n## ۲. جدول ارزیابی معیارهای اصلی ۷گانه (The 7 Core Criteria)\n\n| معیار (Criterion) | امتیاز (۰-۱۰۰) | وزن در BSI | امتیاز وزنی | تحلیل و شواهد (Evidence-Based Justification) |\n| :--- | :---: | :---: | :---: | :--- |\n| **۱. انسجام منطقی (Logical Coherence)** | ۹۰ | ۱۵٪ | ۱۳.۵ | ساختار فرآیند خطی، السببی و غیرمتضاد است: ورودی → پردازش → خلاصه → تصمیم. هیچ شکاف منطقی در توصیف مراحل وجود ندارد. |\n| **۲. شفافیت متدولوژی (Methodological Transparency)** | ۸۵ | ۱۵٪ | ۱۲.۷۵ | مراحل، بازیگران (PPG, ESG, Council, Labs) و نقش‌ها به صراحت نام برده شده‌اند. اما معیارهای *کُراتوری* و *وزن‌دهی* به ورودی‌ها در این خلاصه مشخص نیست (Black Box در لایه PPG). |\n| **۳. اعتبار شواهد (Evidential Support)** | ۵۰ | ۱۵٪ | ۷.۵ | متن *خود* شیمند است، نه اینکه ادعاهایی را با شواهد اثبات کند. «ورودی‌ها» شواهد هستند اما در این متن ارزیابی نشده‌اند. |\n| **۴. نوآوری نظری/مفهومی (Conceptual Novelty)** | ۲۰ | ۱۵٪ | ۳.۰ | مدل «پایین‌به‌بالا» در سیاست علمی استاندارد و تکراری است. هیچ چارچوب مفهومی نوین یا بازتعریف پدیده‌ای ارائه نشده. |\n| **۵. کاربرد عملی / تأثیر (Practical Applicability / Impact)** | ۹۵ | ۱۵٪ | ۱۴.۲۵ | تأثیر بسیار بالا: خروجی مستقیم این فرآیند تخصیص بودجه میلیاردی و جهت‌گیری تحقیقات فیزیک بنیادی در اروپا است. |\n| **۶. یکپارچگی میان‌رشته‌ای (Interdisciplinary Integration)** | ۳۰ | ۱۰٪ | ۳.۰ | محدود به جامعه فیزیک ذرات (HEP). اگرچه آزمایشگاه‌ها و سازمان‌های 유럽ی شامل می‌شوند، اما دیدگاه‌های خارج از فیزیک (مثلاً اقتصاد علم، جامعه‌شناسی دانش، فلسفه علم) در فرآیند توصیف شده گنجانده نشده‌اند. |\n| **۷. ارزش‌افزودن خلاقانه (Creative Value Add - CVA)** | ۳۵ | ۱۵٪ | ۵.۲۵ | تحلیل جداگانه در بخش ۳. متن：*خودِ فرآیند* خلاقانه است، اما *متن گزارش* آن فقط را refleक्ट می‌کند. |\n\n**مجموع امتیاز وزنی (BSI Score): ۵۸.۷۵ ≈ ۵۸**\n\n---\n\n## ۳. جدول CreativeValueAdd (CVA) با ۳ زیرمعیار\n\n| زیرمعیار (Sub-criterion) | وزن در CVA | امتیاز (۰-۱۰۰) | امتیاز وزنی | استدلال عمیق (Deep Reasoning) |\n| :--- | :---: | :---: | :---: | :--- |\n| **هدف‌گذاری شکاف معرفت‌شناختی (Epistemic Gap Targeting)** | ۳۵٪ | ۳۰ | ۱۰.۵ | **تحلیل:** متن شکافی را *تشخیص* نمی‌دهد، بلکه یک *مکانیسمorganizational* برای پر کردن شکاف‌های آینده (پروژه‌های آینده) پیش‌بینی می‌کند. شکاف معرفت‌شناختی واقعی (مثلاً: «چرا مدل استاندارد کامل نیست؟» یا «چون DM détected نشده؟») در سطح این سند فرآیندی وجود ندارد. این سند «متا-شکاف» را مدیریت می‌کند، نه شکاف فیزیک را. |\n| **ترکیب ترکیبی (Combinatorial Synthesis)** | ۴۰٪ | ۴۰ | ۱۶.۰ | **تحلیل:** فرآیند تعریف شده (PPG curating inputs) *",
+            "source_model": "nvidia/nemotron-3-ultra-550b-a55b:free",
+            "generated_at": "2026-08-14T03:07:02Z"
+          },
+          "metadata": {},
+          "judge_result": {
+            "criteria_source": "llm",
+            "winner": "bsi",
+            "reasoning": "BSI analysis demonstrates a more detailed and structured approach, providing higher logical coherence and process transparency, despite limitations in epistemic robustness and creative value add.",
+            "criteria": [
+              {
+                "name": "Logical Coherence and Process Transparency",
+                "importance": 25.0,
+                "raw_score": 8.0,
+                "bsi_score": 9.0,
+                "reason": "Both analyses demonstrate logical coherence, but BSI analysis provides a more detailed and transparent process description."
+              },
+              {
+                "name": "Epistemic Robustness and Evidence Support",
+                "importance": 20.0,
+                "raw_score": 6.0,
+                "bsi_score": 5.0,
+                "reason": "RAW analysis mentions the lack of scientific findings, while BSI analysis highlights the evidential support, but neither provides strong evidence for epistemic robustness."
+              },
+              {
+                "name": "Governance Structure and Decision-Making Mechanism",
+                "importance": 20.0,
+                "raw_score": 7.0,
+                "bsi_score": 9.0,
+                "reason": "BSI analysis provides a more detailed and structured description of the governance structure and decision-making mechanism."
+              },
+              {
+                "name": "Community Consensus Mechanism and Strategic Foundation",
+                "importance": 15.0,
+                "raw_score": 8.0,
+                "bsi_score": 8.0,
+                "reason": "Both analyses highlight the importance of community consensus and strategic foundation, but BSI analysis provides more insight into the mechanism."
+              },
+              {
+                "name": "Practical Applicability and Impact",
+                "importance": 10.0,
+                "raw_score": 9.0,
+                "bsi_score": 9.0,
+                "reason": "Both analyses recognize the high practical applicability and impact of the Physics Briefing Book."
+              },
+              {
+                "name": "Interdisciplinary Integration and Creative Value Add",
+                "importance": 10.0,
+                "raw_score": 4.0,
+                "bsi_score": 3.0,
+                "reason": "Neither analysis demonstrates strong interdisciplinary integration or creative value add, but BSI analysis provides more self-awareness of its limitations."
+              }
+            ],
+            "total_scores": {
+              "raw": 7.1,
+              "bsi": 7.45
+            },
+            "bsi_capability_assessment": {
+              "relevance": "high",
+              "realization": "medium",
+              "incremental_value": "medium",
+              "reason": "BSI analysis provides relevant capabilities, such as process transparency and governance structure description, but its realization is limited by the lack of epistemic robustness and creative value add."
+            },
+            "incremental_value": "medium",
+            "scale": "0-10",
+            "weight_sum": 100.0
+          },
+          "scores": {
+            "RAW": 0.71,
+            "BSI": 0.745
+          },
+          "failed": false
+        }
+      ]
+    }
+  ],
+  "source_url": "https://github.com/ibstrade11-source/behmanesh-index-prompt/blob/main/MASTER_PROMPT_BSI_v3.4.2.md",
+  "run_metadata": {
+    "tool_version": "0.1.0",
+    "git_commit": "d5f1604e080a805c925d33a7468fdc94547e7352",
+    "git_dirty": false,
+    "run_timestamp_utc": "2026-08-14T03:06:11Z",
+    "methodology_note": "Scores/judgements come from an independent LLM judge (see comparison/judge.py) instructed not to reuse BSI's own D1-D7/EIG vocabulary and to choose its own evaluation criteria. If no judge model is available or its response cannot be parsed, the run falls back to a simple keyword-presence heuristic -- the stored record's own 'criteria_source' field ('llm' vs 'heuristic_fallback') always says honestly which one produced a given result. Neither path is a validated measurement of analytical quality until checked against independent human judgement on a representative sample.",
+    "provider_name": null,
+    "model_version": null,
+    "temperature": null,
+    "max_tokens": 2000,
+    "prompt_version": "v3.4.2",
+    "framework_name": "bsi"
+  }
+}

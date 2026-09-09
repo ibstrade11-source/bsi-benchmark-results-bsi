@@ -1,0 +1,199 @@
+{
+  "dataset_name": "philosophy epistemology argument knowledge",
+  "results": [
+    {
+      "article": {
+        "title": "Philosophy Enters the Optics Laboratory: Bell's Theorem and its First Experimental Tests (1965-1982)",
+        "abstract": "This paper deals with the ways that the issue of completing quantum mechanics was brought into laboratories and became a topic in mainstream quantum optics. It focuses on the period between 1965, when Bell published what now we call Bell's theorem, and 1982, when Aspect published the results of his experiments. I argue that what was considered good physics after Aspect's experiments was once considered by many a philosophical matter instead of a scientific one, and that the path from philosophy to physics required a change in the physics community's attitude about the status of the foundations of quantum mechanics.",
+        "full_text": null,
+        "doi": "10.1016/j.shpsb.2005.12.003",
+        "url": "http://arxiv.org/abs/physics/0508180v2",
+        "input_quality": null
+      },
+      "cells": [
+        {
+          "generator": "openrouter",
+          "mode": "raw",
+          "analysis": {
+            "text": "**Article Analysis**\n\n**Subject:** The historical trajectory of Bell’s theorem from a marginalized philosophical topic to a mainstream experimental research program in quantum optics.\n\n**Chronological Scope:** 1965 (publication of Bell’s theorem) to 1982 (publication of Alain Aspect’s experimental results).\n\n**Central Thesis:** The experimental validation of quantum entanglement (via Bell’s inequalities) required not only technical advances but a fundamental **sociological and epistemic shift** within the physics community. Specifically, the foundations of quantum mechanics transitioned from a domain dismissed as \"philosophy\" (metaphysics, interpretation) to one recognized as legitimate \"physics\" (empirically testable, fundable, publishable in mainstream journals).\n\n**Key Historical Claims:**\n1.  **Initial Marginalization (Pre-1970s):** Work on hidden variables and completeness (Einstein-Podolsky-Rosen, Bohm, Bell) was largely ignored or actively discouraged by mainstream physics institutions, viewed as interpretational rather than empirical.\n2.  **Catalyst for Change:** A confluence of factors—including the rise of quantum optics/laser technology, the advocacy of specific physicists (e.g., Clauser, Shimony, Holt, Aspect), and shifting institutional attitudes—reframed the measurement of Bell’s inequalities as a viable technical challenge.\n3.  **Legitimization via Experiment:** Aspect’s 1982 experiments served as the definitive *terminus ad quem*, demonstrating that the \"philosophical\" problem of non-locality yielded concrete, reproducible laboratory data, thereby cementing the foundations of quantum mechanics as a standard subfield of experimental physics.\n\n**Contribution to Scholarship:**\n*   **Historiography of Science:** Provides a case study for the \"philosophy-to-physics\" pipeline, illustrating how disciplinary boundaries police research agendas and how they are redrawn.\n*   **History of Quantum Mechanics:** Documents the specific mechanisms (funding, journal acceptance, doctoral supervision, technological readiness) that moved Bell’s theorem from the periphery to the center of quantum optics between the late 1960s and early 1980s.\n*   **Sociology of Scientific Knowledge:** Demonstrates that the acceptance of a theoretical framework (quantum non-locality) depended on a change in the *community's attitude* toward the status of foundational questions, not merely on the theoretical or experimental results themselves.",
+            "source_model": "nvidia/nemotron-3-ultra-550b-a55b:free",
+            "generated_at": "2026-08-24T13:17:39Z"
+          },
+          "metadata": {},
+          "judge_result": {
+            "criteria_source": "llm",
+            "winner": "raw",
+            "reasoning": "Analysis A scores higher overall in Historical Contextualization and Logical Coherence, which carry the largest weights (15 and 20 respectively). Combined weighted scores: A ≈ 8.1, B ≈ 7.5. Therefore Analysis A is the winner.",
+            "criteria": [
+              {
+                "name": "Logical Coherence",
+                "importance": 22.22,
+                "raw_score": 8.5,
+                "bsi_score": 8.0,
+                "reason": "Both analyses present a clear, stepwise narrative linking Bell’s theorem to experimental validation. Analysis A uses more explicit chronology; Analysis B uses a concise executive summary but maintains internal consistency."
+              },
+              {
+                "name": "Evidence Detail",
+                "importance": 27.77,
+                "raw_score": 7.0,
+                "bsi_score": 7.5,
+                "reason": "Analysis B cites specific authors (Clauser, Shimony, Holt, Aspect) and mentions letters, whereas Analysis A lists general claims without naming sources. B has a marginal edge in documented evidence."
+              },
+              {
+                "name": "Historical Contextualization",
+                "importance": 16.67,
+                "raw_score": 9.0,
+                "bsi_score": 7.0,
+                "reason": "Analysis A spends substantial space on sociological shifts, funding, and journal acceptance, providing richer context; B’s overview is brief and less detailed."
+              },
+              {
+                "name": "Mechanistic Explanation",
+                "importance": 11.11,
+                "raw_score": 7.5,
+                "bsi_score": 7.0,
+                "reason": "Both analyses mention the technical advances in quantum optics but Analysis A discusses how these advances enabled measurement of Bell inequalities, slightly better mechanistic depth."
+              },
+              {
+                "name": "Terminology Precision",
+                "importance": 5.56,
+                "raw_score": 8.0,
+                "bsi_score": 8.5,
+                "reason": "Analysis B uses specialized terms (e.g., “Legitimization,” “Boundary Object”) with accurate usage; Analysis A employs broader terms but is still precise."
+              },
+              {
+                "name": "Structural Clarity (Organization)",
+                "importance": 11.11,
+                "raw_score": 7.0,
+                "bsi_score": 8.0,
+                "reason": "Analysis B follows a structured executive summary and table format, making the argument easy to follow; Analysis A is narrative but less formally organized."
+              },
+              {
+                "name": "Meta‑Level Reflection",
+                "importance": 5.56,
+                "raw_score": 6.5,
+                "bsi_score": 7.0,
+                "reason": "Analysis B includes a brief meta‑analysis (BSI score, justification) while Analysis A does not explicitly address meta‑level critique."
+              }
+            ],
+            "total_scores": {
+              "raw": 7.75,
+              "bsi": 7.56
+            },
+            "bsi_capability_assessment": {
+              "relevance": "unknown",
+              "realization": "unknown",
+              "incremental_value": "unknown",
+              "reason": "Not evaluated during blind scoring; a BSI-specific capability assessment would disclose analysis identity."
+            },
+            "incremental_value": "unknown",
+            "scale": "0-10",
+            "weight_sum": 100.0
+          },
+          "scores": {
+            "RAW": 0.775,
+            "BSI": 0.756
+          },
+          "failed": false
+        },
+        {
+          "generator": "openrouter",
+          "mode": "bsi",
+          "analysis": {
+            "text": "# تحلیل مقاله: «فلسفه در آزمایشگاه اپتیک ورود می‌یابد: قضیه بل و نخستین آزمون‌های تجربی آن (۱۹۶۵-۱۹۸۲)»\n\n**مشخصات مقاله:**\n- **عنوان:** Philosophy Enters the Optics Laboratory: Bell's Theorem and its First Experimental Tests (1965-1982)\n- **نویسنده:** (مشخص نشده در ورودی، احتمالاً یک محقق تاریخ علم/فلسفه فیزیک)\n- **بازه زمانی تحت مطالعه:** ۱۹۶۵ (انتشار قضیه بل) تا ۱۹۸۲ (نتایج آزمایش‌های اسپکت)\n- **موضوع اصلی:** ترانزیسیون مباحث زیربنای مکانیک کوантوم از حاشیه (فلسفه/ماتافیزیک) به مرکز فیزیک اصلی‌رو (اپتیک کوантوم/فیزیک آزمایشگاهی)\n\n---\n\n## ۱. خلاصه اجرایی (Executive Summary) + Core Claim + امتیاز کلی BSI\n\n**Core Claim (ادعای مرکزی):**\nمقاله استدلال می‌کند که پذیرش «زیربنای مکانیک کوانتوم» به عنوان یک حوزهمشروع تحقیق فیزیکی (نه فلسفی)، نتیجه‌ِ پیشرفت تجربی محض نبود، بلکه منتج از یک **تحول اجتماعی-معرفی (Sociological-Epistemic Shift)** در κοινوت فیزیکدانان بود. قضیه بل (Bell's Theorem) به عنوان یک «ابزار مرزی» (Boundary Object) و آزمایش‌های اسپکت (Aspect Experiments) به عنوان «لنگر مادی» (Material Anchor) عمل کردند تا مرز بین «فلسفه» و «فیزیک» را بازتعریف کنند.\n\n**خلاصه اجرایی:**\nتحلیل حاضر نشان می‌دهد که نگارنده با رویکردی از نوع **تاریخ اجتماعی علم (Social History of Science)** و **مطالعات علم و تکنولوژی (STS)**، فرآیند «لژیتیم‌سازی» (Legitimization) را تشریح کرده است. مقاله از روایت‌های «вой내یستی» (Internalist) که پیشرفت علم را به كشف حقیقت می‌بخشند، جدا شده و نشان می‌دهد که چگونه یک مسئله «ماتافیزیکی» (انگیزه‌های مخفی EPR، ناهم‌محلی) با واسطه‌ی یکCertificate ریاضی (نابرابری‌های بل) به یک مسئله «آزمایشگاهی» (همبستگی فوتون‌ها) تبدیل شد. کلید تحلیل، شناسایی **مکانیسم‌های تبادل اعتبار** (Credibility Exchange) بین تئوری و تجربه در فضایی است که پارادایم غالب (کوپنهاگ) آن را «بی‌معنی» می‌دانست.\n\n**امتیاز کلی BSI (Overall BSI Score): ۸۷ / ۱۰۰**\n*استدلال: مقاله در انسجام منطقی، عمق تئوریک، و نوآوری هستوریوگرافیک امتیاز بالا دارد. کسر امتیاز به دلیل عدم ارائه داده‌های کمی دقیق در مورد «تغییر نگرش κοινوت» (به طور نسبی كيفي مانده) و ابهام در لایه متا درباره پیامدهای معاصر این تغییر است.*\n\n---\n\n## ۲. جدول ارزیابی معیارهای اصلی ۷گانه (Seven Core Criteria Evaluation)\n\n| # | معیار (Criterion) | تعریف در BSI | امتیاز (۰-۱۰۰) | استدلال ارزیابی (Evidence-Based Justification) |\n|:---:|:---|:---|:---:|:---|\n| **۱** | **انسجام منطقی (Logical Coherence)** | ساختار استدلالی، عدم تناقض درونی،IVALIDITY استنتاج | **۹۲** | استدلال از پیش‌فرض (فلسفه) → واسطه (قضیه بل) → میانساز تجربی (آزمایش‌ها) → نتیجه (فیزیک اصلی‌رو) به صورت خطی و بدون پرش منطقی پیش می‌رود. نقض‌های احتمالی (مانند نقشdioesence) مدیریت شده‌اند. |\n| **۲** | **برتری تجربی/شواهدی (Empirical Adequacy)** | استفاده از داده‌های اولین، آرشیو، مصاحبه‌ها، مستندات دوره | **۸۵** | استناد به مقالات بل، کلایزر (Clauser)، اسپکت (Aspect)، و نامه‌های riêngه قوی است. اما کمبود کمی در تحلیل شبکه‌های استنادی (Citation Network Analysis) یا آمار پذیرش مقاله‌ها در ژورنال‌ها حس می‌شود. |\n| **۳** | **عمق تئوریک (Theoretical Depth)** | درک سطوح لته‌ای، ارتباط با فلسفه",
+            "source_model": "nvidia/nemotron-3-ultra-550b-a55b:free",
+            "generated_at": "2026-08-24T13:19:38Z"
+          },
+          "metadata": {},
+          "judge_result": {
+            "criteria_source": "llm",
+            "winner": "raw",
+            "reasoning": "Analysis A scores higher overall in Historical Contextualization and Logical Coherence, which carry the largest weights (15 and 20 respectively). Combined weighted scores: A ≈ 8.1, B ≈ 7.5. Therefore Analysis A is the winner.",
+            "criteria": [
+              {
+                "name": "Logical Coherence",
+                "importance": 22.22,
+                "raw_score": 8.5,
+                "bsi_score": 8.0,
+                "reason": "Both analyses present a clear, stepwise narrative linking Bell’s theorem to experimental validation. Analysis A uses more explicit chronology; Analysis B uses a concise executive summary but maintains internal consistency."
+              },
+              {
+                "name": "Evidence Detail",
+                "importance": 27.77,
+                "raw_score": 7.0,
+                "bsi_score": 7.5,
+                "reason": "Analysis B cites specific authors (Clauser, Shimony, Holt, Aspect) and mentions letters, whereas Analysis A lists general claims without naming sources. B has a marginal edge in documented evidence."
+              },
+              {
+                "name": "Historical Contextualization",
+                "importance": 16.67,
+                "raw_score": 9.0,
+                "bsi_score": 7.0,
+                "reason": "Analysis A spends substantial space on sociological shifts, funding, and journal acceptance, providing richer context; B’s overview is brief and less detailed."
+              },
+              {
+                "name": "Mechanistic Explanation",
+                "importance": 11.11,
+                "raw_score": 7.5,
+                "bsi_score": 7.0,
+                "reason": "Both analyses mention the technical advances in quantum optics but Analysis A discusses how these advances enabled measurement of Bell inequalities, slightly better mechanistic depth."
+              },
+              {
+                "name": "Terminology Precision",
+                "importance": 5.56,
+                "raw_score": 8.0,
+                "bsi_score": 8.5,
+                "reason": "Analysis B uses specialized terms (e.g., “Legitimization,” “Boundary Object”) with accurate usage; Analysis A employs broader terms but is still precise."
+              },
+              {
+                "name": "Structural Clarity (Organization)",
+                "importance": 11.11,
+                "raw_score": 7.0,
+                "bsi_score": 8.0,
+                "reason": "Analysis B follows a structured executive summary and table format, making the argument easy to follow; Analysis A is narrative but less formally organized."
+              },
+              {
+                "name": "Meta‑Level Reflection",
+                "importance": 5.56,
+                "raw_score": 6.5,
+                "bsi_score": 7.0,
+                "reason": "Analysis B includes a brief meta‑analysis (BSI score, justification) while Analysis A does not explicitly address meta‑level critique."
+              }
+            ],
+            "total_scores": {
+              "raw": 7.75,
+              "bsi": 7.56
+            },
+            "bsi_capability_assessment": {
+              "relevance": "unknown",
+              "realization": "unknown",
+              "incremental_value": "unknown",
+              "reason": "Not evaluated during blind scoring; a BSI-specific capability assessment would disclose analysis identity."
+            },
+            "incremental_value": "unknown",
+            "scale": "0-10",
+            "weight_sum": 100.0
+          },
+          "scores": {
+            "RAW": 0.775,
+            "BSI": 0.756
+          },
+          "failed": false
+        }
+      ]
+    }
+  ],
+  "source_url": "https://github.com/ibstrade11-source/behmanesh-index-prompt/blob/main/MASTER_PROMPT_BSI_v3.4.2.md",
+  "run_metadata": {
+    "tool_version": "0.1.0",
+    "git_commit": "2a0eed8408670c11a2af47ea82640beba7f5a8e3",
+    "git_dirty": true,
+    "run_timestamp_utc": "2026-08-24T13:17:25Z",
+    "methodology_note": "Scores/judgements come from an independent LLM judge (see comparison/judge.py) instructed not to reuse BSI's own D1-D7/EIG vocabulary and to choose its own evaluation criteria. If no judge model is available or its response cannot be parsed, the run falls back to a simple keyword-presence heuristic -- the stored record's own 'criteria_source' field ('llm' vs 'heuristic_fallback') always says honestly which one produced a given result. Neither path is a validated measurement of analytical quality until checked against independent human judgement on a representative sample.",
+    "provider_name": null,
+    "model_version": null,
+    "temperature": null,
+    "max_tokens": null,
+    "prompt_version": "v3.4.2",
+    "framework_name": "bsi"
+  }
+}

@@ -1,0 +1,171 @@
+{
+  "dataset_name": "philosophy epistemology argument knowledge",
+  "results": [
+    {
+      "article": {
+        "title": "Philosophy Enters the Optics Laboratory: Bell's Theorem and its First Experimental Tests (1965-1982)",
+        "abstract": "This paper deals with the ways that the issue of completing quantum mechanics was brought into laboratories and became a topic in mainstream quantum optics. It focuses on the period between 1965, when Bell published what now we call Bell's theorem, and 1982, when Aspect published the results of his experiments. I argue that what was considered good physics after Aspect's experiments was once considered by many a philosophical matter instead of a scientific one, and that the path from philosophy to physics required a change in the physics community's attitude about the status of the foundations of quantum mechanics.",
+        "full_text": null,
+        "doi": "10.1016/j.shpsb.2005.12.003",
+        "url": "http://arxiv.org/abs/physics/0508180v2",
+        "input_quality": null
+      },
+      "cells": [
+        {
+          "generator": "openrouter",
+          "mode": "raw",
+          "analysis": {
+            "text": "**Analysis of \"Philosophy Enters the Optics Laboratory: Bell's Theorem and its First Experimental Tests (1965–1982)\"**\n\n**Source Metadata:** Title and Abstract only (Author unspecified in prompt, though this corresponds to a known 2007 article by **Olival Freire Jr.** published in *Studies in History and Philosophy of Modern Physics*).\n\n### Main Claims\n1.  **Historical Trajectory of Legitimacy:** The period 1965–1982 marks a critical epistemic shift where the foundations of quantum mechanics (specifically the measurement problem and local realism) transitioned from being widely dismissed as \"philosophy\" or \"metaphysics\" to being accepted as legitimate, mainstream experimental physics.\n2.  **Bell’s Theorem as Catalyst:** John Bell’s 1964/1965 theorem provided the crucial theoretical bridge, transforming interpretational debates (previously deemed experimentally sterile) into testable empirical predictions (Bell inequalities).\n3.  **Community Attitude Shift:** The acceptance of this research was not driven solely by theoretical progress or experimental ingenuity, but required a sociological and epistemological change within the physics community regarding the *status* of foundational inquiry.\n4.  **Aspect’s Experiments as Culmination:** Alain Aspect’s 1982 experiments functioned as the definitive \"boundary object,\" convincing the mainstream community that these questions yielded \"good physics\" (publishable in top journals, fundable, tenure-worthy) rather than mere philosophical speculation.\n\n### Contribution to Scholarship\n*   **Historiography of Quantum Foundations:** Challenges \"internalist\" narratives that portray the delay in testing Bell’s theorem (1965–1982) as purely a technical waiting game for laser technology. Instead, it demonstrates that *institutional resistance* and *disciplinary boundary-work* (physics vs. philosophy) were primary causes of the delay.\n*   **Sociology of Scientific Knowledge (SSK) / Science Studies:** Provides a detailed case study of **boundary-work** (Gieryn), illustrating how the label \"philosophy\" was used rhetorically to marginalize specific research programs (e.g., Clauser, Freedman, Aspect) and how that label was eventually shed.\n*   **History of Quantum Optics:** Documents the specific institutional and career risks faced by early experimenters (Clauser, Holt, Fry, Pipkin, Aspect) and traces how quantum optics evolved from a spectroscopy tool into the primary arena for foundational testing.\n*   **Reassessment of \"Philosophy\" in Physics:** Argues that philosophical motivation was not a contaminant but a necessary heuristic driver for the physicists who eventually established the field of experimental quantum foundations.\n\n### Methodological Approach (Inferred from Abstract)\n*   **Periodization:** Defines a clear historical epoch (1965–1982) bookended by theoretical proposal and experimental confirmation.\n*   **Focus on \"Attitude\" and \"Status\":** Prioritizes the analysis of community norms, funding decisions, publication venues, and career trajectories over purely technical apparatus description.\n\n### Significance\nThe article is a seminal text in the **history of quantum foundations**. It empirically refutes the myth that physics naturally \"self-corrects\" toward truth regardless of sociology, showing instead that the experimental verification of non-locality required a deliberate, difficult struggle to redefine the legitimate scope of physics as a discipline.",
+            "source_model": "nvidia/nemotron-3-ultra-550b-a55b:free",
+            "generated_at": "2026-08-24T08:28:23Z"
+          },
+          "metadata": {},
+          "judge_result": {
+            "criteria_source": "llm",
+            "winner": "bsi",
+            "reasoning": "While RAW provides a solid historical overview, the BSI assessment applies a rigorous epistemic robustness framework, offering deeper insights into the article’s methodological strengths and limitations. Therefore BSI is the preferred analysis.",
+            "criteria": [
+              {
+                "name": "Historical Accuracy",
+                "importance": 25.0,
+                "raw_score": 7.0,
+                "bsi_score": 9.0,
+                "reason": "The RAW analysis correctly identifies key dates and actors but lacks explicit evidence citations, whereas the BSI analysis explicitly references the 1964/1965 theorem, 1972 Clauser–Holt experiment, and 1982 Aspect tests, giving it a higher score."
+              },
+              {
+                "name": "Sociological Insight",
+                "importance": 20.0,
+                "raw_score": 8.0,
+                "bsi_score": 9.0,
+                "reason": "Both analyses discuss the shift from philosophy to mainstream physics, yet the BSI version frames it as a boundary‑work process with explicit mention of institutional resistance, giving a slight edge."
+              },
+              {
+                "name": "Empirical Evidence",
+                "importance": 20.0,
+                "raw_score": 6.0,
+                "bsi_score": 8.0,
+                "reason": "RAW relies mainly on narrative claims; BSI lists specific experimental milestones (Clauser, Aspect, etc.) and the availability of laser technology, thus scoring higher."
+              },
+              {
+                "name": "Narrative Clarity",
+                "importance": 20.0,
+                "raw_score": 8.0,
+                "bsi_score": 8.0,
+                "reason": "Both summaries are concise and logically structured; scores are equal."
+              },
+              {
+                "name": "Theoretical Contribution",
+                "importance": 15.0,
+                "raw_score": 7.0,
+                "bsi_score": 9.0,
+                "reason": "BSI explicitly ties the historical case to concepts of epistemic robustness and boundary‑work, framing the article as a methodological contribution; RAW treats it as descriptive."
+              }
+            ],
+            "total_scores": {
+              "raw": 7.2,
+              "bsi": 8.6
+            },
+            "bsi_capability_assessment": {
+              "relevance": "high",
+              "realization": "medium",
+              "incremental_value": "medium",
+              "reason": "The BSI analysis uses the full framework to produce a structured evaluation that goes beyond the RAW narrative, yet some layers (e.g., EIG diagnostics) are not fully developed, limiting realization."
+            },
+            "incremental_value": "medium",
+            "scale": "0-10",
+            "weight_sum": 100.0
+          },
+          "scores": {
+            "RAW": 0.72,
+            "BSI": 0.86
+          },
+          "failed": false
+        },
+        {
+          "generator": "openrouter",
+          "mode": "bsi",
+          "analysis": {
+            "text": "# تحلیل عمیق شاخص بهمنش (BSI v3.4.2)\n**مقاله مورد تحلیل:** «فلسفه در آزمایشگاه اپتیک راه می‌یابد: تئورم بل و اولین تست‌های تجربی آن (۱۹۶۵-۱۹۸۲)»  \n**نویسنده/منبع:** (بر اساس چکیده ارائه‌شده)  \n**تاریخ تحلیل:** ۲۶ ژوئن ۲۰۲۶  \n**نسخه SOP:** v3.4.2 | **نسخه Ontology:** BIO v1.0  \n\n---\n\n## ۱. خلاصه اجرایی (Executive Summary) + Core Claim + امتیاز کلی BSI\n\n**خلاصه اجرایی:**  \nمقاله حاضر به بررسی گذار معرفت‌شناختی-اجتماعیِ تئورم بل (Bell’s Theorem) از حاشیه «فلسفهِísica» و «پیش‌فرض‌های متافیزیکی» به مرکز «فیزیک تجربی مین‌استریم» و «اپتیک کوانتومی» در بازه زمانی ۱۹۶۵ تا ۱۹۸۲ می‌پردازد. نگارنده استدلال می‌کند که این گذار نه تنها نتیجه پیشرفت تکنولوژیک (مانند لیزر و واحدهای فوتون منفرد) بوده، بلکه نیازمند تغییر بنیادین در **استوارة اجتماعی-認知 (Socio-epistemic stance)** جامعه فیزیسین‌ها نسبت به «پایه‌های کوانتوم» بوده است. مقاله با رویکردی تاریخی-اجتماعی (Historical Sociology of Science)، مکانیسم‌های اعتبارسازی (Validation)، کار مرزی (Boundary-work) وnegoسیasyon قدرت معرفت‌شناختی را که منجر به «فیزیک‌شدن» یک مسئله فلسفی شد، تشریح می‌کند.\n\n**Core Claim (ادعای مرکزی):**  \n> «تغییرStatus مسئله پایه‌های کوانتوم از «فلسفه/متافیزیک» به «فیزیک تجربی معتبر» در بازه ۱۹۶۵-۱۹۸۲، نتیجه محض تجمع شواهد تجربی نبود، بلکه پیریش یک فرآیند اجتماعی-معرفتی پیچیده بود که در آن بازیگران کلیدی (کلازر، اسپکت، بل)، امکانات تکنولوژیک نوظهور، و تغییر استوارة جامعه علمی نسبت به لزوم تست تجربیِ تفسیرهای کوانتوم، در یک حلقه بازخورد متقابل (Co-evolution) هم‌سازگاری یافتند.»\n\n**امتیاز کلی BSI:** **۸.۷ از ۱۰**  \n*استدلال امتیازدهی: مقاله در هدف‌گذاری شکاف معرفت‌شناختی (Epistemic Gap Targeting) امتیاز بسیار بالایی کسب می‌کند با 드러ن کردن مکانیسم‌های پنهان یک گذار پارادایمک که معمولاً به صورت «پیشرفت خطی علم» راوی می‌شود. ترکیب‌شناسی مورخانه-اجتماعی-فنی قوی است. ضریب کم*« relacionado با کاربرد عملی مستقیم (Practical Relevance) در حل مسائل کنونی، مانع از رسیدن به ۹ می‌شود.*\n\n---\n\n## ۲. جدول ارزیابی معیارهای اصلی ۷گانه (Main Criteria Evaluation)\n\n| کد | معیار اصلی (Main Criterion) | وزن در BSI | امتیاز (از ۱۰) | امتیاز وزنی | تحلیل و استدلال تفصیلی |\n|:---:|:---|:---:|:---:|:---:|:---|\n| **C1** | **انسجام منطقی (Logical Coherence)** | ۱۵٪ | ۹.۵ | ۱.۴۲۵ | استدلال مقاله از چکیده، ساختار استنتاجی قوی (Premise: وضعیت ۱۹۶۵ -> Mechanism: تغییر استوارة/تکنولوژی -> Conclusion: وضعیت ۱۹۸۲) دارد. عدم تناقض در تعریف «فلسفه» در برابر «فیزیک» به عنوان متغیرهای بستگی‌پذیر به جامعه علمی، نه مفاهیم ثابت، انسجام را تضمین می‌کند. |\n| **C2** | **پایه‌گذاری تجربی (Empirical Grounding)** | ۱۵٪ | ۹.۰ | ۱.۳۵۰ | بر اساس بایگانی‌های تاریخی، مراسلات بل، کلازر، اسپکت، تدوین‌های کنفرانس‌ها و بودجه‌بندی‌ها. چکیده به صراحت به نتایج اسپکت (۱۹۸۲) به عنوان نقطه پایانی تجربی اشاره دارد. داده‌های كيفي (Self-reports فیزیسین‌ها) به عنوان داده‌های اصلی مورد استفاده قرار گرفته‌اند. |\n| **C3** | **نوآوری مفهومی (Conceptual Novelty)** | ۲۰٪ | ۹.۰ | ۱",
+            "source_model": "nvidia/nemotron-3-ultra-550b-a55b:free",
+            "generated_at": "2026-08-24T08:29:00Z"
+          },
+          "metadata": {},
+          "judge_result": {
+            "criteria_source": "llm",
+            "winner": "bsi",
+            "reasoning": "While RAW provides a solid historical overview, the BSI assessment applies a rigorous epistemic robustness framework, offering deeper insights into the article’s methodological strengths and limitations. Therefore BSI is the preferred analysis.",
+            "criteria": [
+              {
+                "name": "Historical Accuracy",
+                "importance": 25.0,
+                "raw_score": 7.0,
+                "bsi_score": 9.0,
+                "reason": "The RAW analysis correctly identifies key dates and actors but lacks explicit evidence citations, whereas the BSI analysis explicitly references the 1964/1965 theorem, 1972 Clauser–Holt experiment, and 1982 Aspect tests, giving it a higher score."
+              },
+              {
+                "name": "Sociological Insight",
+                "importance": 20.0,
+                "raw_score": 8.0,
+                "bsi_score": 9.0,
+                "reason": "Both analyses discuss the shift from philosophy to mainstream physics, yet the BSI version frames it as a boundary‑work process with explicit mention of institutional resistance, giving a slight edge."
+              },
+              {
+                "name": "Empirical Evidence",
+                "importance": 20.0,
+                "raw_score": 6.0,
+                "bsi_score": 8.0,
+                "reason": "RAW relies mainly on narrative claims; BSI lists specific experimental milestones (Clauser, Aspect, etc.) and the availability of laser technology, thus scoring higher."
+              },
+              {
+                "name": "Narrative Clarity",
+                "importance": 20.0,
+                "raw_score": 8.0,
+                "bsi_score": 8.0,
+                "reason": "Both summaries are concise and logically structured; scores are equal."
+              },
+              {
+                "name": "Theoretical Contribution",
+                "importance": 15.0,
+                "raw_score": 7.0,
+                "bsi_score": 9.0,
+                "reason": "BSI explicitly ties the historical case to concepts of epistemic robustness and boundary‑work, framing the article as a methodological contribution; RAW treats it as descriptive."
+              }
+            ],
+            "total_scores": {
+              "raw": 7.2,
+              "bsi": 8.6
+            },
+            "bsi_capability_assessment": {
+              "relevance": "high",
+              "realization": "medium",
+              "incremental_value": "medium",
+              "reason": "The BSI analysis uses the full framework to produce a structured evaluation that goes beyond the RAW narrative, yet some layers (e.g., EIG diagnostics) are not fully developed, limiting realization."
+            },
+            "incremental_value": "medium",
+            "scale": "0-10",
+            "weight_sum": 100.0
+          },
+          "scores": {
+            "RAW": 0.72,
+            "BSI": 0.86
+          },
+          "failed": false
+        }
+      ]
+    }
+  ],
+  "source_url": "https://github.com/ibstrade11-source/behmanesh-index-prompt/blob/main/MASTER_PROMPT_BSI_v3.4.2.md",
+  "run_metadata": {
+    "tool_version": "0.1.0",
+    "git_commit": "2a0eed8408670c11a2af47ea82640beba7f5a8e3",
+    "git_dirty": true,
+    "run_timestamp_utc": "2026-08-24T08:27:17Z",
+    "methodology_note": "Scores/judgements come from an independent LLM judge (see comparison/judge.py) instructed not to reuse BSI's own D1-D7/EIG vocabulary and to choose its own evaluation criteria. If no judge model is available or its response cannot be parsed, the run falls back to a simple keyword-presence heuristic -- the stored record's own 'criteria_source' field ('llm' vs 'heuristic_fallback') always says honestly which one produced a given result. Neither path is a validated measurement of analytical quality until checked against independent human judgement on a representative sample.",
+    "provider_name": null,
+    "model_version": null,
+    "temperature": null,
+    "max_tokens": null,
+    "prompt_version": "v3.4.2",
+    "framework_name": "bsi"
+  }
+}

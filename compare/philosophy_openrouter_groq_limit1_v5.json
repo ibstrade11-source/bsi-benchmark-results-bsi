@@ -1,0 +1,185 @@
+{
+  "dataset_name": "philosophy epistemology argument knowledge",
+  "results": [
+    {
+      "article": {
+        "title": "Philosophy Enters the Optics Laboratory: Bell's Theorem and its First Experimental Tests (1965-1982)",
+        "abstract": "This paper deals with the ways that the issue of completing quantum mechanics was brought into laboratories and became a topic in mainstream quantum optics. It focuses on the period between 1965, when Bell published what now we call Bell's theorem, and 1982, when Aspect published the results of his experiments. I argue that what was considered good physics after Aspect's experiments was once considered by many a philosophical matter instead of a scientific one, and that the path from philosophy to physics required a change in the physics community's attitude about the status of the foundations of quantum mechanics.",
+        "full_text": null,
+        "doi": "10.1016/j.shpsb.2005.12.003",
+        "url": "http://arxiv.org/abs/physics/0508180v2",
+        "input_quality": null
+      },
+      "cells": [
+        {
+          "generator": "openrouter",
+          "mode": "raw",
+          "analysis": {
+            "text": "**Subject and Scope**\nThe article examines the historical trajectory of quantum foundations—specifically the experimental testing of Bell’s theorem—from its publication in 1965 through Alain Aspect’s landmark experiments in 1982. It situates this development within the sub-field of quantum optics.\n\n**Main Claims**\n1.  **Epistemic Reclassification:** Research now recognized as standard \"good physics\" (experimental tests of nonlocality/entanglement) was widely dismissed by the physics community prior to the early 1980s as \"philosophy\" or metaphysics, rather than legitimate scientific inquiry.\n2.  **Sociological Prerequisite:** The migration of these questions from philosophical debate into the optics laboratory was not driven solely by theoretical advances (Bell’s theorem existed since 1964), but required a prior shift in the **physics community’s attitude** regarding the professional legitimacy and scientific status of foundational research.\n\n**Contribution**\nThe paper contributes to the history and sociology of physics by documenting the specific mechanisms—professional, institutional, and rhetorical—by which a marginalized \"philosophical\" problem was reconstructed as a tractable experimental program. It demonstrates that the boundary between \"philosophy\" and \"physics\" in this era was contingent on community consensus rather than intrinsic methodological differences.",
+            "source_model": "nvidia/nemotron-3-ultra-550b-a55b:free",
+            "generated_at": "2026-08-24T18:49:06Z"
+          },
+          "metadata": {},
+          "judge_result": {
+            "criteria_source": "llm",
+            "winner": "bsi",
+            "reasoning": "On aggregate, the BSI analysis achieves higher scores in key dimensions—especially Analytical Structure and Novel Insight—while maintaining comparable strengths in other areas, leading to a decisive advantage over the RAW analysis.",
+            "criteria": [
+              {
+                "name": "Clarity of Argument",
+                "importance": 25.0,
+                "raw_score": 8.0,
+                "bsi_score": 8.5,
+                "reason": "Both analyses articulate the central thesis clearly, but the BSI version provides slightly more detailed exposition of causal links, earning a marginally higher score."
+              },
+              {
+                "name": "Historical Depth",
+                "importance": 20.0,
+                "raw_score": 9.0,
+                "bsi_score": 8.0,
+                "reason": "The RAW analysis covers a broader temporal range and cites more primary sources, whereas the BSI analysis focuses narrowly on key experiments."
+              },
+              {
+                "name": "Evidence Use",
+                "importance": 15.0,
+                "raw_score": 7.0,
+                "bsi_score": 8.0,
+                "reason": "BSI incorporates more explicit evidence mapping (e.g., methodological references), improving the evidence quality score."
+              },
+              {
+                "name": "Analytical Structure",
+                "importance": 20.0,
+                "raw_score": 6.0,
+                "bsi_score": 9.0,
+                "reason": "BSI demonstrates a multi-layer analytical framework (manifest, latent, meta), whereas RAW follows a linear narrative, justifying the weight."
+              },
+              {
+                "name": "Interdisciplinary Integration",
+                "importance": 10.0,
+                "raw_score": 7.0,
+                "bsi_score": 7.0,
+                "reason": "Both analyses acknowledge philosophy, physics, and history; weight reflects that interdisciplinary breadth is important but secondary."
+              },
+              {
+                "name": "Novel Insight",
+                "importance": 10.0,
+                "raw_score": 7.0,
+                "bsi_score": 8.5,
+                "reason": "BSI explicitly frames the transition as a socio-technical process, offering a novel interpretive lens beyond the RAW historical account."
+              }
+            ],
+            "total_scores": {
+              "raw": 7.45,
+              "bsi": 8.28
+            },
+            "bsi_capability_assessment": {
+              "relevance": "high",
+              "realization": "high",
+              "incremental_value": "high",
+              "reason": "The BSI analysis directly addresses the article’s subject, employs its full methodological apparatus, and delivers additional insights (e.g., multi-layer reasoning) not present in the RAW version."
+            },
+            "incremental_value": "high",
+            "scale": "0-10",
+            "weight_sum": 100.0
+          },
+          "scores": {
+            "RAW": 0.745,
+            "BSI": 0.828
+          },
+          "failed": false
+        },
+        {
+          "generator": "openrouter",
+          "mode": "bsi",
+          "analysis": {
+            "text": "# تحلیل مقاله: «فلسفه به آزمایشگاه نوری می‌رود: teorema بل و اولین آزمایش‌های آن (۱۹۶۵-۱۹۸۲)»\n**مشخصات مقاله:**\n- **عنوان:** Philosophy Enters the Optics Laboratory: Bell's Theorem and its First Experimental Tests (1965-1982)\n- **نویسنده:** (نام نویسنده در ورودی ذکر نشده، متداولاً متناسب با عنوان مرجع تاریخی معروف است)\n- **نوع محتوا:** مقاله تاریخ و فلسفه علم (History & Philosophy of Science - HPS)\n- **بازه زمانی پوشش‌داده‌شده:** ۱۹۶۵ (انتشار عدم تساوی بل) تا ۱۹۸۲ (آزمایش‌های آسپکت)\n- **ادعای مرکزی (Core Claim):** трансفرماسیون مسئله «تکمیل مکانیک کوانتوم» از یک مباحثه فلسفی/مтаفیزیقی به یک برنامه تجريبی در نوری کوانتوم (Quantum Optics) مستلزم تغییر actitud جامعه فیزیکدانان نسبت به جایگاه بنیادین‌های مکانیک کوانتوم بوده است؛ یعنی تعریف «فیزیک خوب» بازتعریف شده است.\n\n---\n\n### ۱. خلاصه اجرایی (Executive Summary) + Core Claim + امتیاز کلی BSI\n\n**خلاصه اجرایی:**\nمقاله حاضر یک تحلیل تاریخی-فلسفی دقیق از فرآیند «فیزیک‌شدن» (Physicization) پایه‌های مکانیک کوانتوم در بازه ۱۹۶۵ تا ۱۹۸۲ ارائه می‌دهد. نویسنده استدلال می‌کند که تئورم بل (Bell's Theorem) در لحظه تولد (۱۹۶۵) در حاشیه علم قرار داشت و توسط اکثریت فیزیکدانان به عنوان یک مسئله فلسفی، متافیزیکی یا حتی «خارج از فیزیک» تلقی می‌شد. از طریق ردیابی تلاش‌های جون کلایزر (John Clauser)، استوارت فریدون (Stuart Freedman) و در نهایت آلن آسپکت (Alain Aspect)، مقاله نشان می‌دهد که چگونه Совмещення پیشرفت‌های تکنولوژیک در نوری کوانتوم (مانند لیزرها، شناساگرهای تک فوتونی، سوئیچ‌های سریع) با تغییر.Parsegenشناسانه جامعه علمی (از نارضایتی بوم به پذیرش اصلی‌گرایی)، مرز بین فلسفه و فیزیک را محو کرد. نکته کلیدی این است که این انتقال یک رویداد episدیمیولوژیک محض نبود، بلکه یک فرآیند اجتماعی-تکنولوژیک-مفهومی پیچیده بود که در آن «ابزار» (آزمایش) و «انگار» (Attitude) به صورت همزمان تکامل یافتند.\n\n**Core Claim (ادعای مرکزی):**\n> **«مرز بین فلسفه و فیزیک در بنیادهای مکانیک کوانتوم، تغییر نکرد بلکه جابه‌جا شد؛ چرا که جامعه فیزیکدانان تعریف «فیزیک مشروع» را بازتعریف کرد تا شامل آزمون تجربی متغیرهای پنهان (Hidden Variables) و عدم محلی بودن (Nonlocality) شود، و این بازتعریف توسط اجزای مادی (تکنولوژی نوری) و اجزای اجتماعی (شبکه‌های همکاری، حمایت مالی، اعتبار علمی) middling هماهنگ گردید.»**\n\n**امتیاز کلی BSI (BSI Overall Score): ۸.۹ / ۱۰**\n*استدلال: مقاله در تمام معیارهای ۷گانه عملکرد بالا دارد، به خصوص در «عمق معرفت‌شناختی»، «انسجام منطقی» و «نوآوری مفاهیمی» (بازتعریف مرز فلسفه/فیزیک). کسر ۰.۱ به دلیل عدم پرداختن کامل به مناقشات معاصر در متافیزیک کوانتوم (مانند تفسیرهای QBism یا Collapse Models) در بخش نتیجه‌گیری است، اگرچه خارج از دامنه تاریخی مقاله",
+            "source_model": "nvidia/nemotron-3-ultra-550b-a55b:free",
+            "generated_at": "2026-08-24T18:50:34Z"
+          },
+          "metadata": {},
+          "judge_result": {
+            "criteria_source": "llm",
+            "winner": "bsi",
+            "reasoning": "On aggregate, the BSI analysis achieves higher scores in key dimensions—especially Analytical Structure and Novel Insight—while maintaining comparable strengths in other areas, leading to a decisive advantage over the RAW analysis.",
+            "criteria": [
+              {
+                "name": "Clarity of Argument",
+                "importance": 25.0,
+                "raw_score": 8.0,
+                "bsi_score": 8.5,
+                "reason": "Both analyses articulate the central thesis clearly, but the BSI version provides slightly more detailed exposition of causal links, earning a marginally higher score."
+              },
+              {
+                "name": "Historical Depth",
+                "importance": 20.0,
+                "raw_score": 9.0,
+                "bsi_score": 8.0,
+                "reason": "The RAW analysis covers a broader temporal range and cites more primary sources, whereas the BSI analysis focuses narrowly on key experiments."
+              },
+              {
+                "name": "Evidence Use",
+                "importance": 15.0,
+                "raw_score": 7.0,
+                "bsi_score": 8.0,
+                "reason": "BSI incorporates more explicit evidence mapping (e.g., methodological references), improving the evidence quality score."
+              },
+              {
+                "name": "Analytical Structure",
+                "importance": 20.0,
+                "raw_score": 6.0,
+                "bsi_score": 9.0,
+                "reason": "BSI demonstrates a multi-layer analytical framework (manifest, latent, meta), whereas RAW follows a linear narrative, justifying the weight."
+              },
+              {
+                "name": "Interdisciplinary Integration",
+                "importance": 10.0,
+                "raw_score": 7.0,
+                "bsi_score": 7.0,
+                "reason": "Both analyses acknowledge philosophy, physics, and history; weight reflects that interdisciplinary breadth is important but secondary."
+              },
+              {
+                "name": "Novel Insight",
+                "importance": 10.0,
+                "raw_score": 7.0,
+                "bsi_score": 8.5,
+                "reason": "BSI explicitly frames the transition as a socio-technical process, offering a novel interpretive lens beyond the RAW historical account."
+              }
+            ],
+            "total_scores": {
+              "raw": 7.45,
+              "bsi": 8.28
+            },
+            "bsi_capability_assessment": {
+              "relevance": "high",
+              "realization": "high",
+              "incremental_value": "high",
+              "reason": "The BSI analysis directly addresses the article’s subject, employs its full methodological apparatus, and delivers additional insights (e.g., multi-layer reasoning) not present in the RAW version."
+            },
+            "incremental_value": "high",
+            "scale": "0-10",
+            "weight_sum": 100.0
+          },
+          "scores": {
+            "RAW": 0.745,
+            "BSI": 0.828
+          },
+          "failed": false
+        }
+      ]
+    }
+  ],
+  "source_url": "https://github.com/ibstrade11-source/behmanesh-index-prompt/blob/main/MASTER_PROMPT_BSI_v3.4.2.md",
+  "run_metadata": {
+    "tool_version": "0.1.0",
+    "git_commit": "2a0eed8408670c11a2af47ea82640beba7f5a8e3",
+    "git_dirty": true,
+    "run_timestamp_utc": "2026-08-24T18:48:25Z",
+    "methodology_note": "Scores/judgements come from an independent LLM judge (see comparison/judge.py) instructed not to reuse BSI's own D1-D7/EIG vocabulary and to choose its own evaluation criteria. If no judge model is available or its response cannot be parsed, the run falls back to a simple keyword-presence heuristic -- the stored record's own 'criteria_source' field ('llm' vs 'heuristic_fallback') always says honestly which one produced a given result. Neither path is a validated measurement of analytical quality until checked against independent human judgement on a representative sample.",
+    "provider_name": null,
+    "model_version": null,
+    "temperature": null,
+    "max_tokens": null,
+    "prompt_version": "v3.4.2",
+    "framework_name": "bsi"
+  }
+}
