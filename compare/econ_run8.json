@@ -1,0 +1,258 @@
+{
+  "benchmark_status": "benchmarkable",
+  "run_timestamp_utc": "2026-09-08T19:05:28Z",
+  "git_commit": "4611b84b11c40496a9a55179000750ad1c70c7f4",
+  "git_dirty": true,
+  "framework_name": "bsi",
+  "tool_version": "0.1.0",
+  "provider": "arxiv",
+  "query": "economics",
+  "limit": 1,
+  "generator": "groq",
+  "judge": "openrouter",
+  "bsi_prompt_file": "MASTER_PROMPT_BSI_v3.4.2.md",
+  "fetch_full_text": true,
+  "article": {
+    "title": "Evaluating the Economic Feasibility of Labor Replacement Through Robotics and Automation in Qatar",
+    "doi": "10.9790/5933-1604035664",
+    "url": "http://arxiv.org/abs/2509.10152v1",
+    "full_text_chars": 41090,
+    "full_text_source": "provider_fetch:arxiv"
+  },
+  "articles": [
+    {
+      "title": "Evaluating the Economic Feasibility of Labor Replacement Through Robotics and Automation in Qatar",
+      "doi": "10.9790/5933-1604035664",
+      "cells": [
+        {
+          "generator": "groq",
+          "mode": "raw",
+          "status": "valid",
+          "analysis": {
+            "text": "**Main Claims**\n\n1. **Robotics can improve Qatar’s productivity** – A capital‑augmenting Cobb‑Douglas model shows that a 5 % increase in robotics capital yields about a 1.5 % rise in aggregate GDP (baseline) and up to 2.5 % under a high‑adoption scenario.  \n2. **Low‑skilled sectors face displacement** – The model projects that 3–5 % of the workforce in construction, manufacturing and logistics could be displaced, with construction experiencing the highest risk (≈4.8 %).  \n3. **Job creation offsets losses** – Maintenance and AI‑oversight roles could absorb roughly 40 % of displaced jobs by 2030, but overall net job creation is modest.  \n4. **Cultural and policy barriers matter** – Surveys show 68 % of Qatari households resist robotic domestic workers; last‑mile delivery adoption is capped at ≈32 % due to trust and urban‑navigation concerns.  \n5. **Policy implications** – Phased, sector‑specific implementation, reskilling of ≈850 technicians by 2027, and wage‑stabilisation measures are needed to ensure inclusive growth.\n\n**Methodological Contributions**\n\n- **Qatar‑specific calibration** of a production‑function‑based automation feasibility framework, using local labor‑force statistics, wage data, robotics import flows, and a reduced substitution elasticity (σ = 0.65) to reflect labor‑market rigidity.  \n- **Scenario analysis** (optimistic, status‑quo, pessimistic) extended to 2030, aligned with Vision 2030 timelines.  \n- **Sensitivity testing** on key parameters (robotics cost, substitution elasticity, TFP adjustment) to assess robustness of outcomes.  \n- **Sector disaggregation** (construction sub‑sectors, logistics task‑level automation potential) to highlight heterogeneity within labor‑intensive industries.\n\n**Contribution to the Literature**\n\n- Provides the first quantitative, country‑specific assessment of robotics adoption in a resource‑rich, expatriate‑heavy economy.  \n- Extends the Graetz‑Michaels framework by incorporating a robotics productivity coefficient (θ) and explicitly modeling cultural resistance in the adoption curve.  \n- Offers actionable policy insights for Qatar, bridging the gap between global automation studies and local socio‑economic constraints.\n\n**Limitations (as reported)**\n\n- Robotics capital data inferred from import statistics, lacking granular deployment information.  \n- Labor displacement estimates assume perfect substitution within the defined elasticity, which may over‑ or under‑state real‑world effects.  \n- Cultural resistance quantified from a limited survey (400 households), potentially not fully representative.\n\nOverall, the article argues that while robotics can deliver measurable economic benefits in Qatar, success depends on careful sector‑level rollout, workforce retraining, and addressing cultural barriers.",
+            "source_model": "openai/gpt-oss-20b",
+            "generated_at": "2026-09-08T19:05:16Z",
+            "usage": {
+              "queue_time": 0.401280152,
+              "prompt_tokens": 4361,
+              "prompt_time": 0.258448502,
+              "completion_tokens": 600,
+              "completion_time": 0.638245411,
+              "total_tokens": 4961,
+              "total_time": 0.896693913,
+              "completion_tokens_details": {
+                "reasoning_tokens": 6
+              }
+            },
+            "finish_reason": "stop",
+            "continuation_rounds": 0
+          },
+          "metadata": {
+            "execution_time_seconds": 5.287,
+            "usage": {
+              "queue_time": 0.401280152,
+              "prompt_tokens": 4361,
+              "prompt_time": 0.258448502,
+              "completion_tokens": 600,
+              "completion_time": 0.638245411,
+              "total_tokens": 4961,
+              "total_time": 0.896693913,
+              "completion_tokens_details": {
+                "reasoning_tokens": 6
+              }
+            }
+          },
+          "failed": false
+        },
+        {
+          "generator": "groq",
+          "mode": "bsi",
+          "status": "valid",
+          "analysis": {
+            "text": "**تحلیل ارزیابی شاخص بهمنش نسخه 3.۴.۲**  \n**عنوان تحلیل:** «ارزیابی امکان‌سنجی اقتصادی جایگزینی نیروی کار توسط روباتیک و اتوماسیون در قطر» – مقاله‌ای منتشر شده در IOSR Journal of Economics and Finance، ژوئیه–اگست ۲۰۲۵، DOI 10.9790/5933‑1604035664.  \n\n---\n\n## ۱. خلاصه اجرایی (Executive Summary) + ادعا اصلی (Core Claim) + امتیاز کلی BSI  \n\n| بخش | توضیحات |\n|------|--------|\n| **خلاصه اجرایی** | این پژوهش با بهره‌گیری از مدل تولید کوب–دگلاس (Cobb‑Douglas) و داده‌های تخصصی قطر، سه سناریو (بهینه، وضعیت‌سابقه و نامطلوب) تا سال ۲۰۳۰ را شبیه‌سازی کرد. نتایج نشان دادند که افزودن ۵ ٪ سرمایه روباتیک می‌تواند به‌صورت متوسط ۱.۵ ٪ رشد سالانه‌ی تولید ناخالص ملی (GDP) منجر شود؛ در حالی که بیکاری نیروی کار کم‌مهارت در بخش‌های مختلف از ۳ ٪ تا ۴.۸ ٪ افزایش می‌یابد. بخش ساخت و ساز بیشترین خطر جایگزینی را (۴.۸ ٪) دارد، در حالی که بخش‌های خدمات و فناوری اطلاعات کمتر. عوامل فرهنگی (نسبت ۶۸ ٪ مقاومت در برابر روبات‌های خانگی) و زیرساخت‌های محدود (پذیرش RFID 68 ٪) محدودیت‌های مهمی را ایجاد کرده‌اند. در عین حال، ایجاد شغل‌های تازه در نگهداری و نظارت بر هوش مصنوعی می‌تواند تا ۴۰ ٪ از خسارات ناشی از جابجایی نیروی کار را جبران کند. به این ترتیب، مقاله استدلال می‌کند که «ربوتیک و اتوماسیون در قطر امکان‌سنجی اقتصادی دارند اما نیازمند برنامه‌ریزی فازبندی، سیاست‌های حمایتی و مهارت‌سازی نیروی کار است». |\n| **ادعا اصلی (Core Claim)** | روباتیک و اتوماسیون در قطر قابلیت‌سنجی اقتصادی دارند، اما بهره‌برداری موفق آنها به برنامه‌ریزی فازبندی، تنظیم سیاست‌های حمایتی و مهارت‌سازی نیروی کار بستگی دارد. |\n| **امتیاز کلی BSI** | **78/100** – بر اساس معیارهای اصلی ۷‑گانه (جایگزینی، اقتصادی‌سنجی، فرهنگی، زیرساختی، انسانی، قانونی، پایداری). مقاله در حوزه‌های اقتصادی و انسانی قوی است، اما در زمینه‌های فرهنگی و زیرساختی و تعاملات قانونی محدودیت دارد. |\n\n---\n\n## ۲. جدول ارزیابی معیارهای اصلی ۷‑گانه  \n\n| معیار | شرح | نمره (0‑15) | توضیح |\n|-------|-----|-------------|-------|\n| **۱. جایگزینی (Substitution)** | میزان جابجایی نیروی کار توسط روباتیک | 12 | شبیه‌سازی نشان داد که جایگزینی در بخش‌های مختلف ۳–۵ ٪ است؛ در بخش ساخت ۴.۸ ٪. |\n| **۲. اقتصادی‌سنجی (Economic Feasibility)** | بازگشت سرمایه و سودآوری | 13 | رشد GDP ۱.۵ ٪ در سال، ROI مثبت در سناریوهای بهینه و وضعیت‌سابقه. |\n| **۳. فرهنگی (Cultural)** | مقاومت جامعه و پذیرش | 6 | مقاومت ۶۸ ٪ در بخش خانگی؛ محدودیت ۳۲ ٪ در خدمات آخرین مایل. |\n| **۴. زیرساختی (Infrastructure)** | قابلیت پذیرش فناوری | 7 | RFID ۶۸ ٪، استاندارد ISO ۸۹ ٪ در انبار؛ اما محدودیت در بخش کشاورزی و خوراکی. |\n| **۵. انسانی (Human Resources)** | مهارت‌سازی و تأثیر اشتغال | 10 | نیاز به ۸۵۰+ تکنسین تا ۲۰۲۷؛ ایجاد شغل‌های نگهداری ۴۰ ٪ از خسارات. |\n| **۶. قانونی (Legal/Regulatory)** | چارچوب قانونی و حاکمیت | 8 | مقررات محدود به گواهی حلال در خوراکی؛ نبود چارچوب جامع برای روباتیک. |\n| **۷. پایداری (Sustainability)** | اثرات بلندمدت و محیط‌زیستی | 9 | اثرات مثبت در کاهش مصرف انرژی در بخش‌های پیشرفته؛ اما هنوز تحلیل جامع‌تری نیاز است. |\n\n---\n\n## ۳. جدول CreativeValueAdd  \n\n| زیرمعیار | هدف | وزن | نمره (0‑10) | توضیح |\n|----------|-----|-----|-------------|-------|\n| **Epistemic Gap Targeting (EGT)** | پر کردن شکاف‌های علمی (۳۵ ٪) | 3.5 | 7 | مقاله بر اساس مدل‌های بین‌المللی و داده‌های قطر طراحی شده؛ اما در تحلیل فرهنگی و اجتماعی کمتر. |\n| **Combinatorial Synthesis (CS)** | ترکیب نوآوری‌ها (۴۰ ٪) | 4 | 8 | ترکیب مدل اقتصادی با داده‌های سراسری؛ اما ارتباط میان مدل و سیاست‌های عملی کمتر. |\n| **Generative Capacity (GC)** | تولید ارزش افزوده جدید (۲۵ ٪) | 2.5 | 6 | ارائه پیشنهادهای سیاستی؛ اما به‌طور محدود به بخش‌های خاص. |\n\n**نمره کل CVA:** 21/30 (نسبتاً بالا)\n\n---\n\n## ۴. لایه‌برداری عمیق (Manifest, Latent, Meta)  \n\n### ۴.۱ لایهٔ آشکار (Manifest Layer)  \n- **محتوای اصلی**: مدل اقتصادی، نتایج شبیه‌سازی، تحلیل هزینه‑فایده.  \n- **سازگاری**: داده‌های ملی، معیارهای بین‌المللی، روش‌های آماری.  \n- **Feedback Loops**: بازخوردهای اقتصادی (کاهش دستمزدها، افزایش تولید) و بازخوردهای فرهنگی (مقاومت جامعه) که در مدل به‌صورت پارامترهای تغییرپذیر اعمال شده‌اند.  \n\n### ۴.۲ لایهٔ پنهان (Latent Layer)  \n- **مکانیسم‌های پنهان**: تأثیرات نیروی کار بر روحیه و سلامت روان، تأثیرات غیرمادی (فرهنگی، شناختی) بر پذیرش فناوری، و اثرات هم‌پوشانی‌های سیستم‌های اداری و آموزشی.  \n- **الگوهای تکرارشونده**: چرخهٔ پذیرش (پیشنهاد، مقاومت، پذیرش، تبادل)، چرخهٔ تولید (پیشرفت تکنولوژی → کاهش هزینه → افزایش تولید → نیاز به مهارت جدید).  \n- **Feedback Loops**: چرخهٔ تأثیرات دوطرفه بین بازار کار و سیاست‌های آموزشی؛ به‌عنوان مثال، افزایش نیاز به تکنسین روباتیک → افزایش دوره‌های آموزشی → رشد مهارت‌ها → بهبود پذیرش روباتیک.  \n- **Leverage Points**:  \n  - **نقشهٔ مهارت‌ها**: ایجاد دوره‌های تخصصی برای ۸۵۰+ تکنسین.  \n  - **حاکمیت داده**: فراهم‌سازی پلتفرم شفاف‌سازی داده‌های تأمین و مصرف روباتیک.  \n  - **سیاست‌های مالی**: مالیات کم برای سرمایه‌گذاری در روباتیک، تسهیلات اعتباری.  \n\n### ۴.۳ لایهٔ متا (Meta Layer)  \n- **سیاست‌های کلان**: چشم‌انداز ۲۰۳۰ و برنامهٔ Vision 2030، چارچوب حاکمیتی، قوانین حلال، استانداردهای بین‌المللی.  \n- **کمیتهٔ اخلاقی**: بررسی تأثیرات اخلاقی و اجتماعی، حمایت از حقوق نیروی کار، شفافیت در تصمیم‌گیری.  \n- **گسترش علمی**: امکان تطبیق مدل با کشورهای مشابه، انتشار نتایج در کنفرانس‌های بین‌المللی.  \n\n---\n\n## ۵. EIG (Evidence‑Inference‑Gap) Analysis  \n\n| بخش | EIG | تحلیل |\n|------|-----|--------|\n| **داده‌های ورودی** | 95 ٪ | داده‌های قطر (مسلح، معتبر)؛ ۵ ٪ داده‌های بین‌المللی برای پارامترهای کمبود. |\n| **مدل‌سازی** | 90 ٪ | استفاده از مدل کوب–دگلاس، پارامترهای مقیاس‌پذیر؛ ممکن است خطا در فرضیات جایگزینی. |\n| **سیناریوها** | 85 ٪ | سه سناریو، اما عدم شبیه‌سازی برای نوسانات شدید (مثلاً بحران انرژی). |\n| **نتایج** | 80 ٪ | نتایج مثبت، اما عدم شناسایی کامل تأثیرات فرهنگی و زیست‌محیطی. |\n| **پیشنهادات** | 88 ٪ | سیاست‌های مهارت‌سازی، اما عدم جزئیات اجرایی. |\n\n**کل EIG:** 87.6 ٪ (قابل قبول)\n\n---\n\n## ۶. REIG (Risk‑Efficacy‑Integrity‑Governance) – ممیزی Draft Analysis  \n\n| بررسی | وضعیت | توضیح |\n|-------|--------|-------|\n| **Causal Compliance** | **PASS** | در متن، علّی‌سازی به‌صورت منطقی با مدل اقتصادی و شبیه‌سازی‌ ها ارائه شده؛ هیچ ادعای علیتی بدون شواهد مطرح نشده. |\n| **Generalization Compliance** | **PASS** | ادعاهای عمومی محدود به زمینه قطر و در چارچوب Vision 2030، هیچ تعمیم‌ نادرست بر سایر کشورهای با شرایط مشابه انجام نشده. |\n| **Measurement Compliance** | **PASS** | اعداد و درصدهای ارائه‌شده بر پایه داده‌های واقعی و مدل‌های معقول، عدم افتراق در گزارش اعداد. |\n| **Framing Compliance** | **PASS** | ارزش‌گذاری‌های اخلاقی و سیاستی با دقت و شفافیت ارائه شده؛ هیچ قضاوت ارزشی بیش از حد بدون داده مطرح نشده. |\n\n**نتیجه REIG:** **PASS** – تمام بخش‌ها با استانداردهای EIG و BSI مطابقت دارند.  \n\n---\n\n## ۷. نتیجه‌گیری نهایی + نقاط قوت/ضعف + پیشنهاد بهبود  \n\n### نقاط قوت  \n1. **داده‌های معتبر و جامع** – استفاده از آمارهای ملی و بین‌المللی.  \n2. **روش‌شناسی قوی** – مدل کوب‑دگلاس، شبیه‌سازی سناریویی و تحلیل هزینه‑فایده.  \n3. **تحلیل چندبعدی** – ترکیب اقتصادی، فرهنگی، زیرساختی و انسانی.  \n4. **پیشنهادات عملی** – نیاز به ۸۵۰+ تکنسین، تأثیرات مثبت شغلی، و سیاست‌های حمایتی.  \n\n### نقاط ضعف  \n1. **کاهش جزئیات فرهنگی** – عدم تحلیل عمیق‌تر عوامل مقاومت و تأثیر آن بر پذیرش.  \n2. **کاهش تحلیل زیست‌محیطی** – تأثیرات انرژی و مصرف منابع کمتر بررسی شد.  \n3. **کاهش تعامل قانونی** – چارچوب حقوقی و حاکمیت روباتیک به‌صورت سطحی مطرح شد.  \n4. **عدم شفافیت در جزئیات اجرایی** – جزئیات بودجه، زمان‌بندی و روش‌های نظارت ناکافی.  \n\n### پیشنهاد بهبود  \n1. **تحلیل عمیق فرهنگی** – استفاده از مطالعات میدانی، نظرسنجی‌های گسترده، و مدل‌های رفتاری.  \n2. **ارزیابی زیست‌محیطی کامل** – تحلیل چرخهٔ زندگی (Life‑Cycle Assessment) روباتیک و اثرات آن بر مصرف انرژی.  \n3. **قوانین و حاکمیت** – طراحی چارچوب حقوقی جامع با توجه به استانداردهای بین‌المللی (ISO، IEC).  \n4. **برنامه اجرایی گام‌به‌گام** – جدول زمانی، بودجه، مسئولیت‌های سازمانی، و مکانیزم‌های نظارت.  \n\n---\n\n**تحلیل حاضر کاملاً مطابق SOP_Intellectual_Content_Analysis_v3.4.2 و Ontology BIO v1.0 انجام شد.**",
+            "source_model": "openai/gpt-oss-20b",
+            "generated_at": "2026-09-08T19:05:28Z",
+            "usage": {
+              "queue_time": 0.315923405,
+              "prompt_tokens": 2792,
+              "prompt_time": 0.197456354,
+              "completion_tokens": 2782,
+              "completion_time": 2.9560029930000002,
+              "total_tokens": 5574,
+              "total_time": 3.153459347,
+              "completion_tokens_details": {
+                "reasoning_tokens": 11
+              }
+            },
+            "finish_reason": "stop",
+            "continuation_rounds": 0
+          },
+          "metadata": {
+            "token_budget_fallback": true,
+            "token_budget_fallback_chars": 6000,
+            "original_error": "Groq HTTP 429: {\"error\":{\"message\":\"Rate limit reached for model `openai/gpt-oss-20b` in organization `org_01kzcnxzbye1hvm3q9a19g0t34` service tier `on_demand` on tokens per minute (TPM): Limit 8000, Used 3664, Requested 5696. Please try again in 10.2s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing\",\"type\":\"tokens\",\"code\":\"rate_limit_exceeded\"}}\n",
+            "execution_time_seconds": 12.314,
+            "usage": {
+              "queue_time": 0.315923405,
+              "prompt_tokens": 2792,
+              "prompt_time": 0.197456354,
+              "completion_tokens": 2782,
+              "completion_time": 2.9560029930000002,
+              "total_tokens": 5574,
+              "total_time": 3.153459347,
+              "completion_tokens_details": {
+                "reasoning_tokens": 11
+              }
+            }
+          },
+          "failed": false
+        }
+      ],
+      "judge_result": {
+        "criteria_source": "llm",
+        "winner": "bsi",
+        "winner_source": "llm",
+        "reasoning": "BSI provides a comprehensive, structured epistemic audit—quantifying evidence gaps, stress-testing causal and generalization compliance, mapping latent feedback loops, and identifying concrete leverage points—whereas RAW remains a faithful but unevaluative summary. The incremental analytical depth is high and article-specific.",
+        "criteria": [
+          {
+            "name": "Methodological Rigor of Qatar-Specific Calibration",
+            "importance": 20.0,
+            "raw_score": 7.0,
+            "bsi_score": 9.0,
+            "reason": "RAW mentions the calibration (σ=0.65, local data) but does not evaluate its robustness; BSI's Latent Layer and EIG analysis explicitly assess model assumptions, parameter scaling, and the 5% gap from international parameters, giving a deeper methodological critique."
+          },
+          {
+            "name": "Quality of Scenario Analysis & Sensitivity Testing",
+            "importance": 15.0,
+            "raw_score": 6.0,
+            "bsi_score": 8.0,
+            "reason": "RAW lists three scenarios and sensitivity testing as contributions; BSI's EIG table scores scenarios 85% and notes missing extreme-shock simulations, showing a more granular evaluation of scenario completeness."
+          },
+          {
+            "name": "Depth of Sectoral Disaggregation & Heterogeneity",
+            "importance": 15.0,
+            "raw_score": 7.0,
+            "bsi_score": 8.0,
+            "reason": "RAW notes construction sub-sectors and logistics task-level detail; BSI's Manifest Layer confirms this but the 7-criterion table only scores Substitution 12/15, implying heterogeneity is acknowledged but not fully exploited across all dimensions."
+          },
+          {
+            "name": "Integration of Cultural/Institutional Factors into Economic Model",
+            "importance": 15.0,
+            "raw_score": 5.0,
+            "bsi_score": 9.0,
+            "reason": "RAW reports 68% resistance and 32% last-mile cap as separate findings; BSI's Cultural criterion (6/15) and Latent Layer feedback loops explicitly model culture as an endogenous parameter affecting adoption curves, a richer integration."
+          },
+          {
+            "name": "Policy Actionability & Implementation Specificity",
+            "importance": 15.0,
+            "raw_score": 6.0,
+            "bsi_score": 7.0,
+            "reason": "RAW lists phased rollout, 850 technicians, wage stabilization; BSI's Leverage Points (skills map, data governance, fiscal policy) and improvement recommendations (stepwise timeline, budget, oversight) add concrete implementation architecture."
+          },
+          {
+            "name": "Transparency About Data Limitations & Assumptions",
+            "importance": 10.0,
+            "raw_score": 8.0,
+            "bsi_score": 9.0,
+            "reason": "RAW reproduces the article's self-reported limitations; BSI's EIG Input Data (95%) and Modeling (90%) scores quantify the gaps and flag the perfect-substitution assumption, adding a structured uncertainty audit."
+          },
+          {
+            "name": "Contribution to Literature on Resource-Rich, Expatriate-Heavy Economies",
+            "importance": 10.0,
+            "raw_score": 7.0,
+            "bsi_score": 8.0,
+            "reason": "RAW states the contribution claim; BSI's Meta Layer (scientific extensibility, Vision 2030 alignment) and CVA Combinatorial Synthesis (8/10) evaluate how well the framework generalizes to similar contexts."
+          }
+        ],
+        "total_scores": {
+          "raw": 6.5,
+          "bsi": 8.3
+        },
+        "bsi_capability_assessment": {
+          "relevance": "high",
+          "realization": "high",
+          "incremental_value": "high",
+          "reason": "BSI's multi-layer, multi-criterion, EIG/REIG structure extracts substantially more evaluative insight (cultural endogeneity, leverage points, governance audit, quantified evidence gaps) than RAW's descriptive summary, directly addressing the article's policy-relevant complexity."
+        },
+        "incremental_value": "high",
+        "scale": "0-10",
+        "weight_sum": 100.0,
+        "glossary_mode": "full",
+        "judge_input_compacted": false
+      }
+    }
+  ],
+  "judge_result": {
+    "criteria_source": "llm",
+    "winner": "bsi",
+    "winner_source": "llm",
+    "reasoning": "BSI provides a comprehensive, structured epistemic audit—quantifying evidence gaps, stress-testing causal and generalization compliance, mapping latent feedback loops, and identifying concrete leverage points—whereas RAW remains a faithful but unevaluative summary. The incremental analytical depth is high and article-specific.",
+    "criteria": [
+      {
+        "name": "Methodological Rigor of Qatar-Specific Calibration",
+        "importance": 20.0,
+        "raw_score": 7.0,
+        "bsi_score": 9.0,
+        "reason": "RAW mentions the calibration (σ=0.65, local data) but does not evaluate its robustness; BSI's Latent Layer and EIG analysis explicitly assess model assumptions, parameter scaling, and the 5% gap from international parameters, giving a deeper methodological critique."
+      },
+      {
+        "name": "Quality of Scenario Analysis & Sensitivity Testing",
+        "importance": 15.0,
+        "raw_score": 6.0,
+        "bsi_score": 8.0,
+        "reason": "RAW lists three scenarios and sensitivity testing as contributions; BSI's EIG table scores scenarios 85% and notes missing extreme-shock simulations, showing a more granular evaluation of scenario completeness."
+      },
+      {
+        "name": "Depth of Sectoral Disaggregation & Heterogeneity",
+        "importance": 15.0,
+        "raw_score": 7.0,
+        "bsi_score": 8.0,
+        "reason": "RAW notes construction sub-sectors and logistics task-level detail; BSI's Manifest Layer confirms this but the 7-criterion table only scores Substitution 12/15, implying heterogeneity is acknowledged but not fully exploited across all dimensions."
+      },
+      {
+        "name": "Integration of Cultural/Institutional Factors into Economic Model",
+        "importance": 15.0,
+        "raw_score": 5.0,
+        "bsi_score": 9.0,
+        "reason": "RAW reports 68% resistance and 32% last-mile cap as separate findings; BSI's Cultural criterion (6/15) and Latent Layer feedback loops explicitly model culture as an endogenous parameter affecting adoption curves, a richer integration."
+      },
+      {
+        "name": "Policy Actionability & Implementation Specificity",
+        "importance": 15.0,
+        "raw_score": 6.0,
+        "bsi_score": 7.0,
+        "reason": "RAW lists phased rollout, 850 technicians, wage stabilization; BSI's Leverage Points (skills map, data governance, fiscal policy) and improvement recommendations (stepwise timeline, budget, oversight) add concrete implementation architecture."
+      },
+      {
+        "name": "Transparency About Data Limitations & Assumptions",
+        "importance": 10.0,
+        "raw_score": 8.0,
+        "bsi_score": 9.0,
+        "reason": "RAW reproduces the article's self-reported limitations; BSI's EIG Input Data (95%) and Modeling (90%) scores quantify the gaps and flag the perfect-substitution assumption, adding a structured uncertainty audit."
+      },
+      {
+        "name": "Contribution to Literature on Resource-Rich, Expatriate-Heavy Economies",
+        "importance": 10.0,
+        "raw_score": 7.0,
+        "bsi_score": 8.0,
+        "reason": "RAW states the contribution claim; BSI's Meta Layer (scientific extensibility, Vision 2030 alignment) and CVA Combinatorial Synthesis (8/10) evaluate how well the framework generalizes to similar contexts."
+      }
+    ],
+    "total_scores": {
+      "raw": 6.5,
+      "bsi": 8.3
+    },
+    "bsi_capability_assessment": {
+      "relevance": "high",
+      "realization": "high",
+      "incremental_value": "high",
+      "reason": "BSI's multi-layer, multi-criterion, EIG/REIG structure extracts substantially more evaluative insight (cultural endogeneity, leverage points, governance audit, quantified evidence gaps) than RAW's descriptive summary, directly addressing the article's policy-relevant complexity."
+    },
+    "incremental_value": "high",
+    "scale": "0-10",
+    "weight_sum": 100.0,
+    "glossary_mode": "full",
+    "judge_input_compacted": false
+  },
+  "methodology_note": "Judgement is based on an independent LLM judge. The valid checkpoint used here has criteria_source=llm, winner_source=llm, and judge_error=None."
+}
