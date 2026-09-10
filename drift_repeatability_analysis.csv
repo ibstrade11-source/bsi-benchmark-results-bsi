@@ -1,0 +1,16 @@
+article_key,article_title,runs,delta_mean,delta_sd,delta_range,delta_min,delta_max,raw_sd,bsi_sd,raw_range,bsi_range,bsi_wins,raw_wins,ties,winner_switch
+10.1007/s11403-019-00236-7,"Inequality, mobility and the financial accumulation process: A computational economic analysis",2,-0.35,1.1,2.2,-1.4499999999999993,0.75,0.33,0.77,0.66,1.54,1,1,0,True
+10.1016/j.shpsb.2005.12.003,Philosophy Enters the Optics Laboratory: Bell's Theorem and its First Experimental Tests (1965-1982),11,-0.1327,2.2515,8.65,-6.65,1.9999999999999991,0.6624,2.3603,2.33,8.6,5,5,1,True
+10.1145/3709354,Morescient GAI for Software Engineering (Extended Version),5,1.65,0.4301,1.15,1.2999999999999998,2.45,0.8564,0.4893,2.5,1.35,5,0,0,False
+10.64898/2026.06.02.26354773,Cardiovascular Outcomes with GLP-1 Receptor Agonists in Patients with Type 2 Diabetes or Obesity Undergoing Surgical Aortic Valve Replacement,2,0.825,1.625,3.25,-0.8000000000000007,2.45,0.55,1.075,1.1,2.15,1,1,0,True
+Physics Briefing Book,Physics Briefing Book,9,-0.0889,1.4399,4.55,-2.3999999999999995,2.1500000000000004,1.1844,0.8323,4.1,2.3,5,4,0,True
+The Algorithmic Caricature: Auditing LLM-Generated Political Discourse Across Crisis Events,The Algorithmic Caricature: Auditing LLM-Generated Political Discourse Across Crisis Events,4,0.875,1.7734,4.77,-2.0500000000000007,2.7200000000000006,0.5024,1.3479,1.4,3.37,3,1,0,True
+hash:ad6c9adae764a379,One-Shot Reinforcement Learning for Robot Navigation with Interactive Replay,2,2.625,0.225,0.45,2.4000000000000004,2.8499999999999996,0.025,0.2,0.05,0.4,2,0,0,False
+https://doi.org/10.1016/j.ijinfomgt.2019.08.002,"Artificial Intelligence (AI): Multidisciplinary perspectives on emerging challenges, opportunities, and agenda for research, practice and policy",2,2.51,2.09,4.18,0.41999999999999993,4.6,1.525,0.565,3.05,1.13,1,0,1,True
+https://doi.org/10.1017/s1537592713001084,The Cognitive Revolution and the Political Psychology of Elite Decision Making,2,1.5,0.75,1.5,0.75,2.249999999999999,0.225,0.525,0.45,1.05,2,0,0,False
+https://doi.org/10.1186/1748-5908-4-50,Fostering implementation of health services research findings into practice: a consolidated framework for advancing implementation science,6,1.4683,0.7711,2.31,0.7400000000000011,3.0500000000000007,0.6978,0.2825,2.18,0.79,6,0,0,False
+https://doi.org/10.1186/s12909-023-04698-z,Revolutionizing healthcare: the role of artificial intelligence in clinical practice,2,-0.575,0.575,1.15,-1.1500000000000004,0.0,0.125,0.45,0.25,0.9,0,2,0,False
+https://doi.org/10.1353/tech.2026.a988849,A Long History: From Universal Language to Artificial Intelligence,10,2.052,2.0041,6.01,-0.5599999999999996,5.45,1.7399,0.3849,5.23,1.23,8,1,1,True
+https://doi.org/10.2307/2009452,"American Business, Public Policy, Case-Studies, and Political Theory",7,-1.51,3.1124,7.65,-4.8500000000000005,2.8,1.5203,1.761,3.75,4.9,3,4,0,True
+https://doi.org/10.5860/choice.41-2097,"Epistemic justification: internalism vs. externalism, foundations vs. virtues",3,0.0667,2.1025,5.15,-2.5,2.6500000000000004,0.7318,1.489,1.6,3.55,1,2,0,True
+https://doi.org/10.7551/mitpress/5834.001.0001,The Rediscovery of the Mind,4,1.3375,0.6712,1.8,0.3500000000000014,2.15,2.883,2.3541,7.7,5.9,2,0,2,True

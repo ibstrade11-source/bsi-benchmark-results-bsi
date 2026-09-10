@@ -1,0 +1,6 @@
+﻿analyst_model,runs,unique_articles,raw_mean,bsi_mean,delta_mean,delta_median,delta_sd,delta_min,delta_max,bsi_wins,raw_wins,ties
+gemini-3.7-flash,9,5,5.7233,8.6533,2.93,3.1,1.4578,0.97,5.45,9,0,0
+gemini-3.5-flash,3,1,6.7167,8.75,2.0333,1.7,0.733,1.35,3.05,3,0,0
+nvidia/nemotron-3-ultra-550b-a55b:free,8,5,6.065,7.5488,1.4837,1.655,1.0317,-0.45,2.85,7,0,1
+UNKNOWN,58,25,7.0824,7.3921,0.3097,0.64,1.8429,-7.05,2.72,32,19,7
+openai/gpt-oss-20b,12,4,7.0833,6.7858,-0.2975,0.48,3.0263,-4.85,4.8,7,5,0

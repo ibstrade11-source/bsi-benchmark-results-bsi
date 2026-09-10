@@ -1,0 +1,43 @@
+domain,runs,unique_articles,raw_mean,bsi_mean,delta_mean,delta_median,delta_sd,delta_min,delta_max,bsi_wins,raw_wins,ties
+2406.04710,1,1,6.4,7.75,1.35,1.35,0,1.3499999999999996,1.3499999999999996,1,0,0
+A Long History: From Universal Language to Artificial Intelligence,11,2,6.0591,8.3427,2.2836,2.36,2.0464,-0.5599999999999996,5.45,9,1,1
+Fostering implementation of health services research findings into practice: a consolidated framework for advancing implementation science,1,1,7.78,8.78,1.0,1.0,0,0.9999999999999991,0.9999999999999991,1,0,0
+GLP-1 receptor agonists cardiovascular outcomes diabetes obesity surgical aortic valve replacement,1,1,6.3,8.75,2.45,2.45,0,2.45,2.45,1,0,0
+GLP-1 receptor agonists obesity cardiovascular outcomes randomized clinical trial,1,1,7.4,6.6,-0.8,-0.8,0,-0.8000000000000007,-0.8000000000000007,0,1,0
+Measurement of the B(s) to mu+ mu- branching fraction and search for B0 to mu+ mu- with the CMS Experiment,1,1,8.05,8.6,0.55,0.55,0,0.5499999999999989,0.5499999999999989,1,0,0
+Morescient GAI for Software Engineering,1,1,6.2,7.6,1.4,1.4,0,1.3999999999999995,1.3999999999999995,1,0,0
+The Algorithmic Caricature: Auditing LLM-Generated Political Discourse Across Crisis Events,3,1,7.0133,7.6633,0.65,1.28,1.9976,-2.0500000000000007,2.7200000000000006,2,1,0
+The Rediscovery of the Mind Searle,1,1,6.15,7.3,1.15,1.15,0,1.1499999999999995,1.1499999999999995,1,0,0
+Uniform and Monotone Line Sum Optimization,1,1,7.85,8.6,0.75,0.75,0,0.75,0.75,1,0,0
+artificial intelligence law legal regulation,2,1,7.025,6.45,-0.575,-0.575,0.575,-1.1500000000000004,0.0,0,2,0
+artificial intelligence philosophy ethics epistemology,1,1,7.9,8.3,0.4,0.4,0,0.40000000000000036,0.40000000000000036,1,0,0
+behavioral economics decision making,2,2,6.375,8.725,2.35,2.35,1.0,1.3500000000000005,3.3500000000000005,2,0,0
+biology molecular biology genetics cell biology,1,1,7.2,8.35,1.15,1.15,0,1.1499999999999995,1.1499999999999995,1,0,0
+chemistry,1,1,9.4,2.35,-7.05,-7.05,0,-7.050000000000001,-7.050000000000001,0,1,0
+cognitive psychology,1,1,7.0,8.16,1.16,1.16,0,1.1600000000000001,1.1600000000000001,1,0,0
+cognitive psychology decision making,2,1,6.425,7.925,1.5,1.5,0.75,0.75,2.249999999999999,2,0,0
+economic growth inflation monetary policy fiscal policy labor productivity inequality,1,1,6.8,7.15,0.35,0.35,0,0.35000000000000053,0.35000000000000053,0,1,0
+economics,1,1,6.5,8.3,1.8,1.8,0,1.8000000000000007,1.8000000000000007,1,0,0
+economics economic growth productivity inequality causal mechanism,2,1,7.23,6.88,-0.35,-0.35,1.1,-1.4499999999999993,0.75,1,1,0
+engineering,2,1,5.45,7.55,2.1,2.1,0.35,1.7499999999999991,2.45,2,0,0
+engineering CAD design physics-in-the-loop validated engineering design,1,1,6.95,8.25,1.3,1.3,0,1.2999999999999998,1.2999999999999998,1,0,0
+environmental policy climate change mitigation,1,1,6.25,8.25,2.0,2.0,0,2.0,2.0,1,0,0
+epistemic regress problem foundationalism coherentism justification,3,1,6.9167,6.9833,0.0667,0.05,2.1025,-2.5,2.6500000000000004,1,2,0
+ethics artificial intelligence moral philosophy,1,1,6.95,7.37,0.42,0.42,0,0.41999999999999993,0.41999999999999993,0,0,1
+experimental neuroscience brain,1,1,6.2,5.6,-0.6,-0.6,0,-0.6000000000000005,-0.6000000000000005,0,1,0
+id:1706.03762,1,1,7.25,8.75,1.5,1.5,0,1.5,1.5,1,0,0
+philosophy epistemology,6,1,7.1417,6.2667,-0.875,0.135,2.7269,-6.65,1.7000000000000002,2,4,0
+philosophy epistemology argument knowledge,4,1,7.7325,8.18,0.4475,0.32,0.6976,-0.25,1.3999999999999995,2,1,1
+philosophy of mind consciousness,4,2,5.5375,7.0875,1.55,1.85,0.7115,0.3500000000000014,2.15,2,0,2
+political caricature LLM-generated political discourse crisis events,1,1,7.1,8.65,1.55,1.55,0,1.5500000000000007,1.5500000000000007,1,0,0
+political science,1,1,5.5,8.6,3.1,3.1,0,3.0999999999999996,3.0999999999999996,1,0,0
+political science public policy decision making,7,1,7.3,5.79,-1.51,-3.3,3.1124,-4.8500000000000005,2.8,3,4,0
+politics governance public policy artificial intelligence government institutional risk regulation,1,1,7.4,7.5,0.1,0.1,0,0.09999999999999964,0.09999999999999964,0,0,1
+precision agriculture artificial intelligence,1,1,6.7,6.15,-0.55,-0.55,0,-0.5499999999999998,-0.5499999999999998,1,0,0
+public policy implementation empirical study,5,1,7.13,8.692,1.562,1.35,0.8129,0.7400000000000011,3.0500000000000007,5,0,0
+quantum physics,9,1,7.7722,7.6833,-0.0889,0.35,1.4399,-2.3999999999999995,2.1500000000000004,5,4,0
+quantum physics artificial intelligence,1,1,7.15,7.75,0.6,0.6,0,0.5999999999999996,0.5999999999999996,0,0,1
+randomized controlled trial clinical medicine,1,1,6.45,8.25,1.8,1.8,0,1.7999999999999998,1.7999999999999998,1,0,0
+robot learning manipulation,2,1,5.525,8.15,2.625,2.625,0.225,2.4000000000000004,2.8499999999999996,2,0,0
+social capital community trust inequality,1,1,8.45,8.8,0.35,0.35,0,0.3500000000000014,0.3500000000000014,0,0,1
+sociology of technology digital surveillance,1,1,1.1,3.25,2.15,2.15,0,2.15,2.15,1,0,0
