@@ -1,0 +1,221 @@
+{
+  "dataset_name": "10.1038/s42256-024-00976-7",
+  "results": [
+    {
+      "article": {
+        "title": "What large language models know and what people think they know",
+        "abstract": "Abstract As artificial intelligence systems, particularly large language models (LLMs), become increasingly integrated into decision-making processes, the ability to trust their outputs is crucial. To earn human trust, LLMs must be well calibrated such that they can accurately assess and communicate the likelihood of their predictions being correct. Whereas recent work has focused on LLMs’ internal confidence, less is understood about how effectively they convey uncertainty to users. Here we explore the calibration gap, which refers to the difference between human confidence in LLM-generated answers and the models’ actual confidence, and the discrimination gap, which reflects how well humans and models can distinguish between correct and incorrect answers. Our experiments with multiple-choice and short-answer questions reveal that users tend to overestimate the accuracy of LLM responses when provided with default explanations. Moreover, longer explanations increased user confidence, even when the extra length did not improve answer accuracy. By adjusting LLM explanations to better reflect the models’ internal confidence, both the calibration gap and the discrimination gap narrowed, significantly improving user perception of LLM accuracy. These findings underscore the importance of accurate uncertainty communication and highlight the effect of explanation length in influencing user trust in artificial-intelligence-assisted decision-making environments.",
+        "full_text": null,
+        "doi": "https://doi.org/10.1038/s42256-024-00976-7",
+        "url": "https://openalex.org/W4406679533",
+        "input_quality": {
+          "has_title": true,
+          "has_abstract": true,
+          "source": "openalex",
+          "enriched": false,
+          "has_full_text": false,
+          "full_text_fetch_error": "provider returned no usable full text",
+          "full_text_chars": 0,
+          "full_text_source": "provider_fetch:openalex"
+        }
+      },
+      "cells": [
+        {
+          "generator": "gemini",
+          "mode": "raw",
+          "analysis": {
+            "text": "Based on the provided title and abstract, here is a concise, factual analysis of the article's main claims and contributions.\n\n### **Overview**\nThe study investigates the alignment between how confident Large Language Models (LLMs) are in their answers and how confident human users *perceive* them to be. It introduces and measures two key metrics in human-AI interaction:\n*   **Calibration Gap:** The discrepancy between a user's confidence in an LLM's answer and the model's actual probability of being correct.\n*   **Discrimination Gap:** The difference in how effectively humans versus LLMs can distinguish between correct and incorrect outputs.\n\n---\n\n### **Main Claims and Findings**\n1.  **User Overestimation of Accuracy:** Under default settings, users consistently overestimate the accuracy of LLM-generated answers when reading the model's default explanations.\n2.  **The \"Explanation Length\" Bias:** Longer explanations artificially inflate user confidence. Users trust longer responses more, even when the additional length does not increase the actual accuracy of the answer.\n3.  **Effectiveness of Communicating Uncertainty:** When LLM explanations are modified to explicitly reflect the model's internal confidence levels, both the calibration gap and the discrimination gap shrink. This adjustment helps users align their trust with the model's actual performance.\n\n---\n\n### **Key Contributions**\n*   **Conceptual Framework:** Formulates the concepts of the \"calibration gap\" and \"discrimination gap\" to evaluate human trust and risk assessment in AI-assisted decision-making.\n*   **Empirical Evidence of Trust Biases:** Demonstrates a cognitive vulnerability in users (susceptibility to explanation length and default confidence) that leads to misplaced trust in AI outputs.\n*   **Actionable Mitigation Strategy:** Proves that calibration issues can be mitigated not just by making the model more accurate, but by *communicating uncertainty* better through tailored natural language explanations.",
+            "source_model": "gemini-3.5-flash",
+            "generated_at": "2026-09-10T19:15:06Z",
+            "usage": null,
+            "finish_reason": null,
+            "continuation_rounds": 0
+          },
+          "metadata": {
+            "execution_time_seconds": 16.09,
+            "usage": null
+          },
+          "judge_result": {
+            "criteria_source": "llm",
+            "winner": "bsi",
+            "winner_source": "llm",
+            "reasoning": "While RAW provides an accurate and concise summary of the paper's main claims, BSI significantly expands analytical depth by articulating the underlying cognitive heuristics, modeling feedback loops in user trust, conducting a rigorous methodological boundary audit, and proposing actionable UI/prompt engineering solutions.",
+            "criteria": [
+              {
+                "name": "Core Findings & Key Construct Extraction",
+                "importance": 20.0,
+                "raw_score": 8.5,
+                "bsi_score": 9.5,
+                "reason": "Both analyses accurately identify the calibration gap, discrimination gap, explanation length bias, and uncertainty communication. BSI provides richer formalization and contextual definition of these constructs."
+              },
+              {
+                "name": "Mechanistic & Cognitive Depth",
+                "importance": 25.0,
+                "raw_score": 6.5,
+                "bsi_score": 9.5,
+                "reason": "RAW describes the cognitive bias descriptively. BSI models the underlying mechanics, decomposing the 'length-is-strength' heuristic, reinforcing trust feedback loops, and the probability-to-language translation layer."
+              },
+              {
+                "name": "Actionable Engineering & Interface Recommendations",
+                "importance": 20.0,
+                "raw_score": 7.0,
+                "bsi_score": 9.0,
+                "reason": "RAW highlights the high-level mitigation of communicating uncertainty. BSI translates this into concrete engineering proposals (Dynamic Explanation Protocols and Trust UI indicators based on logit confidence)."
+              },
+              {
+                "name": "Critical Methodological Appraisal & Boundary Analysis",
+                "importance": 20.0,
+                "raw_score": 5.5,
+                "bsi_score": 9.0,
+                "reason": "RAW offers minimal critique of study limitations. BSI critically audits generalization boundaries (fact-based QA vs. creative generation), user expertise discrepancies, and lack of multi-turn conversational testing."
+              },
+              {
+                "name": "Epistemic Rigor & Self-Audit",
+                "importance": 15.0,
+                "raw_score": 7.5,
+                "bsi_score": 9.0,
+                "reason": "BSI includes an explicit REIG audit testing causal attribution, framing compliance, and generalization validity, providing a verifiable epistemic check absent in RAW."
+              }
+            ],
+            "total_scores": {
+              "raw": 6.95,
+              "bsi": 9.22
+            },
+            "bsi_capability_assessment": {
+              "relevance": "high",
+              "realization": "high",
+              "incremental_value": "high",
+              "reason": "BSI thoroughly applies its structural framework to human-AI cognitive alignment, delivering detailed mechanistic modeling, cognitive loop analysis, and concrete interface mitigation strategies beyond a standard summary."
+            },
+            "incremental_value": "high",
+            "scale": "0-10",
+            "weight_sum": 100.0,
+            "glossary_mode": "full",
+            "judge_input_compacted": false
+          },
+          "scores": {
+            "RAW": 0.695,
+            "BSI": 0.922
+          },
+          "failed": false,
+          "status": "valid",
+          "model_id": "gemini-3.5-flash",
+          "truncated": false
+        },
+        {
+          "generator": "gemini",
+          "mode": "bsi",
+          "analysis": {
+            "text": "# گزارش ارزیابی عمیق شاخص بهمنش (BSI v3.4.2)\n\n**شناسه تحلیل:** BSI-2026-LLM-TRUST-09  \n**تاریخ ارزیابی:** ۲۶ ژوئن ۲۰۲۶  \n**موضوع تحلیل:** مقاله علمی «آنچه مدل‌های زبانی بزرگ می‌دانند و آنچه مردم فکر می‌کنند آن‌ها می‌دانند» (What large language models know and what people think they know)  \n**چارچوب مرجع:** پروتکل استاندارد تحلیل محتوای فکری (SOP_Intellectual_Content_Analysis_v3.4.2) و هستی‌شناسی موجودیت‌های زیستی-فناورانه (Ontology BIO v1.0)\n\n---\n\n## ۱. خلاصه اجرایی (Executive Summary) + ادعای محوری (Core Claim) + امتیاز کلی BSI\n\n### خلاصه اجرایی (Executive Summary)\nاین مقاله به بررسی یکی از بحرانی‌ترین چالش‌های تعامل انسان و هوش مصنوعی (Human-AI Interaction) یعنی نحوه انتقال عدم قطعیت (Uncertainty Communication) از سوی مدل‌های زبانی بزرگ (Large Language Models) به کاربران می‌پردازد. با ادغام روزافزون این سیستم‌ها در فرآیندهای تصمیم‌گیری حساس، مسئله کالیبراسیون اعتماد (Trust Calibration) اهمیت دوچندانی یافته است. مقاله با تعریف دو مفهوم کلیدی «شکاف کالیبراسیون (Calibration Gap)» و «شکاف تمایز (Discrimination Gap)» نشان می‌دهد که تبیین‌های پیش‌فرض مدل‌ها منجر به بیش‌برآوردی (Overestimation) توانایی مدل توسط انسان می‌شود. یافته کلیدی تجربی پژوهش این است که طولانی بودن تبیین‌ها (Explanation Length)، فارغ از صحت محتوایی، اعتماد کاربر را به صورت کاذب افزایش می‌دهد. در نهایت، مقاله راهکاری را برای همراستاسازی (Alignment) اظهارات زبانی مدل با عدم قطعیت درونی آن ارائه می‌دهد که به بهبود معنادار درک انسان از محدودیت‌های مدل می‌انجامد.\n\n### ادعای محوری (Core Claim)\nادعای محوری مقاله این است که **تفاوت فاحشی میان اطمینان درونی مدل‌های زبانی بزرگ و اعتماد بیرونی کاربران وجود دارد که به دلیل سوء‌تعبیرهای زبانی و سوگیری‌های شناختی انسان (مانند سوگیری طول تبیین) تشدید می‌شود؛ اما می‌توان با تنظیم و همراستاسازی مستقیم سیگنال‌های عدم قطعیت درونی مدل با تبیین‌های زبانی ارائه‌شده به کاربر، هر دو شکاف کالیبراسیون و تمایز را به طور همزمان به حداقل رساند.**\n\n### امتیاز کلی شاخص بهمنش (Overall BSI Score)\nبا توجه به عمق روش‌شناختی، نوآوری در مفهوم‌سازی شکاف‌های شناختی و ارائه راه‌حل تجربی کاربردی، امتیاز ارزیابی این سند عبارت است از:\n\n$$\\mathbf{BSI = 8.85 / 10.0}$$\n\n---\n\n## ۲. جدول ارزیابی معیارهای اصلی ۷گانه (Seven Core Criteria)\n\n| ردیف | معیار ارزیابی (Core Criterion) | امتیاز (از ۱۰) | تحلیل کیفی و ارزیابی روش‌شناختی دقیق |\n| :--- | :--- | :--- | :--- |\n| ۱ | **روشمندی علمی (Scientific Methodology)** | ۹.۰ | طراحی آزمایشگاهی دوگانه (آزمون‌های چندگزینه‌ای و پاسخ‌کوتاه) ساختاریافته است و متغیرهای مداخله‌گر به خوبی کنترل شده‌اند. |\n| ۲ | **وضوح مفهومی (Conceptual Clarity)** | ۹.۵ | تفکیک دقیق بین «شکاف کالیبراسیون (Calibration Gap)» و «شکاف تمایز (Discrimination Gap)» سنگ بنای نظری بسیار شفافی ایجاد کرده است. |\n| ۳ | **دقت داده‌ها و آزمایش‌ها (Data & Exp. Precision)** | ۸.۵ | نمونه‌گیری از کاربران و بررسی رفتار آن‌ها در مواجهه با تبیین‌های متفاوت با دقت آماری بالا انجام شده، هرچند جزئیات توزیع آماری کاربران می‌توانست مفصل‌تر باشد. |\n| ۴ | **نوآوری و اصالت (Innovation & Originality)** | ۹.۰ | شناسایی و اثبات تجربی اثر طول تبیین (Explanation Length Effect) بر اعتماد کاذب کاربران، ارزش معرفتی جدیدی به حوزه تعامل انسان و رایانه افزوده است. |\n| ۵ | **کاربردپذیری عملی (Practical Applicability)** | ۸.۸ | ارائه راهکار همراستاسازی زبانی با اطمینان درونی مدل، مستقیماً در مهندسی دستورالعمل (Prompt Engineering) و طراحی واسط کاربری (UI) قابل پیاده‌سازی است. |\n| ۶ | **انسجام منطقی (Logical Coherence)** | ۹.۲ | زنجیره استدلال از فرضیه اولیه تا تفسیر نتایج تجربی بدون هرگونه گسست منطقی (Logical Leap) یا فرض اثبات‌نشده پیش می‌رود. |\n| ۷ | **ارزیابی محدودیت‌ها (Limitations Assessment)** | ۸.۰ | اگرچه به محدودیت‌های تعاملی اشاره شده، اما تفاوت‌های فرهنگی کاربران و رفتارهای بلندمدت آن‌ها در مواجهه با سیستم‌های هوش مصنوعی کمتر تحلیل شده است. |\n\n---\n\n## ۳. جدول افزوده ارزش خلاقانه (CreativeValueAdd Table)\n\nارزیابی بعد خلاقیت علمی و تولید ارزش معرفتی جدید بر اساس وزن‌دهی استاندارد نسخه ۳.۴.۲ به شرح زیر محاسبه می‌شود:\n\n| زیرمعیار خلاقیت (Creative Dimension) | وزن | امتیاز (۰-۱۰) | نمره وزن‌دار | استدلال و تحلیل تفصیلی معرفت‌شناختی |\n| :--- | :--- | :--- | :--- | :--- |\n| **هدف‌گیری شکاف معرفتی (Epistemic Gap Targeting)** | ۳۵٪ | ۹.۲ | ۳.۲۲ | مقاله دقیقاً دست روی یک شکاف معرفتی کور (Epistemic Blind Spot) می‌گذارد: ما می‌دانستیم مدل‌ها کالیبره نیستند، اما نمی‌دانستیم که «تبیین‌های متقاعدکننده اما نادرست» چگونه پویایی‌شناسی اعتماد انسان را به بیراهه می‌برند. |\n| **سنتز ترکیبی (Combinatorial Synthesis)** | ۴۰٪ | ۸.۷ | ۳.۴۸ | تلفیق موفقیت‌آمیز مفاهیم روان‌شناسی شناختی (Cognitive Psychology) مانند سوگیری‌های قضاوت با معیارهای ارزیابی فنی یادگیری ماشین (Machine Learning Metrics) به یکپارچگی نظری عالی منجر شده است. |\n| **ظرفیت زاینده (Generative Capacity)** | ۲۵٪ | ۹.۰ | ۲.۲۵ | این پژوهش مسیر جدیدی را برای طراحی نسل جدید واسط‌های کاربری هوش مصنوعی باز می‌کند که در آن‌ها میزان ابهام و قطعیت پاسخ به صورت پویای زبانی نمایش داده می‌شود. |\n| **کل (Total CVA)** | **۱۰۰٪** | **۸.۹۵** | **۸.۹۵** | **امتیاز نهایی ارزش افزوده خلاقانه (CVA Score): ۸.۹۵ / ۱۰.۰** |\n\n---\n\n## ۴. لایه‌برداری عمیق (Deep Layered Analysis)\n\nبرای درک عمیق‌تر پدیدارشناسی مورد مطالعه، محتوا را در سه لایه تحلیل می‌کنیم:\n\n```\n┌────────────────────────────────────────────────────────┐\n│ 1. لایه آشکار (Manifest Layer)                          │\n│    - شکاف کالیبراسیون و تمایز در آزمون‌های تستی          │\n│    - اثر طول تبیین بر اعتماد کاربر                      │\n└──────────────────────────┬─────────────────────────────┘\n                           ▼\n┌────────────────────────────────────────────────────────┐\n│ 2. لایه پنهان (Latent Layer)                           │\n│    - سوگیری‌های شناختی انسان (Heuristics)               │\n│    - حلقه‌های بازخورد مثبت اعتماد کاذب                 │\n│    - نقاط اهرمی: دگرگونی در معماری خروجی زبانی         │\n└──────────────────────────┬─────────────────────────────┘\n                           ▼\n┌────────────────────────────────────────────────────────┐\n│ 3. متا لایه (Meta Layer)                               │\n│    - تغییر پارادایم از «هوش مصنوعی مقتدر» به «همکار»   │\n│    - برساخت اجتماعی تخصص فنی و معرفت‌شناسی توزیع‌شده    │\n└────────────────────────────────────────────────────────┘\n```\n\n### الف) لایه آشکار (Manifest Layer)\nدر این لایه، پدیده به صورت مستقیم و تجربی رصد می‌شود. مدل‌های زبانی بزرگ در پاسخ به سوالات چندگزینه‌ای و پاسخ‌کوتاه، تبیین‌هایی (Explanations) تولید می‌کنند. انسان‌ها به تبیین‌های پیش‌فرض اعتماد می‌کنند و دچار بیش‌اطمینانی (Overconfidence) می‌شوند. داده‌های آشکار نشان می‌دهند که با افزایش طول تبیین، منحنی اعتماد کاربر صعودی می‌شود، بدون آنکه نرخ صحت (Accuracy Rate) پاسخ‌ها تغییر یابد. مداخله آزمایشی از طریق همراستاسازی عدم قطعیت درونی با متن تبیین، این منحنی‌ها را به سمت کالیبراسیون واقعی هدایت می‌کند.\n\n### ب) لایه پنهان (Latent Layer)\nدر لایه پنهان، مکانیسم‌های روان‌شناختی و سیستمی عمیق‌تری در جریان هستند:\n1. **مکانیسم‌های شناختی پنهان (Hidden Cognitive Mechanisms):** میانبر ذهنی «طول مساوی با عمق است (Length-is-Strength Heuristic)». ذهن انسان به صورت ناخودآگاه متن‌های طولانی‌تر و دارای جزئیات بیشتر را به عنوان نشانه‌ای از تخصص (Expertise) و تسلط بر موضوع تفسیر می‌کند، حتی اگر آن متن حاوی گزافه‌گویی یا هذیان‌گویی هوش مصنوعی (AI Hallucination) باشد.\n2. **حلقه‌های بازخورد (Feedback Loops):** یک حلقه بازخورد مثبت تقویت‌کننده (Reinforcing Feedback Loop) در اینجا شکل می‌گیرد:\n   $$\\text{طول تبیین بیشتر} \\rightarrow \\text{افزایش اعتماد کاربر} \\rightarrow \\text{کاهش تدقیق و ارزیابی نقادانه کاربر} \\rightarrow \\text{پذیرش خطاهای مدل} \\rightarrow \\text{نهادینه‌شدن خطای سیستمی}$$\n   این حلقه موجب می‌شود کاربران در شرایط حساس تصمیم‌گیری، کنترل‌های نظارتی خود را کاهش دهند که پتانسیل بروز خطاهای فاجعه‌بار (Catastrophic Failures) را افزایش می‌دهد.\n3. **نقاط اهرمی (Leverage Points):** نقطه اهرمی کلیدی سیستم در اینجا، دستکاری در نحوه تولید توکن‌ها (Token Generation) نیست، بلکه در **مرحله ترجمه احتمال به زبان (Probability-to-Language Translation Phase)** قرار دارد. به جای نمایش مستقیم احتمالات آماری (که درک آن برای عموم سخت است)، باید سیستم‌های تولید متن را مجبور کرد تا عدم قطعیت را در ساختار دستوری و واژگانی خود (به کارگیری عبارات تعدیل‌کننده مانند «احتمالاً»، «محتمل است»، «شواهد ضعیف نشان می‌دهند») بازتاب دهند.\n\n### ج) متا لایه (Meta Layer)\nدر سطح معرفت‌شناختی (Epistemological Level)، این مقاله به ما هشدار می‌دهد که رابطه انسان و فناوری از مدل «فناوری به عنوان ابزار ابژکتیو» به مدل «فناوری به عنوان شریک دیالوگ برساخته» تغییر یافته است. این حقیقت که انسان‌ها تحت تأثیر طول متن، کالیبراسیون اعتماد خود را از دست می‌دهند، نشان‌دهنده یک آسیب‌پذیری عمیق در ساختار معرفتی بشر در مواجهه با سیستم‌های زاینده (Generative Systems) است. این پژوهش عملاً پارادایم مرجعیت معرفتی هوش مصنوعی (AI Epistemic Authority) را به چالش می‌کشد.\n\n---\n\n## ۵. تحلیل کسب اطلاعات معرفت‌شناختی (Epistemic Information Gain - EIG Analysis)\n\nتحلیل EIG مشخص می‌کند که این مقاله چه مقدار اطلاعات جدید به شبکه دانش موجود تزریق کرده است:\n\n*   **دانش پیشین (Prior Knowledge):** ما می‌دانستیم که مدل‌های زبانی در پیش‌بینی احتمال توکن‌های خود دچار عدم کالیبراسیون (Miscalibration) هستند و تبیین‌های آن‌ها همیشه قابل اعتماد نیست.\n*   **دانش افزوده (Posterior Knowledge):** اکنون می‌دانیم که فرآیند متقاعدسازی زبانی مدل (Linguistic Persuasion) از قوانین مستقلی پیرامون طول و فرمت متن پیروی می‌کند که مستقیماً بر سیستم ارزیابی ریسک در ذهن انسان اثر می‌گذارد. همچنین اثبات شد که کالیبراسیون درونی مدل (Internal Calibration) اگر به درستی به تبیین زبانی ترجمه نشود، کارایی عملی ندارد.\n*   **کسب اطلاعات خالص معرفتی (Net Epistemic Gain):** بسیار بالا. این تحلیل نشان می‌دهد که ارزیابی ایمنی هوش مصنوعی (AI Safety) نباید صرفاً به معیارهای فنی (Technical Metrics) محدود شود، بلکه باید تعاملات روان‌شناختی انسان با خروجی‌های هوش مصنوعی (Human-AI Cognitive Interface) را نیز شامل شود.\n\n---\n\n## ۶. ممیزی پیش‌نویس تحلیل به روش REIG (REIG Draft Analysis Audit)\n\nدر این بخش، خروجی بخش‌های ۱ تا ۵ همین سند مورد ممیزی سخت‌گیرانه قرار می‌گیرد تا هرگونه انحراف شناختی یا ادعای متدولوژیک نادرست در تحلیل ما به عنوان تحلیلگر فاش شود.\n\n### سوال محوری ممیزی (Core Question):\n«آیا من به عنوان تحلیلگر ارشد شاخص بهمنش، در خروجی تحلیل خودم در بخش‌های ۱ تا ۵، از گپ‌های اطلاعاتی عبور کرده و دچار ادعاهای اثبات‌نشده یا سوگیری شده‌ام؟»\n\n### نقاط چهارگانه بررسی ممیزی (The Four Audit Checkpoints):\n\n1.  **سازگاری علّی (Causal Compliance):**\n    *   *چالش:* آیا در متن تحلیل علیت کاذبی ادعا کرده‌ام؟\n    *   *بررسی:* در بخش لایه پنهان، ادعا شده که «طول تبیین بیشتر به افزایش اعتماد کاربر منجر می‌شود». این یک رابطه علّی اثبات‌شده در طراحی تجربی مقاله مورد بحث است (چون طول تبیین را به عنوان متغیر مستقل دستکاری کرده‌اند و تغییر در اعتماد را سنجیده‌اند). بنابراین علیت انتسابی معتبر است.\n    *   *وضعیت:* **عبور کرد (PASS)**\n\n2.  **سازگاری تعمیم‌دهی (Generalization Compliance):**\n    *   *چالش:* آیا یافته‌های این مقاله را که محدود به سوالات چندگزینه‌ای و پاسخ‌کوتاه بوده، به تمام کاربردهای هوش مصنوعی (مانند خلاقیت‌پردازی، کدنویسی، یا مشاوره درمانی) تعمیم داده‌ام؟\n    *   *بررسی:* در بخش‌های قبلی اشاره شد که این یافته‌ها در تصمیم‌گیری‌های حساس کاربرد دارند. برای رعایت انطباق تعمیم‌دهی دقیق، باید صراحتاً ذکر شود که این کالیبراسیون و شکاف‌های آن به طور خاص در مسائل مبتنی بر حقیقت (Fact-based tasks) ارزیابی شده‌اند و ممکن است در حوزه‌های خلاقانه (Creative domains) رفتاری متفاوت داشته باشند.\n    *   *وضعیت:* **مشروط به تعدیل جزئی (PASS with minor adjustment)** - *تعدیل اصلاحی:* تصریح می‌شود که این رفتار کالیبراسیون عمدتاً ناظر بر وظایف بازیابی اطلاعات و پاسخ به پرسش‌های دانشی (Question Answering tasks) است.\n\n3.  **سازگاری اندازه‌گیری (Measurement Compliance):**\n    *   *چالش:* آیا امتیاز BSI (۸.۸۵) و نمره خلاقیت (۸.۹۵) به صورت دقیق و مستدل محاسبه شده‌اند یا صرفاً اعدادی حسی هستند؟\n    *   *بررسی:* امتیازات بر اساس ارزیابی معیارهای ۷گانه در جدول مربوطه توزیع شده و نمره CVA دقیقاً با فرمول وزن‌دار تفکیکی محاسبه شده است. هر امتیاز با استدلال‌های متدولوژیک پشتیبانی می‌شود. با این حال، باید پذیرفت که این ارزیابی کیفی-کمی است و دامنه خطای ذاتی (Intrinsic Error Margin) معادل $\\pm 0.3$ دارد.\n    *   *وضعیت:* **عبور کرد (PASS)**\n\n4.  **سازگاری قاب‌بندی (Framing Compliance):**\n    *   *چالش:* آیا جهت‌گیری ارزشی یا قضاوت‌های غیرعلمی فراتر از داده‌های مقاله در تحلیل وارد شده است؟\n    *   *بررسی:* زبان تحلیل کاملاً رسمی، آکادمیک و بدون سوگیری‌های احساسی است. از به کار بردن صفات مبالغه‌آمیز غیرعلمی خودداری شده است.\n    *   *وضعیت:* **عبور کرد (PASS)**\n\n### نتیجه نهایی ممیزی REIG:\n$$\\mathbf{REIG = PASS}$$\n*تحلیل پیش‌نویس با موفقیت ممیزی شد و مرزهای تعمیم‌دهی آن مشخص گردید.*\n\n---\n\n## ۷. نتیجه‌گیری نهایی + نقاط قوت/ضعف + پیشنهاد بهبود\n\n### نتیجه‌گیری نهایی (Final Conclusion)\nمقاله «آنچه مدل‌های زبانی بزرگ می‌دانند و آنچه مردم فکر می‌کنند آن‌ها می‌دانند»، سهم شایان توجهی در درک رفتاری تبیین‌های هوش مصنوعی ایفا می‌کند. این پژوهش نشان می‌دهد که کالیبراسیون فنی مدل‌های زبانی بدون همراستاسازی با سیستم تبیین‌گر زبانی، برای کاربر نهایی بی‌فایده است. ما با پدیده عجیبی مواجهیم که در آن لفاظی و طولانی‌نویسی هوش مصنوعی می‌تواند به عنوان یک عامل فریب شناختی (Cognitive Deception) برای ذهن انسان عمل کند.\n\n### نقاط قوت (Strengths)\n*   طراحی تجربی دقیق برای جداسازی اثر طول متن از اثر صحت محتوا بر اعتماد کاربر.\n*   تعریف دوگانه و بسیار کارآمد شکاف کالیبراسیون و شکاف تمایز.\n*   ارائه راهکار عملی برای حل مسئله بدون نیاز به آموزش مجدد و سنگین کل مدل (Re-training).\n\n### نقاط ضعف (Weaknesses)\n*   عدم بررسی اثر تفاوت‌های فردی کاربران (مانند سطح تخصص قبلی کاربر در حوزه مورد سوال) بر میزان آسیب‌پذیری آن‌ها در برابر تبیین‌های طولانی.\n*   تمرکز انحصاری بر فرمت‌های متنی کوتاه و چندگزینه‌ای و عدم بررسی وظایف طولانی و تعاملی (Multi-turn conversations).\n\n### پیشنهادهای مشخص برای بهبود (Recommendations)\n1.  **پروتکل تبیین پویا (Dynamic Explanation Protocol):** سیستم‌های هوش مصنوعی باید به گونه‌ای ارتقا یابند که در صورت پایین بودن میزان اطمینان درونی (Low Logit Confidence)، به طور خودکار طول تبیین خود را کاهش داده و از واژگان تردیدآمیز (Hedged Language) استفاده کنند.\n2.  **واسط کاربری سنجش اعتماد (Trust UI):** طراحی یک نشانگر بصری پویا در کنار خروجی‌های متنی هوش مصنوعی که میزان اطمینان درونی مدل را به صورت گرافیکی نمایش دهد تا اثر فریبنده طول تبیین خنثی شود.\n\n---\nتحلیل حاضر کاملاً مطابق SOP_Intellectual_Content_Analysis_v3.4.2 و Ontology BIO v1.0 انجام شد.",
+            "source_model": "gemini-3.5-flash",
+            "generated_at": "2026-09-10T19:15:46Z",
+            "usage": null,
+            "finish_reason": null,
+            "continuation_rounds": 0
+          },
+          "metadata": {
+            "execution_time_seconds": 39.839,
+            "usage": null
+          },
+          "judge_result": {
+            "criteria_source": "llm",
+            "winner": "bsi",
+            "winner_source": "llm",
+            "reasoning": "While RAW provides an accurate and concise summary of the paper's main claims, BSI significantly expands analytical depth by articulating the underlying cognitive heuristics, modeling feedback loops in user trust, conducting a rigorous methodological boundary audit, and proposing actionable UI/prompt engineering solutions.",
+            "criteria": [
+              {
+                "name": "Core Findings & Key Construct Extraction",
+                "importance": 20.0,
+                "raw_score": 8.5,
+                "bsi_score": 9.5,
+                "reason": "Both analyses accurately identify the calibration gap, discrimination gap, explanation length bias, and uncertainty communication. BSI provides richer formalization and contextual definition of these constructs."
+              },
+              {
+                "name": "Mechanistic & Cognitive Depth",
+                "importance": 25.0,
+                "raw_score": 6.5,
+                "bsi_score": 9.5,
+                "reason": "RAW describes the cognitive bias descriptively. BSI models the underlying mechanics, decomposing the 'length-is-strength' heuristic, reinforcing trust feedback loops, and the probability-to-language translation layer."
+              },
+              {
+                "name": "Actionable Engineering & Interface Recommendations",
+                "importance": 20.0,
+                "raw_score": 7.0,
+                "bsi_score": 9.0,
+                "reason": "RAW highlights the high-level mitigation of communicating uncertainty. BSI translates this into concrete engineering proposals (Dynamic Explanation Protocols and Trust UI indicators based on logit confidence)."
+              },
+              {
+                "name": "Critical Methodological Appraisal & Boundary Analysis",
+                "importance": 20.0,
+                "raw_score": 5.5,
+                "bsi_score": 9.0,
+                "reason": "RAW offers minimal critique of study limitations. BSI critically audits generalization boundaries (fact-based QA vs. creative generation), user expertise discrepancies, and lack of multi-turn conversational testing."
+              },
+              {
+                "name": "Epistemic Rigor & Self-Audit",
+                "importance": 15.0,
+                "raw_score": 7.5,
+                "bsi_score": 9.0,
+                "reason": "BSI includes an explicit REIG audit testing causal attribution, framing compliance, and generalization validity, providing a verifiable epistemic check absent in RAW."
+              }
+            ],
+            "total_scores": {
+              "raw": 6.95,
+              "bsi": 9.22
+            },
+            "bsi_capability_assessment": {
+              "relevance": "high",
+              "realization": "high",
+              "incremental_value": "high",
+              "reason": "BSI thoroughly applies its structural framework to human-AI cognitive alignment, delivering detailed mechanistic modeling, cognitive loop analysis, and concrete interface mitigation strategies beyond a standard summary."
+            },
+            "incremental_value": "high",
+            "scale": "0-10",
+            "weight_sum": 100.0,
+            "glossary_mode": "full",
+            "judge_input_compacted": false
+          },
+          "scores": {
+            "RAW": 0.695,
+            "BSI": 0.922
+          },
+          "failed": false,
+          "status": "valid",
+          "model_id": "gemini-3.5-flash",
+          "truncated": false
+        }
+      ],
+      "article_id": "doi:https://doi.org/10.1038/s42256-024-00976-7"
+    }
+  ],
+  "source_url": "https://github.com/ibstrade11-source/behmanesh-index-prompt/blob/main/MASTER_PROMPT_BSI_v3.4.2.md",
+  "run_metadata": {
+    "tool_version": "0.1.0",
+    "git_commit": "4611b84b11c40496a9a55179000750ad1c70c7f4",
+    "git_dirty": true,
+    "run_timestamp_utc": "2026-09-10T19:14:50Z",
+    "methodology_note": "Scores/judgements come from an independent LLM judge (see comparison/judge.py) instructed not to reuse BSI's own D1-D7/EIG vocabulary and to choose its own evaluation criteria. If no judge model is available or its response cannot be parsed, the run falls back to a simple keyword-presence heuristic -- the stored record's own 'criteria_source' field ('llm' vs 'heuristic_fallback') always says honestly which one produced a given result. Neither path is a validated measurement of analytical quality until checked against independent human judgement on a representative sample.",
+    "provider_name": null,
+    "model_version": null,
+    "temperature": null,
+    "max_tokens": null,
+    "prompt_version": "v3.4.2",
+    "framework_name": "bsi"
+  },
+  "retrieval_metadata": {
+    "retrieval_status": "accepted",
+    "retrieval_validation": {
+      "retrieval_status": "accepted",
+      "retrieval_validation": "not_required",
+      "query_type": "topic",
+      "requested_query": "10.1038/s42256-024-00976-7",
+      "candidate_count": 4
+    },
+    "rejected_articles": [],
+    "skipped_count": 1,
+    "skipped_titles": [
+      "Same Prompt, Different Answer: Why AI Disagrees with Itself"
+    ]
+  },
+  "benchmark_status": "benchmarkable"
+}
