@@ -1,0 +1,15 @@
+relevance,realization,incremental_value,count,percent_of_valid
+high,high,high,35,36.08
+high,medium,medium,18,18.56
+high,medium,high,9,9.28
+high,high,medium,8,8.25
+medium,low,low,7,7.22
+low,low,negative,5,5.15
+medium,medium,low,4,4.12
+medium,medium,medium,4,4.12
+high,medium,low,2,2.06
+low,medium,low,1,1.03
+low,medium,negative,1,1.03
+medium,medium,none,1,1.03
+unknown,unknown,unknown,1,1.03
+medium,low,negative,1,1.03

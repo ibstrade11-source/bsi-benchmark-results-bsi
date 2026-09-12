@@ -18,6 +18,7 @@ ARTICLE = ROOT / "article_level_analysis.csv"
 DOMAIN = ROOT / "domain_level_analysis.csv"
 DRIFT = ROOT / "drift_repeatability_analysis.csv"
 MODEL = ROOT / "model_level_analysis.csv"
+INCREMENTAL = ROOT / "incremental_value_analysis.csv"
 
 
 def clean(x):
@@ -508,6 +509,37 @@ def analysis_model(rows):
     return out
 
 
+def analysis_incremental_value(rows):
+    """
+    Cross-tabulation of (relevance, realization, incremental_value) among
+    VALID rows, with counts and percent-of-VALID -- the same underlying
+    data as BENCHMARK_REPORT_8_TABLES.md's TABLE 3 / TABLE 4, persisted
+    as a standalone CSV instead of only existing inside the rendered
+    report.
+    """
+    out = []
+    total = len(rows)
+
+    cross = Counter()
+    for r in rows:
+        rel = clean(r["relevance"]).lower()
+        rea = clean(r["realization"]).lower()
+        inc = clean(r["incremental_value"]).lower()
+        if rel and rea and inc:
+            cross[(rel, rea, inc)] += 1
+
+    for (rel, rea, inc), n in cross.most_common():
+        out.append({
+            "relevance": rel,
+            "realization": rea,
+            "incremental_value": inc,
+            "count": n,
+            "percent_of_valid": round(100 * n / total, 2) if total else 0,
+        })
+
+    return out
+
+
 def main():
     paths = sorted(COMPARE.glob("*.json"))
     rows = [one_row(p) for p in paths]
@@ -562,6 +594,7 @@ def main():
     domain_rows = analysis_domain(valid)
     drift_rows = analysis_drift(valid)
     model_rows = analysis_model(valid)
+    incremental_rows = analysis_incremental_value(valid)
 
     write_csv(
         ARTICLE,
@@ -608,6 +641,15 @@ def main():
         ],
     )
 
+    write_csv(
+        INCREMENTAL,
+        incremental_rows,
+        [
+            "relevance", "realization", "incremental_value",
+            "count", "percent_of_valid",
+        ],
+    )
+
     status = Counter(r["status"] for r in rows)
     winners = Counter(
         clean(r["winner"]).lower()
@@ -636,6 +678,7 @@ def main():
     print("domain:", len(domain_rows))
     print("drift:", len(drift_rows))
     print("model:", len(model_rows))
+    print("incremental_value:", len(incremental_rows))
 
 
 if __name__ == "__main__":
