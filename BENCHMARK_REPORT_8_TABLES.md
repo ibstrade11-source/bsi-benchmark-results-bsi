@@ -6,8 +6,8 @@ This report is automatically generated from structured CSV files. Each report bu
 
 | Status | Count |
 |---|---:|
-| VALID | 91 |
-| UNJUDGED | 4 |
+| VALID | 96 |
+| UNJUDGED | 7 |
 | TEST | 6 |
 | ARCHIVED | 6 |
 
@@ -15,31 +15,31 @@ This report is automatically generated from structured CSV files. Each report bu
 
 | Metric | Value |
 |---|---:|
-| RAW mean | 6.83 |
-| BSI mean | 7.50 |
-| Δ mean (BSI−RAW) | 0.67 |
-| Δ median | 0.97 |
+| RAW mean | 6.85 |
+| BSI mean | 7.57 |
+| Δ mean (BSI−RAW) | 0.72 |
+| Δ median | 1.00 |
 | Δ min | -7.05 |
 | Δ max | 5.45 |
-| BSI wins | 59 |
-| RAW wins | 24 |
+| BSI wins | 63 |
+| RAW wins | 25 |
 | Ties | 8 |
 
 ## TABLE 3 - BSI CAPABILITY AND INCREMENTAL VALUE
 
 | Dimension | Level | Count | Percent of VALID |
 |---|---|---:|---:|
-| Relevance | high | 66 | 72.5% |
-| Relevance | medium | 17 | 18.7% |
-| Relevance | low | 7 | 7.7% |
-| Realization | high | 38 | 41.8% |
-| Realization | medium | 39 | 42.9% |
-| Realization | low | 13 | 14.3% |
-| Incremental value | high | 39 | 42.9% |
-| Incremental value | medium | 29 | 31.9% |
-| Incremental value | low | 14 | 15.4% |
-| Incremental value | none | 1 | 1.1% |
-| Incremental value | negative | 7 | 7.7% |
+| Relevance | high | 71 | 74.0% |
+| Relevance | medium | 17 | 17.7% |
+| Relevance | low | 7 | 7.3% |
+| Realization | high | 43 | 44.8% |
+| Realization | medium | 39 | 40.6% |
+| Realization | low | 13 | 13.5% |
+| Incremental value | high | 43 | 44.8% |
+| Incremental value | medium | 30 | 31.2% |
+| Incremental value | low | 14 | 14.6% |
+| Incremental value | none | 1 | 1.0% |
+| Incremental value | negative | 7 | 7.3% |
 
 **Note:** `incremental_value` is the Judge's independent assessment of the incremental value of BSI analysis relative to RAW and is not identical to Δ.
 
@@ -47,11 +47,11 @@ This report is automatically generated from structured CSV files. Each report bu
 
 | Relevance | Realization | Incremental Value | Count |
 |---|---|---|---:|
-| high | high | high | 31 |
+| high | high | high | 35 |
 | high | medium | medium | 18 |
 | high | medium | high | 8 |
+| high | high | medium | 8 |
 | medium | low | low | 7 |
-| high | high | medium | 7 |
 | low | low | negative | 5 |
 | medium | medium | low | 4 |
 | medium | medium | medium | 4 |
@@ -85,10 +85,12 @@ This report is automatically generated from structured CSV files. Each report bu
 | Uniform and Monotone Line Sum Optimization | 1 | 7.85 | 8.6 | 0.75 | 0.75 | 1 | 0 | 0 |
 | Kurt Lewin, psychological constructs and sources of brain cognitive activity | 1 | 7.0 | 8.16 | 1.16 | 1.16 | 1 | 0 | 0 |
 | One-Shot Reinforcement Learning for Robot Navigation with Interactive Replay | 2 | 5.525 | 8.15 | 2.625 | 2.625 | 2 | 0 | 0 |
+| The Road to Know-Where: An Object-and-Room Informed Sequential BERT for Indoor Vision-Language Navigation | 2 | 6.675 | 8.695 | 2.02 | 2.02 | 2 | 0 | 0 |
 | Artificial Intelligence (AI): Multidisciplinary perspectives on emerging challenges, opportunities, and agenda for research, practice and policy | 2 | 5.425 | 7.935 | 2.51 | 2.51 | 1 | 0 | 1 |
 | Understanding the role of digital technologies in education: A review | 1 | 1.1 | 3.25 | 2.15 | 2.15 | 1 | 0 | 0 |
 | Climate Change 2014: Mitigation of Climate Change | 1 | 6.25 | 8.25 | 2.0 | 2.0 | 1 | 0 | 0 |
 | The Cognitive Revolution and the Political Psychology of Elite Decision Making | 2 | 6.425 | 7.925 | 1.5 | 1.5 | 2 | 0 | 0 |
+| What large language models know and what people think they know | 3 | 7.5333 | 8.9067 | 1.3733 | 2.27 | 2 | 1 | 0 |
 | Love and knowledge: Emotion in feminist epistemology | 1 | 7.9 | 8.3 | 0.4 | 0.4 | 1 | 0 | 0 |
 | Machine learning & artificial intelligence in the quantum domain: a review of recent progress | 1 | 7.15 | 7.75 | 0.6 | 0.6 | 0 | 0 | 1 |
 | Social Capital: Implications for Development Theory, Research, and Policy | 1 | 8.45 | 8.8 | 0.35 | 0.35 | 0 | 0 | 1 |
@@ -106,6 +108,8 @@ This report is automatically generated from structured CSV files. Each report bu
 
 | Domain | Runs | Unique articles | RAW mean | BSI mean | Δ mean | BSI wins | RAW wins | Ties |
 |---|---:|---:|---:|---:|---:|---:|---:|---:|
+| 10.1038/s42256-024-00976-7 | 3 | 1 | 7.5333 | 8.9067 | 1.3733 | 2 | 1 | 0 |
+| 2401.13835 What Large Language Models Know and What People Think They Know | 1 | 1 | 6.8 | 8.79 | 1.99 | 1 | 0 | 0 |
 | 2406.04710 | 1 | 1 | 6.4 | 7.75 | 1.35 | 1 | 0 | 0 |
 | A Long History: From Universal Language to Artificial Intelligence | 11 | 2 | 6.0591 | 8.3427 | 2.2836 | 9 | 1 | 1 |
 | Fostering implementation of health services research findings into practice: a consolidated framework for advancing implementation science | 1 | 1 | 7.78 | 8.78 | 1.0 | 1 | 0 | 0 |
@@ -116,6 +120,7 @@ This report is automatically generated from structured CSV files. Each report bu
 | The Algorithmic Caricature: Auditing LLM-Generated Political Discourse Across Crisis Events | 3 | 1 | 7.0133 | 7.6633 | 0.65 | 2 | 1 | 0 |
 | The Rediscovery of the Mind Searle | 1 | 1 | 6.15 | 7.3 | 1.15 | 1 | 0 | 0 |
 | Uniform and Monotone Line Sum Optimization | 1 | 1 | 7.85 | 8.6 | 0.75 | 1 | 0 | 0 |
+| What large language models know and what people think they know | 1 | 1 | 6.55 | 8.6 | 2.05 | 1 | 0 | 0 |
 | artificial intelligence law legal regulation | 2 | 1 | 7.025 | 6.45 | -0.575 | 0 | 2 | 0 |
 | artificial intelligence philosophy ethics epistemology | 1 | 1 | 7.9 | 8.3 | 0.4 | 1 | 0 | 0 |
 | behavioral economics decision making | 2 | 2 | 6.375 | 8.725 | 2.35 | 2 | 0 | 0 |
@@ -153,8 +158,8 @@ This report is automatically generated from structured CSV files. Each report bu
 
 | Analyst model | Runs | Unique articles | RAW mean | BSI mean | Δ mean | BSI wins | RAW wins | Ties |
 |---|---:|---:|---:|---:|---:|---:|---:|---:|
-| gemini-3.5-flash | 6 | 3 | 6.625 | 8.6867 | 2.0617 | 6 | 0 | 0 |
-| gemini-3.7-flash | 9 | 5 | 5.7233 | 8.6533 | 2.93 | 9 | 0 | 0 |
+| gemini-3.5-flash | 10 | 5 | 6.905 | 8.723 | 1.818 | 9 | 1 | 0 |
+| gemini-3.7-flash | 10 | 6 | 5.816 | 8.688 | 2.872 | 10 | 0 | 0 |
 | gpt-4o-mini | 1 | 1 | 7.2 | 8.35 | 1.15 | 1 | 0 | 0 |
 | llama-3.3-70b-versatile | 10 | 9 | 7.105 | 7.06 | -0.045 | 5 | 4 | 1 |
 | nvidia/nemotron-3-ultra-550b-a55b:free | 42 | 22 | 6.9381 | 7.561 | 0.6229 | 26 | 9 | 7 |
@@ -172,8 +177,10 @@ This report is automatically generated from structured CSV files. Each report bu
 | Physics Briefing Book | 9 | -0.0889 | 1.4399 | 4.55 | 1.1844 | 0.8323 | 4.1 | 2.3 | 5 | 4 | 0 | True |
 | The Algorithmic Caricature: Auditing LLM-Generated Political Discourse Across Crisis Events | 4 | 0.875 | 1.7734 | 4.77 | 0.5024 | 1.3479 | 1.4 | 3.37 | 3 | 1 | 0 | True |
 | One-Shot Reinforcement Learning for Robot Navigation with Interactive Replay | 2 | 2.625 | 0.225 | 0.45 | 0.025 | 0.2 | 0.05 | 0.4 | 2 | 0 | 0 | False |
+| The Road to Know-Where: An Object-and-Room Informed Sequential BERT for Indoor Vision-Language Navigation | 2 | 2.02 | 0.03 | 0.06 | 0.125 | 0.095 | 0.25 | 0.19 | 2 | 0 | 0 | False |
 | Artificial Intelligence (AI): Multidisciplinary perspectives on emerging challenges, opportunities, and agenda for research, practice and policy | 2 | 2.51 | 2.09 | 4.18 | 1.525 | 0.565 | 3.05 | 1.13 | 1 | 0 | 1 | True |
 | The Cognitive Revolution and the Political Psychology of Elite Decision Making | 2 | 1.5 | 0.75 | 1.5 | 0.225 | 0.525 | 0.45 | 1.05 | 2 | 0 | 0 | False |
+| What large language models know and what people think they know | 3 | 1.3733 | 1.325 | 2.85 | 1.0443 | 0.3013 | 2.35 | 0.72 | 2 | 1 | 0 | True |
 | Fostering implementation of health services research findings into practice: a consolidated framework for advancing implementation science | 6 | 1.4683 | 0.7711 | 2.31 | 0.6978 | 0.2825 | 2.18 | 0.79 | 6 | 0 | 0 | False |
 | Revolutionizing healthcare: the role of artificial intelligence in clinical practice | 2 | -0.575 | 0.575 | 1.15 | 0.125 | 0.45 | 0.25 | 0.9 | 0 | 2 | 0 | False |
 | A Long History: From Universal Language to Artificial Intelligence | 10 | 2.052 | 2.0041 | 6.01 | 1.7399 | 0.3849 | 5.23 | 1.23 | 8 | 1 | 1 | True |
@@ -183,4 +190,4 @@ This report is automatically generated from structured CSV files. Each report bu
 
 ---
 
-Count VALID: **91** | Article count: **35** | Domain count: **42** | Model count: **7** | Articles with repeated runs for drift analysis: **15
+Count VALID: **96** | Article count: **37** | Domain count: **45** | Model count: **7** | Articles with repeated runs for drift analysis: **17

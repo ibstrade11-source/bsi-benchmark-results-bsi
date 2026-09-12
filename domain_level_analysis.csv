@@ -1,4 +1,6 @@
 domain,runs,unique_articles,raw_mean,bsi_mean,delta_mean,delta_median,delta_sd,delta_min,delta_max,bsi_wins,raw_wins,ties
+10.1038/s42256-024-00976-7,3,1,7.5333,8.9067,1.3733,2.27,1.325,-0.5,2.3499999999999996,2,1,0
+2401.13835 What Large Language Models Know and What People Think They Know,1,1,6.8,8.79,1.99,1.99,0,1.9899999999999993,1.9899999999999993,1,0,0
 2406.04710,1,1,6.4,7.75,1.35,1.35,0,1.3499999999999996,1.3499999999999996,1,0,0
 A Long History: From Universal Language to Artificial Intelligence,11,2,6.0591,8.3427,2.2836,2.36,2.0464,-0.5599999999999996,5.45,9,1,1
 Fostering implementation of health services research findings into practice: a consolidated framework for advancing implementation science,1,1,7.78,8.78,1.0,1.0,0,0.9999999999999991,0.9999999999999991,1,0,0
@@ -9,6 +11,7 @@ Morescient GAI for Software Engineering,1,1,6.2,7.6,1.4,1.4,0,1.3999999999999995
 The Algorithmic Caricature: Auditing LLM-Generated Political Discourse Across Crisis Events,3,1,7.0133,7.6633,0.65,1.28,1.9976,-2.0500000000000007,2.7200000000000006,2,1,0
 The Rediscovery of the Mind Searle,1,1,6.15,7.3,1.15,1.15,0,1.1499999999999995,1.1499999999999995,1,0,0
 Uniform and Monotone Line Sum Optimization,1,1,7.85,8.6,0.75,0.75,0,0.75,0.75,1,0,0
+What large language models know and what people think they know,1,1,6.55,8.6,2.05,2.05,0,2.05,2.05,1,0,0
 artificial intelligence law legal regulation,2,1,7.025,6.45,-0.575,-0.575,0.575,-1.1500000000000004,0.0,0,2,0
 artificial intelligence philosophy ethics epistemology,1,1,7.9,8.3,0.4,0.4,0,0.40000000000000036,0.40000000000000036,1,0,0
 behavioral economics decision making,2,2,6.375,8.725,2.35,2.35,1.0,1.3500000000000005,3.3500000000000005,2,0,0
@@ -25,6 +28,7 @@ environmental policy climate change mitigation,1,1,6.25,8.25,2.0,2.0,0,2.0,2.0,1
 epistemic regress problem foundationalism coherentism justification,3,1,6.9167,6.9833,0.0667,0.05,2.1025,-2.5,2.6500000000000004,1,2,0
 ethics artificial intelligence moral philosophy,1,1,6.95,7.37,0.42,0.42,0,0.41999999999999993,0.41999999999999993,0,0,1
 experimental neuroscience brain,1,1,6.2,5.6,-0.6,-0.6,0,-0.6000000000000005,-0.6000000000000005,0,1,0
+flood forecasting deep learning climate change,1,1,3.4,6.35,2.95,2.95,0,2.9499999999999997,2.9499999999999997,1,0,0
 id:1706.03762,1,1,7.25,8.75,1.5,1.5,0,1.5,1.5,1,0,0
 philosophy epistemology,6,1,7.1417,6.2667,-0.875,0.135,2.7269,-6.65,1.7000000000000002,2,4,0
 philosophy epistemology argument knowledge,4,1,7.7325,8.18,0.4475,0.32,0.6976,-0.25,1.3999999999999995,2,1,1
