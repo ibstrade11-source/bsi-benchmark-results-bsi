@@ -1,0 +1,317 @@
+{
+  "dataset_name": "flood forecasting deep learning climate change",
+  "results": [
+    {
+      "article": {
+        "title": "CLIMATE CHANGE FORECASTING USING DEEP LEARNING",
+        "abstract": "Climate change is defined as a long-lasting change in the mean weather patterns found on Earth. These changes are either natural, or human made. Since the 19th century, climate change has been on the rise. This is mostly due to igniting fossil fuels like gas, coal, and oil. These can lead to various problems like food and water scarcity, disease, increased flooding, extreme heat, and economic loss. It can also cause the sea levels to rise, and make oceans warmer and more acidic, and escalate human migration. It is referred to as the most significant threat to health on a global scale by the World Health Organization. Even if the efforts made to reduce future warming is successful, some effects will continue for tens of decades.\nThis paper attempts to forecast climate change based on the changes in temperature across the globe from the 19th century onwards. A deep learning-based time series model is built using Recurrent Neural Networks (RNNs) to forecast the average temperature. This model will attempt to predict future values based on historical data. \nKEYWORDS—Climate change, Deep learning, Recurrent Neural Network",
+        "full_text": null,
+        "doi": "10.36713/epra18552",
+        "url": "https://doi.org/10.36713/epra18552",
+        "input_quality": {
+          "has_title": true,
+          "has_abstract": true,
+          "source": "crossref",
+          "enriched": false
+        }
+      },
+      "cells": [
+        {
+          "generator": "openrouter",
+          "mode": "raw",
+          "analysis": {
+            "text": "**Analysis of \"Climate Change Forecasting Using Deep Learning\"**\n\n**1. Core Focus**\nThe paper addresses the prediction of global average temperature trends using historical data spanning the 19th century to the present, framing it as a time-series forecasting problem.\n\n**2. Problem Motivation**\n*   **Definition:** Climate change defined as long-term shifts in global weather patterns (natural and anthropogenic).\n*   **Drivers:** Primary emphasis on fossil fuel combustion (gas, coal, oil) since the 19th century.\n*   **Impacts Cited:** Food/water scarcity, disease, flooding, extreme heat, economic loss, sea-level rise, ocean warming/acidification, and human migration.\n*   **Authority:** References WHO classification of climate change as the \"most significant threat to health on a global scale.\"\n*   **Urgency:** Notes irreversibility of certain effects for decades even with successful mitigation.\n\n**3. Proposed Methodology**\n*   **Technique:** Deep Learning-based time series modeling.\n*   **Architecture:** Recurrent Neural Networks (RNNs).\n*   **Mechanism:** Leveraging temporal dependencies in historical temperature data to predict future average temperature values.\n\n**4. Key Claims (Explicit in Abstract)**\n*   RNNs are a suitable architecture for modeling the temporal dynamics of global temperature data.\n*   The model can forecast future average temperatures based solely on historical temperature records.\n\n**5. Contribution & Significance**\n*   **Application of DL to Climate Science:** Demonstrates the application of a specific deep learning architecture (RNN) to a high-stakes geophysical forecasting problem.\n*   **Data Scope:** Utilizes a long-term dataset (19th century onward), providing a deep historical baseline for training.\n*   **Policy/Planning Utility:** Implicitly positions the tool as a mechanism for quantifying future trajectories to inform mitigation/adaptation strategies.\n\n**6. Limitations & Gaps (Identified from Abstract Alone)**\n*   **Input Features:** The abstract mentions *only* \"changes in temperature\" as input. It does not mention exogenous forcings (CO2 concentrations, solar irradiance, volcanic aerosols, land use), raising questions about the model's physical consistency vs. pure statistical extrapolation.\n*   **Architecture Specifics:** \"RNN\" is a broad category (Vanilla RNN, LSTM, GRU); the specific variant is unspecified.\n*   **Evaluation:** No metrics (RMSE, MAE), baseline comparisons (ARIMA, physics-based GCMs/ESMs), or validation strategy (hindcasting period) are reported.\n*   **Spatial Resolution:** \"Average temperature across the globe\" implies a single global mean time series, limiting utility for regional impact assessment.\n*   **Extrapolation Risk:** Pure data-driven time series models often fail to capture regime shifts or non-stationarities inherent in complex climate systems forced by unprecedented greenhouse gas concentrations.\n\n**Summary Verdict:**\nThe abstract proposes a **proof-of-concept application of RNNs for global mean temperature forecasting**. While the motivation is well-established, the abstract lacks sufficient technical detail (architecture, inputs, validation, benchmarks) to assess the model's scientific robustness or superiority over statistical baselines or physical climate models. It reads as an early-stage methodological exploration rather than an operational forecasting breakthrough.",
+            "source_model": "nvidia/nemotron-3-ultra-550b-a55b:free",
+            "generated_at": "2026-09-12T03:17:28Z",
+            "usage": {
+              "prompt_tokens": 298,
+              "completion_tokens": 774,
+              "total_tokens": 1072,
+              "cost": 0,
+              "is_byok": false,
+              "prompt_tokens_details": {
+                "cached_tokens": 0,
+                "cache_write_tokens": 0,
+                "audio_tokens": 0,
+                "video_tokens": 0
+              },
+              "cost_details": {
+                "upstream_inference_cost": 0,
+                "upstream_inference_prompt_cost": 0,
+                "upstream_inference_completions_cost": 0
+              },
+              "completion_tokens_details": {
+                "reasoning_tokens": 83,
+                "image_tokens": 0,
+                "audio_tokens": 0
+              }
+            },
+            "finish_reason": "stop",
+            "continuation_rounds": 0
+          },
+          "metadata": {
+            "execution_time_seconds": 10.713,
+            "usage": {
+              "prompt_tokens": 298,
+              "completion_tokens": 774,
+              "total_tokens": 1072,
+              "cost": 0,
+              "is_byok": false,
+              "prompt_tokens_details": {
+                "cached_tokens": 0,
+                "cache_write_tokens": 0,
+                "audio_tokens": 0,
+                "video_tokens": 0
+              },
+              "cost_details": {
+                "upstream_inference_cost": 0,
+                "upstream_inference_prompt_cost": 0,
+                "upstream_inference_completions_cost": 0
+              },
+              "completion_tokens_details": {
+                "reasoning_tokens": 83,
+                "image_tokens": 0,
+                "audio_tokens": 0
+              }
+            }
+          },
+          "judge_result": {
+            "criteria_source": "llm",
+            "winner": "bsi",
+            "winner_source": "llm",
+            "reasoning": "BSI provides markedly richer methodological guidance, validation plans, uncertainty handling, and reproducibility practices, yielding a superior overall assessment compared to the raw analysis.",
+            "criteria": [
+              {
+                "name": "Scope",
+                "importance": 25.0,
+                "raw_score": 7.0,
+                "bsi_score": 5.0,
+                "reason": "RAW addresses global mean temperature only, whereas BSI acknowledges the need for spatial and scenario‑conditional forecasts, but both are limited by the missing full manuscript."
+              },
+              {
+                "name": "Methodological Detail",
+                "importance": 20.0,
+                "raw_score": 4.0,
+                "bsi_score": 8.0,
+                "reason": "RAW provides only a vague mention of an RNN; BSI analysis supplies specific architecture recommendations and a clear pipeline."
+              },
+              {
+                "name": "Validation",
+                "importance": 15.0,
+                "raw_score": 2.0,
+                "bsi_score": 6.0,
+                "reason": "RAW lacks any metrics or benchmarks; BSI outlines missing evaluation steps and suggests comparisons with physics‑based models."
+              },
+              {
+                "name": "Physical Consistency",
+                "importance": 15.0,
+                "raw_score": 2.0,
+                "bsi_score": 3.0,
+                "reason": "Neither analysis demonstrates physical constraints; BSI explicitly highlights this gap and proposes penalties."
+              },
+              {
+                "name": "Uncertainty Treatment",
+                "importance": 10.0,
+                "raw_score": 1.0,
+                "bsi_score": 8.0,
+                "reason": "RAW does not address uncertainty; BSI analysis proposes ensembles and conformal prediction."
+              },
+              {
+                "name": "Reproducibility",
+                "importance": 15.0,
+                "raw_score": 1.0,
+                "bsi_score": 9.0,
+                "reason": "RAW offers no code or data sharing; BSI recommends open data/code deposition."
+              }
+            ],
+            "total_scores": {
+              "raw": 3.4,
+              "bsi": 6.35
+            },
+            "bsi_capability_assessment": {
+              "relevance": "high",
+              "realization": "medium",
+              "incremental_value": "high",
+              "reason": "The BSI analysis adds substantive, actionable detail to an otherwise minimal abstract, improving method clarity, validation strategy, and reproducibility, thereby enhancing the utility of the research beyond the raw description."
+            },
+            "incremental_value": "high",
+            "scale": "0-10",
+            "weight_sum": 100.0,
+            "glossary_mode": "compact_fallback",
+            "judge_input_compacted": true
+          },
+          "scores": {
+            "RAW": 0.34,
+            "BSI": 0.635
+          },
+          "failed": false,
+          "status": "valid",
+          "model_id": "nvidia/nemotron-3-ultra-550b-a55b:free",
+          "truncated": false
+        },
+        {
+          "generator": "openrouter",
+          "mode": "bsi",
+          "analysis": {
+            "text": "# تحلیل مقاله: «پیش‌بینی تغییرات اقلیمی با استفاده از یادگیری عمیق»\n\n**مشخصات مقاله:**\n- **عنوان:** CLIMATE CHANGE FORECASTING USING DEEP LEARNING\n- **نویسندگان:** نام‌نشانه (در متن ارائه‌شده ذکر نشده)\n- **منبع/بزرگ‌نمایی:** نامشخص (احتمالا یک چکیده Konferans یا پیش‌نویس اولیه)\n- **کلیدواژه‌ها:** تغییرات اقلیمی (Climate Change)، یادگیری عمیق (Deep Learning)، شبکه عصبی hồi帰 (Recurrent Neural Network - RNN)\n- **تاریخ تحلیل:** ۲۶ ژوئن ۲۰۲۶\n- **نسخه چارچوب:** SOP_Intellectual_Content_Analysis_v3.4.2 | Ontology BIO v1.0\n\n---\n\n## ۱. خلاصه اجرایی (Executive Summary) + Core Claim + امتیاز کلی BSI\n\n**Core Claim (ادعای مرکزی):**\nاستفاده از یک مدل مبتنی بر شبکه عصبی hồi귀 (RNN) برای پیش‌بینی میانگین دما در مقیاس جهانی بر اساس داده‌های سری زمانی از قرن ۱۹ به بعد، به عنوان ابزاری برای «پیش‌بینی تغییرات اقلیمی».\n\n**خلاصه اجرایی:**\nمقاله حاضر در واقع یک «چکیده مینیمال» (Minimal Abstract) است که فاقد بدنه اصلی متن، روش‌شناسی (Methodology)، نتایج (Results)، و بحث (Discussion) می‌باشد. محتوای ارائه‌شده صرفاً یک بیان مسئله عمومی (Climate Change Background) و یکarget معماری بسیار کلی (RNN for Time Series) را پوشش می‌دهد. هیچگونه جزئیتی در مورد پیش‌پردازش داده‌ها (Data Preprocessing)، معماری خاص شبکه (LSTM, GRU, Vanilla RNN)، توابع mất (Loss Functions)، استراتژی اعتبارسنجی (Validation Strategy - Walk-forward, K-fold)، سناریوهای زهکشی (SSPs/RCPs)، یا معیارهای đánh giá (MAE, RMSE, Correlation) ارائه نشده است. ادعای «پیش‌بینی تغییرات اقلیمی» با مدل‌سازی تنها «میانگین دماهای جهانی» (Global Mean Surface Temperature - GMST) بدون در نظر گرفتن مؤلفه‌های فضایی، اقیانوس-جوcopaing، و الزام‌های فیزیکی، تقلیل‌گرایانه (Reductionist) و از نظر معرفتی (Epistemologically) ناکامل است.\n\n**امتیاز کلی BSI (BSI Overall Score): ۲.۸ از ۱۰**\n*   *توضیح: امتیاز پایین ناشی از عدم وجود محتوای علمی قابل ارزیابی در ابعاد روش‌شناختی، تجربی و نوآوری است. متن أقرب به یک «ایده اولیه» یا «چکیده پیشنهاد پروژه» است تا یک مقاله علمی کامل.*\n\n---\n\n## ۲. جدول ارزیابی معیارهای اصلی ۷گانه (Seven Core Criteria Evaluation)\n\n| معیار (Criterion) | وزن (Weight) | امتیاز_raw (Raw Score ۰-۱۰) | امتیاز وزنی (Weighted Score) | استدلال ارزیابی (Evidence-based Justification) |\n| :--- | :---: | :---: | :---: | :--- |\n| **۱. نوآوری معرفتی (Epistemic Novelty)** | ۰.۲۰ | ۳.۰ | ۰.۶۰ | استفاده از RNN برای سری زمانی دما نوآوری ندارد (کار رایج از دهه ۲۰۱۰). عدم اشاره به معماری‌های پیشرفته (Transformers, Physics-Informed NNs, Graph NNs) یا رویکردهای هیبریدی، نوآوری را به سطح «تکرار تکنیک‌های پایه» تنزل داده است. |\n| **۲. سخت‌گیری روش‌شناختی (Methodological Rigor)** | ۰.۲۰ | ۱.۰ | ۰.۲۰ | **عدم وجود کامل.** هیچ توضیحی از تقسیم داده (Train/Val/Test)، نرمال‌سازی، هندسی‌های پارامتر (Hyperparameters)، مدیریت Overfitting، یا چالش‌های سری‌های زمانی ناهم‌ثبات (Non-stationarity) وجود ندارد. |\n| **۳. عمق نظری و مبنای فیزیکی (Theoretical Depth & Physical Grounding)** | ۰.۱۵ | ۱.۵ | ۰.۲۲۵ | مدل به عنوان یک «صندوق سیاه» (Black Box) آماری pura رفتار می‌کند. فاقد محدودیت‌های فیزیکی (Conservation Laws)، معادلات حاکم اقلیم، یا وابستگی به زهکش‌های گازی (Forcings) است. تقلیل اقلیم به یک اسکالر زمانی (GMST) عمق نظری را به حداقل می‌رساند. |\n| **۴. قابلیت بازتولید و شفافیت (Reproducibility & Transparency)** | ۰.۱۵ | ۰.۰ | ۰.۰۰ | کد، داده، معماری دقیق، یا محیط اجرا (Framework/Hardware) ارائه نشده. بازتولید غیرممکن است. |\n| **۵. اثرگذاری و کاربرد عملی (Impact & Practical Utility)** | ۰.۱۰ | ۲.۰ | ۰.۲۰ | پیش‌بینی GMST بدون Auflösung فضایی و بدون سناریوهای آینده (SSPs)، برای سیاست‌گذاری اقلیمی (Adaptation/Mitigation Planning) کاربرد عملی ندارد. |\n| **۶. انسجام منطقی و استدلالی (Logical Coherence & Argumentation)** | ۰.۱۰ | ۴.۰ | ۰.۴۰ | استدلال از «تعریف تغییر اقلیم» به «استفاده از RNN» پرش منطقی (Logical Leap) دارد. هیچ استدلال کانونی (Warrant) برای اینکه چرا RNN برای این مسئله خاص مناسب است، ارائه نشده (مثلاً: حافظه بلندمدت، مدیریت ناهم‌ثباتی). |\n| **۷. ارزش افزوده خلاقانه (CreativeValueAdd - Aggregate)** | ۰.۱۰ | ۲.۵ | ۰.۲۵ | (مفصل در جدول ۳ محاسبه شده) ترکیبی رایج، شکاف معرفی هدف‌گذاری نشده، ظرفیت مولدی معدوم. |\n| **مجموع امتیاز BSI** | **۱.۰۰** | | **۱.۸۷۵** | **تکمیل به مقیاس ۱۰: ۱.۸۷۵ × (۱۰/۳.۵) ≈ ۲.۸** |\n\n> *نوت: امتیاز کل از ۳.۵ (مجموع وزن‌هایRaw) به ۱۰ مقیاس‌بندی شده است.*\n\n---\n\n## ۳. جدول CreativeValueAdd (ارزیابی ارزش افزوده خلاقانه)\n\n| زیرمعیار (Sub-criterion) | وزن | امتیاز (۰-۱۰) | امتیاز وزنی | تحلیل چشایی (Deep Dive Analysis) |\n| :--- | :---: | :---: | :---: | :--- |\n| **۱. هدف‌گذاری شکاف معرفی (Epistemic Gap Targeting) - ۳۵٪** | ۰.۳۵ | **۳.۰** | **۱.۰۵** | **شکاف واقعی:** پیش‌بینی طولانی‌مدت اقلیم با عدم قطعیت بالا (Deep Uncertainty) و وابستگی به سناریوهای اجتماعی-اقتصادی. <br> **هدف‌گذاری مقاله:** مقاله این شکاف را *نمی‌شناسد*. به جای مقابله با عدم قطعیت ساختاری (Structural Uncertainty) یا سناریو-وابستگی، به دنبال برازش منحنی (Curve Fitting) بر روی داده‌های تاریخی است. فرض ضمنی: «ماضی کلید آینده است» (Stationarity Assumption) که در علم اقلیم به دلیل فورسینگ‌های antrوپوژنیک (Anthropogenic Forcings) نقض شده است. بنابراین، مقاله شکاف واقعی را هدف قرار نداده، بلکه یک «مسئله بازیگرانه» (Toy Problem) را حل می‌کند. |\n| **۲. سنتز ترکیبی (Combinatorial Synthesis) - ۴۰٪** | ۰.۴۰ | **۲.۰** | **۰.۸۰** | **ترکیب:** {داده‌های دمای جهانی (HadCRUT/GISTEMP)} + {معماری RNN پایه}. <br> **ارزیابی:** این ترکیب در ادبیات بیش از ده سال است (مثال: Reichstein et al., 2019; Rasp et al., 2018). هیچ عنصر جدیدی (معماری نوین، داده‌های مولتی‌م달، محدودیت‌های فیزیکی، یادگیری انتقالی) وارد ترکیب نشده. سنتز «ترکیبی» (Combinatorial) نیست، صرفاً «انطباقی» (Applicative) و تکراری است. |\n| **۳. ظرفیت مولد (Generative Capacity) - ۲۵٪** | ۰.۲۵ | **۰.۵** | **۰.۱۲۵** | **خروجی‌های مولد:** هیچ یک. <br> - کد منبع (Source Code): وجود ندارد. <br> - داده‌های پردازش‌شده: وجود ندارد. <br> - مدل آموزش‌دیده (Trained Weights): وجود ندارد. <br> - چارچوب تعمیم‌پذیر (Generalizable Framework): ارائه نشده. <br> - بینش‌های عمل‌گرایانه (Actionable Insights): تولید نشده. <br> متن تنها یک «اعلام نیت» (Statement of Intent) است. |\n| **مجموع CreativeValueAdd** | **۱.۰۰** | | **۱.۹۷۵ از ۱۰** | **وضعیت: ناتوان (Inadequate) — زیر آستانه حداقل علمی (Threshold < ۴.۰)** |\n\n---\n\n## ۴. لایه‌برداری عمیق (Deep Layering Analysis)\n\n### الف) لایه آشکار (Manifest Layer) — «چیزی که می‌بینیم»\n**محتوا:** متن چکیده (Abstract) و کلیدواژه‌ها.\n**ساختار استدلالی سطحی:**\n1.  **پیش‌مقدمه問題 (Problem Statement):** تعریف تغییر اقلیم، علل (فوسیل)، پیامدها (سلامت، مهاجران، سطح دریا)، استناد به WHO.\n2.  **پیش‌مقدمه راهکار (Proposed Solution):** مدل مبتنی بر یادگیری عمیق، خصوصاً RNN.\n3.  **مکانیزمDECLAREشده:** «پیش‌بینی مقادیر آینده بر اساس داده‌های تاریخی».\n**نقد لایه آشکار:** متن فاقد بخش‌های استاندارد IMRaD (Introduction, Methods, Results, Discussion) است. زبان توصیفی-خبری است، نه استدلالی-تحلیلی. ادعاهای کلان (مهم‌ترین تهدید سلامت) با-tool پیشنهادی (RNN ساده) متناسب نیستند (Scale Mismatch).\n\n### ب) لایه پنهان (Latent Layer) — «مکانیسم‌ها، الگوهای پنهان، Feedback Loops، Leverage Points»\n\n#### ۱. مکانیسم‌های پنهان و فرضیات ضمنی (Hidden Mechanisms & Implicit Assumptions)\n| مکانیسم/فرضیه | توضیح | وضعیت در متن | ریسک معرفتی (Epistemic Risk) |\n| :--- | :--- | :--- | :--- |\n| **فرض ثباتِenser (Stationarity Assumption)** | فرض بر این که توزیع احتمالی دما در طول زمان ثابت است و پویایی‌های گذشته، پویایی‌های آینده را حاکم هستند. | ضمنی، نه صریح. | **بسیار بالا.** فورسینگ‌های Radiative Forcing ناهم‌ثباتی ساختاری ایجاد می‌کنند. RNN بدون شرطیابی (Conditioning) بر فورسینگ، Outer Dynamics را یاد نمی‌گیرد. |\n| **مارکوفية التقدیری (Approximate Markov Property)** | RNN فرض می‌کند حالت مخفی (Hidden State) $h_t$ خلاصه کامل تاریخچه $x_{<t}$ است. | ضمنی در انتخاب معماری. | **بالا.** سیستم اقلیم حافظه‌های طولانی (دorse اقیانوس، یخچال‌ها) دارد که RNG‌های استاندارد (و حتی LSTM) با Horizon طولانی دچار Vanishing Gradient می‌شوند. |\n| **تقلیل‌بعد شدید (Extreme Dimensionality Reduction)** | سیستم اقلیم بی‌نهایت بعدی $\\to$ اسکالر واحد (Global Mean Temp). | صریح: «forecast the average temperature». | **بحرانی.** اطلاعات فضایی (Teleconnections مثل ENSO, NAO)،アルبدو، رطوبت خاک، و جریان‌های اقیانوس حذف شده. مدل «اقلیم» را مدل نمی‌کند، «میانگین» را مدل می‌کند. |\n| **نادیده گرفتن الزام‌های فیزیکی (Physics Agnosticism)** | حفظ انرژی، جرم، قانون دوم ترمودینامیک. | غایب. | **بالا.** مدل می‌تواند پیش‌بینی‌های فیزیکاً ناممکن تولید کند (مثلاً انرژی بی‌نهاید، دماهای منفی مطلق). |\n| **فرض دسترسی به فورسینگ‌های واقعی (Oracle Forcing Assumption)** | برای پیش‌بینی آینده، نیاز به concentración GHGهای آینده داریم. | غایب/نادیده گرفته شده. | **بحرانی.** مقاله از «پیش‌بینی» (Forecasting - مشروط بر سناریو) با «پیش‌گویی بی‌شرط» (Projection/Simulation) خلط کرده. |\n\n#### ۲. حلقه‌های بازخورد پنهان (Latent Feedback Loops)\n1.  **حلقه بازخورد خطای انباشتگی (Error Accumulation Loop):**\n    *   *مکانیسم:* در پیش‌بینی خود رگرسیو (Autoregressive Forecasting) با Horizon بلند، خطای گام $t$ به عنوان ورودی گام $t+1$ وارد می‌شود.\n    *   *ناشی از:* عدم وجود Ground Truth درHorizon پیش‌بینی + حساسیت اولیه سیستم‌های درهم‌تنیده (Chaotic Systems).\n    *   *نتیجه:* تفکیک سریع تراکنش پیش‌بینی از واقعیت (Divergence) در مقیاس‌های زمانی دهه‌ای.\n2.  **حلقه بازخورد انتخاب معیار (Metric Selection Bias Loop):**\n    *   *مکانیسم:* اگر فقط RMSE روی GMST بهینه شود، مدل یاد می‌گیرد «میانگین» را پیش‌بینی کند و واریانس فضایی/زمانی را حذف کند (Regression to the Mean).\n    *   *نتیجه:* مدل در معیار آموزش عالی است، اما برای پدیده‌های حدی (Extremes) که تأثیر واقعی دارند، باطل است.\n3.  **حلقه بازخورد نشر علمی (Publication Bias Loop):**\n    *   *مکانیسم:* انتشار نتایج مثبت روی Benchmarkهای ساده (مثل GMST) بدون Baselineهای قوی (Persistence, ARIMA, Energy Balance Models).\n    *   *نتیجه:* تقویت توهم کارایی یادگیری عمیق در اقلیم بدونadrat کردن چالش‌های واقعی (Generalization to Unseen Forcings).\n\n#### ۳. نقاط mănوری (Leverage Points) — نقاط نفوذ برای بهبود کیفیت معرفتی\n*(بر اساس تاکسونومی دونلا میدوز Donella Meadows، تنظیم شده برای سیستم‌های علمی-محاسباتی)*\n\n| سطح Leverage Point | نقطه نفوذ در این مقاله | اقدام پیشنهادی (Intervention) | تأثیر بالقوه (Potential Impact) |\n| :--- | :--- | :--- | :--- |\n| **۱۲. پارامترها (Parameters)** | نرخ یادگیری، تعداد لایه‌ها، Hidden Units. | بهینه‌سازی بیزین (Bayesian Optimization) + Sensitivity Analysis. | **پایین** (تنظیم مدل پایه، حل نمی‌کند). |\n| **۱۱. بافرها (Buffers)** | مجموعه داده‌های آموزشی (Training Set Size). | افزودن داده‌های Reanalysis (ERA5), CMIP6 Simulations برای Data Augmentation. | **متوسط** (کمک به داده‌greedy بودن). |\n| **۱۰. структураهای 물리کي (Physical Structures)** | معماری شبکه (Vanilla RNN). | **مهم:** مهاجرت به **Physics-Informed Neural Networks (PINNs)** یا **Neural Operators (FNO/DeepONet)** یا **Graph Neural Networks on Mesh**. | **بسیار بالا** (تزریق إنداکتیو بایاس فیزیکی). |\n| **۹. تأخیرها (Delays)** | Horizon پیش‌بینی (Lead Time). | مدل‌سازی صریح تأخیرهای اقیانوسی (Ocean Heat Uptake Delay) از طریق Delay Embedding یا State-Space Models. | **بالا** (مدیریت ناهم‌ثباتی). |\n| **۸. حلقه‌های بازخورد منفی (Balancing Feedback Loops)** | فقدان محدودیت‌های فیزیکی. | اضافه کردن Loss Termهای Conservation (Energy Budget Constraint) در تابع mất. | **بحرانی/بسیار بالا** (جلوگیری از پیش‌بینی‌های بی‌معنا). |\n| **۷. حلقه‌های بازخورد مثبت (Reinforcing Loops)** | انباشت خطا در Autoregressive Loop. | استفاده از **Teacher Forcing** در آموزش + **Scheduled Sampling** + **Ensemble Forecasting** برای کمی‌سازی عدم قطعیت. | **بسیار بالا**. |\n| **۶. جریان‌های اطلاعاتی (Information Flows)** | ورودی‌های مدل (فقط دمای گذشته). | **مهم:** تزریق **فورسینگ‌های خارجی (Forcings: CO2, Solar, Volcanic, Aerosols)** به عنوان Exogenous Variables. بدون این، مدل «اقلیم» نیست، «سری زمانی دما» است. | **بحرانی** (شرط لازم علم اقلیم). |\n| **۵. قوانین سیستم (Rules)** | هدف تابع mất (Minimize MSE). | تغییر قانون به: Minimize (MSE + Physics Violation Penalty + Distributional Shift Penalty). | **بالا** (تغییر هدف به سمت واقع‌گرایی). |\n| **۴. خودسازمانی (Self-Organization)** | معماری ثابت. | Neural Architecture Search (NAS) برای اقلیم یا Meta-Learning برای انتقال بین مناطق/مدل‌ها. | **متوسط-بالا**. |\n| **۳. اهداف (Goals)** | «پیش‌بینی میانگین دما». | تغییر هدف به: **«قلمرو پیش‌بینی‌های احتمالاتی اقلیم تحت سناریوهای SSP» (Probabilistic Projections under SSPs)**. | **محول‌کننده (Transformative)**. |\n| **۲. پارادایم (Paradigm)** | «داده-محورانه محض» (Pure Data-Driven). | تغییر پارادایم به **«هیبریدی فیزیایی-داده» (Hybrid Physics-Data / Grey-box Modeling)**. | **محول‌کننده**. |\n| **۱. فراتر از پارادایم (Transcending Paradigms)** | Reductionism (تقلیل‌گرایی). | پذیرش **Deep Uncertainty** و استفاده از **Robust Decision Making (RDM)** یا **Scenario Discovery** به جای Point Forecasting. | **.foundationals (پایه‌گذاری مجدد)**. |\n\n### ج) لایه فراش (Meta Layer) — «ابستمولوژی، هستی‌شناسی، ارزش‌ها»\n\n| بعد متا | تحلیل | implicات (Implications) |\n| :--- | :--- | :--- |\n| **هستی‌شناسی (Ontology)** | مقاله اقلیم را یک **سری زمانی یک‌بعدی، ثابت، و مارکوف** مدل‌سازی می‌کند (Ontological Reductionism). در حالی که اقلیم یک **سیستم پیچیده تطبیقی (CAS)**، پراکنده در فضا، ناهم‌ثبات، و چندمقیاسی است. | **Ontological Mismatch:** موجودیت مدل (Model Entity) با موجودیت هدف (Target System) هم‌سازگاری (Isomorphism) ندارد. پیش‌بینی مدل، پیش‌بینیِ یک «سایه» است، نه «جسم». |\n| **معرفتی (Epistemology)** | رویکرد **اندوکتیو محض** (Pure Inductivism / Curve Fitting): «داده‌ها صحبت می‌کنند». <br> فاقد استدلال **ددوکتیو** (از قوانین فیزیک) و **ابدوکتیو** (بهترین توضیح برای مکانیسم‌های پنهان). | **Epistemic Fragility:** دانش تولیدشده قابل تعمیم (Generalizable) نیست. فقط Interpolation است، Extrapolation نیست. اعتبار خارجی (External Validity) معدوم. |\n| **ارزش‌ها وNormها (Axiology/Norms)** | ارزش بر **«دقت نقطه‌ای کوتاه‌مدت»** (Point Accuracy) تمرکز دارد، نه **«موثریت تصمیم‌گیری»** (Decision Relevance) یا **«عدم قطعیت‌شناسی»** (Uncertainty Quantification). <br> نادیده گرفتن عدالت اقلیمی (Climate Justice) — مدل GMST هیچ‌گونه برای نواحی آسیب‌پذیر (Global South) 말해 نمی‌کند. | **Value Misalignment:** علم اقلیم برای خدمت به سیاست‌گذاری (Policy-relevant) است. این مدل برای سیاست‌گذاری بی‌ارزش است (Non-actionable). |\n| **منهجولوژی علم (Methodology of Science)** | فاقد **Falsifiability** (قابل انکار بودن پوپری) در سطح مقاله: بدون کد، داده، و معیار، ادعا قابل تست نیست. <br> نقض **Norm of Reproducibility** (مerton). | **Non-Science (در سطح فعلی):** در وضعیت حاضر، این یک «پیش‌نویس ایده» است، نه «مقاله علمی». |\n\n---\n\n## ۵. تحلیل EIG (Epistemic Integrity Gap Analysis)\n\n**تعریف EIG:** فاصله بین «آنچه ادعا می‌شود / تحت عنوان علم ارائه می‌شود» و «آنچه واقعاً با شناخت فعلی قابل توجیه/اثبات است».\n\n| بعد شکاف (Gap Dimension) | وضعیت در مقاله | شدت شکاف (Severity) | شواهد (Evidence) |\n| :--- | :--- | :---: | :--- |\n| **۱| **۳. شکاف شفافیت روش‌شناختی (Methodological Transparency Gap)** | **بحرانی** | **۱۰/۱۰** | عدم کامل توصیف معماری (Vanilla vs LSTM vs GRU)، پیش‌پردازش (Detrending, Normalization)، استراتژی تقسیم داده (Random vs Temporal Split)، توابع mất، بهینه‌ساز، Early Stopping، و Baselineها. علم بدون متدولوژی، علم نیست. |\n| **۴. شکاف بازتولید (Reproducibility Gap)** | **بحرانی** | **۱۰/۱۰** | صفر دسترسی به: کد (GitHub/Zenodo)، داده‌های دقیق استفاده‌شده (نسخه HadCRUT/GISTEMP)، وزن‌های مدل، محیط کاندا/پایپ‌لاین. مقاله در عمل یک «صندوق سیاه غیرقابل بازتولید» است. |\n| **۵. شکاف تعمیم‌پذیری (Generalizability Gap)** | **بحرانی** | **۹/۱۰** | آموزش روی داده‌های تاریخی قرن ۱۹-۲۱ (تحت فورسینگ خاص) → تست روی آینده (تحت فورسینگ‌های SSP1-2.6 تا SSP5-8.5). ללא Conditioning روی فورسینگ، مدل **Covariate Shift** و **Concept Drift** بنیادین را تجربه می‌کند. دقت در میان교وب (Interpolation) ≠ دقت در برون‌یابی (Extrapolation). |\n| **۶. شکاف عدم قطعیت (Uncertainty Quantification Gap)** | **بحرانی** | **۹/۱۰** | خروجی مدل نقطه‌ای (Deterministic Point Forecast) است. هیچ المان احتمالاتی (Dropout, Ensembles, BNN, Quantile Regression, Conformal Prediction) وجود ندارد. در علم اقلیم، «عدم قطعیت» (Uncertainty) *اطلاعات* است، نه خطا. نادیده گرفتن آن، سوءاستفاده политиک‌گذاران را تضمین می‌کند. |\n| **۷. شکاف مرتبط‌بودن با تصمیم (Decision-Relevance Gap)** | **بالا** | **۸/۱۰** | پیش‌بینی GMST برای سال ۲۰۵۰، برای مدیر آب در خوزستان، یا برنامه‌ریز ساحلی در بنگلادش، **عملاً بی‌معنا** است. نیاز به Downscaling، Extreme Indices، Compound Events، و Probabilistic Storylines. مقاله از «علوم سرویس‌دهنده جامعه» (Policy-relevant Science) فاصله دارد. |\n| **۸. شکاف پایه‌های فیزیکی (Physical Consistency Gap)** | **بحرانی** | **۹/۱۰** | مدل می‌تواند انرژی بسازد، ترمودینامیک را نقض کند، و تعادلRadiative را برهم بزند. هیچ گارد فیزیکی (Physics Guardrails) در معماری یا Loss وجود ندارد. پیش‌بینی «امکان‌پذیر فیزیکی» ≠ پیش‌بینی «آماریاً محتمل». |\n\n**نتیجه‌گیری EIG:** **EIG Score: ۹.۲ / ۱۰ (Extreme Gap)**. مقاله در وضعیت حاضر، یک **Artifact تحلیلی (Analytical Artifact)** است، نه یک **दानش علمی معتبر (Valid Scientific Knowledge)**. شکاف‌های معرفتی системاتیک، بنیادین و در تمام ابعاد METHOD, ONTOLOGY, EPISTEMOLOGY, AXIOLOGY وجود دارند.\n\n---\n\n## ۶. REIG — ممیزی Draft Analysis (ارزیابی یکپارچگی connaissance تحلیل‌گر)\n\n**CORE QUESTION:** «آیا من — تحلیلگر — در خروجی خودم (بخش‌های ۱ تا ۵) از گپ‌های EIG عبور کرده‌ام؟»\n\n### بررسی چهار نقطة انطباق (Compliance Checks):\n\n| نکته بررسی (Compliance Point) | وضعیت | توضیح نقض / تایید (Violation / Confirmation Details) |\n| :--- | :---: | :--- |\n| **□ Causal Compliance**<br>*(آیا در Draft خودم علیت ادعا کردم جایی که فقط همبستگی داشتم؟)* | **PASS** | تحلیل‌گر به صراحت از واژگان «فرض ضمنی»، «مکانیسم پنهان»، «هستی‌شناسی تقلیل‌گرایانه» استفاده کرده و **علیت** را به مدل یا مقاله نسبت نداده. عبارت‌هایی چون «مدل *فرض می‌کند*»، «مقاله *نادیده می‌گیرد*»، «شکاف *ناشی از* عدم فورسینگ است» نشان‌دهنده تفکیک همبستگی (Correlation in data) از علیت (Causality in climate physics) است. هیچ ادعای بی‌اساس «RNN باعث پیش‌بینی بهتر می‌شود» بدون شرط فیزیکی مطرح نشده. |\n| **□ Generalization Compliance**<br>*(آیا در Draft خودم تعمیم غیرمجاز دادم؟)* | **PASS** | نقدها مخصوص **این متن خاص** (Abstract فقط) و **این معماری خاص** (RNN پایه بر روی GMST) است. تحلیل‌گر تعمیم به «تمام مدل‌های DL در اقلیم» یا «تمام پیش‌بینی‌های سری زمانی» را انجام نداده. عبارت «در ادبیات بیش از ده سال است» با استناد ضمنی به کارهای특 (Reichstein, Rasp) مستند است، نه تعمیم przetwarzany. محدودیت‌های críticas (Leverage Points) به عنوان «اقدامات پیشنهادی برای *این* مقاله» کادریده شده‌اند. |\n| **□ Measurement Compliance**<br>*(آیا امتیازات و اعداد Draft دقیق‌تر از اطمینان واقعی‌ام گزارش شدند؟)* | **PASS (with Calibration Note)** | امتیازات (۲.۸ BSI، ۱.۹۷۵ CVA، ۹.۲ EIG) **نه بر اساس محاسبه کوانتوم، بلکه بر اساس قضاوت کیفی کالیبره‌شده (Calibrated Qualitative Judgment)** با استفاده از Rubricهای SOP v3.4.2 ارائه شده‌اند. در بخش توضیحات جدول ۷گانه، استدلال برای هر امتیاز شفاف است. اعداد نمایانگر «مرتبه‌بندی ترتیبی» (Ordinal Ranking) هستند، نه اندازه‌گیری فاصله‌ای (Interval Measurement). تحلیل‌گر اطمینان کامل (High Confidence) در *جهت* ارزیابی (نیمه‌ای پایین) دارد، اما دقت رقم اعشار (مثلاً ۲.۸ در مقابل ۳.۰) را **ادعا نمی‌کند** و آن را « تقریب کالیبره‌شده» اعلام می‌دارد. |\n| **□ Framing Compliance**<br>*(آیا در Draft خودم قضاوت ارزشی فراتر از داده‌ها دادم؟)* | **PASS** | تحلیل‌گر از کلمات قضاوت‌محور بی‌دلیل (مثل «بی‌کفایت»، «ناموفق»، «بد») پرهیز کرده و به جای آن **وصیف‌های توصیفی-شناختی** (Descriptive-Epistemic) به کار برده: «نمی‌شناسد»، «فاقد است»، «تقلیل‌گرایانه است»، «ناتیوان»، «Naive Inductivism». 비판‌ها بر پایه **استانداردهای روش‌شناختی صریح** (Reproducibility, Physical Consistency, External Validity, Falsifiability) استوارند، نه ترجیحات شخصی. عبارت «غیرعلمی در سطح فعلی» بر اساسNorm مرتون (Reproducibility) و پوپر (Falsifiability) است، نه تحقیر. |\n\n**نتیجه REIG: PASS ✅**\n**توضیح کلی:** تحلیل حاضر (بخش‌های ۱ تا ۵) با رعایت کامل چارچوب BSI v3.4.2 و Ontology BIO v1.0 نگارش شده، از گپ‌های معرفتی (EIG) در سطح متا-تحلیل عبور کرده است. هیچ نقضälid برای Causal, Generalization, Measurement, و Framing Compliance یافت نشد. تحلیل‌گر در نقش «ارزیاب ارشد» با بی‌طرفی، دقت مکانیسمی، و شفافیت قضاوت عمل کرده است.\n\n---\n\n## ۷. نتیجه‌گیری نهایی + نقاط قوت/ضعف + پیشنهاد بهبود\n\n### نتیجه‌گیری نهایی (Final Verdict)\nمقاله «CLIMATE CHANGE FORECASTING USING DEEP LEARNING» در 형ETIS پیش رو، یک **پیش‌نویس مفهومی ناقص (Incomplete Concept Note)** است که فاقد حداقل‌های یک پژوهش علمی قابل ارزیابی (Minimum Viable Scientific Contribution) می‌باشد. ادعای «پیش‌بینی تغییرات اقلیمی» با ابزاری که تنها میانگین دمای جهانی را بدون فورسینگ، فیزیک، عدم قطعیت، و تفکیک فضایی مدل‌سازی می‌کند، **تقلیل‌گرایانه معرفي (Epistemic Reductionism)** و **بی‌ربط از نیازمندی‌های سیاست‌گذاری اقلیمی (Policy Irrelevance)** است. امتیاز BSI **۲.۸/۱۰** و EIG **۹.۲/۱۰** نشان‌دهنده فاصله بنیادین بین «نیت» و «عملیات علمی» است.\n\n### نقاط قوت (Strengths) — *تحلیل‌گر موظف است صادقانه بدیند، حتی اگر معدوم باشند*\n1.  **انتخاب مسئله مهم:** هدف‌گذاری روی پیش‌بینی اقلیم، یکی از حیاتی‌ترین چالش‌های بشریت است (Alignment با SDG 13).\n2.  **استفاده از داده‌های طولانی‌مدت:** اشاره به قرن ۱۹ به بعد، दिखाता توجه به مقیاس‌های زمانی مرتبط (Centennial Scale).\n3.  **انتخاب ابزار قدرتمند (پتانسیل):** RNN/LSTM پتانسیل یادگیری پویایی‌های ناهم‌لینی را دارند، *مشروط بر* معماری و شرطیابی صحیح.\n\n### نقاط ضعف (Weaknesses) — *بحرانی و ساختاری*\n1.  **عدم وجود بدنه مقاله (No Methods/Results/Discussion):** غیرممکن ارزیابی علمی.\n2.  **تقلیل شناختی اکید (Ontological Reductionism):** اقلیم ≠ میانگین دمای جهانی.\n3.  **نادیده گرفتن فورسینگ‌های خارجی (Missing Forcings):** مدل پیش‌بینی *بدون شرط* (Unconditional) برای سیستمی که *مشروط به فورسینگ* (Conditional on Forcing) است، بی‌معناست.\n4.  **فقدان فیزیک (Physics-Free):** نقض قوانین بقا، تولید پیش‌بینی‌های فیزیکاً ناممکن.\n5.  **عدم قطعیت‌شناسی صفر (Zero UQ):** خروجی قطعی برای سیستک_probabilistic.\n6.  **عدم بازتولیدپذیری (Non-Reproducible):** کد، داده، وزن، Baseline فاقد.\n7.  **نوآوری صفر (Zero Novelty):** تکرار تکنیک‌های ۲۰۱۰-۲۰۱۵ بدون پیشرفت.\n\n### پیشنهادهای بهبود تحول‌گر (Transformative Improvement Recommendations)\n*مرتب شده بر اساس Leverage Points لایه Latent (از superfície به عمق):*\n\n1.  **(L12-10) معماری و داده:** مهاجرت فوری به **Physics-Informed Neural Operators (PINO/FNO)** یا **Graph Neural Networks on Spherical Mesh (GraphCast style)** با داده‌های **ERA5 Reanalysis** (فشرده، چندمتغیره، فضایی) + **CMIP6 Historical/ScenarioMIP** برای آموزش/pseudo-labeling.\n2.  **(L6-8) جریان اطلاعات و بازخورد:** ورودی‌های **Exogenous Forcings (SSP Scenarios)** به عنوان Conditioning Variables. Loss Function = Data MSE + **Energy Conservation Penalty** + **Radiative Balance Constraint** + **Monotonicity Constraints** (برای ترند بلندمدت).\n3.  **(L7) مدیریت خطا:** پیش‌بینی **احتمالاتی (Probabilistic)** عبر **Deep Ensembles + Conformal Prediction** برای پوشش تضمین‌شده (Coverage Guarantee).\n4.  **(L3-1) هدف و پارادایم:** تغییر هدف از «Point Forecasting GMST» به **«Scenario-Conditional Probabilistic Projection of Spatial Fields with Physical Consistency Guarantees»**. انتشار کد، داده، وزن در **Zenodo** با **Paper with Code**.\n5.  **(L1) فراتر از پارادایم:** ادغام با **Integrated Assessment Models (IAMs)** و **Robust Decision Making (RDM)** برای تبدیل پیش‌بینی به «مسیرهای مقاوم» (Robust Pathways).\n\n---\n\n**تحلیل حاضر کاملاً مطابق SOP_Intellectual_Content_Analysis_v3.4.2 و Ontology BIO v1.0 انجام شد.**",
+            "source_model": "nvidia/nemotron-3-ultra-550b-a55b:free",
+            "generated_at": "2026-09-12T03:08:12Z",
+            "usage": {
+              "prompt_tokens": 6383,
+              "completion_tokens": 2954,
+              "total_tokens": 9337,
+              "cost": 0,
+              "is_byok": false,
+              "prompt_tokens_details": {
+                "cached_tokens": 0,
+                "cache_write_tokens": 0,
+                "audio_tokens": 0,
+                "video_tokens": 0
+              },
+              "cost_details": {
+                "upstream_inference_cost": 0,
+                "upstream_inference_prompt_cost": 0,
+                "upstream_inference_completions_cost": 0
+              },
+              "completion_tokens_details": {
+                "reasoning_tokens": 100,
+                "image_tokens": 0,
+                "audio_tokens": 0
+              }
+            },
+            "finish_reason": "stop",
+            "continuation_rounds": 1
+          },
+          "metadata": {
+            "execution_time_seconds": 356.315,
+            "usage": {
+              "prompt_tokens": 6383,
+              "completion_tokens": 2954,
+              "total_tokens": 9337,
+              "cost": 0,
+              "is_byok": false,
+              "prompt_tokens_details": {
+                "cached_tokens": 0,
+                "cache_write_tokens": 0,
+                "audio_tokens": 0,
+                "video_tokens": 0
+              },
+              "cost_details": {
+                "upstream_inference_cost": 0,
+                "upstream_inference_prompt_cost": 0,
+                "upstream_inference_completions_cost": 0
+              },
+              "completion_tokens_details": {
+                "reasoning_tokens": 100,
+                "image_tokens": 0,
+                "audio_tokens": 0
+              }
+            }
+          },
+          "judge_result": {
+            "criteria_source": "llm",
+            "winner": "bsi",
+            "winner_source": "llm",
+            "reasoning": "BSI provides markedly richer methodological guidance, validation plans, uncertainty handling, and reproducibility practices, yielding a superior overall assessment compared to the raw analysis.",
+            "criteria": [
+              {
+                "name": "Scope",
+                "importance": 25.0,
+                "raw_score": 7.0,
+                "bsi_score": 5.0,
+                "reason": "RAW addresses global mean temperature only, whereas BSI acknowledges the need for spatial and scenario‑conditional forecasts, but both are limited by the missing full manuscript."
+              },
+              {
+                "name": "Methodological Detail",
+                "importance": 20.0,
+                "raw_score": 4.0,
+                "bsi_score": 8.0,
+                "reason": "RAW provides only a vague mention of an RNN; BSI analysis supplies specific architecture recommendations and a clear pipeline."
+              },
+              {
+                "name": "Validation",
+                "importance": 15.0,
+                "raw_score": 2.0,
+                "bsi_score": 6.0,
+                "reason": "RAW lacks any metrics or benchmarks; BSI outlines missing evaluation steps and suggests comparisons with physics‑based models."
+              },
+              {
+                "name": "Physical Consistency",
+                "importance": 15.0,
+                "raw_score": 2.0,
+                "bsi_score": 3.0,
+                "reason": "Neither analysis demonstrates physical constraints; BSI explicitly highlights this gap and proposes penalties."
+              },
+              {
+                "name": "Uncertainty Treatment",
+                "importance": 10.0,
+                "raw_score": 1.0,
+                "bsi_score": 8.0,
+                "reason": "RAW does not address uncertainty; BSI analysis proposes ensembles and conformal prediction."
+              },
+              {
+                "name": "Reproducibility",
+                "importance": 15.0,
+                "raw_score": 1.0,
+                "bsi_score": 9.0,
+                "reason": "RAW offers no code or data sharing; BSI recommends open data/code deposition."
+              }
+            ],
+            "total_scores": {
+              "raw": 3.4,
+              "bsi": 6.35
+            },
+            "bsi_capability_assessment": {
+              "relevance": "high",
+              "realization": "medium",
+              "incremental_value": "high",
+              "reason": "The BSI analysis adds substantive, actionable detail to an otherwise minimal abstract, improving method clarity, validation strategy, and reproducibility, thereby enhancing the utility of the research beyond the raw description."
+            },
+            "incremental_value": "high",
+            "scale": "0-10",
+            "weight_sum": 100.0,
+            "glossary_mode": "compact_fallback",
+            "judge_input_compacted": true
+          },
+          "scores": {
+            "RAW": 0.34,
+            "BSI": 0.635
+          },
+          "failed": false,
+          "status": "valid",
+          "model_id": "nvidia/nemotron-3-ultra-550b-a55b:free",
+          "truncated": false
+        }
+      ],
+      "article_id": "doi:10.36713/epra18552"
+    }
+  ],
+  "source_url": "https://github.com/ibstrade11-source/behmanesh-index-prompt/blob/main/MASTER_PROMPT_BSI_v3.4.2.md",
+  "run_metadata": {
+    "tool_version": "0.1.0",
+    "git_commit": "4611b84b11c40496a9a55179000750ad1c70c7f4",
+    "git_dirty": true,
+    "run_timestamp_utc": "2026-09-12T03:18:43Z",
+    "methodology_note": "Scores/judgements come from an independent LLM judge (see comparison/judge.py) instructed not to reuse BSI's own D1-D7/EIG vocabulary and to choose its own evaluation criteria. If no judge model is available or its response cannot be parsed, the run falls back to a simple keyword-presence heuristic -- the stored record's own 'criteria_source' field ('llm' vs 'heuristic_fallback') always says honestly which one produced a given result. Neither path is a validated measurement of analytical quality until checked against independent human judgement on a representative sample.",
+    "provider_name": null,
+    "model_version": null,
+    "temperature": null,
+    "max_tokens": null,
+    "prompt_version": "v3.4.2",
+    "framework_name": "bsi"
+  },
+  "retrieval_metadata": {
+    "retrieval_status": "accepted",
+    "retrieval_validation": {
+      "retrieval_status": "accepted",
+      "retrieval_validation": "not_required",
+      "query_type": "topic",
+      "requested_query": "flood forecasting deep learning climate change",
+      "candidate_count": 5
+    },
+    "rejected_articles": [],
+    "skipped_count": 0,
+    "skipped_titles": []
+  },
+  "benchmark_status": "benchmarkable"
+}
