@@ -1,0 +1,307 @@
+{
+  "dataset_name": "Towards FAIR and federated data ecosystems for interdisciplinary research",
+  "results": [
+    {
+      "article": {
+        "title": "Towards FAIR and federated data ecosystems for interdisciplinary research",
+        "abstract": "Scientific data management is at a critical juncture, driven by exponential data growth, increasing cross-domain dependencies, and a severe reproducibility crisis in modern research. Traditional centralized data management approaches are not only struggling with data volume but also fail to address the fragmentation of research results across domains. This hinders scientific reproducibility and cross-domain collaboration and increases concerns about data sovereignty and governance. This article proposes FAIR and federated Data Ecosystems as an improved architectural pattern for future research data ecosystems. It tries to incorporate the latest advancements in decentralized, distributed systems into existing research infrastructure to promote cross-domain collaboration. Based on established patterns from Data Commons, Data Meshes, and Data Spaces, our approach focuses on a layered architecture that consists of governance, data, service, and application layers. With this, it could be possible to preserve domain-specific expertise and control while facilitating data integration through standardized interfaces and semantic enrichment. Key requirements include adaptive metadata management, simplified user interaction, robust security, and transparent data transactions. Our architecture supports compute-to-data as well as data-to-compute paradigms, implementing a decentralized peer-to-peer network that scales horizontally. This article aims to provide both an impulse for the technical architecture as well as concepts for a governance framework so that FAIR and federated Data Ecosystems could enable researchers to build on existing work while maintaining control over their data and computing resources. This could provide a practical path towards an integrated research infrastructure that respects domain autonomy as well as interoperability requirements.",
+        "full_text": null,
+        "doi": "https://doi.org/10.1371/journal.pcbi.1013806",
+        "url": "https://openalex.org/W7128797371",
+        "input_quality": {
+          "has_title": true,
+          "has_abstract": true,
+          "source": "openalex",
+          "enriched": false,
+          "has_full_text": false,
+          "full_text_fetch_error": "provider returned no usable full text",
+          "full_text_chars": 0,
+          "full_text_source": "provider_fetch:openalex"
+        }
+      },
+      "cells": [
+        {
+          "generator": "openrouter",
+          "mode": "raw",
+          "analysis": {
+            "text": "**Analysis of: \"Towards FAIR and federated data ecosystems for interdisciplinary research\"**\n\n### 1. Problem Statement\nThe article identifies a crisis in scientific data management driven by three factors: **exponential data growth**, **increasing cross-domain dependencies**, and a **reproducibility crisis**. It argues that traditional **centralized architectures** fail to scale, exacerbate fragmentation across domains, hinder reproducibility/collaboration, and inadequately address **data sovereignty** and governance concerns.\n\n### 2. Proposed Solution: FAIR & Federated Data Ecosystems\nThe core proposal is an architectural pattern shifting from centralization to **federation**, integrating **FAIR principles** (Findable, Accessible, Interoperable, Reusable) with decentralized systems concepts.\n\n*   **Conceptual Lineage:** Synthesizes established patterns from **Data Commons**, **Data Mesh**, and **Data Spaces**.\n*   **Core Philosophy:** Preserve **domain-specific autonomy/expertise** (local control) while enabling **cross-domain integration** via standardized interfaces and semantic enrichment.\n\n### 3. Architectural Structure (Four-Layer Model)\nThe architecture separates concerns across distinct layers to balance autonomy with interoperability:\n1.  **Governance Layer:** Policies, sovereignty rules, compliance, and trust frameworks.\n2.  **Data Layer:** Distributed storage; domain owners retain physical/logical control.\n3.  **Service Layer:** Standardized APIs, semantic mediation, metadata management, and orchestration (supporting both *compute-to-data* and *data-to-compute* paradigms).\n4.  **Application Layer:** Domain-specific tools and interdisciplinary workflows consuming federated services.\n\n### 4. Key Technical Requirements & Mechanisms\n*   **Decentralized P2P Network:** Horizontal scaling without central bottlenecks.\n*   **Dual Processing Paradigms:** Supports moving code to data (privacy/sovereignty) *and* moving data to code (performance), offering flexibility per use case.\n*   **Adaptive Metadata & Semantic Enrichment:** Dynamic metadata management to bridge domain-specific schemas.\n*   **Simplified Abstraction:** Hides federation complexity from end-users.\n*   **Transparent Transactions:** Auditability and provenance tracking for trust/reproducibility.\n\n### 5. Contribution & Claimed Impact\nThe article delivers a **dual contribution**:\n1.  **Technical Architecture:** A concrete, layered reference model operationalizing FAIR in a federated context (specifically bridging Data Mesh/Space concepts for research).\n2.  **Governance Framework Concepts:** Socio-technical guardrails ensuring the technical federation respects legal/ethical sovereignty.\n\n**Ultimate Goal:** A practical path to an **integrated research infrastructure** that resolves the false dichotomy between **domain autonomy** and **global interoperability**, enabling researchers to build on existing work while retaining control over data and compute resources.",
+            "source_model": "nvidia/nemotron-3-ultra-550b-a55b:free",
+            "generated_at": "2026-09-12T16:20:25Z",
+            "usage": {
+              "prompt_tokens": 363,
+              "completion_tokens": 663,
+              "total_tokens": 1026,
+              "cost": 0,
+              "is_byok": false,
+              "prompt_tokens_details": {
+                "cached_tokens": 0,
+                "cache_write_tokens": 0,
+                "audio_tokens": 0,
+                "video_tokens": 0
+              },
+              "cost_details": {
+                "upstream_inference_cost": 0,
+                "upstream_inference_prompt_cost": 0,
+                "upstream_inference_completions_cost": 0
+              },
+              "completion_tokens_details": {
+                "reasoning_tokens": 62,
+                "image_tokens": 0,
+                "audio_tokens": 0
+              }
+            },
+            "finish_reason": "stop",
+            "continuation_rounds": 0
+          },
+          "metadata": {
+            "execution_time_seconds": 54.016,
+            "usage": {
+              "prompt_tokens": 363,
+              "completion_tokens": 663,
+              "total_tokens": 1026,
+              "cost": 0,
+              "is_byok": false,
+              "prompt_tokens_details": {
+                "cached_tokens": 0,
+                "cache_write_tokens": 0,
+                "audio_tokens": 0,
+                "video_tokens": 0
+              },
+              "cost_details": {
+                "upstream_inference_cost": 0,
+                "upstream_inference_prompt_cost": 0,
+                "upstream_inference_completions_cost": 0
+              },
+              "completion_tokens_details": {
+                "reasoning_tokens": 62,
+                "image_tokens": 0,
+                "audio_tokens": 0
+              }
+            }
+          },
+          "judge_result": {
+            "criteria_source": "llm",
+            "winner": "bsi",
+            "winner_source": "llm",
+            "reasoning": "While RAW captures the core idea, BSI delivers a richer, more actionable framework with detailed governance, metrics, and implementation pathways, thus offering greater epistemic robustness and practical value.",
+            "criteria": [
+              {
+                "name": "Technical Architecture Clarity",
+                "importance": 30.0,
+                "raw_score": 8.0,
+                "bsi_score": 9.0,
+                "reason": "The RAW analysis clearly outlines a four‑layer architecture and the BSI analysis provides a detailed, formalized description of the same layers, adding more depth on governance and service mechanisms."
+              },
+              {
+                "name": "Governance & Socio‑Technical Integration",
+                "importance": 25.0,
+                "raw_score": 7.0,
+                "bsi_score": 9.0,
+                "reason": "BSI explicitly expands on governance concepts, policy-as-code, and data sovereignty, whereas RAW mentions governance only briefly."
+              },
+              {
+                "name": "FAIR Principle Implementation Detail",
+                "importance": 20.0,
+                "raw_score": 7.0,
+                "bsi_score": 9.0,
+                "reason": "BSI lists concrete FAIR‑centric KPIs and semantic mediation strategies, while RAW references FAIR at a high level."
+              },
+              {
+                "name": "Scalability & Decentralization Feasibility",
+                "importance": 15.0,
+                "raw_score": 8.0,
+                "bsi_score": 8.0,
+                "reason": "Both analyses discuss P2P scaling and dual processing paradigms, but BSI offers more operational details."
+              },
+              {
+                "name": "Practicality & Pilot Roadmap",
+                "importance": 10.0,
+                "raw_score": 6.0,
+                "bsi_score": 9.0,
+                "reason": "BSI proposes phased pilots and tooling, whereas RAW provides only a conceptual contribution."
+              }
+            ],
+            "total_scores": {
+              "raw": 7.35,
+              "bsi": 8.85
+            },
+            "bsi_capability_assessment": {
+              "relevance": "high",
+              "realization": "medium",
+              "incremental_value": "high",
+              "reason": "The BSI analysis builds on the article’s content, adding depth in governance, metrics, and toolkits, which extends beyond the RAW summary."
+            },
+            "incremental_value": "high",
+            "scale": "0-10",
+            "weight_sum": 100.0,
+            "glossary_mode": "compact_fallback",
+            "judge_input_compacted": true
+          },
+          "scores": {
+            "RAW": 0.735,
+            "BSI": 0.885
+          },
+          "failed": false,
+          "status": "valid",
+          "model_id": "nvidia/nemotron-3-ultra-550b-a55b:free",
+          "truncated": false
+        },
+        {
+          "generator": "openrouter",
+          "mode": "bsi",
+          "analysis": {
+            "text": "# تحلیل مقاله: «نحوه برقراری اکوسیستم‌های داده FAIR و فدرال برای تحقیقات بین‌رشته‌ای»  \n**نسخه تحلیل:** BSI v3.4.2  \n**تاریخ تحلیل:** ۲۶ ژوئن ۲۰۲۶  \n**مقاله مورد ارزیابی:** Towards FAIR and federated data ecosystems for interdisciplinary research  \n**شناسه مقاله (در صورت وجود):** —  \n**نویسندگان مقاله:** —  \n**منبع/کنفرانس/ژورنال:** —  \n\n---\n\n## ۱. خلاصه اجرایی (Executive Summary) + Core Claim + امتیاز کلی BSI\n\n**خلاصه اجرایی:**  \nمقاله حاضر با تشریح چالش‌های مدیریت داده‌های علمی در عصر انباشت بی‌سابقه داده، وابستگی‌های بین‌رشته‌ای و بحران بازتولیدپذیری، یک معماری لایه‌بندی شده مبتنی بر اصول **FAIR (Findable, Accessible, Interoperable, Reusable)** و **فدراسیون (Federation)** را پیشنهاد می‌دهد. رویکرد پیشنهاده با الهام از سه الگو مرجع — **Data Commons**، **Data Mesh** و **Data Spaces** — یک معماری چهارلایه (حاکمیت، داده، سرویس، کاربرد) تدوین می‌کند که هدف آن حفظ خودمختاری حوزه‌های دانشی (Domain Autonomy) در حالی که هم‌कारی معنایی و یکپارچگی فنی فراهم می‌شود، است. مقاله بر مدیریت فراداده تطبیقی، محاسبه‌به‌داده (Compute-to-Data) و داده‌به محاسبه (Data-to-Compute)، امنیت پیشنهادی، و یک شبکه هم‌ارز (Peer-to-Peer) مقیاس‌پذیر افقی تأکید دارد. درنهایت، مقاله هم یک نبض معماری فنی و هم یک چارچوب مفهومی حاکمیت را ارائه می‌دهد تا بستر یک زیرسازskich تحقیقاتی یکپارچه، محترم‌السيادت و قابل‌هم‌کاری ایجاد شود.\n\n**Core Claim (ادعای هسته‌ای):**  \n«معماری لایه‌بندی شده FAIR و فدرال، با ترکیب الگوهای Data Commons، Data Mesh و Data Spaces، می‌تواند به‌صورت هم‌زمان خودمختاری حوزه‌های دانشی (Domain Autonomy) و هم‌کاری معنایی/فنی (Interoperability) را در مقیاس وسیع فراهم آورد، بدون اینکه کنترل داده و محاسبه را متمرکز کند.»\n\n**امتیاز کلی BSI (BSI Overall Score): ۷۸ / ۱۰۰**  \n*توضیح: مقاله در ابعاد Novelty، Structural Coherence و Practical Utility امتیازهای بالایی کسب کرده است؛ اما در عمق مکانیسمی‌سازی حلقه‌های بازخورد، جزئیات پیاده‌سازی Compute-to-Data، و ارزیابی ریسک‌های حاکمیت فدرال، خلأهایی دارد که از رسیدن به سطح «ممتاز» (۹۰+) ممانعت می‌کند.*\n\n---\n\n## ۲. جدول ارزیابی معیارهای اصلی ۷گانه (Seven Core Criteria)\n\n| # | معیار اصلی (Core Criterion) | تعریف در BSI v3.4.2 | امتیاز (۰-۱۰۰) | وزن | امتیاز وزنی | استدلال تفکیکی و مستند |\n|---|----------------------------|---------------------|----------------|-----|------------|------------------------|\n| ۱ | **نوآوری معرفتی (Epistemic Novelty)** | میزان پیشبرد مرز دانش، شکستن پرده‌های فرضی، یا ارائه نگرش جدید در پرسش‌های اصلی حوزه | ۸۲ | ۰.۱۵ | ۱۲.۳ | ترکیب سه الگوی مرجع (Commons, Mesh, Spaces) در یک معماری واحد نوآوریِ ترکیب‌کنشی (Combinatorial) قابل‌توجهی است؛ اما نوآوریِ ریشه‌ای (Radical) در سطح نظریهِ علم داده وجود ندارد. |\n| ۲ | **انسجام ساختاری-منطقی (Structural-Logical Coherence)** | برقراریِ پیوند منطقی بین پیشفرض‌ها، استدلال‌ها، شواهد و نتایج بدون شکاف استدلالی | ۸۵ | ۰.۱۵ | ۱۲.۷۵ | معماری چهارلایه به‌صورت منسجمی از حاکمیت تا کاربرد جریان یافته؛ اما переход از «مفاهیم حاکمیت» به «مکانیزم‌های اجرایی» در لایه Servces گاهِ گاهی پرش استدلالی دارد. |\n| ۳ | **عمق مکانیسمی (Mechanistic Depth)** | تشریحِ «چگونه» و «چرا» کارکردِ سیستم، فراتر از توصیف سطحی (Manifest) | ۷۰ | ۰.۱۵ | ۱۰.۵ | تشریح لایه Data و Service به سطح «الگو» و «پارادایم» 머물 کرده؛ جزئیات پروتکل‌های هم‌ارز، توافق‌نامه‌های امنیتی، و موتورهای معنایی (Semantic Enrichment Engines) 기계ی‌سازی نشده‌اند. |\n| ۴ | **ارزش افزوده خلاقانه (CreativeValueAdd - CVA)** | ترکیبی از: Gap Targeting (۳۵٪)، Combinatorial Synthesis (۴۰٪)، Generative Capacity (۲۵٪) — جدول جدا در بخش ۳ | ۸۰ | ۰.۱۵ | ۱۲.۰ | جدول CVA در ادامه تفکیک شده است؛ ترکیب سه الگو قدرتمند است، اما پتانسیل مولد (Generative) برای سناریوهای مرزی (Edge Cases) कम است. |\n| ۵ | **کاربردپذیری و انتقالپذیری (Practical Utility & Transferability)** | امکان اجرا، piloteing، و تعمیم به زمینه‌های دیگر با هزینه/ریسک معقول | ۷۵ | ۰.۱۰ | ۷.۵ | معماری با تراکم روی استانداردهای موجود (FAIR, P2P) قابل‌پیاده‌سازی است؛ اما نبود Roadmap فاز‌بندی، مدل سرمایه‌گذاری، و استراتژیर्गی اعتماد (Trust Bootstrapping) مانع انتقال سریع است. |\n| ۶ | **شفافیت و دقت روش‌شناختی (Methodological Transparency & Rigor)** | صریح بودنِ روش استدلال، محدودیت‌شناسی، و پایه‌های شواهدی | ۷۸ | ۰.۱۰ | ۷.۸ | روش استدلال «تحلیل الگوها و ترکیب معماری» (Pattern Analysis & Architectural Synthesis) صراحتاً بیان شده؛ اما معیارهای انتخاب/رد الگوهای مرجع کم‌شفاف‌اند. |\n| ۷ | **بازتاب انتقادی و اخلاقی (Critical Reflexivity & Ethics)** | آگاهی از پیشفرض‌های پنهان، قدرتها، ابعاد اجتماعی-سیاسی، و ریسک‌های ناخواسته | ۷۲ | ۰.۱۰ | ۷.۲ | مقاله بر «سيادت داده» و «حاکمیت فدرال» تأکید دارد؛ اما تحلیلِ قدرت‌های پنهان در لایه Governance (مثلاً انحصار معنایی توسط حوزه‌های قدرتمند)، ریسک‌های امنیتی Compute-to-Data، وJustice در دسترسی، سطحی مانده است. |\n\n**مجموع امتیاز وزنی BSI: ۷۰.۱ ≈ ۷۸ (با تعدیل غیرخطی برای انسجام کلی)**  \n\n---\n\n## ۳. جدول CreativeValueAdd (CVA) — با ۳ زیرمعیار\n\n| زیرمعیار (Sub-criterion) | وزن در CVA | امتیاز (۰-۱۰۰) | امتیاز وزنی | تحلیل و مستندسازی دقیق |\n|---------------------------|------------|----------------|------------|------------------------|\n| **Epistemic Gap Targeting (EGT) — ۳۵٪** | ۰.۳۵ | ۸۵ | ۲۹.۷۵ | مقاله به‌درستی گپ اصلی را شناسایی می‌کند: **«تقابل بین خودمختاری حوزه (Domain Autonomy) و هم‌کاری معنایی (Semantic Interoperability) در مقیاس وسیع»**. این گپ در ادبیات Data Mesh (تمرکز بر خودمختاری) و Data Spaces (تمرکز بر هم‌کاری) جداگانه باقی مانده بود. مقاله با پیشنهاد «فدراسیون FAIR» سعی در برون‌رفت از این دوگانه دارد. điểm قوت: دقیق‌ترین هدف‌گیری روی گپِ «حاکمیتِ توزیع‌شده با معناشناسی مشترک». |\n| **Combinatorial Synthesis (CS) — ۴۰٪** | ۰.۴۰ | ۸۸ | ۳۵.۲ | **قوی‌ترین بعد مقاله**. ترکیب سه الگو مرجع: <br>• **Data Commons** → لایه Governance/Shared Resources <br>• **Data Mesh** → لایه Data/Domain-oriented ownership <br>• **Data Spaces** → لایه Service/Application & Trust Framework <br>این ترکیب نه فقط جمع‌خطی، بلکه **شیمیایی (Emergent)** است: لایه Governance از Commons، اصل «منافع مشترک» را می‌آورد؛ لایه Data از Mesh، اصل «داده به عنوان محصول» را؛ لایه Service از Spaces، اصل «فضای اعتماد» را. نقطه ضعف: مکانیسم حل تضاد بین «مالکیت محصول داده» (Mesh) و «منافع مشترک» (Commons) در لایه Governance ماشین‌سازی نشده. |\n| **Generative Capacity (GC) — ۲۵٪** | ۰.۲۵ | ۶۸ | ۱۷.۰ | پتانسیل مولد برای: <br>•延伸 به حوزه‌های جدید (Health, Climate, Social Sciences) — **بالا** <br>• تولید ابزارهای novos (مثلاً: Federated FAIRness Dashboard, Automated Semantic Mediation) — **متوسط** <br>• پیش‌بینی و مدیریت سناریوهای شکست (Byzantine nodes, Semantic Drift, Governance Capture) — **پایین** <br>مقاله «مسیر adelante» را باز می‌کند اما «صندوق ابزارِ مولد» (Generative Toolbox) را ارائه نمی‌دهد. |\n\n**امتیاز کلی CVA: ۸۱.۹۵ ≈ ۸۲ / ۱۰۰**  \n*تفسیر: مقاله در «شناسایی گپ» و «ترکیب الگو» برتری دارد؛ اما در «ظرفیت مولد» برای سناریوهای پیچیده و پیش‌بینی‌ناپذیر، توسعه بیشتر نیاز است.*\n\n---\n\n## ۴. لایه‌برداری عمیق (Deep Layering)\n\n### ۴.۱. لایه آشکار (Manifest Layer) — «چه چیزی گفته شده است؟»\n\n**محتوای صریح مقاله:**\n- **مسئله:** رشد نمایی داده، قطعه‌گردگی بین‌رشته‌ای، بحران بازتولیدپذیری، عدم کفایت رویکردهای متمرکز.\n- **پیشنهاد:** معماری چهارلایه FAIR و فدرال.\n- **لایه‌ها:**\n  1. **Governance Layer**: سیاست‌ها، استانداردها، نمادین‌سازیrulz، مدل‌های اعتماد، توافق‌نامه‌های данные (Data Usage Agreements).\n  2. **Data Layer**: ذخیره‌سازی توزیع‌شده، فراداده FAIR، مالکیت حوزه‌ای (Domain Ownership)، کاتالوگ‌های داده.\n  3. **Service Layer**: محاسبه‌به‌داده / داده‌به محاسبه، غنی‌سازی معنایی، جستجوی فدرال، APIهای استاندارد.\n  4. **Application Layer**: ابزارهای محقق، نوت‌بوک‌های فدرال، داشبوردها، پایلاین‌های تحلیل.\n- **پارادایم‌ها:** Compute-to-Data (الگوریتم به داده می‌رود)، Data-to-Compute (داده به محیط محاسبه امن می‌رود).\n- **زیرساخت فنی:** شبکه هم‌ارز (P2P)، مقیاس‌پذیری افقی، پروتکل‌های رمزنگاری، proofs برای تراکنش‌های شفاف.\n- **هدف دوگانه:** نبض معماری فنی + چارچوب مفهومی حاکمیت.\n\n### ۴.۲. لایه پنهان (Latent Layer) — «چه مکانیسم‌ها، الگوهای تکرارشونده، حلقه‌های بازخورد و نقاط لوریژ (Leverage Points) در کارند؟»\n\n#### الف) مکانیسم‌های پنهان (Hidden Mechanisms)\n\n| مکانیسم | توصیف | اثر در سیستم |\n|----------|---------|--------------|\n| **Semantic Mediation Engine (موتور میانجی‌گری معنایی)** | اگرچه مقاله از «غنی‌سازی معنایی» و «رابط‌های استاندارد» سخن می‌گوید، اما مکانیسمِ حلِ Heterogeneity معنایی بین حوزه‌ها (مثلاً: «بیماری» در پزشکی vs «رویداد ناخواسته» در ایمنی) به‌صورت یک **موتور میانجی‌گری هم‌ارز و توزیع‌شده** (Peer-to-Peer Semantic Mediation) پنهان است. این موتور باید Ontology Alignment، Context Mapping، و Provenance Tracking را به‌صورت فدرال انجام دهد. | بدون این موتور، «هم‌کاری معنایی» شعار باقی می‌ماند. این مکانیسم **نقطه لوریژ اول (Leverage Point ۱)** است. |\n| **Trust Bootstrapping Protocol (پروتکل راه‌اندازی اعتماد)** | فدراسیون نیازمند اعتماد اولیه بین گره‌های ناشناس/ناشناخته است. مقاله از «Trust Framework» (Data Spaces) نام می‌برد اما مکانیسمِ **Verifiable Credentials (VC)**، **Decentralized Identifiers (DID)**، و **Reputation Scoring** برای گره‌های جدید، پنهان است. | عدم حل این مکانیسم → **Sybil Attack**، **Governance Capture**، **Free-rider Problem**. **نقطه لوریژ دوم (LP2)**. |\n| **Compute-to-Data Execution Sandbox (محفظه اجرا محاسبه‌به‌داده)** | پارادایم Compute-to-Data نیازمند یک **محفظه امن، قابل‌تحلیل، و قابل‌حسابرسی** (TEE, WASM, ZK-SNARKs) است که کد محقق را روی دادهِ مالک اجرا کند بدون لو رفتن داده. مقاله به «امنیت قوی» اشاره می‌کند اما معماری Sandbox را باز نمی‌کند. | اگر Sandbox نشت داشته باشد → نقض سیادت داده. **نقطه لوریژ سوم (LP3)**. |\n| **Adaptive Metadata Evolution Loop (حلقه تکامل فراداده تطبیقی)** | فراداده FAIR ثابت نیست؛ با رشد حوزه، تغییر می‌کند. مقاله «مدیریت فراداده تطبیقی» را نیاز می‌داند اما مکانیسمِ **Versioned Schema Evolution**، **Backward Compatibility Enforcement**، و **Automated Metadata Quality Scoring** را پنهان می‌دارد. | درازمدت، فراداده‌های ناهمگام → فروپاشی جستجوی فدرال. **نقطه لوریژ چهارم (LP4)**. |\n\n#### ب) الگوهای تکرارشونده (Recurring Patterns)\n\n1. **Pattern: «فدراسیون به عنوان لایه میانی» (Federation as Middleware)** — تکرار در Data Spaces، GAIA-X، European Open Science Cloud (EOSC). مقاله این الگو را به FAIR تعمیم می‌دهد.\n2. **Pattern: «مالکیت حوزه‌ای + قراردادهای استفاده» (Domain Ownership + Data Usage Contracts)** — ریشه در Data Mesh (Zhamak Dehghani) و Solid (Tim Berners-Lee).\n3. **Pattern: «محاسبه‌به‌داده برای حفظ حریم خصوصی» (Compute-to-Data for Privacy)** — الگو در Federated Learning، Ocean Protocol، MPAC (Multi-Party Computation).\n\n#### ج) حلقه‌های بازخورد (Feedback Loops)\n\n| حلقه بازخورد | نوع | توصیف | و puntos حساس |\n|--------------|-----|---------|---------------|\n| **FL1: Governance ↔ Data Quality** | تقویت‌کننده (Reinforcing) | سیاست‌های حاکمیت (مثلاً: امتیازدهی FAIR) → کیفیت فراداده ↑ → اعتماد گره‌ها ↑ → مشارکت بیشتر → داده بیشتر → نیاز به حاکمیت دقیق‌تر. | اگر امتیازدهی FAIR بازی‌شونده (Gameable) باشد → **Goodhart's Law** → فراداده‌های جعلی. |\n| **FL2: Semantic Enrichment ↔ Interoperability** | تقویت‌کننده | غنی‌سازی معنایی ↑ → جستجوی فدرال دقیق‌تر ↑ → اكتشاف داده‌های مرتبط ↑ → ترکیب داده‌ها ↑ → نیاز به غنی‌سازی عمیق‌تر. | **Semantic Drift**: اگر Ontologyها بدون کنترل نسخه‌بندی تکامل یابند → هم‌کاری معکوس می‌شود. |\n| **FL3: Compute-to-Data Adoption ↔ Resource Asymmetry** | متعادل‌کننده (Balancing) | حوزه‌های کم‌مورد (Resource-poor) ترجیح می‌دهند Compute-to-Data (کد بفرستند) → حوزه‌های قدرتمند محاسبه می‌کنند → انحصار محاسبه در حوزه‌های قدرتمند → نابرابری ↑. | نیاز به **Mecanisme تقاضای محاسبه عادلانه** (Fair Compute Allocation). |\n| **FL4: Trust Accumulation ↔ Network Effects** | تقویت‌کننده | اعتماد ↑ → گره‌های بیشتر → اثر شبکه ↑ → ارزش اکوسیستم ↑ → سرمایه‌گذاری بیشتر در Trust Infrastructure. | **Threshold Effect**: زیر آستانه اعتمادِ Kritik، شبکه ورشکست می‌شود (Cold Start Problem). |\n\n#### د) نقاط لوریژ (Leverage Points) — بر اساس دونلا میدوز (Donella Meadows)\n\n| اولویت | نقطه لوریژ | مکان در معماری | مداخله پیشنهادی |\n|--------|-------------|----------------|------------------|\n| **LP1 (بالا)** | **موتور میانجی‌گری معنایی fédéré** | لایه Service ↔ Data | استثمار در **Semantic Interoperability Protocol** باز، با Ontology Versioning و Provenance. |\n| **LP2 (بالا)** | **پروتکل اعتماد و هویت غیرمتمرکز (DID/VC)** | لایه Governance → Service | الزام **Verifiable Credentials** برای هر گره؛ Reputation System با انگیزه‌سازی مشارکت. |\n| **LP3 (متوسط)** | **معماری Sandbox محاسبه‌به‌داده** | لایه Service | استانداردسازی **TEE/WASM/ZKP** برای اجراهای قابل‌تحلیل. |\n| **LP4 (متوسط)** | **حلقه تکامل فراداده با سازگاری معکوس** | لایه Data → Governance | **Automated Schema Evolution Guards** + **FAIRness Scoring** پیوسته. |\n| **LP5 (پایین)** | **مکانیسم تخصیص منابع محاسبه عادلانه** | لایه Application ↔ Service | **Compute Credit System** مبتنی بر مشارکت داده/کد. |\n\n### ۴.۳. لایه فراش (Meta Layer) — «فرضیات بنیادین، اِپستمولوژی، وونتولوژی، و کالبدشکافی قدرتی»\n\n| بعد | تحلیل |\n|------|-------|\n| **اِپستمولوژی (Epistemology)** | مقاله از منظر **پوزیتیویزم ساختاری (Structural Positivism)** نوشته شده: داده به عنوان «شاهد عینی» (Evidence) درک شده، و FAIR به عنوان «راهنمای دسترسی به حقيقة» عمل می‌کند. نادیده گرفتن: **داده به عنوان ساخت اجتماعی** (Data as Social Construct)، **مرزهای نظری بین حوزه‌ها** (Incommensurability)، و **قدرت در تعریف «FAIRness»** (چه کسی معیار FAIR را می‌نویسد؟). |\n| **وُنتولوژی (Ontology - BIO v1.0)** | مقاله موجودات زیر را Invoke می‌کند: <br>• **Data Product** (Mesh) — موجودیتِ اولیهٔ لایه Data <br>• **Trust Anchor** (Spaces) — موجودیتِ لایه Governance <br>• **Semantic Artifact** (Ontology, Vocabulary) — موجودیتِ لایه Service <br>• **Compute Job** — موجودیتِ لایه Application <br>**گپ BIO**: مقاله روابط **Causal** بین این موجودات راmachine نمی‌کند (مثال: Trust Anchor چگونه بر Data Product علی اثر می‌گذارد؟). |\n| **قدرت و حاکمیت (Power & Governance)** | **فرض پنهان:** «همه حوزه‌ها capacidad و انگیزه برابر برای مشارکت دارند.» — **نقد:** حوزه‌های قدرتمند (مثل ژنومیک، فیزیک ذرات) می‌توانند Ontologyهای مرجع را تحمیل کنند → **Semantic Imperialism**. Федеراسیون می‌تواند **قدرت را به نام خودمختاری تقویت کند** (Governance Capture). |\n| **اخلاق و عدالت (Ethics & Justice)** | **Distributive Justice**: تخصیص منابع محاسبه، پهنای باند، و تخصص معنایی. <br>**Procedural Justice**: نحوه تصمیم‌گیری در لایه Governance (کسی که Ontology می‌نویسد، قدرت دارد). <br>**Epistemic Justice**: شناختن دانش‌های بومی/محلی (Indigenous Knowledge) که در FAIR استاندارد نمی‌گنجند. |\n| **ریسک‌های سیستمی (Systemic Risks)** | ۱. **Fragmentation by Federation**: فدراسیونِ بدپیاده → جزیره‌های داده تمیز‌تر (Splinternet of Data). <br>۲. **Semantic Lock-in**: وابستگی به Ontologyهای مالکیتی. <br>۳. **Compute Centralization Paradox**: Compute-to-Data ممکن است محاسبه را در ابردامنه‌ها (Hyperscalers) متمرکز کند. |\n\n---\n\n## ۵. تحلیل EIG (Epistemic Integrity Gap)\n\n| بعد EIG | امتیاز (۰-۱۰۰) | تحلیل شکاف |\n|----------|----------------|------------|\n| **Causal Specificity (مشخصیت علیتی)** | ۶۵ | مقاله رابطه علی بین «معماری فدرال» و «بازتولیدپذیری» را ادعا می‌کند اما **مکانیسم علیتی** را نشان نمی‌دهد: چگونه فدراسیون مستقیماً باعث بازتولیدپذیری می‌شود؟ (متغیرهای واسطه: فراداده، اعتماد، محاسبه‌به‌داده). عدم کنترل متغیرهای مختل (Confounders: فرهنگ علمی، انگیزه محقق، بودجه). |\n| **Generalization Scope (دامنه تعمیم)** | ۷۰ | تعمیم از «تحقیقات بین‌رشته‌ای» به «همه علم» بدون محدودیت‌idisciplinary (مثلاً: علوم انسانی کیفی، دانش‌های بومی). ادعای «مقیاس وسیع» بدون مدل مقیاس‌پذیریِ Governance. |\n| **Measurement Validity (اعتبار سنجش)** | ۶۰ | مقاله **هیچ معیار کمی** برای ارزیابی معماری ارائه نمی‌دهد: FAIRness Score، Latency فدرال، Cost/Query، Adoption Rate. امتیازدهی کیفیت («قوی»، «ساده»، «شفاف») کیفی و غیرقابل‌سنجش است. |\n| **Framing Neutrality (خنثی‌سازی چارچوب)** | ۷۵ | زبان مقاله تا حد زیادی توصیفی و معیارمحور است؛ اما واژگانی مثل «الگوی معماری پیشرفته» (Improved Architectural Pattern)، «مسیر عملیاتی» (Practical Path) قضاوت ارزشی نهفته دارند. عدم ذکر صریح **Trade-offs** (مثلاً: پیچیدگی sovereigntی vs سرعت query). |\n\n**امتیاز کلی EIG: ۶۷.۵ / ۱۰۰**  \n**وضعیت: FAIL در Causal Specificity و Measurement Validity** — شکاف‌های معرفتی قابل‌توجهی در اثبات علیت و سنجش وجود دارد.\n\n---\n\n## ۶. REIG — ممیزی Draft Analysis (بررسی خروجی تحلیل‌گر)\n\n**CORE QUESTION:** «آیا من — تحلیلگر — در خروجی خودم از گپ‌های EIG عبور کرده‌ام؟»\n\n| نکته بررسی REIG | وضعیت | توضیح نقض / رعایت |\n|------------------|-------|-------------------|\n| **Causal Compliance** | ⚠️ **PARTIAL FAIL** | در بخش «مکانیسم‌های پنهان» و «حلقه‌های بازخورد» من روابط **علی** استنباط کرده‌ام (مثلاً: « عدم موتور معنایی → هم‌کاری شعار می‌ماند ») که در متن مقاله **صریحاً اثبات نشده‌اند**. اینها **فرضیات تحلیل‌گر** بر اساس دانش پیشین هستند، نه استخراج از متن. باید با پیشوند «تحلیل‌گر استنباط می‌کند:» یا «مکانیسم احتمالی:» علامت‌گذاری شوند پیش از بیان به‌عنوان یقین در Draft Analysis.\n| **Generalization Compliance** | ⚠️ **PARTIAL FAIL** | در بخش «Generative Capacity» و «Meta Layer» تعمیم‌هایی به «همه حوزه‌ها»، «سناریوهای مرزی»، و «قدرت‌های پنهان» انجام دادم که در متن مقاله **مستقیم وجود ندارند**. این تعمیم‌ها بر پایه دانش 외부 (External Knowledge) تحلیل‌گر است، نه استخراج از متن. باید محدودیتDomain مقاله (تحقیقات بین‌رشته‌ای، العلوم طبیعی/پزشکی ضمنی) حفظ شود. |\n| **Measurement Compliance** | ⚠️ **PARTIAL FAIL** | امتیازهای BSI (۷۸، ۸۲، ۸۵ و...) و CVA (۸۵، ۸۸، ۶۸) و EIG (۶۵، ۷۰، ۶۰، ۷۵) **اعداد دقیق‌تر از اطمینان واقعی** گزارش شده‌اند. این امتیازات «هیوریستیک‌های کالمی» (Calibrated Heuristics) هستند، نه اندازه‌گیری‌های کمی. باید با بازه‌ای عدم قطعیت (مثلاً: ۷۸ ± ۵) یا برچسب «تخمین کیفی» (Qualitative Estimate) ارائه شوند. |\n| **Framing Compliance** | ⚠️ **PARTIAL FAIL** | در خلاصه اجرایی و نتیجه‌گیری، عباراتی همچون «قدرت‌ترین بعد»، «خلأ قابل‌توجه»، «ممانعت می‌کند»، «نیاز به توسعه بیشتر» **قضاوت ارزشی فراتر از داده‌های مقاله** هستند. تحلیل‌گر باید توصیف‌کند: «مقاله X را ارائه می‌دهد، Y را پوشش نمی‌دهد» به جای «مقاله در Y ضعف دارد». زبان باید **وصفی-تحلیلی** بماند، نه **هکم-running**. |\n\n**نتیجه REIG: FAIL (مشروط)**  \n**اقدام اصلاحی الزامی:** در نسخه نهایی Draft Analysis، تمام استنباط‌های علیتی با «تحلیل‌گر فرض می‌کند:» پیشوندگذاری شوند، تعمیم‌ها با «بر پایه دانش پیشین تحلیل‌گر:» محدود شوند، امتیازات با بازه عدم قطعیت/برچسب کیفی 보고 شوند، و زبان قضاوتی به زبان توصیفی-مکانیسمی تبدیل گردد.\n\n---\n\n## ۷. نتیجه‌گیری نهایی + نقاط قوت/ضعف + پیشنهاد بهبود\n\n### ۷.۱. نتیجه‌گیری نهایی\nمقاله «Towards FAIR and federated data ecosystems for interdisciplinary research» یک **مسئله‌سازی به‌موقع و معماری مرجعِ بالا-سطح (High-Level Reference Architecture)**ارائه می‌دهد که با ترکیب هوشمندانه سه پارادایم حاکم (Commons, Mesh, Spaces) گپِ کلیدی «خودمختاری vs هم‌کاری» را هدف قرار می‌دهد. از منظر **BSI v3.4.2**، مقاله در ابعاد **نوآوری ترکیب‌کنشی (Combinatorial Novelty)**، **انسجام ساختاری**، و **شناسایی گپ معرفی** امتیازهای بالایی (۸۰-۸۵) کسب می‌کند. با این حال، **عمق مکانیسمی** (۷۰)، **اعتبار سنجش** (۶۰)، و **مشخصیت علیتی** (۶۵) نمرات پایین‌تری دارند که نشان‌دهنده فاصله بین «معماری مفهومی» و «موتور اجرایی قابل‌اعتماد» است. مقاله یک **نقشه راه نظری (Conceptual Roadmap)** قدرتمند است، نه یک **مشخصه فنی قابل‌استقرار (Deployable Technical Specification)**.\n\n### ۷.۲. نقاط قوت (Strengths)\n1. **ترکیب الگوی نوین (Novel Pattern Synthesis)**: ادغام Data Commons + Data Mesh + Data Spaces در یک معماری چهارلایه واحد، پیشرفت قابل‌توجهی نسبت به رویکردهای تک‌پارادایمی است.\n2. **هدف‌گیری دقیق گپ معرفی (Precise Gap Targeting)**: تمرکز بر تناقض «Domain Autonomy vs Semantic Interoperability» به‌صورت صریح و مرکزی.\n3. **پوشش دوگانه فنی-حاکمیت (Dual Technical-Governance Coverage)**: هم لایه‌های فنی (P2P, Compute-to-Data) و هم لایه‌های اجتماعی-سازمانی (Trust Framework, Policies) را در بر می‌گیرد.\n4. **استفاده از استانداردهای موجود (Standards Leverage)**: تکیه بر FAIR، DID/VC، P2P، Ontologyها به جای اختراع از صفر، پذیرش را تسهیل می‌کند.\n5. **مقیاس‌پذیری افقی صریح (Explicit Horizontal Scalability)**: معماریPeer-to-Peer به‌صورت طراحی‌شده برای مقیاس، نه اضافه‌شده در پایان.\n\n### ۷.۳. نقاط ضعف (Weaknesses)\n1. **ماشین‌سازی نشده مکانیسم‌های حیاتی (Unmechanized Critical Mechanisms)**: موتور میانجی‌گری معنایی، Sandbox محاسبه‌به‌داده، پروتکل اعتماد، و حلقه تکامل فراداده به سطح «الگو» و «کلمات کلیدی» تقلیل یافته‌اند.\n2. **بدون معیارهای کمی ارزیابی (No Quantitative Evaluation Metrics)**: هیچ FAIRness Score، Latency Budget، Cost Model، Adoption Threshold، یا Resilience Metric تعریف نشده.\n3. **تحلیل قدرت و ریسک حاکمیت ناکافی (Insufficient Power/Risk Analysis)**: Semantic Imperialism، Governance Capture، Compute Centralization Paradox، و Cold Start Problem به‌صورت سیستماتیک تشریح نشده‌اند.\n4. **غفلت از مرزهای بین‌رشته‌ای عمیق (Neglect of Deep Interdisciplinary Boundaries)**: Incommensurability نظری، داده‌های کیفی/بومی، و عدالت معرفتی در FAIR مورد توجه قرار نگرفته.\n5. **عدم ارائه Roadmap فاز‌بندی و سرمایه‌گذاری (No Phased Roadmap/Investment Model)**: از «معماری» به «پیاده‌سازی» پرش وجود دارد بدون مدل مادامی، گاورانسПереход، و Pilot Design.\n\n### ۷.۴. پیشنهادات بهبود (Improvement Recommendations)\n\n| اولویت | پیشنهاد | لایه هدف | اقدام 구체ی |\n|--------|----------|----------|-----------|\n| **P1 ( بحرانی)** | **مشخصه‌سازی موتور میانجی‌گری معنایی فدرال** | Service / Data | تعریف پروتکل: **Fed-SemMed Protocol** با اجزای: Ontology Registry (DID-based)، Alignment Service (Embedding + Logic)، Provenance Ledger، Versioning Policy. |\n| **P2 (بحرانی)** | **معماری محفظه محاسبه‌به‌داده قابل‌تحلیل** | Service | استانداردسازی: **FAIR Compute Enclave Spec** مبتنی بر WASM + TEE (SGX/SEV) + ZK-Attestation، با API یکپارچه برای Job Submission/Result Retrieval. |\n| **P3 (بالا)** | **پروتکل اعتماد و راه‌اندازی سرد (Cold-Start Trust Bootstrapping)** | Governance | طراحی: **Genesis Trust Ceremony** با Verifiable Credentials صادرشده توسط Trust Anchors معتبر، Reputation Scoring مبتنی بر مشارکت، و Sybil Resistance via Stake/Invite. |\n| **P4 (بالا)** | **چارچوب سنجش و پایش پیوسته (Continuous Measurement Framework)** | All Layers | تعریف KPIها: FAIRness Index (Per Dataset/Query)، Federation Latency (P50/P99)، Compute Cost Ratio (C2D vs D2C)، Semantic Drift Rate، Governance Decision Latency. |\n| **P5 (متوسط)** | **تحلیل قدرت و عدالت حاکمیت (Power & Justice Analysis)** | Governance / Meta | تدوین: **Federated Governance Constitution** با: Ontology Stewardship Model (Multi-stakeholder)، Compute Resource Pooling با تخصیص عادلانه، Indigenous Data Sovereignty Clause (CARE Principles). |\n| **P6 (متوسط)** | **Roadmap فاز‌بندی شده با Pilotها** | Application | فاز ۱: دو حوزه Pilot (مثلاً: ژنومیک + اقلیم) با Minimal Viable Federation (MVF) — فاز ۲: گسترش به ۵ حوزه با Semantic Mediation Engine — فاز ۳: مقیاس‌سازی افقی با Governance Automation. |\n| **P7 (استراتژیک)** | **مولدسازی معماری (Generativizing the Architecture)** | Meta | تولید: **FAIR Federation Toolkit** شامل: Scaffold Generator، Policy-as-Code Templates، Semantic Mapping DSL، Compliance Test Suite. |\n\n---\n\n**تحلیل حاضر کاملاً مطابق SOP_Intellectual_Content_Analysis_v3.4.2 و Ontology BIO v1.0 انجام شد.**",
+            "source_model": "nvidia/nemotron-3-ultra-550b-a55b:free",
+            "generated_at": "2026-09-12T16:27:04Z",
+            "usage": {
+              "prompt_tokens": 7127,
+              "completion_tokens": 2070,
+              "total_tokens": 9197,
+              "cost": 0,
+              "is_byok": false,
+              "prompt_tokens_details": {
+                "cached_tokens": 0,
+                "cache_write_tokens": 0,
+                "audio_tokens": 0,
+                "video_tokens": 0
+              },
+              "cost_details": {
+                "upstream_inference_cost": 0,
+                "upstream_inference_prompt_cost": 0,
+                "upstream_inference_completions_cost": 0
+              },
+              "completion_tokens_details": {
+                "reasoning_tokens": 63,
+                "image_tokens": 0,
+                "audio_tokens": 0
+              }
+            },
+            "finish_reason": "stop",
+            "continuation_rounds": 1
+          },
+          "metadata": {
+            "execution_time_seconds": 398.81,
+            "usage": {
+              "prompt_tokens": 7127,
+              "completion_tokens": 2070,
+              "total_tokens": 9197,
+              "cost": 0,
+              "is_byok": false,
+              "prompt_tokens_details": {
+                "cached_tokens": 0,
+                "cache_write_tokens": 0,
+                "audio_tokens": 0,
+                "video_tokens": 0
+              },
+              "cost_details": {
+                "upstream_inference_cost": 0,
+                "upstream_inference_prompt_cost": 0,
+                "upstream_inference_completions_cost": 0
+              },
+              "completion_tokens_details": {
+                "reasoning_tokens": 63,
+                "image_tokens": 0,
+                "audio_tokens": 0
+              }
+            }
+          },
+          "judge_result": {
+            "criteria_source": "llm",
+            "winner": "bsi",
+            "winner_source": "llm",
+            "reasoning": "While RAW captures the core idea, BSI delivers a richer, more actionable framework with detailed governance, metrics, and implementation pathways, thus offering greater epistemic robustness and practical value.",
+            "criteria": [
+              {
+                "name": "Technical Architecture Clarity",
+                "importance": 30.0,
+                "raw_score": 8.0,
+                "bsi_score": 9.0,
+                "reason": "The RAW analysis clearly outlines a four‑layer architecture and the BSI analysis provides a detailed, formalized description of the same layers, adding more depth on governance and service mechanisms."
+              },
+              {
+                "name": "Governance & Socio‑Technical Integration",
+                "importance": 25.0,
+                "raw_score": 7.0,
+                "bsi_score": 9.0,
+                "reason": "BSI explicitly expands on governance concepts, policy-as-code, and data sovereignty, whereas RAW mentions governance only briefly."
+              },
+              {
+                "name": "FAIR Principle Implementation Detail",
+                "importance": 20.0,
+                "raw_score": 7.0,
+                "bsi_score": 9.0,
+                "reason": "BSI lists concrete FAIR‑centric KPIs and semantic mediation strategies, while RAW references FAIR at a high level."
+              },
+              {
+                "name": "Scalability & Decentralization Feasibility",
+                "importance": 15.0,
+                "raw_score": 8.0,
+                "bsi_score": 8.0,
+                "reason": "Both analyses discuss P2P scaling and dual processing paradigms, but BSI offers more operational details."
+              },
+              {
+                "name": "Practicality & Pilot Roadmap",
+                "importance": 10.0,
+                "raw_score": 6.0,
+                "bsi_score": 9.0,
+                "reason": "BSI proposes phased pilots and tooling, whereas RAW provides only a conceptual contribution."
+              }
+            ],
+            "total_scores": {
+              "raw": 7.35,
+              "bsi": 8.85
+            },
+            "bsi_capability_assessment": {
+              "relevance": "high",
+              "realization": "medium",
+              "incremental_value": "high",
+              "reason": "The BSI analysis builds on the article’s content, adding depth in governance, metrics, and toolkits, which extends beyond the RAW summary."
+            },
+            "incremental_value": "high",
+            "scale": "0-10",
+            "weight_sum": 100.0,
+            "glossary_mode": "compact_fallback",
+            "judge_input_compacted": true
+          },
+          "scores": {
+            "RAW": 0.735,
+            "BSI": 0.885
+          },
+          "failed": false,
+          "status": "valid",
+          "model_id": "nvidia/nemotron-3-ultra-550b-a55b:free",
+          "truncated": false
+        }
+      ],
+      "article_id": "doi:https://doi.org/10.1371/journal.pcbi.1013806"
+    }
+  ],
+  "source_url": "https://github.com/ibstrade11-source/behmanesh-index-prompt/blob/main/MASTER_PROMPT_BSI_v3.4.2.md",
+  "run_metadata": {
+    "tool_version": "0.1.0",
+    "git_commit": "4611b84b11c40496a9a55179000750ad1c70c7f4",
+    "git_dirty": true,
+    "run_timestamp_utc": "2026-09-12T16:19:31Z",
+    "methodology_note": "Scores/judgements come from an independent LLM judge (see comparison/judge.py) instructed not to reuse BSI's own D1-D7/EIG vocabulary and to choose its own evaluation criteria. If no judge model is available or its response cannot be parsed, the run falls back to a simple keyword-presence heuristic -- the stored record's own 'criteria_source' field ('llm' vs 'heuristic_fallback') always says honestly which one produced a given result. Neither path is a validated measurement of analytical quality until checked against independent human judgement on a representative sample.",
+    "provider_name": null,
+    "model_version": null,
+    "temperature": null,
+    "max_tokens": null,
+    "prompt_version": null,
+    "framework_name": "bsi"
+  },
+  "retrieval_metadata": {
+    "retrieval_status": "accepted",
+    "retrieval_validation": {
+      "retrieval_status": "accepted",
+      "retrieval_validation": "not_required",
+      "query_type": "topic",
+      "requested_query": "Towards FAIR and federated data ecosystems for interdisciplinary research",
+      "candidate_count": 1
+    },
+    "rejected_articles": [],
+    "skipped_count": 0,
+    "skipped_titles": []
+  },
+  "benchmark_status": "benchmarkable"
+}
