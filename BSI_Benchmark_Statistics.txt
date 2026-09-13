@@ -1,0 +1,62 @@
+==============================================================================
+BSI BENCHMARK — COMPLETE MASTER STATISTICS
+==============================================================================
+
+JSON files scanned              : 153
+CSV rows generated              : 153
+Valid judge comparisons         : 110
+Non-valid / other rows          : 43
+
+SCORE STATISTICS
+------------------------------------------------------------------------------
+RAW mean                        : 6.814
+BSI mean                        : 7.608
+Mean Δ (BSI − RAW)              : +0.794
+Median Δ                        : +1.155
+RAW minimum                     : 0.750
+RAW maximum                     : 9.750
+BSI minimum                     : 0.000
+BSI maximum                     : 9.220
+
+WIN / TIE STATISTICS
+------------------------------------------------------------------------------
+BSI wins                        : 85
+RAW wins                        : 23
+Ties                            : 2
+BSI win rate                    : 77.3%
+RAW win rate                    : 20.9%
+Tie rate                        : 1.8%
+
+DOMAIN BREAKDOWN
+------------------------------------------------------------------------------
+Agriculture                  N=  1 RAW=6.70 BSI=6.15 Δ=-0.55 W(B/R/T)=0/1/0
+Biology                      N=  1 RAW=7.20 BSI=8.35 Δ=+1.15 W(B/R/T)=1/0/0
+Chemistry                    N=  1 RAW=9.40 BSI=2.35 Δ=-7.05 W(B/R/T)=0/1/0
+Cognitive Science            N=  1 RAW=6.65 BSI=7.40 Δ=+0.75 W(B/R/T)=1/0/0
+Computational Ecology        N=  1 RAW=7.70 BSI=8.90 Δ=+1.20 W(B/R/T)=1/0/0
+Economics                    N=  7 RAW=6.72 BSI=7.85 Δ=+1.14 W(B/R/T)=6/1/0
+Engineering                  N=  3 RAW=5.95 BSI=7.78 Δ=+1.83 W(B/R/T)=3/0/0
+History of Technology        N= 11 RAW=6.06 BSI=8.34 Δ=+2.28 W(B/R/T)=9/2/0
+Hydrology                    N=  1 RAW=3.40 BSI=6.35 Δ=+2.95 W(B/R/T)=1/0/0
+LLM / Knowledge              N=  8 RAW=7.04 BSI=8.82 Δ=+1.77 W(B/R/T)=7/1/0
+Law                          N=  2 RAW=7.03 BSI=6.45 Δ=-0.57 W(B/R/T)=0/1/1
+Linguistics                  N=  1 RAW=7.00 BSI=7.95 Δ=+0.95 W(B/R/T)=1/0/0
+Medicine                     N=  3 RAW=6.72 BSI=7.87 Δ=+1.15 W(B/R/T)=2/1/0
+Neuroscience                 N=  1 RAW=6.20 BSI=5.60 Δ=-0.60 W(B/R/T)=0/1/0
+Philosophy                   N= 20 RAW=6.88 BSI=7.13 Δ=+0.25 W(B/R/T)=14/5/1
+Physics                      N=  4 RAW=6.16 BSI=7.45 Δ=+1.29 W(B/R/T)=4/0/0
+Political Science            N= 15 RAW=7.16 BSI=7.26 Δ=+0.10 W(B/R/T)=11/4/0
+Psychology                   N=  2 RAW=6.60 BSI=8.30 Δ=+1.71 W(B/R/T)=2/0/0
+Quantum Physics              N=  1 RAW=7.10 BSI=7.45 Δ=+0.35 W(B/R/T)=1/0/0
+Research / arXiv             N= 14 RAW=7.74 BSI=7.98 Δ=+0.24 W(B/R/T)=10/4/0
+Robotics                     N=  2 RAW=5.53 BSI=8.15 Δ=+2.62 W(B/R/T)=2/0/0
+Social Science               N=  1 RAW=8.45 BSI=8.80 Δ=+0.35 W(B/R/T)=1/0/0
+Sociology                    N=  1 RAW=1.10 BSI=3.25 Δ=+2.15 W(B/R/T)=1/0/0
+Unknown                      N=  8 RAW=6.78 BSI=7.67 Δ=+0.89 W(B/R/T)=7/1/0
+
+EVIDENCE STATUS COUNTS
+------------------------------------------------------------------------------
+ARCHIVED                                 8
+HEURISTIC_JUDGE                          1
+NO_VALID_TOTAL_SCORES                    34
+VALID_JUDGE_COMPARISON                   110
