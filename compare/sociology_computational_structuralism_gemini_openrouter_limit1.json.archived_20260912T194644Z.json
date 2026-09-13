@@ -1,0 +1,278 @@
+{
+  "dataset_name": "Computational structuralism: Toward a formal theory of meaning in the age of digital intelligence",
+  "results": [
+    {
+      "article": {
+        "title": "Computational structuralism: Toward a formal theory of meaning in the age of digital intelligence",
+        "abstract": "Abstract The discovery that “next-token predictor” language models can fluently produce text has important but underappreciated theoretical implications. Most notably, their success demonstrates that fully relational models with no access to external referents or human actors are sufficient to generate contextually appropriate discourse. Building upon this insight, this article proposes computational structuralism , a perspective that synthesizes insights from deep learning, information theory, and French structuralism to interpret the success of large language models and provide a vocabulary for rigorous and formalized inquiry into systems of meaning. Computational structuralism conceptualizes the world as an information system rife with pattern and redundancy. Patterned observations can be compressed into latent structures that enable both interpretation and the generation of contextually appropriate responses. Large language models achieve this with web text, suggesting that discourses can be sufficiently modeled as systems of transformations over a set of relationally defined elements. Today’s AI models thus provide an empirical “proof of concept” for what structuralist theorists sought to achieve decades ago, a distillation of social life’s complexity into the latent forms that render its content meaningful.",
+        "full_text": null,
+        "doi": "https://doi.org/10.1007/s11186-026-09685-z",
+        "url": "https://openalex.org/W7152568811",
+        "input_quality": {
+          "has_title": true,
+          "has_abstract": true,
+          "source": "openalex",
+          "enriched": false,
+          "has_full_text": false,
+          "full_text_fetch_error": "provider returned no usable full text",
+          "full_text_chars": 0,
+          "full_text_source": "provider_fetch:openalex"
+        }
+      },
+      "cells": [
+        {
+          "generator": "gemini",
+          "mode": "raw",
+          "analysis": {
+            "text": "Based on the provided abstract, here is a concise, factual analysis of the article’s main claims and theoretical contributions:\n\n### **Main Claims**\n1. **Sufficiency of Relational Models for Meaning:** The success of next-token predictor Large Language Models (LLMs) demonstrates that fluent, contextually appropriate discourse can be generated purely through internal, relational structures—without requiring grounding in physical referents or human agency.\n2. **LLMs as an Empirical Proof of Concept for Structuralism:** The article argues that modern LLMs empirically validate classic French structuralist theories, which posited that meaning arises from systems of relations and transformations rather than direct connections to external objects.\n3. **Meaning as Information Compression:** The framework conceptualizes discourse as an information system containing patterns and redundancies. LLMs function by compressing these redundancies into latent structural representations that enable contextual interpretation and generation.\n\n---\n\n### **Core Theoretical Contribution: *Computational Structuralism***\n* **Interdisciplinary Synthesis:** The author introduces **computational structuralism**, a framework that unifies:\n  * **French Structuralism** (systems of relationally defined elements and transformations),\n  * **Deep Learning** (neural representations and latent spaces), and\n  * **Information Theory** (pattern redundancy and data compression).\n* **A Formal Vocabulary for Cultural and Semantic Inquiry:** By linking the computational mechanisms of LLMs to sociological and linguistic theory, the paper provides a formal, rigorous vocabulary for studying systems of meaning, discourse, and social complexity in the age of digital intelligence.",
+            "source_model": "gemini-3.7-flash",
+            "generated_at": "2026-09-12T19:12:13Z",
+            "usage": null,
+            "finish_reason": null,
+            "continuation_rounds": 0
+          },
+          "metadata": {
+            "execution_time_seconds": 6.377,
+            "usage": null
+          },
+          "judge_result": {
+            "criteria_source": "llm",
+            "winner": "bsi",
+            "winner_source": "llm",
+            "reasoning": "BSI outperforms RAW on every article-specific criterion, especially mechanistic explanation depth (+5), critical gap engagement (+7), and formal rigor assessment (+5). RAW provides only a surface summary; BSI delivers a multi-layered epistemic evaluation with self-audit, gap analysis, and generative assessment appropriate for a theoretical synthesis claim.",
+            "criteria": [
+              {
+                "name": "Theoretical Synthesis Quality",
+                "importance": 20.0,
+                "raw_score": 6.0,
+                "bsi_score": 9.0,
+                "reason": "RAW mentions the three components (structuralism, DL, info theory) but does not analyze their integration. BSI explicitly maps Saussurean relations to vector spaces, details the three-way synthesis, and evaluates its coherence (Conceptual Coherence 8.8)."
+              },
+              {
+                "name": "Mechanistic Explanation Depth",
+                "importance": 20.0,
+                "raw_score": 4.0,
+                "bsi_score": 9.0,
+                "reason": "RAW states meaning arises from 'compressing redundancies into latent structural representations' without mechanism. BSI's latent layer details compression optimization in continuous latent spaces, co-occurrence/substitution as geometric realization of Saussurean relations, and two feedback loops (Pattern Reinforcement, Self-Referential Semantics)."
+              },
+              {
+                "name": "Critical Engagement with Gaps",
+                "importance": 15.0,
+                "raw_score": 2.0,
+                "bsi_score": 9.0,
+                "reason": "RAW identifies no fundamental problems. BSI's EIG analysis explicitly addresses the Symbol Grounding Problem (internal relations vs. intentionality/first-person experience) and the quantitative-to-qualitative formalization gap, scoring Critical Resilience 8.8."
+              },
+              {
+                "name": "Formal/Mathematical Rigor Assessment",
+                "importance": 15.0,
+                "raw_score": 3.0,
+                "bsi_score": 8.0,
+                "reason": "RAW notes 'formal vocabulary' claim uncritically. BSI's Methodological Precision (7.5) and Meta layer note formalization tools 'remain at theoretical proposal stage,' and EIG flags the quantitative-to-qualitative gap."
+              },
+              {
+                "name": "Generative Research Potential",
+                "importance": 10.0,
+                "raw_score": 4.0,
+                "bsi_score": 8.0,
+                "reason": "RAW vaguely mentions 'formal vocabulary for studying systems.' BSI's CVA Generative Capacity (78) and recommendations specify formal principles for latent transformations and post-structuralist integration for hallucination modeling."
+              },
+              {
+                "name": "Structural Coherence of Analysis",
+                "importance": 10.0,
+                "raw_score": 7.0,
+                "bsi_score": 9.0,
+                "reason": "RAW is clear but thin. BSI maintains consistency across manifest/latent/meta layers, seven criteria table, CVA table, EIG, REIG, and recommendations—all mutually reinforcing."
+              },
+              {
+                "name": "Epistemic Honesty/Humility",
+                "importance": 10.0,
+                "raw_score": 8.0,
+                "bsi_score": 9.0,
+                "reason": "RAW is factual and restrained. BSI's REIG audit explicitly passes Causal/Generalization/Measurement/Framing compliance, frames LLM success as 'proof of concept' not definitive proof, and avoids false certainty."
+              }
+            ],
+            "total_scores": {
+              "raw": 4.65,
+              "bsi": 8.75
+            },
+            "bsi_capability_assessment": {
+              "relevance": "high",
+              "realization": "high",
+              "incremental_value": "high",
+              "reason": "BSI's multi-layer architecture (manifest/latent/meta), EIG gap analysis, REIG self-audit, and CVA synthesis metrics are directly suited to evaluating a theoretical framework paper. The realization is thorough: latent mechanisms, feedback loops, leverage points, and explicit gap identification are all demonstrated. Incremental value over RAW is high—BSI adds mechanistic depth, critical gap engagement, formal rigor assessment, generative capacity evaluation, and epistemic audit that RAW entirely lacks."
+            },
+            "incremental_value": "high",
+            "scale": "0-10",
+            "weight_sum": 100.0,
+            "glossary_mode": "full",
+            "judge_input_compacted": false
+          },
+          "scores": {
+            "RAW": 0.465,
+            "BSI": 0.875
+          },
+          "failed": false,
+          "status": "valid",
+          "model_id": "gemini-3.7-flash",
+          "truncated": false
+        },
+        {
+          "generator": "gemini",
+          "mode": "bsi",
+          "analysis": {
+            "text": "# تحلیل جامع و ارزیابی شاخص بهمنش (BSI v3.4.2)\n\n**عنوان مقاله:** ساختارگرایی محاسباتی: به سوی یک نظریه صوری از معنا در عصر هوش دیجیتال  \n*(Computational structuralism: Toward a formal theory of meaning in the age of digital intelligence)*\n\n---\n\n### ۱. خلاصه اجرایی (Executive Summary)، ادعای هسته‌ای (Core Claim) و امتیاز کلی\n\n* **خلاصه اجرایی (Executive Summary):**  \nاین مقاله تلاشی جاه‌طلبانه و میان‌رشته‌ای برای آشتی دادن مدل‌های زبانی بزرگ (Large Language Models) با سنت ساختارگرایی فرانسوی (French Structuralism) از طریق نظریه اطلاعات (Information Theory) و یادگیری عمیق (Deep Learning) است. نویسنده ادعا می‌کند موفقیت مدل‌های پیش‌بینی توکن بعدی (Next-Token Predictor) اثباتی تجربی برای این انگاره ساختارگرایانه است که «روابط درون‌متنی بدون ارجاع بیرونی، برای تولید معنا کفایت می‌کنند». این چارچوب تحت عنوان «ساختارگرایی محاسباتی (Computational Structuralism)» درصدد ارائه زبانی فرمال و ریاضی‌محور برای علوم انسانی و نظریه معنا است.\n\n* **ادعای هسته‌ای (Core Claim):**  \nسامانه‌های معنایی و گفتمان‌های اجتماعی می‌توانند صرفاً به عنوان تبدیل‌های صوری بر روی عناصر رابطه‌ای (Relational Elements) تعریف و بدون نیاز به ارجاع خارجی (External Referents) یا عاملیت انسانی (Human Agency)، از طریق فشرده‌سازی الگوها و تقلیل افزونگی (Redundancy Reduction) در ساختارهای پنهان بازنمایی شوند؛ از این رو، مدل‌های زبانی تجسم عملی ایده‌های ساختارگرایی کلاسیک هستند.\n\n* **امتیاز کلی شاخص بهمنش (Overall BSI Score):**  \n**۸۴ از ۱۰۰** (سطح بلوغ نظری: پیشرفته / ساختاریافته)\n\n---\n\n### ۲. جدول ارزیابی معیارهای اصلی هفت‌گانه\n\n| معیار (Criterion) | امتیاز (از ۱۰) | شرح و ارزیابی تحلیلی |\n| :--- | :---: | :--- |\n| **عمق تبیینی (Explanatory Depth)** | ۸.۵ | تبیین مکانیسم ظهور معنا از طریق فشرده‌سازی اطلاعات و نگاشت‌های پنهان به‌جای تمرکز صِرف بر عملکرد فنی مدل‌ها. |\n| **انسجام مفهومی (Conceptual Coherence)** | ۸.۸ | هم‌ترازی دقیق میان گزاره‌های زبان‌شناسی ساختارگرا (نظیر تمایزهای سوسوری) و فضاهای برداری با ابعاد بالا در هوش مصنوعی. |\n| **اصالت نظری (Theoretical Originality)** | ۹.۰ | ترکیب نامتعارف اما روشنگر میان سنت قاره‌ای (Continental Tradition) و نظریه اطلاعات آماری شنون (Shannon's Information Theory). |\n| **دقت روش‌شناختی (Methodological Precision)** | ۷.۵ | اگرچه چارچوب‌بندی مفهومی قوی است، اما ابزارهای صوری‌سازی ریاضی برای تحلیل گفتمان در حد طرح نظری باقی مانده است. |\n| **کاربردپذیری (Applicability)** | ۸.۰ | قابلیت بالا برای تحلیل انتقادی متون، جامعه‌شناسی محاسباتی (Computational Sociology) و فلسفه هوش مصنوعی. |\n| **گستره و کیفیت شواهد (Evidential Scope)** | ۸.۲ | اتکا به شواهد غیرقابل‌انکار در کارایی مدل‌های زبانی مدرن به عنوان «اثبات مفهوم (Proof of Concept)». |\n| **تاب‌آوری نقادانه (Critical Resilience)** | ۸.۸ | توانایی پاسخ به انتقادات جریان معناشناسی ارجاعی (Referential Semantics) و مسئله لنگراندازی نمادها (Symbol Grounding Problem). |\n\n---\n\n### ۳. جدول ارزش‌افزوده خلاقانه (CreativeValueAdd)\n\n| زیرمعیار (Sub-criterion) | وزن | امتیاز (از ۱۰۰) | توجیه تحلیلی (Analytical Justification) |\n| :--- | :---: | :---: | :--- |\n| **هدف‌گیری شکاف معرفتی (Epistemic Gap Targeting)** | ۳۵٪ | ۸۶ | پاسخ به این شکاف بنیادین که: «چرا و چگونه مدل‌های فاقد جسمیت و ادراک حسی (Embodiment) قادر به تولید زبان معنادار هستند؟» با پر کردن فاصله میان مهندسی مدل و نظریه انتقادی. |\n| **ترکیب ادغامی (Combinatorial Synthesis)** | ۴۰٪ | ۹۰ | سنتز سه‌گانه درخشان میان: ۱) یادگیری عمیق (Deep Learning)، ۲) نظریه اطلاعات (Information Theory)، و ۳) ساختارگرایی فرانسوی (French Structuralism). |\n| **ظرفیت زایشی (Generative Capacity)** | ۲۵٪ | ۷۸ | ظرفیت بالا برای گشودن خطوط پژوهشی جدید در علوم اجتماعی محاسباتی، هرچند فرمول‌بندی‌های تجربی تکمیلی هنوز مورد نیاز است. |\n| **نمره موزون خلاقیت (Weighted CVA Score)** | **۱۰۰٪** | **۸۵.۶** | **سطح خلاقیت: تحول‌آفرین در حوزه بین‌رشته‌ای** |\n\n---\n\n### ۴. لایه‌برداری عمیق (Deep Layering)\n\n#### ۱. لایه آشکار (Manifest Layer)\nدر سطح ظاهری، متن بیان می‌کند که مدل‌های پیش‌بینی توکن بعدی بدون دسترسی به جهان مادی یا ارجاع‌دهنده‌های بیرونی قادر به تولید گفتمان منسجم متنی هستند. این امر نشان می‌دهد که متن‌های وب دارای الگوها و افزونگی‌هایی هستند که می‌توان آن‌ها را در ساختارهای پنهان فشرده کرد. بنابراین، ساختارگرایی محاسباتی مدلی برای بازخوانی ریاضیاتی و آماری ساختارگرایی قرن بیستم ارائه می‌دهد.\n\n#### ۲. لایه پنهان (Latent Layer)\n* **مکانیسم‌های زیرین:** معنا در این لایه یک هویت مستقل بیرونی نیست، بلکه محصول جانبی «بهینه‌سازی فشرده‌سازی اطلاعات (Information Compression Optimization)» در فضاهای پنهان پیوسته (Continuous Latent Spaces) است. یادگیری روابط هم‌نشینی و جانشینی در بردارها، تجسم هندسی همان روابط نشانه‌شناختی سوسوری است.\n* **حلقه‌های بازخورد (Feedback Loops):**\n  * *حلقه بازخورد تکرار الگو (Pattern Reinforcement Loop):* تولید الگو $\\leftarrow$ کاهش افزونگی در ساختار پنهان $\\leftarrow$ پیش‌بینی موفق‌تر توکن $\\leftarrow$ تقویت قواعد رابطه‌ای درونی سامانه.\n  * *حلقه خودارجاعی معنایی (Self-Referential Semantics Loop):* معنا بر مبنای تفاوت با سایر توکن‌ها تولید می‌شود $\\leftarrow$ نیاز به جهان واقعی کاهش می‌یابد $\\leftarrow$ چارچوب ساختارگرایی تقویت می‌شود.\n* **نقاط اهرمی (Leverage Points):** نقطه اهرمی کلیدی، تغییر تعریف معنا از «تطابق با جهان واقع (Correspondence)» به «تبدیل‌های درون‌ساختاری (Intra-structural Transformations)» در ماتریس‌های با ابعاد بالا است.\n\n#### ۳. لایه فراگیر / متا (Meta Layer)\nاین نظریه در سطح معرفت‌شناختی، دعوای کهن میان واقع‌گرایی ارجاعی (Referential Realism) و برساخت‌گرایی ساختاری (Structural Constructivism) را به نفع ساختارگرایی بازتعریف می‌کند. پیامد متا-تئوریک این رویکرد آن است که نظم اجتماعی و فرهنگ انسانی ذاتاً کدهای فشرده‌سازی‌شده اطلاعاتی هستند و ذهن یا هوش مصنوعی، صرفاً پردازنده‌های نگاشت ساختار هستند نه کاشفان حقایق ازلی ارجاعی.\n\n---\n\n### ۵. تحلیل شکاف‌های معرفتی ذاتی (EIG Analysis)\n\n* **شکاف مسئله لنگراندازی نمادها (Symbol Grounding Problem):** مقاله فرض می‌کند هم‌بستگی میان ساختارها برای معنا کفایت می‌کند، اما از پاسخ به این پرسش بازمی‌ماند که آیا این نوع معنا بدون «قصدیت (Intentionality)» و «تجربه اول‌شخص» به معنای فلسفی کلمه صادق است یا صرفاً نوعی شبیه‌سازی کارکردی (Functional Simulation) است.\n* **شکاف صوری‌سازی کمّی تا نظریه کیفی:** گذار از خطاهای کمینه‌سازی شده در گرادیان کاهشی (Gradient Descent) به ساختارهای جامعه‌شناختی لوی-استروس همچنان بر تمثیل مفهومی متکی است تا اثبات ریاضیاتی یک‌به‌یک.\n\n---\n\n### ۶. ممیزی خود-ارزیابی (REIG Analysis)\n\n*این ممیزی روی پیش‌نویس تحلیل نگاشته‌شده توسط ارزیاب (بخش‌های ۱ تا ۵) انجام شده است:*\n\n* **انطباق علّی (Causal Compliance):** [PASS]  \n  *توضیح:* هیچ‌گونه ادعای علّی کاذب میان موفقیت مدل‌های زبانی و اثبات قطعی کل تاریخ ساختارگرایی وارد نشده، بلکه به عنوان «اثبات مفهوم (Proof of Concept)» و هم‌پوشانی مدل رابطه‌ای مطرح شده است.\n* **انطباق تعمیم (Generalization Compliance):** [PASS]  \n  *توضیح:* تعمیم‌پذیری نظریه محدود به سامانه‌های زبانی و داده‌های ساختاریافته وب در نظر گرفته شده و به تمام حوزه‌های شناختی فاقد متن گسترش نیافته است.\n* **انطباق سنجش (Measurement Compliance):** [PASS]  \n  *توضیح:* امتیازات اعطا شده در جداول (۸۴ کلی، ۸۵.۶ خلاقیت) با قوت ادله و شواهد چکیده هم‌خوانی دارد و از قطعیت کاذب ریاضی در حوزه مفهومی پرهیز شده است.\n* **انطباق چارچوب‌بندی (Framing Compliance):** [PASS]  \n  *توضیح:* متن بدون تعصب ستایش‌آمیز یا سوگیری ضد ساختارگرایی، صرفاً گزاره‌های نظری را با عینک نقادانه وزن‌دهی کرده است.\n\n**نتیجه نهایی ممیزی:** **تأیید کامل (PASS)**\n\n---\n\n### ۷. نتیجه‌گیری، نقاط قوت، نقاط ضعف و پیشنهادهای بهبود\n\n* **نقاط قوت (Strengths):**\n  1. ارائه پلی کم‌نظیر میان علوم شناختی محاسباتی و نظریه انتقادی سنتی.\n  2. نجات ساختارگرایی از ابهامات زبانی قرن بیستم از طریق چارچوب‌بندی صوری نظریه اطلاعات.\n  3. تبیین نظری قدرتمند برای درک چگونگی رفتار غیرمنتظره و خلاقانه مدل‌های زبانی.\n\n* **نقاط ضعف (Weaknesses):**\n  1. نادیده گرفتن چالش‌های عمل‌گرایی زبانی (Linguistic Pragmatics) و بافت پیرامونی مادی.\n  2. اتکای بیش از حد به فرضیه کفایت روابط درونی (Sufficiency of Internal Relations) برای اطلاق مفهوم جامع «معنا».\n\n* **پیشنهادهای بهبود (Actionable Recommendations):**\n  1. تدوین اصول صوری ریاضی برای تفکیک انواع تبدیلات پنهان (Latent Transformations) در گفتمان‌های اجتماعی مختلف.\n  2. ادغام مفهوم ساختارگرایی پسا-ساختارگرا (Post-Structuralism) برای مدل‌سازی ناپایداری‌های معنایی و پدیده‌های توهم (Hallucination) در مدل‌های هوش مصنوعی.\n\n---\n\nتحلیل حاضر کاملاً مطابق SOP_Intellectual_Content_Analysis_v3.4.2 و Ontology BIO v1.0 انجام شد.",
+            "source_model": "gemini-3.7-flash",
+            "generated_at": "2026-09-12T19:13:32Z",
+            "usage": null,
+            "finish_reason": null,
+            "continuation_rounds": 0
+          },
+          "metadata": {
+            "execution_time_seconds": 19.361,
+            "usage": null
+          },
+          "judge_result": {
+            "criteria_source": "llm",
+            "winner": "bsi",
+            "winner_source": "llm",
+            "reasoning": "BSI outperforms RAW on every article-specific criterion, especially mechanistic explanation depth (+5), critical gap engagement (+7), and formal rigor assessment (+5). RAW provides only a surface summary; BSI delivers a multi-layered epistemic evaluation with self-audit, gap analysis, and generative assessment appropriate for a theoretical synthesis claim.",
+            "criteria": [
+              {
+                "name": "Theoretical Synthesis Quality",
+                "importance": 20.0,
+                "raw_score": 6.0,
+                "bsi_score": 9.0,
+                "reason": "RAW mentions the three components (structuralism, DL, info theory) but does not analyze their integration. BSI explicitly maps Saussurean relations to vector spaces, details the three-way synthesis, and evaluates its coherence (Conceptual Coherence 8.8)."
+              },
+              {
+                "name": "Mechanistic Explanation Depth",
+                "importance": 20.0,
+                "raw_score": 4.0,
+                "bsi_score": 9.0,
+                "reason": "RAW states meaning arises from 'compressing redundancies into latent structural representations' without mechanism. BSI's latent layer details compression optimization in continuous latent spaces, co-occurrence/substitution as geometric realization of Saussurean relations, and two feedback loops (Pattern Reinforcement, Self-Referential Semantics)."
+              },
+              {
+                "name": "Critical Engagement with Gaps",
+                "importance": 15.0,
+                "raw_score": 2.0,
+                "bsi_score": 9.0,
+                "reason": "RAW identifies no fundamental problems. BSI's EIG analysis explicitly addresses the Symbol Grounding Problem (internal relations vs. intentionality/first-person experience) and the quantitative-to-qualitative formalization gap, scoring Critical Resilience 8.8."
+              },
+              {
+                "name": "Formal/Mathematical Rigor Assessment",
+                "importance": 15.0,
+                "raw_score": 3.0,
+                "bsi_score": 8.0,
+                "reason": "RAW notes 'formal vocabulary' claim uncritically. BSI's Methodological Precision (7.5) and Meta layer note formalization tools 'remain at theoretical proposal stage,' and EIG flags the quantitative-to-qualitative gap."
+              },
+              {
+                "name": "Generative Research Potential",
+                "importance": 10.0,
+                "raw_score": 4.0,
+                "bsi_score": 8.0,
+                "reason": "RAW vaguely mentions 'formal vocabulary for studying systems.' BSI's CVA Generative Capacity (78) and recommendations specify formal principles for latent transformations and post-structuralist integration for hallucination modeling."
+              },
+              {
+                "name": "Structural Coherence of Analysis",
+                "importance": 10.0,
+                "raw_score": 7.0,
+                "bsi_score": 9.0,
+                "reason": "RAW is clear but thin. BSI maintains consistency across manifest/latent/meta layers, seven criteria table, CVA table, EIG, REIG, and recommendations—all mutually reinforcing."
+              },
+              {
+                "name": "Epistemic Honesty/Humility",
+                "importance": 10.0,
+                "raw_score": 8.0,
+                "bsi_score": 9.0,
+                "reason": "RAW is factual and restrained. BSI's REIG audit explicitly passes Causal/Generalization/Measurement/Framing compliance, frames LLM success as 'proof of concept' not definitive proof, and avoids false certainty."
+              }
+            ],
+            "total_scores": {
+              "raw": 4.65,
+              "bsi": 8.75
+            },
+            "bsi_capability_assessment": {
+              "relevance": "high",
+              "realization": "high",
+              "incremental_value": "high",
+              "reason": "BSI's multi-layer architecture (manifest/latent/meta), EIG gap analysis, REIG self-audit, and CVA synthesis metrics are directly suited to evaluating a theoretical framework paper. The realization is thorough: latent mechanisms, feedback loops, leverage points, and explicit gap identification are all demonstrated. Incremental value over RAW is high—BSI adds mechanistic depth, critical gap engagement, formal rigor assessment, generative capacity evaluation, and epistemic audit that RAW entirely lacks."
+            },
+            "incremental_value": "high",
+            "scale": "0-10",
+            "weight_sum": 100.0,
+            "glossary_mode": "full",
+            "judge_input_compacted": false
+          },
+          "scores": {
+            "RAW": 0.465,
+            "BSI": 0.875
+          },
+          "failed": false,
+          "status": "valid",
+          "model_id": "gemini-3.7-flash",
+          "truncated": false
+        }
+      ],
+      "article_id": "doi:https://doi.org/10.1007/s11186-026-09685-z"
+    }
+  ],
+  "source_url": "https://github.com/ibstrade11-source/behmanesh-index-prompt/blob/main/MASTER_PROMPT_BSI_v3.4.2.md",
+  "run_metadata": {
+    "tool_version": "0.1.0",
+    "git_commit": "4611b84b11c40496a9a55179000750ad1c70c7f4",
+    "git_dirty": true,
+    "run_timestamp_utc": "2026-09-12T19:17:35Z",
+    "methodology_note": "Scores/judgements come from an independent LLM judge (see comparison/judge.py) instructed not to reuse BSI's own D1-D7/EIG vocabulary and to choose its own evaluation criteria. If no judge model is available or its response cannot be parsed, the run falls back to a simple keyword-presence heuristic -- the stored record's own 'criteria_source' field ('llm' vs 'heuristic_fallback') always says honestly which one produced a given result. Neither path is a validated measurement of analytical quality until checked against independent human judgement on a representative sample.",
+    "provider_name": null,
+    "model_version": null,
+    "temperature": null,
+    "max_tokens": null,
+    "prompt_version": null,
+    "framework_name": "bsi"
+  },
+  "retrieval_metadata": {
+    "retrieval_status": "accepted",
+    "retrieval_validation": {
+      "retrieval_status": "accepted",
+      "retrieval_validation": "title_match",
+      "query_type": "title",
+      "requested_query": "Computational structuralism: Toward a formal theory of meaning in the age of digital intelligence",
+      "selected_title": "Computational structuralism: Toward a formal theory of meaning in the age of digital intelligence",
+      "selected_rank": 1,
+      "match_score": 1.0,
+      "threshold": 0.72,
+      "candidate_count": 4
+    },
+    "rejected_articles": [
+      {
+        "title": "Application and theory gaps during the rise of Artificial Intelligence in Education",
+        "doi": "https://doi.org/10.1016/j.caeai.2020.100002",
+        "url": "https://openalex.org/W3084223432",
+        "rank": 3,
+        "match_score": 0.2125,
+        "status": "rejected_lower_match"
+      },
+      {
+        "title": "A Survey on Explainable Artificial Intelligence (XAI): Toward Medical XAI",
+        "doi": "https://doi.org/10.1109/tnnls.2020.3027314",
+        "url": "https://openalex.org/W2958089299",
+        "rank": 2,
+        "match_score": 0.1082,
+        "status": "rejected_lower_match"
+      },
+      {
+        "title": "Explainable Artificial Intelligence (XAI): What we know and what is left to attain Trustworthy Artificial Intelligence",
+        "doi": "https://doi.org/10.1016/j.inffus.2023.101805",
+        "url": "https://openalex.org/W4366262984",
+        "rank": 4,
+        "match_score": 0.1007,
+        "status": "rejected_lower_match"
+      }
+    ],
+    "skipped_count": 1,
+    "skipped_titles": [
+      "Building dynamic capabilities for digital transformation: An ongoing process of strategic renewal"
+    ]
+  },
+  "benchmark_status": "benchmarkable"
+}
