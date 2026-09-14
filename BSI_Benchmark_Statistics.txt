@@ -2,30 +2,30 @@
 BSI BENCHMARK — COMPLETE MASTER STATISTICS
 ==============================================================================
 
-JSON files scanned              : 155
-CSV rows generated              : 155
-Valid judge comparisons         : 118
+JSON files scanned              : 149
+CSV rows generated              : 149
+Valid judge comparisons         : 112
 Non-valid / other rows          : 37
 
 SCORE STATISTICS
 ------------------------------------------------------------------------------
-RAW mean                        : 6.741
-BSI mean                        : 7.597
-Mean Δ (BSI − RAW)              : +0.856
-Median Δ                        : +1.155
+RAW mean                        : 6.659
+BSI mean                        : 7.598
+Mean Δ (BSI − RAW)              : +0.939
+Median Δ                        : +1.350
 RAW minimum                     : 0.750
-RAW maximum                     : 9.750
+RAW maximum                     : 9.400
 BSI minimum                     : 0.000
 BSI maximum                     : 9.220
 
 WIN / TIE STATISTICS
 ------------------------------------------------------------------------------
-BSI wins                        : 91
-RAW wins                        : 25
+BSI wins                        : 87
+RAW wins                        : 23
 Ties                            : 2
-BSI win rate                    : 77.1%
-RAW win rate                    : 21.2%
-Tie rate                        : 1.7%
+BSI win rate                    : 77.7%
+RAW win rate                    : 20.5%
+Tie rate                        : 1.8%
 
 DOMAIN BREAKDOWN
 ------------------------------------------------------------------------------
@@ -43,19 +43,18 @@ Linguistics                  N=  1 RAW=7.00 BSI=7.95 Δ=+0.95 W(B/R/T)=1/0/0
 Medicine                     N=  3 RAW=6.72 BSI=7.87 Δ=+1.15 W(B/R/T)=2/1/0
 Neuroscience                 N=  1 RAW=6.20 BSI=5.60 Δ=-0.60 W(B/R/T)=0/1/0
 Philosophy                   N= 20 RAW=6.88 BSI=7.13 Δ=+0.25 W(B/R/T)=14/5/1
-Physics                      N=  3 RAW=6.40 BSI=7.65 Δ=+1.25 W(B/R/T)=3/0/0
+Physics                      N=  3 RAW=6.98 BSI=7.62 Δ=+0.63 W(B/R/T)=2/1/0
 Political Science            N= 15 RAW=7.16 BSI=7.26 Δ=+0.10 W(B/R/T)=11/4/0
 Psychology                   N=  2 RAW=6.60 BSI=8.30 Δ=+1.71 W(B/R/T)=2/0/0
-Quantum Physics              N=  1 RAW=7.10 BSI=7.45 Δ=+0.35 W(B/R/T)=1/0/0
-Research / arXiv             N= 14 RAW=7.74 BSI=7.98 Δ=+0.24 W(B/R/T)=10/4/0
+Research / arXiv             N=  8 RAW=7.19 BSI=8.15 Δ=+0.96 W(B/R/T)=7/1/0
 Robotics                     N=  2 RAW=5.53 BSI=8.15 Δ=+2.62 W(B/R/T)=2/0/0
 Social Science               N=  1 RAW=8.45 BSI=8.80 Δ=+0.35 W(B/R/T)=1/0/0
 Sociology                    N=  1 RAW=1.10 BSI=3.25 Δ=+2.15 W(B/R/T)=1/0/0
-Unknown                      N= 10 RAW=6.79 BSI=7.81 Δ=+1.02 W(B/R/T)=9/1/0
+Unknown                      N= 11 RAW=6.77 BSI=7.88 Δ=+1.11 W(B/R/T)=10/1/0
 
 EVIDENCE STATUS COUNTS
 ------------------------------------------------------------------------------
 ARCHIVED                                 8
 HEURISTIC_JUDGE                          1
 NO_VALID_TOTAL_SCORES                    28
-VALID_JUDGE_COMPARISON                   118
+VALID_JUDGE_COMPARISON                   112

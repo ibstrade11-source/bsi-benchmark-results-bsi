@@ -6,7 +6,7 @@ This report is automatically generated from structured CSV files. Each report bu
 
 | Status | Count |
 |---|---:|
-| VALID | 117 |
+| VALID | 111 |
 | UNJUDGED | 14 |
 | TEST | 6 |
 | ARCHIVED | 18 |
@@ -15,31 +15,31 @@ This report is automatically generated from structured CSV files. Each report bu
 
 | Metric | Value |
 |---|---:|
-| RAW mean | 6.74 |
+| RAW mean | 6.66 |
 | BSI mean | 7.59 |
-| Δ mean (BSI−RAW) | 0.85 |
-| Δ median | 1.15 |
+| Δ mean (BSI−RAW) | 0.93 |
+| Δ median | 1.35 |
 | Δ min | -7.05 |
 | Δ max | 5.45 |
-| BSI wins | 90 |
-| RAW wins | 25 |
+| BSI wins | 86 |
+| RAW wins | 23 |
 | Ties | 2 |
 
 ## TABLE 3 - BSI CAPABILITY AND INCREMENTAL VALUE
 
 | Dimension | Level | Count | Percent of VALID |
 |---|---|---:|---:|
-| Relevance | high | 90 | 76.9% |
-| Relevance | medium | 19 | 16.2% |
-| Relevance | low | 7 | 6.0% |
-| Realization | high | 53 | 45.3% |
-| Realization | medium | 49 | 41.9% |
-| Realization | low | 14 | 12.0% |
-| Incremental value | high | 60 | 51.3% |
-| Incremental value | medium | 33 | 28.2% |
-| Incremental value | low | 14 | 12.0% |
+| Relevance | high | 87 | 78.4% |
+| Relevance | medium | 18 | 16.2% |
+| Relevance | low | 5 | 4.5% |
+| Realization | high | 50 | 45.0% |
+| Realization | medium | 46 | 41.4% |
+| Realization | low | 14 | 12.6% |
+| Incremental value | high | 60 | 54.1% |
+| Incremental value | medium | 30 | 27.0% |
+| Incremental value | low | 12 | 10.8% |
 | Incremental value | none | 1 | 0.9% |
-| Incremental value | negative | 8 | 6.8% |
+| Incremental value | negative | 7 | 6.3% |
 
 **Note:** `incremental_value` is the Judge's independent assessment of the incremental value of BSI analysis relative to RAW and is not identical to Δ.
 
@@ -47,18 +47,16 @@ This report is automatically generated from structured CSV files. Each report bu
 
 | Relevance | Realization | Incremental Value | Count |
 |---|---|---|---:|
-| high | high | high | 44 |
-| high | medium | medium | 19 |
-| high | medium | high | 16 |
-| high | high | medium | 9 |
+| high | high | high | 43 |
+| high | medium | medium | 18 |
+| high | medium | high | 17 |
+| high | high | medium | 7 |
 | medium | low | low | 7 |
 | low | low | negative | 5 |
 | medium | medium | medium | 5 |
-| medium | medium | low | 4 |
+| medium | medium | low | 3 |
 | high | medium | low | 2 |
 | medium | low | negative | 2 |
-| low | medium | low | 1 |
-| low | medium | negative | 1 |
 | medium | medium | none | 1 |
 | unknown | unknown | unknown | 1 |
 
@@ -68,6 +66,7 @@ This report is automatically generated from structured CSV files. Each report bu
 |---|---:|---:|---:|---:|---:|---:|---:|---:|
 | Inequality, mobility and the financial accumulation process: A computational economic analysis | 2 | 7.23 | 6.88 | -0.35 | -0.35 | 1 | 1 | 0 |
 | Philosophy Enters the Optics Laboratory: Bell's Theorem and its First Experimental Tests (1965-1982) | 11 | 7.2709 | 7.1382 | -0.1327 | 0.27 | 6 | 4 | 1 |
+| The CoRoT Exoplanet program : status & results | 1 | 8.3 | 7.65 | -0.65 | -0.65 | 0 | 1 | 0 |
 | Guest Editorial: Special Topic on Data-enabled Theoretical Chemistry | 1 | 9.4 | 2.35 | -7.05 | -7.05 | 0 | 1 | 0 |
 | Presenting a randomized controlled trial | 1 | 6.45 | 8.25 | 1.8 | 1.8 | 1 | 0 | 0 |
 | Quantum decision making by social agents | 1 | 7.2 | 8.55 | 1.35 | 1.35 | 1 | 0 | 0 |
@@ -80,14 +79,15 @@ This report is automatically generated from structured CSV files. Each report bu
 | Advancing Artificial Intelligence and Machine Learning in the U.S. Government Through Improved Public Competitions | 1 | 7.4 | 7.5 | 0.1 | 0.1 | 1 | 0 | 0 |
 | Attention Is All You Need | 1 | 7.25 | 8.75 | 1.5 | 1.5 | 1 | 0 | 0 |
 | Measurement of the CKM angle $γ$ in $B^{\pm} \rightarrow D(\rightarrow K^{0}_{\rm S} h^{\prime+}h^{\prime-})h^{\pm}$ decays with a novel approach | 1 | 8.05 | 8.6 | 0.55 | 0.55 | 1 | 0 | 0 |
-| Physics Briefing Book | 9 | 7.7722 | 7.6833 | -0.0889 | 0.35 | 6 | 3 | 0 |
 | Precise measurement of CMB polarisation from Dome-C: the BRAIN and CLOVER experiments | 1 | 6.2 | 5.6 | -0.6 | -0.6 | 0 | 1 | 0 |
 | The Algorithmic Caricature: Auditing LLM-Generated Political Discourse Across Crisis Events | 4 | 7.035 | 7.91 | 0.875 | 1.415 | 3 | 1 | 0 |
 | Uniform and Monotone Line Sum Optimization | 1 | 7.85 | 8.6 | 0.75 | 0.75 | 1 | 0 | 0 |
 | Kurt Lewin, psychological constructs and sources of brain cognitive activity | 1 | 7.0 | 8.16 | 1.16 | 1.16 | 1 | 0 | 0 |
 | Information-based syntax and semantics | 1 | 7.0 | 7.95 | 0.95 | 0.95 | 1 | 0 | 0 |
+| Oral microbiome signatures predict biological age and host health | 1 | 5.5 | 7.45 | 1.95 | 1.95 | 1 | 0 | 0 |
 | One-Shot Reinforcement Learning for Robot Navigation with Interactive Replay | 2 | 5.525 | 8.15 | 2.625 | 2.625 | 2 | 0 | 0 |
 | The Road to Know-Where: An Object-and-Room Informed Sequential BERT for Indoor Vision-Language Navigation | 2 | 6.675 | 8.695 | 2.02 | 2.02 | 2 | 0 | 0 |
+| Predicting the fundamental thermal niche of ectotherms | 1 | 6.55 | 8.57 | 2.02 | 2.02 | 1 | 0 | 0 |
 | Artificial Intelligence (AI): Multidisciplinary perspectives on emerging challenges, opportunities, and agenda for research, practice and policy | 2 | 5.425 | 7.935 | 2.51 | 2.51 | 2 | 0 | 0 |
 | Understanding the role of digital technologies in education: A review | 1 | 1.1 | 3.25 | 2.15 | 2.15 | 1 | 0 | 0 |
 | Climate Change 2014: Mitigation of Climate Change | 1 | 6.25 | 8.25 | 2.0 | 2.0 | 1 | 0 | 0 |
@@ -122,6 +122,7 @@ This report is automatically generated from structured CSV files. Each report bu
 | 2406.04710 | 1 | 1 | 6.4 | 7.75 | 1.35 | 1 | 0 | 0 |
 | A Long History: From Universal Language to Artificial Intelligence | 11 | 2 | 6.0591 | 8.3427 | 2.2836 | 9 | 2 | 0 |
 | Constrained Urban Airspace Design for Large-Scale Drone-Based Delivery Traffic | 1 | 1 | 7.55 | 8.9 | 1.35 | 1 | 0 | 0 |
+| Ecology | 1 | 1 | 6.55 | 8.57 | 2.02 | 1 | 0 | 0 |
 | Economics | 1 | 1 | 6.12 | 7.12 | 1.0 | 1 | 0 | 0 |
 | Fostering implementation of health services research findings into practice: a consolidated framework for advancing implementation science | 1 | 1 | 7.78 | 8.78 | 1.0 | 1 | 0 | 0 |
 | GLP-1 receptor agonists cardiovascular outcomes diabetes obesity surgical aortic valve replacement | 1 | 1 | 6.3 | 8.75 | 2.45 | 1 | 0 | 0 |
@@ -151,8 +152,10 @@ This report is automatically generated from structured CSV files. Each report bu
 | environmental policy climate change mitigation | 1 | 1 | 6.25 | 8.25 | 2.0 | 1 | 0 | 0 |
 | epistemic regress problem foundationalism coherentism justification | 3 | 1 | 6.9167 | 6.9833 | 0.0667 | 2 | 1 | 0 |
 | ethics artificial intelligence moral philosophy | 1 | 1 | 6.95 | 7.37 | 0.42 | 1 | 0 | 0 |
+| exoplanet atmosphere characterization | 1 | 1 | 8.3 | 7.65 | -0.65 | 0 | 1 | 0 |
 | experimental neuroscience brain | 1 | 1 | 6.2 | 5.6 | -0.6 | 0 | 1 | 0 |
 | flood forecasting deep learning climate change | 1 | 1 | 3.4 | 6.35 | 2.95 | 1 | 0 | 0 |
+| https://doi.org/10.1051/epjconf/20111101001 | 1 | 1 | 5.5 | 7.45 | 1.95 | 1 | 0 | 0 |
 | id:1706.03762 | 1 | 1 | 7.25 | 8.75 | 1.5 | 1 | 0 | 0 |
 | philosophy epistemology | 6 | 1 | 7.1417 | 6.2667 | -0.875 | 3 | 2 | 1 |
 | philosophy epistemology argument knowledge | 4 | 1 | 7.7325 | 8.18 | 0.4475 | 2 | 2 | 0 |
@@ -163,7 +166,6 @@ This report is automatically generated from structured CSV files. Each report bu
 | politics governance public policy artificial intelligence government institutional risk regulation | 1 | 1 | 7.4 | 7.5 | 0.1 | 1 | 0 | 0 |
 | precision agriculture artificial intelligence | 1 | 1 | 6.7 | 6.15 | -0.55 | 0 | 1 | 0 |
 | public policy implementation empirical study | 5 | 1 | 7.13 | 8.692 | 1.562 | 5 | 0 | 0 |
-| quantum physics | 9 | 1 | 7.7722 | 7.6833 | -0.0889 | 6 | 3 | 0 |
 | quantum physics artificial intelligence | 1 | 1 | 7.15 | 7.75 | 0.6 | 1 | 0 | 0 |
 | randomized controlled trial clinical medicine | 1 | 1 | 6.45 | 8.25 | 1.8 | 1 | 0 | 0 |
 | robot learning manipulation | 2 | 1 | 5.525 | 8.15 | 2.625 | 2 | 0 | 0 |
@@ -178,8 +180,8 @@ This report is automatically generated from structured CSV files. Each report bu
 | gemini-3.5-flash | 10 | 5 | 6.905 | 8.723 | 1.818 | 9 | 1 | 0 |
 | gemini-3.7-flash | 14 | 7 | 5.7836 | 8.3107 | 2.5271 | 13 | 1 | 0 |
 | gpt-4o-mini | 1 | 1 | 7.2 | 8.35 | 1.15 | 1 | 0 | 0 |
-| llama-3.3-70b-versatile | 10 | 9 | 7.105 | 7.06 | -0.045 | 7 | 3 | 0 |
-| nvidia/nemotron-3-ultra-550b-a55b:free | 53 | 30 | 6.7625 | 7.6279 | 0.8655 | 42 | 10 | 1 |
+| llama-3.3-70b-versatile | 9 | 8 | 7.1833 | 6.8944 | -0.2889 | 6 | 3 | 0 |
+| nvidia/nemotron-3-ultra-550b-a55b:free | 48 | 32 | 6.5669 | 7.6531 | 1.0862 | 39 | 8 | 1 |
 | openai/gpt-oss-20b | 28 | 11 | 6.9929 | 6.8975 | -0.0954 | 17 | 10 | 1 |
 | openai/gpt-oss-20b:free | 1 | 1 | 6.45 | 8.2 | 1.75 | 1 | 0 | 0 |
 
@@ -191,7 +193,6 @@ This report is automatically generated from structured CSV files. Each report bu
 | Philosophy Enters the Optics Laboratory: Bell's Theorem and its First Experimental Tests (1965-1982) | 11 | -0.1327 | 2.2515 | 8.65 | 0.6624 | 2.3603 | 2.33 | 8.6 | 6 | 4 | 1 | True |
 | Morescient GAI for Software Engineering (Extended Version) | 5 | 1.65 | 0.4301 | 1.15 | 0.8564 | 0.4893 | 2.5 | 1.35 | 5 | 0 | 0 | False |
 | Cardiovascular Outcomes with GLP-1 Receptor Agonists in Patients with Type 2 Diabetes or Obesity Undergoing Surgical Aortic Valve Replacement | 2 | 0.825 | 1.625 | 3.25 | 0.55 | 1.075 | 1.1 | 2.15 | 1 | 1 | 0 | True |
-| Physics Briefing Book | 9 | -0.0889 | 1.4399 | 4.55 | 1.1844 | 0.8323 | 4.1 | 2.3 | 6 | 3 | 0 | True |
 | The Algorithmic Caricature: Auditing LLM-Generated Political Discourse Across Crisis Events | 4 | 0.875 | 1.7734 | 4.77 | 0.5024 | 1.3479 | 1.4 | 3.37 | 3 | 1 | 0 | True |
 | One-Shot Reinforcement Learning for Robot Navigation with Interactive Replay | 2 | 2.625 | 0.225 | 0.45 | 0.025 | 0.2 | 0.05 | 0.4 | 2 | 0 | 0 | False |
 | The Road to Know-Where: An Object-and-Room Informed Sequential BERT for Indoor Vision-Language Navigation | 2 | 2.02 | 0.03 | 0.06 | 0.125 | 0.095 | 0.25 | 0.19 | 2 | 0 | 0 | False |
@@ -211,4 +212,4 @@ This report is automatically generated from structured CSV files. Each report bu
 
 ---
 
-Count VALID: **117** | Article count: **46** | Domain count: **53** | Model count: **7** | Articles with repeated runs for drift analysis: **21
+Count VALID: **111** | Article count: **48** | Domain count: **55** | Model count: **7** | Articles with repeated runs for drift analysis: **20
