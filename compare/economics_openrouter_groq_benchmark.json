@@ -1,0 +1,321 @@
+{
+  "dataset_name": "Economics",
+  "results": [
+    {
+      "article": {
+        "title": "Unified Growth Theory: Roots of Growth and Inequality in the Wealth of Nations",
+        "abstract": "What sparked humanity's leap from stagnation to prosperity? What lies at the core of inequality among nations? Unified Growth Theory explores the evolution of societies over the entire course of human history. It uncovers the universal wheels of change that have governed the journey of humanity, driven the growth process, and shaped inequality across the globe. The theory sheds light on two of the most fundamental mysteries surrounding this journey: ( a ) the mystery of growth—the origins of the dramatic transformation in human prosperity over the past two centuries, in the wake of millennia of near stagnation; and ( b ) the mystery of inequality—the roots of the vast inequality in the wealth of nations . The theory suggests that forces that operated in the distant past are central to the understanding of the uneven development across the globe and to the design of effective policies that could promote economic growth and mitigate inequality.",
+        "full_text": null,
+        "doi": "https://doi.org/10.1146/annurev-economics-090324-034939",
+        "url": "https://openalex.org/W4408937971",
+        "input_quality": {
+          "has_title": true,
+          "has_abstract": true,
+          "source": "openalex",
+          "enriched": false,
+          "has_full_text": false,
+          "full_text_fetch_error": "provider returned no usable full text",
+          "full_text_chars": 0,
+          "full_text_source": "provider_fetch:openalex"
+        }
+      },
+      "cells": [
+        {
+          "generator": "openrouter",
+          "mode": "raw",
+          "analysis": {
+            "text": "**Analysis of: \"Unified Growth Theory: Roots of Growth and Inequality in the Wealth of Nations\"**\n\n**Source Material:** Title and Abstract only (full text unavailable).\n\n### 1. Main Claims\n*   **Historical Continuity:** The transition from millennia of economic stagnation (Malthusian trap) to modern sustained growth is a single, coherent evolutionary process governed by \"universal wheels of change,\" rather than a series of disconnected historical accidents.\n*   **Deep Determinants of Inequality:** Current global inequality (the \"wealth of nations\") is not solely the result of recent policy failures or institutional differences, but is deeply rooted in forces operating in the *distant past* (e.g., geography, biology, cultural evolution, demographic transitions).\n*   **Endogenous Transition:** The \"take-off\" to modern growth is driven by internal mechanisms—specifically the interaction between technological progress, population dynamics, and human capital formation—that eventually trigger a demographic transition and sustained per capita income growth.\n*   **Policy Relevance of Deep History:** Effective contemporary development policy requires an understanding of these deep historical roots; \"one-size-fits-all\" policies fail because they ignore the divergent historical trajectories that shape current institutional and human capital constraints.\n\n### 2. Theoretical Contribution\n*   **Unification of Growth Regimes:** Provides a single dynamic framework (Unified Growth Theory) that endogenously generates three distinct regimes observed in data: **Malthusian Stagnation**, **Post-Malthusian Growth**, and **Modern Sustained Growth**. This resolves the dichotomy between traditional growth models (designed for modern economies) and Malthusian models (designed for pre-industrial eras).\n*   **Micro-foundations for Macro-History:** Integrates micro-level behavioral foundations (household optimization, quality-quantity trade-off in children, investment in human capital) with macro-level historical dynamics.\n*   **Resolution of Two \"Fundamental Mysteries\":**\n    1.  **Mystery of Growth:** Explains *timing* and *mechanism* of the escape from stagnation (the role of technological progress raising the return to human capital, inducing a demographic transition).\n    2.  **Mystery of Inequality:** Explains *divergence* (why the take-off occurred at different times/intensities across regions) via the differential timing of the take-off interacting with initial conditions (biogeography, diversity, institutions).\n*   **Paradigm Shift:** Shifts the focus of development economics from proximate causes (capital accumulation, current policy) to ultimate causes (historical biogeography, evolutionary forces, deep-rooted cultural/institutional path dependence).\n\n### 3. Scope and Ambition\nThe article positions Unified Growth Theory as a \"grand unified theory\" for comparative economic development, aiming to bridge economics, demography, evolutionary biology, and history to explain the *entire* trajectory of human economic history.",
+            "source_model": "nvidia/nemotron-3-ultra-550b-a55b:free",
+            "generated_at": "2026-09-14T14:47:39Z",
+            "usage": {
+              "prompt_tokens": 241,
+              "completion_tokens": 682,
+              "total_tokens": 923,
+              "cost": 0,
+              "is_byok": false,
+              "prompt_tokens_details": {
+                "cached_tokens": 0,
+                "cache_write_tokens": 0,
+                "audio_tokens": 0,
+                "video_tokens": 0
+              },
+              "cost_details": {
+                "upstream_inference_cost": 0,
+                "upstream_inference_prompt_cost": 0,
+                "upstream_inference_completions_cost": 0
+              },
+              "completion_tokens_details": {
+                "reasoning_tokens": 74,
+                "image_tokens": 0,
+                "audio_tokens": 0
+              }
+            },
+            "finish_reason": "stop",
+            "continuation_rounds": 0
+          },
+          "metadata": {
+            "execution_time_seconds": 138.713,
+            "usage": {
+              "prompt_tokens": 241,
+              "completion_tokens": 682,
+              "total_tokens": 923,
+              "cost": 0,
+              "is_byok": false,
+              "prompt_tokens_details": {
+                "cached_tokens": 0,
+                "cache_write_tokens": 0,
+                "audio_tokens": 0,
+                "video_tokens": 0
+              },
+              "cost_details": {
+                "upstream_inference_cost": 0,
+                "upstream_inference_prompt_cost": 0,
+                "upstream_inference_completions_cost": 0
+              },
+              "completion_tokens_details": {
+                "reasoning_tokens": 74,
+                "image_tokens": 0,
+                "audio_tokens": 0
+              }
+            }
+          },
+          "judge_result": {
+            "criteria_source": "llm",
+            "winner": "bsi",
+            "winner_source": "llm",
+            "reasoning": "Despite RAW’s solid claim presentation, the BSI analysis provides a more comprehensive, layered understanding, adding significant epistemic value beyond the raw abstract.",
+            "criteria": [
+              {
+                "name": "Claim Clarity",
+                "importance": 25.0,
+                "raw_score": 6.5,
+                "bsi_score": 7.5,
+                "reason": "Raw presents clear, concise claims in the abstract; BSI expands on them with nuanced detail, improving clarity."
+              },
+              {
+                "name": "Empirical Support",
+                "importance": 20.0,
+                "raw_score": 4.5,
+                "bsi_score": 6.0,
+                "reason": "Raw lacks any empirical evidence beyond the abstract; BSI acknowledges the lack but evaluates the latent potential for empirical validation."
+              },
+              {
+                "name": "Theoretical Depth",
+                "importance": 20.0,
+                "raw_score": 7.0,
+                "bsi_score": 8.0,
+                "reason": "Raw outlines a unified framework; BSI provides a deeper mechanistic map and layer‑wise synthesis, slightly exceeding raw."
+              },
+              {
+                "name": "Mechanistic Explanation",
+                "importance": 15.0,
+                "raw_score": 6.0,
+                "bsi_score": 7.0,
+                "reason": "Raw offers a high‑level mechanism; BSI details the latent quality‑quantity trade‑off cycle, adding depth."
+              },
+              {
+                "name": "Policy Relevance",
+                "importance": 10.0,
+                "raw_score": 5.5,
+                "bsi_score": 6.5,
+                "reason": "Raw mentions policy implications vaguely; BSI explicitly discusses potential policy levers and practical utility."
+              },
+              {
+                "name": "Structural Coherence",
+                "importance": 10.0,
+                "raw_score": 7.5,
+                "bsi_score": 7.5,
+                "reason": "Both analyses maintain internal consistency; raw is simpler, BSI is more elaborate but equally coherent."
+              }
+            ],
+            "total_scores": {
+              "raw": 6.12,
+              "bsi": 7.12
+            },
+            "bsi_capability_assessment": {
+              "relevance": "high",
+              "realization": "medium",
+              "incremental_value": "high",
+              "reason": "The BSI analysis adds structured, latent‑layer insight and a multi‑dimensional evaluation framework that RAW lacks, but its realization is moderate due to limited empirical grounding."
+            },
+            "incremental_value": "high",
+            "scale": "0-10",
+            "weight_sum": 100.0,
+            "glossary_mode": "full",
+            "judge_input_compacted": false
+          },
+          "scores": {
+            "RAW": 0.612,
+            "BSI": 0.712
+          },
+          "failed": false,
+          "status": "valid",
+          "model_id": "nvidia/nemotron-3-ultra-550b-a55b:free",
+          "truncated": false
+        },
+        {
+          "generator": "openrouter",
+          "mode": "bsi",
+          "analysis": {
+            "text": "# تحلیل عمیق شاخص بهمنش (BSI v3.4.2)\n**موضوع تحلیل:** چکیده مقاله/کتاب «نظریه یکپارچه رشد: ریشه‌های رشد و نابرابری در ثروت ملت‌ها» (Unified Growth Theory: Roots of Growth and Inequality in the Wealth of Nations)  \n**نویسنده اصلی (استنباط شده از محتوای نظری):** اودد گالور (Oded Galor)  \n**تاریخ تحلیل:** ۲۶ ژوئن ۲۰۲۶  \n**نسخه SOP:** ۳.۴.۲ | **نسخه Ontology:** BIO v1.0\n\n---\n\n## ۱. خلاصه اجرایی (Executive Summary) + Core Claim + امتیاز کلی BSI\n\n**Core Claim (ادعای محوری):**  \n«نظریه یکپارچه رشد (Unified Growth Theory - UGT) با یکپارچه‌سازی کلِ تاریخ بشر از رکودمالثوسی تا رونق مدرن، علیتِ Übergång (گذر) از گیرکرد به رشد مداوم را در تعامل پویای «تکنولوژی-جمعیت-سرمایه انسانی» جستجو می‌کند و ریشه‌های نابرابری ثروت فعلی ملت‌ها را در «مقوّم‌های عمیق» (Deep Determinants) جغرافیایی، تنوع زیستی/فرهنگی وسستی که از فراسوی گذر تاریخی فعالیت داشته‌اند، ردیابی می‌نماید.»\n\n**خلاصه اجرایی:**  \nمتن ورودی چکیده‌ای مکتن و پراکت از پارادایم غالب در اقتصاد رشد چیست. این متن دو معما بنیادین را طرح می‌کند: (الف) معما رشد: چرا بشر هزاران سال در رکود ماند و ناگهان در دو قرن اخیر رونق یافت؟ (ب) معما نابرابری: ریشه شکاف ثروت بین ملت‌ها چیست؟ پاسخ پیشنهادی، رد توضیحات «علل قریب» (Proximate Causes) و تمرکز بر «علل دور/متمم» (Ultimate/Deep Causes) است. متن ادعا می‌کند که نیرویی که در گذر تاریخی فعال بوده (تولید تکنولوژی -> تقاضای سرمایه انسانی -> گذار جمعیتی -> رونق)، همان نیرویی است که preko اثرات باقی‌مانده (Persistence Effects) و مسیر وابستگی (Path Dependence)، توزیع ثروت امروز را شکل داده است. سیاست‌گذاری اثربخش، وابسته به درک این ریشه‌های عمیق است.\n\n**امتیاز کلی BSI (BSI Overall Score): ۸۷/۱۰۰**  \n*استدلال امتیازدهی:* متن در لایه پنهان (Latent) مکانیسم قوی و نوآورانه‌ای پیشنهاد می‌دهد (Combinatorial Synthesis بالا) و شکاف معرفت‌شناختی بنیادینی را هدف قرار می‌دهد (Epistemic Gap Targeting بالا). اما در لایه آشکار (Manifest)، به دلیل ماهیت چکیده بودن، شواهد تجربی دقیق، پارامترهای کمی و مرزهای نظریه عرضه نشده است (Empirical Support و Measurement Compliance در متن ورودی پایین است). بهای ۸۷ نشان‌دهنده پتانسیل نظری فوق‌العاده و اجرای ناقص در متنِ ورودی است.\n\n---\n\n## ۲. جدول ارزیابی معیارهای اصلی ۷گانه (Seven Core Criteria Evaluation)\n\n| کد | معیار اصلی (Core Criterion) | وزن (Weight) | امتیاز (Score/100) | امتیاز وزنی | استدلال تشریحی (دلیل امتیازدهی) |\n| :--- | :--- | :---: | :---: | :---: | :--- |\n| **C1** | **انسجام منطقی و wewnی (Logical Coherence)** | ۱۵٪ | ۹۵ | ۱۴.۲۵ | استدلال داخلی متن بی‌نقص است: رکود -> فشار انتخابی -> سرمایه انسانی -> گذار -> رونق. هیچ تضاد درونی در چکیده وجود ندارد. |\n| **C2** | **حمایت تجربی و اعتبارسنجی (Empirical Support)** | ۱۵٪ | ۵۰ | ۷.۵۰ | *نکته بحرانی:* چکیده **هیچ داده‌ای، رگرسیونی، یا مطالعه موردی** ارائه نمی‌دهد. ادعای «نیروهای گذشته محور فهم حال هستند» ادعای نظری است، نه نتیجه تجربی در این متن. |\n| **C3** | **عمق نظری و مکانیسم‌شناسانه (Theoretical Depth)** | ۱۵٪ | ۹۸ | ۱۴.۷۰ | شناسایی مکانیسم «فشار انتخابی بر ترجیحات کیفیت/کمیت فرزندان» به عنوان موتور گذر، عمق مکانیسم‌شناسانه بی‌نظیری دارد. |\n| **C4** | **نوآوری و خلاقیت پارادایم‌شکن (Novelty/Paradigm Shift)** | ۱۵٪ | ۹۶ | ۱۴.۴۰ | UGT پارادایم «رشد зовین» و «رشد داخلی» را به یک چارچوب تکammansه می‌بندد و «تاریخ عمیق» را متغیر مستقل می‌سازد. |\n| **C5** | **کاربرد عملی و پتانسیل سیاست‌گذاری (Practical Utility)** | ۱۰٪ | ۸۰ | ۸.۰۰ | ادعای «طراحی سیاست‌های اثربخش» مطرح شده، اما چکیده هیچ مکانیسم سیاستی مشخصی (مثلاً: سرمایه‌گذاری در آموزش دختران vs زیرساخت) نمی‌دهد. |\n| **C6** | **کامل‌ساختاری و پوشش متغیرها (Structural Completeness)** | ۱۵٪ | ۷۵ | ۱۱.۲۵ | متغیرهای کلیدی (جغرافیا، تنوع، نهادها) نام برده شده‌اند، اما چگونگی تعامل آن‌ها (مثلا جغرافیا -> تنوع -> نهادها) در چکیده مشخص نیست. |\n| **C7** | **دقت زبانی و شفافیت مفهومی (Linguistic Precision)** | ۱۵٪ | ۹۰ |۱۳.۵۰ | واژگان دقیق («مقوّم‌های عمیق»، «گذر واحد»، «رکود مالتوسی») به کار رفته‌اند؛ ابهام در واژه «نیروهای دور» باقی مانده که در متن کامل تبیین می‌شود. |\n| **Σ** | **مجموع امتیاز وزنی (BSI Score)** | **۱۰۰٪** | — | **۸۷.۱۵** | **امتیاز نهایی: ۸۷/۱۰۰** |\n\n---\n\n## ۳. جدول CreativeValueAdd (ارزش‌افزودن خلاقانه)\n\n| زیرمعیار (Sub-criterion) | وزن | امتیاز (Score/100) | امتیاز وزنی | استدلال و شواهد از متن (Evidence & Reasoning) |\n| :--- | :---: | :---: | :---: | :--- |\n| **Epistemic Gap Targeting**<br>(هدف‌گذاری شکاف معرفت‌شناختی) | ۳۵٪ | ۹۷ | ۳۳.۹۵ | **شکاف هدف:** نظریه‌های کلاسیک (سولو، رامر) «حالت استوار» (Steady State) را توضیح می‌دادند، نه «گذر» (Transition). UGT شکاف بین «هزاران سال رکود» و «دو قرن رونق» را به عنوان پرسش مرکزی تعریف می‌کند. این یک شکاف *سازمانده* (Organizing Gap) است که کل ادبیات رشد را بازتعریف کرد. متن صریحاً می‌گوید: «نیروهای گذشته... محور فهم حال هستند» -> هدف‌گذاری دقیق بر شکاف «تاریخ-معاصر». |\n| **Combinatorial Synthesis**<br>(ترکیب ترکیبی) | ۴۰٪ | ۹۵ | ۳۸.۰۰ | **ترکیب مجزاها:** ۱. بیولوژی تکاملی (فشار انتخابی، ترجیحات کیفی) + ۲. اقتصاد جمعیت (مالتوس، بکر) + ۳. اقتصاد رشد (سرمایه انسانی، تکنولوژی) + ۴. جغرافیای تاریخی/تنوع زیستی. <br>**مکانیسم ترکیب:** «تکنولوژی -> تقاضای مهارت -> سرمایه‌گذاری در فرزندان -> گذار جمعیتی -> رونق». این یک ترکیب *ظرفی* (Generative) است، نه лише جمع‌آوری. متغیر «تنوع زیستی/فرهنگی» به عنوان واسطه جغرافیا -> رشد، نوآوری ترکیبی است. |\n| **Generative Capacity**<br>(ظرفیت مولد) | ۲۵٪ | ۸۸ | ۲۲.۰۰ | **پیش‌بینی‌های نوین:** ۱. همبستگی منفی تنوع زیستی با توسعه در المراحل اول، مثبت در المراحل دوم. ۲. اثر باقی‌مانده 바꿧ه‌های أجدادی بر درآمد امروز. ۳. سیاست‌گذاری مبتنی بر «ریشه‌های عمیق» vs «انگیزه‌های قریب». <br>**کاهش در متن ورودی:** چکیده از عرض کردن این پیش‌بینی‌های قابل تست (Falsifiable Predictions) خودداری کرده و به عمومیت «سیاست‌های اثربخش» بسنده کرده است. |\n| **Σ CreativeValueAdd Score** | **۱۰۰٪** | — | **۹۳.۹۵** | **وضعیت: Excellence Tier (سطح برتری) — پارادایم‌ساز** |\n\n---\n\n## ۴. لایه‌برداری عمیق (Deep Layer Analysis)\n\n### ۴.۱. لایه آشکار (Manifest Layer) — آنچه نگارش شده است\n*   **ساختار محتوایی:** دو معما (رشد، نابرابری) → یک نظریه (UGT) → دو پیامد (فهم گذشته، سیاست آینده).\n*   **ادعاهای کلیدی صریح:**\n    1.  رکود هزاران ساله -> رونق دو قرن اخیر (گذر یکپارچه).\n    2.  ریشه نابرابری در «مقوّم‌های عمیق» (جغرافیا، تنوع، نهادها).\n    3.  سیاست‌گذاری اثربخش نیازمند درک ریشه‌های تاریخی است.\n*   **متغیرهای مشاهده‌شده:** تکنولوژی، جمعیت، سرمایه انسانی، جغرافیا، تنوع زیستی/فرهنگی، نهادها.\n*   **نقص لایه آشکار:** عدم ارائه تعریف عملیاتی (Operationalization) برای «مقوّم‌های عمیق». عدم اشاره به «معکوس کردن علّتی» (Reverse Causality) بین نهادها و رشد.\n\n### ۴.۲. لایه پنهان (Latent Layer) — مکانیسم‌ها، الگوهای پنهان، حلقه‌های بازخورد، نقاط槓桿\n**مکانیسم مرکزی پنهان: «مکانیسم کیفیت-کمیت çocukان» (Quality-Quantity Trade-off Mechanism)**\n> این مکانیسم *موتور محرک* گذر است که در متن صریحاً نام برده نشده، اما منطقاً لزوم دارد:\n> 1.  **فشارMLE (Technological Progress) ↑** → **بازدهی مهارت (Return to Skill) ↑**\n> 2.  **بازدهی مهارت ↑** → **تقاضای والدین برای کیفیت فرزند (교육) ↑**\n> 3.  **کیفیت فرزند ↑** → **تعداد فرزند (Quantity) ↓** (گذار جمعیتی)\n> 4.  **جمعیت ↓ + سرمایه انسانی ↑** → **رشد در فرد (Per Capita Growth) ↑**\n\n**حلقه‌های بازخورد (Feedback Loops) شناسایی شده:**\n| شناسه | نوع حلقه | متغیرها | توضیح مکانیسمی | نقش در نظریه |\n| :--- | :--- | :--- | :--- | :--- |\n| **RL1** | **تقویت‌کننده (Reinforcing / +)** | تکنولوژی ↑ → تقاضای مهارت ↑ → سرمایه انسانی ↑ → نوآوری ↑ → تکنولوژی ↑ | **موتور رونق مدرن.** توضیح می‌دهد چرا گذر غیرقابل بازگشت است. |\n| **RL2** | **تقویت‌کننده (Reinforcing / +)** | جغرافیا (ملایم) → تنوع زیستی پایین → اعتماد/همکاری ↑ → نهادهای جامعین ↑ → رشد ↑ | **مسیرابی جغرافیایی-نهادین.** ریشه نابرابری بین قاره‌ها. |\n| **BL1** | **مُوازن (Balancing / -)** | جمعیت ↑ → منابع در فرد ↓ → تکنولوژی ↓ (در دوره مالتوسی) | **مکنیزم رکود مالتوسی.** نگه‌داشتن اقتصاد در حالت استوار پایین. |\n| **BL2** | **مُوازن (Balancing / -)** | تنوع زیستی زیاد → همبستگی اجتماعی ↓ → هزینه‌های مخابره ↑ → نهادهای استخراجی ↑ → رشد ↓ | **مکانیزم تنوع-نهاد.** توضیح 파радوکس آفریقا (تنوع بالا، رشد پایین). |\n\n**الگوهای تکرارشونده (Recurring Patterns):**\n1.  **Path Dependence (مسار وابستگی):** شروط اولیه (جغرافیا، بیماری) -> نهادهای کهنه -> نتایج امروزی. تاریخ «قضیه» نیست، «علت» است.\n2.  **Evolutionary Mismatch (ناهمسازی تکاملی):** ترجیحات تکاملی شکل‌گرفته در محیط مالتوسی (ترجیح کمیت) در محیط مدرن (نیاز به کیفیت) ناسازگارند -> توضیح چالش‌های پویایی در کشورهای در حال توسعه.\n\n**نقاط槓桿 (Leverage Points) — مکان‌های مداخله با اثر بالا:**\n1.  **LP1 (High Leverage): تسریع تقاضای سرمایه انسانی** (آموزش دختران، کاهش смерت مادری) -> شکستن BL1 و فعال‌سازی RL1 زودتر. *سیاست: سرمایه‌گذاری در آموزش پایه و سلامت باروری.*\n2.  **LP2 (Medium Leverage): اصلاح نهادهای جامعین** در جوامع پرتنوع -> کاهش هزینه‌های مخابره ناشی از BL2. *سیاست: فدرالیسم، قانون اساسی شامل، مدیریت تنوع.*\n3.  **LP3 (Low Leverage - در کوتاه‌مدت): انتقال تکنولوژی** بدون پیش‌نیاز سرمایه انسانی -> اثر گذرا (نظریه سنتی)، در UGT بی‌اثربی‌اثر است، مگر با همراهی LP1. *سیاست: واردات ماشین‌آلات بدون آموزش بومی، ناتؤ.*\n\n---\n\n### ۴.۳. لایه فراداده (Meta Layer) — contingency، دیدگاه‌ها، پیش‌فرض‌های نهفته\n*   **Contingency (واقیعت مشروط):** نظریه ادعای «قوانین جهانی» (Universal Wheels of Change) دارد، اما مکانیسم‌هایLP1/LP2 نشان می‌دهد که *شرایط اولیه* (جغرافیا، تنوع) مسیر را قفل می‌کنند.'Universality' در *مکانیسم* است، نه در *نتيجة*ی تنظیم.\n*   **دیدگاه‌های حاکم (Dominant Perspectives):**\n    1.  **بیولوژیکالیسم محاسبه‌گرا (Calculating Biologism):** عامل‌های اجتماعی به بهینه‌سازی تکاملی تقلیل داده شده‌اند (ترجیحات کیفی/کمیت). دیدگاه‌های فرهنگی/ایده‌محور (Weberian/Ideational) حذف یا پایینی‌آورده شده‌اند.\n    2.  **متریالیسم جغرافیایی (Geographic Materialism):** جغرافیا به عنوان متغیر بیرونی (Exogenous) و نهایی پذیرفته شده؛ عملیت Macht (قدرت/استعمار) به عنوان عامل شکل‌دهنده جغرافیای سیاسی/نہادی نادیده گرفته شده.\n*   **پیش‌فرض‌های نهفته (Implicit Assumptions):**\n    1.  *وحدت نوع بشر:* فشارهای انتخابی یکسان روی تمام جوامع اثر داشته (Universal Evolutionary Psychology).\n    2.  *بیرون‌گریزی تکنولوژی:* پیشرفت تکنولوژی در دور مالتوسی «خارجی» و کند است؛ در دور مدرن «داخلی» و تسریع‌یافته. مکانیسم این تغییرِ رژیم (Exogenous -> Endogenous) در چکیده توضیح داده نشده (Black Box).\n    3.  *عملکردگرایی نهادها:* نهادها به عنوان «مقوّم عمیق» عمل می‌کنند، نه به عنوان ابزار قدرت Élite (Acemoglu/Robinson criticism).\n    4.  *خطیّة تاریخ:* گذر یک‌جهته و غیرقابل بازگشت (Unidirectional Transition). احتمال «بازگشت به رکود» (Malthusian Reversal) یا «تولید ثروت بدون گذار جمعیتی» (Oil-rich states) در چارچوب اصلی گنجانده نشده.\n\n---\n\n## ۵. تحلیل EIG (Epistemic Gap-Index Gap Analysis)\n\n| بُعد EIG | وضعیت در متن/نظریه | امتیاز (0-100) | تحلیل شکاف |\n| :--- | :--- | :---: | :--- |\n| **EIG-1: Problem Formulation**<br>(صیاغة مسئله) | **بسیار قوی** | ۹۵ | مسئله «گذر» و «ریشه نابرابری» به عنوان دو وجه یک سکه تعریف شده. فراتر از «چرا رشد؟» به «چرا رکود و چرا ناگهان گذر؟» می‌رود. |\n| **EIG-2: Causal Identification**<br>(شناسایی علیت) | **قوی / ناقص در جزئیات** | ۸۵ | مکانیسم کیفیت-کمیت علیت قوی است. اما کانال‌های انتقال «جغرافیا -> نهادها -> رشد» و «تنوع -> اعتماد -> نهادها» در چکیده Black Box مانده‌اند.识别 causation در داده‌های Observatory سخت است. |\n| **EIG-3: Measurement Validity**<br>(اعتبار اندازه‌گیری) | **پایین (در متن ورودی)** | ۴۰ | چکیده هیچ متغیر پنهان (Latent Variable) را عملیاتی نمی‌کند. «مقوّم‌های عمیق» چگونه اندازه‌گیری می‌شوند؟ (Genetic Diversity Index? Historical Migration Distance?). بدون این، تست تجربی ممکن نیست. |\n| **EIG-4: Generalizability Scope**<br>(دامنه تعمیم‌پذیری) | **ادعای جهانی / تست محدود** | ۷۵ | نظریه برای «کل تاریخ بشر» و «همه ملل» ادعا می‌کند. تست‌های تجربی عمداً روی مقطع عرضی کشورهای مدرن یا مشترک‌های استعماری انجام شده. बाहییتی (External Validity) برای جامعه‌های شکارگر-آخوند یا اقتصادهای نفتی پرسش‌برانگیز است. |\n| **EIG-5: Actionability Gap**<br>(شکاف عمل‌پذیری) | **متوسط** | ۶۵ |政策含蓄 (Policy Implication) کلی است: «درک ریشه‌ها -> سیاست بهتر». نکته عمل‌گرایانه مشخص (مثلاً: «کاهش تنوع زیستی ناممکن است، پس روی اعتماد سرمایه‌گذاری کنید») در چکیده استخراج نمی‌شود. |\n\n**مجموع EIG Score: ۷۲/۱۰۰** — شکاف اصلی در **Measurement Validity** و **Actionability** است. نظریه در لایه Latent بسیار قوی، در لایه Manifest (این چکیده) و Operationalization ضعیف.\n\n---\n\n## ۶. REIG — ممیزی Draft Analysis (Self-Audit of Sections 1-5)\n\n**CORE QUESTION:** «آیا من — تحلیلگر — در خروجی خودم (بخش‌های ۱ تا ۵) از گپ‌های EIG عبور کردم؟»\n\n| نقطه ممیزی (Compliance Check) | وضعیت | توضیح نقض / تأیید |\n| :--- | :---: | :--- |\n| **□ Causal Compliance**<br>(آیا در Draft خودم علیت ادعا کردم جایی که فقط همبستگی داشتم؟) | **PASS** | در بخش ۴.۲ (Latent Layer) صریحاً «مکانیسم کیفیت-کمیت» را به عنوان *استدلال نظری* (Mechanism) عرضه کردم، نه نتیجه رگرسیونی. در جدول EIG-2 نمره ۸۵ دادم و ناکامل بودن کانال‌های جغرافیا->نهاد را ذکر کردم. وادعا به علیت تجربی نکردم. |\n| **□ Generalization Compliance**<br>(آیا در Draft خودم تعمیم غیرمجاز دادم؟) | **PASS** | در Meta Layer (۴.۳) صریحاً محدودیت تعمیم به اقتصادهای نفتی، جوامع شکارگر-آخوند و نقش استعمار را به عنوان *محدودیت نظریه*ذکر کردم. در EIG-4 نمره ۷۵ دادم و «ادعای جهانی / تست محدود» را برچسب زدم. |\n| **□ Measurement Compliance**<br>(آیا امتیازات و اعداد Draft دقیق‌تر از اطمینان واقعی‌ام گزارش شدند؟) | **FAIL (Minor)** | **نقض شناسایی شده:** در جدول ۷ معیار (بخش ۲)، معیار **C2 (Empirical Support)** را **۵۰/۱۰۰** نمره دادم با استدلال «چکیده هیچ داده‌ای ارائه نمی‌دهد». با این حال، در **BSI Overall Score (۸۷)**، وزن ۱۵٪ این معیار پایین‌ترین اثر را داشت. *نقد:* نمره ۵۰ برای C2 همچنان «متوسط» است، در حالی که برای یک *چکیده* انتظار داده تجربی وجود ندارد. معیار C2 باید یا وزن داشته باشد، یا نمره بر اساس «پتانسیل تجربی نظریه» (نه متن چکیده) داده شود. من نمره را بر اساس *متن ورودی* دادم که đúng است، اما در خلاصه اجرایی نغز «امتیاز کلی ۸۷» را بدون شرط «مشروط به اعتبارسنجی تجربی در متن کامل» عرضه کردم. این یک **Framing Compliance** هم محسوب می‌شود. |\n| **□ Framing Compliance**<br>(آیا در Draft خودم قضاوت ارزشی فراتر از داده‌ها دادم؟) | **PASS (با احتیاط)** | عبارت «پارادایم‌ساز»، «برتری»، «موتور محرک» در بخش ۳ (CreativeValueAdd) استفاده شده. این قضاوت ارزشی است، اما **پایه‌داری** دارد: بر پایه وزن‌دهی W=40% برای Combinatorial Synthesis و",
+            "source_model": "nvidia/nemotron-3-ultra-550b-a55b:free",
+            "generated_at": "2026-09-14T16:45:02Z",
+            "usage": {
+              "prompt_tokens": 4689,
+              "completion_tokens": 2000,
+              "total_tokens": 6689,
+              "cost": 0,
+              "is_byok": false,
+              "prompt_tokens_details": {
+                "cached_tokens": 0,
+                "cache_write_tokens": 0,
+                "audio_tokens": 0,
+                "video_tokens": 0
+              },
+              "cost_details": {
+                "upstream_inference_cost": 0,
+                "upstream_inference_prompt_cost": 0,
+                "upstream_inference_completions_cost": 0
+              },
+              "completion_tokens_details": {
+                "reasoning_tokens": 160,
+                "image_tokens": 0,
+                "audio_tokens": 0
+              }
+            },
+            "finish_reason": "length",
+            "continuation_rounds": 2
+          },
+          "metadata": {
+            "execution_time_seconds": 550.247,
+            "usage": {
+              "prompt_tokens": 4689,
+              "completion_tokens": 2000,
+              "total_tokens": 6689,
+              "cost": 0,
+              "is_byok": false,
+              "prompt_tokens_details": {
+                "cached_tokens": 0,
+                "cache_write_tokens": 0,
+                "audio_tokens": 0,
+                "video_tokens": 0
+              },
+              "cost_details": {
+                "upstream_inference_cost": 0,
+                "upstream_inference_prompt_cost": 0,
+                "upstream_inference_completions_cost": 0
+              },
+              "completion_tokens_details": {
+                "reasoning_tokens": 160,
+                "image_tokens": 0,
+                "audio_tokens": 0
+              }
+            }
+          },
+          "judge_result": {
+            "criteria_source": "llm",
+            "winner": "bsi",
+            "winner_source": "llm",
+            "reasoning": "Despite RAW’s solid claim presentation, the BSI analysis provides a more comprehensive, layered understanding, adding significant epistemic value beyond the raw abstract.",
+            "criteria": [
+              {
+                "name": "Claim Clarity",
+                "importance": 25.0,
+                "raw_score": 6.5,
+                "bsi_score": 7.5,
+                "reason": "Raw presents clear, concise claims in the abstract; BSI expands on them with nuanced detail, improving clarity."
+              },
+              {
+                "name": "Empirical Support",
+                "importance": 20.0,
+                "raw_score": 4.5,
+                "bsi_score": 6.0,
+                "reason": "Raw lacks any empirical evidence beyond the abstract; BSI acknowledges the lack but evaluates the latent potential for empirical validation."
+              },
+              {
+                "name": "Theoretical Depth",
+                "importance": 20.0,
+                "raw_score": 7.0,
+                "bsi_score": 8.0,
+                "reason": "Raw outlines a unified framework; BSI provides a deeper mechanistic map and layer‑wise synthesis, slightly exceeding raw."
+              },
+              {
+                "name": "Mechanistic Explanation",
+                "importance": 15.0,
+                "raw_score": 6.0,
+                "bsi_score": 7.0,
+                "reason": "Raw offers a high‑level mechanism; BSI details the latent quality‑quantity trade‑off cycle, adding depth."
+              },
+              {
+                "name": "Policy Relevance",
+                "importance": 10.0,
+                "raw_score": 5.5,
+                "bsi_score": 6.5,
+                "reason": "Raw mentions policy implications vaguely; BSI explicitly discusses potential policy levers and practical utility."
+              },
+              {
+                "name": "Structural Coherence",
+                "importance": 10.0,
+                "raw_score": 7.5,
+                "bsi_score": 7.5,
+                "reason": "Both analyses maintain internal consistency; raw is simpler, BSI is more elaborate but equally coherent."
+              }
+            ],
+            "total_scores": {
+              "raw": 6.12,
+              "bsi": 7.12
+            },
+            "bsi_capability_assessment": {
+              "relevance": "high",
+              "realization": "medium",
+              "incremental_value": "high",
+              "reason": "The BSI analysis adds structured, latent‑layer insight and a multi‑dimensional evaluation framework that RAW lacks, but its realization is moderate due to limited empirical grounding."
+            },
+            "incremental_value": "high",
+            "scale": "0-10",
+            "weight_sum": 100.0,
+            "glossary_mode": "full",
+            "judge_input_compacted": false
+          },
+          "scores": {
+            "RAW": 0.612,
+            "BSI": 0.712
+          },
+          "failed": false,
+          "status": "incomplete",
+          "model_id": "nvidia/nemotron-3-ultra-550b-a55b:free",
+          "truncated": true
+        }
+      ],
+      "article_id": "doi:https://doi.org/10.1146/annurev-economics-090324-034939"
+    }
+  ],
+  "source_url": "https://github.com/ibstrade11-source/behmanesh-index-prompt/blob/main/MASTER_PROMPT_BSI_v3.4.2.md",
+  "run_metadata": {
+    "tool_version": "0.1.0",
+    "git_commit": "4611b84b11c40496a9a55179000750ad1c70c7f4",
+    "git_dirty": true,
+    "run_timestamp_utc": "2026-09-14T16:35:51Z",
+    "methodology_note": "Scores/judgements come from an independent LLM judge (see comparison/judge.py) instructed not to reuse BSI's own D1-D7/EIG vocabulary and to choose its own evaluation criteria. If no judge model is available or its response cannot be parsed, the run falls back to a simple keyword-presence heuristic -- the stored record's own 'criteria_source' field ('llm' vs 'heuristic_fallback') always says honestly which one produced a given result. Neither path is a validated measurement of analytical quality until checked against independent human judgement on a representative sample.",
+    "provider_name": null,
+    "model_version": null,
+    "temperature": null,
+    "max_tokens": null,
+    "prompt_version": null,
+    "framework_name": "bsi"
+  },
+  "retrieval_metadata": {
+    "retrieval_status": "accepted",
+    "retrieval_validation": {
+      "retrieval_status": "accepted",
+      "retrieval_validation": "not_required",
+      "query_type": "topic",
+      "requested_query": "Economics",
+      "candidate_count": 1
+    },
+    "rejected_articles": [],
+    "skipped_count": 0,
+    "skipped_titles": []
+  },
+  "benchmark_status": "benchmarkable"
+}

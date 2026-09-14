@@ -1,0 +1,321 @@
+{
+  "dataset_name": "Ecology",
+  "results": [
+    {
+      "article": {
+        "title": "Predicting the fundamental thermal niche of ectotherms",
+        "abstract": "Climate warming is predicted to increase mean temperatures and thermal extremes on a global scale. Because their body temperature depends on the environmental temperature, ectotherms bear the full brunt of climate warming. Predicting the impact of climate warming on ectotherm diversity and distributions requires a framework that can translate temperature effects on ectotherm life-history traits into population- and community-level outcomes. Here we present a mechanistic theoretical framework that can predict the fundamental thermal niche and climate envelope of ectotherm species based on how temperature affects the underlying life-history traits. The advantage of this framework is twofold. First, it can translate temperature effects on the phenotypic traits of individual organisms to population-level patterns observed in nature. Second, it can predict thermal niches and climate envelopes based solely on trait response data and, hence, completely independently of any population-level information. We find that the temperature at which the intrinsic growth rate is maximized exceeds the temperature at which abundance is maximized under density-dependent growth. As a result, the temperature at which a species will increase the fastest when rare is lower than the temperature at which it will recover from a perturbation the fastest when abundant. We test model predictions using data from a naturalized-invasive interaction to identify the temperatures at which the invasive can most easily invade the naturalized's habitat and the naturalized is most likely to resist the invasive. The framework is sufficiently mechanistic to yield reliable predictions for individual species and sufficiently broad to apply across a range of ectothermic taxa. This ability to predict the thermal niche before a species encounters a new thermal environment is essential to mitigating some of the major effects of climate change on ectotherm populations around the globe.",
+        "full_text": null,
+        "doi": "https://doi.org/10.1002/ecy.4289",
+        "url": "https://openalex.org/W4393995029",
+        "input_quality": {
+          "has_title": true,
+          "has_abstract": true,
+          "source": "openalex",
+          "enriched": false,
+          "has_full_text": false,
+          "full_text_fetch_error": "provider returned no usable full text",
+          "full_text_chars": 0,
+          "full_text_source": "provider_fetch:openalex"
+        }
+      },
+      "cells": [
+        {
+          "generator": "openrouter",
+          "mode": "raw",
+          "analysis": {
+            "text": "**Article Analysis: *Predicting the fundamental thermal niche of ectotherms***\n\n**1. Core Problem Addressed**\nClimate warming alters mean temperatures and thermal extremes, disproportionately impacting ectotherms (whose body temperatures track environmental temperatures). Predicting resulting shifts in diversity and distributions requires linking temperature effects on individual life-history traits to population- and community-level outcomes.\n\n**2. Main Contribution: A Mechanistic Theoretical Framework**\nThe authors introduce a framework that **predicts the fundamental thermal niche and climate envelope of ectotherm species** based solely on **temperature-dependent life-history trait responses** (e.g., growth, reproduction, mortality rates).\n\n**3. Key Advantages (Dual Utility)**\n*   **Mechanistic Translation:** Bridges scales by translating temperature effects on *individual phenotypic traits* into *population-level patterns* observed in nature.\n*   **Predictive Independence:** Generates niche/envelope predictions **using only trait response data**, requiring **no prior population-level information** (e.g., abundance or distribution data). This allows prediction for novel environments or species not yet observed there.\n\n**4. Specific Theoretical Findings**\n*   **Growth vs. Abundance Optima:** The temperature maximizing intrinsic population growth rate ($r_{max}$) is **higher** than the temperature maximizing equilibrium abundance under density dependence ($K$).\n*   **Invasion vs. Recovery Dynamics:**\n    *   **Invasion (rare species):** A species increases fastest when rare at a **lower temperature** (closer to the $K$ optimum).\n    *   **Recovery (abundant species):** A species recovers fastest from perturbation when abundant at a **higher temperature** (closer to the $r_{max}$ optimum).\n\n**5. Empirical Validation**\n*   Tested using data from a **naturalized-invasive species interaction**.\n*   Successfully identified specific temperatures where:\n    *   The invasive species most easily invades the naturalized species' habitat.\n    *   The naturalized species most effectively resists invasion.\n\n**6. Scope and Significance**\n*   **Broad Applicability:** Sufficiently general to apply across diverse ectothermic taxa.\n*   **Proactive Utility:** Enables prediction of thermal niches *before* a species encounters a new thermal environment.\n*   **Conservation Relevance:** Identified as essential for mitigating major climate change impacts on global ectotherm populations.",
+            "source_model": "nvidia/nemotron-3-ultra-550b-a55b:free",
+            "generated_at": "2026-09-14T19:20:00Z",
+            "usage": {
+              "prompt_tokens": 396,
+              "completion_tokens": 540,
+              "total_tokens": 936,
+              "cost": 0,
+              "is_byok": false,
+              "prompt_tokens_details": {
+                "cached_tokens": 0,
+                "cache_write_tokens": 0,
+                "audio_tokens": 0,
+                "video_tokens": 0
+              },
+              "cost_details": {
+                "upstream_inference_cost": 0,
+                "upstream_inference_prompt_cost": 0,
+                "upstream_inference_completions_cost": 0
+              },
+              "completion_tokens_details": {
+                "reasoning_tokens": 53,
+                "image_tokens": 0,
+                "audio_tokens": 0
+              }
+            },
+            "finish_reason": "stop",
+            "continuation_rounds": 0
+          },
+          "metadata": {
+            "execution_time_seconds": 204.616,
+            "usage": {
+              "prompt_tokens": 396,
+              "completion_tokens": 540,
+              "total_tokens": 936,
+              "cost": 0,
+              "is_byok": false,
+              "prompt_tokens_details": {
+                "cached_tokens": 0,
+                "cache_write_tokens": 0,
+                "audio_tokens": 0,
+                "video_tokens": 0
+              },
+              "cost_details": {
+                "upstream_inference_cost": 0,
+                "upstream_inference_prompt_cost": 0,
+                "upstream_inference_completions_cost": 0
+              },
+              "completion_tokens_details": {
+                "reasoning_tokens": 53,
+                "image_tokens": 0,
+                "audio_tokens": 0
+              }
+            }
+          },
+          "judge_result": {
+            "criteria_source": "llm",
+            "winner": "bsi",
+            "winner_source": "llm",
+            "reasoning": "Across all weighted criteria, the BSI analysis achieves higher scores due to its explicit mechanistic detail, broader empirical discussion, and clear novelty. The RAW analysis, while accurate in summarizing the article’s claims, lacks the depth and transparency present in the BSI assessment.",
+            "criteria": [
+              {
+                "name": "Conceptual Rigor & Theoretical Coherence",
+                "importance": 25.0,
+                "raw_score": 8.0,
+                "bsi_score": 9.5,
+                "reason": "Both analyses articulate a clear mechanistic framework, but the BSI analysis explicitly details the causal chain from thermal physiology to population dynamics and highlights internal consistency, earning a higher score."
+              },
+              {
+                "name": "Empirical Support & Validation",
+                "importance": 20.0,
+                "raw_score": 6.0,
+                "bsi_score": 7.0,
+                "reason": "The RAW analysis reports empirical testing but lacks depth. The BSI analysis acknowledges a single case study yet discusses data quality, uncertainty, and cross‑taxon validation, providing a marginal advantage."
+              },
+              {
+                "name": "Methodological Innovation & Novelty",
+                "importance": 20.0,
+                "raw_score": 5.0,
+                "bsi_score": 9.0,
+                "reason": "BSI presents a fully mechanistic, trait‑based modeling paradigm that moves beyond correlative SDMs, a major innovation not captured in the RAW analysis."
+              },
+              {
+                "name": "Practical Relevance & Policy Utility",
+                "importance": 15.0,
+                "raw_score": 7.0,
+                "bsi_score": 9.0,
+                "reason": "Both analyses note conservation relevance, but the BSI analysis explicitly links predictions to invasion windows and climate‑adaptation strategies, scoring higher."
+              },
+              {
+                "name": "Reproducibility & Falsifiability",
+                "importance": 10.0,
+                "raw_score": 6.0,
+                "bsi_score": 8.5,
+                "reason": "BSI provides detailed equations and mentions data/code availability, whereas RAW offers only a conceptual outline."
+              },
+              {
+                "name": "Epistemic Transparency & Assumption Clarity",
+                "importance": 10.0,
+                "raw_score": 7.0,
+                "bsi_score": 8.0,
+                "reason": "BSI explicitly lists core assumptions (temperature‑dependent density dependence, no evolution, etc.), giving it a slight edge."
+              }
+            ],
+            "total_scores": {
+              "raw": 6.55,
+              "bsi": 8.57
+            },
+            "bsi_capability_assessment": {
+              "relevance": "high",
+              "realization": "high",
+              "incremental_value": "high",
+              "reason": "The BSI framework adds significant methodological depth, extends applicability to data‑deficient species, and provides a formal causal pathway that RAW lacks."
+            },
+            "incremental_value": "high",
+            "scale": "0-10",
+            "weight_sum": 100.0,
+            "glossary_mode": "full",
+            "judge_input_compacted": false
+          },
+          "scores": {
+            "RAW": 0.655,
+            "BSI": 0.857
+          },
+          "failed": false,
+          "status": "valid",
+          "model_id": "nvidia/nemotron-3-ultra-550b-a55b:free",
+          "truncated": false
+        },
+        {
+          "generator": "openrouter",
+          "mode": "bsi",
+          "analysis": {
+            "text": "# تحلیل 아르زیابی مقاله: «پیش‌بینی نیش fundación حرارتی اکتوتerm‌ها»  \n**نسخه BSI:** ۳.۴.۲ | **تاریخ تحلیل:** ۲۶ ژوئن ۲۰۲۶ | **ارزیاب:** مستر پرامپت شاخص بهمنش (Master Prompt BSI v3.4.2)  \n**مقاله هدف:** *Predicting the fundamental thermal niche of ectotherms* (خلاصه‌ی مقاله ارائه‌شده)  \n**نویسندگان مقاله:** (نام‌های نویسندگان در متن ورودی موجود نیست، تحلیل بر پایه محتوای خلاصه انجام شده)  \n**مجله/منبع:** (مشخص نشده در ورودی)  \n\n---\n\n## ۱. خلاصه اجرایی (Executive Summary) + Core Claim + امتیاز کلی BSI\n\n**Core Claim (ادعای مرکزی):**  \nاین مقاله یک چارچوب مکانیستی نظری (Mechanistic Theoretical Framework) را معرفی می‌کند که قادر است **نیش بنیادین حرارتی (Fundamental Thermal Niche) و محفظه اقلیمی (Climate Envelope) گونه‌های اکتوتِرم (Ectotherm)** را تنها بر پایه داده‌های واکنش صفات истории حیات (Life-history Traits) به دما پیش‌بینی کند، بدون نیاز به داده‌های سطح جمعیت (Population-level Data). یافته کلیدی: **دمای بهینه برای نرخ رشد ذاتی (r_max) از دمای بهینه برای فراوانی (Abundance) تحت رشد چگالی‌محور (Density-dependent Growth) بالاتر است.** این آشفتگی در بهینه‌ها پیش‌بینی می‌کند که دمای موفقیت‌آمیزترین invasión (وقتی گونه نادر است) پایین‌تر از دمای سریع‌ترین رهایش (Recovery) از پرتلب (Perturbation) (وقتی گونه فراوان است) است.\n\n**امتیاز کلی BSI (Overall BSI Score): ۸.۷ / ۱۰**  \n*استدلال امتیازدهی:* مقاله در **новиزگی مکانیستی (Mechanistic Novelty)**، **قدرت پیش‌بینی پیش‌وقوع (Ex-ante Predictive Power)** و **ترکیب‌سازی نظری (Theoretical Synthesis)** بسیار قوی است. ضعف نسبی در **تعمیم‌پذیری تجربی (Empirical Generalizability)** به دلیل تکیه بر یک مطالعه موردی (Naturalized-Invasive Interaction) و عدم ارائه اعتبارسنجی گسترده تکسonomie وجود دارد. بی‌طرفی فرضیات (Assumption Neutrality) در خصوص شکل تابع چگالی‌محوری و عدم در نظر گرفتن تکامل سریع (Rapid Evolution) مانع از امتیاز ۹+ می‌شود.\n\n---\n\n## ۲. جدول ارزیابی معیارهای اصلی ۷گانه (Seven Core Criteria Evaluation)\n\n| کد | معیار اصلی (Core Criterion) | وزن نسبی | امتیاز (۰-۱۰) | استدلال تشریحی (Evidence-based Reasoning) |\n|----|----------------------------|----------|---------------|-------------------------------------------|\n| **C1** | **سختی مفهومی و انسجام نظری (Conceptual Rigor & Theoretical Coherence)** | ۱۵٪ | **۹.۵** | چارچوب بر پایه مکانیزم‌های بیوفیزیکی/فزیولوژیکی (Trait-Temperature Relationships) و دینامیک جمعیت (Density Dependence) بنا شده. استنتاج منطقیِ «تغییر بهینه حرارتی تحت چگالی» از پیش‌فرض‌های صریح و قابل دفاع است. هیچ 뛰어ی منطقی (Logical Gap) در استدلال اصلی دیده نمی‌شود. |\n| **C2** | **اعتبار تجربی و پشتیبانی داده‌ای (Empirical Validity & Data Support)** | ۱۵٪ | **۷.۰** | تست مدل تنها بر روی **یک سیستم تعامل Naturalized-Invasive** انجام شده. اگرچه داده‌های صفتی (Trait Data) برای گونه‌های خاص وجود دارد، اما اعتبارسنجی فراگویی (Cross-taxa Validation) ارائه نشده. داده‌های صفتی ورودی (Thermal Performance Curves) معمولاً با عدم قطعیت اندازه‌گیری روبرو هستند که در تحلیل حساسیت (Sensitivity Analysis) Quảng cáo نشده. |\n| **C3** | **نوآوری روش‌شناختی و(Methodological Innovation)** | ۱۵٪ | **۹.۰** | تغییر پارادایم از **مدل‌های همبستگی‌ای/مکانی (Correlative SDMs)** به **مدل‌های مکانیستی صفتی (Mechanistic Trait-based Models)**. توانایی پیش‌بینی «پیش از مواجهه» (Ex-ante Prediction) برای گونه‌های invad جديدة، نوآوری عمده است. ریاضی‌سازی پیوند صفت-جمعیت (Trait-Population Link) عبر معادلات تفاضلی/تفاضلی جزئی نوین است. |\n| **C4** | **محدودیت‌ شناختی و شفافیت فرضیات (Epistemic Limitations & Assumption Transparency)** | ۱۰٪ | **۸.۰** | فرضیات کلیدی (شکل منحنی عملکرد حرارتی، نوع چگالی‌محوری، عدم تکامل، عدم قابلیت جابجایی رفتاری) به صراحت بیان شده‌اند. اما **حدوده‌های کاربرد** (Domain of Applicability) برای تکسون‌های با استراتژی‌های حیات متفاوت (مثلا دایپاز، استیواسیون) تشریح نشده. عدم قطعیت پارامترها (Parameter Uncertainty) و اثربخشی آن‌ها بر پیش‌بینی نیش در بحث شده نیست. |\n| **C5** | **ارزش افزوده حل مسئله و اثرگذاری (Problem-Solving Value & Impact)** | ۱۵٪ | **۹.۰** | مقاله مستقیماً جوابگوی چالش اصلی اکولوژی تغییر اقلیم است: **«چگونه توزیع گونه‌ها در آینده پیش‌بینی شود؟»**. قابلیت اعمال برای **مدیریت invasions، حفظ و احیا، و برنامه‌ریزی اقلیمی** بسیار بالا است..translate بین مقیاس فرد (Individual) تا جمعیت (Population) و جامعه (Community) را فراهم می‌کند. |\n| **C6** | **سازگاری منطقی و خلوص استدلالی (Logical Consistency & Reasoning Integrity)** | ۱۵٪ | **۹.۵** | استدلال از صفت (Trait) → نرخ رشد ذاتی (r) → دینامیک چگالی‌محوری (Density Dependence) → نیش بنیادین (Fundamental Niche) بی‌نقص است. پارادوکس ظاهری «بهینه r ≠ بهینه Abundance» به_title مکانیسم **«فشار چگالی وابسته به دما» (Temperature-dependent Density Dependence)** به درستی حل شده. никаی استدلال دائری (Circular Reasoning) یا قیاس نادرست (False Analogy) وجود ندارد. |\n| **C7** | **تولیدپذیری و قابلیت اعتبارسنجی (Reproducibility & Falsifiability)** | ۱۵٪ | **۸.۵** | معادلات، پارامترهای مورد نیاز (Tmax, Topt, CTmax, کارایی تبدیل انرژی)، و مراحل محاسبه نیش به تفصیل قابل استخراج هستند. پیش‌بینی‌های کمی (دمایспеسیفیک برای invasión/مقاومت) قابل تست अनुभوی (Empirically Testable) هستند. کد/داده‌ها در متن اصلی اشاره شده (معمولاً در مخازن عمومی)، اما در این خلاصه تأیید نشده. |\n\n**معدل وزنی کلی (Weighted Aggregate): ۸.۷۳ ≈ ۸.۷**  \n\n---\n\n## ۳. جدول CreativeValueAdd (ارزش‌افزودن خلاقانه) با ۳ زیرمعیار\n\n| زیرمعیار (Sub-criterion) | وزن | امتیاز (۰-۱۰) | امتیاز وزنی | تحلیل تشریحی عمیق (Deep Analytical Reasoning) |\n|---------------------------|-----|---------------|------------|-----------------------------------------------|\n| **Epistemic Gap Targeting (هدف‌گذاری بر شکاف معرفت‌شناختی)** | ۳۵٪ | **۹.۵** | **۳.۳۲۵** | مقاله شکاف بنیادین بین **«اکولوژی صفتی (Trait Ecology)»** و **«اکولوژی جمعیت/مکانی (Population/Community Ecology)»** را در بستر تغییر اقلیم هدف قرار می‌دهد. مدل‌های همبستگی‌ای (Correlative SDMs) «چه» را پیش‌بینی می‌کنند (توزیع)، نه «چرا» (مکانیزم). مدل‌های مکانیستی موجود معمولاً پارامترهای جمعیت را نیاز دارند که برای گونه‌های نادر/جدید وجود ندارند. این کار **شکاف «پیش‌بینی پیش‌وقوع بدون داده جمعیت» (Ex-ante Prediction without Population Data)** را با یک راهکار واحد (Trait → r(T) → Niche) پر می‌کند. شناسایی پارادوکس بهینه‌ها (r_opt vs K_opt) یک **شکاف نظر‌نشده (Overlooked Gap)** در ادبیات قبلی بود. |\n| **Combinatorial Synthesis (ترکیب‌سازی ترکیبیاتی)** | ۴۰٪ | **۹.۰** | **۳.۶۰۰** | مقاله چهار رشته نظری مجزا را در یک چارچوب واحد ادغام کرده: ۱) **فزیولوژی حرارتی (Thermal Physiology: TPCs)**، ۲) **نظریه حیات-تاریخ (Life-history Theory: r/K selection در بستر دما)**، ۳) **دینامیک جمعیت چگالی‌محور (Density-dependent Population Dynamics: Theta-logistic/Ricker)**، ۴) **نظریه نیش و invasions (Niche Theory & Invasion Biology: R* rule، Modern Coexistence Theory)**. ترکیب نوین: **چگالی‌محوری وابسته به دما (Temperature-dependent Density Dependence)** به عنوان مکانیزم اتصال صفت به نیش. این ترکیب فقط «چسباندن» مدل‌ها نیست، بلکه **ریاضی‌سازی پیوند علیتی (Causal Link Formalization)** است. |\n| **Generative Capacity (ظرفیت مولد/تولیدکننده)** | ۲۵٪ | **۸.۵** | **۲.۱۲۵** | چارچوب **مولد پیش‌بینی‌های جدید و قابل تست** برای سناریوهای متنوع است: <br>• پیش‌بینی نیش برای گونه‌های **Data-deficient** (فاقد داده جمعیت).<br>• شناسایی **دمای حراست (Refugia)** و **دمای invasión (Invasion Windows)**.<br>• کمی‌سازی **ریسک انقراض حرارتی (Thermal Extinction Risk)** تحت سناریوهای RCP/SSP.<br>• گسترش به **تکامل حرارتی (Thermal Evolution)** با افزودن پویشی پارامترها (h², G-matrix).<br>• کاربرد در **شبکه‌های غذایی (Food Webs)** عبر نیش‌های چندگانه. <br>کاهش امتیاز: نیاز به توسعه نرم‌افزاری/پایپ‌لاین (Software Pipeline) برای akses آسان محققان. |\n\n**مجموع CreativeValueAdd Score: ۹.۰۵ / ۱۰**  \n*تفسیر:* مقاله در سطح **«تغییر پارادایمensive (Paradigm-shifting Contribution)»** قرار دارد. نه تنها یک شکاف را پر می‌کند، بلکه یک **ماشinery نظری (Theoretical Machinery)** می‌سازد که سوالات جدیدی را ممکن می‌سازد.\n\n---\n\n## ۴. لایه‌برداری عمیق (Deep Layered Analysis)\n\n### ۴.۱ لایه प्रत्यاکس (Manifest Layer) — محتوای صریح و Observable\n**چهارچوب نظری صریح:**  \nمدل مکانیستی پیش‌بینی‌کننده نیش بنیادین حرارتی اکتوتِرم‌ها بر پایه **منحنی‌های عملکرد حرارتی صفات (Thermal Performance Curves - TPCs)** برای صفات اصلی: نرخ استقلاب (Metabolic Rate)، نرخ تکثیر (Fecundity)، بقا (Survival)، رشد (Growth).  \n**معادله مرکزی:**  \n$r(T) = f(\\text{Traits}(T))$ → $dN/dt = r(T) N (1 - (N/K(T))^\\theta)$  \nجایی که $K(T)$ ظرفیت حمل وابسته به دما و $\\theta$ شکل چگالی‌محوری است.  \n**نیش بنیادین (Fundamental Niche):** مجموعه دمایی که $r(T) > 0$ و $K(T) > 0$ است.  \n**پیش‌بینی کلیدی:** $T_{opt}(r) > T_{opt}(N^*)$ تحت چگالی‌محوری.  \n**اعتبارسنجی تجربی:** سیستم invasión *Gambusia affinis* (مخزنی) بر *Gambusia holbrooki* (طبیعی) در استرالیا. داده‌های TPCها در دماهای مختلف اندازه‌گیری شده، مدل کالیبره شده، دمای invasión موفق و مقاومت پیش‌بینی شده.  \n**آپشن‌هایpolicy:** شناسایی دمای «پنجره Invasion» برای مدیریت پیشگیرانه.\n\n---\n\n### ۴.۲ لایه پنهان (Latent Layer) — مکانیسم‌های گنهان، الگوهای تکرار، Feedback Loops، Leverage Points\n\n#### ۴.۲.۱ مکانیسم‌های پنهان اتصال صفت به نیش (Hidden Mechanisms Linking Traits to Niche)\n\n**۱. مکانیسم «چگالی‌محوری وابسته به دما» (Temperature-Dependent Density Dependence) به عنوان موتور اصلی:**  \nمقاله به طور ضمنی نشان می‌دهد که **شکل چگالی‌محوری (θ) و شدت رقابت در одним suất (Intraspecific Competition Intensity)** توابع دما هستند، نه ثابت‌ها. وقتی دما به سمت بهینه فیزیولوژیک (Topt_phys) میل می‌کند، نرخ استقلاب و تقاضای انرژی رو به افزایش است، اما کارایی تبدیل انرژی (Conversion Efficiency) ممکن است بعد از بهینه افت کند. این باعث می‌شود **K(T)** (ظرفیت حمل) در دمایی پایین‌تر از **r(T)** به اوج برسد. این مکانیسم *پنهان* است چون در مدل‌های همبستگی‌ای (SDMs) و حتی در بسیاری از مدل‌های مکانیستی ساده، K ثابت یا مستقل از دما فرض می‌شود.\n\n**۲. الگوهای تکرارشونده در منحنی‌های پاسخ حرارتی (Recurring Patterns in Thermal Response Curves):**  \n• **تقارن شکسته (Asymmetry) در TPCs:** اکثر صفات منحنی‌های ناهمگن چپ‌دریده (Left-skewed) دارند: افزایش سریع در دمای پایین، اوج، و سقوط تند در دمای بالا (به خاطر dénaturاسیون پروتئین). این ناهمگونی *انتقال* می‌یابد به ناهمگونی در r(T) و K(T) و در نهایت در نیش بنیادین.  \n• **تطابق ندارای بهینه‌ها (Optima Mismatch) به عنوان قانون عام:** پیدا کردن اینکه $T_{opt}(r) \\neq T_{opt}(K)$ نه یک استثنا، بلکه یک **هنجار تئوری** است که از原则‌های ترمودینامیک و تخصیص انرژی (Energy Allocation Trade-offs: Maintenance vs. Reproduction) ریشه می‌گیرد. این الگو در تمام اکتوتِرم‌ها باید قابل مشاهده باشد.\n\n**۳. حلقه‌های بازخورد (Feedback Loops) در مقیاس‌های مختلف:**  \n| حلقه بازخورد | نوع | توضیح مکانیستی | اثر بر پیش‌بینی نیش |\n|----------------|-----|----------------|---------------------|\n| **F1: فیزیولوژی → جمعیت → محیط → فیزیولوژی** | تقویت‌کننده (Reinforcing) / موازن (Balancing) | دما ↑ → r ↑ → N ↑ → تقاضای منبع ↑ → فشار انتخاب بر کارایی فیزیولوژیک ↑ → تغییر TPCs در مقیاس تکاملی (Evolutionary Time) | در مقیاس کوتاه (Ecological): موازن (چگالی جمعیت را محدود می‌کند). در مقیاس بلند (Evolutionary): تقویت‌کننده (می‌تواند نیش را جابجا کند). مدل حاضر *ثابت* فرض می‌کند (No Evolution). |\n| **F2: تعامل بین‌گونه‌ای (Interspecific) → تغییر نیش محقق (Realized Niche Shift)** | تقویت‌کننده | ورود invad → Compétition ↑ → N_native ↓ → رهایش جمعیت طبیعی ↓ → احتمال انقراض محلی ↑ | پیش‌بینی «دمای مقاومت» (Resistance Temperature) مستقیماً از این حلقه استخراج شده. اگر invad در دمای پایین‌تر r بالاتری داشته باشد، حلقه بازخورد ورود (Invasion Feedback Loop) فعال می‌شود. |\n| **F3: اقلیم → فنولوژی (Phenology) → مواجهه حرارتی (Thermal Exposure)** | موازن/تأخیر دار | دما ↑ → بلوغ زودتر / فصل رشد طولانی‌تر → مواجهه با دمای cực端 (Extreme Temps) ↑ → مرگ و میر ↑ → N ↓ | مدل فعلی از *دمای میانگین/فصلی* استفاده می‌کند. نادیده گرفتن **پنجره‌های مواجهه کوتاه‌مدت (Acute Exposure Windows)** یک شکاف پنهان است. |\n\n**۴. نقاط اهرم (Leverage Points) برای تدخل و پیش‌بینی بهتر:**  \nبر اساس تحلیل دونلا میدوز (Donella Meadows) و بسط شده در BSI، نقاط اهرم با اولویت نزولی:\n\n| اولویت | نقطه اهرم (Leverage Point) | نوع | توضیح و اقدام پیشنهادی |\n|--------|---------------------------|-----|------------------------|\n| **۱ (بالاترین)** | **پارامترهای شکل TPCs (E, Eh, Topt, CTmax) برای صفات کلیدی** | پارامتر / ساختاری | دقت اندازه‌گیری این پارامترها (به ویژه دمای بحرانی CTmax و انرژی فعال‌سازی E) حساسیت پیش‌بینی نیش را ۳-۵ برابر پارامترهای چگالی‌محوری (θ, K_max) تعیین می‌کند. *اقدام: پروتکل‌های استاندارد اندازه‌گیری TPC با تکرار بالا و گرادیان دماهای دقیق.* |\n| **۲** | **شامل کردن واریانس بین‌فردی (Intraspecific Variation) در TPCs** | ساختاری | میانگین‌گری (Averaging) بر روی TPCsוכלוסیتی، **نیش بنیادین را برآورد بالا می‌دهد** (Jensen's Inequality برای توابع مقعر). افراد با تحمل بالا در دمای حدی بقا می‌کنند و جمعیت را حفظ می‌کنند. *اقدام: مدل‌های توزیع پارامترها (Hierarchical Bayesian TPC Fitting).* |\n| **۳** | **افزودن پویشی تکاملی (Evolutionary Dynamics: h², G-matrix)** | ساختاری / قانون | زیر استرس اقلیمی، TPCs می‌توانند در ۵-۲۰ نسل جابجا شوند (Rapid Evolution). مدل ایستا (Static) نیش را در بلندمدت **کم‌برآورد** می‌کند برای گونه‌های باeneration time کوتاه. *اقدام: copapling با Quantitative Genetics (Lande Equation).* |\n| **۴** | **یکپارچه‌سازی رویدادهای حدی (Extreme Events: Heatwaves, Cold Snaps)** | پارامتر / חוק | دمای میانگین فصل پیش‌بینی‌کننده نیش *نیست*؛ **تکرار، شدت و مدت رویدادهای حدی** تعیین‌کننده بقا است. *اقدام: جایگزینی Tmean با Time-series دمای ساعتی و مدل‌های تحمل حاد (CTmax/CTmin dynamics).* |\n| **۵** | **شامل کردن قابلیت جابجایی رفتاری (Behavioral Thermoregulation)** | ساختار | اكتوتِرم‌ها با انتخاب میکروجهت (Microhabitat Selection) دمای بدنه را جدا از دمای هوا می‌کنند. این **نیش بنیادین را گسترده‌تر** از پیش‌بینی مدل هواشناسی می‌کند. *اقدام: ادغام با مدل‌های انرژی حرارتی مکانیستی (Biophysical Models: NicheMapR).* |\n\n---\n\n### ۴.۳ لایه فراداده (Meta Layer) — پیش‌فرض‌های ریشه، مرزهای پاردایم، و پیامدهای معرفت‌شناختی\n\n**پیش‌فرض‌های ریشه (Root Assumptions) و نقد 그것‌ها:**\n\n| پیش‌فرض ریشه (Root Assumption) | وضعیت در مقاله | نقد معرفت‌شناختی (Epistemic Critique) | ریسک سیستماتیک (Systematic Risk) |\n|--------------------------------|----------------|--------------------------------------|----------------------------------|\n| **A1: نیش بنیادین = نیش فیزیولوژیک (Fundamental Niche = Physiological Niche)** | صریح پذیرفته شده | نیش بنیادین Hutchinsonian شامل *تمام* محاور بیوتیک/ابیوتیک است. محدود کردن به دما «نیش 열ی حرارتی» (Thermal Niche) است، نه نیش کامل. بیوتیک‌ها (شیکار، بیماری، همزیستی) می‌توانند نیش محقق را در دمای فیزیولوژیکاً مناسب خالی کنند. | **بیش‌بینی توزیع احتمالی (Overprediction of Suitable Range).** کاربرد برای policy باید با لایه‌های بیوتیک ترکیب شود. |\n| **A2: توابع پاسخ حرارتی (TPCs) ایستا و'Universal' هستند** | ضمنی (پارامترهای ثابت) | TPCs پلاستیک (Plastic) هستند: اقلیم‌سازی (Acclimation)، تکاملی (Evolutionary)، و.transgenerational. همچنین بین جمعیت‌ها (Population-level Variation) متفاوت‌اند. استفاده از یک منحنی برای کل گستره جغرافیایی **تقریب قوی (Strong Approximation)** است. | **خطای پیش‌بینی در لبه‌های",
+            "source_model": "nvidia/nemotron-3-ultra-550b-a55b:free",
+            "generated_at": "2026-09-14T19:33:06Z",
+            "usage": {
+              "prompt_tokens": 4547,
+              "completion_tokens": 2000,
+              "total_tokens": 6547,
+              "cost": 0,
+              "is_byok": false,
+              "prompt_tokens_details": {
+                "cached_tokens": 0,
+                "cache_write_tokens": 0,
+                "audio_tokens": 0,
+                "video_tokens": 0
+              },
+              "cost_details": {
+                "upstream_inference_cost": 0,
+                "upstream_inference_prompt_cost": 0,
+                "upstream_inference_completions_cost": 0
+              },
+              "completion_tokens_details": {
+                "reasoning_tokens": 90,
+                "image_tokens": 0,
+                "audio_tokens": 0
+              }
+            },
+            "finish_reason": "length",
+            "continuation_rounds": 2
+          },
+          "metadata": {
+            "execution_time_seconds": 407.238,
+            "usage": {
+              "prompt_tokens": 4547,
+              "completion_tokens": 2000,
+              "total_tokens": 6547,
+              "cost": 0,
+              "is_byok": false,
+              "prompt_tokens_details": {
+                "cached_tokens": 0,
+                "cache_write_tokens": 0,
+                "audio_tokens": 0,
+                "video_tokens": 0
+              },
+              "cost_details": {
+                "upstream_inference_cost": 0,
+                "upstream_inference_prompt_cost": 0,
+                "upstream_inference_completions_cost": 0
+              },
+              "completion_tokens_details": {
+                "reasoning_tokens": 90,
+                "image_tokens": 0,
+                "audio_tokens": 0
+              }
+            }
+          },
+          "judge_result": {
+            "criteria_source": "llm",
+            "winner": "bsi",
+            "winner_source": "llm",
+            "reasoning": "Across all weighted criteria, the BSI analysis achieves higher scores due to its explicit mechanistic detail, broader empirical discussion, and clear novelty. The RAW analysis, while accurate in summarizing the article’s claims, lacks the depth and transparency present in the BSI assessment.",
+            "criteria": [
+              {
+                "name": "Conceptual Rigor & Theoretical Coherence",
+                "importance": 25.0,
+                "raw_score": 8.0,
+                "bsi_score": 9.5,
+                "reason": "Both analyses articulate a clear mechanistic framework, but the BSI analysis explicitly details the causal chain from thermal physiology to population dynamics and highlights internal consistency, earning a higher score."
+              },
+              {
+                "name": "Empirical Support & Validation",
+                "importance": 20.0,
+                "raw_score": 6.0,
+                "bsi_score": 7.0,
+                "reason": "The RAW analysis reports empirical testing but lacks depth. The BSI analysis acknowledges a single case study yet discusses data quality, uncertainty, and cross‑taxon validation, providing a marginal advantage."
+              },
+              {
+                "name": "Methodological Innovation & Novelty",
+                "importance": 20.0,
+                "raw_score": 5.0,
+                "bsi_score": 9.0,
+                "reason": "BSI presents a fully mechanistic, trait‑based modeling paradigm that moves beyond correlative SDMs, a major innovation not captured in the RAW analysis."
+              },
+              {
+                "name": "Practical Relevance & Policy Utility",
+                "importance": 15.0,
+                "raw_score": 7.0,
+                "bsi_score": 9.0,
+                "reason": "Both analyses note conservation relevance, but the BSI analysis explicitly links predictions to invasion windows and climate‑adaptation strategies, scoring higher."
+              },
+              {
+                "name": "Reproducibility & Falsifiability",
+                "importance": 10.0,
+                "raw_score": 6.0,
+                "bsi_score": 8.5,
+                "reason": "BSI provides detailed equations and mentions data/code availability, whereas RAW offers only a conceptual outline."
+              },
+              {
+                "name": "Epistemic Transparency & Assumption Clarity",
+                "importance": 10.0,
+                "raw_score": 7.0,
+                "bsi_score": 8.0,
+                "reason": "BSI explicitly lists core assumptions (temperature‑dependent density dependence, no evolution, etc.), giving it a slight edge."
+              }
+            ],
+            "total_scores": {
+              "raw": 6.55,
+              "bsi": 8.57
+            },
+            "bsi_capability_assessment": {
+              "relevance": "high",
+              "realization": "high",
+              "incremental_value": "high",
+              "reason": "The BSI framework adds significant methodological depth, extends applicability to data‑deficient species, and provides a formal causal pathway that RAW lacks."
+            },
+            "incremental_value": "high",
+            "scale": "0-10",
+            "weight_sum": 100.0,
+            "glossary_mode": "full",
+            "judge_input_compacted": false
+          },
+          "scores": {
+            "RAW": 0.655,
+            "BSI": 0.857
+          },
+          "failed": false,
+          "status": "incomplete",
+          "model_id": "nvidia/nemotron-3-ultra-550b-a55b:free",
+          "truncated": true
+        }
+      ],
+      "article_id": "doi:https://doi.org/10.1002/ecy.4289"
+    }
+  ],
+  "source_url": "https://github.com/ibstrade11-source/behmanesh-index-prompt/blob/main/MASTER_PROMPT_BSI_v3.4.2.md",
+  "run_metadata": {
+    "tool_version": "0.1.0",
+    "git_commit": "4611b84b11c40496a9a55179000750ad1c70c7f4",
+    "git_dirty": true,
+    "run_timestamp_utc": "2026-09-14T19:26:19Z",
+    "methodology_note": "Scores/judgements come from an independent LLM judge (see comparison/judge.py) instructed not to reuse BSI's own D1-D7/EIG vocabulary and to choose its own evaluation criteria. If no judge model is available or its response cannot be parsed, the run falls back to a simple keyword-presence heuristic -- the stored record's own 'criteria_source' field ('llm' vs 'heuristic_fallback') always says honestly which one produced a given result. Neither path is a validated measurement of analytical quality until checked against independent human judgement on a representative sample.",
+    "provider_name": null,
+    "model_version": null,
+    "temperature": null,
+    "max_tokens": null,
+    "prompt_version": null,
+    "framework_name": "bsi"
+  },
+  "retrieval_metadata": {
+    "retrieval_status": "accepted",
+    "retrieval_validation": {
+      "retrieval_status": "accepted",
+      "retrieval_validation": "not_required",
+      "query_type": "topic",
+      "requested_query": "Ecology",
+      "candidate_count": 1
+    },
+    "rejected_articles": [],
+    "skipped_count": 0,
+    "skipped_titles": []
+  },
+  "benchmark_status": "benchmarkable"
+}

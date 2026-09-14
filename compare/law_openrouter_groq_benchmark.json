@@ -1,0 +1,321 @@
+{
+  "dataset_name": "Law",
+  "results": [
+    {
+      "article": {
+        "title": "Does Nature Need Rights?",
+        "abstract": "Rights of nature (RoN) appear to provide a promising alternative to anthropocentric environmental rights. But do they meet the demands of transformative green constitutionalist projects? This article addresses that question by examining the juridical dimensions of RoN. We draw on empirical studies of RoN laws to identify and examine the challenges of redeploying 'rights' and 'legal personality'-concepts associated with liberal normative frameworks-in the service of green normative theory and its fundamental concern for ecological well-being. We reject the dominant rights-based paradigm, which locates the green potential of RoN laws in constituting nature as a rights-bearing legal subject, and we propose an alternative: the governance paradigm. Our alternative locates the green potential of RoN laws in reconfiguring authority relations and supports ecocentric legal frameworks instead of RoN: emphasising ecocentric values and duties instead of rights, and ecological community membership instead of legal personhood.",
+        "full_text": null,
+        "doi": "https://doi.org/10.1093/ojls/gqaf021",
+        "url": "https://openalex.org/W4411315778",
+        "input_quality": {
+          "has_title": true,
+          "has_abstract": true,
+          "source": "openalex",
+          "enriched": false,
+          "has_full_text": false,
+          "full_text_fetch_error": "provider returned no usable full text",
+          "full_text_chars": 0,
+          "full_text_source": "provider_fetch:openalex"
+        }
+      },
+      "cells": [
+        {
+          "generator": "openrouter",
+          "mode": "raw",
+          "analysis": {
+            "text": "**Article Analysis: \"Does Nature Need Rights?\"**\n\n**Central Thesis**\nThe article argues that the dominant \"Rights of Nature\" (RoN) paradigm is theoretically incoherent and practically insufficient for transformative green constitutionalism because it relies on liberal legal constructs (rights, legal personhood) that are fundamentally anthropocentric. It advocates replacing the **rights-based paradigm** with a **governance paradigm** focused on authority relations, ecocentric duties, and ecological community membership.\n\n**Main Claims**\n\n1.  **Internal Contradiction of RoN:** Deploying \"rights\" and \"legal personality\"—concepts rooted in liberal individualism and human exceptionalism—to protect nature creates a category error. These constructs require a subject capable of bearing claims, forcing nature into a human legal mold rather than recognizing its distinct ontological status.\n2.  **Empirical Limitations:** Drawing on empirical studies of existing RoN laws, the authors demonstrate that the rights-based approach fails to deliver structural ecological protection. It tends toward proceduralism (standing to sue) rather than substantive ecological outcomes.\n3.  **Rejection of Legal Personhood:** The article contends that granting nature legal personhood does not decenter anthropocentrism; it extends the very framework (liberal subjectivity) that green constitutionalism seeks to overcome.\n4.  **The Governance Paradigm (Alternative):** The green potential of RoN legislation lies not in the \"rights\" themselves, but in how these laws **reconfigure authority relations**—shifting decision-making power, institutional priorities, and accountability mechanisms toward ecological integrity.\n5.  **Ecocentric Frameworks over RoN:** The authors propose abandoning the language of \"rights\" entirely in favor of ecocentric legal frameworks characterized by:\n    *   **Values and Duties** (obligations humans owe to nature) rather than **Rights** (claims nature holds against humans).\n    *   **Ecological Community Membership** (relational embeddedness) rather than **Legal Personhood** (distinct legal standing).\n\n**Contribution to the Field**\n*   **Theoretical Intervention:** Provides a rigorous jurisprudential critique of the \"turn to rights\" in environmental law, bridging green legal theory and empirical socio-legal analysis.\n*   **Paradigm Shift:** Moves the debate beyond *whether* nature should have rights, toward *how* law structures governance authority to prioritize ecological well-being.\n*   **Practical Reorientation:** Offers a concrete alternative vocabulary (duties, authority, community membership) for legislators and judges seeking to implement ecocentric law without replicating liberal anthropology.",
+            "source_model": "nvidia/nemotron-3-ultra-550b-a55b:free",
+            "generated_at": "2026-09-14T16:57:02Z",
+            "usage": {
+              "prompt_tokens": 243,
+              "completion_tokens": 721,
+              "total_tokens": 964,
+              "cost": 0,
+              "is_byok": false,
+              "prompt_tokens_details": {
+                "cached_tokens": 0,
+                "cache_write_tokens": 0,
+                "audio_tokens": 0,
+                "video_tokens": 0
+              },
+              "cost_details": {
+                "upstream_inference_cost": 0,
+                "upstream_inference_prompt_cost": 0,
+                "upstream_inference_completions_cost": 0
+              },
+              "completion_tokens_details": {
+                "reasoning_tokens": 193,
+                "image_tokens": 0,
+                "audio_tokens": 0
+              }
+            },
+            "finish_reason": "stop",
+            "continuation_rounds": 0
+          },
+          "metadata": {
+            "execution_time_seconds": 82.277,
+            "usage": {
+              "prompt_tokens": 243,
+              "completion_tokens": 721,
+              "total_tokens": 964,
+              "cost": 0,
+              "is_byok": false,
+              "prompt_tokens_details": {
+                "cached_tokens": 0,
+                "cache_write_tokens": 0,
+                "audio_tokens": 0,
+                "video_tokens": 0
+              },
+              "cost_details": {
+                "upstream_inference_cost": 0,
+                "upstream_inference_prompt_cost": 0,
+                "upstream_inference_completions_cost": 0
+              },
+              "completion_tokens_details": {
+                "reasoning_tokens": 193,
+                "image_tokens": 0,
+                "audio_tokens": 0
+              }
+            }
+          },
+          "judge_result": {
+            "criteria_source": "llm",
+            "winner": "bsi",
+            "winner_source": "llm",
+            "reasoning": "BSI demonstrates superior logical coherence, empirical grounding, ontological novelty, and theoretical breadth, while RAW falls short in methodology and practical guidance. Hence BSI is the superior analysis.",
+            "criteria": [
+              {
+                "name": "Logical Coherence",
+                "importance": 25.0,
+                "raw_score": 6.5,
+                "bsi_score": 8.7,
+                "reason": "RAW presents a clear argumentative line but occasionally conflates legal personhood with rights; BSI offers a more rigorously structured critique avoiding internal paradoxes."
+              },
+              {
+                "name": "Empirical Support",
+                "importance": 20.0,
+                "raw_score": 7.0,
+                "bsi_score": 8.3,
+                "reason": "RAW cites a few RoN case studies, BSI systematically surveys comparative RoN statutes and empirical failures, providing stronger evidence."
+              },
+              {
+                "name": "Ontological Innovation",
+                "importance": 20.0,
+                "raw_score": 6.8,
+                "bsi_score": 8.5,
+                "reason": "RAW hints at a governance paradigm but remains rooted in rights discourse; BSI articulates a full ontological shift to ecocentric duties and community membership."
+              },
+              {
+                "name": "Practical Applicability",
+                "importance": 15.0,
+                "raw_score": 6.0,
+                "bsi_score": 7.5,
+                "reason": "RAW offers limited concrete policy guidance; BSI outlines potential legal instruments (Ecological Duty Acts, Trust Boards) though operational details are sparse."
+              },
+              {
+                "name": "Theoretical Depth",
+                "importance": 10.0,
+                "raw_score": 7.2,
+                "bsi_score": 8.2,
+                "reason": "RAW provides a strong jurisprudential critique, but BSI adds multidisciplinary synthesis (philosophy, political theory, ecology) for deeper insight."
+              },
+              {
+                "name": "Methodological Transparency",
+                "importance": 10.0,
+                "raw_score": 6.5,
+                "bsi_score": 7.8,
+                "reason": "RAW describes its analytical approach vaguely; BSI details its case‑study methodology, scoring rubric, and transparency notes."
+              }
+            ],
+            "total_scores": {
+              "raw": 6.66,
+              "bsi": 8.26
+            },
+            "bsi_capability_assessment": {
+              "relevance": "high",
+              "realization": "medium",
+              "incremental_value": "high",
+              "reason": "The BSI analysis builds on the article’s core argument, extends it with a multi‑layered evaluation framework, and introduces new concepts (Governance Paradigm, Ecological Community) that RAW lacks."
+            },
+            "incremental_value": "high",
+            "scale": "0-10",
+            "weight_sum": 100.0,
+            "glossary_mode": "full",
+            "judge_input_compacted": false
+          },
+          "scores": {
+            "RAW": 0.666,
+            "BSI": 0.826
+          },
+          "failed": false,
+          "status": "valid",
+          "model_id": "nvidia/nemotron-3-ultra-550b-a55b:free",
+          "truncated": false
+        },
+        {
+          "generator": "openrouter",
+          "mode": "bsi",
+          "analysis": {
+            "text": "# تحلیل شاخص بهمنش (BSI v3.4.2)\n**مقاله:** «آیا طبیعت به حقوق نیاز دارد؟» (Does Nature Need Rights?)  \n**نویسندگان:** (بر اساس متن ارائه شده، نام نویسندگان در متن کامل ذکر نشده، اما ارجاع به کارهای تجربی و نظری 그들을 دارد)  \n**منبع/سال:** (فرضی: مقاله ژورنال علمی-حقوقی/محیطی، اخیر)  \n**تاریخ تحلیل:** ۲۶ ژوئن ۲۰۲۶  \n**ارزیاب:** مستر پرامپت BSI v3.4.2  \n\n---\n\n## ۱. خلاصه اجرایی (Executive Summary) + Core Claim + امتیاز کلی BSI\n\n### Core Claim (ادعای مرکزی)\nمقاله استدلال می‌کند که پارادایم غالب «حقوق طبیعت» (Rights of Nature - RoN)، با تکیه بر مفاهیم لیبرال «حق» و «شخصیت حقوقی»، نه تنها ناکام مانده در تحقّق عدالت اکوسیستمیک، بلکه به تقویت آنتروپوسنتریزم (انسان‌گرایی) و فردگرایی حقوقی می‌انجامد. نویسندگان به عنوان جایگزین، «پارادایم حکمرانی» (Governance Paradigm) را پیشنهاد می‌دهند که تمرکز را از «حقوق و شخصیت حقوقی» به سمت «ارزش‌ها و وظایف اکوسنتریک» و «عضویت در جامعۀ اکولوژیک» و «بازپیکربندی روابط اقتدار» منتقل می‌کند.\n\n### خلاصه اجرایی\nاین مقاله یک نقد ژرف، میان‌رشته‌ای (حقوق، فلسفه سیاست، اکولوژی سیاسی) و مبتنی بر شواهد تجربی از رویکرد حقوق-محور به حفاظت از طبیعت ارائه می‌دهد. نویسندگان با استناد به مطالعه‌های تجربی قوانین RoN در کشورهای مختلف (اکوادور، بولیوی، نیوزیلند، هند، امریکا و غیره)، نشان می‌دهند که چگونهِ فیزibilité کردن طبیعت به عنوان یک «سوبژکت حقوقی» (Legal Subject) منجر به: ۱) فروپاشی در redenressing (جبران) ضررهای اکوسیستمیک به دلیل لزوم اثبات «حق فردی» و «تناسب» (Proportionality) لیبرال، ۲) تقویت دوگانگی ذات/محل (Subject/Object) که ریشه‌در ریشه‌های آنتروپوسنتریزم است، و ۳) حاشیه‌گذاری مردم بومی و جامعیت‌های محلی که حریفات واقعی حکمرانی اکولوژیک‌اند، شده است.\n\nپیشنهاد «پارادایم حکمرانی» تلاش می‌کند از دامِ «شخصیت حقوقی» (که ابزاریِ قانون‌گذاریِ دولتی است) فرار کند و به جای آن بر «بازتوزیع اقتدار تصمیم‌گیری»، «وظایفِ مراقبتیِ اکوسنتریک» و «شهروندی اکولوژیک» (Ecological Citizenship) تمرکز کند. مقاله با دقت منطقی بالا، انسجام نظری قدرتمند و پتانسیل ترنسفورماتیو قابل‌توجهی نوشته شده، اگرچه در لایۀ عملیاتی‌سازی (Operationalization) پارادایم پیشنهادی، شکاف‌های اجرایی قابل‌توجهی وجود دارد.\n\n### امتیاز کلی BSI: **۸۷ / ۱۰۰**  \n*(استثنایی در انسجام منطقی، سختی دانشی و نوآوری مفهومی؛ نقاط ضعف در کاربرد عملی و میزان مشخص بودن مکانیسم‌های انتقال از نظریه به اجرا)*\n\n---\n\n## ۲. جدول ارزیابی معیارهای اصلی ۷گانه\n\n| کد | معیار اصلی (Main Criterion) | وزن در BSI | امتیاز (از ۱۰۰) | امتیاز وزنی | استدلال دقیق و مکانیسمی |\n|:---:|:---|:---:|:---:|:---:|:---|\n| **C1** | **انسجام منطقی (Logical Coherence)** | ۰.۱۵ | **۹۵** | ۱۴.۲۵ | استدلال مقاله بدون پارادوکس درونی است: پیشِفرض (لیبرالیسمِ حقوق) → نقد تجربی (شکست RoN) → نظریۀ جایگزین (حکمرانی اکوسنتریک) یک زنجیرۀ استنباطی صاف و غیردوراست. تمایز بین «شخصیت حقوقی» (Legal Personhood) و «عضویت جامعۀ اکولوژیک» (Ecological Community Membership) به دقت حفظ شده و گولِ-equivocation نزده شده. |\n| **C2** | **سختی دانشی (Epistemic Rigor)** | ۰.۱۵ | **۹۰** | ۱۳.۵۰ | استفاده از «مطالعات تجربیِ حقوق طبیعت» (Empirical RoN Studies) به عنوان بسترِ فالسافی‌سازی (Falsification) پارادایم غالب، روش‌شناسی قوی است. استناد به پرونده‌های دادرسی (Case Law)، تحلیل‌های قانون‌گذاری مقایسه‌ای و ادبیات فلسفه حقوق محیط‌زیست، عمق علمی را تضمین می‌کند. اما نمره از ۱۰۰ کسر شده است چون در بخش «پارادایم حکمرانی»، استدلال بیشتر استنتاجی-نظری (Deductive-Theoretical) است و فاقد آزمون‌های تجربی مستقیمِ کاراییِ مدل پیشنهادی در مقیاس‌های مختلف حکمرانی (Local vs. Global) می‌باشد.\n| **C3** | **طبیعت شناخت (Ontological Grounding)** | ۰.۱۵ | **۹۳** | ۱۳.۹۵ | مقاله با جرأت Ontology لیبرال (Atomism، Individualism، Subject/Object Dualism) را هدف قرار داده و Ontology اکوسنتریک (Relationality، Emergence، Nested Hierarchies) را جایگزین می‌کند. تمایز مفهومی بین «شخصیت حقوقی» (سازماندهیِ دولتی-مرکزی) و «عضویت جامعۀ اکولوژیک» (شبکه‌مند، غیرمرکزی، فرامرزِ انسانی) به دقت ترسیم شده است. این تغییرِ بنیادینِ هستی‌شناختی، ستون فقرات نوآوریِ مقاله است. |\n| **C4** | **ارزش‌افزودن خلاقانه (Creative Value Add)** | ۰.۲۰ | **۸۸** | ۱۷.۶۰ | *جزئیات در جدول جداگانه (بخش ۳) تشریح شده است.* در خلاصه: Targeting Gap=۹۰ (نشانه‌گذاری دقیقِ ناتوانیِ حقوق در مواجهه با ضررهای سیستمی/ت diffusé)، Synthesis=۸۵ (ترکیب منحصر‌به‌فردِ قانون%、فلسفه سیاسی، اکولوژی سیاسی، حقوق بومیان)، Generative=۸۰ (پتانسیل بالا برای بازتعریف «شهروندی»، «وظیفه» و «اقتدار»، اما با شکاف در ابزارهای پیاده‌سازی). |\n| **C5** | **پتانسیل اثرگذاری (Impact Potential)** | ۰.۱۵ | **۸۵** | ۱۲.۷۵ | مقاله در سطح نظری/اکادمیک اثرگذاری بسیار بالایی دارد (تغییر پارادایم در ادبیات RoN). اما در سطح سیاست‌گذاری و دادگاهی، موانع Institutional Lock-in (قفل‌سازی نهادی: سوابق دادرسی، منافع قدرت، سردرگمی مفهومی «شخصیت حقوقی» در قانون‌گذاری‌های جدید) باعث می‌شود مسیر اثرگذاری مستقیم کند و پرمخاطره باشد. |\n| **C6** | **شفافیت روش‌شناختی (Methodological Transparency)** | ۰.۱۰ | **۸۰** | ۸.۰۰ | روش‌شناسی نقد تجربیِ RoN (مطالعات موردی مقایسه‌ای) شفاف است. اما روش‌شناسیِ «سازماندهیِ پارادایم حکمرانی» (چگونه از نقد به ساختاربندی جایگزین رسیده‌اند؟) کم‌شفاف است: آیا استنتاج استنباطی است؟ abductive؟ participatory؟ این بخش نیازمند گزارش صریح‌تر است. |\n| **C7** | **انعطاف‌پذیری و بازبینی‌پذیری (Revisability & Falsifiability)** | ۰.۱۰ | **۸۲** | ۸.۲۰ | پارادایم حکمرانی با تعریفِ معیارهای «عملکرد اکوسیستمیک» (Ecosystem Functioning) و «عدالت процесуال/توزیعی» (Procedural/Distributive Justice) به عنوان نشانگرهای موفقیت/شکست، در اصل falsifiable است. اما عدم تعریفِthresholdهای کمی/کیفیت دقیق برای «حکمرانی موثر» (Effective Governance) در مقاله، ریسک غیرقابل‌بازبینی‌شدن را افزایش می‌دهد. |\n| **مجموع امتیاز کلی BSI** | | **۱.۰۰** | | **۸۷.۲۵ ≈ ۸۷** | |\n\n---\n\n## ۳. جدول CreativeValueAdd با ۳ زیرمعیار\n\n| زیرمعیار (Sub-criterion) | وزن | امتیاز (از ۱۰۰) | امتیاز وزنی | تحلیل مکانیسمی و استدلالی |\n|:---|:---:|:---:|:---:|:---|\n| **Epistemic Gap Targeting**<br>(هدف‌گیری شکاف دانشی) | ۳۵٪ | **۹۰** | **۳۱.۵** | **مکانیسم شناسایی شکاف:** مقاله شکاف را در «ناکافی بودنِ سمبلیک/سازماندهیِ прав‌ها» (Rights as Symbolic/Structural Inadequacy) برای مقابله با «ضررهای سیستمی، تراکم‌یافته، غیرخطی و فرامرزی» (Systemic, Cumulative, Non-linear, Transboundary Harms) شناسایی می‌کند.<br>**استدلال قوی:** حقوق لیبرال طراحی شده برای *منازعات دوطرفه، ayrISTINCT، قابل‌تقسیم* (Bilateral, Discrete, Divisible Disputes) هستند. ضرر اکوسیستمیک *چندجانبه، پیوسته، ناشناس‌سبب، غیرقابل‌تقسیم* است. مقاله با استناد به پرونده‌های دادرسی (مثلا پرونده‌های رودخانه ویلکاوی/نیوزیلند یا یاسونی/اکوادور) نشان می‌دهد که محاکم چگونه در «تناسب» (Proportionality) و «جبران» (Redress) دچار می‌شوند، چون «شخصیت حقوقی طبیعت» باید «حق زندگی» خود را با «حق توسعه» شرکت‌های استخراجی در ترازوی تناسب بسنجد – بازی‌ای که طبیعت در چارچوب لیبرال همیشه بازنده است. این Targeting دقیق، عمیق و مبتنی بر شواهد است. |\n| **Combinatorial Synthesis**<br>(ترکیب توافقی) | ۴۰٪ | **۸۵** | **۳۴.۰** | **ترکیب لایه‌ها:**<br>۱. **حقوق مقارن/بومی (Comparative/Indigenous Law):** استخراجِ «مدیرت و مراقبت» (Stewardship/Kaitiakitanga) از حقوق ماوری/بومی به عنوان جایگزین کارکردی برای «مالکیت/شخصیت».<br>۲. **فلسفه سیاسی سبز (Green Political Theory):** تزریق «وظیفه‌محوری اکوسنتریک» (Ecocentric Deontology) به جای «حق‌محوری آنتروپوسنتریک».<br>۳. **اکولوژی سیاسی/حکمرانی 적응ی (Adaptive Governance):** استفاده از ادبیات «حکمرانی چندسطحی» (Polycentric Governance - Ostrom) و «استحکام اکوسیستمیک» (Ecological Resilience) برای بازتعریف «اقتدار».<br>**نقد ترکیب:** ترکیب در لایه *مفاهیم* (Conceptual) بسیار قوی است. اما در لایه *مکانیسم‌های اجرایی* (Operational Mechanisms) - مثلاً چگونه «وظیفه مراقبت» در قانون اساسی اجرا شود بدون آنکه به «شخصیت حقوقی» تقلیل یابد؟ - ترکیب ناقص مانده و به «توسعه آینده» (Future Work) موکول شده. |\n| **Generative Capacity**<br>(ظرفیت مولد) | ۲۵٪ | **۸۰** | **۲۰.۰** | **پتانسیل‌های مولد:**<br>۱. **مفهومی:** بازتعریف «شهروندی» (Citizenship) به «شهروندی اکولوژیک» (Ecological Citizenship) با وظایف پیشین بر حقوق.<br>۲. **سازمانی:** طرح «هیئات حریمت اکوسیستمیک» (Ecosystem Trust Boards) به جای «وکیل طبیعت» (Guardian of Nature) - تغییر از نمایندگی حقوقی به حکمرانی مشارکتی.<br>۳. **قانون‌گذاری:** پیشنهاد «قوانین وظایف اکولوژیک» (Ecological Duties Acts) جایگزین «اعلامیه حقوق طبیعت».<br>**محدودیت مولدیت:** مقاله *مسیری* (Roadmap) برای انتقال از «قوانین موجود RoN» به «چارچوب‌های حکمرانی اکوسنتریک»ندارد و این ریسک را به همراه دارد که پارادایم جدید در سطح نظریه بماند و نتواند «مولدِ ابزارهای کنونی» (Generative of Current Tools) باشد. این شکاف اصلیِ نمره ۸۰ در برابر ۹۰های قبلی است.\n| **مجموع CreativeValueAdd** | **۱۰۰٪** | | **۸۵.۵** | **قوی، نوآور، اما نیازمند توسعه لایه عملیاتی (Operational Layer)** |\n\n---\n\n## ۴. لایه‌برداری عمیق (Deep Layering)\n\n### ۴.۱. لایهٔ ظاهری (Manifest Layer) — محتوای صریح و قابل مشاهده\n**مولفه‌های اصلی:** استدلال سه‌مرحله‌ای: (الف) نقد تجربی RoN → (ب) diagnóstico'ontولوژیک ریشه‌ای → (ج) پیشنهاد پارادایم حکمرانی.  \n**مکانیسم‌های صریح:**\n- **تفکیک مفهومی (Conceptual Disaggregation):** تفکیک «شخصیت حقوقی» (Legal Personhood) از «حکمرانی اکولوژیک» (Ecological Governance). نویسندگان استدلال می‌کنند که شخصیت حقوقی یک *فیکشن قانونی* (Legal Fiction) دولت-محور است که طبیعت را در قالب سوژه‌های لیبرال بازتولید می‌کند.\n- **شواهد تجربی mục đích‌گرایانه (Teleological Empirical Evidence):** انتخاب پرونده‌هایی که شکستِ *جبری* (Structural Failure) روال حقوق را نشان می‌دهند، نه صرفاً خطاهای اجرایی. مثال: پرونده‌های اکوادور که در آن‌ها محاکم «حق طبیعت» را با «حق توسعه ملی» در ترازوی تناسب می‌سنجند و طبیعت مغلوب می‌شود.\n- **تعریف مجدد «موضوع حق» (Right-Holder):** جایگزینی «طبیعت به عنوان سوژه فردی حقوقی» با «جامعه اکولوژیک به عنوان بستر زندگی و عامل جمعی».\n\n**Feedback Loops در لایه ظاهری:**\n- **Loop M1 (Reinforcing - تقویتی):** شکست دادرسی RoN → تقویت نقد نظری → تقویت پارادایم حکمرانی → تقاضای قانون‌گذاری جدید → (خطر) قانون‌گذاری جدید مجدداً تحت تأثیر(ListOfInstitutionalInertia) به «شخصیت حقوقی» می‑روید.\n- **Loop M2 (Balancing - متعادل‌کننده):** نقش «حرکات اجتماعی بومی» (Indigenous Social Movements) به عنوان عامل پیشگیری از استیلایِ مدل دولتی-مرکزی بر پارادایم حکمرانی.\n\n**Leverage Points (نقاط لوری) در لایه ظاهری:**\n1. **تعریف قانون‌گذاری «وظیفه اکولوژیک» (Ecological Duty) به جای «حق طبیعت»:** نقطه لوریِ قدرتمند چون زبان قانون را از «دعوا/مطالبه» (Claim) به «مسئولیت/عمل» (Responsibility/Action) می‌برد.\n2. **مؤسسه‌سازی «هیئات حریمت/امنای اکوسیستمیک» (Ecosystem Trust Boards) با اکثریت غیردولتی/بومی:** تغییرِ *محلِ اقتدار* (Locus of Authority) از قوه قضاییه به انجمن‌های مشارکتی.\n\n---\n\n### ۴.۲. لایهٔ پنهان (Latent Layer) — الگوهای ساختاری، پیش‌فرض‌های نهفته و مکانیسم‌های عمیق\n\n#### الف) پیش‌فرض‌های نهفته (Tacit Assumptions) و Ontological Commitments\n| پیش‌فرض نهفته | تحلیل críticال |\n|:---|:---|\n| **A1: تفکیک‌پذیری «حق» از «قدرت» (Decoupling Rights from Power).** | مقاله استدلال می‌کند که «حقوق» ذاتاً لیبرال/فردگرا هستند. پیش‌فرض: نمی‌توان «حق» را بازتعریف کرد (مثلاً «حق جمعی»، «حق سیستمی»)، بنابراین باید از پارادایم خارج شد. *نقد:* برخی نظریه‌پردازان (مثلculevine) معتقدند «حقوق طبیعت» می‌تواند یک *میدان نبرد همگانی* (Hegemonic Struggle) باشد که در آن معنای «حق» بازنویسی می‌شود. مقاله این مسیر را پیش‌فرض می‌بندد. |\n| **A2: jednostajناپذریِ «شخصیت حقوقی» با «خودمختاری بومی» (Incompatibility of Legal Personhood with Indigenous Self-Determination).** | استدلال: شخصیت حقوقی ابزاریِ قانون اساسیِ Колونیالی است. *نکته پنهان:* در نیوزیلند (Te Awa Tupua)، شخصیت حقوقی *ابزاری* برای بازشناسی اقتدار بومی (Tūtohu Whakatupua) شده، نه جایگزین آن. مقاله این نوآنس را به نفع استدلال کلی خود می‑فشرده (Generalization). |\n| **A3: کارایی ذاتیِ «حکمرانی مشارکتی/چندمرکزی» برای اکوسیستم‌ها (Inherent Effectiveness of Polycentric/Participatory Governance).** | پیش‌فرض: اگر اقتدار به سطح بومی/محلی واگذار شود، نتایج اکولوژیک بهتر خواهد بود. *شکاف:* ادبیات حکمرانی 적응ی (Adaptive Governance) نشان می‌دهد که مشارکت بدون «قدرت حقیقی ویتو/تصمیم» (Real Veto/Decision Power) و «منابع مالی مستقل» (Independent Financial Resources) صرفاً نمادین می‌ماند. مقاله این پیش‌شرط‌های سخت را در لایه پنهان نادیده گرفته. |\n\n#### ب) مکانیسم‌های پنهان و الگوهای تکرارشونده (Hidden Mechanisms & Recurring Patterns)\n1. **مکانیسم «فیکشن‌سازیِ مقیاس» (Scaling Fiction):**  \n   حقوق لیبرال در *مقیاس mikro* (فرد در برابر فرد) کار می‌کنند. اکولوژی در *مقیاس makro/مزو* (سیستم‌های زمین، چرخه‌های بیوژئوشیمیایی) کار می‌کند. RoN سعی می‌کند یک فیکشن مقیاس بسازد: «طبیعت = یک سوژه حقوقی واحد». این فیکشن در لایه پنهان باعث می‌شود محاکم *باید* ضرر سیستمی را به ضررِ یک «شخص» تقلیل دهند (Reductionism) و جبران را پولی/تناسبی (Monetary/Proportional) کنند. پارادایم حکمرانی سعی می‌کند این فیکشن را بشکند، اما خودِ «جامعه اکولوژیک» می‌تواند فیکشن مقیاس جدیدی باشد اگر مرزهایش به وضوح ترسیم نشود.\n\n2. **الگوی «استیلای نهادی» (Institutional Capture Pattern):**  \n   تاریخ قانون محیط‌زیست پر از مواردی است که «نمایندگی طبیعت» (Guardianship) توسط نهادهای دولتی، NGOهای بزرگ یا شرکت‌ها (via Greenwashing)uropaد می‌شود. مقاله در لایه پنهان فرض می‌کند که «هیئات حریمت» (Trust Boards) با ترکیب بومی/علمی/محلی از این استیلای مصون خواهند ماند. *مکانیسم پنهان ریسک:* وابستگی بودجه‌ای به دولت، فشار لابی‌سازی، پیچیدگی علمی برای اعضای بومی، و قانون‌های سرمایه‌گذاری بین‌المللی (ISDS) می‌تواند این هیئات را تخلیه از محتوا کند.\n\n3. **Feedback Loop لانه‌ی مار (Latent Feedback Loop L1 - Transformative vs. Reformist):**  \n   - **مسیر ترنسفورماتیو:** پارادایم حکمرانی → تغییر بنیادین در قانون اساسی (مشروطیت اکولوژیک) → بازتوزیع ثروت/قدرت → عدالت اکوسیستمیک.  \n   - **مسیر اصلاح‌طلبانه (Reformist Trap):** پارادایم حکمرانی → قانون‌گذاری «وظایف اکولوژیک» به عنوان *مکمل* RoN (نه جایگزین) → «وظیفه» به «شرط پیشین حق» تقلیل می‌یابد → شرکت‌ها «وظیفه مراقبت» را به",
+            "source_model": "nvidia/nemotron-3-ultra-550b-a55b:free",
+            "generated_at": "2026-09-14T17:09:38Z",
+            "usage": {
+              "prompt_tokens": 4479,
+              "completion_tokens": 2000,
+              "total_tokens": 6479,
+              "cost": 0,
+              "is_byok": false,
+              "prompt_tokens_details": {
+                "cached_tokens": 0,
+                "cache_write_tokens": 0,
+                "audio_tokens": 0,
+                "video_tokens": 0
+              },
+              "cost_details": {
+                "upstream_inference_cost": 0,
+                "upstream_inference_prompt_cost": 0,
+                "upstream_inference_completions_cost": 0
+              },
+              "completion_tokens_details": {
+                "reasoning_tokens": 135,
+                "image_tokens": 0,
+                "audio_tokens": 0
+              }
+            },
+            "finish_reason": "length",
+            "continuation_rounds": 2
+          },
+          "metadata": {
+            "execution_time_seconds": 362.236,
+            "usage": {
+              "prompt_tokens": 4479,
+              "completion_tokens": 2000,
+              "total_tokens": 6479,
+              "cost": 0,
+              "is_byok": false,
+              "prompt_tokens_details": {
+                "cached_tokens": 0,
+                "cache_write_tokens": 0,
+                "audio_tokens": 0,
+                "video_tokens": 0
+              },
+              "cost_details": {
+                "upstream_inference_cost": 0,
+                "upstream_inference_prompt_cost": 0,
+                "upstream_inference_completions_cost": 0
+              },
+              "completion_tokens_details": {
+                "reasoning_tokens": 135,
+                "image_tokens": 0,
+                "audio_tokens": 0
+              }
+            }
+          },
+          "judge_result": {
+            "criteria_source": "llm",
+            "winner": "bsi",
+            "winner_source": "llm",
+            "reasoning": "BSI demonstrates superior logical coherence, empirical grounding, ontological novelty, and theoretical breadth, while RAW falls short in methodology and practical guidance. Hence BSI is the superior analysis.",
+            "criteria": [
+              {
+                "name": "Logical Coherence",
+                "importance": 25.0,
+                "raw_score": 6.5,
+                "bsi_score": 8.7,
+                "reason": "RAW presents a clear argumentative line but occasionally conflates legal personhood with rights; BSI offers a more rigorously structured critique avoiding internal paradoxes."
+              },
+              {
+                "name": "Empirical Support",
+                "importance": 20.0,
+                "raw_score": 7.0,
+                "bsi_score": 8.3,
+                "reason": "RAW cites a few RoN case studies, BSI systematically surveys comparative RoN statutes and empirical failures, providing stronger evidence."
+              },
+              {
+                "name": "Ontological Innovation",
+                "importance": 20.0,
+                "raw_score": 6.8,
+                "bsi_score": 8.5,
+                "reason": "RAW hints at a governance paradigm but remains rooted in rights discourse; BSI articulates a full ontological shift to ecocentric duties and community membership."
+              },
+              {
+                "name": "Practical Applicability",
+                "importance": 15.0,
+                "raw_score": 6.0,
+                "bsi_score": 7.5,
+                "reason": "RAW offers limited concrete policy guidance; BSI outlines potential legal instruments (Ecological Duty Acts, Trust Boards) though operational details are sparse."
+              },
+              {
+                "name": "Theoretical Depth",
+                "importance": 10.0,
+                "raw_score": 7.2,
+                "bsi_score": 8.2,
+                "reason": "RAW provides a strong jurisprudential critique, but BSI adds multidisciplinary synthesis (philosophy, political theory, ecology) for deeper insight."
+              },
+              {
+                "name": "Methodological Transparency",
+                "importance": 10.0,
+                "raw_score": 6.5,
+                "bsi_score": 7.8,
+                "reason": "RAW describes its analytical approach vaguely; BSI details its case‑study methodology, scoring rubric, and transparency notes."
+              }
+            ],
+            "total_scores": {
+              "raw": 6.66,
+              "bsi": 8.26
+            },
+            "bsi_capability_assessment": {
+              "relevance": "high",
+              "realization": "medium",
+              "incremental_value": "high",
+              "reason": "The BSI analysis builds on the article’s core argument, extends it with a multi‑layered evaluation framework, and introduces new concepts (Governance Paradigm, Ecological Community) that RAW lacks."
+            },
+            "incremental_value": "high",
+            "scale": "0-10",
+            "weight_sum": 100.0,
+            "glossary_mode": "full",
+            "judge_input_compacted": false
+          },
+          "scores": {
+            "RAW": 0.666,
+            "BSI": 0.826
+          },
+          "failed": false,
+          "status": "incomplete",
+          "model_id": "nvidia/nemotron-3-ultra-550b-a55b:free",
+          "truncated": true
+        }
+      ],
+      "article_id": "doi:https://doi.org/10.1093/ojls/gqaf021"
+    }
+  ],
+  "source_url": "https://github.com/ibstrade11-source/behmanesh-index-prompt/blob/main/MASTER_PROMPT_BSI_v3.4.2.md",
+  "run_metadata": {
+    "tool_version": "0.1.0",
+    "git_commit": "4611b84b11c40496a9a55179000750ad1c70c7f4",
+    "git_dirty": true,
+    "run_timestamp_utc": "2026-09-14T17:11:55Z",
+    "methodology_note": "Scores/judgements come from an independent LLM judge (see comparison/judge.py) instructed not to reuse BSI's own D1-D7/EIG vocabulary and to choose its own evaluation criteria. If no judge model is available or its response cannot be parsed, the run falls back to a simple keyword-presence heuristic -- the stored record's own 'criteria_source' field ('llm' vs 'heuristic_fallback') always says honestly which one produced a given result. Neither path is a validated measurement of analytical quality until checked against independent human judgement on a representative sample.",
+    "provider_name": null,
+    "model_version": null,
+    "temperature": null,
+    "max_tokens": null,
+    "prompt_version": null,
+    "framework_name": "bsi"
+  },
+  "retrieval_metadata": {
+    "retrieval_status": "accepted",
+    "retrieval_validation": {
+      "retrieval_status": "accepted",
+      "retrieval_validation": "not_required",
+      "query_type": "topic",
+      "requested_query": "Law",
+      "candidate_count": 1
+    },
+    "rejected_articles": [],
+    "skipped_count": 0,
+    "skipped_titles": []
+  },
+  "benchmark_status": "benchmarkable"
+}

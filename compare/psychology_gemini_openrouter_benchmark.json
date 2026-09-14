@@ -1,0 +1,92 @@
+{
+  "dataset_name": "Psychology",
+  "results": [
+    {
+      "article": {
+        "title": "Free psychology? Why psychological research is incompatible with the requirements of clockwork determinism",
+        "abstract": "This essay argues that the concept of strict causal determinism (or \"clockwork determinism\"), while being a powerful doctrine to reduce uncertainty, is not compatible with the way psychology does science. Specifically, we argue that psychological explanations are necessarily incomplete, that the specification and measurement of variables will always contain variance, and that psychological experiments cannot guarantee the degree of control necessary for strict deterministic relationships. Further, we argue that typical psychological causes do not fit the scale of clockwork-deterministic explanations. It is important to note that these arguments are agnostic to the question of whether clockwork determinism exists or not. Even if the universe works strictly deterministically, psychological explanations and paradigms would remain incompatible with the requirements posed by clockwork determinism. We judge this not to be of any problem for a thriving psychological science, unless (young) scientists see clockwork determinism as their primary epistemological foundation.",
+        "full_text": null,
+        "doi": "https://doi.org/10.3389/fpsyg.2025.1544101",
+        "url": "https://openalex.org/W4410183460",
+        "input_quality": {
+          "has_title": true,
+          "has_abstract": true,
+          "source": "openalex",
+          "enriched": false,
+          "has_full_text": false,
+          "full_text_fetch_error": "provider returned no usable full text",
+          "full_text_chars": 0,
+          "full_text_source": "provider_fetch:openalex"
+        }
+      },
+      "cells": [
+        {
+          "generator": "gemini",
+          "mode": "raw",
+          "analysis": {
+            "text": "Based on the provided abstract, here is a concise and factual analysis of the article's main claims and core contributions:\n\n### **Core Thesis**\nThe essay argues that **strict causal determinism (\"clockwork determinism\") is incompatible with the methodology, measurement, and explanatory scale of psychological science**, regardless of whether the physical universe is fundamentally deterministic.\n\n---\n\n### **Main Claims**\n1. **Inherent Incompleteness of Explanations:** Psychological models and explanations cannot fully capture or account for every causal factor influencing human behavior.\n2. **Measurement and Variable Variance:** The definition, operationalization, and measurement of psychological constructs inherently involve noise and variance that prevent exact, deterministic predictability.\n3. **Limits of Experimental Control:** Psychological experiments cannot achieve the absolute isolation or control over variables required to establish strict deterministic laws.\n4. **Mismatched Explanatory Scale:** The typical level of analysis in psychology (macro-level cognitive, social, and behavioral causes) does not align with the micro-level mechanics of clockwork determinism.\n5. **Agnosticism Regarding Metaphysical Reality:** The authors make an *epistemological* rather than an *ontological* claim: even if strict determinism is true of the universe at a fundamental physical level, psychological research paradigms cannot function under its constraints.\n\n---\n\n### **Main Contribution**\n* **Philosophical and Methodological Clarification:** It provides an epistemological framework distinguishing the practical realities of psychological research from classical mechanistic ideals borrowed from physical sciences.\n* **Practical Implication for Researchers:** It reassures psychologists that high variance, probabilistic models, and incomplete control are inherent to the discipline rather than methodological failures, cautioning researchers against adopting clockwork determinism as their foundational benchmark for scientific validity.",
+            "source_model": "gemini-3.7-flash",
+            "generated_at": "2026-09-14T13:31:37Z",
+            "usage": null,
+            "finish_reason": null,
+            "continuation_rounds": 0
+          },
+          "metadata": {
+            "execution_time_seconds": 697.953,
+            "usage": null
+          },
+          "judge_result": null,
+          "scores": {},
+          "failed": false,
+          "status": "valid",
+          "model_id": "gemini-3.7-flash",
+          "truncated": false
+        },
+        {
+          "generator": "gemini",
+          "mode": "bsi",
+          "analysis": null,
+          "metadata": {
+            "error": "Gemini HTTP 429 — NO RETRY. The request appears to have hit a quota/TPM/prompt-length limit. DO NOT run manual RETRY & RESUME for this cell; resubmitting the same request is not expected to help and may consume additional quota. Response: {\n  \"error\": {\n    \"code\": 429,\n    \"message\": \"You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \\n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 20, model: gemini-3.7-flash\\nPlease retry in 4.537200585s.\",\n    \"status\": \"RESOURCE_EXHAUSTED\",\n    \"details\": [\n      {\n        \"@type\": \"type.googleapis.com/google.rpc.Help\",\n        \"links\": [\n          {\n            \"description\": \"Learn more about Gemini API quotas\",\n            \"url\": \"https://ai.google.dev/gemini-api/docs/rate-limits\"\n          }\n        ]\n      },\n      {\n        \"@type\": \"type.googleapis.com/google.rpc.QuotaFailure\",\n        \"violations\": [\n          {\n            \"quotaMetric\": \"generativelanguage.googleapis.com/generate_content_free_tier_requests\",\n            \"quotaId\": \"GenerateRequestsPerDayPerProjectPerModel-FreeTier\",\n            \"quotaDimensions\": {\n              \"model\": \"gemini-3.7-flash\",\n              \"location\": \"global\"\n            },\n            \"quotaValue\": \"20\"\n          }\n        ]\n      },\n      {\n        \"@type\": \"type.googleapis.com/google.rpc.RetryInfo\",\n        \"retryDelay\": \"4s\"\n      }\n    ]\n  }\n}\n",
+            "execution_time_seconds": 7.228
+          },
+          "judge_result": null,
+          "scores": {},
+          "failed": true,
+          "status": "failed",
+          "model_id": null,
+          "truncated": false
+        }
+      ],
+      "article_id": "doi:https://doi.org/10.3389/fpsyg.2025.1544101"
+    }
+  ],
+  "source_url": "https://github.com/ibstrade11-source/behmanesh-index-prompt/blob/main/MASTER_PROMPT_BSI_v3.4.2.md",
+  "run_metadata": {
+    "tool_version": "0.1.0",
+    "git_commit": "4611b84b11c40496a9a55179000750ad1c70c7f4",
+    "git_dirty": true,
+    "run_timestamp_utc": "2026-09-14T14:12:47Z",
+    "methodology_note": "Scores/judgements come from an independent LLM judge (see comparison/judge.py) instructed not to reuse BSI's own D1-D7/EIG vocabulary and to choose its own evaluation criteria. If no judge model is available or its response cannot be parsed, the run falls back to a simple keyword-presence heuristic -- the stored record's own 'criteria_source' field ('llm' vs 'heuristic_fallback') always says honestly which one produced a given result. Neither path is a validated measurement of analytical quality until checked against independent human judgement on a representative sample.",
+    "provider_name": null,
+    "model_version": null,
+    "temperature": null,
+    "max_tokens": null,
+    "prompt_version": null,
+    "framework_name": "bsi"
+  },
+  "retrieval_metadata": {
+    "retrieval_status": "accepted",
+    "retrieval_validation": {
+      "retrieval_status": "accepted",
+      "retrieval_validation": "not_required",
+      "query_type": "topic",
+      "requested_query": "Psychology",
+      "candidate_count": 1
+    },
+    "rejected_articles": [],
+    "skipped_count": 0,
+    "skipped_titles": []
+  },
+  "benchmark_status": "benchmarkable"
+}

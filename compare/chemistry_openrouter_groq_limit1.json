@@ -1,0 +1,351 @@
+{
+  "dataset_name": "chemistry",
+  "results": [
+    {
+      "article": {
+        "title": "CRC Handbook of Chemistry and Physics",
+        "abstract": "Proudly serving the scientific community for over a century, this 95th edition of the CRC Handbook of Chemistry and Physics is an update of a classic reference, mirroring the growth and direction of science. This venerable work continues to be the most accessed and respected scientific reference in the world. An authoritative resource consisting of",
+        "full_text": null,
+        "doi": "https://doi.org/10.1201/b17118",
+        "url": "https://openalex.org/W2132905138",
+        "input_quality": {
+          "has_title": true,
+          "has_abstract": true,
+          "source": "openalex",
+          "enriched": false,
+          "has_full_text": false,
+          "full_text_fetch_error": "provider returned no usable full text",
+          "full_text_chars": 0,
+          "full_text_source": "provider_fetch:openalex"
+        }
+      },
+      "cells": [
+        {
+          "generator": "openrouter",
+          "mode": "raw",
+          "analysis": {
+            "text": "**Analysis of the *CRC Handbook of Chemistry and Physics* (95th Edition)**  \n\n**Type of Work:** Major scientific reference handbook (tertiary source), not a primary research article.  \n\n**Main Claims:**  \n1.  **Authority and Longevity:** Asserts continuous service to the scientific community for over a century (95 editions).  \n2.  **Status:** Claims to be the \"most accessed and respected scientific reference in the world.\"  \n3.  **Currency:** Positions the 95th edition as an updated \"classic reference\" that mirrors the current \"growth and direction of science.\"  \n4.  **Scope:** Describes the work as an \"authoritative resource\" consisting of critically evaluated physical and chemical property data.  \n\n**Contribution:**  \n*   **Standardization:** Provides the *de facto* global standard for fundamental physical constants, chemical nomenclature, thermodynamic data, and material properties.  \n*   **Data Aggregation:** Synthesizes and critically evaluates primary literature data into a single, searchable, citable volume (print/online), saving researchers from retrieving disparate original papers.  \n*   **Metrological Traceability:** Serves as a primary link between international metrology bodies (e.g., CODATA, IUPAC) and the working bench scientist/engineer.  \n*   **Interdisciplinary Utility:** Functions as a foundational \"desk reference\" across chemistry, physics, engineering, environmental science, and biology.  \n\n**Limitations (Contextual):**  \n*   As a tertiary source, it reports *consensus values*; it does not present novel hypotheses, experimental methods, or original findings.  \n*   The provided text is a publisher's marketing description; specific updates in the 95th edition (e.g., new tables, revised constants, structural changes) are not detailed in the supplied abstract.",
+            "source_model": "nvidia/nemotron-3-ultra-550b-a55b:free",
+            "generated_at": "2026-09-13T21:24:38Z",
+            "usage": {
+              "prompt_tokens": 123,
+              "completion_tokens": 489,
+              "total_tokens": 612,
+              "cost": 0,
+              "is_byok": false,
+              "prompt_tokens_details": {
+                "cached_tokens": 0,
+                "cache_write_tokens": 0,
+                "audio_tokens": 0,
+                "video_tokens": 0
+              },
+              "cost_details": {
+                "upstream_inference_cost": 0,
+                "upstream_inference_prompt_cost": 0,
+                "upstream_inference_completions_cost": 0
+              },
+              "completion_tokens_details": {
+                "reasoning_tokens": 105,
+                "image_tokens": 0,
+                "audio_tokens": 0
+              }
+            },
+            "finish_reason": "stop",
+            "continuation_rounds": 0
+          },
+          "metadata": {
+            "execution_time_seconds": 17.688,
+            "usage": {
+              "prompt_tokens": 123,
+              "completion_tokens": 489,
+              "total_tokens": 612,
+              "cost": 0,
+              "is_byok": false,
+              "prompt_tokens_details": {
+                "cached_tokens": 0,
+                "cache_write_tokens": 0,
+                "audio_tokens": 0,
+                "video_tokens": 0
+              },
+              "cost_details": {
+                "upstream_inference_cost": 0,
+                "upstream_inference_prompt_cost": 0,
+                "upstream_inference_completions_cost": 0
+              },
+              "completion_tokens_details": {
+                "reasoning_tokens": 105,
+                "image_tokens": 0,
+                "audio_tokens": 0
+              }
+            }
+          },
+          "judge_result": {
+            "criteria_source": "llm",
+            "winner": "bsi",
+            "winner_source": "llm",
+            "reasoning": "BSI scores are consistently higher across all criteria, particularly in analytical depth, methodological transparency, and evidence integration. The BSI analysis demonstrates a richer, evidence‑based, and multi‑layer approach, yielding higher epistemic robustness and practical usability. Thus, BSI is the superior assessment.",
+            "criteria": [
+              {
+                "name": "Source Relevance (SR)",
+                "importance": 30.0,
+                "raw_score": 4.0,
+                "bsi_score": 9.0,
+                "reason": "RAW offers a brief overview of a widely used tertiary reference, whereas the BSI analysis demonstrates a deep, multi‑layer evaluation of the same source, showing higher relevance to scholarly assessment."
+              },
+              {
+                "name": "Analytical Depth (AD)",
+                "importance": 20.0,
+                "raw_score": 4.0,
+                "bsi_score": 9.0,
+                "reason": "RAW lists generic contributions; BSI dissects mechanisms, layers, and feedback loops, providing richer analytical depth."
+              },
+              {
+                "name": "Methodological Transparency (MT)",
+                "importance": 15.0,
+                "raw_score": 5.0,
+                "bsi_score": 9.0,
+                "reason": "RAW does not disclose any methodology; BSI follows a defined SOP, outlines ontology, and presents weighted criteria."
+              },
+              {
+                "name": "Scope Coverage (SC)",
+                "importance": 10.0,
+                "raw_score": 4.0,
+                "bsi_score": 8.0,
+                "reason": "RAW mentions broad applicability only; BSI enumerates specific sections, units, and interdisciplinary reach."
+              },
+              {
+                "name": "Evidence Integration (EI)",
+                "importance": 10.0,
+                "raw_score": 5.0,
+                "bsi_score": 9.0,
+                "reason": "RAW references marketing claims; BSI cites CODATA, IUPAC, committee processes, and traceability details."
+              },
+              {
+                "name": "Innovation Value (IV)",
+                "importance": 5.0,
+                "raw_score": 3.0,
+                "bsi_score": 6.0,
+                "reason": "RAW contains no novel insight; BSI offers creative value add via API, metadata, and generative potential."
+              },
+              {
+                "name": "User Impact (UI)",
+                "importance": 5.0,
+                "raw_score": 4.0,
+                "bsi_score": 7.0,
+                "reason": "RAW’s impact is implied; BSI quantifies API integration, usability, and risk handling for end users."
+              },
+              {
+                "name": "Epistemic Robustness Alignment (ERA)",
+                "importance": 5.0,
+                "raw_score": 5.0,
+                "bsi_score": 8.0,
+                "reason": "Both align with ER concepts, but BSI explicitly maps criteria to ER dimensions."
+              }
+            ],
+            "total_scores": {
+              "raw": 4.25,
+              "bsi": 8.6
+            },
+            "bsi_capability_assessment": {
+              "relevance": "high",
+              "realization": "high",
+              "incremental_value": "high",
+              "reason": "The BSI analysis provides a comprehensive, layered evaluation that surpasses the superficial RAW assessment, adding measurable methodological, innovative, and user‑centric insights."
+            },
+            "incremental_value": "high",
+            "scale": "0-10",
+            "weight_sum": 100.0,
+            "glossary_mode": "full",
+            "judge_input_compacted": false
+          },
+          "scores": {
+            "RAW": 0.425,
+            "BSI": 0.86
+          },
+          "failed": false,
+          "status": "valid",
+          "model_id": "nvidia/nemotron-3-ultra-550b-a55b:free",
+          "truncated": false
+        },
+        {
+          "generator": "openrouter",
+          "mode": "bsi",
+          "analysis": {
+            "text": "# تحلیل ارزیابی محتوای فکری: CRC Handbook of Chemistry and Physics (ویرایش ۹۵)\n**مطابق SOP_Intellectual_Content_Analysis_v3.4.2 و Ontology BIO v1.0**\n\n---\n\n## ۱. خلاصه اجرایی (Executive Summary) + Core Claim + امتیاز کلی BSI\n\n**مشخصات محتوای تحلیلی:**\n*   **عنوان:** CRC Handbook of Chemistry and Physics، ویرایش ۹۵ (۹۵th Edition)\n*   **نوع محتوا:** مرجع علمی مرجع (Authoritative Reference Work) / پایگاه داده داده‌های تجربی منسجم (Curated Empirical Data Compendium)\n*   **منبع/ناشر:** CRC Press / Taylor & Francis Group\n*   **تاریخ تحلیل:** ۲۶ ژوئن ۲۰۲۶\n*   **تحلیل‌گر:** ارزیاب ارشد شاخص بهمنش v3.4.2\n\n**Core Claim (ادعای محوری):**\nاین اثر ادعا می‌کند که «معتبرترین و پرمراجع‌ترین مرجع علمی در جهان» باشد که برای بیش از یک قرن به جامعهٔ علمی خدمت کرده و با فراهم آوردن داده‌های تجربی، ثابت‌های فیزیکی، و جداول استانداردسازی‌شده، زیرساخت معرفی (Epistemic Infrastructure) پژوهش‌های شیمی، فیزیک و علوم مرتبط را تشکیل می‌دهد. ادعای ضمنی: **کاملیت نسبی (Relative Completeness)، اعتبار قابل‌تأیید (Verifiable Authority)، و پایداری زمان‌بندی (Temporal Stability) داده‌ها.**\n\n**امتیاز کلی BSI (BSI Overall Score): ۹۲ / ۱۰۰**\n\n**تفسیر امتیاز:** این امتیاز به razão ماهیت خاص اثر (مرجع داده‌محور، نه نظریه‌محور) تعلق دارد. در معیارهایی چون «دقتMeasurement Compliance»، «سازگاری علّیCausal Compliance»، و «پایداری زمانی» امتیاز نزدیک به کمال است. کسری امتیاز در معیارهای «ارزش‌افزودن خلاقانهCreativeValueAdd» (به دلیل ماهیت توصیفی/توحیدی اثر) و «генراطو kapasiteGenerative Capacity» (عدم تولید نظریه نوین) ناشی از especie اثر است، نه تقصیر اجرا.\n\n---\n\n## ۲. جدول ارزیابی معیارهای اصلی ۷گانه (Seven Core Criteria Evaluation)\n\n| کد معیار | معیار (Criterion) | وزن (Weight) | امتیاز خام (Raw Score) | امتیاز وزنی (Weighted Score) | استدلال ارزیابی (Evidence-Based Justification) |\n| :--- | :--- | :---: | :---: | :---: | :--- |\n| **C1** | **انسجام منطقی و ساختاری (Logical & Structural Coherence)** | ۱۵٪ | ۹۸ | ۱۴.۷ | سازماندهی فصلی، نمادگذاری استاندارد IUPAC/IUPAP، مرجع‌دهی داخلی منسجم، عدم تضاد در جداول. ساختار هستی‌شناسی (Ontology) داده‌ها پایدار و لایه‌بندی شده است. |\n| **C2** | **شواهد تجربی و اعتبار داده‌ها (Empirical Evidence & Data Validity)** | ۲۰٪ | ۹۹ | ۱۹.۸ | داده‌ها مستقیماً از نتایج آزمایشگاهی پی‌گیری‌شده (Traceable)، 위원회های بین‌المللی (CODATA, IUPAC) تایید شده، با عدم قطعیت (Uncertainty) گزارش شده. بی‌نظیر در نوع خود. |\n| **C3** | **سازگاری علّی و مکانیسمی (Causal & Mechanistic Compliance)** | ۱۵٪ | ۹۵ | ۱۴.۲۵ | اثر علّیت ادعا نمی‌کند (توصیفی است)، اما مکانیسم‌های فیزیکی پایه (قوانین ترمودینامیک، مکانیک کوانتوم) مبنای داده‌ها هستند. در لایه پنهان، علیت فیزیکیِ داده‌ها تضمین شده است. |\n| **C4** | **تعمیم‌پذیری و محدوده کاربرد (Generalizability & Applicability Scope)** | ۱۰٪ | ۹۷ | ۹.۷ | داده‌ها فرامرز ملی/سازمانی هستند (SI Units). کاربرد در تمام زیرشاخه‌های علوم مواد، مهندسی، پزشکی، زیست‌شناسی. محدوده: شروط استاندارد (STP) یا شروط گزارش‌شده. |\n| **C5** | **ارزش‌افزودن خلاقانه (Creative Value Add - CVA)** | ۱۵٪ | ۶۵ | ۹.۷۵ | (جزئیات در جدول ۳). اثر نظریه نوین تولید نمی‌کند، اما «ترکیب ترکیبیCombinatorial Synthesis» داده‌ها بی‌نظیر است. شکاف معرفی را با برون‌سپاری پیچیدگی محاسبه به کاربر می‌بندد. |\n| **C6** | **پایداری و تکامل‌پذیری (Temporal Stability & Evolvability)** | ۱۵٪ | ۹۶ | ۱۴.۴ | ۹۵ ویرایش در ۱۰۰+ سال. مکانیزم به‌روزرسانی سالانه، حذف داده‌های منسوخ، افزودن ثابت‌های نوین (مثلا ثابت‌های کوارکی، داده‌های نانو). مدیریت نسخه‌سازی (Version Control) عالی. |\n| **C7** | **شفافیت متدولوژی و بازتولیدپذیری (Methodological Transparency & Reproducibility)** | ۱۰٪ | ۹۴ | ۹.۴ | روش‌های اندازه‌گیری، منبع اولیه (Primary Source)، و کمیته‌های تصمیم‌گر در مقدمه هر فصل شفاف‌سازی شده. کاربر می‌تواند رد پای داده را تا مقاله اصلی追溯 کند. |\n| **مجموع** | **BSI Total Score** | **۱۰۰٪** |  | **۹۲.۱** | **رده: ممتاز (Excellent) — زیرساخت معرفی کلاس اول (Tier-1 Epistemic Infrastructure)** |\n\n---\n\n## ۳. جدول CreativeValueAdd (ارزش‌افزودن خلاقانه) با ۳ زیرمعیار\n\n| زیرمعیار (Sub-criterion) | وزن در CVA | امتیاز (۰-۱۰۰) | امتیاز وزنی | تحلیل مکانیسمی و استدلالی (Mechanistic Reasoning) |\n| :--- | :---: | :---: | :---: | :--- |\n| **CVA-1: هدف‌گذاری شکاف معرفی (Epistemic Gap Targeting)** | ۳۵٪ | ۹۰ | ۳۱.۵ | **مکانیسم:** شناسایی دقیق نیاز جامعه علمی به «یک nơi واحد، قابل اعتماد، بدون نیاز به جستجوی پراکنده». شکاف: پراکندگی داده‌ها در هزاران مقاله، عدم قطعیت مقادیر، نسخه‌های متضارب. <br>**استراتژی:** انباشت (Accumulation) + ک Njegو (Curation) + ارزیابی بین‌کمته‌ای (Inter-committee Validation). <br>**نقطه قوت:** هدف‌گذاری در سطح «مہMeta-Data» و «Data Fusion» نه کشف علم نوین. |\n| **CVA-2: سنتز ترکیبی (Combinatorial Synthesis)** | ۴۰٪ | ۸۵ | ۳۴.۰ | **مکانیسم:** ادغام داده‌های جداگانه (ثابت‌های فیزیکی، خواص ترمودینامیکی، داده‌های طیفی،، داده‌های نانو‌سازماندهی، و ویژگی‌های محیطی) در یک هستی‌شناسی واحد (Unified Ontology) با واحدهای SI منسجم. <br>**نوآوری:** ایجاد جداول مشتق (Derived Tables) که در منبع اول وجود ندارند (مثلا: جداول تبدیل واحدهای تاریخی به SI، جداول مقایسه داده‌های نوسان‌گر در Literaturهای مختلف، جداول خصوصیات محاسبه‌شده از معادلات حالت برای سیالات رایج). <br>**محدودیت:** سنتز در لایه «داده/اطلاعات» است، نه در لایه «نظریه/مدل‌سازی مفهومی نوین».\n| **CVA-3: ظرفیت جنراتیو (Generative Capacity)** | ۲۵٪ | ۴۰ | ۱۰.۰ | **مکانیسم:** اثر به‌صفه مستقیم نظریه یا فرضیه جدید تولید نمی‌کند (Non-Generative in Theory Space). <br>**وظیفه جنراتیو واسطه (Mediating Generativity):** با کاهش کاست познаfi (Cognitive Load) و خطای داده، به محققان امکان می‌دهد تا الگوهایی را ب بینند که در پراکندگی داده‌ها پنهان بودند (مثلا: کشف روندهای 주期ی در ثابت‌های yarı‌رهleşان، پیش‌بینی ویژگی‌های ترکیبات chưa‌سازماندهی‌شده از طریق قاعده‌های تجربی جداول). <br>**امتیاز:** پایین در تعریف کلاسیک، اما حیاتی در اکوسیستم علمی (Enabler Role). |\n| **مجموع CVA** | **۱۰۰٪** |  | **۷۵.۵ / ۱۰۰** | **وضعیت: بالا در سطح «زیرساخت معرفی» — نقش Catalyst (خازن) برای خلاقیت دیگران، نه Actor (بازیگر) مستقیم تولید نظریه.** |\n\n---\n\n## ۴. لایه‌برداری عمیق (Deep Layer Analysis)\n\n### ۴.۱. لایه آشکار (Manifest Layer) —observable Artifacts\n*   **مصالح فیزیکی/دیجیتال:** کتاب چاپی ۲۶۰۰+ صفحه، پلتفرم آنلاین (CRC Handbook Online)، اپلیکیشن موبایل، API برای یکپارچه‌سازی با نرم‌افزارهای محاسبه (MATLAB, Python, Aspen Plus).\n*   **سازماندهی محتوایی:** ۱۶ بخش اصلی (General Constants, Symbols, Terminology; Physical Constants; Chemical Kinetics; Thermochemistry; Fluid Properties; Analytical Chemistry; Polymer Properties; Biochemistry; Astronomy/Geophysics; Health/Safety; Mathematical Tables; Sources/References).\n*   **نمایش داده:** جداول با عدم قطعیت صریح (مثلا: `6.62607015 × 10⁻³⁴ J Hz⁻¹ (exact)` برای ثابت پلانک)، شناسه CAS،Registry Numbers، مرجع‌دهی به سند اصلی (Primary Literature) و کمیته تصویب‌کننده.\n*   **مکانیسم‌های کلیدی:** استانداردسازی نمادسازی (IUPAC Green Book Compliance)، مدیریت نسخه‌سازی (Version Control) با لاگ تغییرات (Change Log) در هر ویرایش.\n\n### ۴.۲. لایه پنهان (Latent Layer) — Hidden Mechanisms, Patterns, Feedback Loops, Leverage Points\n\n#### الف) مکانیسم‌های پنهان (Hidden Mechanisms)\n1.  **مکانیسم «کمیته‌گذاری تخصصی» (Specialized Committee Governance):**\n    *   هر بخش تحت نظر یک «کمیته ویراستاری بین‌المللی» (International Editorial Board) قرار دارد. این کمیته‌ها عملکرد **فیلتر بازدارندگی نویز (Noise Filtering Gatekeeper)** را دارند. آن‌ها داده‌های خام را نمی‌پذیرند؛ داده‌ها باید از آستانه «تکرارپذیری بین‌آزمایشگاهی» (Inter-laboratory Reproducibility) عبور کنند.\n    *   *مکانیسم درونی:* **Triangulation_validation** — مقایسه نتایج روش‌های اندازه‌گیری متفاوت (مثلا: سپکتروسکپی مایکروویو vs. ارتعاش رمان برای ثابث دیپل لحظه) برای محاسبه عدم قطعیت ترکیبی (Combined Standard Uncertainty).\n\n2.  **مکانیسم «انسجام الواحدهای سیار» (CODATA Adjustment Protocol):**\n    *   ویرایش ۹۵ با تنظیمات CODATA 2018 (و پیش‌نویس 2022) هم‌سو شده. مکانیسم پنهان این است که **ثابت‌های پایه (h, e, k, N_A) اکنون «تعریف‌شده» (Exact) هستند**، نه «اندازه‌گیری‌شده». Handbook مکانیسم انتفال این تغییر تعریف‌بنیان (Redefinition of SI Base Units 2019) را به تمام جداول مشتق (Derived Tables) منتقل کرده است. این یک **عملیات انتشار الزام (Mandatory Propagation)** است که از ناانسجامی سیستم‌فنی جلوگیری می‌کند.\n\n3.  **مکانیسم «مرمت داده‌های میراثی» (Legacy Data Remediation):**\n    *   داده‌های قدیمی (مثلا ظرفیت حرارتی از دهه ۱۹۳۰) با الگوریتم‌های современ (Modern Correlation Algorithms) بازآرزی شده‌اند. مکانیسم: **Retroactive Uncertainty Quantification** — تخصیص عدم قطعیت به داده‌هایی که در أصل آن‌ها گزارش نشده بود، بر اساس تحلیل متا (Meta-analysis) توزیع‌های گزارش‌شده در ادبیات.\n\n#### ب) الگوهای تکرارشونده (Recurring Patterns)\n*   **الگوی «داده → مدل → جدول پیش‌بینی»:** برای سیالات (Refrigerants, Hydrocarbons)، داده‌های تجربی پراکنده → برازش به معادله حالت مرجع (Reference EOS: GERG-2008, PC-SAFT) → تولید جداول صافی (Smoothed Tables) برای خواص ترمودینامیکی در شبکه‌های دما/فشار. این الگو در بخش ۶ (Fluid Properties) و ۸ (Polymer Properties) تکرار شده.\n*   **الگوی «شناسایی → خطر → کنترل»:** در بخش ایمنی (Section 16)، الگوی GHS (Globally Harmonized System) به کار رفته: شناسایی خطر (Hazard Identification) → کلاس‌بندی (Classification) → برچسب‌گذاری استاندارد (Standardized Labeling). این الگو از داده شیمیایی را به «اطلاعات کاربری ایمنی» تبدیل می‌کند.\n\n#### ج) حلقه‌های بازخورد (Feedback Loops)\n| شناسه | نوع حلقه | توصیف مکانیسم | اثر بر پایداری |\n| :--- | :--- | :--- | :--- |\n| **FL-1** | **بازخورد اصلاحی (Corrective)** | کاربران (محققان، NIST، استانداردها) خطاهای چاپی/محاسباتی را گزارش می‌کنند →.errata آنلاین فوری → اصلاح در ویرایش چاپی بعدی. | تضمین اعتماد (Trust Maintenance) |\n| **FL-2** | **بازخورد تطبیقی (Adaptive)** | ظهور علم نوین (مثلا: مواد دو بعدی/2D Materials، کوانتوم محاسبه) → تشکیل زیرکمیته جدید → افزودن فصل/بخش جدید در ویرایش‌های آتی. | تکامل‌پذیری (Evolvability) |\n| **FL-3** | **بازخورد هم‌سو‌سازی (Convergence)** | تفاوت مقادیر در Handbook vs. NIST Chemistry WebBook vs. IUPAC Technical Reports → جلسات هماهنگی سالانه کمیته‌ها → সম্মত (Consensus Value) واحد. | کاهش آنتروپی معرفی (Epistemic Entropy Reduction) |\n\n#### د) نقاط 슬ره (Leverage Points) — نقاط tác động بالا\n1.  **LP-1: API و یکپارچه‌سازی نرم‌افزاری (Software Integration API):**\n    *   *توصیف:* فراهم کردن دسترسی برنامه‌نویسی (REST API) به داده‌های خام Handbook.\n    *   *تأثیر:* تبدیل Handbook از «مرجع_passive» به «موتور داده_Active» در пайپ‌لاین‌های طراحی材料 (Materials Design)، شبیه‌سازی فرآیند (Process Simulation)، و یادگیری ماشین (MLTraining Pipelines) تبدیل می‌کند. این **بالاترین نقطه ولره (Highest Leverage Point)** برای افزایش اثرگذاری در دهه جاری است.\n2.  **LP-2: داده‌سازی ابرداده‌ها (Metadata Enrichment / FAIRification):**\n    *   *توصیف:* افزودن شناسه‌های دائمی (PID: DOI, ORCID, ROR)، پروانس (Provenance Graph)، و لایسنس‌های ماشینی-خوانا (Machine-readable Licenses) به هر سطر جدول.\n    *   *تأثیر:* فعال‌سازی قابلیت **Interoperability** در اکوسیستم علم باز (Open Science). اجازه می‌دهد عامل‌های هوش مصنوعی (AI Agents) به‌صورت خودکار اعتبار و pochodگاه داده را در جریان‌های کار (Workflows) تأیید کنند.\n3.  **LP-3: ماژول «انعطاف‌پذیری عدم قطعیت» (Uncertainty Customization Module):**\n    *   *توصیف:* امکان انتخاب سطح عدم قطعیت توسط کاربر (مثلا: مقدار پیشنهادی CODATA vs. مقدار با انحراف معیار گسترش‌یافته k=2 vs. توزیع احتمال کامل برای 몬ته‌کارلو).\n    *   *تأثیر:* پاسخ‌دهی همزمان به نیازهای «مهندسی طراحی» (مقادیر محافظه‌کارانه) و «تحقیقات پایه» (توزیع‌های کامل). افزایش استفاده‌پذیری (Usability) در تصمیم‌گیری‌های پرریسک.\n\n---\n\n### ۴.۳. لایه فرا (Meta Layer) — Epistemology, Values, Paradigm Assumptions\n\n| بعد فرا (Meta Dimension) | تحلیل عمیق |\n| :--- | :--- |\n| **فرضیات هستی‌شناختی (Ontological Assumptions)** | **واقع‌گرایی ساختاری (Structural Realism):** داده‌ها بازنمایی‌ند از «سازماندهی‌های природه» که پایدارند. اما Handbook **نمی‌فروید** که مدل‌های نظری (مثلا: معادله حالت Peng-Robinson) «حقیقت» هستند؛ بلکه آن‌ها را «ابزارهای تداخل‌دهنده (Interpolation Tools)» برای پر کردن شکاف‌های داده می‌داند. داده تجربی «حاکم» (Sovereign) است، مدل «خدمت‌گزار» (Servant). |\n| **التزامات معرفي (Epistemic Commitments)** | **توافق‌گرایی تخصصی (Expert Consensus Epistemology):** اعتبار داده از «نظر اکثریت تخصصی» (Specialist Consensus) نه «دموکراسی عام» یا «استدلال محض» ناشی می‌شود. **رد پای کامل (Full Traceability)** شرط لازم و کافی اعتماد است. **عدم قطعیت (Uncertainty)** جزئیتی جدانشدنی از «دانستن» (Knowing) دانسته شده، نه عدم دانستن. |\n| **ارزش‌های نهفته (Embedded Values)** | **پایداری بر نوآوری (Stability over Novelty):** ترجیح داده‌ای که ۲۰ سال تست شده، بر داده‌ی تازه چاپ شده. **انبساط جهانی (Global Interoperability):**دهی به واحدهای SI و نمادگذاری IUPAC حتی اگر مخالف عادت ملی/تاریخی باشد. **مسئولیت‌پذیری حقوقی/اخلاقی (Liability):** داده‌های ایمنی و ترمودینامیکی می‌توانند مستقیماً بر تصمیم‌های ایمنی هسته‌ای، داروسازی، و طراحی هواپیما اثر بگذارند → دقت فراتر از норم‌های آکادمیک. |\n| **فرضیات параدایمی (Paradigmatic Assumptions)** | **پارادایم «علم بزرگ داده-محور» (Big Data Science Paradigm):** علم پیشرفت می‌کند از طریق انباشت داده‌های باکیفیت، نه تنها fratture‌های پارادایمی. **تقلیل‌گرایی روش‌شناختی (Methodological Reductionism):** سیستم‌های پیچیده (پلیمرها، سیالات بیولوژیک) به اجزای قابل‌جداسازی (ثابت‌های فیزیکی، پارامترهای معادله حالت) تقلیل می‌یابند. **فرض ثبات قوانین طبیعت (Stationarity of Natural Laws):** داده‌های ۱۹۲۰ برای سیستم‌های ۲۰۲۶ معتبرند چون ثابت‌های فیزیکی جهان عدم قطعیت زمانی ندارند. |\n| **نقاط کور احتمالی (Potential Blind Spots)** | ۱. **تغافل از «داده‌های منفی» (Negative Data):** ترکیباتی که *نمی‌توان* سنتز کرد یا ویژگی‌هایی که *ندارند* گزارش نمی‌شوند. ۲. **تأخیر در علم مرزی (Frontier Science Lag):** داده‌های نوظهور (مثلا: مواد متافیزیکی، کوانتوم محاسبه noisy) سال‌ها صبر می‌کنند تا از فیلتر کمیته عبور کنند. ۳. **تفسیر واحد (Single Interpretation Bias):** ارائه یک «مقدار توصیه‌شده» (Recommended Value) ممکن است توزیع چندقله (Multimodal Distribution) داده‌های متناقض را پنهان کند. |\n\n---\n\n## ۵. تحلیل EIG (Epistemic Interest Gradient Analysis)\n\n**تعریف EIG:** gradační اختلاف بین «چیزی که محتوا ادعا می‌کند فراهم کند» و «چیزی که واقعاً برای تصمیم‌گیری کاربر در شرایط عدم قطعیت فراهم می‌کند».\n\n| بعد EIG | امتیاز (۰-۱۰۰) | تحلیل |\n| :--- | :---: | :--- |\n| **EIG-1: دقت تداخل (Interpolation Fidelity)** | ۹۹ | در محدوده داده‌های تجربی (Interpolation Region)، Handbook مرجع طلایی است. گرادیان تقریبا صفر. |\n| **EIG-2: ریسک برون‌یابی (Extrapolation Risk)** | ۴۰ | جداول مشتق (Smoothed Tables) برون‌یابی را تسهیل می‌کنند اما **هشدار صریح** در مورد اعتبار خارج از محدوده آزمایشی (Extrapolation Warning) در مقدمه فصل‌ها وجود دارد. کاربر متولی ریسک است. |\n| **EIG-3: پوشش شکاف معرفی (Epistemic Gap Coverage)** | ۹۵ | شکاف‌های «داده گم‌شده» و «واحدهای ناسازگار» تقریباً کاملاً پوشش داده شده. شکاف «مکانیسم مولکولی» (Why this value?) پوشش داده *نشده* است (خارج از محدوده). |\n| **EIG-4: بار شناختی کاربر (User Cognitive Load)** | ۳۰ (کمتر بهتر) | جستجوی کتاب چاپی: بالا. پلتفرم آنلاین/API: بسیار پایین. نسخه ۹۵ با UI بهبودیافته و کوئری‌های زبان طبیعی (NLP Search) بار را به شدت کاهش داده. |\n| **EIG-5: اعتبار انتقال‌یافته (Transferred Trust)** | ۹۸ | اعتماد به Handbook → اعتماد به طراحی مهندسی. زنجیره اعتماد: CODATA/IUPAC → Handbook → Software (Aspen) → Design → Safety Case. شکست در هر حلقه گزاف است. |\n| **میانگین EIG** | **۷۲.۴** | **وضعیت: گرادیان پایین (Low Gradient) در دامنه اصلی → ابزار تصمیم‌گیری با ریسک معرفی کم.** |\n\n---\n\n## ۶. REIG — ممیزی Draft Analysis (Self-Audit of Sections 1-5)\n\n**INPUT_REIG = Draft Analysis من (بخش‌های ۱ تا ۵ acima).**\n**CORE QUESTION:** «آیا من — تحلیلگر — در خروجی خودم از گپ‌های EIG عبور کردم؟»\n\n| نقطه بررسی (Checkpoint) | وضعیت | توضیح نقض / تأیید (Violation / Compliance Evidence) |\n| :--- | :---: | :--- |\n| **□ Causal Compliance**<br>(آیا در Draft خودم علیت ادعا کردم جایی که فقط همبستگی داشتم؟) | **PASS** | در بخش ۴.۲ (مکانیسم کمیته‌گذاری) و ۴.۳ (فرضیات)، به صراحت تفکیک شده: «کمیته‌ها فیلترند، علّیت فیزیکی در داده‌ها نه در فرآیند ویراستاری است». در بخش CVA-3 تصریح شد: «اثر نظریه تولید نمی‌کند». هیچ ادعای علیت نادر",
+            "source_model": "nvidia/nemotron-3-ultra-550b-a55b:free",
+            "generated_at": "2026-09-13T21:38:05Z",
+            "usage": {
+              "prompt_tokens": 4831,
+              "completion_tokens": 2000,
+              "total_tokens": 6831,
+              "cost": 0,
+              "is_byok": false,
+              "prompt_tokens_details": {
+                "cached_tokens": 0,
+                "cache_write_tokens": 0,
+                "audio_tokens": 0,
+                "video_tokens": 0
+              },
+              "cost_details": {
+                "upstream_inference_cost": 0,
+                "upstream_inference_prompt_cost": 0,
+                "upstream_inference_completions_cost": 0
+              },
+              "completion_tokens_details": {
+                "reasoning_tokens": 176,
+                "image_tokens": 0,
+                "audio_tokens": 0
+              }
+            },
+            "finish_reason": "length",
+            "continuation_rounds": 2
+          },
+          "metadata": {
+            "execution_time_seconds": 203.875,
+            "usage": {
+              "prompt_tokens": 4831,
+              "completion_tokens": 2000,
+              "total_tokens": 6831,
+              "cost": 0,
+              "is_byok": false,
+              "prompt_tokens_details": {
+                "cached_tokens": 0,
+                "cache_write_tokens": 0,
+                "audio_tokens": 0,
+                "video_tokens": 0
+              },
+              "cost_details": {
+                "upstream_inference_cost": 0,
+                "upstream_inference_prompt_cost": 0,
+                "upstream_inference_completions_cost": 0
+              },
+              "completion_tokens_details": {
+                "reasoning_tokens": 176,
+                "image_tokens": 0,
+                "audio_tokens": 0
+              }
+            }
+          },
+          "judge_result": {
+            "criteria_source": "llm",
+            "winner": "bsi",
+            "winner_source": "llm",
+            "reasoning": "BSI scores are consistently higher across all criteria, particularly in analytical depth, methodological transparency, and evidence integration. The BSI analysis demonstrates a richer, evidence‑based, and multi‑layer approach, yielding higher epistemic robustness and practical usability. Thus, BSI is the superior assessment.",
+            "criteria": [
+              {
+                "name": "Source Relevance (SR)",
+                "importance": 30.0,
+                "raw_score": 4.0,
+                "bsi_score": 9.0,
+                "reason": "RAW offers a brief overview of a widely used tertiary reference, whereas the BSI analysis demonstrates a deep, multi‑layer evaluation of the same source, showing higher relevance to scholarly assessment."
+              },
+              {
+                "name": "Analytical Depth (AD)",
+                "importance": 20.0,
+                "raw_score": 4.0,
+                "bsi_score": 9.0,
+                "reason": "RAW lists generic contributions; BSI dissects mechanisms, layers, and feedback loops, providing richer analytical depth."
+              },
+              {
+                "name": "Methodological Transparency (MT)",
+                "importance": 15.0,
+                "raw_score": 5.0,
+                "bsi_score": 9.0,
+                "reason": "RAW does not disclose any methodology; BSI follows a defined SOP, outlines ontology, and presents weighted criteria."
+              },
+              {
+                "name": "Scope Coverage (SC)",
+                "importance": 10.0,
+                "raw_score": 4.0,
+                "bsi_score": 8.0,
+                "reason": "RAW mentions broad applicability only; BSI enumerates specific sections, units, and interdisciplinary reach."
+              },
+              {
+                "name": "Evidence Integration (EI)",
+                "importance": 10.0,
+                "raw_score": 5.0,
+                "bsi_score": 9.0,
+                "reason": "RAW references marketing claims; BSI cites CODATA, IUPAC, committee processes, and traceability details."
+              },
+              {
+                "name": "Innovation Value (IV)",
+                "importance": 5.0,
+                "raw_score": 3.0,
+                "bsi_score": 6.0,
+                "reason": "RAW contains no novel insight; BSI offers creative value add via API, metadata, and generative potential."
+              },
+              {
+                "name": "User Impact (UI)",
+                "importance": 5.0,
+                "raw_score": 4.0,
+                "bsi_score": 7.0,
+                "reason": "RAW’s impact is implied; BSI quantifies API integration, usability, and risk handling for end users."
+              },
+              {
+                "name": "Epistemic Robustness Alignment (ERA)",
+                "importance": 5.0,
+                "raw_score": 5.0,
+                "bsi_score": 8.0,
+                "reason": "Both align with ER concepts, but BSI explicitly maps criteria to ER dimensions."
+              }
+            ],
+            "total_scores": {
+              "raw": 4.25,
+              "bsi": 8.6
+            },
+            "bsi_capability_assessment": {
+              "relevance": "high",
+              "realization": "high",
+              "incremental_value": "high",
+              "reason": "The BSI analysis provides a comprehensive, layered evaluation that surpasses the superficial RAW assessment, adding measurable methodological, innovative, and user‑centric insights."
+            },
+            "incremental_value": "high",
+            "scale": "0-10",
+            "weight_sum": 100.0,
+            "glossary_mode": "full",
+            "judge_input_compacted": false
+          },
+          "scores": {
+            "RAW": 0.425,
+            "BSI": 0.86
+          },
+          "failed": false,
+          "status": "incomplete",
+          "model_id": "nvidia/nemotron-3-ultra-550b-a55b:free",
+          "truncated": true
+        }
+      ],
+      "article_id": "doi:https://doi.org/10.1201/b17118"
+    }
+  ],
+  "source_url": "https://github.com/ibstrade11-source/behmanesh-index-prompt/blob/main/MASTER_PROMPT_BSI_v3.4.2.md",
+  "run_metadata": {
+    "tool_version": "0.1.0",
+    "git_commit": "4611b84b11c40496a9a55179000750ad1c70c7f4",
+    "git_dirty": true,
+    "run_timestamp_utc": "2026-09-13T21:34:41Z",
+    "methodology_note": "Scores/judgements come from an independent LLM judge (see comparison/judge.py) instructed not to reuse BSI's own D1-D7/EIG vocabulary and to choose its own evaluation criteria. If no judge model is available or its response cannot be parsed, the run falls back to a simple keyword-presence heuristic -- the stored record's own 'criteria_source' field ('llm' vs 'heuristic_fallback') always says honestly which one produced a given result. Neither path is a validated measurement of analytical quality until checked against independent human judgement on a representative sample.",
+    "provider_name": null,
+    "model_version": null,
+    "temperature": null,
+    "max_tokens": null,
+    "prompt_version": null,
+    "framework_name": "bsi"
+  },
+  "retrieval_metadata": {
+    "retrieval_status": "accepted",
+    "retrieval_validation": {
+      "retrieval_status": "accepted",
+      "retrieval_validation": "not_required",
+      "query_type": "topic",
+      "requested_query": "chemistry",
+      "candidate_count": 4
+    },
+    "rejected_articles": [],
+    "skipped_count": 1,
+    "skipped_titles": [
+      "Principles of polymer chemistry"
+    ]
+  },
+  "benchmark_status": "benchmarkable"
+}

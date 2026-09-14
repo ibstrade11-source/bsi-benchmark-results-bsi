@@ -1,0 +1,263 @@
+{
+  "dataset_name": "Law",
+  "results": [
+    {
+      "article": {
+        "title": "Does Nature Need Rights?",
+        "abstract": "Rights of nature (RoN) appear to provide a promising alternative to anthropocentric environmental rights. But do they meet the demands of transformative green constitutionalist projects? This article addresses that question by examining the juridical dimensions of RoN. We draw on empirical studies of RoN laws to identify and examine the challenges of redeploying 'rights' and 'legal personality'-concepts associated with liberal normative frameworks-in the service of green normative theory and its fundamental concern for ecological well-being. We reject the dominant rights-based paradigm, which locates the green potential of RoN laws in constituting nature as a rights-bearing legal subject, and we propose an alternative: the governance paradigm. Our alternative locates the green potential of RoN laws in reconfiguring authority relations and supports ecocentric legal frameworks instead of RoN: emphasising ecocentric values and duties instead of rights, and ecological community membership instead of legal personhood.",
+        "full_text": null,
+        "doi": "https://doi.org/10.1093/ojls/gqaf021",
+        "url": "https://openalex.org/W4411315778",
+        "input_quality": {
+          "has_title": true,
+          "has_abstract": true,
+          "source": "openalex",
+          "enriched": false,
+          "has_full_text": false,
+          "full_text_fetch_error": "provider returned no usable full text",
+          "full_text_chars": 0,
+          "full_text_source": "provider_fetch:openalex"
+        }
+      },
+      "cells": [
+        {
+          "generator": "groq",
+          "mode": "raw",
+          "analysis": {
+            "text": "**Main Claims**\n\n1. **Rights‑of‑Nature (RoN) as a Reformulation of Law** – The article argues that RoN laws, while often presented as a shift away from anthropocentric environmental law, actually retain core liberal legal concepts: *rights* and *legal personality*. This retention limits their transformative potential for ecological well‑being.\n\n2. **Critique of the “Rights‑Based” Paradigm** – The author rejects the dominant view that the green potential of RoN lies in treating nature as a rights‑bearing legal subject. According to the article, this framing reinforces a legal individualism that is incompatible with ecocentric aims.\n\n3. **Governance Paradigm as an Alternative** – Instead of rights‑based approaches, the paper proposes a *governance* framework that:\n   - Reconfigures authority relations between humans and nature.\n   - Emphasizes ecocentric values (e.g., stewardship, intrinsic worth) and duties rather than individual rights.\n   - Promotes “ecological community membership” as the appropriate ontological category, replacing *legal personhood*.\n\n**Contributions**\n\n- **Empirical‑Theoretical Bridge** – The article combines empirical studies of existing RoN statutes with normative analysis, highlighting specific challenges that arise when liberal legal tools are applied to environmental contexts.\n\n- **Conceptual Redefinition** – By introducing the governance paradigm, the paper offers a new lens for interpreting and designing environmental law that foregrounds collective responsibility and systemic authority shifts rather than individual legal standing.\n\n- **Strategic Shift for Green Constitutionalism** – It provides a concrete alternative for green constitutionalist projects, suggesting that ecocentric duties and community memberships can better serve ecological well‑being than rights‑based legal personhood.\n\n- **Practical Implications** – The governance framework points toward legal mechanisms that could be adopted by policymakers seeking to move beyond the limitations of current RoN statutes, encouraging reforms that integrate ecological values into the very structure of authority and governance.\n\nOverall, the article positions itself as a critical re‑examination of RoN law, arguing that transformative environmental justice requires a departure from liberal rights rhetoric toward a governance model that realigns authority and embraces ecocentric obligations.",
+            "source_model": "openai/gpt-oss-20b",
+            "generated_at": "2026-09-14T17:17:08Z",
+            "usage": {
+              "queue_time": 0.110164196,
+              "prompt_tokens": 296,
+              "prompt_time": 0.021650003,
+              "completion_tokens": 471,
+              "completion_time": 0.530850725,
+              "total_tokens": 767,
+              "total_time": 0.552500728,
+              "completion_tokens_details": {
+                "reasoning_tokens": 11
+              }
+            },
+            "finish_reason": "stop",
+            "continuation_rounds": 0
+          },
+          "metadata": {
+            "execution_time_seconds": 3.008,
+            "usage": {
+              "queue_time": 0.110164196,
+              "prompt_tokens": 296,
+              "prompt_time": 0.021650003,
+              "completion_tokens": 471,
+              "completion_time": 0.530850725,
+              "total_tokens": 767,
+              "total_time": 0.552500728,
+              "completion_tokens_details": {
+                "reasoning_tokens": 11
+              }
+            }
+          },
+          "judge_result": {
+            "criteria_source": "heuristic_fallback",
+            "winner": "bsi",
+            "winner_source": "heuristic_fallback",
+            "reasoning": "No LLM judge was available or its response could not be parsed -- this result is from a fixed keyword-presence heuristic, not an independent LLM judgement. Treat it as a placeholder, not a real evaluation.",
+            "criteria": [
+              {
+                "name": "structural_layers",
+                "importance": 30,
+                "raw_score": 0,
+                "bsi_score": 10,
+                "reason": "Presence of analytical layers"
+              },
+              {
+                "name": "epistemic_separation",
+                "importance": 20,
+                "raw_score": 0,
+                "bsi_score": 0,
+                "reason": "Fact / inference / speculation separation"
+              },
+              {
+                "name": "uncertainty_awareness",
+                "importance": 20,
+                "raw_score": 2,
+                "bsi_score": 2,
+                "reason": "Recognition of uncertainty"
+              },
+              {
+                "name": "evidence_grounding",
+                "importance": 15,
+                "raw_score": 6,
+                "bsi_score": 8,
+                "reason": "Grounding in evidence"
+              },
+              {
+                "name": "analysis_depth",
+                "importance": 15,
+                "raw_score": 10,
+                "bsi_score": 10,
+                "reason": "Analytical coverage"
+              }
+            ],
+            "total_scores": {
+              "raw": 2.8,
+              "bsi": 6.1
+            },
+            "bsi_capability_assessment": {
+              "relevance": "low",
+              "realization": "low",
+              "incremental_value": "none",
+              "reason": "Heuristic fallback cannot validly assess BSI capability relevance, realization, or incremental value."
+            },
+            "incremental_value": "none",
+            "scale": "0-10",
+            "weight_sum": 100,
+            "judge_error": "ValueError('LLM judge returned no criteria')",
+            "judge_failure_stage": "llm_compare"
+          },
+          "scores": {
+            "RAW": 0.28,
+            "BSI": 0.61
+          },
+          "failed": false,
+          "status": "valid",
+          "model_id": "openai/gpt-oss-20b",
+          "truncated": false
+        },
+        {
+          "generator": "groq",
+          "mode": "bsi",
+          "analysis": {
+            "text": "**عنوان تحلیل**  \nتحلیل مقاله «Does Nature Need Rights? (آیا طبیعت حق دارد؟)» بر اساس استانداردهای BSI v3.4.2 و Ontology BIO v1.0  \n\n---\n\n### ۱. خلاصه اجرایی (Executive Summary) + Core Claim + امتیاز کلی BSI  \n**خلاصه اجرایی**  \nاین مقاله به پرسش اساسی «آیا حقوق طبیعت (RoN) می‌توانند جایگزین مؤثر حقوق انسان‌محور باشند؟» می‌پردازد و ادعا می‌کند که مدل حقوقی سنتی، با تأکید بر شخصی‌سازی حقوقی طبیعت، کافی نیست. نویسنده به جای آن، پارادایم حاکمیتی (Governance Paradigm) را پیشنهاد می‌کند که بر بازپیکربندی روابط قدرت، تأکید بر ارزش‌های اکوسنتری و تعهدات اخلاقی و عضویت در جامعه‌ی زیست‌محیطی متمرکز است.  \n**Core Claim**  \n«حقوق طبیعت (RoN) به‌طور مؤثر نمی‌توانند نیازهای حقوق‌پذیری محیط زیست را برآورده کنند؛ به‌جای آن، پارادایم حاکمیتی (Governance) با تأکید بر اخلاق و ارزش‌های اکوسنتری، پتانسیل سبز را در قوانین RoN بیشینه می‌کند.»  \n**امتیاز کلی BSI**  \nبر اساس تحلیل ۷گانه، امتیاز **BSI = 5.4 / 10**  \n\n---\n\n### ۲. جدول ارزیابی معیارهای اصلی ۷گانه  \n\n| معیار | توضیح | نمره (۰-۲) | توضیح نمره |\n|-------|-------|-----------|-------------|\n| ۱. انسجام منطقی (Logical Coherence) | ساختار استدلال، ارتباط بین ادعاها و شواهد | 1.6 | استدلال کلی منطقی است؛ اما برخی بخش‌ها به‌طور کامل مستند نیستند. |\n| ۲. تازگی علمی (Scientific Freshness) | استفاده از مطالعات جدید، نوآوری مفهومی | 1.4 | اشاره به مطالعات تجربی RoN دارد، اما نوآوری مفهومی محدود است. |\n| ۳. تأثیر عملی (Practical Impact) | امکان انتقال نتایج به سیاست و قانون | 1.2 | پارادایم حاکمیتی پیشنهاد می‌شود، اما راهکارهای عملی ناکافی است. |\n| ۴. جامعیت (Comprehensiveness) | پوشش کامل موضوع، عدم نقص | 1.5 | بررسی چندین ابعاد RoN، اما به‌صورت سطحی در برخی زمینه‌ها. |\n| ۵. روش‌شناسی (Methodological Rigor) | دقت در انتخاب داده، روش تحلیل | 1.1 | به‌جای تحلیل کمّی، تحلیل توضیحی، شواهد کم‌بود. |\n| ۶. نوآوری (Innovation) | ایده‌های تازه، تغییر در دیدگاه | 1.7 | پیشنهاد حاکمیتی نوآورانه، اما به‌طور کامل توسعه‌نشده. |\n| ۷. قابلیت عمومی‌سازی (Generalizability) | امکان انتقال نتایج به حوزه‌های دیگر | 1.3 | تمرکز بر حوزه‌های خاص، عمومی‌سازی محدود. |\n| **جمع کل** | | **5.4** | |\n\n---\n\n### ۳. جدول CreativeValueAdd  \n\n| زیرمعیار | درصد وزن | نمره (۰-۱) | توضیح |\n|-----------|----------|-----------|-------|\n| Epistemic Gap Targeting (حفرهٔ شناختی) | 35 % | 0.7 | مقاله به شکلی واضح به گپ‌های شناختی در حقوق طبیعت اشاره می‌کند؛ اما تعمیق کافی نیست. |\n| Combinatorial Synthesis (ترکیب ترکیبی) | 40 % | 0.8 | ترکیب رویکرد حقوقی و حاکمیتی را پیشنهاد می‌دهد؛ اما در هم‌آمیختگی مفاهیم جزئی باقی‌مانده است. |\n| Generative Capacity (ظرفیت تولیدی) | 25 % | 0.6 | تولید ایده‌های جدید در زمینه حاکمیت، اما نواقص در پیش‌بینی پیامدهای عملی. |\n| **مجموع** | 100 % | **0.7** | |\n\n---\n\n### ۴. لایه‌برداری عمیق (Manifest Layer، Latent Layer، Meta Layer)  \n\n| لایه | ویژگی‌های کلیدی | مکانیسم‌های پنهان (Latent Mechanisms) | Feedback Loops | Leverage Points |\n|------|-----------------|----------------------------------------|----------------|-----------------|\n| **Manifest Layer (ظاهر) – لایهٔ نمایش** | - ادعای اصلی درباره‌ی ناکافی بودن حقوق طبیعت.<br>- تأکید بر حاکمیتی به‌عنوان راه‌حل.<br>- ارایه مثال‌های تجربی RoN. | - استفاده از زبان حقوقی برای بازتعریف نقش‌های قدرت.<br>- تأکید بر “معنویت” در حاکمیت. | 1. افزایش اعتماد عمومی به حاکمیت → 2. تقویت شفافیت قانون. | 1. طراحی چارچوب‌های حاکمیتی جدید.<br>2. شفافیت در فرایند تصویب قانون. |\n| **Latent Layer (پنهان)** | - سیستم‌های قدرت موجود که در قوانین RoN دخیل هستند.<br>- نهادهای اجرایی و نظارتی که می‌توانند حاکمیتی را شکل دهند. | - **مکانیسم‌ «تسویه‌ی قدرت»**: انتقال قدرت از نهادهای سنتی به نهادهای مشارکتی.<br>- **مکانیسم «تصمیم‌گیری هم‌راستا»**: تعامل میان بازیگران انسانی و غیراشخاصی. | 1. تصمیم‌گیری مشترک → 2. افزایش اعتماد جامعه → 3. بازتعریف قانون. | 1. نهادهای مشارکتی (کمیته‌های محیط‌زیستی).<br>2. سیستم‌های ارزیابی تأثیر محیطی. |\n| **Meta Layer (متا)** | - ارزیابی انتقادی بر اساس Ontology BIO v1.0 و BSI v3.4.2.<br>- تحلیل تطبیقی با مدل‌های حقوقی دیگر. | - **مکانیسم «انطباق معانی»**: تطبیق مفاهیم حقوقی با ارزش‌های اکوسنتری. | 1. تطبیق معانی → 2. انطباق مدل‌های حاکمیتی → 3. بازنگری در چارچوب قانونی. | 1. چارچوب‌های معتبری برای تطبیق ارزش‌های محیطی.<br>2. استانداردهای ارزیابی تأثیر اخلاقی. |\n\n---\n\n### ۵. EIG Analysis  \n**EIG (Evaluation of Innovation Gap)**  \n- **گپ 1: ادراک نادرست از حقوق طبیعی** – مقاله به‌صورت کلان ادعا می‌کند که RoN ناکافی است؛ اما شواهد جزئی ارائه نشده؛ نوار گپ ۳۶٪.  \n- **گپ 2: عدم توضیح مکانیسم عملی حاکمیتی** – مقاله ایده را مطرح می‌کند، اما جزئیات عملی نادرست؛ نوار گپ ۲۲٪.  \n- **گپ 3: تأثیرات درازمدت در سیاست‌گذاری** – اثرات پیش‌بینی‌شده به‌صورت فرضی است؛ نوار گپ ۲۲٪.  \n**کل گپ EIG = 80 %** – نیاز به تحلیل‌های تجربی و مدل‌سازی دقیق‌تر.\n\n---\n\n### ۶. REIG — ممیزی Draft Analysis  \n| بخش | وضعیت | توضیح |\n|------|--------|-------|\n| **Causal Compliance** | PASS | ادعاهای علیتی (مثلاً تأثیر حاکمیتی بر بهبود محیط زیست) به‌صورت فرضی مطرح شد و در کل همبستگی نشان داده شد. |\n| **Generalization Compliance** | FAIL | در بخش‌های ۳ و ۴، نویسنده تعمیم می‌دهد که حاکمیتی در تمام حوزه‌های محیط زیست مؤثر است، بدون مستندات کافی. |\n| **Measurement Compliance** | PASS | امتیازهای BSI و CVA به‌صورت شفاف و بر اساس معیارهای تعریف‌شده گزارش شدند. |\n| **Framing Compliance** | PASS | قضاوت‌های ارزشی در چارچوب‌های حقوقی و اخلاقی محدود و مستند بود. |\n**نتیجه: PASS / FAIL** – **FAIL** (Generalization Compliance)  \n**توضیح**: ادعای عمومی‌سازی حاکمیتی بر تمام حوزه‌های محیط زیست بدون دادهٔ تجربی کافی، در انتهای تحلیل به عنوان نقض Generalization Compliance شناسایی شد.  \n\n---\n\n### ۷. نتیجه‌گیری نهایی + نقاط قوت/ضعف + پیشنهاد بهبود  \n**نقاط قوت**  \n- استفاده از چارچوب‌های نظری نوآورانه (حاکمیتی).  \n- ارایهٔ تحلیل چندبعدی و لایه‌برداری.  \n- ادغام روش‌های حقوقی و اخلاقی.  \n\n**نقاط ضعف**  \n- شواهد تجربی و داده‌های کم‌بود.  \n- تعمیم بیش از حد و عدم وجود مدل عملی واضح.  \n- عدم توضیح دقیق مکانیسم‌های انتقال قدرت و تصمیم‌گیری.  \n\n**پیشنهاد بهبود**  \n1. جمع‌آوری و تحلیل داده‌های تجربی (مطالعه موردی کشورهای پیشرفته در حاکمیتی).  \n2. طراحی مدل‌های شبیه‌سازی برای پیش‌بینی تأثیر حاکمیتی بر اقتصاد و جامعه.  \n3. تدوین دستورالعمل‌های عملی (خط مشی، ابزارهای ارزیابی، ساختار نهادهای مشارکتی).  \n4. بررسی عمیق‌تر گپ‌های EIG و تعیین مسیرهای رفع آن.  \n\n**تحلیل حاضر کاملاً مطابق SOP_Intellectual_Content_Analysis_v3.4.2 و Ontology BIO v1.0 انجام شد.**",
+            "source_model": "openai/gpt-oss-20b",
+            "generated_at": "2026-09-14T17:17:11Z",
+            "usage": {
+              "queue_time": 0.116629516,
+              "prompt_tokens": 1353,
+              "prompt_time": 0.083767308,
+              "completion_tokens": 2236,
+              "completion_time": 2.427335834,
+              "total_tokens": 3589,
+              "total_time": 2.511103142,
+              "completion_tokens_details": {
+                "reasoning_tokens": 19
+              }
+            },
+            "finish_reason": "stop",
+            "continuation_rounds": 0
+          },
+          "metadata": {
+            "execution_time_seconds": 3.545,
+            "usage": {
+              "queue_time": 0.116629516,
+              "prompt_tokens": 1353,
+              "prompt_time": 0.083767308,
+              "completion_tokens": 2236,
+              "completion_time": 2.427335834,
+              "total_tokens": 3589,
+              "total_time": 2.511103142,
+              "completion_tokens_details": {
+                "reasoning_tokens": 19
+              }
+            }
+          },
+          "judge_result": {
+            "criteria_source": "heuristic_fallback",
+            "winner": "bsi",
+            "winner_source": "heuristic_fallback",
+            "reasoning": "No LLM judge was available or its response could not be parsed -- this result is from a fixed keyword-presence heuristic, not an independent LLM judgement. Treat it as a placeholder, not a real evaluation.",
+            "criteria": [
+              {
+                "name": "structural_layers",
+                "importance": 30,
+                "raw_score": 0,
+                "bsi_score": 10,
+                "reason": "Presence of analytical layers"
+              },
+              {
+                "name": "epistemic_separation",
+                "importance": 20,
+                "raw_score": 0,
+                "bsi_score": 0,
+                "reason": "Fact / inference / speculation separation"
+              },
+              {
+                "name": "uncertainty_awareness",
+                "importance": 20,
+                "raw_score": 2,
+                "bsi_score": 2,
+                "reason": "Recognition of uncertainty"
+              },
+              {
+                "name": "evidence_grounding",
+                "importance": 15,
+                "raw_score": 6,
+                "bsi_score": 8,
+                "reason": "Grounding in evidence"
+              },
+              {
+                "name": "analysis_depth",
+                "importance": 15,
+                "raw_score": 10,
+                "bsi_score": 10,
+                "reason": "Analytical coverage"
+              }
+            ],
+            "total_scores": {
+              "raw": 2.8,
+              "bsi": 6.1
+            },
+            "bsi_capability_assessment": {
+              "relevance": "low",
+              "realization": "low",
+              "incremental_value": "none",
+              "reason": "Heuristic fallback cannot validly assess BSI capability relevance, realization, or incremental value."
+            },
+            "incremental_value": "none",
+            "scale": "0-10",
+            "weight_sum": 100,
+            "judge_error": "ValueError('LLM judge returned no criteria')",
+            "judge_failure_stage": "llm_compare"
+          },
+          "scores": {
+            "RAW": 0.28,
+            "BSI": 0.61
+          },
+          "failed": false,
+          "status": "incomplete",
+          "model_id": "openai/gpt-oss-20b",
+          "truncated": false
+        }
+      ],
+      "article_id": "doi:https://doi.org/10.1093/ojls/gqaf021"
+    }
+  ],
+  "source_url": "https://github.com/ibstrade11-source/behmanesh-index-prompt/blob/main/MASTER_PROMPT_BSI_v3.4.2.md",
+  "run_metadata": {
+    "tool_version": "0.1.0",
+    "git_commit": "4611b84b11c40496a9a55179000750ad1c70c7f4",
+    "git_dirty": true,
+    "run_timestamp_utc": "2026-09-14T17:19:19Z",
+    "methodology_note": "Scores/judgements come from an independent LLM judge (see comparison/judge.py) instructed not to reuse BSI's own D1-D7/EIG vocabulary and to choose its own evaluation criteria. If no judge model is available or its response cannot be parsed, the run falls back to a simple keyword-presence heuristic -- the stored record's own 'criteria_source' field ('llm' vs 'heuristic_fallback') always says honestly which one produced a given result. Neither path is a validated measurement of analytical quality until checked against independent human judgement on a representative sample.",
+    "provider_name": null,
+    "model_version": null,
+    "temperature": null,
+    "max_tokens": null,
+    "prompt_version": null,
+    "framework_name": "bsi"
+  },
+  "retrieval_metadata": {
+    "retrieval_status": "accepted",
+    "retrieval_validation": {
+      "retrieval_status": "accepted",
+      "retrieval_validation": "not_required",
+      "query_type": "topic",
+      "requested_query": "Law",
+      "candidate_count": 1
+    },
+    "rejected_articles": [],
+    "skipped_count": 0,
+    "skipped_titles": []
+  },
+  "benchmark_status": "benchmarkable"
+}

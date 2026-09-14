@@ -1,0 +1,116 @@
+{
+  "dataset_name": "Computational structuralism: Toward a formal theory of meaning in the age of digital intelligence",
+  "results": [
+    {
+      "article": {
+        "title": "Computational structuralism: Toward a formal theory of meaning in the age of digital intelligence",
+        "abstract": "Abstract The discovery that “next-token predictor” language models can fluently produce text has important but underappreciated theoretical implications. Most notably, their success demonstrates that fully relational models with no access to external referents or human actors are sufficient to generate contextually appropriate discourse. Building upon this insight, this article proposes computational structuralism , a perspective that synthesizes insights from deep learning, information theory, and French structuralism to interpret the success of large language models and provide a vocabulary for rigorous and formalized inquiry into systems of meaning. Computational structuralism conceptualizes the world as an information system rife with pattern and redundancy. Patterned observations can be compressed into latent structures that enable both interpretation and the generation of contextually appropriate responses. Large language models achieve this with web text, suggesting that discourses can be sufficiently modeled as systems of transformations over a set of relationally defined elements. Today’s AI models thus provide an empirical “proof of concept” for what structuralist theorists sought to achieve decades ago, a distillation of social life’s complexity into the latent forms that render its content meaningful.",
+        "full_text": null,
+        "doi": "https://doi.org/10.1007/s11186-026-09685-z",
+        "url": "https://openalex.org/W7152568811",
+        "input_quality": {
+          "has_title": true,
+          "has_abstract": true,
+          "source": "openalex",
+          "enriched": false,
+          "has_full_text": false,
+          "full_text_fetch_error": "provider returned no usable full text",
+          "full_text_chars": 0,
+          "full_text_source": "provider_fetch:openalex"
+        }
+      },
+      "cells": [
+        {
+          "generator": "gemini",
+          "mode": "raw",
+          "analysis": null,
+          "metadata": {
+            "error": "Gemini HTTP 429 — NO RETRY. The request appears to have hit a quota/TPM/prompt-length limit. DO NOT run manual RETRY & RESUME for this cell; resubmitting the same request is not expected to help and may consume additional quota. Response: {\n  \"error\": {\n    \"code\": 429,\n    \"message\": \"You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \\n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 20, model: gemini-3.7-flash\\nPlease retry in 3.057674601s.\",\n    \"status\": \"RESOURCE_EXHAUSTED\",\n    \"details\": [\n      {\n        \"@type\": \"type.googleapis.com/google.rpc.Help\",\n        \"links\": [\n          {\n            \"description\": \"Learn more about Gemini API quotas\",\n            \"url\": \"https://ai.google.dev/gemini-api/docs/rate-limits\"\n          }\n        ]\n      },\n      {\n        \"@type\": \"type.googleapis.com/google.rpc.QuotaFailure\",\n        \"violations\": [\n          {\n            \"quotaMetric\": \"generativelanguage.googleapis.com/generate_content_free_tier_requests\",\n            \"quotaId\": \"GenerateRequestsPerDayPerProjectPerModel-FreeTier\",\n            \"quotaDimensions\": {\n              \"location\": \"global\",\n              \"model\": \"gemini-3.7-flash\"\n            },\n            \"quotaValue\": \"20\"\n          }\n        ]\n      },\n      {\n        \"@type\": \"type.googleapis.com/google.rpc.RetryInfo\",\n        \"retryDelay\": \"3s\"\n      }\n    ]\n  }\n}\n",
+            "execution_time_seconds": 6.833
+          },
+          "judge_result": null,
+          "scores": {},
+          "failed": true,
+          "status": "failed",
+          "model_id": null,
+          "truncated": false
+        },
+        {
+          "generator": "gemini",
+          "mode": "bsi",
+          "analysis": null,
+          "metadata": {
+            "error": "Gemini HTTP 429 — NO RETRY. The request appears to have hit a quota/TPM/prompt-length limit. DO NOT run manual RETRY & RESUME for this cell; resubmitting the same request is not expected to help and may consume additional quota. Response: {\n  \"error\": {\n    \"code\": 429,\n    \"message\": \"You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \\n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 20, model: gemini-3.7-flash\\nPlease retry in 57.530341341s.\",\n    \"status\": \"RESOURCE_EXHAUSTED\",\n    \"details\": [\n      {\n        \"@type\": \"type.googleapis.com/google.rpc.Help\",\n        \"links\": [\n          {\n            \"description\": \"Learn more about Gemini API quotas\",\n            \"url\": \"https://ai.google.dev/gemini-api/docs/rate-limits\"\n          }\n        ]\n      },\n      {\n        \"@type\": \"type.googleapis.com/google.rpc.QuotaFailure\",\n        \"violations\": [\n          {\n            \"quotaMetric\": \"generativelanguage.googleapis.com/generate_content_free_tier_requests\",\n            \"quotaId\": \"GenerateRequestsPerDayPerProjectPerModel-FreeTier\",\n            \"quotaDimensions\": {\n              \"location\": \"global\",\n              \"model\": \"gemini-3.7-flash\"\n            },\n            \"quotaValue\": \"20\"\n          }\n        ]\n      },\n      {\n        \"@type\": \"type.googleapis.com/google.rpc.RetryInfo\",\n        \"retryDelay\": \"57s\"\n      }\n    ]\n  }\n}\n",
+            "execution_time_seconds": 5.539
+          },
+          "judge_result": null,
+          "scores": {},
+          "failed": true,
+          "status": "failed",
+          "model_id": null,
+          "truncated": false
+        }
+      ],
+      "article_id": "doi:https://doi.org/10.1007/s11186-026-09685-z"
+    }
+  ],
+  "source_url": "https://github.com/ibstrade11-source/behmanesh-index-prompt/blob/main/MASTER_PROMPT_BSI_v3.4.2.md",
+  "run_metadata": {
+    "tool_version": "0.1.0",
+    "git_commit": "4611b84b11c40496a9a55179000750ad1c70c7f4",
+    "git_dirty": true,
+    "run_timestamp_utc": "2026-09-12T21:04:49Z",
+    "methodology_note": "Scores/judgements come from an independent LLM judge (see comparison/judge.py) instructed not to reuse BSI's own D1-D7/EIG vocabulary and to choose its own evaluation criteria. If no judge model is available or its response cannot be parsed, the run falls back to a simple keyword-presence heuristic -- the stored record's own 'criteria_source' field ('llm' vs 'heuristic_fallback') always says honestly which one produced a given result. Neither path is a validated measurement of analytical quality until checked against independent human judgement on a representative sample.",
+    "provider_name": null,
+    "model_version": null,
+    "temperature": null,
+    "max_tokens": null,
+    "prompt_version": null,
+    "framework_name": "bsi"
+  },
+  "retrieval_metadata": {
+    "retrieval_status": "accepted",
+    "retrieval_validation": {
+      "retrieval_status": "accepted",
+      "retrieval_validation": "title_match",
+      "query_type": "title",
+      "requested_query": "Computational structuralism: Toward a formal theory of meaning in the age of digital intelligence",
+      "selected_title": "Computational structuralism: Toward a formal theory of meaning in the age of digital intelligence",
+      "selected_rank": 1,
+      "match_score": 1.0,
+      "threshold": 0.72,
+      "candidate_count": 4
+    },
+    "rejected_articles": [
+      {
+        "title": "Application and theory gaps during the rise of Artificial Intelligence in Education",
+        "doi": "https://doi.org/10.1016/j.caeai.2020.100002",
+        "url": "https://openalex.org/W3084223432",
+        "rank": 3,
+        "match_score": 0.2125,
+        "status": "rejected_lower_match"
+      },
+      {
+        "title": "A Survey on Explainable Artificial Intelligence (XAI): Toward Medical XAI",
+        "doi": "https://doi.org/10.1109/tnnls.2020.3027314",
+        "url": "https://openalex.org/W2958089299",
+        "rank": 2,
+        "match_score": 0.1082,
+        "status": "rejected_lower_match"
+      },
+      {
+        "title": "Explainable Artificial Intelligence (XAI): What we know and what is left to attain Trustworthy Artificial Intelligence",
+        "doi": "https://doi.org/10.1016/j.inffus.2023.101805",
+        "url": "https://openalex.org/W4366262984",
+        "rank": 4,
+        "match_score": 0.1007,
+        "status": "rejected_lower_match"
+      }
+    ],
+    "skipped_count": 1,
+    "skipped_titles": [
+      "Building dynamic capabilities for digital transformation: An ongoing process of strategic renewal"
+    ]
+  },
+  "benchmark_status": "benchmarkable"
+}

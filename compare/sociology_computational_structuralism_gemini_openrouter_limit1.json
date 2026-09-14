@@ -1,0 +1,123 @@
+{
+  "dataset_name": "Computational structuralism: Toward a formal theory of meaning in the age of digital intelligence",
+  "results": [
+    {
+      "article": {
+        "title": "Computational structuralism: Toward a formal theory of meaning in the age of digital intelligence",
+        "abstract": "Abstract The discovery that “next-token predictor” language models can fluently produce text has important but underappreciated theoretical implications. Most notably, their success demonstrates that fully relational models with no access to external referents or human actors are sufficient to generate contextually appropriate discourse. Building upon this insight, this article proposes computational structuralism , a perspective that synthesizes insights from deep learning, information theory, and French structuralism to interpret the success of large language models and provide a vocabulary for rigorous and formalized inquiry into systems of meaning. Computational structuralism conceptualizes the world as an information system rife with pattern and redundancy. Patterned observations can be compressed into latent structures that enable both interpretation and the generation of contextually appropriate responses. Large language models achieve this with web text, suggesting that discourses can be sufficiently modeled as systems of transformations over a set of relationally defined elements. Today’s AI models thus provide an empirical “proof of concept” for what structuralist theorists sought to achieve decades ago, a distillation of social life’s complexity into the latent forms that render its content meaningful.",
+        "full_text": null,
+        "doi": "https://doi.org/10.1007/s11186-026-09685-z",
+        "url": "https://openalex.org/W7152568811",
+        "input_quality": {
+          "has_title": true,
+          "has_abstract": true,
+          "source": "openalex",
+          "enriched": false,
+          "has_full_text": false,
+          "full_text_fetch_error": "provider returned no usable full text",
+          "full_text_chars": 0,
+          "full_text_source": "provider_fetch:openalex"
+        }
+      },
+      "cells": [
+        {
+          "generator": "gemini",
+          "mode": "raw",
+          "analysis": {
+            "text": "Based on the provided abstract, here is a concise and factual analysis of the article's core arguments and theoretical contributions:\n\n---\n\n### **1. Core Premise**\nThe article begins with the observation that large language models (LLMs)—trained simply to predict the next token—can generate fluent, contextually appropriate text without direct access to human embodiment or external real-world referents. This indicates that purely relational systems of language are capable of producing coherent discourse.\n\n---\n\n### **2. Main Theoretical Proposal: Computational Structuralism**\nThe author introduces **\"computational structuralism,\"** an interdisciplinary theoretical framework that synthesizes:\n* **French Structuralism:** The semiotic/linguistic view that meaning is derived relationally from internal rules and structures rather than external reference.\n* **Information Theory & Deep Learning:** The mathematical principles of statistical pattern recognition, redundancy, and data compression into latent spaces.\n\n---\n\n### **3. Key Arguments and Mechanisms**\n* **Information Compression into Latent Structure:** The world and human discourse are viewed as information systems containing redundancy and patterns. By training on vast text corpora, LLMs compress these patterns into latent representations.\n* **Relational Transformations:** These latent structures allow language to be modeled as a system of transformations over relationally defined elements, enabling both interpretation and generative capabilities.\n* **Empirical Validation of Structuralist Theory:** LLMs act as a modern computational \"proof of concept\" for classical structuralist goals, demonstrating empirically that complex social meaning and discourse can emerge from formalized, latent relational structures.\n\n---\n\n### **4. Primary Contribution**\nThe article bridges modern artificial intelligence and classical social/linguistic theory by offering:\n1. A formalized, computational vocabulary for understanding how meaning emerges in statistical language models.\n2. A theoretical framework for social scientists and humanists to analyze systems of meaning, culture, and discourse using insights from modern machine learning.",
+            "source_model": "gemini-3.7-flash",
+            "generated_at": "2026-09-12T19:00:05Z",
+            "usage": null,
+            "finish_reason": null,
+            "continuation_rounds": 0
+          },
+          "metadata": {
+            "execution_time_seconds": 27.815,
+            "usage": null
+          },
+          "judge_result": null,
+          "scores": {},
+          "failed": false,
+          "status": "valid",
+          "model_id": "gemini-3.7-flash",
+          "truncated": false
+        },
+        {
+          "generator": "gemini",
+          "mode": "bsi",
+          "analysis": null,
+          "metadata": {
+            "error": "Gemini HTTP 503: {\n  \"error\": {\n    \"code\": 503,\n    \"message\": \"This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.\",\n    \"status\": \"UNAVAILABLE\"\n  }\n}\n",
+            "execution_time_seconds": 21.027
+          },
+          "judge_result": null,
+          "scores": {},
+          "failed": true,
+          "status": "failed",
+          "model_id": null,
+          "truncated": false
+        }
+      ],
+      "article_id": "doi:https://doi.org/10.1007/s11186-026-09685-z"
+    }
+  ],
+  "source_url": "https://github.com/ibstrade11-source/behmanesh-index-prompt/blob/main/MASTER_PROMPT_BSI_v3.4.2.md",
+  "run_metadata": {
+    "tool_version": "0.1.0",
+    "git_commit": "4611b84b11c40496a9a55179000750ad1c70c7f4",
+    "git_dirty": true,
+    "run_timestamp_utc": "2026-09-12T19:04:05Z",
+    "methodology_note": "Scores/judgements come from an independent LLM judge (see comparison/judge.py) instructed not to reuse BSI's own D1-D7/EIG vocabulary and to choose its own evaluation criteria. If no judge model is available or its response cannot be parsed, the run falls back to a simple keyword-presence heuristic -- the stored record's own 'criteria_source' field ('llm' vs 'heuristic_fallback') always says honestly which one produced a given result. Neither path is a validated measurement of analytical quality until checked against independent human judgement on a representative sample.",
+    "provider_name": null,
+    "model_version": null,
+    "temperature": null,
+    "max_tokens": null,
+    "prompt_version": null,
+    "framework_name": "bsi"
+  },
+  "retrieval_metadata": {
+    "retrieval_status": "accepted",
+    "retrieval_validation": {
+      "retrieval_status": "accepted",
+      "retrieval_validation": "title_match",
+      "query_type": "title",
+      "requested_query": "Computational structuralism: Toward a formal theory of meaning in the age of digital intelligence",
+      "selected_title": "Computational structuralism: Toward a formal theory of meaning in the age of digital intelligence",
+      "selected_rank": 1,
+      "match_score": 1.0,
+      "threshold": 0.72,
+      "candidate_count": 4
+    },
+    "rejected_articles": [
+      {
+        "title": "Application and theory gaps during the rise of Artificial Intelligence in Education",
+        "doi": "https://doi.org/10.1016/j.caeai.2020.100002",
+        "url": "https://openalex.org/W3084223432",
+        "rank": 3,
+        "match_score": 0.2125,
+        "status": "rejected_lower_match"
+      },
+      {
+        "title": "A Survey on Explainable Artificial Intelligence (XAI): Toward Medical XAI",
+        "doi": "https://doi.org/10.1109/tnnls.2020.3027314",
+        "url": "https://openalex.org/W2958089299",
+        "rank": 2,
+        "match_score": 0.1082,
+        "status": "rejected_lower_match"
+      },
+      {
+        "title": "Explainable Artificial Intelligence (XAI): What we know and what is left to attain Trustworthy Artificial Intelligence",
+        "doi": "https://doi.org/10.1016/j.inffus.2023.101805",
+        "url": "https://openalex.org/W4366262984",
+        "rank": 4,
+        "match_score": 0.1007,
+        "status": "rejected_lower_match"
+      }
+    ],
+    "skipped_count": 1,
+    "skipped_titles": [
+      "Building dynamic capabilities for digital transformation: An ongoing process of strategic renewal"
+    ]
+  },
+  "benchmark_status": "benchmarkable"
+}

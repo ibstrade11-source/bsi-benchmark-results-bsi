@@ -1,0 +1,83 @@
+{
+  "dataset_name": "flood forecasting deep learning climate change",
+  "results": [
+    {
+      "article": {
+        "title": "Climate Adaptation with Reinforcement Learning: Experiments with Flooding and Transportation in Copenhagen",
+        "abstract": "Due to climate change the frequency and intensity of extreme rainfall events, which contribute to urban flooding, are expected to increase in many places. These floods can damage transport infrastructure and disrupt mobility, highlighting the need for cities to adapt to escalating risks. Reinforcement learning (RL) serves as a powerful tool for uncovering optimal adaptation strategies, determining how and where to deploy adaptation measures effectively, even under significant uncertainty. In this study, we leverage RL to identify the most effective timing and locations for implementing measures, aiming to reduce both direct and indirect impacts of flooding. Our framework integrates climate change projections of future rainfall events and floods, models city-wide motorized trips, and quantifies direct and indirect impacts on infrastructure and mobility. Preliminary results suggest that our RL-based approach can significantly enhance decision-making by prioritizing interventions in specific urban areas and identifying the optimal periods for their implementation. Our framework is publicly available: \\url{https://github.com/MLSM-at-DTU/floods_transport_rl}.",
+        "full_text": null,
+        "doi": null,
+        "url": "http://arxiv.org/abs/2409.18574v2",
+        "input_quality": null
+      },
+      "cells": [
+        {
+          "generator": "gemini",
+          "mode": "raw",
+          "analysis": {
+            "text": "Based on the provided abstract, here is a concise, factual analysis of the article's main claims and contributions:\n\n### **1. Core Problem & Objective**\n* **Context:** Climate change is increasing the frequency and intensity of extreme rainfall events, leading to urban flooding that damages transportation infrastructure and disrupts urban mobility.\n* **Objective:** To develop a decision-making framework using **Reinforcement Learning (RL)** to identify optimal, long-term climate adaptation strategies under uncertainty, specifically focusing on *where* (spatial allocation) and *when* (temporal deployment) to implement interventions.\n\n### **2. Main Claims**\n* **Efficacy of Reinforcement Learning:** The authors claim that RL is an effective tool for climate adaptation planning, capable of handling high levels of uncertainty to optimize the deployment of protective measures.\n* **Holistic Impact Reduction:** An effective adaptation strategy must account for and minimize both **direct impacts** (damage to physical infrastructure) and **indirect impacts** (disruptions to transportation flow and mobility).\n* **Improved Decision-Making:** Preliminary experimental results indicate that an RL-driven approach significantly improves urban planning by prioritizing critical urban zones and determining optimal timelines for intervention.\n\n### **3. Key Contributions**\n* **Integrated Multi-Domain Framework:** Proposes a novel methodology that bridges:\n  1. Climate change rainfall and flood projections.\n  2. City-wide motorized trip and mobility simulation.\n  3. Direct infrastructure damage and indirect traffic disruption modeling.\n* **Real-World Case Study:** Demonstrates and tests the framework using empirical data from the city of Copenhagen.\n* **Open Science Contribution:** The authors have made their complete framework and codebase publicly available to facilitate reproducible research and practical deployment.",
+            "source_model": "gemini-3.7-flash",
+            "generated_at": "2026-09-11T18:21:30Z",
+            "usage": null,
+            "finish_reason": null,
+            "continuation_rounds": 0
+          },
+          "metadata": {
+            "execution_time_seconds": 6.903,
+            "usage": null
+          },
+          "judge_result": null,
+          "scores": {},
+          "failed": false,
+          "status": "valid",
+          "model_id": "gemini-3.7-flash",
+          "truncated": false
+        },
+        {
+          "generator": "gemini",
+          "mode": "bsi",
+          "analysis": null,
+          "metadata": {
+            "error": "Gemini HTTP 503: {\n  \"error\": {\n    \"code\": 503,\n    \"message\": \"This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.\",\n    \"status\": \"UNAVAILABLE\"\n  }\n}\n",
+            "execution_time_seconds": 26.534
+          },
+          "judge_result": null,
+          "scores": {},
+          "failed": true,
+          "status": "failed",
+          "model_id": null,
+          "truncated": false
+        }
+      ],
+      "article_id": "hash:cdb2678ea5293cc4"
+    }
+  ],
+  "source_url": "https://github.com/ibstrade11-source/behmanesh-index-prompt/blob/main/MASTER_PROMPT_BSI_v3.4.2.md",
+  "run_metadata": {
+    "tool_version": "0.1.0",
+    "git_commit": "4611b84b11c40496a9a55179000750ad1c70c7f4",
+    "git_dirty": true,
+    "run_timestamp_utc": "2026-09-11T19:40:58Z",
+    "methodology_note": "Scores/judgements come from an independent LLM judge (see comparison/judge.py) instructed not to reuse BSI's own D1-D7/EIG vocabulary and to choose its own evaluation criteria. If no judge model is available or its response cannot be parsed, the run falls back to a simple keyword-presence heuristic -- the stored record's own 'criteria_source' field ('llm' vs 'heuristic_fallback') always says honestly which one produced a given result. Neither path is a validated measurement of analytical quality until checked against independent human judgement on a representative sample.",
+    "provider_name": null,
+    "model_version": null,
+    "temperature": null,
+    "max_tokens": null,
+    "prompt_version": "v3.4.2",
+    "framework_name": "bsi"
+  },
+  "retrieval_metadata": {
+    "retrieval_status": "accepted",
+    "retrieval_validation": {
+      "retrieval_status": "accepted",
+      "retrieval_validation": "not_required",
+      "query_type": "topic",
+      "requested_query": "flood forecasting deep learning climate change",
+      "candidate_count": 5
+    },
+    "rejected_articles": [],
+    "skipped_count": 0,
+    "skipped_titles": []
+  },
+  "benchmark_status": "benchmarkable"
+}

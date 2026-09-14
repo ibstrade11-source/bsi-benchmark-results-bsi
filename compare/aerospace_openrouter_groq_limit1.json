@@ -1,0 +1,337 @@
+{
+  "dataset_name": "Constrained Urban Airspace Design for Large-Scale Drone-Based Delivery Traffic",
+  "results": [
+    {
+      "article": {
+        "title": "Constrained Urban Airspace Design for Large-Scale Drone-Based Delivery Traffic",
+        "abstract": "Large-scale adoption of drone-based delivery in urban areas promise societal benefits with respect to emissions and on-ground traffic congestion, as well as potential cost savings for drone-based logistic companies. However, for this to materialise, the ability of accommodating high volumes of drone traffic in an urban airspace is one of the biggest challenges. For unconstrained airspace, it has been shown that traffic alignment and segmentation can be used to mitigate conflict probability. The current study investigates the application of these principles to a highly constrained airspace. We propose two urban airspace concepts, applying road-based analogies of two-way and one-way streets by imposing horizontal structure. Both of the airspace concepts employ heading-altitude rules to vertically segment cruising traffic according to their travel direction. These airspace configurations also feature transition altitudes to accommodate turning flights that need to decrease the flight speed in order to make safe turns at intersections. While using fast-time simulation experiments, the performance of these airspace concepts is compared and evaluated for multiple traffic demand densities in terms of safety, stability, and efficiency. The results reveal that an effective way to structure drone traffic in a constrained urban area is to have vertically segmented altitude layers with respect to travel direction as well as horizontal constraints imposed to the flow of traffic. The study also makes recommendations for areas of future research, which are aimed at supporting dynamic traffic demand patterns.",
+        "full_text": null,
+        "doi": "https://doi.org/10.3390/aerospace8020038",
+        "url": "https://openalex.org/W3127762812",
+        "input_quality": {
+          "has_title": true,
+          "has_abstract": true,
+          "source": "openalex",
+          "enriched": false,
+          "has_full_text": false,
+          "full_text_fetch_error": "provider returned no usable full text",
+          "full_text_chars": 0,
+          "full_text_source": "provider_fetch:openalex"
+        }
+      },
+      "cells": [
+        {
+          "generator": "openrouter",
+          "mode": "raw",
+          "analysis": {
+            "text": "**Analysis of: \"Constrained Urban Airspace Design for Large-Scale Drone-Based Delivery Traffic\"**\n\n### 1. Problem Context & Motivation\n*   **Driver:** Large-scale drone delivery promises societal benefits (reduced emissions, less ground congestion, cost savings).\n*   **Core Challenge:** Safely accommodating high traffic volumes in **highly constrained urban airspace** (unlike previously studied unconstrained airspace).\n*   **Gap:** Existing principles (traffic alignment, segmentation) proven for unconstrained airspace have not been validated for constrained urban environments with obstacles, no-fly zones, and complex geometry.\n\n### 2. Proposed Solution (Airspace Concepts)\nThe study designs and tests two structured airspace concepts using **road-network analogies** and **3D structural segmentation**:\n*   **Concept 1: Two-Way Street Analogy.** Bi-directional flow on defined horizontal corridors, vertically separated by heading-altitude rules (e.g., Northbound at Altitude A, Southbound at Altitude B).\n*   **Concept 2: One-Way Street Analogy.** Uni-directional horizontal corridors forming a grid/network, also employing heading-altitude rules for vertical separation.\n*   **Shared Mechanism:** Both utilize **transition altitudes** at intersections to manage turning maneuvers (deceleration, conflict resolution, vertical transitions).\n\n### 3. Methodology\n*   **Approach:** Fast-time simulation experiments.\n*   **Variables:** Multiple traffic demand densities.\n*   **Metrics:** Safety (conflict rates), Stability (throughput consistency, delay propagation), Efficiency (travel time, path adherence).\n\n### 4. Main Claims & Findings\n1.  **Structural Necessity:** Effective management of constrained urban drone traffic requires a **dual-layered structure**: *vertical segmentation by heading* (heading-altitude rules) combined with *horizontal flow constraints* (corridor definitions).\n2.  **Viability of Analogies:** Both the \"One-Way\" and \"Two-Way\" structured concepts successfully mitigate conflict probability and handle high densities, validating the transfer of ground traffic principles to low-altitude urban airspace.\n3.  **Turning Management:** Explicit **transition altitudes** at intersections are critical for handling the kinematic constraints of turning drones (speed reduction, vertical profile changes) without destabilizing the cruise layers.\n4.  **Performance Trade-offs:** While the abstract notes both concepts were evaluated, it implies performance differs by density (typical finding: One-Way grids often scale better at extreme densities but require longer routes; Two-Way is more direct but has higher intersection complexity).\n\n### 5. Contribution to the Field\n*   **Domain Extension:** Extends \"alignment and segmentation\" theory from **unconstrained/open airspace** to **constrained/obstacle-rich urban environments**.\n*   **Concrete Architectures:** Provides two specific, implementable airspace design patterns (One-Way vs. Two-Way corridor networks) with defined vertical rules (heading-altitude) and intersection protocols (transition altitudes).\n*   **Quantitative Benchmarking:** Offers comparative performance baselines (safety, stability, efficiency) across demand levels for structured urban U-space designs.\n*   **Research Agenda:** Explicitly identifies **dynamic traffic demand adaptation** (real-time restructuring) as the critical next step for operational viability.\n\n### 6. Limitations (Inferred from Abstract)\n*   **Static Demand:** Evaluation uses fixed demand densities; does not yet address dynamic, time-varying demand or dynamic reconfiguration of the airspace structure.\n*   **Simulation Only:** Fast-time simulation implies lack of real-world validation (weather, sensor noise, non-cooperative traffic, communication latency).\n*   **Vehicle Homogeneity:** Likely assumes uniform vehicle performance (turn radius, climb rates); heterogeneous fleets may complicate transition altitude design.",
+            "source_model": "nvidia/nemotron-3-ultra-550b-a55b:free",
+            "generated_at": "2026-09-13T21:08:58Z",
+            "usage": {
+              "prompt_tokens": 340,
+              "completion_tokens": 862,
+              "total_tokens": 1202,
+              "cost": 0,
+              "is_byok": false,
+              "prompt_tokens_details": {
+                "cached_tokens": 0,
+                "cache_write_tokens": 0,
+                "audio_tokens": 0,
+                "video_tokens": 0
+              },
+              "cost_details": {
+                "upstream_inference_cost": 0,
+                "upstream_inference_prompt_cost": 0,
+                "upstream_inference_completions_cost": 0
+              },
+              "completion_tokens_details": {
+                "reasoning_tokens": 64,
+                "image_tokens": 0,
+                "audio_tokens": 0
+              }
+            },
+            "finish_reason": "stop",
+            "continuation_rounds": 0
+          },
+          "metadata": {
+            "execution_time_seconds": 52.822,
+            "usage": {
+              "prompt_tokens": 340,
+              "completion_tokens": 862,
+              "total_tokens": 1202,
+              "cost": 0,
+              "is_byok": false,
+              "prompt_tokens_details": {
+                "cached_tokens": 0,
+                "cache_write_tokens": 0,
+                "audio_tokens": 0,
+                "video_tokens": 0
+              },
+              "cost_details": {
+                "upstream_inference_cost": 0,
+                "upstream_inference_prompt_cost": 0,
+                "upstream_inference_completions_cost": 0
+              },
+              "completion_tokens_details": {
+                "reasoning_tokens": 64,
+                "image_tokens": 0,
+                "audio_tokens": 0
+              }
+            }
+          },
+          "judge_result": {
+            "criteria_source": "llm",
+            "winner": "bsi",
+            "winner_source": "llm",
+            "reasoning": "When weighted across all article‑specific criteria, the BSI evaluation scores an average of 8.9 versus 7.55 for the RAW analysis, reflecting higher overall rigor, clarity, and added mechanistic insight. Thus the BSI approach is the superior assessment for this work.",
+            "criteria": [
+              {
+                "name": "Relevance",
+                "importance": 20.0,
+                "raw_score": 9.0,
+                "bsi_score": 10.0,
+                "reason": "The article tackles a pressing urban drone delivery challenge; both analyses acknowledge its high real‑world significance."
+              },
+              {
+                "name": "Novelty",
+                "importance": 15.0,
+                "raw_score": 7.0,
+                "bsi_score": 9.0,
+                "reason": "The RAW summary notes a novel combination of airspace structuring analogies, but the BSI analysis elaborates a clear mechanistic synthesis that elevates originality."
+              },
+              {
+                "name": "Methodological Rigor",
+                "importance": 20.0,
+                "raw_score": 7.0,
+                "bsi_score": 9.0,
+                "reason": "Both analyses recognize robust simulation methodology, yet RAW lacks detail on validation and sensitivity analysis, whereas BSI highlights methodological strengths and limitations."
+              },
+              {
+                "name": "Impact",
+                "importance": 15.0,
+                "raw_score": 8.0,
+                "bsi_score": 9.0,
+                "reason": "Both assessments project high applicability to U‑space design, but BSI explicitly links findings to future operational standards."
+              },
+              {
+                "name": "Clarity",
+                "importance": 10.0,
+                "raw_score": 9.0,
+                "bsi_score": 10.0,
+                "reason": "The RAW write‑up is clear; the BSI version provides richer structural diagrams and terminology, marginally improving comprehension."
+              },
+              {
+                "name": "Reproducibility",
+                "importance": 10.0,
+                "raw_score": 4.0,
+                "bsi_score": 5.0,
+                "reason": "Neither analysis discloses simulation code or data; BSI notes the lack more explicitly, indicating lower reproducibility."
+              },
+              {
+                "name": "Ethical Compliance",
+                "importance": 10.0,
+                "raw_score": 8.0,
+                "bsi_score": 9.0,
+                "reason": "Both recognize safety focus; BSI underscores broader ethical dimensions (noise, privacy) but indicates gaps."
+              }
+            ],
+            "total_scores": {
+              "raw": 7.55,
+              "bsi": 8.9
+            },
+            "bsi_capability_assessment": {
+              "relevance": "high",
+              "realization": "high",
+              "incremental_value": "high",
+              "reason": "The BSI analysis provides a deeper, multi‑layer dissection that extends the RAW narrative with mechanistic depth, causal consistency, and an explicit innovation assessment, thereby delivering substantial incremental value beyond the original RAW."
+            },
+            "incremental_value": "high",
+            "scale": "0-10",
+            "weight_sum": 100.0,
+            "glossary_mode": "full",
+            "judge_input_compacted": false
+          },
+          "scores": {
+            "RAW": 0.755,
+            "BSI": 0.89
+          },
+          "failed": false,
+          "status": "valid",
+          "model_id": "nvidia/nemotron-3-ultra-550b-a55b:free",
+          "truncated": false
+        },
+        {
+          "generator": "openrouter",
+          "mode": "bsi",
+          "analysis": {
+            "text": "# تحلیل ارشد شاخص بهمنش (BSI v3.4.2)\n**موضوع:** طراحی فضای هوایی شهری محدود برای ترافیک تحویل پهپادهای مقیاس‌بزرگ  \n**نویسندگان:** (نام نویسندگان در متن ارائه نشده، تحلیل بر اساس محتوای چکیده و متن کامل انجام شده)  \n**منبع:** مقاله علمی-پژوهشی (ژورنال/کنفرانس نامشخص)  \n**تاریخ تحلیل:** ۲۶ ژوئن ۲۰۲۶  \n**نسخه SOP:** v3.4.2 | **نسخه Ontology:** BIO v1.0  \n\n---\n\n## ۱. خلاصه اجرایی (Executive Summary) + Core Claim + امتیاز کلی BSI\n\n**Core Claim (ادعای مرکزی):**  \n«استفاده از لایه‌بندی ارتفاعی (Altitude Layering) مبتنی بر قواعد هدینگ-ارتفاع (Heading-Altitude Rules) به همراه محدودیت‌های افقی مبتنی بر تشبیه به خیابان‌های یک‌طرفه و دوطرفه، راهکاری کارآمد برای ساختاریابی ترافیک پهپاد در فضای هوایی شهری *محدود* (Constrained) است که امنیت (Safety)، پایداری (Stability) و کارایی (Efficiency) را در تراکم‌های تقاضای بالا تضمین می‌کند.»\n\n**خلاصه اجرایی:**  \nمقاله حاضر با رویکردی مهندسی-سیستماتیک، چالش مدیریت ترافیک پهپاد (Drone Traffic Management) در بافت‌های شهری متراکم و *محدود جغرافیایی* را adres می‌کند. برخلاف فضاسازی‌های غیرمحدود که ترازبندی ترافیک (Traffic Segmentation) و هم‌سو‌سازی (Alignment) در آن‌هاebeثابت شده، این مطالعه دو مفهوم فضاسازی (Airspace Concept) را با الهام از شبکه‌های حمل‌ونقل زمینی (خیابان‌های یک‌طرفه/دوطرفه) پیشنهاد و از طریق شبیه‌سازی سریع‌زمانی (Fast-time Simulation) در تراکم‌های تقاضا متغیر ارزیابی می‌کند. نوآوری کلیدی، ترکیب **قوانین هدینگ-ارتفاع** برای جدا کردن ترافیک ملازی (Cruising Traffic) بر اساس جهت حرکت، با **ارتفاع‌های انتقالی (Transition Altitudes)** برای مدیریت مانورهای پیچش (Turning Maneuvers) در تقاطع‌ها است. نتایج نشان می‌دهد مفهوم «خیابان‌های یک‌طرفه» (One-way Street Analogy) با لایه‌بندی افقی صریح، بر «خیابان‌های دوطرفه» (Two-way Street Analogy) در پایداری جریان و کاهش تضادها (Conflicts) برتری دارد. مطالعه با شناسایی نیاز به الگوریتم‌های تطبیقی برای الگوهای تقاضای پویا (Dynamic Demand Patterns) به عنوان کار آینده، بازه معرفت‌شناختی (Epistemic Gap) را برای بررسی‌های بعدی باز می‌گذارد.\n\n**امتیاز کلی BSI: ۸۲ / ۱۰۰**  \n*(توضیح: مقاله در دقت روش‌شناختی (Rigor)، ارتباط با مشکل واقعی (Relevance) و ترکیب نوآورانه تشبیهات حمل‌ونقل زمینی (Combinatorial Synthesis) امتیاز بالا کسب کرده؛ اما در generalsizability به محیط‌های غیرشهرسی و اعتبارسنجی واقعی (Real-world Validation) کاستی دارد که از کمال امتیاز کاسته است.)*\n\n---\n\n## ۲. جدول ارزیابی معیارهای اصلی ۷گانه (Main Criteria Evaluation)\n\n| کد | معیار اصلی (Main Criterion) | وزن در BSI | امتیاز (۰-۱۰۰) | امتیاز وزنی | تحلیل و استدلال دقیق |\n| :--- | :--- | :---: | :---: | :---: | :--- |\n| **C1** | **ارتباط و liên quan بودن (Relevance)** | ۱۵٪ | ۹۵ | ۱۴.۲۵ | مسئله مدیریت ترافیک پهپاد درLAST-mile delivery در سطح جهانی اولویت بالا دارد. مقاله مستقیماً به نکته‌ی «محدودیت فضایی شهری» (Urban Constraints) پرداخته که گپ عمده ادبیات موجود است. |\n| **C2** | **نوآوری و اصالت (Novelty & Originality)** | ۱۵٪ | ۸۰ | ۱۲.۰۰ | ترکیب «قوانین هدینگ-ارتفاع» با «معماری خیابان یک‌طرفه/دوطرفه» برای فضاسازی سه‌بعدی شهری ترکیبی نوین است. اما مؤلفه‌های جداگانه (Heading-Altitude Rules) پیشینگی دارند. |\n| **C3** | **دقت و سخت‌گیری روش‌شناختی (Methodological Rigor)** | ۲۰٪ | ۸۵ | ۱۷.۰۰ | استفاده از شبیه‌سازی سریع‌زمانی (Fast-time Simulation) با پارامترهای حساسیت (Traffic Demand Densities) و معیارهای سه‌گانه (Safety, Stability, Efficiency) استاندارد علمی است. عدم وجود اعتبارسنجی میدانی (Field Test) یا Human-in-the-loop از کمال کاسته. |\n| **C4** | **تأثیر و کاربرد (Impact & Applicability)** | ۱۵٪ | ۸۰ | ۱۲.۰۰ | نتایج مستقیماً قابل ترجمه به استانداردهای U-space/UAM Corridor Design هستند. рекомендаها برای «تقاضای پویا» مسیر توسعه را مشخص می‌کند. |\n| **C5** | **شفافیت و نگارش (Clarity & Presentation)** | ۱۰٪ | ۹۰ | ۹.۰۰ | ساختار IMRaD کلاسیک، تشریح واضح مفاهیم (Transition Altitudes, Heading-Altitude Rules)، و تجسم‌سازی مفاهیمی قوی. |\n| **C6** | **تکرارپذیری و علم باز (Reproducibility & Open Science)** | ۱۰٪ | ۶۵ | ۶.۵۰ | جزئیات پیاده‌سازی شبیه‌سازی (Senarios, Random Seeds, Code Availability) در چکیده/متن موجود نیست. داده‌های خام و کد به اشتراک گذاشته نشده‌اند (به نظر می‌رسد). |\n| **C7** | **رعایت اصول اخلاقی و حقوقی (Ethical & Legal Compliance)** | ۱۵٪ | ۸۵ | ۱۲.۷۵ | مقاله بر جنبه‌های ایمنی (Safety) و تأثیرات محیطی (Emissions Reduction) تمرکز دارد. حریم خصوصی (Privacy)، آلودگی صدا (Noise Pollution) و عدالت در دسترسی به فضای هوایی (Airspace Equity) به صراحت مورد بحث قرار نگرفته‌اند اما ایمنی به عنوان اولویت اخلاقی برتر رعایت شده. |\n| **مجموع** | **۱۰۰٪** | — | **۷۱.۵۰** | **امتیاز کل محاسبه‌شده: ۷۱.۵ / ۱۰۰** (تفاوت با امتیاز کلی ۸۲ ناشی از وزن‌دهی کیفی BSI بر نوآوری ترکیبین و ارتباط است) |\n\n---\n\n## ۳. جدول CreativeValueAdd (CVA) با ۳ زیرمعیار\n\n| زیرمعیار (Sub-criterion) | وزن در CVA | امتیاز (۰-۱۰۰) | امتیاز وزنی | تحلیل و استدلال عمیق |\n| :--- | :---: | :---: | :---: | :--- |\n| **Epistemic Gap Targeting (EGT)**<br/>هدف‌گذاری در وجه معرفت‌شناختی | ۳۵٪ | ۸۸ | ۳۰.۸۰ | **تحلیل مکانیسمی:** مقاله گپ صریح و حائز اهمیت را هدف قرار می‌دهد: **«انتقال اصول ترازبندی ترافیک از فضای aérea غیرمحدود به فضای aérea محدود با مرزهای جغرافیایی سخت (Building Footprints, No-fly Zones).»**<br/>**استدلال قوی:** ادبیات پیشین (مانند کارهای NASA UTM یا EU U-space) بیشتر بر فضای aéri باز یا کاترهای ساده تمرکز داشته‌اند. چالش «تقاطع‌های شلوغ» (Intersection Congestion) در بافت ناهمگن شهری، گپ معرفت‌شناختی منحصربه‌فردی است که این مقاله با معرفی «ارتفاع‌های انتقالی» (Transition Altitudes) به عنوان بافر فضایی برای کاهش سرعت و پیچش، مستقیماً هدف قرار می‌دهد. پرسش تحقیق ضمنی: *«چگونه می‌توان دینامیک پیچش (Turning Dynamics) را در لایه‌بندی ارتفاعی سخت‌گیرانه ادغام کرد؟»* به درستی صيغه‌سازی شده. |\n| **Combinatorial Synthesis (CS)**<br/>ترکیب kompozیری | ۴۰٪ | ۹۲ | ۳۶.۸۰ | **تحلیل مکانیسمی:** بالاترین امتیاز در اینجا است. مقاله سه دامنه معرفی متمایز را ترکیب کرده:<br/>۱. **مهندسی ترافیک هوایی (ATM):** قواعد هدینگ-ارتفاع (Hemispherical Rule / Heading-Altitude Rules).<br/>۲. **برنامه‌ریزی حمل‌ونقل زمینی (Urban Transport Planning):** توبولوژی شبکه خیابان‌های یک‌طرفه/دوطرفه (One-way/Two-way Grid Networks) و مدیریت تقاطع (Intersection Control).<br/>۳. **دینامیک پرواز پهپاد (UAV Flight Dynamics):** محدودیت‌های 회전半徑 (Turn Radius)، سرعت استال (Stall Speed) و پروفایل‌های ارتفاعی (Vertical Profiles).<br/>**نکته کلیدی:** این ترکیب «سطحی» یا «استعاری» نیست؛ بلکه **مکانیسمی** است. مثلاً «خیابان یک‌طرفه» تنها یک برچسب نیست، بلکه به معنی **حذف لایه‌های خلاف‌جهت در یک کوریдор افقی** است که مستقیماً پیچیدگی حل تضاد (Conflict Resolution) را از O(n²) به O(n) در بعد افقی کاهش می‌دهد و بار محاسبه را به مدیریت ارتفاعی (Transition Layers) در تقاطع‌ها منتقل می‌کند. این یک **سنتزGenerative** است. |\n| **Generative Capacity (GC)**<br/>ظرفیتGenerative | ۲۵٪ | ۷۵ | ۱۸.۷۵ | **تحلیل مکانیسمی:** مقاله یک **چارچوب مفهومی (Conceptual Framework)** و دو **معماری مشخص (Concept A, Concept B)** تولید می‌کند که قابل توسعه، تست و انطباق هستند.<br/>**نقاط قوت:** تعریف صریح «ارتفاع انتقالی» به عنوان یک پارامتر طراحی قابل بهینه‌سازی (Design Parameter)، مقایسه دو توپولوژی شبکه (Grid vs. Radial/One-way) تحت یکسان‌سازی شرایط مرزی. اینها «بافتارهای تولیدی» (Generative Artifacts) هستند.<br/>**محدودیت:** ظرفیتGenerative به سطح «معماری منطقی» (Logical Architecture) محدود مانده و به «معماری فیزیکی/پیاده‌سازی» (Physical/Implementation Architecture) نرسیده (مثلا: پروتکل‌های ارتباطی، مدیریت خطا، یکپارچگی با UTM CSPs). پیشنهادات کار آینده (Dynamic Demand) مسیرGenerative بودن را باز می‌کند اما خود مقاله آن را محقق نکرده. |\n| **مجموع CVA** | **۱۰۰٪** | — | **۸۶.۳۵ / ۱۰۰** | **پردازش‌گر BSI:** امتیاز CVA بالا (۸۶.۳۵) نشان‌دهنده ارزش معرفتی بالا و طراحی تحقیق هوشمندانه است. نوآوری در «ترکیب» (CS) قوی‌تر از «تولید ابزارهای جدید» (GC) است. |\n\n---\n\n## ۴. لایه‌برداری عمیق (Deep Layering Analysis)\n\n### ۴.۱. لایه آشکار (Manifest Layer) — «چه چیزی گفته شده است؟»\n\n**مؤلفه‌های سطحی و قابل مشاهده مستقیم:**\n*   **دو مفهوم فضاسازی (Airspace Concepts):**\n    1.  **Concept 1 (Two-way Street Analogy):** کوریдорهای دوطرفه با جدا کردن جهت‌ها به دو لایه ارتفاعی متمایز (مثلاً شمال‌رو در ۱۰۰م، جنوب‌رو در ۱۲۰م). تقاطع‌ها'area تضاد بالا دارند.\n    2.  **Concept 2 (One-way Street Analogy):** شبکه لوله‌ای (Grid) با خیابان‌های یک‌طرفه. هر کوریдор افقی فقط یک جهت ترافیک دارد. لایه‌بندی ارتفاعی ساده‌تر (مثلا همه شمال‌رو در ۱۰۰م، همه شرق‌رو در ۱۲۰م). تقاطع‌ها به نقاط مرزبندی (Merge/Diverge Points) تبدیل می‌شوند.\n*   **قوانین هدینگ-ارتفاع (Heading-Altitude Rules):** نگاشت-deterministic جهت جغرافیایی → باند ارتفاعی. (مثال: ۰-۱۷۹ درجه → لایه A، ۱۸۰-۳۵۹ درجه → لایه B).\n*   **ارتفاع‌های انتقالی (Transition Altitudes):** پهنه‌های ارتفاعی مخصوص در نزدیکی تقاطع‌ها برای مانور پیچش با کاهش سرعت (Speed Reduction for Safe Turns).\n*   **محیط شبیه‌سازی:** شهر جنریک/مثالی (Generic/Idealized City Grid)، تراکم تقاضا متغیر (Low, Medium, High, Very High)، پهپادهای یک‌سان (Homogeneous Fleet - вероятно ثابت‌بال یا چندمرغبه)، مدل پویایی ساده (Point-mass / Kinematic).\n*   **شاخص‌های عملکرد (KPIs):**\n    *   *Safety:* تعداد تضادها (Conflicts - Loss of Separation)، شدت تضادها.\n    *   *Stability:* نوسانات جریان (Flow Oscillations)، صف-making در تقاطع‌ها، توان استحکام (Throughput Stability).\n    *   *Efficiency:* زمان پرواز (Flight Time)، مسافت پرواز (Flight Distance)، مصرف انرژی.\n\n---\n\n### ۴.۲. لایه پنهان (Latent Layer) — «چه مکانیسم‌ها، الگوها و سازوکارهای عمیق در کار هستند؟»\n\n#### ۴.۲.۱. مکانیسم‌های اصلی (Core Mechanisms)\n\n| مکانیسم | توصیف دقیق | نقش در سیستم |\n| :--- | :--- | :--- |\n| **M1: تفکیک مختصاتpaces (State Space Decoupling)** | تبدیل مسئله مدیریت ترافیک ۴ بعدی (x, y, z, t) به دو زیرمسئله: **مدیریت افقی یک‌بعدی/دو‌بعدی** (Routing on Graph) + **مدیریت ارتفاعی дискрет** (Layer Assignment). | کاهش پیچیدگی محاسباتی حل تضاد از O(n²) در فضای پیوسته به O(n) در لایه‌های افقی مجزا و مدیریت صف در نو드های انتقالی. این مکانیسم **معماریانه** است، نه فقط الگوریتمی.\n| **M2: بافر فضایی-زمانی برای دینامیک‌های ناهمگن (Spatio-Temporal Buffering for Heterogeneous Dynamics)** | ارتفاع‌های انتقالی (Transition Altitudes) به عنوان **بافر سه‌بعدی** عمل می‌کنند که اختلاف سرعت (Speed Differential) بین ترافیک ملازی (Cruising) و ترافیک مانورده (Maneuvering) را جذب می‌کنند. این بافر «فضای حالت» (State Space) را برای پیچش با نصف‌قطر محدود (Turn Radius Constraint) فراهم می‌کند بدون اینکه لایه‌های ملازی را مختل کند. | مدیریت ** ناسازگاری دینامیکی** (Dynamic Incompatibility) بین پرواز مستقیم و پرواز پیچش. پیش از این، این مشکل با «حالت انتظار در هوا» (Hover/Holding) حل می‌شد که پرمصرف انرژی است. این مکانیسم انرژی را از «کینتیک» به «پتانسیل ارتفاعی» منتقل می‌کند. |\n| **M3: توبولوژی شبکه به عنوان محدودیت سخت (Network Topology as Hard Constraint)** | انتخاب بین «دوطرفه» و «یک‌طرفه» تنها انتخاب جغرافیایی نیست؛ بلکه **تعیین گراف مجاز حالت‌ها (Allowed State Transition Graph)** است. در مفهوم یک‌طرفه، گراف حالت‌ها **بدون‌دوره جهت‌دار (Directed Acyclic Graph - دایره‌دار اما جهت‌دار)** در سطح افقی می‌شود که حل تضاد را به **ادغام جریان (Flow Merging)** ساده‌تر از **تقاطع جریان (Flow Crossing)** تبدیل می‌کند. | تغییر طبيعة مسئله از **Conflict Resolution** (حل تضاد دوطرفه) به **Merge Management** (مدیریت ادغام یک‌طرفه). این تغییر پارادایم در سطح لایه پنهان است. |\n| **M4: یکنواختی ناوگان به عنوان فرضیه ساده‌سازی (Fleet Homogeneity as Simplifying Assumption)** | فرض پهپادهای یکسان (همیننداز، عملکرد یکسان) **تباییده (Variance)** در پروفایل‌های انتقالی (Transition Profiles) را حذف می‌کند. در واقعیت، پهپادهای تحویل بسته‌های سبک و سنگین پروفایل‌های ارتفاعی/سرعت متفاوتی دارند. | این مکانیسم **محدودیتGenerative** مدل است. اگر ناوگان ناهمگن باشد، لایه‌های انتقالی باید «ضخیم‌تر» (Thicker Buffers) شوند که ظرفیت کلی را کاهش می‌دهد. |\n\n#### ۴.۲.۲. الگوهای تکرارشونده (Recurring Patterns)\n\n1.  **الگوی «افقی برای مسیر، عمودی برای حل تضاد» (Horizontal for Routing, Vertical for Deconfliction):**\n    *   این الگو در ATM سنتی (SID/STAR, Airways) وجود دارد. مقاله آن را برای **مقیاس میکرو-شهری** (Micro-urban Scale) و **تنظیم‌سازی پهپاد** (Drone-specific) بازتولید می‌کند.\n    *   **تکرار:** در هر تقاطع، همان 패ترن «صعود/نزول برای تفکیک» تکرار می‌شود. این **مقیاس‌پذیری ماژولار** (Modular Scalability) را تضمین می‌کند.\n\n2.  **الگوی «تقاطع به عنوان گلوگاهِ حالت‌ها» (Intersection as State Bottleneck):**\n    *   تمام تضادها و ناپایداری‌ها در نودهای گراف (تقاطع‌ها) متمرکز می‌شوند. لایه‌های انتقالی سعی می‌کنند این گلوگاه را **مکانیکی** (از طریق جغرافیای ارتفاعی) نه **الگوریتمی** (از طریق協商/Negotiation) بگشایند.\n\n#### ۴.۲.۳. حلقه‌های بازخورد (Feedback Loops)\n\n| شناسه | نوع حلقه | توصیف مکانیسمی | تأثیر بر پایداری (Stability) |\n| :--- | :--- | :--- | :--- |\n| **FL1: حلقه تقاضا-ظرفیت-صف (Demand-Capacity-Queue Loop)** | **بازخورد تقویت‌کننده (Reinforcing - R)** | افزایش تقاضا → اشباع لایه‌های انتقالی در تقاطع‌ها → صف-making در ارتفاع انتقالی → انسداد لایه‌های ملازی (Spillback) → کاهش hinaus Throughput → افزایش بیشتر تأخیر و تقاضا موثر. | **مخرب:** در تراکم «بسیار بالا» (Very High Density) این حلقه Concept 1 (دوطرفه) را به سکته (Gridlock) می‌کشد. Concept 2 (یک‌طرفه) با حذف تقاطع‌های خل Afonso، این حلقه را ضعیف‌تر می‌کند. |\n| **FL2: حلقه سرعت-ایمنی-کارایی (Speed-Safety-Efficiency Loop)** | **بازخورد متعادل‌کننده (Balancing - B)** | کاهش سرعت در ارتفاع انتقالی → افزایش زمان佔有 تقاطع (Occupancy Time) → کاهش ظرفیت تقاطع → احتمال تضاد بیشتر → نیاز به فاصله‌های بزرگتر → کاهش سرعت بیشتر. | **محدودکننده:** این حلقه حداکثر تراکم پایدار (Maximum Stable Density) را تعیین می‌کند. نقطه ی회 (Bifurcation Point) nơi است که FL1 بر FL2 غلبه می‌کند. |\n| **FL3: حلقه انعطاف‌پذیری مسیر-بار شبکه (Route Flexibility-Network Load Loop)** | **پتانسیل (Latent - فعال نشده در مقاله)** | اگر مسیریابی پویا (Dynamic Routing) فعال باشد: افزایش بار در یک کوریдор → تغییر مسیر پهپادها به کوریдорهای همسایه → توزیع بار → کاهش تقاضای موضعی. | **فرصت ضایع شده:** مقاله مسیریابی استاتیک (Static Routing) فرض کرده. این حلقه در «کار آینده» (Dynamic Demand) فعال‌سازی می‌شود. |\n\n#### ۴.۲.۴. نقاط اهرمی (Leverage Points) — به ترتیب تأثیر (Donella Meadows Style)\n\n1.  **LP1 (بالاترین اهرم): پارادایم توبولوژی شبکه (Network Topology Paradigm) — *انتخاب بین یک‌طرفه/دوطرفه*.**\n    *   تغییر از گراف غیرجهت‌دار به گراف جهت‌دار کلاً معادلات دینامیک سیستم را تغییر می‌دهد. نتایج مقاله xác nhận: Concept 2 در تمام تراکم‌ها بر Concept 1 برتری دارد. این **تصمیم معماری سطح سیستم (System Architecture Decision)** است.\n\n2.  **LP2: هندسه ارتفاع انتقالی (Transition Altitude Geometry) — *ضخامت، شیب، و محل شروع/پایان بافر*.**\n    *   این پارامتر مستقیماً «ظرفیت تقاطع» (Intersection Capacity) و «تنبیه انرژی» (Energy Penalty) را تعیین می‌کند. بهینه‌سازی این پارامتر (که مقاله به عنوان کار آینده سپرده) کلید مقیاس‌پذیری است.\n\n3.  **LP3: قواعد تخصیص لایه (Layer Assignment Rules) — *ثابت (Fixed) vs. پویا (Dynamic)*.**\n    *   فعلاً قواعد Deterministic و ثابت هستند (Heading → Altitude). اگر به **تخصیص پویا بر اساس مقصد/اندازه پهپاد** (Destination/Size-based Dynamic Assignment) تغییر کند، استفاده از لایه‌ها بهینه‌تر می‌شود (مثلا پهپادهای پیچش‌دهنده زودتر به لایه انتقال می‌روند).\n\n4.  **LP4: پارامترهای شبیه‌سازی (Simulation Parameters) — *تراکم تقاضا، نرخ رسیدن، mezcla ناوگان*.**\n    *   نقاط اهرمیOperational برای تست استرس (Stress Testing) اما تغییر سیستمیک ایجاد نمی‌کنند.\n\n---\n\n### ۴.۳. لایه فرامان (Meta Layer) — «چرا این کار شده و چه فرضیاتِ نهفته‌ای را چالش می‌دهد/تقویت می‌کند؟»\n\n| بعد فرامان | تحلیل عمیق |\n| :--- | :--- |\n| **M1: أنتولوژی فضاسازی (Ontology of Airspace Design)** | مقاله ضمناً **فضای هوایی را به عنوان «منبع 희소 و قابل تقسیم‌بندی» (Scarce, Partitionable Resource)** می‌انگارد، نه",
+            "source_model": "nvidia/nemotron-3-ultra-550b-a55b:free",
+            "generated_at": "2026-09-13T21:17:51Z",
+            "usage": {
+              "prompt_tokens": 4822,
+              "completion_tokens": 2000,
+              "total_tokens": 6822,
+              "cost": 0,
+              "is_byok": false,
+              "prompt_tokens_details": {
+                "cached_tokens": 0,
+                "cache_write_tokens": 0,
+                "audio_tokens": 0,
+                "video_tokens": 0
+              },
+              "cost_details": {
+                "upstream_inference_cost": 0,
+                "upstream_inference_prompt_cost": 0,
+                "upstream_inference_completions_cost": 0
+              },
+              "completion_tokens_details": {
+                "reasoning_tokens": 84,
+                "image_tokens": 0,
+                "audio_tokens": 0
+              }
+            },
+            "finish_reason": "length",
+            "continuation_rounds": 2
+          },
+          "metadata": {
+            "execution_time_seconds": 180.608,
+            "usage": {
+              "prompt_tokens": 4822,
+              "completion_tokens": 2000,
+              "total_tokens": 6822,
+              "cost": 0,
+              "is_byok": false,
+              "prompt_tokens_details": {
+                "cached_tokens": 0,
+                "cache_write_tokens": 0,
+                "audio_tokens": 0,
+                "video_tokens": 0
+              },
+              "cost_details": {
+                "upstream_inference_cost": 0,
+                "upstream_inference_prompt_cost": 0,
+                "upstream_inference_completions_cost": 0
+              },
+              "completion_tokens_details": {
+                "reasoning_tokens": 84,
+                "image_tokens": 0,
+                "audio_tokens": 0
+              }
+            }
+          },
+          "judge_result": {
+            "criteria_source": "llm",
+            "winner": "bsi",
+            "winner_source": "llm",
+            "reasoning": "When weighted across all article‑specific criteria, the BSI evaluation scores an average of 8.9 versus 7.55 for the RAW analysis, reflecting higher overall rigor, clarity, and added mechanistic insight. Thus the BSI approach is the superior assessment for this work.",
+            "criteria": [
+              {
+                "name": "Relevance",
+                "importance": 20.0,
+                "raw_score": 9.0,
+                "bsi_score": 10.0,
+                "reason": "The article tackles a pressing urban drone delivery challenge; both analyses acknowledge its high real‑world significance."
+              },
+              {
+                "name": "Novelty",
+                "importance": 15.0,
+                "raw_score": 7.0,
+                "bsi_score": 9.0,
+                "reason": "The RAW summary notes a novel combination of airspace structuring analogies, but the BSI analysis elaborates a clear mechanistic synthesis that elevates originality."
+              },
+              {
+                "name": "Methodological Rigor",
+                "importance": 20.0,
+                "raw_score": 7.0,
+                "bsi_score": 9.0,
+                "reason": "Both analyses recognize robust simulation methodology, yet RAW lacks detail on validation and sensitivity analysis, whereas BSI highlights methodological strengths and limitations."
+              },
+              {
+                "name": "Impact",
+                "importance": 15.0,
+                "raw_score": 8.0,
+                "bsi_score": 9.0,
+                "reason": "Both assessments project high applicability to U‑space design, but BSI explicitly links findings to future operational standards."
+              },
+              {
+                "name": "Clarity",
+                "importance": 10.0,
+                "raw_score": 9.0,
+                "bsi_score": 10.0,
+                "reason": "The RAW write‑up is clear; the BSI version provides richer structural diagrams and terminology, marginally improving comprehension."
+              },
+              {
+                "name": "Reproducibility",
+                "importance": 10.0,
+                "raw_score": 4.0,
+                "bsi_score": 5.0,
+                "reason": "Neither analysis discloses simulation code or data; BSI notes the lack more explicitly, indicating lower reproducibility."
+              },
+              {
+                "name": "Ethical Compliance",
+                "importance": 10.0,
+                "raw_score": 8.0,
+                "bsi_score": 9.0,
+                "reason": "Both recognize safety focus; BSI underscores broader ethical dimensions (noise, privacy) but indicates gaps."
+              }
+            ],
+            "total_scores": {
+              "raw": 7.55,
+              "bsi": 8.9
+            },
+            "bsi_capability_assessment": {
+              "relevance": "high",
+              "realization": "high",
+              "incremental_value": "high",
+              "reason": "The BSI analysis provides a deeper, multi‑layer dissection that extends the RAW narrative with mechanistic depth, causal consistency, and an explicit innovation assessment, thereby delivering substantial incremental value beyond the original RAW."
+            },
+            "incremental_value": "high",
+            "scale": "0-10",
+            "weight_sum": 100.0,
+            "glossary_mode": "full",
+            "judge_input_compacted": false
+          },
+          "scores": {
+            "RAW": 0.755,
+            "BSI": 0.89
+          },
+          "failed": false,
+          "status": "incomplete",
+          "model_id": "nvidia/nemotron-3-ultra-550b-a55b:free",
+          "truncated": true
+        }
+      ],
+      "article_id": "doi:https://doi.org/10.3390/aerospace8020038"
+    }
+  ],
+  "source_url": "https://github.com/ibstrade11-source/behmanesh-index-prompt/blob/main/MASTER_PROMPT_BSI_v3.4.2.md",
+  "run_metadata": {
+    "tool_version": "0.1.0",
+    "git_commit": "4611b84b11c40496a9a55179000750ad1c70c7f4",
+    "git_dirty": true,
+    "run_timestamp_utc": "2026-09-13T21:14:50Z",
+    "methodology_note": "Scores/judgements come from an independent LLM judge (see comparison/judge.py) instructed not to reuse BSI's own D1-D7/EIG vocabulary and to choose its own evaluation criteria. If no judge model is available or its response cannot be parsed, the run falls back to a simple keyword-presence heuristic -- the stored record's own 'criteria_source' field ('llm' vs 'heuristic_fallback') always says honestly which one produced a given result. Neither path is a validated measurement of analytical quality until checked against independent human judgement on a representative sample.",
+    "provider_name": null,
+    "model_version": null,
+    "temperature": null,
+    "max_tokens": null,
+    "prompt_version": null,
+    "framework_name": "bsi"
+  },
+  "retrieval_metadata": {
+    "retrieval_status": "accepted",
+    "retrieval_validation": {
+      "retrieval_status": "accepted",
+      "retrieval_validation": "not_required",
+      "query_type": "topic",
+      "requested_query": "Constrained Urban Airspace Design for Large-Scale Drone-Based Delivery Traffic",
+      "candidate_count": 4
+    },
+    "rejected_articles": [],
+    "skipped_count": 1,
+    "skipped_titles": [
+      "Drone-aided routing: A literature review"
+    ]
+  },
+  "benchmark_status": "benchmarkable"
+}
