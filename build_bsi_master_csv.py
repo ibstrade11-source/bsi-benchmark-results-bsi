@@ -5,6 +5,7 @@ from pathlib import Path
 from statistics import mean, median
 
 ROOT = Path(".")
+COMPARE = ROOT / "compare"
 ALL_CSV = ROOT / "BSI_Benchmark_All_Runs.csv"
 VALID_CSV = ROOT / "BSI_Benchmark_Valid_Comparisons.csv"
 STATS_TXT = ROOT / "BSI_Benchmark_Statistics.txt"
@@ -258,7 +259,7 @@ def extract(path):
 rows = []
 
 files = sorted(
-    p for p in ROOT.rglob("*.json")
+    p for p in COMPARE.glob("*.json")
     if ".checkpoint.json" not in p.name
 )
 

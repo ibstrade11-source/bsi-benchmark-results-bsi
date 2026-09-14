@@ -180,9 +180,13 @@ def status_for(path, data, result, cells):
     if clean(data.get("benchmark_status")).lower() == "not_benchmarkable":
         return "UNJUDGED"
 
-    # A valid benchmark result requires an actual judge result.
+    # A valid benchmark result requires an actual judge result from a
+    # real LLM judge -- a heuristic_fallback judge_result also has the
+    # dict shape but is not an independent judgement, so it must not
+    # count as VALID (matches the rule already enforced by
+    # validate_and_curate_result.py and build_bsi_master_csv.py).
     judge = get_judge(cells)
-    if isinstance(judge, dict):
+    if isinstance(judge, dict) and clean(judge.get("criteria_source")).lower() == "llm":
         return "VALID"
 
     return "UNJUDGED"
@@ -201,7 +205,20 @@ def extract_scores(judge):
     if raw is not None and bsi is not None:
         delta = bsi - raw
 
-    winner = clean(judge.get("winner"))
+    # Winner is derived strictly from the numeric scores, not from the
+    # judge's own "winner" text field -- the two can disagree (the judge
+    # sometimes writes "tie" despite unequal scores, or names a winner
+    # despite equal scores), and only the numeric comparison is
+    # internally consistent across every downstream aggregate.
+    if raw is not None and bsi is not None:
+        if bsi > raw:
+            winner = "bsi"
+        elif raw > bsi:
+            winner = "raw"
+        else:
+            winner = "tie"
+    else:
+        winner = clean(judge.get("winner"))
 
     cap = judge.get("bsi_capability_assessment") or {}
 
@@ -541,7 +558,10 @@ def analysis_incremental_value(rows):
 
 
 def main():
-    paths = sorted(COMPARE.glob("*.json"))
+    paths = sorted(
+        p for p in COMPARE.glob("*.json")
+        if not p.name.endswith(".checkpoint.json")
+    )
     rows = [one_row(p) for p in paths]
 
     scientific_fields = [
