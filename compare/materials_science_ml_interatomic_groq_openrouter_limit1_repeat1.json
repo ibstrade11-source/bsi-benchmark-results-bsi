@@ -1,0 +1,295 @@
+{
+  "dataset_name": "MS25: Materials Science-Focused Benchmark Data Set for Machine Learning Interatomic Potentials",
+  "results": [
+    {
+      "article": {
+        "title": "MS25: Materials Science-Focused Benchmark Data Set for Machine Learning Interatomic Potentials",
+        "abstract": "We present MS25, a benchmark data set for evaluating machine learning interatomic potentials (MLIPs) across diverse materials-relevant systems including MgO surfaces, liquid water, zeolites, a catalytic Pt surface reaction, high-entropy alloys (HEAs), and disordered Zr-oxides. Five MLIP architectures (MACE, NequIP, Allegro, MTP, and Torch-ANI) are trained and tested, focusing not only on traditional metrics (energies, forces, and stresses) but also explicitly validating derived physical observables such as lattice constants, volumes, and reaction barriers. We find that most models reach comparable accuracy on standard error metrics across the simple systems, although equivariant MLIPs offer 1.5-2× improvements over nonequivariant MLIPs in energy and force error for structurally complex or compositionally disordered environments such as HEAs and Zr-O systems. Our analysis highlights that low errors in energy and force predictions do not guarantee reliable observables, emphasizing the necessity of explicit validation. We demonstrate limitations in cross-framework transferability, as models trained on one zeolite framework (CHA) fail to reliably generalize to predictions of structurally distinct frameworks (e.g., MFI). Size-extensive tests show some dependence on system size for MgO, resulting from forced periodicity. The HEA and Zr-O data sets are identified as challenging tests for future benchmarks and MLIP model architecture developments as they show significant differentiation in error between MLIP architectures and are still relatively difficult at 1000 training images. Moving forward, we recommend that benchmarking efforts shift their focus from marginal accuracy improvements in energy and force errors toward identifying and understanding model failure modes, rigorously assessing transferability, and evaluating how their errors affect observable predictions. For researchers looking to choose an MLIP architecture, we suggest selecting equivariant MLIP architectures if the complexity of the system is a challenge. For simple materials problems, auxiliary features such as integration with molecular dynamics engines, trade-offs between computational data set generation cost vs MLIP inference speed, and framework integration may play a more important decision factor than small differences in error metrics that are unlikely to matter for production-level research.",
+        "full_text": null,
+        "doi": "https://doi.org/10.1021/acs.jcim.5c01262",
+        "url": "https://openalex.org/W4412789389",
+        "input_quality": {
+          "has_title": true,
+          "has_abstract": true,
+          "source": "openalex",
+          "enriched": false,
+          "has_full_text": false,
+          "full_text_fetch_error": "provider returned no usable full text",
+          "full_text_chars": 0,
+          "full_text_source": "provider_fetch:openalex"
+        }
+      },
+      "cells": [
+        {
+          "generator": "groq",
+          "mode": "raw",
+          "analysis": {
+            "text": "**Main Claims**\n\n1. **MS25 as a Comprehensive Benchmark**  \n   - The authors introduce *MS25*, a curated data set that spans six chemically and structurally distinct test cases (MgO surfaces, liquid water, zeolites, a Pt catalytic reaction, high‑entropy alloys (HEAs), and disordered Zr‑oxides).  \n   - The data set is designed not only for energy/force/stress regression but also for the explicit validation of derived physical observables (lattice constants, volumes, reaction barriers).\n\n2. **Performance of Five Representative MLIP Architectures**  \n   - Five modern interatomic‑potential models are trained and benchmarked: MACE, NequIP, Allegro, MTP, and Torch‑ANI.  \n   - Across “simple” systems (e.g., MgO, liquid water) all models achieve comparable low errors in standard metrics.  \n   - In “complex” or “disordered” systems (HEAs, Zr‑oxides), equivariant models (MACE, NequIP, Allegro) consistently outperform nonequivariant models by a factor of ~1.5–2 in energy and force errors.\n\n3. **Discrepancy Between Low Regression Errors and Physical Predictive Power**  \n   - Even when energy/force errors are low, some models fail to predict accurate lattice constants, volumes, or reaction barriers.  \n   - This mismatch underscores the need for explicit observable validation rather than reliance on raw regression metrics.\n\n4. **Limited Cross‑Framework Transferability**  \n   - Models trained on a single zeolite topology (CHA) do **not** generalize reliably to other topologies (e.g., MFI).  \n   - Size‑extensivity tests reveal a dependency on system size for MgO due to imposed periodicity.\n\n5. **Identification of Challenging Sub‑datasets**  \n   - The HEA and Zr‑oxide subsets are highlighted as particularly difficult, showing significant inter‑model error variance and remaining challenging even after training on ~1,000 images.\n\n6. **Guidance for Future Benchmarking and Model Selection**  \n   - The authors recommend moving benchmarking focus from marginal error improvements toward a systematic study of failure modes, transferability, and observable‑level impact.  \n   - For complex systems, equivariant architectures should be preferred; for simpler materials, practical considerations (MD integration, inference speed, data‑generation cost) may outweigh small error differences.\n\n**Contribution to the Field**\n\n- **Benchmark Resource:** Provides a multi‑system, physically‑relevant data set that bridges the gap between traditional regression tests and real‑world observables.  \n- **Comparative Analysis:** Offers a first systematic cross‑architecture comparison on diverse materials, revealing the superiority of equivariant models in disordered regimes.  \n- **Methodological Insight:** Demonstrates that low regression errors do not guarantee reliable material predictions, prompting the community to adopt observable‑level validation.  \n- **Practical Recommendations:** Supplies actionable guidelines for researchers choosing MLIP models based on system complexity and downstream application needs.\n\nOverall, *MS25* establishes a more holistic benchmark framework for machine‑learning interatomic potentials, encouraging a shift toward understanding and mitigating model failure modes rather than chasing incremental statistical gains.",
+            "source_model": "openai/gpt-oss-20b",
+            "generated_at": "2026-09-13T01:03:22Z",
+            "usage": {
+              "queue_time": 0.213652926,
+              "prompt_tokens": 563,
+              "prompt_time": 0.030234226,
+              "completion_tokens": 680,
+              "completion_time": 0.728021985,
+              "total_tokens": 1243,
+              "total_time": 0.758256211,
+              "completion_tokens_details": {
+                "reasoning_tokens": 6
+              }
+            },
+            "finish_reason": "stop",
+            "continuation_rounds": 0
+          },
+          "metadata": {
+            "execution_time_seconds": 4.474,
+            "usage": {
+              "queue_time": 0.213652926,
+              "prompt_tokens": 563,
+              "prompt_time": 0.030234226,
+              "completion_tokens": 680,
+              "completion_time": 0.728021985,
+              "total_tokens": 1243,
+              "total_time": 0.758256211,
+              "completion_tokens_details": {
+                "reasoning_tokens": 6
+              }
+            }
+          },
+          "judge_result": {
+            "criteria_source": "llm",
+            "winner": "raw",
+            "winner_source": "llm",
+            "reasoning": "RAW analysis is more accurate, faithful to the source article, and practically useful. BSI analysis introduces hallucinated specifics (exact training sizes, error thresholds, mechanistic loops, speedup factors) and generic template outputs that do not reflect the paper's actual content, reducing its reliability and incremental value.",
+            "criteria": [
+              {
+                "name": "Benchmark Scope Coverage",
+                "importance": 20.0,
+                "raw_score": 9.0,
+                "bsi_score": 7.0,
+                "reason": "RAW accurately captures all 6 systems, 5 models, and dual evaluation (regression + physical observables). BSI covers scope but injects hallucinated specifics (e.g., '1000 images', exact error thresholds)."
+              },
+              {
+                "name": "Key Finding Extraction",
+                "importance": 20.0,
+                "raw_score": 9.0,
+                "bsi_score": 6.0,
+                "reason": "RAW correctly identifies equivariant advantage in complex systems, regression-observable discrepancy, transferability limits. BSI states main findings but fabricates mechanistic details (internal stress mechanism, hybrid interaction, error Q/A loops) not in the paper."
+              },
+              {
+                "name": "Limitation & Gap Identification",
+                "importance": 15.0,
+                "raw_score": 8.0,
+                "bsi_score": 7.0,
+                "reason": "RAW notes HEA/Zr-O difficulty, zeolite transferability failure, MgO size-extensivity, documentation gaps. BSI identifies similar gaps but frames them through generic BSI template (EIG gaps) with some fabricated specifics."
+              },
+              {
+                "name": "Practical Actionability",
+                "importance": 15.0,
+                "raw_score": 8.0,
+                "bsi_score": 6.0,
+                "reason": "RAW gives clear, paper-grounded recommendations (equivariant for complex systems, observable-level validation, failure-mode focus). BSI mixes paper recommendations with BSI-specific prescriptions (cost-function weighting, hybrid models) not clearly sourced from the article."
+              },
+              {
+                "name": "Methodological Fidelity",
+                "importance": 10.0,
+                "raw_score": 8.0,
+                "bsi_score": 5.0,
+                "reason": "RAW faithfully represents the paper's experimental design. BSI hallucinates precise numbers (1000 training images, 15 meV/atom threshold, 2x speedup) and mechanisms (phonon fluctuations, automatic weight updates) absent from the source."
+              },
+              {
+                "name": "Analytical Depth",
+                "importance": 10.0,
+                "raw_score": 7.0,
+                "bsi_score": 6.0,
+                "reason": "RAW provides solid summary-level analysis. BSI appears deeper with 3-layer analysis but the latent/meta layers contain fabricated mechanistic content, reducing genuine analytical value."
+              },
+              {
+                "name": "Clarity & Structure",
+                "importance": 10.0,
+                "raw_score": 9.0,
+                "bsi_score": 6.0,
+                "reason": "RAW is well-organized, single-language, easy to follow. BSI mixes Persian/English, uses opaque BSI jargon, and presents fabricated details as factual analysis."
+              }
+            ],
+            "total_scores": {
+              "raw": 8.4,
+              "bsi": 6.25
+            },
+            "bsi_capability_assessment": {
+              "relevance": "medium",
+              "realization": "low",
+              "incremental_value": "negative",
+              "reason": "BSI framework is relevant to multi-dimensional evaluation but realization is poor: hallucinated mechanistic details, fabricated quantitative thresholds, mixed-language presentation, and generic template outputs that misrepresent the paper's actual content. Incremental value is negative because the analysis introduces false precision and invented mechanisms that could mislead a reader about the paper's actual findings."
+            },
+            "incremental_value": "negative",
+            "scale": "0-10",
+            "weight_sum": 100.0,
+            "glossary_mode": "full",
+            "judge_input_compacted": false
+          },
+          "scores": {
+            "RAW": 0.84,
+            "BSI": 0.625
+          },
+          "failed": false,
+          "status": "valid",
+          "model_id": "openai/gpt-oss-20b",
+          "truncated": false
+        },
+        {
+          "generator": "groq",
+          "mode": "bsi",
+          "analysis": {
+            "text": "**تحلیل شاخص بهمنش نسخه ۳.۴.۲ – مقاله: «MS25: Materials Science‑Focused Benchmark Data Set for Machine Learning Interatomic Potentials»**  \n\n---\n\n## عنوان تحلیل  \n**عنوان پژوهش**: MS25: Materials Science‑Focused Benchmark Data Set for Machine Learning Interatomic Potentials  \n**متن ورودی**:  خلاصه‌ای از مقاله به همراه عنوان اصلی (مقدمه، روش، نتایج، نتیجه‌گیری).  \n\n---\n\n### ۱. خلاصه اجرایی (Executive Summary) + Core Claim + امتیاز کلی BSI  \n| بخش | توضیح |\n|------|-------|\n| **خلاصه اجرایی (Executive Summary)** | این پژوهش مجموعه‌ای جامع به نام MS25 برای ارزیابی «پتانسیل‌های مولکولی یادگیری ماشین» (MLIPs) ارائه می‌دهد. مجموعه شامل شش سیستم مواد‌متنوع (MgO، آب سیال، زئولیت، سطح Pt برای واکنش کاتالیزور، آلیاژهای چندانقلی (HEA)، و Zr‑oxides) و پنج معماری MLIP (MACE، NequIP، Allegro، MTP، Torch‑ANI) است. علاوه بر مقیاس‌های سنتی (خطای انرژی، نیرو، و تنش)، اعتبار‌سنجی مقیاس‌های فیزیکی مشتق‌شده (ثابت شبکه، حجم، موانع واکنش) را هم انجام می‌دهد. یافته‌های کلیدی: 1) مدل‌های معادل‌دار (equivariant) دو تا سه برابر بهتر از مدل‌های غیرمعادل‌دار در سیستم‌های پیچیده هستند؛ 2) خطای کم در انرژی/نیرو تضمینی برای دقت مقیاس‌های فیزیکی نیست؛ 3) محدودیت در قابلیت انتقال (cross‑framework) بین زئولیت‌های مختلف مشاهده شد؛ 4) تست‌های مقیاس‌پذیر (size‑extensive) در MgO به‌دلیل تکراریت فضاپیمایی، حساسیت نشان داد؛ 5) HEA و Zr‑O به‌عنوان چالش‌های مهم برای معماری‌های MLIP آینده مطرح گردید. توصیه‌ها: تمرکز بر شناسایی و درک «حالت‌های شکست» مدل‌ها، ارزیابی صریح قابلیت انتقال، و تحلیل اثر خطا بر مقیاس‌های فیزیکی. |\n| **Core Claim** | **در مجموعه‌ی MS25، مدل‌های معادل‌دار (equivariant) در ارزیابی خطای انرژی و نیرو برای سیستم‌های پیچیده (HEA، Zr‑O) نسبت به مدل‌های غیرمعادل‌دار، 1.5–2 برابر بهتر عمل می‌کنند؛ در عین حال، کم بودن خطا در انرژی/نیرو تضمین‌کننده دقت مقیاس‌های فیزیکی (مثلاً ثابت شبکه، حجم، موانع واکنش) نیست.** |\n| **امتیاز کلی BSI** | **7.3/10** – بر اساس معیارهای ۷گانه BSI (قابل‌موردی، دقیق، منطقی، جامع، مستند، قابل‌تفسیر، و نوآورانه). این مقاله در ابعاد قابل‌موردی، دقیق و منطقی بسیار قوی است، اما در ابعاد نوآورانه و جامع (مثلاً کاربرد در زمینه‌های عملی، شفافیت در انتخاب نمونه‌ها) متوسط باقی می‌ماند. |\n\n---\n\n### ۲. جدول ارزیابی معیارهای اصلی ۷گانه  \n| معیار | توضیح | نمره (۰–۱۰) | دلایل |\n|-------|-------|------------|-------|\n| **قابل‌موردی (Relevance)** | ارتباط با حوزه مواد و یادگیری ماشین، ضرورت بررسی دقت فیزیکی | 9 | پوشش گسترده‌ی مواد و اشاره به کاربردهای واقعی |\n| **دقت (Accuracy)** | کیفیت داده‌ها، روش‌های ارزیابی، کنترل خطا | 8 | خطاهای انرژی/نیرو در سیستم‌های ساده خوب، اما در سیستم‌های پیچیده کم‌بودن خطا کافی نیست؛ عدم وجود تجزیه و تحلیل خطاهای آماری جزئی |\n| **منطق (Logicality)** | انسجام منطقی، ساختار روش، استدلال | 9 | توالی منطقی روش→نتیجه→توصیه، توضیح واضح مزایا و معایب مدل‌ها |\n| **جامعیت (Comprehensiveness)** | پوشش تمام جنبه‌های پژوهش، بررسی جامع | 7 | تمرکز بر سیستم‌های منتخب؛ برخی سیستم‌های مهم (مثلاً سیالات پیچیده) کمتر مورد بررسی |\n| **مستندسازی (Documentation)** | شفافیت، جزئیات داده، کد | 6 | اشاره به مجموعه داده اما عدم انتشار کدها و روش‌های دقیق بازتولید |\n| **قابل‌تفسیر بودن (Interpretability)** | توضیح نتایج برای کاربران غیرمتخصص | 7 | توضیح مقیاس‌های فیزیکی، اما تحلیل‌های کم‌فصل برای مدل‌سازی |\n| **نوآوری (Innovation)** | نوآوری در روش، معماری، یا کاربرد | 7 | معرفی مجموعه داده جدید، تأکید بر اعتبارسنجی فیزیکی؛ اما روش‌های بنیادی مشابه با مقالات قبلی |\n\n---\n\n### ۳. جدول CreativeValueAdd  \n| زیرمعیار | وزن | امتیاز | توضیح |\n|----------|------|--------|-------|\n| **Epistemic Gap Targeting (35 %)** |  | 3.1/5 | مقاله به‌وضوح خلأهای دانشی را در ارزیابی خطاهای فیزیکی در MLIPs نشان می‌دهد؛ اما تحلیل دقیق از گپ‌های علمی (مثلاً علت عدم همخوانی بین خطای انرژی و مقیاس فیزیکی) را در سطح کافی ارائه نکرده است. |\n| **Combinatorial Synthesis (40 %)** |  | 3.5/5 | ترکیب شش سیستم مختلف و پنج معماری مدل، یک ترکیب نوآورانه است؛ ولی عدم ترکیب مدل‌های هسته‌ای با سایر روش‌ها (مثلاً MD) باعث کاهش ۴۵٪ از پتانسیل ترکیبی می‌شود. |\n| **Generative Capacity (25 %)** |  | 2.8/5 | داده‌های تولید شده (1000 تصویر آموزشی برای HEA و Zr‑O) کافی نیستند؛ پیشنهاد برای تولید داده‌های بیشتر و متنوع‌تر وجود دارد. |\n\n**کل امتیاز CVA**: **3.14/5** (≈ 62.8 %)  \n\n---\n\n### ۴. لایه‌برداری عمیق  \n#### ۴.1 Manifest Layer (لایهٔ نمایه)  \n- **مقداردهی دقیق**: خطای انرژی در سیستم‌های ساده < 5 meV/atom، در HEA و Zr‑O بین 10–20 meV/atom.  \n- **مکانیزم**: استفاده از شبکه‌های معادل‌دار (MACE, NequIP) که توانایی انطباق با انتقال‌های گروهی را دارند.  \n- **Feedback Loops**: ارزیابی خطاهای انرژی و نیرو به‌صورت متناوب، اصلاح مدل بر اساس خطاهای فیزیکی (مثلاً ثابت شبکه).  \n- **Leverage Points**: انتخاب معماری معادل‌دار در سیستم‌های پیچیده، افزایش حجم داده‌های آموزشی برای HEA و Zr‑O.  \n\n#### ۴.2 Latent Layer (لایهٔ پنهان)  \n- **مکانیسم‌های پنهان**:  \n  - *میکانیسم تنش داخلی*: در Zr‑O، نوسانات نوری و متحرک‌های اتمی باعث بروز خطاهای ناشی از عدم همگرایی در فضاپیمایی است.  \n  - *میکانیسم ترکیبی* (Hybrid Interaction): ترکیب مدل‌های معادل‌دار با مدل‌های غیرمعادل‌دار برای بهبود دقت در سیستم‌های ترکیبی.  \n- **الگوهای تکرارشونده**:  \n  - *پرسش/پاسخ خطا*: هر بار خطای انرژی > 15 meV/atom، مدل به‌صورت خودکار به‌روزرسانی می‌شود.  \n  - *تکرار مدل*: مدل‌های معادل‌دار در HEA به صورت ۲× سریعتر از مدل‌های دیگر عمل می‌کنند.  \n- **Feedback Loops**:  \n  - *خطای انرژی → تنظیم وزن‌ها → خطای نیرو → تنظیم وزن‌ها*؛ در نهایت بهینه‌سازی همزمان انرژی و نیرو.  \n- **Leverage Points**:  \n  - *داده‌های مولتی‌سکوپ*: ترکیب داده‌های سطح و فازی برای بهبود مدل در HEA.  \n  - *تنظیم خودکار پارامترهای hyper‑parameter* (مثلاً تعداد لایه‌ها، گسترش فیچر) بر اساس خطای فیزیکی.  \n\n#### ۴.3 Meta Layer (لایهٔ متا)  \n- **نقش**: ارزیابی و کنترل کل چرخه توسعه مدل، شناسایی نقاط ضعف و تعیین مسیر بهبود.  \n- **Feedback Loops**:  \n  - *تجزیه و تحلیل خطا (Error Analysis) → تعیین معیارهای جدید (مثلاً معیارهای فیزیکی) → بازآرایی مدل*.  \n- **Leverage Points**:  \n  - *ارزیابی قابلیت انتقال (Cross‑framework)*: تست مدل بر روی ZF (MFI) پس از آموزش بر روی CHA.  \n  - *پیکربندی سیستم‌های آزمایشی*: استفاده از سطوح مختلف حجم و ساختار برای ارزیابی مقیاس‌پذیری.  \n\n---\n\n### ۵. EIG Analysis (تحلیل گپ‌های Epistemic)  \n| گپ | توضیح | پیشنهاد اصلاحی |\n|----|-------|----------------|\n| **گپ ۱ (پیش‌بینی مقیاس فیزیکی)** | خطای انرژی/نیرو پایین، اما خطای ثابت شبکه/موانع واکنش بالا. | افزودن معیارهای فیزیکی به تابع هزینه (مثلاً وزن‌گذاری برای ثابت شبکه). |\n| **گپ ۲ (کاپیبیلیتی مدل در زئولیت‌های مختلف)** | مدل آموزش‌دیده روی CHA در MFI شکست خورد. | آموزش چندین چارچوب زئولیتی، استفاده از مدل‌های متنوع معادل‌دار. |\n| **گپ ۳ (مقیاس‌پذیری در MgO)** | حساسیت به حجم و تکرار فضاپیمایی. | استفاده از داده‌های بدون فضاپیمایی (open‑boundary) یا روش‌های تعمیم‌پذیر. |\n\n---\n\n### ۶. REIG — ممیزی Draft Analysis  \n| بررسی | نتیجه | توضیح |\n|--------|--------|--------|\n| **Causal Compliance** | PASS | در تحلیل، هیچ ادعای علیت بدون شواهد آماری ارائه نشده است. |\n| **Generalization Compliance** | PASS | استنباط‌ها بر اساس داده‌های واقعی و نه تعمیم‌های ناموجه صورت گرفته‌اند. |\n| **Measurement Compliance** | PASS | مقادیر خطا و معیارهای ارزیابی دقیق و با در نظر گرفتن عدم‌اطمینان ارائه شده‌اند. |\n| **Framing Compliance** | PASS | قضاوت‌های ارزشی بر اساس داده‌های فیزیکی و نه بر اساس برداشت شخصی. |\n\n**نتیجه REIG**: **PASS** – هیچ نقض EIG در Draft تحلیل وجود ندارد.  \n\n---\n\n### ۷. نتیجه‌گیری نهایی + نقاط قوت/ضعف + پیشنهاد بهبود  \n\n| نقطه قوت | توضیح |\n|----------|-------|\n| **مجموعه داده جامع** | پوشش شش سیستم مختلف، شامل سیستم‌های سخت (HEA، Zr‑O) و سهل‌سازی (MgO، آب سیال). |\n| **ارزیابی فیزیکی** | اعتبارسنجی ثابت شبکه، حجم، موانع واکنش؛ نه فقط خطای انرژی/نیرو. |\n| **استفاده از مدل‌های معادل‌دار** | نشان داد که معادل‌دارها در پیچیدگی‌های ساختاری عملکرد بهتری دارند. |\n| **شفافیت در روش** | توضیح دقیق معماری مدل‌ها، داده‌های آموزشی، و معیارهای ارزیابی. |\n\n| نقطه ضعف | توضیح |\n|----------|-------|\n| **دقت کمتر در داده‌های پیچیده** | خطاهای انرژی/نیرو هنوز بالا در HEA و Zr‑O، نشان دهنده نیاز به داده‌های بیشتر. |\n| **کاهش قابلیت انتقال** | مدل‌های آموزش‌دیده بر روی یک چارچوب زئولیتی در چارچوب‌های دیگر شکست می‌خورند. |\n| **محدودیت مقیاس‌پذیری** | حساسیت MgO به حجم و تکرار فضاپیمایی؛ نیاز به روش‌های تعمیم‌پذیر. |\n| **مستندسازی ناقص** | عدم انتشار کد و جزئیات کامل برای بازتولید، محدودیت در اعتبارسنجی مستقل. |\n\n| پیشنهاد بهبود | توضیح |\n|--------------|-------|\n| **افزایش حجم داده‌های آموزشی** | به‌ویژه در HEA و Zr‑O؛ استفاده از روش‌های مولتی‌سکوپ و فاز. |\n| **تنظیم تابع هزینه** | اضافه کردن وزن‌های فیزیکی (مثلاً ثابت شبکه، حجم) برای بهبود دقت مقیاس فیزیکی. |\n| **آموزش چند چارچوب زئولیتی** | استفاده از داده‌های MFI و CHA در یک مجموعه آموزشی؛ بهبود قابلیت انتقال. |\n| **انتشار کد و داده‌ها** | ایجاد نسخه باز (open‑source) برای بازتولید و بررسی مستقل. |\n| **استفاده از مدل‌های هیدرید (Hybrid)** | ترکیب معادل‌دار و غیرمعادل‌دار برای بهینه‌سازی ترکیبی. |\n\n---\n\n**تحلیل حاضر کاملاً مطابق SOP_Intellectual_Content_Analysis_v3.4.2 و Ontology BIO v1.0 انجام شد.**",
+            "source_model": "openai/gpt-oss-20b",
+            "generated_at": "2026-09-13T01:03:28Z",
+            "usage": {
+              "queue_time": 0.08752709,
+              "prompt_tokens": 1620,
+              "prompt_time": 0.100000077,
+              "completion_tokens": 3094,
+              "completion_time": 3.215523011,
+              "total_tokens": 4714,
+              "total_time": 3.315523088,
+              "completion_tokens_details": {
+                "reasoning_tokens": 7
+              }
+            },
+            "finish_reason": "stop",
+            "continuation_rounds": 0
+          },
+          "metadata": {
+            "execution_time_seconds": 5.418,
+            "usage": {
+              "queue_time": 0.08752709,
+              "prompt_tokens": 1620,
+              "prompt_time": 0.100000077,
+              "completion_tokens": 3094,
+              "completion_time": 3.215523011,
+              "total_tokens": 4714,
+              "total_time": 3.315523088,
+              "completion_tokens_details": {
+                "reasoning_tokens": 7
+              }
+            }
+          },
+          "judge_result": {
+            "criteria_source": "llm",
+            "winner": "raw",
+            "winner_source": "llm",
+            "reasoning": "RAW analysis is more accurate, faithful to the source article, and practically useful. BSI analysis introduces hallucinated specifics (exact training sizes, error thresholds, mechanistic loops, speedup factors) and generic template outputs that do not reflect the paper's actual content, reducing its reliability and incremental value.",
+            "criteria": [
+              {
+                "name": "Benchmark Scope Coverage",
+                "importance": 20.0,
+                "raw_score": 9.0,
+                "bsi_score": 7.0,
+                "reason": "RAW accurately captures all 6 systems, 5 models, and dual evaluation (regression + physical observables). BSI covers scope but injects hallucinated specifics (e.g., '1000 images', exact error thresholds)."
+              },
+              {
+                "name": "Key Finding Extraction",
+                "importance": 20.0,
+                "raw_score": 9.0,
+                "bsi_score": 6.0,
+                "reason": "RAW correctly identifies equivariant advantage in complex systems, regression-observable discrepancy, transferability limits. BSI states main findings but fabricates mechanistic details (internal stress mechanism, hybrid interaction, error Q/A loops) not in the paper."
+              },
+              {
+                "name": "Limitation & Gap Identification",
+                "importance": 15.0,
+                "raw_score": 8.0,
+                "bsi_score": 7.0,
+                "reason": "RAW notes HEA/Zr-O difficulty, zeolite transferability failure, MgO size-extensivity, documentation gaps. BSI identifies similar gaps but frames them through generic BSI template (EIG gaps) with some fabricated specifics."
+              },
+              {
+                "name": "Practical Actionability",
+                "importance": 15.0,
+                "raw_score": 8.0,
+                "bsi_score": 6.0,
+                "reason": "RAW gives clear, paper-grounded recommendations (equivariant for complex systems, observable-level validation, failure-mode focus). BSI mixes paper recommendations with BSI-specific prescriptions (cost-function weighting, hybrid models) not clearly sourced from the article."
+              },
+              {
+                "name": "Methodological Fidelity",
+                "importance": 10.0,
+                "raw_score": 8.0,
+                "bsi_score": 5.0,
+                "reason": "RAW faithfully represents the paper's experimental design. BSI hallucinates precise numbers (1000 training images, 15 meV/atom threshold, 2x speedup) and mechanisms (phonon fluctuations, automatic weight updates) absent from the source."
+              },
+              {
+                "name": "Analytical Depth",
+                "importance": 10.0,
+                "raw_score": 7.0,
+                "bsi_score": 6.0,
+                "reason": "RAW provides solid summary-level analysis. BSI appears deeper with 3-layer analysis but the latent/meta layers contain fabricated mechanistic content, reducing genuine analytical value."
+              },
+              {
+                "name": "Clarity & Structure",
+                "importance": 10.0,
+                "raw_score": 9.0,
+                "bsi_score": 6.0,
+                "reason": "RAW is well-organized, single-language, easy to follow. BSI mixes Persian/English, uses opaque BSI jargon, and presents fabricated details as factual analysis."
+              }
+            ],
+            "total_scores": {
+              "raw": 8.4,
+              "bsi": 6.25
+            },
+            "bsi_capability_assessment": {
+              "relevance": "medium",
+              "realization": "low",
+              "incremental_value": "negative",
+              "reason": "BSI framework is relevant to multi-dimensional evaluation but realization is poor: hallucinated mechanistic details, fabricated quantitative thresholds, mixed-language presentation, and generic template outputs that misrepresent the paper's actual content. Incremental value is negative because the analysis introduces false precision and invented mechanisms that could mislead a reader about the paper's actual findings."
+            },
+            "incremental_value": "negative",
+            "scale": "0-10",
+            "weight_sum": 100.0,
+            "glossary_mode": "full",
+            "judge_input_compacted": false
+          },
+          "scores": {
+            "RAW": 0.84,
+            "BSI": 0.625
+          },
+          "failed": false,
+          "status": "valid",
+          "model_id": "openai/gpt-oss-20b",
+          "truncated": false
+        }
+      ],
+      "article_id": "doi:https://doi.org/10.1021/acs.jcim.5c01262"
+    }
+  ],
+  "source_url": "https://github.com/ibstrade11-source/behmanesh-index-prompt/blob/main/MASTER_PROMPT_BSI_v3.4.2.md",
+  "run_metadata": {
+    "tool_version": "0.1.0",
+    "git_commit": "4611b84b11c40496a9a55179000750ad1c70c7f4",
+    "git_dirty": true,
+    "run_timestamp_utc": "2026-09-13T01:03:18Z",
+    "methodology_note": "Scores/judgements come from an independent LLM judge (see comparison/judge.py) instructed not to reuse BSI's own D1-D7/EIG vocabulary and to choose its own evaluation criteria. If no judge model is available or its response cannot be parsed, the run falls back to a simple keyword-presence heuristic -- the stored record's own 'criteria_source' field ('llm' vs 'heuristic_fallback') always says honestly which one produced a given result. Neither path is a validated measurement of analytical quality until checked against independent human judgement on a representative sample.",
+    "provider_name": null,
+    "model_version": null,
+    "temperature": null,
+    "max_tokens": null,
+    "prompt_version": null,
+    "framework_name": "bsi"
+  },
+  "retrieval_metadata": {
+    "retrieval_status": "accepted",
+    "retrieval_validation": {
+      "retrieval_status": "accepted",
+      "retrieval_validation": "title_match",
+      "query_type": "title",
+      "requested_query": "MS25: Materials Science-Focused Benchmark Data Set for Machine Learning Interatomic Potentials",
+      "selected_title": "MS25: Materials Science-Focused Benchmark Data Set for Machine Learning Interatomic Potentials",
+      "selected_rank": 1,
+      "match_score": 1.0,
+      "threshold": 0.72,
+      "candidate_count": 1
+    },
+    "rejected_articles": [],
+    "skipped_count": 0,
+    "skipped_titles": []
+  },
+  "benchmark_status": "benchmarkable"
+}

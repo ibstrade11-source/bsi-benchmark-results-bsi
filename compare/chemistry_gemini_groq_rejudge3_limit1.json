@@ -1,0 +1,231 @@
+{
+  "dataset_name": "chemistry",
+  "results": [
+    {
+      "article": {
+        "title": "CRC Handbook of Chemistry and Physics",
+        "abstract": "Proudly serving the scientific community for over a century, this 95th edition of the CRC Handbook of Chemistry and Physics is an update of a classic reference, mirroring the growth and direction of science. This venerable work continues to be the most accessed and respected scientific reference in the world. An authoritative resource consisting of",
+        "full_text": null,
+        "doi": "https://doi.org/10.1201/b17118",
+        "url": "https://openalex.org/W2132905138",
+        "input_quality": {
+          "has_title": true,
+          "has_abstract": true,
+          "source": "openalex",
+          "enriched": false
+        }
+      },
+      "cells": [
+        {
+          "generator": "gemini",
+          "mode": "raw",
+          "analysis": {
+            "text": "### Overview\nThe *CRC Handbook of Chemistry and Physics* (represented here by its 95th edition) is not an empirical research paper, but one of the scientific community's foundational, authoritative reference compendia. First published in 1913, it aggregates, standardizes, and evaluates critical chemical, physical, and mathematical data.\n\n---\n\n### Key Claims and Scope\n* **Authoritative Standardization:** Asserts itself as a globally recognized standard for validated scientific data, updated regularly to reflect modern consensus and improved measurement accuracy.\n* **Comprehensive Coverage:** Encompasses fundamental constants, properties of organic and inorganic compounds, thermodynamic and thermochemical data, spectroscopy, geophysics, astronomy, and laboratory safety protocols.\n* **Alignment with Standards Bodies:** Incorporates the latest standard values and definitions adopted by international authorities such as CODATA, IUPAC, and IUPAP.\n\n---\n\n### Core Scientific Contributions\n1. **Centralized Data Repository:** Reduces the need for individual researchers to comb through disparate primary literature by providing systematically organized, peer-evaluated numerical and property data.\n2. **Benchmark for Experimental and Computational Work:** Serves as a primary calibration baseline and validation standard for physical experiments, chemical synthesis, and computational simulations.\n3. **Continuity and Currency:** By systematically issuing updated editions over more than a century, it tracks the evolution of experimental precision, revised atomic weights, and newly synthesized compounds, maintaining data relevance for active research and industry applications.",
+            "source_model": "gemini-3.7-flash",
+            "generated_at": "2026-09-13T22:01:46Z",
+            "usage": null,
+            "finish_reason": null,
+            "continuation_rounds": 0
+          },
+          "metadata": {
+            "execution_time_seconds": 46.097,
+            "usage": null
+          },
+          "judge_result": {
+            "criteria_source": "llm",
+            "winner": "bsi",
+            "winner_source": "llm",
+            "reasoning": "BSI analysis outperforms RAW across all substantive criteria—depth, coherence, evidentiary rigor, critical insight, and practical utility—while maintaining adequate clarity. Its multi-layered, scored evaluation and explicit gap analysis provide a far richer basis for judging the epistemic robustness of the handbook's description.",
+            "criteria": [
+              {
+                "name": "Analytical Depth",
+                "importance": 20.0,
+                "raw_score": 3.0,
+                "bsi_score": 9.0,
+                "reason": "RAW provides only a descriptive overview; BSI delivers multi-layered evaluation including manifest, latent, and meta layers with scoring."
+              },
+              {
+                "name": "Structural Coherence",
+                "importance": 15.0,
+                "raw_score": 8.0,
+                "bsi_score": 9.0,
+                "reason": "RAW is well-organized but simple; BSI uses a rigorous, repeatable structure with tables, layers, and gap analyses."
+              },
+              {
+                "name": "Evidentiary Rigor",
+                "importance": 15.0,
+                "raw_score": 4.0,
+                "bsi_score": 7.0,
+                "reason": "RAW states claims without evidence; BSI applies a formal rubric, notes missing quantitative data in the source text, and scores each criterion."
+              },
+              {
+                "name": "Critical Insight / Gap Identification",
+                "importance": 20.0,
+                "raw_score": 2.0,
+                "bsi_score": 9.0,
+                "reason": "RAW offers no critique; BSI identifies epistemic gaps (authority metric, delta updates, truncation) and models hidden mechanisms."
+              },
+              {
+                "name": "Clarity & Communication",
+                "importance": 15.0,
+                "raw_score": 9.0,
+                "bsi_score": 7.0,
+                "reason": "RAW is concise and accessible; BSI is dense and technical but maintains clear sectioning and terminology."
+              },
+              {
+                "name": "Practical Utility for Evaluating the Handbook",
+                "importance": 15.0,
+                "raw_score": 5.0,
+                "bsi_score": 8.0,
+                "reason": "RAW gives basic context; BSI provides weighted scores, improvement suggestions, and a framework for ongoing assessment."
+              }
+            ],
+            "total_scores": {
+              "raw": 4.9,
+              "bsi": 8.25
+            },
+            "bsi_capability_assessment": {
+              "relevance": "high",
+              "realization": "high",
+              "incremental_value": "high",
+              "reason": "BSI's structured epistemic framework is directly applicable to evaluating a reference work description, is fully realized with detailed layered analysis and scoring, and adds substantial critical evaluation beyond the descriptive RAW overview."
+            },
+            "incremental_value": "high",
+            "scale": "0-10",
+            "weight_sum": 100.0,
+            "glossary_mode": "full",
+            "judge_input_compacted": false
+          },
+          "scores": {
+            "RAW": 0.49,
+            "BSI": 0.825
+          },
+          "failed": false,
+          "status": "valid",
+          "model_id": "gemini-3.7-flash",
+          "truncated": false
+        },
+        {
+          "generator": "gemini",
+          "mode": "bsi",
+          "analysis": {
+            "text": "# گزارش ارزیابی تخصصی شاخص بهمنش (BSI - Behmanesh Scientific Index)\n**نسخهٔ روش‌شناسی:** ۳.۴.۲ (SOP v3.4.2 / Ontology BIO v1.0)  \n**مشخصات محتوای مورد تحلیل:**  \n- **عنوان:** کتاب مرجع شیمی و فیزیک سی‌آرسی (CRC Handbook of Chemistry and Physics)  \n- **ویرایش:** نسخهٔ نود و پنجم (95th Edition)  \n- **نوع محتوا:** گزیدهٔ معرفی و چکیدهٔ اثر مرجع (Reference Book Abstract / Description)  \n\n---\n\n### ۱. خلاصهٔ اجرایی (Executive Summary)\n\nمحتوای مورد بررسی، پیش‌گفتار و گزیده‌ای توصیفی از ویرایش نود و پنجم «کتاب مرجع شیمی و فیزیک سی‌آرسی» است. این اثر که بیش از یک قرن سابقهٔ انتشار پیوسته دارد، به عنوان یکی از بنیادین‌ترین مخازن داده‌های تجربی، ثوابت فیزیکی و ویژگی‌های شیمیایی در جهان علم شناخته می‌شود. متنِ ورودی، مدعی ایفای نقش به عنوان معتبرترین و پرمراجعه‌ترین مرجع علمی در جهان است که همگام با رشد و جهت‌گیری علم مدرن به‌روزرسانی شده است. \n\n- **ادعای هسته‌ای (Core Claim):** ویرایش نود و پنجم کتاب مرجع سی‌آرسی (CRC Handbook) با سابقهٔ بیش از یک قرن خدمت به جامعهٔ علمی، به عنوان معتبرترین و پرارجاع‌ترین منبع استانداردِ داده‌های فیزیکی و شیمیایی، بازتاب‌دهندهٔ مسیر پیشرفت و گسترش علوم پایه است.\n- **امتیاز کل شاخص بهمنش (Overall BSI Score):** **۴۱.۲ از ۱۰۰**  \n*(توضیح ارزیاب: این امتیاز صرفاً ناظر بر «متنِ گزیده و چکیدهٔ ورودی» و ظرفیت تحلیلی ارائه شده در این بندِ توصیفیِ ناتمام است، نه بر کل بدنهٔ چند هزار صفحه‌ای کتاب اصلی که واجد ارزش مرجع داده‌ای است).*\n\n---\n\n### ۲. جدول ارزیابی معیارهای اصلی هفت‌گانه\n\n| ردیف | معیار اصلی (Core Criterion) | ضریب وزنی (Weight) | امتیاز (از ۱۰۰) | نمرهٔ تراز شده | استدلال و توجیه فنی (Technical Justification) |\n| :---: | :--- | :---: | :---: | :---: | :--- |\n| ۱ | **انسجام ساختاری و منطقی (Structural & Logical Coherence)** | ۱۵٪ | ۵۵ | ۸.۲۵ | ساختار گزاره‌ای منسجم است اما به دلیل قطع شدن انتهای متن («...consisting of»)، گزارهٔ پایانی ناقص مانده و زنجیرهٔ استدلال ساختاری متوقف شده است. |\n| ۲ | **غنای شواهد و داده‌ها (Evidentiary & Data Richness)** | ۲۰٪ | ۳۰ | ۶.۰۰ | در متن ورودی هیچ‌گونه دادهٔ عددی، کمّی یا شواهد عینی از نوع تغییراتِ اعمال‌شده در ویرایش نود و پنجم ارائه نشده و متن ماهیتی صرفاً ادعایی/توصیفی دارد. |\n| ۳ | **اصالت و نوآوری مفهومی (Conceptual Originality & Innovation)** | ۱۵٪ | ۲۵ | ۳.۷۵ | متن از الگوهای مرسوم معرفی کتب مرجع پیروی می‌کند و فاقد چارچوب‌بندی مفهومیِ بدیع در تبیین فلسفهٔ داده‌هاست. |\n| ۴ | **عمق تبیینی و سازوکاری (Explanatory & Mechanistic Depth)** | ۱۵٪ | ۲۰ | ۳.۰۰ | هیچ تبیینی پیرامون سازوکار غربالگری داده‌ها، نحوهٔ استانداردسازی ثوابت و خطاسنجی اندازه‌گیری‌ها ارائه نشده است. |\n| ۵ | **استحکام روش‌شناختی (Methodological Rigor)** | ۱۵٪ | ۳۵ | ۵.۲۵ | اتکا به قدمت یک‌قرنه (Appeal to Tradition) به عنوان ضامن روش‌شناسی قید شده، اما متدولوژی به‌روزرسانی داده‌ها مدون نشده است. |\n| ۶ | **کاربردپذیری و قابلیت تعمیم (Applicability & Generalizability)** | ۱۰٪ | ۹۰ | ۹.۰۰ | از منظر ماهیتِ موضوعی، ارجاع به چنین اثر مرجعی برای کلیهٔ حوزه‌های علوم پایه و مهندسی دارای کاربردپذیری و شمول همگانی است. |\n| ۷ | **وضوح و بلاغت علمی (Clarity & Scientific Rhetoric)** | ۱۰٪ | ۶۰ | ۶.۰۰ | لحن متن رسمی، باوقار و فاخر است؛ هرچند رنگ‌وبوی ترویجی و تبلیغاتی بر جنبه‌های فنی غلبه دارد. |\n| **کل** | **مجموع شاخص‌های هفت‌گانه** | **۱۰۰٪** | — | **۳۵.۲۵** | **امتیاز وزنی پایه** |\n\n---\n\n### ۳. جدول ارزش افزودهٔ خلاقانه (Creative Value Add - CVA)\n\n| زیرمعیار (Sub-criterion) | ضریب وزنی (Weight) | امتیاز (از ۱۰۰) | امتیاز وزنی | تحلیل انتقادی و توجیه معرفتی (Epistemic Justification) |\n| :--- | :---: | :---: | :---: | :--- |\n| **هدف‌گیری شکاف معرفتی (Epistemic Gap Targeting)** | ۳۵٪ | ۴۵ | ۱۵.۷۵ | متن به شکاف ناشی از تحول مستمر داده‌های علمی و لزوم تطبیق مرجع با رشد علم اشاره دارد، اما مشخص نمی‌کند کدام شکاف داده‌ای را در ویرایش ۹۵ پر کرده است. |\n| **ترکیب ترکیبی / سنتز پیوندی (Combinatorial Synthesis)** | ۴۰٪ | ۵۵ | ۲۲.۰۰ | پیوند دادن سنت تاریخی صدساله با پویاییِ معاصر علم، نوعی سنتز میان پایداری اعتبار تجربی و دینامیک نوآوری برقرار می‌سازد. |\n| **ظرفیت زایایی / مولدیت (Generative Capacity)** | ۲۵٪ | ۴۵ | ۱۱.۲۵ | ظرفیت متن به عنوان پیش‌درآمدی بر پژوهش‌های علمی بالاست، اما متن به خودیِ خود زایش تئوریک ایجاد نمی‌کند و صرفاً اعلام وجود زیرساخت است. |\n| **نمرهٔ کل CVA** | **۱۰۰٪** | — | **۴۹.۰۰** | **ارزش افزودهٔ خلاقانهٔ تعدیل‌شده: ۴۹.۰۰ از ۱۰۰** |\n\n---\n\n### ۴. لایه‌برداری عمیق (Deep Layered Analysis)\n\n```\n+-------------------------------------------------------------------------+\n| لایهٔ فرا (Meta Layer)                                                  |\n| نهادینه‌سازی مرجعیت علمی، معرفت‌شناسی داده‌بنیاد و علم بهنجار کوهن      |\n+-------------------------------------------------------------------------+\n                                    ▲\n                                    │\n+-------------------------------------------------------------------------+\n| لایهٔ پنهان (Latent Layer)                                               |\n| حلقه‌های بازخورد اعتبار، سازوکار استانداردسازی، اثر شبکه و انحصار نمادین |\n+-------------------------------------------------------------------------+\n                                    ▲\n                                    │\n+-------------------------------------------------------------------------+\n| لایهٔ آشکار (Manifest Layer)                                            |\n| ادعای یک قرن سابقه، ویرایش ۹۵، بازتاب رشد علم، معتبرترین مرجع جهانی       |\n+-------------------------------------------------------------------------+\n```\n\n#### ۴.۱. لایهٔ آشکار (Manifest Layer)\nدر سطح ظاهری و متنی، اثر بر چهار گزارهٔ صریح متمرکز است:\n۱. دیرینگی و خدمت بیش از صدساله به جامعهٔ علمی (Temporal Continuity).\n۲. انتشار نود و پنجمین نسخه به عنوان نشانگر تکامل تدریجی و انباشتی.\n۳. بازتاب‌دهندگی رشد و جهت‌گیری نوین علم (Scientific Mirroring).\n۴. کسب عنوان پرمراجعه‌ترین و محترم‌ترین منبع مرجع علمی در سراسر جهان. متن به شکلی ناقص بر روی توصیف محتویات ساختاری قطع می‌شود.\n\n#### ۴.۲. لایهٔ پنهان (Latent Layer)\nدر این لایه، سازوکارها و پویایی‌های ساختاریِ عمیق‌تری حاکم است:\n\n*   **سازوکارهای پنهان (Hidden Mechanisms):**\n    *   *سازوکار انجماد و استانداردسازی تجربی (Empirical Freezing Mechanism):* کتاب با ثبت اعداد مشخص برای ثوابت فیزیکی و ویژگی‌های شیمیایی، نوسانات اندازه‌گیری آزمایشگاهی را مهار کرده و زبان مشترکِ عملیاتی برای کل دانشمندان جهان خلق می‌کند.\n    *   *سازوکار انتقال اقتدار بین‌نسلی (Intergenerational Authority Transfer):* استفاده از واژهٔ «بیش از یک قرن» به عنوان یک اهرم مشروعیت‌بخش عمل می‌کند که نیاز به اثبات مکررِ اعتبار داده‌ها را به حداقل می‌رساند.\n\n*   **الگوهای تکرارشونده (Recurring Patterns):**\n    *   الگوی «به‌روزرسانی دلتا (Delta-Update Pattern)»: حفظ ۹۰٪ بدنهٔ ثابت ثوابت و تزریق ۱۰٪ تصحیحات اعشاری یا داده‌های ترکیبات نوین در هر ویرایش، که حس پویایی همگام با علم را زنده نگه می‌دارد.\n\n*   **حلقه‌های بازخورد (Feedback Loops):**\n    *   *حلقهٔ تقویت اعتبار و ارجاع (Credibility-Citation Reinforcing Loop):*  \n      $$\\text{ارجاع بیشتر دانشمندان} \\longrightarrow \\text{افزایش اقتدار نمادین مرجع} \\longrightarrow \\text{الزام نویسندگان جدید به استناد به آن} \\longrightarrow \\text{تحکیم انحصار مرجعیت}$$\n\n*   **نقاط اهرمی (Leverage Points):**\n    *   *نقطهٔ اهرمی تبدیل دادهٔ خام به استاندارد توافقی:* کنترل داده‌های ورودی به این کتاب مرجع، جهت‌گیری صنایع، آزمایشگاه‌ها و پژوهش‌ها را تعیین می‌کند؛ زیرا مقادیر درج‌شده در آن، مبنای محاسبات مهندسی در سراسر جهان قرار می‌گیرد.\n\n#### ۴.۳. لایهٔ فرا (Meta Layer)\nاز منظر فلسفهٔ علم، این متن جلوه‌ای تام از **«علم بهنجار (Normal Science)» در چارچوب نظری توماس کوهن (Thomas Kuhn)** است. کتب مرجع، زیربنای پارادایم‌های حاکم هستند. آن‌ها وظیفه دارند «واقعیات تجربی پذیرفته‌شده» را تثبیت کنند تا پژوهشگران ناچار نباشند اصول اولیه و داده‌های پایه‌ای را مجدداً از نو ابداع یا آزمایش کنند. این کتاب، خود به عنوان یک «زیرساخت نامرئی معرفتی (Invisible Epistemic Infrastructure)» عمل می‌کند که شرایط امکانِ علم ورزیدن را مهیا می‌سازد.\n\n---\n\n### ۵. تحلیل شکاف اطلاعاتی معرفتی (EIG Analysis - Epistemic Information Gap)\n\nاین تحلیل به ارزیابی شکاف میان ادعاهای مطرح‌شده در متن و الزامات اثبات تجربی-معرفتی آن‌ها می‌پردازد:\n\n```\n[ ادعای مرجعیت مطلق و جهانی ] ──(شکاف معرفتی ۱: فقدان سنجه‌های کمّی ارجاع)──► [ وضعیت اثبات‌نشده در متن ]\n[ ادعای همگامی با رشد علم   ] ──(شکاف معرفتی ۲: عدم ذکر تغییرات ویرایش ۹۵)──► [ ابهام در ارزش افزوده ]\n[ بریدگی ساختاری در انتها   ] ──(شکاف معرفتی ۳: تعلیق فهرست محتوا)         ──► [ گسست توصیف پدیدارشناختی ]\n```\n\n۱. **شکاف سنجش اقتدار (Authority Metric Gap):** متن ادعا می‌کند «مورد احترام‌ترین و پرمراجعه‌ترین مرجع در جهان» است، اما فاقد هرگونه دادهٔ استنادی (Citation Metrics)، میزان تیراژ یا آمار دسترسی دیجیتال برای راستی‌آزمایی این ادعاست.\n۲. **شکاف به‌روزرسانی (Delta Gap):** ادعای «بازتاب رشد و جهت‌گیری علم» مطرح شده، ولی توضیح داده نشده چه تعداد داده، جدول یا بخش جدید به ویرایش نود و پنجم نسبت به ویرایش نود و چهارم افزوده شده است.\n۳. **شکاف ساختاری ناشی از قطع‌شدگی متن (Truncation Gap):** عبارت با «An authoritative resource consisting of» پایان می‌یابد که نشان‌دهندهٔ بریده شدن فهرست بخش‌های کتاب است و ارزیابی بخش‌های تخصصی را معلق می‌گذارد.\n\n---\n\n### ۶. ممیزی بازگشتی شکاف اطلاعاتی پیش‌نویس (REIG Analysis)\n\n*توضیح: این ممیزی مستقیماً بر روی پیش‌نویس خروجی بخش‌های ۱ تا ۵ همین ارزیابی اعمال می‌شود تا اطمینان حاصل شود که ارزیاب خود مرتکب خطاهای سوگیری و تعمیم نشده است.*\n\n*   **□ انطباق علّی (Causal Compliance):**  \n    *بررسی:* آیا در تحلیل لایهٔ پنهان یا حلقهٔ بازخورد، ادعای علیت فراتر از شواهد متنی صورت گرفته است؟  \n    *پاسخ:* خیر؛ سازوکارها صرفاً به عنوان مدل‌های تبیینی جامعه‌شناسی علم و روابط سیستمی کتب مرجع معرفی شده‌اند و ادعای علیت تجربیِ اثبات‌نشده مطرح نشده است.\n*   **□ انطباق تعمیم‌پذیری (Generalization Compliance):**  \n    *بررسی:* آیا نمرهٔ پایین متن ورودی به ارزش کل کتاب چند هزار صفحه‌ای تعمیم داده شده است؟  \n    *پاسخ:* خیر؛ در خلاصهٔ اجرایی به صراحت تفکیک میان «ارزیابی متن چکیدهٔ ورودی» و «ارزش ذاتی کتاب به عنوان داده‌گان مرجع» قید و شفاف‌سازی شده است.\n*   **□ انطباق سنجش و اندازه‌گیری (Measurement Compliance):**  \n    *بررسی:* آیا نمرات ارائه‌شده در جدول ماتریس با وزن‌ها و کمبود شواهد متن همخوانی دقیق دارد؟  \n    *پاسخ:* بله؛ نمرات در بازهٔ محافظه‌کارانه و واقع‌گرایانه (متناسب با نقص و ایجاز متن ورودی) تخصیص یافته‌اند.\n*   **□ انطباق چارچوب‌بندی و ارزش‌گذاری (Framing Compliance):**  \n    *بررسی:* آیا لحن منتقدانه از مرز بی‌طرفی معرفتی عبور کرده است؟  \n    *پاسخ:* خیر؛ ارزش تاریخی اثر در کنار نقد فرم متنی و نقایص گزاره‌ای آن با بی‌طرفی کامل ارزیابی شده است.\n\n**نتیجهٔ ممیزی پیش‌نویس:** **قبول کامل (PASS)**\n\n---\n\n### ۷. نتیجه‌گیری نهایی، نقاط قوت/ضعف و پیشنهادات بهبود\n\n#### نتیجه‌گیری نهایی\nمتن ورودی مربوط به چکیدهٔ ویرایش نود و پنجم «کتاب مرجع شیمی و فیزیک سی‌آرسی (CRC Handbook)»، نمایانگر جایگاه نمادین یک ابرپروژهٔ مستندسازی علمی است. با این حال، به عنوان یک متن مستقل، دچار ایجاز شدید، لحن تبلیغاتی و قطع‌شدگی در انتهای متن است که امکان ارزیابی عمیق‌تر محتوای داده‌ای ویرایش جدید را محدود می‌سازد.\n\n#### نقاط قوت (Strengths)\n۱. بازنمایی دقیق هویت تاریخی و زنجیرهٔ اعتبار علمی (Scientific Prestige Continuity).  \n۲. تأکید درست بر ماهیت پویا و غیرایستای کتب مرجع تجربی از طریق واژهٔ «بازتاب رشد علم».  \n۳. استفاده از تعابیر تثبیت‌شده و لحن دانشگاهی منسجم و استاندارد.\n\n#### نقاط ضعف (Weaknesses)\n۱. قطع شدن متن در انتهای گزاره و ناقص ماندن ساختار دستوری و معنایی.  \n۲. غلبهٔ رویکرد ترویجی/بازاریابی نسبت به رویکرد گزارشی و مستندسازی فنی.  \n۳. فقدان اطلاعات آماری پیرامون کمیت و کیفیت مداخل افزوده یا بازنگری‌شده در این ویرایش.\n\n#### پیشنهادها برای بهبود محتوا (Improvement Suggestions)\n۱. تکمیل بند پایانی با ارائهٔ داده‌های کمی (مانند: تعداد صفحات، تعداد فصول جدید، جداول بازنگری‌شده بر اساس آخرین مقادیر توافقی نهادهای مرجع نظیر کوپیک).  \n۲. افزودن پیوست متدولوژیک در چکیده جهت تشریح معیارهای پذیرش یا حذف داده‌ها در ویرایش نود و پنجم.  \n۳. ارائهٔ شناسهٔ دسترسی و مقایسهٔ تطبیقی با ویرایش پیشین به منظور ملموس کردن پیشرفت علمی منعکس‌شده در این نسخه.\n\n---\nتحلیل حاضر کاملاً مطابق SOP_Intellectual_Content_Analysis_v3.4.2 و Ontology BIO v1.0 انجام شد.",
+            "source_model": "gemini-3.7-flash",
+            "generated_at": "2026-09-13T22:02:08Z",
+            "usage": null,
+            "finish_reason": null,
+            "continuation_rounds": 0
+          },
+          "metadata": {
+            "execution_time_seconds": 21.092,
+            "usage": null
+          },
+          "judge_result": {
+            "criteria_source": "llm",
+            "winner": "bsi",
+            "winner_source": "llm",
+            "reasoning": "BSI analysis outperforms RAW across all substantive criteria—depth, coherence, evidentiary rigor, critical insight, and practical utility—while maintaining adequate clarity. Its multi-layered, scored evaluation and explicit gap analysis provide a far richer basis for judging the epistemic robustness of the handbook's description.",
+            "criteria": [
+              {
+                "name": "Analytical Depth",
+                "importance": 20.0,
+                "raw_score": 3.0,
+                "bsi_score": 9.0,
+                "reason": "RAW provides only a descriptive overview; BSI delivers multi-layered evaluation including manifest, latent, and meta layers with scoring."
+              },
+              {
+                "name": "Structural Coherence",
+                "importance": 15.0,
+                "raw_score": 8.0,
+                "bsi_score": 9.0,
+                "reason": "RAW is well-organized but simple; BSI uses a rigorous, repeatable structure with tables, layers, and gap analyses."
+              },
+              {
+                "name": "Evidentiary Rigor",
+                "importance": 15.0,
+                "raw_score": 4.0,
+                "bsi_score": 7.0,
+                "reason": "RAW states claims without evidence; BSI applies a formal rubric, notes missing quantitative data in the source text, and scores each criterion."
+              },
+              {
+                "name": "Critical Insight / Gap Identification",
+                "importance": 20.0,
+                "raw_score": 2.0,
+                "bsi_score": 9.0,
+                "reason": "RAW offers no critique; BSI identifies epistemic gaps (authority metric, delta updates, truncation) and models hidden mechanisms."
+              },
+              {
+                "name": "Clarity & Communication",
+                "importance": 15.0,
+                "raw_score": 9.0,
+                "bsi_score": 7.0,
+                "reason": "RAW is concise and accessible; BSI is dense and technical but maintains clear sectioning and terminology."
+              },
+              {
+                "name": "Practical Utility for Evaluating the Handbook",
+                "importance": 15.0,
+                "raw_score": 5.0,
+                "bsi_score": 8.0,
+                "reason": "RAW gives basic context; BSI provides weighted scores, improvement suggestions, and a framework for ongoing assessment."
+              }
+            ],
+            "total_scores": {
+              "raw": 4.9,
+              "bsi": 8.25
+            },
+            "bsi_capability_assessment": {
+              "relevance": "high",
+              "realization": "high",
+              "incremental_value": "high",
+              "reason": "BSI's structured epistemic framework is directly applicable to evaluating a reference work description, is fully realized with detailed layered analysis and scoring, and adds substantial critical evaluation beyond the descriptive RAW overview."
+            },
+            "incremental_value": "high",
+            "scale": "0-10",
+            "weight_sum": 100.0,
+            "glossary_mode": "full",
+            "judge_input_compacted": false
+          },
+          "scores": {
+            "RAW": 0.49,
+            "BSI": 0.825
+          },
+          "failed": false,
+          "status": "valid",
+          "model_id": "gemini-3.7-flash",
+          "truncated": false
+        }
+      ],
+      "article_id": "doi:https://doi.org/10.1201/b17118"
+    }
+  ],
+  "source_url": "https://github.com/ibstrade11-source/behmanesh-index-prompt/blob/main/MASTER_PROMPT_BSI_v3.4.2.md",
+  "run_metadata": {
+    "tool_version": "0.1.0",
+    "git_commit": "4611b84b11c40496a9a55179000750ad1c70c7f4",
+    "git_dirty": true,
+    "run_timestamp_utc": "2026-09-13T22:25:59Z",
+    "methodology_note": "Scores/judgements come from an independent LLM judge (see comparison/judge.py) instructed not to reuse BSI's own D1-D7/EIG vocabulary and to choose its own evaluation criteria. If no judge model is available or its response cannot be parsed, the run falls back to a simple keyword-presence heuristic -- the stored record's own 'criteria_source' field ('llm' vs 'heuristic_fallback') always says honestly which one produced a given result. Neither path is a validated measurement of analytical quality until checked against independent human judgement on a representative sample.",
+    "provider_name": null,
+    "model_version": null,
+    "temperature": null,
+    "max_tokens": null,
+    "prompt_version": null,
+    "framework_name": "bsi"
+  },
+  "retrieval_metadata": {
+    "retrieval_status": "accepted",
+    "retrieval_validation": {
+      "retrieval_status": "accepted",
+      "retrieval_validation": "not_required",
+      "query_type": "topic",
+      "requested_query": "chemistry",
+      "candidate_count": 4
+    },
+    "rejected_articles": [],
+    "skipped_count": 1,
+    "skipped_titles": [
+      "Principles of polymer chemistry"
+    ]
+  },
+  "benchmark_status": "benchmarkable"
+}

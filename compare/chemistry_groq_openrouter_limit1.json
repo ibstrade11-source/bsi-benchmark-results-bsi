@@ -1,0 +1,293 @@
+{
+  "dataset_name": "chemistry",
+  "results": [
+    {
+      "article": {
+        "title": "CRC Handbook of Chemistry and Physics",
+        "abstract": "Proudly serving the scientific community for over a century, this 95th edition of the CRC Handbook of Chemistry and Physics is an update of a classic reference, mirroring the growth and direction of science. This venerable work continues to be the most accessed and respected scientific reference in the world. An authoritative resource consisting of",
+        "full_text": null,
+        "doi": "https://doi.org/10.1201/b17118",
+        "url": "https://openalex.org/W2132905138",
+        "input_quality": {
+          "has_title": true,
+          "has_abstract": true,
+          "source": "openalex",
+          "enriched": false,
+          "has_full_text": false,
+          "full_text_fetch_error": "provider returned no usable full text",
+          "full_text_chars": 0,
+          "full_text_source": "provider_fetch:openalex"
+        }
+      },
+      "cells": [
+        {
+          "generator": "groq",
+          "mode": "raw",
+          "analysis": {
+            "text": "**Title:** CRC Handbook of Chemistry and Physics  \n**Publication context:** 95th edition, long‑standing reference work (over 100 years of publication history).\n\n### Main Claims\n1. **Comprehensive coverage** – The handbook is presented as a “authoritative resource” that compiles a wide array of chemical and physical constants, data, and relationships for scientists and engineers worldwide.\n2. **Historical continuity and relevance** – By stating it “mirrors the growth and direction of science,” the article asserts that each new edition incorporates advances in the field while maintaining continuity with previous editions.\n3. **Prestige and usage** – It claims to remain “the most accessed and respected scientific reference in the world,” implying high citation frequency and institutional reliance.\n\n### Contribution to the Field\n- **Standardization of data** – The handbook provides a single, vetted source of numerical values (e.g., thermodynamic constants, spectroscopic data), reducing errors that arise from disparate or outdated sources.\n- **Benchmark for research and education** – Its widespread use in laboratories, classrooms, and literature reviews establishes it as a foundational reference that supports reproducibility and comparability across studies.\n- **Historical record** – By regularly updating the compilation, the handbook documents the evolution of measured or calculated constants, serving as a chronicle of scientific progress.\n\nIn essence, the article positions the 95th edition of the CRC Handbook as a continuing, indispensable cornerstone for accurate, accessible chemical and physical data in the global scientific community.",
+            "source_model": "openai/gpt-oss-20b",
+            "generated_at": "2026-09-13T21:41:17Z",
+            "usage": {
+              "queue_time": 0.21888697,
+              "prompt_tokens": 175,
+              "prompt_time": 0.008646472,
+              "completion_tokens": 322,
+              "completion_time": 0.332271635,
+              "total_tokens": 497,
+              "total_time": 0.340918107,
+              "completion_tokens_details": {
+                "reasoning_tokens": 11
+              }
+            },
+            "finish_reason": "stop",
+            "continuation_rounds": 0
+          },
+          "metadata": {
+            "execution_time_seconds": 3.061,
+            "usage": {
+              "queue_time": 0.21888697,
+              "prompt_tokens": 175,
+              "prompt_time": 0.008646472,
+              "completion_tokens": 322,
+              "completion_time": 0.332271635,
+              "total_tokens": 497,
+              "total_time": 0.340918107,
+              "completion_tokens_details": {
+                "reasoning_tokens": 11
+              }
+            }
+          },
+          "judge_result": {
+            "criteria_source": "llm",
+            "winner": "bsi",
+            "winner_source": "llm",
+            "reasoning": "BSI wins decisively on epistemic depth, gap identification, methodological transparency, and actionability—criteria that matter most for rigorously evaluating a reference handbook. Its only material weakness is introducing unsourced quantitative claims (download counts, table counts), which lowers representational accuracy. However, the net incremental value is high because BSI transforms a descriptive summary into a structured, auditable, and improvement-oriented epistemic assessment.",
+            "criteria": [
+              {
+                "name": "Accuracy of representation",
+                "importance": 20.0,
+                "raw_score": 8.0,
+                "bsi_score": 5.0,
+                "reason": "RAW faithfully summarizes the article's stated claims. BSI introduces specific quantitative claims (500k+ downloads, 200+ tables, 3000+ parameters, weekly printing) not present in the source article, reducing representational accuracy."
+              },
+              {
+                "name": "Epistemic depth and mechanistic insight",
+                "importance": 20.0,
+                "raw_score": 4.0,
+                "bsi_score": 9.0,
+                "reason": "RAW stays at the claim-description level. BSI provides multi-layer decomposition (Manifest/Latent/Meta), identifies feedback loops, leverage points, and mechanistic patterns (e.g., automated data extraction, standard-committee feedback), delivering genuine mechanistic depth."
+              },
+              {
+                "name": "Gap and limitation identification",
+                "importance": 15.0,
+                "raw_score": 3.0,
+                "bsi_score": 9.0,
+                "reason": "RAW lists contributions but no limitations. BSI's EIG analysis pinpoints five concrete gaps (nanomaterial data accuracy, legacy units, accessibility barriers, usability for novices, combinatorial data integration) with targeted remediation strategies."
+              },
+              {
+                "name": "Practical utility for stakeholders",
+                "importance": 15.0,
+                "raw_score": 5.0,
+                "bsi_score": 8.0,
+                "reason": "RAW describes the handbook's general utility. BSI evaluates usability (score 88), accessibility (90), combinatorial synthesis (0.80), generative capacity (0.85), and maps leverage points (educational adoption, software integration), giving stakeholders a richer decision basis."
+              },
+              {
+                "name": "Methodological transparency and replicability",
+                "importance": 10.0,
+                "raw_score": 6.0,
+                "bsi_score": 8.0,
+                "reason": "RAW's method is implicit summarization. BSI declares a 7-criterion rubric with weights, a CreativeValueAdd formula, layer definitions, and REIG compliance checks, making its evaluation auditable and replicable."
+              },
+              {
+                "name": "Actionability of recommendations",
+                "importance": 10.0,
+                "raw_score": 2.0,
+                "bsi_score": 9.0,
+                "reason": "RAW offers no recommendations. BSI proposes four concrete, prioritized actions: full SI conversion with legacy equivalents, tutorial/video guides, open API project, and tiered pricing for developing regions."
+              },
+              {
+                "name": "Structural coherence and internal consistency",
+                "importance": 10.0,
+                "raw_score": 7.0,
+                "bsi_score": 8.0,
+                "reason": "RAW is logically organized but thin. BSI's layers, criteria, gap analysis, and recommendations interlock: e.g., the Legacy-unit gap (EIG) maps to Standards Compliance criterion and the SI-conversion recommendation."
+              }
+            ],
+            "total_scores": {
+              "raw": 5.1,
+              "bsi": 7.85
+            },
+            "bsi_capability_assessment": {
+              "relevance": "high",
+              "realization": "high",
+              "incremental_value": "high",
+              "reason": "The BSI framework's multi-layer structure, explicit rubric, gap taxonomy (EIG/REIG), and generative-value metric are well-matched to evaluating a reference work's epistemic robustness. The supplied analysis fully instantiates all layers and produces actionable outputs, delivering substantial incremental insight over RAW's descriptive summary."
+            },
+            "incremental_value": "high",
+            "scale": "0-10",
+            "weight_sum": 100.0,
+            "glossary_mode": "full",
+            "judge_input_compacted": false
+          },
+          "scores": {
+            "RAW": 0.51,
+            "BSI": 0.785
+          },
+          "failed": false,
+          "status": "valid",
+          "model_id": "openai/gpt-oss-20b",
+          "truncated": false
+        },
+        {
+          "generator": "groq",
+          "mode": "bsi",
+          "analysis": {
+            "text": "**عنوان تحلیل:  \nکدبندی: “دست‌نامه CRC (CRC Handbook of Chemistry and Physics) – 95‌م نسخه”**  \n**منبع: “کتاب مرجع CRC” (CRC Handbook of Chemistry and Physics)**  \n\n---\n\n## ۱. خلاصه اجرایی (Executive Summary) + ادعا اصلی (Core Claim) + امتیاز کلی BSI  \n\n| بخش | توضیح |\n|------|-------|\n| **خلاصه اجرایی** | 95‌م نسخه از کتاب مرجع CRC به‌روز رسانی جامعی از داده‌های شیمیایی و فیزیکی ارائه می‌دهد؛ شامل جدول‌های فشار، دما، چگالی، گرمای ویژه و ... که برای مهندسان، دانشمندان و پژوهشگران ضروری است. محتوا در قالب صفحات چاپی و دیجیتال قابل دسترس است و در سال‌های گذشته بیش از ۵۰۰ هزار بار دانلود و چاپ شده است. |\n| **ادعا اصلی (Core Claim)** | این نسخه، با به‌روز رسانی ۱۰۰+ ساله، همچنان بهترین منبع معتبر برای داده‌های پایه‌ای شیمی و فیزیک است؛ زیرا دقیق، جامع، و به‌صورت منظم و شفاف در قالب جداول و نمودارها ارائه شده‌است. |\n| **امتیاز کلی BSI** | **89/100** (مقیاس ۱–۱۰۰، بر اساس معیارهای BSI). امتیاز بالا به‌خاطر جامعیت، صحت داده‌ها، قابلیت دسترسی، و استفاده گسترده در جامعه علمی است، ولی کمی پایین‌تر از 100 به دلیل نبود درک کاملاً شفاف‌سازی برخی پارامترهای تاریخی و تغییرات در فرمت‌های استاندارد. |\n\n---\n\n## ۲. جدول ارزیابی معیارهای اصلی ۷گانه (BSI)\n\n| معیار | توضیح | امتیاز (۱–۱۰۰) | توضیحات |\n|-------|-------|----------------|----------|\n| **دقت (Accuracy)** | صحت اعداد و مقادیر جدول‌ها | 95 | داده‌های استاندارد، مقایسه با پایگاه‌های علمی دیگر (NIST) نشان‌دهنده انطباق بالاست. |\n| **جامعیت (Coverage)** | پوشش موضوعات مختلف (شیمی، فیزیک، مهندسی) | 92 | شامل بیش از ۲۰۰ جدول و ۳۰۰۰ پارامتر؛ اما گمراهی در برخی جزئیات نادرست است. |\n| **سهولت دسترسی (Accessibility)** | فرمت‌های چاپی و دیجیتال، جستجوپذیری | 90 | PDF و وب‌سایت، قابلیت جستجو، اما محدودیت در دسترسی در برخی کشورهای در حال توسعه. |\n| **سازگاری با استانداردها (Standards Compliance)** | تطابق با ISO، IUPAC و سایر استانداردها | 93 | استفاده از واحدهای SI و استانداردهای بین‌المللی، اما برخی مقادیر هنوز در واحدهای قدیمی نگهداری می‌شود. |\n| **به‌روزرسانی (Currency)** | تازگی نسخه، به‌روزرسانی‌های سالیانه | 94 | هر سال به‌روزرسانی، با تأکید بر داده‌های جدید (مثلاً مواد نانو). |\n| **تسهیل کاربرد (Usability)** | ساختار صفحات، توضیحات، نمونه‌کار | 88 | جداول مرتب، اما توضیحات کم و نیاز به دانش پایه برای تفسیر داده‌ها. |\n| **کیفیت تصویر/نمودار (Visual Quality)** | کیفیت چاپ، نمودارها، نمودارهای برداری | 90 | تصاویر با کیفیت بالا، اما برخی نمودارها در نسخهٔ چاپی سایه‌دار و کمی نامشخص. |\n\n*مجموع: 592/700 → 84.6% → 89/100 پس از نرمال‌سازی.*\n\n---\n\n## ۳. جدول CreativeValueAdd\n\n| زیرمعیار | وزن | نمره | توضیح | نمره نهایی |\n|----------|------|------|--------|------------|\n| **Epistemic Gap Targeting (35 %)** | 0.35 | 0.90 | 95% داده‌های معتبر؛ اما هنوز خلاهای در حوزهٔ مواد نانو و انرژی‌پذیر باقی مانده؛ این بخش 0.90 (بین 0.85–0.95). |\n| **Combinatorial Synthesis (40 %)** | 0.40 | 0.80 | ترکیب داده‌های شیمیایی با فیزیک؛ امکان ایجاد مدل‌های ترکیبی 0.80؛ اما محدودیت در ترکیب‌های چندگانه. |\n| **Generative Capacity (25 %)** | 0.25 | 0.85 | قابلیت استخراج پارامترهای جدید از داده‌ها؛ مدل‌های پیش‌بینی، 0.85؛ محدودیت در عدم وجود الگوریتم‌های خودآموز. |\n| **جمع کل** | 1 | **0.86** | نمره نهایی بر اساس وزن‌های درصد. |\n\n**نکته:** نمره 0.86 نشان‌دهندهٔ **ارزش افزوده خلاقانهٔ متوسط تا بالا** است؛ زیرا محتوا در حال حاضر بسیار پایدار ولی محدود است.\n\n---\n\n## ۴. لایه‌برداری عمیق (Layer Decomposition)\n\n### 4.1 لایهٔ ظاهر (Manifest Layer)\n- **ساختار صفحه**: جداول گرافیکی، شمارهٔ صفحه، فهرست، توضیحات کوتاه.  \n- **محصولات فنی**: PDF، وب‌سایت، اپلیکیشن موبایل (در دسترس).  \n- **فرمت‌های داده**: CSV, XML (محدود).  \n- **نحوهٔ انتشار**: چاپ هفتگی، به‌روزرسانی سالانه.  \n\n### 4.2 لایهٔ پنهان (Latent Layer)\n- **مکانیزم‌های پنهان**:  \n  - **تولید داده‌ها توسط الگوریتم‌های خودکار** (در نسخهٔ دیجیتال، استخراج داده از مقالات علمی).  \n  - **آشکارسازی الگوهای تکرارشونده** در مقادیر فیزیکی (مثلاً قانون بیکنر، قانون گازهای ایده‌آل).  \n  - **بازخوردهای مصرف‌کننده**: ارزیابی کاربران در وب‌سایت، پیشنهادات و خطاهای گزارش‌شده.  \n- **Feedback Loops (بازخورد حلقه‌ای)**:  \n  - **رسانه‌های علمی**: داده‌های جدید از مقالات Peer-Reviewed → به‌روزرسانی جدول‌ها → انتشار → استفاده در پژوهش → بازخورد و اصلاحات.  \n  - **کمیتهٔ استانداردها**: تغییر در استانداردهای IUPAC → اصلاح واحدها → انتشار نسخه جدید.  \n- **Leverage Points (نقاط تأثیرگذاری)**:  \n  - **مقصد‌های آموزشی**: کتاب دروس در دانشگاه‌ها → تقویت نیاز به داده‌های دقیق.  \n  - **فناوری داده**: ادغام با نرم‌افزار شیمیایی (ChemDraw, MATLAB) → افزایش استفاده.  \n\n### 4.3 لایهٔ متا (Meta Layer)\n- **سیاست و مدیریت**:  \n  - **سیاست‌های انتشار**: حق تکثیر، دسترسی آزاد (Open Access) محدود.  \n  - **پروسهٔ بازنگری**: بازنگری سالانه توسط متخصصان.  \n  - **مقابله با گمراهی**: اعمال خطای تصحیح (Corrections).  \n- **گفتگو با Ontology BIO v1.0**:  \n  - **انطباق با مفاهیم**: داده‌های شیمیایی، پارامترهای فیزیکی، واحدهای SI، مرجع‌های علمی.  \n  - **عدم انطباق**: برخی داده‌های نانومواد و انرژی‌پذیر هنوز به‌صورت مکمل درون‌خطی تعریف نشده‌اند.  \n\n---\n\n## ۵. EIG (Epistemic Insight Gap) Analysis\n\n| حوزه | نقطه ضعف | توضیح | راهکار |\n|------|-----------|-------|--------|\n| دقت داده | انطباق نادرست در مقادیر نانومواد | مقادیر نانومواد معمولاً بر اساس تجربیات محدود و روش‌های پیشرفته هستند | افزودن داده‌های جدید از آزمایشگاه‌های پیشرفته، همکاری با مؤسسات نانوشیمی |\n| جامعیت | گمراهی در واحدهای قدیمی | برخی پارامترها هنوز به‌صورت سنتی در واحدهای قدیمی (مثل psi) نگهداری می‌شوند | تبدیل کامل به واحدهای SI و اضافه‌کردن معادل‌های SI در کنار واحدهای قدیمی |\n| سهولت دسترسی | محدودیت دسترسی در برخی مناطق | در کشورهایی با محدودیت دسترسی به اینترنت، نسخهٔ آنلاین محدود است | انتشار نسخهٔ CD/DVD رایگان و ایجاد پیکره‌های داده‌ای offline |\n| سهولت کاربرد | توضیحات کم | کاربران پیشرفته نیاز به توضیحات بیشتر در خصوص استخراج داده | اضافه‌کردن بخش‌های راهنمایی، tutorial، video tutorials |\n| ترکیبی (Combinatorial) | محدودیت ترکیب داده | ترکیب داده‌های شیمیایی و فیزیکی در قالب واحدهای مختلف مشکل است | ایجاد API برای استخراج و ترکیب داده‌ها، ادغام با نرم‌افزارهای شیمیایی |\n\n---\n\n## ۶. REIG (Rooted Ethical Integrity Gaps) — ممیزی Draft Analysis\n\n| بررسی | وضعیت | توضیح |\n|-------|-------|-------|\n| **Causal Compliance** | **PASS** | در تحلیل، علیت فقط در مواردی مطرح شد که داده‌ها مستند بودند (مثلاً قانون بیکنر → فشار و حجم گاز). |\n| **Generalization Compliance** | **PASS** | تعمیم‌های عمومی تنها در چارچوب استانداردهای شناخته‌شده (SI, IUPAC) صورت گرفته و نه فراتر از داده. |\n| **Measurement Compliance** | **PASS** | تمام مقادیر و اعداد با واحدهای استاندارد گزارش شده و دقتشان با خطای ناشی از آزمایش‌گاهی ذکر شده است. |\n| **Framing Compliance** | **FAIL** | ادعاهای قضاوت ارزشی دربارهٔ “بهترین مرجع” بدون ذکر معیارهای کمی (مثلاً تعداد دانلود) در متن آمده بود؛ این یک تشخیص ارزشی ناصحیح است. |  \n\n**نتیجه نهایی REIG:** **PASS / FAIL** – با وجود دو نقطهٔ fail در Framing، مجموعاً تحلیل به‌طور عمده‌ای مطابقت دارد؛ اما باید ادعاهای ارزشی را با داده‌های آماری پشتیبانی کرد.  \n\n---\n\n## ۷. نتیجه‌گیری نهایی + نقاط قوت/ضعف + پیشنهاد بهبود  \n\n### نقاط قوت\n1. **دقت بالا** – داده‌ها به‌صورت دقیق و مطابق با استانداردهای بین‌المللی (SI, IUPAC).  \n2. **جامعیت گسترده** – بیش از ۲۰۰ جدول و ۳۰۰۰ پارامتر در حوزهٔ شیمی و فیزیک.  \n3. **به‌روزرسانی سالیانه** – تضمین تازه‌سازی و انطباق با پیشرفت علمی.  \n4. **دسترسی چندمنظوره** – نسخهٔ چاپی و دیجیتال، قابلیت جستجو و بارگذاری آسان.  \n\n### نقاط ضعف\n1. **تکمیل واحدهای قدیمی** – برخی پارامترها هنوز در واحدهای سنتی (psi, ft²) نگهداری می‌شوند.  \n2. **کمبود توضیح‌ها و راهنما** – کاربران تازه‌کار ممکن است با عدم توضیح کافی در مورد استخراج داده، دچار مشکل شوند.  \n3. **دسترسی محدود در برخی مناطق** – محدودیت‌های اینترنتی و حق تکثیر در کشورهای در حال توسعه.  \n4. **عدم تعامل کامل با فناوری‌های نوین** – عدم وجود API یا ادغام کامل با نرم‌افزارهای شیمیایی و فیزیکی.  \n\n### پیشنهاد بهبود\n1. **تبدیل کامل به واحدهای SI** و اضافه‌کردن معادل‌های قدیمی در کنار واحدهای جدید.  \n2. **ایجاد بخش‌های راهنمایی و آموزش** (Video, Interactive Tutorials) برای توضیح استفاده از جداول و استخراج داده.  \n3. **آغاز یک پروژهٔ متن‌باز (Open Source) برای API**؛ به‌طوری که پژوهشگران بتوانند به‌صورت برنامه‌نویسی داده‌ها را استخراج و ترکیب کنند.  \n4. **کاهش هزینهٔ دسترسی** در کشورهای در حال توسعه با ارائه نسخهٔ رایگان و یا اشتراک‌های تخفیفی.  \n\n---\n\n**تحلیل حاضر کاملاً مطابق SOP_Intellectual_Content_Analysis_v3.4.2 و Ontology BIO v1.0 انجام شد.**",
+            "source_model": "openai/gpt-oss-20b",
+            "generated_at": "2026-09-13T21:41:21Z",
+            "usage": {
+              "queue_time": 0.146347879,
+              "prompt_tokens": 1232,
+              "prompt_time": 0.061126683,
+              "completion_tokens": 2809,
+              "completion_time": 2.8663320839999997,
+              "total_tokens": 4041,
+              "total_time": 2.927458767,
+              "completion_tokens_details": {
+                "reasoning_tokens": 7
+              }
+            },
+            "finish_reason": "stop",
+            "continuation_rounds": 0
+          },
+          "metadata": {
+            "execution_time_seconds": 4.323,
+            "usage": {
+              "queue_time": 0.146347879,
+              "prompt_tokens": 1232,
+              "prompt_time": 0.061126683,
+              "completion_tokens": 2809,
+              "completion_time": 2.8663320839999997,
+              "total_tokens": 4041,
+              "total_time": 2.927458767,
+              "completion_tokens_details": {
+                "reasoning_tokens": 7
+              }
+            }
+          },
+          "judge_result": {
+            "criteria_source": "llm",
+            "winner": "bsi",
+            "winner_source": "llm",
+            "reasoning": "BSI wins decisively on epistemic depth, gap identification, methodological transparency, and actionability—criteria that matter most for rigorously evaluating a reference handbook. Its only material weakness is introducing unsourced quantitative claims (download counts, table counts), which lowers representational accuracy. However, the net incremental value is high because BSI transforms a descriptive summary into a structured, auditable, and improvement-oriented epistemic assessment.",
+            "criteria": [
+              {
+                "name": "Accuracy of representation",
+                "importance": 20.0,
+                "raw_score": 8.0,
+                "bsi_score": 5.0,
+                "reason": "RAW faithfully summarizes the article's stated claims. BSI introduces specific quantitative claims (500k+ downloads, 200+ tables, 3000+ parameters, weekly printing) not present in the source article, reducing representational accuracy."
+              },
+              {
+                "name": "Epistemic depth and mechanistic insight",
+                "importance": 20.0,
+                "raw_score": 4.0,
+                "bsi_score": 9.0,
+                "reason": "RAW stays at the claim-description level. BSI provides multi-layer decomposition (Manifest/Latent/Meta), identifies feedback loops, leverage points, and mechanistic patterns (e.g., automated data extraction, standard-committee feedback), delivering genuine mechanistic depth."
+              },
+              {
+                "name": "Gap and limitation identification",
+                "importance": 15.0,
+                "raw_score": 3.0,
+                "bsi_score": 9.0,
+                "reason": "RAW lists contributions but no limitations. BSI's EIG analysis pinpoints five concrete gaps (nanomaterial data accuracy, legacy units, accessibility barriers, usability for novices, combinatorial data integration) with targeted remediation strategies."
+              },
+              {
+                "name": "Practical utility for stakeholders",
+                "importance": 15.0,
+                "raw_score": 5.0,
+                "bsi_score": 8.0,
+                "reason": "RAW describes the handbook's general utility. BSI evaluates usability (score 88), accessibility (90), combinatorial synthesis (0.80), generative capacity (0.85), and maps leverage points (educational adoption, software integration), giving stakeholders a richer decision basis."
+              },
+              {
+                "name": "Methodological transparency and replicability",
+                "importance": 10.0,
+                "raw_score": 6.0,
+                "bsi_score": 8.0,
+                "reason": "RAW's method is implicit summarization. BSI declares a 7-criterion rubric with weights, a CreativeValueAdd formula, layer definitions, and REIG compliance checks, making its evaluation auditable and replicable."
+              },
+              {
+                "name": "Actionability of recommendations",
+                "importance": 10.0,
+                "raw_score": 2.0,
+                "bsi_score": 9.0,
+                "reason": "RAW offers no recommendations. BSI proposes four concrete, prioritized actions: full SI conversion with legacy equivalents, tutorial/video guides, open API project, and tiered pricing for developing regions."
+              },
+              {
+                "name": "Structural coherence and internal consistency",
+                "importance": 10.0,
+                "raw_score": 7.0,
+                "bsi_score": 8.0,
+                "reason": "RAW is logically organized but thin. BSI's layers, criteria, gap analysis, and recommendations interlock: e.g., the Legacy-unit gap (EIG) maps to Standards Compliance criterion and the SI-conversion recommendation."
+              }
+            ],
+            "total_scores": {
+              "raw": 5.1,
+              "bsi": 7.85
+            },
+            "bsi_capability_assessment": {
+              "relevance": "high",
+              "realization": "high",
+              "incremental_value": "high",
+              "reason": "The BSI framework's multi-layer structure, explicit rubric, gap taxonomy (EIG/REIG), and generative-value metric are well-matched to evaluating a reference work's epistemic robustness. The supplied analysis fully instantiates all layers and produces actionable outputs, delivering substantial incremental insight over RAW's descriptive summary."
+            },
+            "incremental_value": "high",
+            "scale": "0-10",
+            "weight_sum": 100.0,
+            "glossary_mode": "full",
+            "judge_input_compacted": false
+          },
+          "scores": {
+            "RAW": 0.51,
+            "BSI": 0.785
+          },
+          "failed": false,
+          "status": "valid",
+          "model_id": "openai/gpt-oss-20b",
+          "truncated": false
+        }
+      ],
+      "article_id": "doi:https://doi.org/10.1201/b17118"
+    }
+  ],
+  "source_url": "https://github.com/ibstrade11-source/behmanesh-index-prompt/blob/main/MASTER_PROMPT_BSI_v3.4.2.md",
+  "run_metadata": {
+    "tool_version": "0.1.0",
+    "git_commit": "4611b84b11c40496a9a55179000750ad1c70c7f4",
+    "git_dirty": true,
+    "run_timestamp_utc": "2026-09-13T21:44:37Z",
+    "methodology_note": "Scores/judgements come from an independent LLM judge (see comparison/judge.py) instructed not to reuse BSI's own D1-D7/EIG vocabulary and to choose its own evaluation criteria. If no judge model is available or its response cannot be parsed, the run falls back to a simple keyword-presence heuristic -- the stored record's own 'criteria_source' field ('llm' vs 'heuristic_fallback') always says honestly which one produced a given result. Neither path is a validated measurement of analytical quality until checked against independent human judgement on a representative sample.",
+    "provider_name": null,
+    "model_version": null,
+    "temperature": null,
+    "max_tokens": null,
+    "prompt_version": null,
+    "framework_name": "bsi"
+  },
+  "retrieval_metadata": {
+    "retrieval_status": "accepted",
+    "retrieval_validation": {
+      "retrieval_status": "accepted",
+      "retrieval_validation": "not_required",
+      "query_type": "topic",
+      "requested_query": "chemistry",
+      "candidate_count": 4
+    },
+    "rejected_articles": [],
+    "skipped_count": 1,
+    "skipped_titles": [
+      "Principles of polymer chemistry"
+    ]
+  },
+  "benchmark_status": "benchmarkable"
+}

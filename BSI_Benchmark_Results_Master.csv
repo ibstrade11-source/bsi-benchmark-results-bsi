@@ -1,0 +1,2 @@
+﻿run_file,domain,article_title,article_id,doi,analyst_generator,judge,provider,RAW_score,BSI_score,Delta_BSI_minus_RAW,winner,status
+compare/econ_run8.json,,Evaluating the Economic Feasibility of Labor Replacement Through Robotics and Automation in Qatar,,10.9790/5933-1604035664,groq,openrouter,arxiv,6.5,8.3,1.8,BSI,

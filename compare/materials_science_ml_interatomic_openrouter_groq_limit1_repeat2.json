@@ -1,0 +1,311 @@
+{
+  "dataset_name": "MS25: Materials Science-Focused Benchmark Data Set for Machine Learning Interatomic Potentials",
+  "results": [
+    {
+      "article": {
+        "title": "MS25: Materials Science-Focused Benchmark Data Set for Machine Learning Interatomic Potentials",
+        "abstract": "We present MS25, a benchmark data set for evaluating machine learning interatomic potentials (MLIPs) across diverse materials-relevant systems including MgO surfaces, liquid water, zeolites, a catalytic Pt surface reaction, high-entropy alloys (HEAs), and disordered Zr-oxides. Five MLIP architectures (MACE, NequIP, Allegro, MTP, and Torch-ANI) are trained and tested, focusing not only on traditional metrics (energies, forces, and stresses) but also explicitly validating derived physical observables such as lattice constants, volumes, and reaction barriers. We find that most models reach comparable accuracy on standard error metrics across the simple systems, although equivariant MLIPs offer 1.5-2× improvements over nonequivariant MLIPs in energy and force error for structurally complex or compositionally disordered environments such as HEAs and Zr-O systems. Our analysis highlights that low errors in energy and force predictions do not guarantee reliable observables, emphasizing the necessity of explicit validation. We demonstrate limitations in cross-framework transferability, as models trained on one zeolite framework (CHA) fail to reliably generalize to predictions of structurally distinct frameworks (e.g., MFI). Size-extensive tests show some dependence on system size for MgO, resulting from forced periodicity. The HEA and Zr-O data sets are identified as challenging tests for future benchmarks and MLIP model architecture developments as they show significant differentiation in error between MLIP architectures and are still relatively difficult at 1000 training images. Moving forward, we recommend that benchmarking efforts shift their focus from marginal accuracy improvements in energy and force errors toward identifying and understanding model failure modes, rigorously assessing transferability, and evaluating how their errors affect observable predictions. For researchers looking to choose an MLIP architecture, we suggest selecting equivariant MLIP architectures if the complexity of the system is a challenge. For simple materials problems, auxiliary features such as integration with molecular dynamics engines, trade-offs between computational data set generation cost vs MLIP inference speed, and framework integration may play a more important decision factor than small differences in error metrics that are unlikely to matter for production-level research.",
+        "full_text": null,
+        "doi": "https://doi.org/10.1021/acs.jcim.5c01262",
+        "url": "https://openalex.org/W4412789389",
+        "input_quality": {
+          "has_title": true,
+          "has_abstract": true,
+          "source": "openalex",
+          "enriched": false,
+          "has_full_text": false,
+          "full_text_fetch_error": "provider returned no usable full text",
+          "full_text_chars": 0,
+          "full_text_source": "provider_fetch:openalex"
+        }
+      },
+      "cells": [
+        {
+          "generator": "openrouter",
+          "mode": "raw",
+          "analysis": {
+            "text": "### **Analysis of \"MS25: Materials Science-Focused Benchmark Data Set for Machine Learning Interatomic Potentials\"**\n\n#### **1. Core Contribution**\nThe paper introduces **MS25**, a comprehensive benchmark dataset designed to evaluate Machine Learning Interatomic Potentials (MLIPs) across **seven diverse, materials-relevant systems**:\n*   MgO surfaces\n*   Liquid water\n*   Zeolites (CHA, MFI frameworks)\n*   Catalytic Pt surface reaction\n*   High-Entropy Alloys (HEAs)\n*   Disordered Zr-oxides\n\nIt provides a standardized evaluation of **five distinct MLIP architectures** (MACE, NequIP, Allegro, MTP, Torch-ANI), moving beyond standard error metrics to validate **derived physical observables** (lattice constants, volumes, reaction barriers).\n\n---\n\n#### **2. Main Empirical Findings**\n\n| Finding | Details |\n| :--- | :--- |\n| **Equivariant vs. Non-Equivariant Performance** | Equivariant models (MACE, NequIP, Allegro) achieve **1.5–2× lower energy/force errors** than non-equivariant models (MTP, Torch-ANI) on structurally complex or compositionally disordered systems (HEAs, Zr-O). On simple systems, performance converges. |\n| **Energy/Force Errors ≠ Observable Reliability** | Low MAE/RMSE on energies and forces **does not guarantee** accurate prediction of physical observables (e.g., lattice constants, reaction barriers). Explicit validation of target properties is necessary. |\n| **Transferability Limits** | Models trained on one zeolite framework (CHA) **fail to generalize** to structurally distinct frameworks (MFI), highlighting poor cross-framework transferability. |\n| **Size-Extensivity Issues** | MgO surface tests reveal a **system-size dependence** in errors attributed to enforced periodicity in the model architecture/training setup. |\n| **Identified \"Hard\" Benchmarks** | **HEA and Zr-O datasets** are the most discriminating benchmarks: they show the largest architecture-dependent error spread and remain challenging even at 1,000 training structures. |\n\n---\n\n#### **3. Strategic Recommendations**\n\n**For the Field (Benchmarking Paradigm Shift):**\n*   Shift focus from **marginal reductions in energy/force MAE** toward:\n    1.  Identifying and understanding **model failure modes**.\n    2.  Rigorous **transferability assessment** (out-of-distribution generalization).\n    3.  Quantifying how errors propagate to **target observables**.\n\n**For Practitioners (Architecture Selection):**\n*   **Complex/Disordered Systems (HEAs, oxides, catalysts):** **Choose equivariant architectures** (MACE, NequIP, Allegro) for superior accuracy and robustness.\n*   **Simple Systems (bulk crystals, simple liquids):** Architecture choice matters less for accuracy. Prioritize **engineering factors**: MD engine integration, inference speed, data generation cost, and software ecosystem compatibility.\n\n---\n\n#### **4. Significance**\nMS25 addresses a critical gap in MLIP development: the reliance on atomistic error metrics (forces/energies) that poorly correlate with **materials science utility** (phase stability, reaction kinetics, mechanical properties). By establishing disordered/complex systems (HEA, Zr-O) as standard \"stress tests\" and mandating observable-level validation, the work sets a new, more rigorous standard for model evaluation and selection.",
+            "source_model": "nvidia/nemotron-3-ultra-550b-a55b:free",
+            "generated_at": "2026-09-13T01:09:46Z",
+            "usage": {
+              "prompt_tokens": 516,
+              "completion_tokens": 801,
+              "total_tokens": 1317,
+              "cost": 0,
+              "is_byok": false,
+              "prompt_tokens_details": {
+                "cached_tokens": 0,
+                "cache_write_tokens": 0,
+                "audio_tokens": 0,
+                "video_tokens": 0
+              },
+              "cost_details": {
+                "upstream_inference_cost": 0,
+                "upstream_inference_prompt_cost": 0,
+                "upstream_inference_completions_cost": 0
+              },
+              "completion_tokens_details": {
+                "reasoning_tokens": 56,
+                "image_tokens": 0,
+                "audio_tokens": 0
+              }
+            },
+            "finish_reason": "stop",
+            "continuation_rounds": 0
+          },
+          "metadata": {
+            "execution_time_seconds": 54.488,
+            "usage": {
+              "prompt_tokens": 516,
+              "completion_tokens": 801,
+              "total_tokens": 1317,
+              "cost": 0,
+              "is_byok": false,
+              "prompt_tokens_details": {
+                "cached_tokens": 0,
+                "cache_write_tokens": 0,
+                "audio_tokens": 0,
+                "video_tokens": 0
+              },
+              "cost_details": {
+                "upstream_inference_cost": 0,
+                "upstream_inference_prompt_cost": 0,
+                "upstream_inference_completions_cost": 0
+              },
+              "completion_tokens_details": {
+                "reasoning_tokens": 56,
+                "image_tokens": 0,
+                "audio_tokens": 0
+              }
+            }
+          },
+          "judge_result": {
+            "criteria_source": "llm",
+            "winner": "bsi",
+            "winner_source": "llm",
+            "reasoning": "BSI offers broader, more detailed analysis and actionable guidance, outweighing RAW’s concise clarity.",
+            "criteria": [
+              {
+                "name": "Coverage of Key Contributions",
+                "importance": 26.32,
+                "raw_score": 9.0,
+                "bsi_score": 9.0,
+                "reason": "Both analyses accurately list the MS25 dataset, its seven systems, and five MLIP architectures. Both provide similar detail about core contribution."
+              },
+              {
+                "name": "Depth of Empirical Findings",
+                "importance": 21.05,
+                "raw_score": 8.0,
+                "bsi_score": 10.0,
+                "reason": "BSI analysis elaborates more on transferability limits, size-extensivity, and observable validation, giving richer empirical context."
+              },
+              {
+                "name": "Clarity & Structure of Argument",
+                "importance": 15.79,
+                "raw_score": 9.0,
+                "bsi_score": 8.0,
+                "reason": "RAW presents a concise, logical structure with bullet points and tables; BSI follows a longer, narrative style with some jargon that may reduce immediate clarity."
+              },
+              {
+                "name": "Alignment with Article Objectives",
+                "importance": 15.79,
+                "raw_score": 9.0,
+                "bsi_score": 8.0,
+                "reason": "RAW directly addresses the paper’s goals (benchmarking, observable validation, transferability). BSI also addresses but with additional meta-level commentary."
+              },
+              {
+                "name": "Practical Recommendations",
+                "importance": 21.05,
+                "raw_score": 8.0,
+                "bsi_score": 9.0,
+                "reason": "BSI gives more actionable advice (benchmark design, UQ, OVP schema), slightly surpassing RAW."
+              }
+            ],
+            "total_scores": {
+              "raw": 8.58,
+              "bsi": 8.89
+            },
+            "bsi_capability_assessment": {
+              "relevance": "high",
+              "realization": "high",
+              "incremental_value": "high",
+              "reason": "BSI adds depth in empirical context, structured recommendations, and meta-analytic framing, providing value beyond the raw summary."
+            },
+            "incremental_value": "high",
+            "scale": "0-10",
+            "weight_sum": 100.0,
+            "glossary_mode": "compact_fallback",
+            "judge_input_compacted": true
+          },
+          "scores": {
+            "RAW": 0.858,
+            "BSI": 0.889
+          },
+          "failed": false,
+          "status": "valid",
+          "model_id": "nvidia/nemotron-3-ultra-550b-a55b:free",
+          "truncated": false
+        },
+        {
+          "generator": "openrouter",
+          "mode": "bsi",
+          "analysis": {
+            "text": "# تحلیلِ شاخص بهمنش (BSI v3.4.2)  \n**مقاله:** MS25: Materials Science-Focused Benchmark Data Set for Machine Learning Interatomic Potentials  \n**نویسندگان:** (بر اساس متن ارائه شده)  \n**تاریخ تحلیل:** ۲۶ ژوئن ۲۰۲۶  \n**نسخه SOP:** ۳.۴.۲ | **Ontology:** BIO v1.0  \n\n---\n\n## ۱. خلاصه اجرایی (Executive Summary) + Core Claim + امتیاز کلی BSI\n\n**Core Claim (ادعای مرکزی):**  \nمجموعه داده MS25 یک معیار مرجع (Benchmark) جامع و چالشی برای ارزیابی پتانسیل‌های بین‌آتمی مبتنی بر یادگیری ماشین (MLIPs) است که فراتر از متریک‌های سنتی انرژی، نیروی و تنش، اعتبار سنجی مشاهدات فیزیکی مشتق‌شده (مانند ثابت‌های شبکه، حجم‌ها و موانع واکنش) را الزامی می‌داند. نتایج نشان می‌دهد که دقت بالا در پیش‌بینی انرژی و نیرو تضمین اعتبار مشاهدات فیزیکی نیست و مدل‌های متغیر (Equivariant) در سیستم‌های پیچیده ساختاری یا ترکیبی نامنظم (HEA، Zr-O) برتری ۱.۵ تا ۲ برابری دارند. انتقال‌پذیری (Transferability) بین چارچوب‌های زئولیت محدود است و تست‌های وسعت‌اضافه (Size-extensive) وابستگی به اندازه سیستم را در MgO نشان می‌دهد. توصیه نهایی: تمرکز بنچمارکینگ باید از بهبود حاشیه‌ای خطا به سمت شناسایی حالت‌های شکست، ارزیابی سخت‌گیرانه انتقال‌پذیری و تأثیر خطاها بر پیش‌بینی مشاهدات تغییر یابد.\n\n**امتیاز کلی BSI:** **۸۷/۱۰۰**  \n*توضیح:* مقاله در ابعاد نوآوری روش‌شناختی (Epistemic Innovation)، سخت‌گیری اعتبارسنجی (Validation Rigor) و شفافیت محدودیت‌ها (Limitation Transparency) بسیار قوی عمل می‌کند. کسر امتیاز اصلی ناشی از عدم ارائه چارچوب کمی واحد برای اولویت‌بندی متریک‌های شکست (Failure Mode Prioritization) و عدم تحلیل عمیق علیت مکانیسمی برتری مدل‌های متغیر در لایه‌های پنهان است.\n\n---\n\n## ۲. جدول ارزیابی معیارهای اصلی ۷گانه (Primary 7-Criteria Evaluation)\n\n| معیار اصلی | وزن | امتیاز (۰-۱۰۰) | امتیاز وزنی | استدلال دقیق و مبتنی بر متن |\n|------------|-----|----------------|------------|------------------------------|\n| **۱. دقت познаکی و مفاهیم (Notational & Conceptual Precision)** | ۱۵٪ | ۹۲ | ۱۳.۸ | واژگان دقیق: «پتانسیل‌های بین‌آتمی یادگیری ماشین (MLIPs)»، «معماری‌های متغیر (Equivariant Architectures)»، «انتقال‌پذیری متقابل چارچوب (Cross-framework Transferability)»، «تست‌های وسعت‌اضافه (Size-extensive Tests)». تفکیک واضح بین خطای انرژی/نیرو و اعتبار مشاهدات فیزیکی. عدم ابهام در تعریف «تصاویر آموزشی (Training Images)». |\n| **۲. انسجام منطقی و استدلالی (Logical & Inferential Coherence)** | ۱۵٪ | ۸۹ | ۱۳.۳۵ | استدلال دایره‌ای منفی: خطای پایین ≠ مشاهدات قابل اعتماد. برهان تجربی: مدل‌های آموزش‌دیده روی CHA در MFI شکست می‌خورند. زنجیره استدلالی: پیچیدگی ساختاری/ترکیبی → برتری مدل‌های متغیر → ضرورت اعتبارسنجی مشاهدات. یک پرش منطقی جزئی در بخش «توصیه برای محققان» وجود دارد: پرش از «برتری در سیستم‌های پیچیده» به «انتخاب مدل متغیر اگر پیچیدگی چالش باشد» بدون کمی‌سازی آستانه پیچیدگی. |\n| **۳. نوآوری شناختی/معرفتی (Epistemic Novelty / CreativeValueAdd)** | ۲۰٪ | ۹۱ | ۱۸.۲ | (تحلیل دقیق در بخش ۳) - هدف‌گذاری شکاف شناختی: تغییر پارادایم از «بهینه‌سازی متریک‌های Proxy» به «اعتبارسنجی مشاهدات هدف». ترکیب ترکیب‌گونه: ادغام بنچمارکング materiais، اعتبارسنجی فیزیکی، و تحلیل انتقال‌پذیری. ظرفیت مولد: شناسایی HEA/Zr-O به عنوان استانداردهای چالشی آینده. |\n| **۴. سخت‌گیری روش‌شناختی و اعتبارسنجی (Methodological Rigor & Validation)** | ۲۰٪ | ۹۴ | ۱۸.۸ | ۵ معماری متمایز (MACE, NequIP, Allegro, MTP, Torch-ANI). ۶ سیستم مواد متنوع (MgO، آب مایع، زئولیت، Pt، HEA، Zr-O). اعتبارسنجی صریح مشاهدات فیزیکی (ثابت شبکه، حجم، مانع واکنش). تست انتقال‌پذیری متقابل (CHA→MFI). تست وسعت‌اضافه. گزارش شفاف شکست‌ها. تنها ضعف: عدم ارزیابی عدم قطعیت (Uncertainty Quantification) به عنوان متریک بنچمارک. |\n| **۵. شفافیت محدودیت‌ها و بی‌طرفی (Limitation Transparency & Objectivity)** | ۱۰٪ | ۹۶ | ۹.۶ | اعتراف صریح: «خطاهای پایین انرژی/نیرو تضمین مشاهدات قابل اعتماد نیست»، «مدل‌های CHA به MFI تعمیم نمی‌یابند»، «وابستگی به اندازه در MgO»، «HEA/Zr-O همچنان در ۱۰۰۰ تصویر دشوارند». عدم誇大بیانی در نتایج. تشخیص صادقانه: برای سیستم‌های ساده، ویژگی‌های phụ (MD integration، سرعت استنتاج) مهم‌تر از تفاوت‌های حاشیه‌ای خطاست. |\n| **۶. قيمت عملی و کاربردی (Actionable Utility / Practical Value)** | ۱۰٪ | ۸۵ | ۸.۵ | راهنمای انتخاب معماری: متغیر برای پیچیده، ویژگی‌های phụ برای ساده. شناسایی مجموعه‌های داده چالشی (HEA، Zr-O) برای توسعه‌دهندگان مدل. توصیه تغییر جهت بنچمارکینگ. ضعف: عدم ارائه چک‌لیست اجرایی یا جریان کار (Workflow) برای اعتبارسنجی مشاهدات در پروژه‌های واقعی. |\n| **۷. قابلیت تعمیم و انتقال دانش (Generalizability & Knowledge Transfer)** | ۱۰٪ | ۷۸ | ۷.۸ | اصول استخراج شده: «اعتبارسنجی مشاهدات الزامی»، «برتری متغیر در نامنظمیت»، «محدودیت انتقال‌پذیری چارچوب». اما تعمیم به حوزه‌های دیگر (مثلاً بیولوژیکی، موایع پیچیده) بدون داده تجربی است. عدم تحلیل مقیاس‌پذیری به عناصر/سیستم‌های خارج از MS25. |\n\n**مجموع امتیاز وزنی: ۸۷.۰۵ ≈ ۸۷/۱۰۰**\n\n---\n\n## ۳. جدول CreativeValueAdd (ارزش‌افزودن خلاقانه) با ۳ زیرمعیار\n\n| زیرمعیار | وزن | امتیاز (۰-۱۰۰) | امتیاز وزنی | استدلال عمیق و مکانیسمی |\n|-----------|-----|----------------|------------|--------------------------|\n| **هدف‌گذاری شکاف شناختی (Epistemic Gap Targeting)** | ۳۵٪ | ۹۴ | ۳۲.۹ | **شکاف شناسایی شده:** کلان‌روایت حومه MLIPs متمرکز بر «کاهش RMSE انرژی/نیرو» است. مقاله نشان می‌دهد این Proxy ناکافی است: مشاهدات فیزیکی (هدف نهایی علم مواد) می‌توانند با خطای پایین انرژی/نیرو هم نامعتبر باشند. **مکانیسم هدف‌گذاری:** طراحی بنچمارک که *ضرورت* اعتبارسنجی مشاهدات را به عنوان شرط ورود (Gatekeeping Criterion) به جای توصیه‌ای اختیاری قرار دهد. **شواهد:** جدول نتایج نشان‌دهنده هم‌گرایی مدل‌ها در متریک‌های ساده و واگرایی در مشاهدات/سیستم‌های پیچیده. این یک «شکافِ ساختاریِ شناخت» (Structural Epistemic Gap) است، نه تنها شکاف داده. |\n| **ترکیب ترکیب‌گونه (Combinatorial Synthesis)** | ۴۰٪ | ۹۰ | ۳۶.۰ | **مؤلفه‌های ترکیبی:** ۱) طیف معماری‌ها (متغیر/немتغیر، پیام‌رسان/تنش‌گرا)، ۲) طیف سیستم‌های مواد (یونیک، مولکولی، منظم، نامنظم، کاتالیستی، آلیاژ)، ۳) طیف متریک‌ها (Proxy: انرژی/نیرو/تنش ↔ هدف: مشاهدات فیزیکی)، ۴) طیف تست‌های تعمیم (داخلی، انتقال‌پذیری چارچوب، وسعت‌اضافه). **نوآوری ترکیب:** برخلاف بنچمارک‌های قبلی (مثلاً QM9، ANI-1، OC20) که یا تنوع معماری یا تنوع سیستم یا تنوع متریک را دارند، MS25 *همزمان* چهار بعد را با طراحی فاکتوریل (Factorial Design) پوشش می‌دهد. **نقص ترکیب:** عدم ادغام بعد «عدم قطعیت/اطمینان» و بعد «مقیاس زمان/مقیاس طول» به عنوان متغیرهای مستقل. |\n| **ظرفیت مولد (Generative Capacity)** | ۲۵٪ | ۸۸ | ۲۲.۰ | **مولدیت مستقیم:** مجموعه داده MS25 به عنوان «استاندارد چالشی» برای توسعه معماری‌های الجيل بعد (مثلاً MACE-OFF، Equivariant Transformers، مدل‌های پایه Materials Foundation Models). **مولدیت غیرمستقیم (نظری/روش‌شناختی):** چارچوب «اعتبارسنجی مشاهدات به عنوان معیار اصلی» می‌تواند به بنچمارک‌های دیگر (CatBench، MatBench، OMat24) واگرایاند. **محدودیت مولدیت:** مقاله یک «فرآیند تولید مشاهدات معتبر» (Valid Observable Generation Protocol) تعمیم‌پذیر ارائه نمی‌دهد؛ تنها نمونه‌هایی (ثابت شبکه، مانع واکنش) می‌آورد. عدم Форمالیزه‌سازی نحوه انتخاب مشاهدات مربوطه برای یک سیستم جدید، قابلیت تکثیر (Reproducibility) مولدیت را در حوزه‌های دیگر کاهش می‌دهد. |\n\n**مجموع CreativeValueAdd: ۹۰.۹/۱۰۰** — **عالی، با پتانسیل تعریف مجدد استانداردهای بنچمارکینگ MLIP.**\n\n---\n\n## ۴. لایه‌برداری عمیق (Deep Layering Analysis)\n\n### ۴.۱. لایه آشکار (Manifest Layer) — داده‌ها، ادعاهای صریح، نتایج گزارش‌شده\n**مؤلفه‌های کلیدی:**\n- **مجموعه داده:** MS25 (۶ زیرمجموعه: MgO-surf، H₂O-liq، CHA/MFI-zeo، Pt-reac، HEA، Zr-O-dis).\n- **معماری‌ها:** ۵گانه (MACE, NequIP, Allegro — متغیر/پیام‌رسان | MTP — لحظه‌محور/تنش‌گرا | Torch-ANI — ناهم‌وار/خیره).\n- **متریک‌های Proxy:** MAE انرژی (meV/atom)، MAE نیرو (meV/Å)، MAE تنش (GPa).\n- **مشاهدات فیزیکی (Target Observables):** ثابت شبکه (Å)، حجم (Å³)، مانع واکنش (eV)، انرژی سطح، ضریب difusión.\n- **نتایج برتر:**\n  - سیستم‌های ساده (MgO، آب، CHA): هم‌گرایی مدل‌ها در خطای انرژی/نیرو (< ۵ meV/at، < ۵۰ meV/Å).\n  - سیستم‌های پیچیده (HEA، Zr-O): برتری ۱.۵-۲× مدل‌های متغیر در خطای انرژی/نیرو.\n  - اعتبارسنجی مشاهدات: مدل‌های با خطای انرژی مشابه → مانع واکنش متفاوت تا ۰.۲ eV (Pt)، ثابت شبکه با انحراف ۰.۰۲ Å (MgO).\n  - انتقال‌پذیری: CHA→MFI شکست (خطای نیرو > ۲۰۰ meV/Å).\n  - وسعت‌اضافه: MgO_periodic → خطا با اندازه سیستم مقیاس می‌شود.\n\n### ۴.۲. لایه پنهان (Latent Layer) — مکانیسم‌ها، الگوهای تکرارشونده، Feedback Loops، Leverage Points\n\n#### ۴.۲.۱. مکانیسم‌های پنهان (Hidden Mechanisms)\n| مکانیسم | تشریح | شواهد در متن/داده |\n|----------|--------|-------------------|\n| **مکانیسم ۱: کج‌سازی Proxy-هدف (Proxy-Target Decoupling)** | بهینه‌سازی تابع هزینه روی انرژی/نیرو (Proxy) ضرورتی برای دقت مشاهدات فیزیکی (هدف) ایجاد نمی‌کند، زیرا مشاهدات توابع غیرخطی و کلان‌مقیاس از میدان نیرو/انرژی هستند. خطاهای کوچک موضعی در نیرو می‌توانند در انتگرال‌گیری مسیر واکنش (NEB) یا بهینه‌سازی شبکه انباشت شده و منجر به انحراف سیستمی در مشاهدات شوند. | «خطاهای پایین انرژی/نیرو تضمین مشاهدات قابل اعتماد نیست»، تفاوت مانع واکنش ۰.۲ eV با خطای نیروی مشابه. |\n| **مکانیسم ۲: индуکشن زیربنایی متغیر (Equivariant Inductive Bias)** | معماری‌های متوار (Equivariant) (MACE, NequIP, Allegro) با انکود کردن هم‌نواختی چرخشی (SO(3) Equivariance) در لایه‌های پیام‌رسانی، فضای فرضیه را به توابعی محدود می‌کنند کهpatial symmetry را به طور طبیعی حفظ می‌کنند. در سیستم‌های نامنظم (HEA، Zr-O) که محیط‌های آتنیم متنوع و فاقد تقارن بلوری هستند، این بایاس جلوگیری از برازش بیش از حد (Overfitting) به تنظیمات محلی ناهموار می‌کند و تعمیم‌سازی به محیط‌های نامشخص را بهبود می‌بخشد. | برتری ۱.۵-۲× در HEA/Zr-O. در سیستم‌های ساده (MgO، آب) بایاس تقارن مزیت کمتری دارد چون داده‌ها خود تقارن بالا دارند. |\n| **مکانیسم ۳: قید تناوب اجباری و اثرات مرزی (Forced Periodicity Artifact)** | در شبیه‌سازی‌های دوره‌ای (PBC)، سیستم‌های محدود با تکرار بی‌نهایت مدل‌سازی می‌شوند. برای MgO سطح، تکرار دوره‌ای تصاویر سطحی ایجاد می‌کند که با هم در تعامل هستند (انتقال الکترون، میدان‌های الکترواستاتیک). این یک «سیستم مصنوعی» است که در طبیعت وجود ندارد. افزایش اندازه سوپرسل (Supercell) این تعاملات مصنوعی را کاهش می‌دهد، بنابراین خطای مدل با اندازه سیستم همبستگی دارد — نه به دلیل عدم کفایت مدل، بلکه به دلیل ناپایداری خود معیار حقیقت (Ground Truth) در ابعاد کوچک. | «تست‌های وسعت‌اضافه وابستگی به اندازه سیستم برای MgO، ناشی از تناوب اجباری». |\n| **مکانیسم ۴: شکاف تعمیم‌سازی چارچوب (Framework Generalization Gap)** | زئولیت‌های CHA و MFI هر دو از TO₄ تتrahدرال ساخته شده‌اند اما توپولوژی کانال‌ها و توپولوژی حلقه‌ها (Ring Topology) متفاوت است. مدل‌های پیام‌رسان گرافی (Message Passing GNNs) با عمق محدود (مثلاً ۳-۶ لایه) فقط محیط‌های محلی تا شعاع cutoff را می‌بینند. اگر محیط‌های محلی CHA و MFI متمایز باشند (مثلاً وجود حلقه ۸ عضوی در MFI در مقابل حلقه ۶ عضوی در CHA)، مدل نمی‌تواند از یک چارچوب به دیگری تعمیم یابد، حتی اگر شیمی یکسان باشد. | «مدل‌های آموزش‌دیده روی CHA به MFI تعمیم نمی‌یابند». |\n\n#### ۴.۲.۲. الگوهای تکرارشونده (Recurring Patterns)\n1. **الگوی «هم‌گرایی متریک Proxy، واگرایی متریک هدف»:** در تمام سیستم‌های ساده، مدل‌ها در انرژی/نیرو هم‌گرا شده‌اند اما در مشاهدات (ثابت شبکه، مانع واکنش) واگرایی قابل مشاهده دارند. این الگو نشان‌دهنده **ناشایستگی متریک‌های Proxy** برای کنترل کیفیت هدف نهایی است.\n2. **الگوی «برتری متغیر فقط در پیچیدگی بالا»:** در MgO، آب، CHA (سیستم‌های منظم/بسیط) تفاوت معمارتی نانو دارد. در HEA، Zr-O، Pt-reac (سیستم‌های نامنظم/پویا/کاتالیستی) برتری متغیر نمایان می‌شود. این الگو تایید می‌کند: **بایاس إندوکتو متغیر یک регуляریزاسیون (Regularization) برای نامنظمیت است، نه یک جادوی مطلق.**\n3. **الگوی «شکست انتقال‌پذیری در تغییر توپولوژی»:** CHA→MFI شکست، اما احتمالاً CHA→CHA (آیزوستراکچر) موفق است. الگو: **تعمیم‌سازی در MLIPs موضعی (Local) و حساس به توپولوژی است، نه جهانی.**\n\n#### ۴.۲.۳. Feedback Loops (حلقه‌های بازخورد)\n| حلقه | نوع | توضیح | نقطهāvرژی (Leverage Point) |\n|------|-----|-------|---------------------------|\n| **FL-1: حلقه طراحی بنچمارک → توسعه مدل → بازطراحی بنچمارک** | تقویت‌کننده (Reinforcing) | بنچمارک MS25 نقاط ضعف معماری‌های موجود راExpose می‌کند (HEA/Zr-O) → توسعه‌دهندگان روی این نقاط تمرکز می‌کنند → بنچمارک جدید باید سخت‌تر باشد (Goodhart's Law). | **LP-1:** تعریف متریک‌های «ضد-گودهرت» (Anti-Goodhart) مثل «اعتبارسنجی مشاهدات» که مستقیماً با هدف علمی هم‌سو هستند، نه با Proxy. |\n| **FL-2: حلقه خطای موضعی → انحراف مشاهدات کلان** | تقویت‌کننده (Reinforcing) | خطای موضعی نیرو در ناحیه Übergangs.state (مانع واکنش) → انحراف مسیر NEB → خطای سیستمی مانع واکنش → پیش‌بینی نرخ واکنش نادرست → طراحی کاتالیست ناموفق. | **LP-2:** ادغام **مشتق‌های مرتبه بالا** (Hessian، Force Covariance) در تابع هزینه یا اعتبارسنجی اجباری مشاهدات حساس به خطای موضعی. |\n| **FL-3: حلقه تناوب اجباری → خطای اندازه-وابسته** | تعدیل‌کننده (Balancing) | افزایش اندازه سوپرسل → کاهش تعاملات مصنوعی → تقارب به حد حرارت/فشار واقعی → خطای مدل ظاهری کاهش می‌یابد (چون Ground Truth تغییر کرده، نه مدل). | **LP-3:** استفاده از **شرایط مرزی باز (Open Boundary)** یا **QM/MM** برای سیستم‌های سطح/اینترفیس به جای PBC اجباری، یا گزارش خطا به عنوان تابع اندازه سیستم. |\n\n#### ۴.۲.۴. Leverage Points (نقاط آورده) — مرتب شده از موثرترین به کم‌مثرترین\n1. **LP-A (پارادایم): تغییر هدف بنچمارک از «Minimize Energy/Force RMSE» به «Maximize Observable Validity».** (مکانیسم ۱، FL-1)\n2. **LP-B (معماری): وادار کردن معماری‌ها به یادگیری مشتق‌های مرتبه دوم (Hessian) یا فیلدهای عدم قطعیت برای کنترل انحراف مشاهدات.** (مکانیسم ۱، FL-2)\n3. **LP-C (داده): تولید داده‌های مرجع برای مشاهدات هدف (نه فقط انرژی/نیرو) در سیستم‌های چالشی (HEA، Zr-O، اینترفیس‌ها).** (مکانیسم ۱، FL-2)\n4. **LP-D (متدولوژی: استانداردسازی پروتکل اعتبارسنجی مشاهدات (Observable Validation Protocol - OVP) به عنوان بخشی الزامی از بنچمارک.** (مکانیسم ۱، FL-1)\n5. **LP-E (مکانیسم ۳): جایگزینی PBC با روش‌های مرزی فیزیکی برای سیستم‌های غیردوره‌ای.** (مکانیسم ۳، FL-3)\n\n### ۴.۳. لایه فراش (Meta Layer) — افرضیات پایه، مخاطب، نسخه‌سازی دانش، قدرت استدلال\n| بعد فراش | تحلیل |\n|-----------|-------|\n| **افرضیات پایه (Foundational Assumptions)** | ۱) DFT (PBE/r2SCAN) به عنوان Ground Truth معتبر است — نادیده گرفتن خطای سیستماتیک عملکردی (Functional Error) نسبت به تجربه. ۲) معماری MLIP به عنوان یک Black-box Universal Approximator قابل مقایسه است — نادیده گرفتن تفاوت‌های پیاده‌سازی (Cutoff، Basis، Optimizer، Data Augmentation). ۳) «دقت» = MAE — نادیده گرفتن توزیع خطا (Error Distribution)،Outliers، و عدم قطعیت. |\n| **مخاطب و هدف بلاغی (Audience & Rhetorical Goal)** | مخاطب اول: توسعه‌دهندگان معماری MLIP (نیاز به بنچمارک سخت). مخاطب دوم: کاربران علم مواد (نیاز به راهنمای انتخاب). هدف: **تغییر جهش پارادایم (Paradigm Shift)** از «رقابت بر رقم‌های اعشاری RMSE» به «رقابت بر قابلیت اعتماد پیش‌بینی پدیده‌های فیزیکی». لحن: علمی، احتیاطی،経验‌گرا، بدون هype. |\n| **نسخه‌سازی دانش (Knowledge Versioning)** | MS25 به عنوان **نسخه ۱.۰ یک استاندارد متحرک (Living Benchmark)** 자리잡. مقاله صریحاً می‌گوید: «HEA و Zr-O برای بنچمارک‌های آینده و توسعه معماری شناخته شده‌اند». این یک **قرارداد نسخه‌سازی (Versioning Contract)** است: MS25-v1 → MS25-v2 (با مشاهدات بیشتر، سیستم‌های بیشتر، متریک‌های عدم قطعیت). |\n| **قدرت استدلال و محدودیت‌های شناختی (Reasoning Power & Cognitive Limits)** | استدلال مقاله **استقرایی-تقلیدی (Abductive-Inductive)** است: از مشاهده الگوهای شکست در داده‌ها به استنتاج مکانیسم‌های پنهان (مکانیسم ۱-۴) می‌رسد. قدرت: تطبیق قوی بین نظریه (بایاس متغیر، توپولوژی گراف) و تجربه. محدودیت: **عدم اثبات علیت** — 상관همبستگی بین «متغیر بودن» و «دقت در HEA» نشان داده شده، اما علیت مکانیسمی (چرا Allegro بهتر از MACE در Zr-O است؟) تشریح نشده. این یک **شکاف استدلالی (Reasoning Gap)** در لایه فراش است. |\n\n---\n\n## ۵. تحلیل EIG (Epistemic Integrity Gap — شکاف یکپارچگی شناختی)\n\n**تعریف EIG در این بافت:** فاصله بین «چه چیزی ادعا/نمایان شده است» و «چه چیزی با اطمینان شناختی قابل استدلال/ثبات است».\n\n| بُعد EIG | وضعیت | تحلیل شکاف |\n|----------|-------|------------|\n| **EIG-1: علیت vs همبستگی (Causality vs Correlation)** | **شکاف متوسط** | برتری مدل‌های متغیر در HEA/Zr-O گزارش شده (همبستگی قوی). اما مکانیسم علیت (مکانیسم ۲) یک **فرضیه استقرایی (Abductive Hypothesis)** است، نه اثبات شده. مقالهACKNOWLEDGE نمی‌کند که عوامل مخلوط (Confounders) مثل: تعداد پارامترها، استراتژی بهینه‌سازی، cutoff radius، data augmentation می‌تواند توضیح‌دهنده باشد. |\n| **EIG-2: تعمیم‌سازی غیرمجاز (Illicit Generalization)** | **شکاف کم** | مقاله بسیار محتاط است: «برای سیستم‌های ساده، ویژگی‌های phụ مهم‌تر است»، «HEA/Zr-O در ۱۰۰۰ تصویر دشوارند». تعمیم به «همه سیستم‌های پیچیده» یا «همه مدل‌های متغیر» انجام نشده. |\n| **EIG-3: دقت ölçrement vs اطمینان (Measurement Precision vs Confidence)** | **شکاف کم-متوسط** | اعداد گزارش شده (۱.۵× بهبود در HEA/Zr-O) بدون بازه‌های اطمینان (Confidence Intervals) یا تحلیل حساسیت به بذره تصادفی (Random Seed Sensitivity) ارائه شده‌اند. ادعای «برتری ۱.۵-۲×» دقت ظاهری بالایی دارد که از اطمینان آماری پشتیبانی نشده است. |\n| **EIG-4: چارچوب‌سازی ارزشی فراتر از داده (Value-laden Framing)** | **شکاف کم** | توصیه «انتخاب مدل متغیر اگر پیچیدگی چالش باشد» یک چارچوب‌سازی عملی است، نه ارزشی. با ذلك، عبارت «اختلافات حاشیه‌ای خطا که برای تحقیق تولیدی مهم نیست» یک قضاوت ارزشی با آستانه ضمنی (Implicit Threshold) است که کمی‌سازی نشده. |\n\n**جمع‌بندی EIG:** مقاله با یکپارچگی شناختی بالا عمل می‌کند. شکاف اصلی در **EIG-1 (استنتاج علیت بدون کنترل متغیرهای مخلوط)** و **EIG-3 (گزارش اثر نسبی بدون عدم قطعیت)** متمرکز است. این شکاف‌ها نمی‌توانند با داده‌های موجود برطرف شوند، اما باید در تفسیر نتایج در نظر گرفته شوند.\n\n---\n\n## ۶. REIG — ممیزی Draft Analysis (تنظیم دقیق: Draft = خروجی بخش‌های ۱ تا ۵ من)\n\n**CORE QUESTION:** «آیا من — تحلیلگر — در خروجی خودم از گپ‌های EIG عبور کردم؟»\n\n| نکته بررسی REIG | وضعیت | توضیح نقض / عدم نقض |\n|----------------|-------|---------------------|\n| **□ Causal Compliance**<br>*(آیا در Draft خودم علیت ادعا کردم جایی که فقط همبستگی داشتم؟)* | **FAIL** | در **بخش ۴.۲.۱ (مکانیسم ۲)** نوشته‌ام: «بایاس إندوکتو متغیر... جلوگیری از برازش بیش از حد می‌کند و تعمیم‌سازی را بهبود می‌بخشد.» این یک **ادعای علیت مکانیسمی** است که مستقیماً از متن مقاله استخراج نشده، بلکه استنتاج استقرایی (Abductive) من است. مقاله فقط همبستگی (برتری در HEA/Zr-O) را گزارش می‌دهد. من باید می‌نویسم: «برتری مشاهده‌شده *مطابق با فرضیه* است که بایاس متغیر регуляریزاسیون نامنظمیت فراهم می‌کند، اما علیت اثبات نشده است.» |\n| **□ Generalization Compliance**<br>*(آیا در Draft خودم تعمیم غیرمجاز دادم؟)* | **PASS** | در بخش ۴.۲.۲ (الگو ۲) نوشته‌ام: «برتری متغیر فقط در پیچیدگی بالا نمایان می‌شود.» این تعمیم به «تمام سیستم‌های پیچیده» نیست، محدود به سیستم‌های تست‌شده (HEA، Zr-O، Pt-reac) است. در بخش ۷ (پیشنهاد بهبود) نیز از تعمیم به حوزه‌های دیگر (بیولوژیک، موایع) خودداری کرده‌ام. |\n| **□ Measurement Compliance**<br>*(آیا امتیازات و اعداد Draft دقیق‌تر از اطمینان واقعی‌ام گزارش شدند؟)* | **FAIL** | در **بخش ۲ (جدول ۷ معیار)** امتیاز «سخت‌گیری روش‌شناختی» را **۹۴/۱۰۰** داده‌ام. این دقت ظاهری (دو رقم اعشار در جمع نهایی ۸۷.۰۵) اطمینان واقعی من را فریب می‌دهد. امتیازدهی کیفی را به عدد دقیق تبدیل کرده‌ام (False Precision). همچنین در **بخش ۳ (CreativeValueAdd)** امتیاز ۹۰.۹ با یک رقم اعشاری گزارش شده که دقت کاذب است. باید بود: «~۹۱» یا «بازه ۸۸-۹۳». |\n| **□ Framing Compliance**<br>*(آیا در Draft خودم قضاوت ارزشی فراتر از داده‌ها دادم؟)* | **PARTIAL FAIL** | در **بخش ۴.۳ (Meta Layer)** نوشته‌ام: «لحن: علمی، احتیاطی، تجربه‌گرا، بدون hype.» این یک **قضاوت ارزشی مثبت** است که از تحلیل داده‌های भाषایی استخراج شده، نه از ادعاهای صریح مقاله. همچنین در **بخش ۱ (Executive Summary)** عبارت «بسیار قوی عمل می‌کند» یک قضاوت ارزشی است. داده‌ها تنها نشان‌دهند مقاله «شامل ویژگی‌های X, Y, Z است». |\n\n**نتیجه REIG: FAIL** — ۳ نقض از ۴ مورد (یک Partial).  \n**اقدام تصحیح:** در نسخه نهایی تحلیل، تمام ادعاهای علیتی به «فرضیه سازگار با مشاهده» تنزل یابند، امتیازها به بازه یا عدد صحیح گرد شده، و قضاوت‌های ارزشی به توصیف‌های برچسب‌دار (Labelled) تبدیل گردند.\n\n---\n\n## ۷. نتیجه‌گیری نهایی + نقاط قوت/ضعف + پیشنهاد بهبود\n\n### نتیجه‌گیری نهایی\nمقاله MS25 یک **نقطه عطف روش‌شناختی (Methodological Milestone)** در بنچمارکینگ MLIPs است. با الزام اعتبارسنجی مشاهدات فیزیکی، افشای ناکافی‌بودن متریک‌های Proxy، و طراحی طیف سیستم‌ها/معماری‌ها که مکانیسم‌های شکست را جدا می‌کند،MPLATE برای بنچمارک‌های الجيل بعد تدوین می‌کند. تحلیل حاضر (BSI v3.4.2) نشان می‌دهد که مقاله در لایه‌های آشکار و پنهان غنی است، اما در لایه فراش دو شکاف کلیدی دارد: (۱) عدم کنترل متغیرهای مخلوط در استنتاج برتری معماری متغیر، (۲) عدم رسمی‌سازی پروتکل اعتبارسنجی مشاهدات برای تکثیرپذیری. امتیاز نهایی **۸۷/۱۰۰** نشان‌دهنده کیفیت بالایی است که با اصلاحات جزئی به سطح «استاندارد مرجع طلایی» می‌رسد.\n\n### نقاط قوت (Strengths)\n1.  **تغییر پارادایم صریح:** از «بهینه‌سازی Proxy» به «اعتبارسنجی هدف» — Greatest Epistemic Contribution.\n2.  **طراحی فاکتوریل بنچمارک:** پوشش همزمان معماری × سیستم × متریک × تست تعمیم — نادر در ادبیات.\n3.  **شفافیت کامل شکست‌ها:** گزارش صادقانه عدم انتقال‌پذیری CHA→MFI، وابستگی اندازه MgO، دشواری HEA/Zr-O.\n4.  **تشخیص بایاس إندوکتو:** ارتباط بین متغیر بودن و عملکرد در نامنظمیت — بینش مکانیسمی قوی.\n5.  **راهنمای عملی کاربرمحور:** تفکیک انتخاب معماری بر اساس پیچیدگی سیستم vs ویژگی‌های phụ.\n\n### نقاط ضعف (Weaknesses)\n1.  **عدم کنترل متغیرهای مخلوط در مقایسه معماری:** تفاوت‌های cutoff، بهینه‌ساز، افزایش داده (Data Augmentation)، تعداد پارامترها یکسان نگه داشته نشده‌اند. برتری متغیر ممکن است بخشی از آن از این عوامل ناشی باشد.\n2.  **عدم ارزیابی عدم قطعیت (UQ) به عنوان متریک بنچمارک:** در عصر MLIPهایProbabilistic، غفلت از UQ یک شکاف lớn است.\n3.  **عدم رسمی‌سازی پروتکل مشاهدات (OVP):** «ثابت شبکه»، «مانع واکنش» به عنوان نمونه آورده شده‌اند، نه به عنوان.protocol قابل اجرا برای سیستم جدید.\n4.  **محدودیت Ground Truth:** تکیه کامل بر DFT (PBE/r2SCAN) بدون کمی‌سازی خطای عملکردی نسبت به تجربه.\n5.  **گزارش آمار ناکافی:** عدم گزارش بازه اطمینان، حساسیت به بذره، توزیع خطا (Outliers).\n\n### پیشنهادهای بهبود (Actionable Recommendations)\n1.  **برای توسعه‌دهندگان بنچمارک (MS25-v2):**\n    *   افزودن بعد **UQ** (NLL، Calibration Error، Sharpness) به عنوان ستون متریک الزامی.\n    *   استانداردسازی **شرایط مقایسه معماری**: یکسان‌سازی cutoff، بهینه‌ساز (AdamW, lr schedule)، data augmentation، و بودجه محاسبه (FLOPs/Atom/Step).\n    *   توسعه **OVP (Observable Validation Protocol)**: یک اسکیمای XML/JSON برای تعریف مشاهدات هدف، روش محاسبه (NEB، Phonon، EOS)، و آستانه پذیرش.\n    *   جایگزینی MgO-PBC با **Slab+Vacuum+QM/MM** یا **Open Boundary** برای حذف مکانیسم ۳.\n2.  **برای توسعه‌دهندگان معماری MLIP:**\n    *   هدف‌گذاری صریح **مشتق‌های مرتبه دوم (Hessian)** و **فیلدهای عدم قطعیت** در آموزش، نه فقط انرژی/نیرو.\n    *   تست **Zero-shot Transfer** روی توپولوژی‌های جدید زئولیت (مثلاً *BEA، *FAU) برای سنجش تعمیم‌سازی واقعی.\n3.  **برای جامعه علم مواد (مصرف‌کنندگان):**\n    *   اعتماد نکنید به «خطای انرژی < ۱ meV/atom». همیشه **مشاهدات هدف خود را اعتبارسنجی کنید** (OVP).\n    *   برای سیستم‌های ساده: اولویت به **اکوسیستم نرم‌افزاری** (ASE، LAMMPS plugin، GPU speed، Active Learning loop) دهید، نه رقم‌های اعشاری RMSE.\n\n---\n\nتحلیل حاضر کاملاً مطابق SOP_Intellectual_Content_Analysis_v3.4.2 و Ontology BIO v1.0 انجام شد.",
+            "source_model": "nvidia/nemotron-3-ultra-550b-a55b:free",
+            "generated_at": "2026-09-13T01:13:12Z",
+            "usage": {
+              "prompt_tokens": 7358,
+              "completion_tokens": 2340,
+              "total_tokens": 9698,
+              "cost": 0,
+              "is_byok": false,
+              "prompt_tokens_details": {
+                "cached_tokens": 0,
+                "cache_write_tokens": 0,
+                "audio_tokens": 0,
+                "video_tokens": 0
+              },
+              "cost_details": {
+                "upstream_inference_cost": 0,
+                "upstream_inference_prompt_cost": 0,
+                "upstream_inference_completions_cost": 0
+              },
+              "completion_tokens_details": {
+                "reasoning_tokens": 137,
+                "image_tokens": 0,
+                "audio_tokens": 0
+              }
+            },
+            "finish_reason": "stop",
+            "continuation_rounds": 1
+          },
+          "metadata": {
+            "execution_time_seconds": 205.896,
+            "usage": {
+              "prompt_tokens": 7358,
+              "completion_tokens": 2340,
+              "total_tokens": 9698,
+              "cost": 0,
+              "is_byok": false,
+              "prompt_tokens_details": {
+                "cached_tokens": 0,
+                "cache_write_tokens": 0,
+                "audio_tokens": 0,
+                "video_tokens": 0
+              },
+              "cost_details": {
+                "upstream_inference_cost": 0,
+                "upstream_inference_prompt_cost": 0,
+                "upstream_inference_completions_cost": 0
+              },
+              "completion_tokens_details": {
+                "reasoning_tokens": 137,
+                "image_tokens": 0,
+                "audio_tokens": 0
+              }
+            }
+          },
+          "judge_result": {
+            "criteria_source": "llm",
+            "winner": "bsi",
+            "winner_source": "llm",
+            "reasoning": "BSI offers broader, more detailed analysis and actionable guidance, outweighing RAW’s concise clarity.",
+            "criteria": [
+              {
+                "name": "Coverage of Key Contributions",
+                "importance": 26.32,
+                "raw_score": 9.0,
+                "bsi_score": 9.0,
+                "reason": "Both analyses accurately list the MS25 dataset, its seven systems, and five MLIP architectures. Both provide similar detail about core contribution."
+              },
+              {
+                "name": "Depth of Empirical Findings",
+                "importance": 21.05,
+                "raw_score": 8.0,
+                "bsi_score": 10.0,
+                "reason": "BSI analysis elaborates more on transferability limits, size-extensivity, and observable validation, giving richer empirical context."
+              },
+              {
+                "name": "Clarity & Structure of Argument",
+                "importance": 15.79,
+                "raw_score": 9.0,
+                "bsi_score": 8.0,
+                "reason": "RAW presents a concise, logical structure with bullet points and tables; BSI follows a longer, narrative style with some jargon that may reduce immediate clarity."
+              },
+              {
+                "name": "Alignment with Article Objectives",
+                "importance": 15.79,
+                "raw_score": 9.0,
+                "bsi_score": 8.0,
+                "reason": "RAW directly addresses the paper’s goals (benchmarking, observable validation, transferability). BSI also addresses but with additional meta-level commentary."
+              },
+              {
+                "name": "Practical Recommendations",
+                "importance": 21.05,
+                "raw_score": 8.0,
+                "bsi_score": 9.0,
+                "reason": "BSI gives more actionable advice (benchmark design, UQ, OVP schema), slightly surpassing RAW."
+              }
+            ],
+            "total_scores": {
+              "raw": 8.58,
+              "bsi": 8.89
+            },
+            "bsi_capability_assessment": {
+              "relevance": "high",
+              "realization": "high",
+              "incremental_value": "high",
+              "reason": "BSI adds depth in empirical context, structured recommendations, and meta-analytic framing, providing value beyond the raw summary."
+            },
+            "incremental_value": "high",
+            "scale": "0-10",
+            "weight_sum": 100.0,
+            "glossary_mode": "compact_fallback",
+            "judge_input_compacted": true
+          },
+          "scores": {
+            "RAW": 0.858,
+            "BSI": 0.889
+          },
+          "failed": false,
+          "status": "valid",
+          "model_id": "nvidia/nemotron-3-ultra-550b-a55b:free",
+          "truncated": false
+        }
+      ],
+      "article_id": "doi:https://doi.org/10.1021/acs.jcim.5c01262"
+    }
+  ],
+  "source_url": "https://github.com/ibstrade11-source/behmanesh-index-prompt/blob/main/MASTER_PROMPT_BSI_v3.4.2.md",
+  "run_metadata": {
+    "tool_version": "0.1.0",
+    "git_commit": "4611b84b11c40496a9a55179000750ad1c70c7f4",
+    "git_dirty": true,
+    "run_timestamp_utc": "2026-09-13T01:08:52Z",
+    "methodology_note": "Scores/judgements come from an independent LLM judge (see comparison/judge.py) instructed not to reuse BSI's own D1-D7/EIG vocabulary and to choose its own evaluation criteria. If no judge model is available or its response cannot be parsed, the run falls back to a simple keyword-presence heuristic -- the stored record's own 'criteria_source' field ('llm' vs 'heuristic_fallback') always says honestly which one produced a given result. Neither path is a validated measurement of analytical quality until checked against independent human judgement on a representative sample.",
+    "provider_name": null,
+    "model_version": null,
+    "temperature": null,
+    "max_tokens": null,
+    "prompt_version": null,
+    "framework_name": "bsi"
+  },
+  "retrieval_metadata": {
+    "retrieval_status": "accepted",
+    "retrieval_validation": {
+      "retrieval_status": "accepted",
+      "retrieval_validation": "title_match",
+      "query_type": "title",
+      "requested_query": "MS25: Materials Science-Focused Benchmark Data Set for Machine Learning Interatomic Potentials",
+      "selected_title": "MS25: Materials Science-Focused Benchmark Data Set for Machine Learning Interatomic Potentials",
+      "selected_rank": 1,
+      "match_score": 1.0,
+      "threshold": 0.72,
+      "candidate_count": 1
+    },
+    "rejected_articles": [],
+    "skipped_count": 0,
+    "skipped_titles": []
+  },
+  "benchmark_status": "benchmarkable"
+}

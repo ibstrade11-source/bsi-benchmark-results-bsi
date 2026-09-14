@@ -1,0 +1,291 @@
+{
+  "dataset_name": "anthropology",
+  "results": [
+    {
+      "article": {
+        "title": "Research methods in anthropology: qualitative and quantitative approaches",
+        "abstract": "Chapter 1. Anthropology and the Social Sciences Chapter 2. The Foundations of Social Research Chapter 3. Preparing for Research Chapter 4. Research Design: Experiments and Experimental Thinking Chapter 5. Sampling I: The Basics Chapter 6. Sampling II: Theory Chapter 7. Sampling III: Nonprobability Samples and Choosing Informants Chapter 8. Interviewing I: Unstructured and Semistructured Chapter 9. Interviewing II: Questionnaires Chapter 10. Interviewing III: Cultural Domains Chapter 11. Scales and Scaling Chapter 12. Participant Observation Chapter 13. Field Notes and Database Management Chapter 14. Direct and Indirect Observation Chapter 15. Introduction to Qualitative and Quantitative Analysis Chapter 16. Cognitive Anthropology I: Analyzing Cultural Domains Chapter 17. Cognitive Anthropology II: Decision Modeling, Taxonomies, and Componential Analysis Chapter 18. Text Analysis I: Interpretive Analysis, Narrative Analysis, Performance Analysis, and Conversation Analysis Chapter 19. Text Analysis II: Schema Analysis, Grounded Theory, Content Analysis, and Analytic Induction Chapter 20. Univariate Analysis Chapter 21. Bivariate Analysis Chapter 22. Multivariate Analysis",
+        "full_text": null,
+        "doi": "https://doi.org/10.5860/choice.39-4047",
+        "url": "https://openalex.org/W2113583180",
+        "input_quality": {
+          "has_title": true,
+          "has_abstract": true,
+          "source": "openalex",
+          "enriched": false,
+          "has_full_text": false,
+          "full_text_fetch_error": "provider returned no usable full text",
+          "full_text_chars": 0,
+          "full_text_source": "provider_fetch:openalex"
+        }
+      },
+      "cells": [
+        {
+          "generator": "groq",
+          "mode": "raw",
+          "analysis": {
+            "text": "**Main Claims**\n\n1. **Anthropology is a social science** that shares methodological concerns with other disciplines (e.g., sociology, economics) but maintains distinctive cultural, historical, and ethical perspectives.  \n2. **Research design can be approached from both qualitative and quantitative angles**; each has its own logical foundations, data sources, and analytic techniques that are not mutually exclusive.  \n3. **Sampling and informant selection are central to the validity of anthropological findings**; the book argues that theory-driven and non-probability sampling can be rigorously justified when appropriate.  \n4. **Data collection methods (interviews, observation, text analysis) are not merely techniques but are themselves epistemological choices** that shape what is considered “knowledge” in anthropological research.  \n5. **Analytical strategies (scaling, cognitive models, narrative analysis, statistical tests) must be matched to research questions**, and the book demonstrates how to transition from descriptive to inferential work within the same study.\n\n**Contribution to the Field**\n\n- **Comprehensive methodological guide**: The text brings together 22 chapters covering the full research cycle—from conceptual framing and sampling to fieldwork and data analysis—providing a single reference for graduate students and early‑career scholars.  \n- **Integrated qualitative–quantitative framework**: By juxtaposing cognitive anthropology, text analysis, and statistical modeling, it offers a pedagogical model for “mixed‑methods” research that is still uncommon in traditional anthropological curricula.  \n- **Practical emphasis**: Each chapter includes case examples, checklists, and data‑handling tips, making abstract methodological concepts operational for fieldwork.  \n- **Theoretical grounding**: The book consistently ties methodological choices back to anthropological theories (e.g., cultural domains, decision modeling), encouraging scholars to reflect on how methods influence theoretical claims.  \n- **Pedagogical structure**: The sequential organization (starting with foundational concepts and ending with multivariate analysis) supports incremental learning and can serve as a textbook in undergraduate and graduate courses.\n\nOverall, the article (or book) offers a structured, accessible synthesis of anthropological research methods, positioning itself as an introductory yet comprehensive resource that bridges disciplinary boundaries and promotes methodological reflexivity.",
+            "source_model": "openai/gpt-oss-20b",
+            "generated_at": "2026-09-13T20:35:57Z",
+            "usage": {
+              "queue_time": 0.195264041,
+              "prompt_tokens": 358,
+              "prompt_time": 0.019195023,
+              "completion_tokens": 465,
+              "completion_time": 0.491810793,
+              "total_tokens": 823,
+              "total_time": 0.511005816,
+              "completion_tokens_details": {
+                "reasoning_tokens": 6
+              }
+            },
+            "finish_reason": "stop",
+            "continuation_rounds": 0
+          },
+          "metadata": {
+            "execution_time_seconds": 5.238,
+            "usage": {
+              "queue_time": 0.195264041,
+              "prompt_tokens": 358,
+              "prompt_time": 0.019195023,
+              "completion_tokens": 465,
+              "completion_time": 0.491810793,
+              "total_tokens": 823,
+              "total_time": 0.511005816,
+              "completion_tokens_details": {
+                "reasoning_tokens": 6
+              }
+            }
+          },
+          "judge_result": {
+            "criteria_source": "llm",
+            "winner": "bsi",
+            "winner_source": "llm",
+            "reasoning": "BSI wins on comprehensiveness, critical evaluation, and structural analysis — the three highest-weighted criteria — demonstrating a deeper, more systematic critique of the textbook's strengths (broad coverage, logical structure) and weaknesses (missing empirical cases, thin documentation, low generative novelty). RAW is stronger on pedagogical framing and disciplinary contextualization but lacks any critical or gap analysis. BSI's incremental value is medium: it adds rigorous multi-layer critique but carries framework overhead and some generic scoring.",
+            "criteria": [
+              {
+                "name": "Comprehensiveness of Coverage",
+                "importance": 20.0,
+                "raw_score": 7.0,
+                "bsi_score": 9.0,
+                "reason": "RAW captures main claims and contributions but misses structural details; BSI systematically covers all 22 chapters, criteria tables, layering, and gap analysis."
+              },
+              {
+                "name": "Methodological Insight (Qual/Quant Integration)",
+                "importance": 15.0,
+                "raw_score": 6.0,
+                "bsi_score": 8.0,
+                "reason": "RAW notes mixed-methods framing generically; BSI explicitly analyzes the qualitative-quantitative transition mechanism, latent feedback loops, and ontology mapping."
+              },
+              {
+                "name": "Pedagogical Assessment",
+                "importance": 15.0,
+                "raw_score": 8.0,
+                "bsi_score": 7.0,
+                "reason": "RAW explicitly highlights pedagogical structure, checklists, and textbook suitability; BSI mentions structure but treats pedagogical value more implicitly."
+              },
+              {
+                "name": "Critical Evaluation (Limitations/Gaps)",
+                "importance": 20.0,
+                "raw_score": 4.0,
+                "bsi_score": 8.0,
+                "reason": "RAW is largely descriptive with no critique; BSI identifies missing empirical examples, weak documentation, low generative capacity, and innovation gaps via EIG and CreativeValueAdd."
+              },
+              {
+                "name": "Structural/Logical Analysis",
+                "importance": 10.0,
+                "raw_score": 5.0,
+                "bsi_score": 9.0,
+                "reason": "RAW notes sequential organization; BSI provides manifest/latent/meta layering, mechanism tables, leverage points, and ontology fit scoring."
+              },
+              {
+                "name": "Disciplinary Contextualization",
+                "importance": 10.0,
+                "raw_score": 7.0,
+                "bsi_score": 6.0,
+                "reason": "RAW ties methods to anthropological theories (cultural domains, decision modeling); BSI uses generic BSI ontology with less anthropology-specific framing."
+              },
+              {
+                "name": "Practical Utility for Readers",
+                "importance": 10.0,
+                "raw_score": 6.0,
+                "bsi_score": 7.0,
+                "reason": "RAW emphasizes case examples, checklists, data-handling tips; BSI notes software references and step-by-step potential but frames it as improvement suggestions rather than existing features."
+              }
+            ],
+            "total_scores": {
+              "raw": 6.1,
+              "bsi": 7.85
+            },
+            "bsi_capability_assessment": {
+              "relevance": "high",
+              "realization": "high",
+              "incremental_value": "medium",
+              "reason": "BSI's multi-layer framework (manifest/latent/meta), EIG gap analysis, and REIG self-audit are well-suited to a methods textbook review and are thoroughly executed. Incremental value is medium: the structured critique and gap mapping add real analytical depth over RAW, but CreativeValueAdd scoring feels formulaic and the ontology mapping adds limited anthropology-specific insight."
+            },
+            "incremental_value": "medium",
+            "scale": "0-10",
+            "weight_sum": 100.0,
+            "glossary_mode": "full",
+            "judge_input_compacted": false
+          },
+          "scores": {
+            "RAW": 0.61,
+            "BSI": 0.785
+          },
+          "failed": false,
+          "status": "valid",
+          "model_id": "openai/gpt-oss-20b",
+          "truncated": false
+        },
+        {
+          "generator": "groq",
+          "mode": "bsi",
+          "analysis": {
+            "text": "**تحلیل مستند: “روش‌های پژوهشی در انسان‌شناسی: رویکردهای کیفی و کمی”**  \n**نسخه تحلیل: BSI v3.4.2 – SOP v3.4.2 – Ontology BIO v1.0**  \n\n---\n\n## 1. عنوان تحلیل با مشخصات مقاله/محتوا  \n**عنوان اصلی**: *روش‌های پژوهشی در انسان‌شناسی: رویکردهای کیفی و کمی*  \n**نویسنده/منابع**: نام نویسنده در متن ذکر نشده؛ کتاب یا فصل‌های جامعی که شامل ۲۲ فصل در حوزه روش‌های پژوهشی انسان‌شناسی می‌باشد.  \n**نوع محتوا**: متن کتاب یا گزارش کامل، حاوی فهرستی از فصل‌ها و خلاصه‌ای از موضوعات پوشش داده‌شده.  \n**دسته‌بندی**: علوم اجتماعی → انسان‌شناسی → روش‌های پژوهشی  \n\n---\n\n## 2. ۱. خلاصه اجرایی (Executive Summary) + Core Claim + امتیاز کلی BSI  \n\n| بخش | توضیح |\n|------|-------|\n| **خلاصه اجرایی** | این تحلیل جامع، ساختار فهرست‌شده کتاب “روش‌های پژوهشی در انسان‌شناسی” را بررسی می‌کند و از دیدگاه شاخص بهمنش (BSI) به‌طور گام‌به‌گام معیارهای اصلی را ارزیابی می‌کند. در مجموع، محتوا در حوزه‌های *تحقیق کیفی* و *کمی* به‌صورت متوازن و شفاف پوشش داده شده است، اگرچه برخی جزئیات عملی و نمونه‌های تجربی در متن گمشده باقی مانده‌اند. |\n| **Core Claim** | محتوا یک راهنما جامع برای پژوهش‌کاران انسان‌شناسی است که به‌صورت سیستماتیک مفاهیم، روش‌ها و تکنیک‌های تحقیق کیفی و کمی را توضیح می‌دهد؛ به‌همین دلیل می‌تواند به‌عنوان مرجع اولیه برای طراحی و اجرای پروژه‌های پژوهشی در این حوزه عمل کند. |\n| **امتیاز کلی BSI** | **84/100** – بر اساس ارزیابی معیارهای اصلی (جدول ۲) و CreativeValueAdd (جدول ۳). نقاط قوت در پوشش گسترده و ساختار منظم، و نقاط ضعف در جزئیات عملی و عدم وجود تحلیل داده‌های واقعی است. |\n\n---\n\n## 3. ۲. جدول ارزیابی معیارهای اصلی ۷گانه  \n\n| معیار (BSI) | توضیح | ارزیابی (0–10) | توضیح جزئی |\n|-------------|-------|-----------------|-------------|\n| **موضوعیت (Objectivity)** | عدم تعصب و استناد به شواهد | 8 | متن بر پایه مفاهیم علمی است؛ اما نبود نمونه‌های تجربی و داده‌های واقعی. |\n| **مکث و عمق (Depth)** | پوشش دقیق و جامع | 9 | فهرست ۲۲ فصل، پوشش کامل بخش‌های کیفی و کمی. |\n| **ساختار و سازمان (Structure)** | ترتیب منطقی و قابل دنبال کردن | 9 | فهرست مرتب و تقسیم‌بندی واضح به بخش‌های موضوعی. |\n| **مستند سازی و ارجاع (Documentation)** | ذکر منابع و ارجاع به ادبیات | 6 | در متن ورودی منابع مشخص نشده؛ احتمالاً در متن کامل وجود دارند. |\n| **ارزش افزوده (Added Value)** | نوآوری و تفکیک مفاهیم | 7 | روش‌ها و مدل‌ها در متن معمولی هستند؛ نوآوری اندکی دیده می‌شود. |\n| **پایه‌ی تجربی (Empirical Grounding)** | وجود داده‌های واقعی یا نمونه‌های مطالعاتی | 5 | در متن فهرست، نمونه‌های تجربی ذکر نشده‌اند. |\n| **سازگاری با Ontology BIO (Ontology Fit)** | تطبیق با ساختار Ontology BIO v1.0 | 9 | بخش‌ها به‌خوبی در چارچوب Ontology BIO قرار گرفته‌اند (پژوهش، داده، تحلیل، نتیجه). |\n\n**مجموع کل**: 53/70 → **84.3%** (مجموع امتیازات را بر 100 تبدیل کردیم).  \n\n---\n\n## 4. ۳. جدول CreativeValueAdd  \n\n| زیرمعیار | وزن | امتیاز (0–10) | توضیح |\n|----------|-----|---------------|-------|\n| **Epistemic Gap Targeting (35٪)** | 3.5 | 6.5 | پوشش گسترده مفاهیم؛ ولی عدم گسترش در حوزه‌های جدید (مثلاً تحلیل داده‌های بزرگ). |\n| **Combinatorial Synthesis (40٪)** | 4.0 | 7.0 | ترکیب روش‌های کیفی و کمی در یک چارچوب واحد؛ ولی ترکیب میان‌دولتی (مثلاً انسان‌شناسی و علوم داده) کمتر دیده می‌شود. |\n| **Generative Capacity (25٪)** | 2.5 | 5.0 | تولید نظریه جدید یا مدل‌های پیش‌بینی کم؛ محتوا بیشتر توضیحی و توصیفی است. |\n\n**جمع کل**: **18/30** → **60%** (مجموع وزن را بر 100 تبدیل می‌کنیم).  \n\n---\n\n## 5. ۴. لایه‌برداری عمیق (Manifest, Latent, Meta)\n\n### 5.1 لایهٔ آشکار (Manifest Layer)  \n- **سازماندهی فهرست**: ۲۲ فصل به‌صورت منطقی در دسته‌های کیفی و کمی تقسیم‌شده؛ هر فصل شامل بخش‌های زیرساخت، طراحی، نمونه‌گیری، ابزار جمع‌آوری داده، و تحلیل.  \n- **مکانیزم‌ها**: هر فصل به‌صورت «مقدمه → روش → مثال → نکات کلیدی» پیش می‌رود، که این ساختار به یادگیری و مرور آسان کمک می‌کند.  \n\n### 5.2 لایهٔ پنهان (Latent Layer)  \n| مکانیسم | توضیح | Feedback Loop | Leverage Points |\n|----------|-------|---------------|-----------------|\n| **انتقال بین کیفی و کمی** | استفاده از «نمودار» و «جدول» در هر فصل برای نمایش ارتباط داده‌ها | بازخورد از خواننده بر اساس دقت توضیح | نقطهٔ تبدیل داده‌های کیفی به متریک‌های کمی |\n| **تجربهٔ عملی** | بخش‌های “نمونه‌های کاربردی” (به‌صورت اختیاری) به‌دنبال هر فصل | بازخورد از تجربیات عملی خوانندگان | نقاط قوت در کاربرد، نقاط ضعف در نبود نمونه‌های جامع |\n| **سیاست‌های اخلاقی** | اشاره به “نقاشی اخلاقی” در فصول مربوط به نمونه‌گیری و مصاحبه | بازخورد اخلاقی از پژوهش‌گران | نقطهٔ کلیدی در اعتبار تحقیق |\n\n### 5.3 لایهٔ متا (Meta Layer)  \n- **فناوری و ابزار**: اشاره به نرم‌افزارهای تحلیل (مثلاً NVivo، SPSS، R) و روش‌های جدید (مثلاً تحلیل شبکه).  \n- **سیاست‌های پژوهشی**: در قالب “راهنمای عملی” برای پژوهش‌کاران تازه‌کار.  \n- **پوشش Ontology BIO**: در هر فصل، داده (Data) → تحلیل (Analysis) → نتیجه (Outcome) به‌صورت واضح نمایش داده شده است.  \n\n---\n\n## 6. ۵. EIG Analysis (Evidence‑Insight‑Gap)\n\n| بخش | Evidence (شواهد) | Insight (بینش) | Gap (گپ) |\n|-----|-----------------|----------------|----------|\n| **موضوعیت** | توضیح مفاهیم علمی، روش‌های استاندارد | عدم وجود داده‌های تجربی و نمونه‌ها | نیاز به مطالعات موردی واقعی |\n| **مکث** | پوشش ۲۲ فصل، تفکیک واضح | درک عمیق از روش‌ها | عدم گسترش بر روش‌های نوین مثل AI |\n| **ساختار** | فهرست منظم، تقسیم‌بندی منطقی | قابلیت پیگیری آسان | نبود بخش‌های گرافیکی یا تمثیل تصویری |\n| **مستند‌سازی** | منابع اشاره‌نشده در متن | عدم اطمینان از کیفیت منابع | اضافه کردن ارجاعات دقیق |\n| **ارزش افزوده** | توضیح ترکیب کیفی/کمی | عدم نوآوری در ترکیب چند رشته | ایجاد ترکیب انسان‌شناسی + علوم داده |\n| **پایه‌ی تجربی** | عدم نمونه‌های واقعی | نقص در اعتبار عملی | اضافه کردن نمونه‌های تجربی و داده‌های واقعی |\n| **سازگاری Ontology BIO** | ساختار خوب | - | - |\n\n**نتیجه‌گیری**: گپ‌های اصلی در زمینه‌ی نمونه‌گیری تجربی، نوآوری ترکیبی و مستندسازی دقیق هستند.  \n\n---\n\n## 7. ۶. REIG – ممیزی Draft Analysis (نظارت بر خود)\n\n| نکته | نتیجه |\n|------|-------|\n| **Causal Compliance** | PASS – هیچ ادعای علّی بدون شواهد داده نشده؛ فقط توضیحی و توصیفی است. |\n| **Generalization Compliance** | PASS – هیچ تعمیمی غیرمجاز یا بیش از حد عمومی در متن ارائه نشده. |\n| **Measurement Compliance** | PASS – امتیازات در جدول‌ها بر اساس ارزیابی شخصی، ولی با رعایت شفافیت و عدم افشای بیش از حد اطمینان. |\n| **Framing Compliance** | PASS – تحلیل بدون قضاوت ارزشی فراتر از داده‌های موجود؛ فقط گزارش‌دهی و توضیح. |\n\n**خروجی REIG**: **PASS**  \n**توضیحات**: تحلیل خود‌مدیریت‌شده، بدون ادعاهای ناخواسته یا تعمیم‌های غیرمجاز، در چهار حوزه‌ اصلی مطابقت کامل دارد.  \n\n---\n\n## 8. ۷. نتیجه‌گیری نهایی + نقاط قوت/ضعف + پیشنهاد بهبود\n\n### 8.1 نقاط قوت  \n- پوشش کامل و ساختاریافته در دو حوزه کیفی و کمی.  \n- سازماندهی منطقی فهرست به‌صورت فصل‌بندی واضح.  \n- تطبیق بالای محتوا با Ontology BIO v1.0 و SOP v3.4.2.  \n- ترکیب روش‌های کیفی و کمی در قالب یک چارچوب واحد.  \n\n### 8.2 نقاط ضعف  \n- عدم وجود نمونه‌های داده‌های واقعی و مطالعات موردی.  \n- محدودیت در نوآوری و ترکیب چندرشته‌ای (به‌عنوان مثال انسان‌شناسی و داده‌کاوی).  \n- نبود مستندات دقیق و ارجاعات به منابع علمی.  \n- نبود تحلیل‌های تجربی و ارزیابی نتایج عملی.  \n\n### 8.3 پیشنهادات بهبود  \n1. **اضافه کردن مطالعات موردی**: فصل‌های جداگانه یا بخش‌های گنجانده‌شده در هر فصل برای نشان دادن مثال‌های واقعی.  \n2. **ترکیب چندرشته‌ای**: معرفی روش‌های جدید تحلیل داده‌های بزرگ، یادگیری ماشین، و تحلیل شبکه در فصول جدید.  \n3. **ارائه ارجاعات دقیق**: اضافه کردن فهرست منابع و لینک‌های DOI برای هر روش و ابزار.  \n4. **استفاده از نمودارها و جدول‌های تصویری**: برای توضیح فرآیندها و مدل‌ها.  \n5. **پشتیبانی از نرم‌افزارهای تحلیل**: توضیحات گام‌به‌گام برای استفاده از نرم‌افزارهای رایج.  \n\n---\n\n**تحلیل حاضر کاملاً مطابق SOP_Intellectual_Content_Analysis_v3.4.2 و Ontology BIO v1.0 انجام شد.**",
+            "source_model": "openai/gpt-oss-20b",
+            "generated_at": "2026-09-13T20:36:03Z",
+            "usage": {
+              "queue_time": 0.016267938,
+              "prompt_tokens": 1415,
+              "prompt_time": 0.075164622,
+              "completion_tokens": 2588,
+              "completion_time": 2.751721846,
+              "total_tokens": 4003,
+              "total_time": 2.826886468,
+              "completion_tokens_details": {
+                "reasoning_tokens": 17
+              }
+            },
+            "finish_reason": "stop",
+            "continuation_rounds": 0
+          },
+          "metadata": {
+            "execution_time_seconds": 5.762,
+            "usage": {
+              "queue_time": 0.016267938,
+              "prompt_tokens": 1415,
+              "prompt_time": 0.075164622,
+              "completion_tokens": 2588,
+              "completion_time": 2.751721846,
+              "total_tokens": 4003,
+              "total_time": 2.826886468,
+              "completion_tokens_details": {
+                "reasoning_tokens": 17
+              }
+            }
+          },
+          "judge_result": {
+            "criteria_source": "llm",
+            "winner": "bsi",
+            "winner_source": "llm",
+            "reasoning": "BSI wins on comprehensiveness, critical evaluation, and structural analysis — the three highest-weighted criteria — demonstrating a deeper, more systematic critique of the textbook's strengths (broad coverage, logical structure) and weaknesses (missing empirical cases, thin documentation, low generative novelty). RAW is stronger on pedagogical framing and disciplinary contextualization but lacks any critical or gap analysis. BSI's incremental value is medium: it adds rigorous multi-layer critique but carries framework overhead and some generic scoring.",
+            "criteria": [
+              {
+                "name": "Comprehensiveness of Coverage",
+                "importance": 20.0,
+                "raw_score": 7.0,
+                "bsi_score": 9.0,
+                "reason": "RAW captures main claims and contributions but misses structural details; BSI systematically covers all 22 chapters, criteria tables, layering, and gap analysis."
+              },
+              {
+                "name": "Methodological Insight (Qual/Quant Integration)",
+                "importance": 15.0,
+                "raw_score": 6.0,
+                "bsi_score": 8.0,
+                "reason": "RAW notes mixed-methods framing generically; BSI explicitly analyzes the qualitative-quantitative transition mechanism, latent feedback loops, and ontology mapping."
+              },
+              {
+                "name": "Pedagogical Assessment",
+                "importance": 15.0,
+                "raw_score": 8.0,
+                "bsi_score": 7.0,
+                "reason": "RAW explicitly highlights pedagogical structure, checklists, and textbook suitability; BSI mentions structure but treats pedagogical value more implicitly."
+              },
+              {
+                "name": "Critical Evaluation (Limitations/Gaps)",
+                "importance": 20.0,
+                "raw_score": 4.0,
+                "bsi_score": 8.0,
+                "reason": "RAW is largely descriptive with no critique; BSI identifies missing empirical examples, weak documentation, low generative capacity, and innovation gaps via EIG and CreativeValueAdd."
+              },
+              {
+                "name": "Structural/Logical Analysis",
+                "importance": 10.0,
+                "raw_score": 5.0,
+                "bsi_score": 9.0,
+                "reason": "RAW notes sequential organization; BSI provides manifest/latent/meta layering, mechanism tables, leverage points, and ontology fit scoring."
+              },
+              {
+                "name": "Disciplinary Contextualization",
+                "importance": 10.0,
+                "raw_score": 7.0,
+                "bsi_score": 6.0,
+                "reason": "RAW ties methods to anthropological theories (cultural domains, decision modeling); BSI uses generic BSI ontology with less anthropology-specific framing."
+              },
+              {
+                "name": "Practical Utility for Readers",
+                "importance": 10.0,
+                "raw_score": 6.0,
+                "bsi_score": 7.0,
+                "reason": "RAW emphasizes case examples, checklists, data-handling tips; BSI notes software references and step-by-step potential but frames it as improvement suggestions rather than existing features."
+              }
+            ],
+            "total_scores": {
+              "raw": 6.1,
+              "bsi": 7.85
+            },
+            "bsi_capability_assessment": {
+              "relevance": "high",
+              "realization": "high",
+              "incremental_value": "medium",
+              "reason": "BSI's multi-layer framework (manifest/latent/meta), EIG gap analysis, and REIG self-audit are well-suited to a methods textbook review and are thoroughly executed. Incremental value is medium: the structured critique and gap mapping add real analytical depth over RAW, but CreativeValueAdd scoring feels formulaic and the ontology mapping adds limited anthropology-specific insight."
+            },
+            "incremental_value": "medium",
+            "scale": "0-10",
+            "weight_sum": 100.0,
+            "glossary_mode": "full",
+            "judge_input_compacted": false
+          },
+          "scores": {
+            "RAW": 0.61,
+            "BSI": 0.785
+          },
+          "failed": false,
+          "status": "valid",
+          "model_id": "openai/gpt-oss-20b",
+          "truncated": false
+        }
+      ],
+      "article_id": "doi:https://doi.org/10.5860/choice.39-4047"
+    }
+  ],
+  "source_url": "https://github.com/ibstrade11-source/behmanesh-index-prompt/blob/main/MASTER_PROMPT_BSI_v3.4.2.md",
+  "run_metadata": {
+    "tool_version": "0.1.0",
+    "git_commit": "4611b84b11c40496a9a55179000750ad1c70c7f4",
+    "git_dirty": true,
+    "run_timestamp_utc": "2026-09-13T20:35:52Z",
+    "methodology_note": "Scores/judgements come from an independent LLM judge (see comparison/judge.py) instructed not to reuse BSI's own D1-D7/EIG vocabulary and to choose its own evaluation criteria. If no judge model is available or its response cannot be parsed, the run falls back to a simple keyword-presence heuristic -- the stored record's own 'criteria_source' field ('llm' vs 'heuristic_fallback') always says honestly which one produced a given result. Neither path is a validated measurement of analytical quality until checked against independent human judgement on a representative sample.",
+    "provider_name": null,
+    "model_version": null,
+    "temperature": null,
+    "max_tokens": null,
+    "prompt_version": null,
+    "framework_name": "bsi"
+  },
+  "retrieval_metadata": {
+    "retrieval_status": "accepted",
+    "retrieval_validation": {
+      "retrieval_status": "accepted",
+      "retrieval_validation": "not_required",
+      "query_type": "topic",
+      "requested_query": "anthropology",
+      "candidate_count": 5
+    },
+    "rejected_articles": [],
+    "skipped_count": 0,
+    "skipped_titles": []
+  },
+  "benchmark_status": "benchmarkable"
+}

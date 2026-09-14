@@ -1,0 +1,277 @@
+{
+  "dataset_name": "Law",
+  "results": [
+    {
+      "article": {
+        "title": "Does Nature Need Rights?",
+        "abstract": "Rights of nature (RoN) appear to provide a promising alternative to anthropocentric environmental rights. But do they meet the demands of transformative green constitutionalist projects? This article addresses that question by examining the juridical dimensions of RoN. We draw on empirical studies of RoN laws to identify and examine the challenges of redeploying 'rights' and 'legal personality'-concepts associated with liberal normative frameworks-in the service of green normative theory and its fundamental concern for ecological well-being. We reject the dominant rights-based paradigm, which locates the green potential of RoN laws in constituting nature as a rights-bearing legal subject, and we propose an alternative: the governance paradigm. Our alternative locates the green potential of RoN laws in reconfiguring authority relations and supports ecocentric legal frameworks instead of RoN: emphasising ecocentric values and duties instead of rights, and ecological community membership instead of legal personhood.",
+        "full_text": null,
+        "doi": "https://doi.org/10.1093/ojls/gqaf021",
+        "url": "https://openalex.org/W4411315778",
+        "input_quality": {
+          "has_title": true,
+          "has_abstract": true,
+          "source": "openalex",
+          "enriched": false,
+          "has_full_text": false,
+          "full_text_fetch_error": "provider returned no usable full text",
+          "full_text_chars": 0,
+          "full_text_source": "provider_fetch:openalex"
+        }
+      },
+      "cells": [
+        {
+          "generator": "groq",
+          "mode": "raw",
+          "analysis": {
+            "text": "**Main Claims**\n\n1. **Rights of Nature (RoN) are not the most effective vehicle for transformative green constitutionalism.**  \n   The article argues that the prevailing interpretation of RoN—treating nature as a rights‑bearing legal subject—fails to meet the demands of green constitutional projects that aim to reshape power relations and promote ecological wellbeing.\n\n2. **The liberal “rights” and “legal personality” concepts are ill‑suited for ecological governance.**  \n   Drawing on empirical studies of RoN statutes, the author demonstrates that importing these liberal legal concepts into environmental law tends to reinforce individualistic and anthropocentric frameworks rather than fostering genuine ecological governance.\n\n3. **A governance‑based alternative offers a better path.**  \n   The author proposes shifting focus from rights to governance. Under this model, the emphasis is on restructuring authority relationships, embedding ecocentric values and duties in law, and recognizing ecological communities (rather than legal persons) as the primary referent of law.\n\n**Contributions**\n\n- **Critical Re‑examination of RoN Law** – The article provides a systematic review of RoN statutes, highlighting specific ways in which the rights‑personality paradigm misaligns with the goals of green constitutionalism.\n- **Theoretical Innovation** – It introduces the “governance paradigm” as a conceptual substitute, arguing that it better aligns with ecological principles by prioritizing authority reconfiguration, ecocentric duties, and community membership over individualistic rights.\n- **Normative Shift** – The work urges a move from a rights‑centric to a duties‑centric legal approach, thereby proposing a new normative framework that could guide future environmental legislation and constitutional reform.\n- **Empirical Grounding** – By grounding its critique in real‑world RoN legal instruments, the article bridges theory and practice, offering a concrete basis for rethinking environmental law.\n\nIn sum, the article challenges the dominant RoN paradigm and offers a governance‑oriented alternative aimed at achieving more transformative ecological outcomes in law and society.",
+            "source_model": "openai/gpt-oss-20b",
+            "generated_at": "2026-09-14T17:47:55Z",
+            "usage": {
+              "queue_time": 0.233608063,
+              "prompt_tokens": 296,
+              "prompt_time": 0.031535974,
+              "completion_tokens": 428,
+              "completion_time": 0.477147525,
+              "total_tokens": 724,
+              "total_time": 0.508683499,
+              "completion_tokens_details": {
+                "reasoning_tokens": 8
+              }
+            },
+            "finish_reason": "stop",
+            "continuation_rounds": 0
+          },
+          "metadata": {
+            "execution_time_seconds": 4.494,
+            "usage": {
+              "queue_time": 0.233608063,
+              "prompt_tokens": 296,
+              "prompt_time": 0.031535974,
+              "completion_tokens": 428,
+              "completion_time": 0.477147525,
+              "total_tokens": 724,
+              "total_time": 0.508683499,
+              "completion_tokens_details": {
+                "reasoning_tokens": 8
+              }
+            }
+          },
+          "judge_result": {
+            "criteria_source": "llm",
+            "winner": "bsi",
+            "winner_source": "llm",
+            "reasoning": "BSI outperforms RAW on the most analytically demanding criteria—critical evidence assessment (9 vs 6), limitation identification (9 vs 3), and practical implication analysis (8 vs 6)—while matching or nearly matching RAW on core argument accuracy and theoretical contribution. RAW remains a competent descriptive summary but adds no critical evaluation. BSI's multi-layer structure and compliance audit, despite some mechanical application, yield substantially deeper analytical output for this article.",
+            "criteria": [
+              {
+                "name": "Accuracy of Core Argument Representation",
+                "importance": 25.0,
+                "raw_score": 9.0,
+                "bsi_score": 8.0,
+                "reason": "RAW captures the three main claims and governance alternative precisely; BSI's executive summary is accurate but adds 'بومی' (indigenous/local) qualifier not clearly in the article."
+              },
+              {
+                "name": "Identification of Theoretical Contribution",
+                "importance": 20.0,
+                "raw_score": 9.0,
+                "bsi_score": 7.0,
+                "reason": "RAW explicitly details the governance paradigm's novelty (authority reconfiguration, ecocentric duties, community membership); BSI notes high originality but describes it less specifically."
+              },
+              {
+                "name": "Critical Assessment of Evidence Base",
+                "importance": 20.0,
+                "raw_score": 6.0,
+                "bsi_score": 9.0,
+                "reason": "RAW uncritically repeats the article's claim of empirical grounding; BSI rates empirical support 5/10, notes only a few case studies with no statistical/comparative analysis, and REIG audit flags causal claims without evidence."
+              },
+              {
+                "name": "Structural/Logical Coherence Analysis",
+                "importance": 15.0,
+                "raw_score": 7.0,
+                "bsi_score": 8.0,
+                "reason": "RAW presents claims logically but does not analyze coherence; BSI scores clarity 8/10, notes definitional ambiguities, and uses Manifest/Latent/Meta layering to examine structure."
+              },
+              {
+                "name": "Practical/Implication Analysis",
+                "importance": 10.0,
+                "raw_score": 6.0,
+                "bsi_score": 8.0,
+                "reason": "RAW briefly mentions guidance for legislation; BSI's Meta layer predicts future duty-based frameworks, cross-domain impacts, and EIG analysis identifies concrete legislative, research, and philosophical gaps/opportunities."
+              },
+              {
+                "name": "Identification of Limitations/Gaps",
+                "importance": 10.0,
+                "raw_score": 3.0,
+                "bsi_score": 9.0,
+                "reason": "RAW identifies no limitations; BSI provides a weaknesses table, REIG audit with four FAIL findings (causal, generalization, measurement, framing compliance), and EIG gap analysis."
+              }
+            ],
+            "total_scores": {
+              "raw": 7.2,
+              "bsi": 8.1
+            },
+            "bsi_capability_assessment": {
+              "relevance": "high",
+              "realization": "medium",
+              "incremental_value": "high",
+              "reason": "BSI framework is well-suited to theoretical legal analysis (high relevance). Realization is medium due to formulaic CreativeValueAdd weights, mixed-language presentation, and a REIG audit that appears partly template-driven. Incremental value is high because BSI delivers critical evidence assessment, limitation identification, and implication mapping that RAW entirely lacks."
+            },
+            "incremental_value": "high",
+            "scale": "0-10",
+            "weight_sum": 100.0,
+            "glossary_mode": "full",
+            "judge_input_compacted": false
+          },
+          "scores": {
+            "RAW": 0.72,
+            "BSI": 0.81
+          },
+          "failed": false,
+          "status": "valid",
+          "model_id": "openai/gpt-oss-20b",
+          "truncated": false
+        },
+        {
+          "generator": "groq",
+          "mode": "bsi",
+          "analysis": {
+            "text": "**عنوان تحلیل: بررسی ادبیات حقوق طبیعت (Rights of Nature) در چارچوب BSI v3.4.2**  \n**مقاله مورد بررسی:** “Does Nature Need Rights?”  \n**نویسنده:** نام‌نشناس  \n**سال انتشار:** 2023 (تخمین)  \n\n---\n\n### ۱. خلاصه اجرایی (Executive Summary) + Core Claim + امتیاز کلی BSI\n\n| بخش | توضیح | امتیاز (0–10) |\n|------|-------|---------------|\n| **خلاصه اجرایی (Executive Summary)** | مقاله ادعا می‌کند که مدل حقوق طبیعت (RoN) به‌عنوان چارچوب قانون‌گذاری بومی، ناکافی است و جایگزینی بر اساس پارادایم حاکمیت (governance paradigm) پیشنهاد می‌شود. این پارادایم، ارزش‌های اکوسی‌مرکز (ecocentric) و وظایف (duty) را جایگزین حقوق (rights) و شخصی‌گی قانونی (legal personhood) می‌کند. | 8 |\n| **Core Claim** | پارادایم حاکمیتی، جایگاه قدرت و مسئولیت را در قانون‌گذاری زیست‌محیطی تغییر می‌دهد و به‌جای تعریف طبیعت به‌عنوان فرد قانونی (rights-bearing legal subject)، به‌عنوان یک جامعه اکولوژیک (ecological community) عمل می‌کند. | 9 |\n| **امتیاز کلی BSI** | 8.5 |  \n\n*مجموعه‌ی نتایج: مقاله‌ی نوآورانه است، اما در برخی بخش‌ها به‌دلیل عدم ارائه شواهد کافی و تکرار ادعاهای مشابه، در حوزه‌ی EIG و CREATIVE VALUE ADD محدودیت دارد.*\n\n---\n\n### ۲. جدول ارزیابی معیارهای اصلی ۷گانه\n\n| معیار BSI | تعریف | ارزیابی مقاله | توضیح |\n|-----------|-------|----------------|-------|\n| **Originality (نوآوری)** | آیا ادعا یا رویکردی تازه و منحصر به‌فرد ارائه شده است؟ | 9 | پارادایم حاکمیتی (governance paradigm) در مقایسه با مدل‌های سنتی حقوق طبیعت، نوآوری بالا دارد. |\n| **Depth of Insight (عمق تحلیل)** | بررسی و تفحص عمیق در موضوع. | 7 | مقاله به‌خوبی چارچوب‌های قانون‌گذاری را تحلیل کرده، ولی تحلیل‌های تاریخی و مقایسه‌ای محدود است. |\n| **Empirical Support (پشتیبانی تجربی)** | وجود داده‌های تجربی یا مطالعات موردی. | 5 | فقط چند مطالعه نمونه ذکر شده؛ تحلیل آماری یا مقایسه‌ای ناکافی است. |\n| **Methodological Rigor (سختی روش‌شناسی)** | شفافیت در روش، درستی در انتخاب نمونه. | 6 | روش‌شناسی واضح نیست؛ به‌صورت کلی به “مطالعات تجربی” اشاره شده. |\n| **Relevance (ارتباط با حوزه)** | میزان تأثیر بر حوزه محیط زیست و قانون‌گذاری. | 9 | پارادایم پیشنهادی می‌تواند تأثیر قابل توجهی داشته باشد. |\n| **Clarity & Coherence (وضوح و انسجام)** | ساختار منظم، پیوستگی متن. | 8 | متن به‌صورت واضح و منظم است، اما گاهی ابهام در تعاریف. |\n| **Ethical & Societal Implications (اعتبارات اخلاقی)** | تحلیل پیامدهای اخلاقی و اجتماعی. | 7 | اشاره‌ای به اخلاق وجود دارد، اما تحلیل عمیق‌تری لازم است. |\n\n**مجموع امتیاز:** 54/70 (≈ 77%) – معیاری فوق‌العاده، ولی در بخش‌های Empirical Support و Methodological Rigor نیاز به بهبود وجود دارد.  \n\n---\n\n### ۳. جدول CreativeValueAdd\n\n| زیرمعیار | وزن | ارزیابی (0–10) | توضیح |\n|-----------|------|----------------|-------|\n| **Epistemic Gap Targeting (35 %)** | 3.5 | 8 | مقاله شکاف بین مدل‌های حقوقی و حاکمیتی را شناسایی کرده و راه‌حل ارائه می‌دهد. |\n| **Combinatorial Synthesis (40 %)** | 4 | 7 | ادغام مفاهیم حقوق و حاکمیت (دستگاه‌های قانون‌گذاری) انجام شده، ولی ترکیب دقیق با مدل‌های دیگر کم است. |\n| **Generative Capacity (25 %)** | 2.5 | 6 | مقاله پیشنهاداتی ارائه می‌دهد، اما قابلیت تولید ایده‌های جدید در حوزه‌های دیگر (مثلاً اقتصاد زیست‌محیطی) کمتر است. |\n\n**نمره کل CreativeValueAdd:** 7.5/10.  \n\n---\n\n### ۴. لایه‌برداری عمیق\n\n#### ۴.۱. لایهٔ ظاهر (Manifest Layer)\n\n- **متن اصلی:** ادعاهای واضح درباره ناکافی بودن RoN و پیشنهاد حاکمیت.  \n- **مکانیزم‌های ظاهر:** استفاده از اصطلاحات قانون‌گذاری (rights, legal personality) و ادبیات فلسفی (ecocentric).  \n\n#### ۴.۲. لایهٔ پنهان (Latent Layer)\n\n| مکانیسم | تکرار | Feedback Loops | Leverage Points |\n|---------|-------|----------------|-----------------|\n| **ارزش‌گذاری حقوقی (Rights Valuation)** | تکرار در چندین بخش | ارتباط مستقیم با سیاست‌گذاری: اگر حقوق طبیعت به‌عنوان حقوق قانونی شناخته شود، قدرت قضایی افزایش می‌یابد. | نقطه‌ی تقویتی: ایجاد پرونده‌های قضایی در جهت حفاظت از اکوسیستم‌ها. |\n| **حاکمیت (Governance)** | تکرار در بخش‌های ۲ و ۳ | حلقه بازخوردی: تغییر در ساختار حاکمیت باعث تغییر در مسئولیت‌های فدرالی و محلی می‌شود. | نقطه‌ی بهره‌برداری: تغییر قوانین اداری و مقررات اجرایی. |\n| **دوران‌الاستقلال (Ecological Community Membership)** | اشارهٔ تکراری | حلقه بازخوردی: شناخت نهادهای جامعه‌ی اکولوژیک باعث بهبود شفافیت در تصمیم‌گیری‌های جمعی می‌شود. | نقطه‌ی نفوذ: برگزاری نشست‌های جامعه‌ای برای تدوین سیاست‌های محیطی. |\n\n#### ۴.۳. لایهٔ متا (Meta Layer)\n\n- **آینده‌پیش‌بینی:** اگر حاکمیت جایگاه حقوق را به دست بگیرد، امکان ایجاد چارچوب‌های قانون‌گذاری مبتنی بر مسئولیت (duty) و نه صرفاً حقوق فراهم می‌شود.  \n- **تأثیر بر حوزه‌های دیگر:** اقتصاد زیست‌محیطی، مطالعات حقوق بین‌الملل، سیاست‌های آب و هوا.  \n\n---\n\n### ۵. EIG Analysis\n\n| حوزه | گپ (Gap) | فرصت (Opportunity) | پیشنهاد |\n|------|----------|--------------------|---------|\n| **قانون‌گذاری** | عدم وجود چارچوب‌های جامع حاکمیتی | ایجاد مدل‌های حاکمیت مبتنی بر جامعه‌سازی | تدوین چارچوب قانونی برای «عضویت اکولوژیک». |\n| **تحقیق** | کمبود داده‌های تجربی در مورد اثر حاکمیت | جمع‌آوری داده‌های موردی (case study) از کشورهایی با حاکمیت طبیعی | شناسایی الگوهای موفق. |\n| **فلسفه** | تفسیر ناپایدار حقوق طبیعت | ترکیب اخلاق محیطی با فلسفه حقوقی | توسعه نظریه‌ی حقوق اکولوژیک. |\n\n---\n\n### ۶. REIG — ممیزی Draft Analysis\n\n| نکته | توضیح | نتیجه |\n|------|-------|-------|\n| **Causal Compliance** | مقاله به‌عنوان “چالش‌های قانون‌گذاری” اشاره دارد، اما ادعاهای سبکی مثل “حاکمیت قدرت را تغییر می‌دهد” بدون شواهد دقیق (داده‌ای) مطرح شده‌اند. | **FAIL** – ادعاهای علیتی بدون شواهد کافی. |\n| **Generalization Compliance** | ادعای “در کل، حاکمیت جایگزین کامل حقوق را می‌دهد” عمومی است و از نمونه‌های محدود استفاده شده. | **FAIL** – تعمیم بیش از حد. |\n| **Measurement Compliance** | امتیازهای BSI و CreativeValueAdd بر اساس معیارهای موضوعی تعیین شده‌اند، اما در متن ادعاهای “امتیاز ۸.۵” به‌صورت مستقیم آمده است که ممکن است بیش از اعتماد واقعی باشد. | **FAIL** – عدم دقت در ارائه اعداد. |\n| **Framing Compliance** | مقاله از «حقوق» و «حاکمیت» به‌صورت اخلاقی و فلسفی به‌صورت صریح ادعا می‌کند که «حقوق طبیعت” ناکافی است؛ این یک قضاوت ارزشی فراتر از داده است. | **FAIL** – قضاوت ارزشی. |\n\n**نتیجه REIG:** **FAIL**  \n**توضیح:** مقاله در چند حوزه (علت، تعمیم، اندازه‌گیری، قضاوت ارزشی) تجاوز به حاکمیت داده دارد.  \n\n---\n\n### ۷. نتیجه‌گیری نهایی + نقاط قوت/ضعف + پیشنهاد بهبود\n\n| نقاط قوت | نقاط ضعف | پیشنهاد بهبود |\n|----------|-----------|---------------|\n| 1. نوآوری در پارادایم حاکمیت | 1. عدم شواهد تجربی کافی | 1. افزودن مطالعات موردی و تحلیل‌های آماری. |\n| 2. تحلیل دقیق ساختارهای قانونی | 2. روش‌شناسی نامشخص | 2. توضیح واضح روش تحقیق و انتخاب نمونه. |\n| 3. انسجام ساختاری متن | 3. تعمیم بیش از حد | 3. محدود کردن ادعاهای عمومی و توضیح محدودیت‌ها. |\n| 4. تأکید بر اخلاق محیطی | 4. قضاوت ارزشی | 4. استفاده از زبان توضیحی بدون ادعاهای اخلاقی. |\n| 5. تشخیص گپ‌های Epistemic | 5. کمبود تحلیل داده‌ای | 5. ترکیب داده‌های تجربی با تحلیل فلسفی. |\n\n**پیشنهاد کلان:**  \n- **ادغام حاکمیت و حقوق**: ایجاد چارچوب‌های ترکیبی که هم حقوق را حفظ کنند و هم مسئولیت را تاکید کنند.  \n- **تحقیقات چندرشته‌ای**: ترکیب حقوق، اقتصاد، علوم زیست‌محیطی و فلسفه برای بهبود مدل.  \n- **شراکت با نهادهای زیست‌محیطی**: جمع‌آوری داده‌های واقعی از پروژه‌های حاکمیت محلی.  \n\n> **تحلیل حاضر کاملاً مطابق SOP_Intellectual_Content_Analysis_v3.4.2 و Ontology BIO v1.0 انجام شد.**",
+            "source_model": "openai/gpt-oss-20b",
+            "generated_at": "2026-09-14T17:48:02Z",
+            "usage": {
+              "queue_time": 0.003520369,
+              "prompt_tokens": 1353,
+              "prompt_time": 0.079996126,
+              "completion_tokens": 2410,
+              "completion_time": 2.662709607,
+              "total_tokens": 3763,
+              "total_time": 2.742705733,
+              "completion_tokens_details": {
+                "reasoning_tokens": 13
+              }
+            },
+            "finish_reason": "stop",
+            "continuation_rounds": 0
+          },
+          "metadata": {
+            "execution_time_seconds": 7.364,
+            "usage": {
+              "queue_time": 0.003520369,
+              "prompt_tokens": 1353,
+              "prompt_time": 0.079996126,
+              "completion_tokens": 2410,
+              "completion_time": 2.662709607,
+              "total_tokens": 3763,
+              "total_time": 2.742705733,
+              "completion_tokens_details": {
+                "reasoning_tokens": 13
+              }
+            }
+          },
+          "judge_result": {
+            "criteria_source": "llm",
+            "winner": "bsi",
+            "winner_source": "llm",
+            "reasoning": "BSI outperforms RAW on the most analytically demanding criteria—critical evidence assessment (9 vs 6), limitation identification (9 vs 3), and practical implication analysis (8 vs 6)—while matching or nearly matching RAW on core argument accuracy and theoretical contribution. RAW remains a competent descriptive summary but adds no critical evaluation. BSI's multi-layer structure and compliance audit, despite some mechanical application, yield substantially deeper analytical output for this article.",
+            "criteria": [
+              {
+                "name": "Accuracy of Core Argument Representation",
+                "importance": 25.0,
+                "raw_score": 9.0,
+                "bsi_score": 8.0,
+                "reason": "RAW captures the three main claims and governance alternative precisely; BSI's executive summary is accurate but adds 'بومی' (indigenous/local) qualifier not clearly in the article."
+              },
+              {
+                "name": "Identification of Theoretical Contribution",
+                "importance": 20.0,
+                "raw_score": 9.0,
+                "bsi_score": 7.0,
+                "reason": "RAW explicitly details the governance paradigm's novelty (authority reconfiguration, ecocentric duties, community membership); BSI notes high originality but describes it less specifically."
+              },
+              {
+                "name": "Critical Assessment of Evidence Base",
+                "importance": 20.0,
+                "raw_score": 6.0,
+                "bsi_score": 9.0,
+                "reason": "RAW uncritically repeats the article's claim of empirical grounding; BSI rates empirical support 5/10, notes only a few case studies with no statistical/comparative analysis, and REIG audit flags causal claims without evidence."
+              },
+              {
+                "name": "Structural/Logical Coherence Analysis",
+                "importance": 15.0,
+                "raw_score": 7.0,
+                "bsi_score": 8.0,
+                "reason": "RAW presents claims logically but does not analyze coherence; BSI scores clarity 8/10, notes definitional ambiguities, and uses Manifest/Latent/Meta layering to examine structure."
+              },
+              {
+                "name": "Practical/Implication Analysis",
+                "importance": 10.0,
+                "raw_score": 6.0,
+                "bsi_score": 8.0,
+                "reason": "RAW briefly mentions guidance for legislation; BSI's Meta layer predicts future duty-based frameworks, cross-domain impacts, and EIG analysis identifies concrete legislative, research, and philosophical gaps/opportunities."
+              },
+              {
+                "name": "Identification of Limitations/Gaps",
+                "importance": 10.0,
+                "raw_score": 3.0,
+                "bsi_score": 9.0,
+                "reason": "RAW identifies no limitations; BSI provides a weaknesses table, REIG audit with four FAIL findings (causal, generalization, measurement, framing compliance), and EIG gap analysis."
+              }
+            ],
+            "total_scores": {
+              "raw": 7.2,
+              "bsi": 8.1
+            },
+            "bsi_capability_assessment": {
+              "relevance": "high",
+              "realization": "medium",
+              "incremental_value": "high",
+              "reason": "BSI framework is well-suited to theoretical legal analysis (high relevance). Realization is medium due to formulaic CreativeValueAdd weights, mixed-language presentation, and a REIG audit that appears partly template-driven. Incremental value is high because BSI delivers critical evidence assessment, limitation identification, and implication mapping that RAW entirely lacks."
+            },
+            "incremental_value": "high",
+            "scale": "0-10",
+            "weight_sum": 100.0,
+            "glossary_mode": "full",
+            "judge_input_compacted": false
+          },
+          "scores": {
+            "RAW": 0.72,
+            "BSI": 0.81
+          },
+          "failed": false,
+          "status": "valid",
+          "model_id": "openai/gpt-oss-20b",
+          "truncated": false
+        }
+      ],
+      "article_id": "doi:https://doi.org/10.1093/ojls/gqaf021"
+    }
+  ],
+  "source_url": "https://github.com/ibstrade11-source/behmanesh-index-prompt/blob/main/MASTER_PROMPT_BSI_v3.4.2.md",
+  "run_metadata": {
+    "tool_version": "0.1.0",
+    "git_commit": "4611b84b11c40496a9a55179000750ad1c70c7f4",
+    "git_dirty": true,
+    "run_timestamp_utc": "2026-09-14T17:47:50Z",
+    "methodology_note": "Scores/judgements come from an independent LLM judge (see comparison/judge.py) instructed not to reuse BSI's own D1-D7/EIG vocabulary and to choose its own evaluation criteria. If no judge model is available or its response cannot be parsed, the run falls back to a simple keyword-presence heuristic -- the stored record's own 'criteria_source' field ('llm' vs 'heuristic_fallback') always says honestly which one produced a given result. Neither path is a validated measurement of analytical quality until checked against independent human judgement on a representative sample.",
+    "provider_name": null,
+    "model_version": null,
+    "temperature": null,
+    "max_tokens": null,
+    "prompt_version": null,
+    "framework_name": "bsi"
+  },
+  "retrieval_metadata": {
+    "retrieval_status": "accepted",
+    "retrieval_validation": {
+      "retrieval_status": "accepted",
+      "retrieval_validation": "not_required",
+      "query_type": "topic",
+      "requested_query": "Law",
+      "candidate_count": 1
+    },
+    "rejected_articles": [],
+    "skipped_count": 0,
+    "skipped_titles": []
+  },
+  "benchmark_status": "benchmarkable"
+}
