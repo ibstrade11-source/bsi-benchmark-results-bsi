@@ -1,0 +1,302 @@
+{
+  "dataset_name": "exoplanet atmosphere characterization",
+  "results": [
+    {
+      "article": {
+        "title": "The CoRoT Exoplanet program : status & results",
+        "abstract": "The CoRoT satellite is the first instrument hunting for planets from space. We will review the status of the CoRoT/Exoplanet program. We will then present the CoRoT exoplanetary systems and how they widen the range of properties of the close-in population and contribute to our understanding of the properties of planets.",
+        "full_text": "arXiv:1105.1887v1  [astro-ph.EP]  10 May 2011\nDetection and Dynamics of Transiting Exoplanets\nProceedings of Haute Provence Observatory Colloquium (23- 27 August 2010)\nEdited by F. Bouchy, R.F. D ´ ıaz & C. Moutou\nThe CoRoT Exoplanet program : status & results\nM. Deleuil 1, C. Moutou 1, P. Bord´ e2 & the CoRoT exoplanet\nscience team\n1Laboratoire d’Astrophysique de Marseille, 38 rue F. Joliot -Curie,\n13388 Marseille Cedex 13, France\n2Institut d’Astrophysique Spatiale, Bˆ at. 121, 91405 Orsay, France\nAbstract. The CoRoT satellite is the ﬁrst instrument hunt-\ning for planets from space. We will review the status of the\nCoRoT/Exoplanet program. We will then present the CoRoT ex-\noplanetary systems and how they widen the range of propertie s of\nthe close-in population and contribute to our understandin g of the\nproperties of planets.\n1. Introduction\nCoRoT1 has been designed with two distinct scientiﬁc objectives wh ich\nboth require continuous observations and ultra-high preci sion relative\nstellar photometry : one is the detection of extrasolar plan ets by the\ntransit method; the second is the study of stellar interiors by astero-\nseismology (Baglin et al. 2009). In addition, the long durat ion of the\nobservation periods together with the exquisite photometr ic precision\nallow number of stellar physics studies. The instrument sta rted the\nscientiﬁc observations on February 2nd 2007. The mission wa s initially\nscheduled for 3 years but extended for 3 additional years, th at is till\nMarch 2013. Auvergne et al. (2008) give a complete descripti on of the\ninstrument in ﬂight based on raw and calibrated data. In the p resent\npaper, we will just recall the main characteristics of the mi ssion.\n1The CoRoT space mission has been developed and is operated by CNES, with con-\ntributions from Austria, Belgium, Brazil, ESA, Germany and Spain.\n1\n\n2 M. Deleuil et al.\n2. CoRoT, brief summary\n2.1 Photometry\nThe typical exoplanet targets have a V-magnitude in the rang e ≃11 up\nto 16. The photometry is performed on board for up to 6000 sele cted\ntargets per CCD, 2 CCDs being dedicated to the exoplanet prog ram.\nFor a given target, the ﬂux is thus integrated over a pre-desi gned pho-\ntometric mask that encompassed the quite large PSF of the exo planet\nchannel, whose typical size is about 35 ′′ x 23 ′′. For stars brighter\nthan magnitude 15, the pixels within the photometric mask ar e sep-\narated in 3 sub-sets according to the percentage of stellar ﬂ ux. The\nco-addition of the pixels intensity over these 3 areas provi des 3 diﬀer-\nent light curves, referred to as the red, the green and the blu e light\ncurves. These light curves have however no direct correspon dence to\nTable 1.: CoRoT runs from 2007 to 2010.\nRun Date duration Nb of Nb to Data\nstart [d] Targets Cand. FUp Status\nIRa01 02/2007 45 9 921 254 40 Public\nSRc01 04/2007 26 7 015 261 62 Public\nLRc01 05/2007 152 11 448 229 29 Public\nLRa01 10/2007 150 11 448 304 79 Public\nSRa01 03/2008 25 8 189 163 29 Public\nLRc02 04/2008 150 11 448 286 56 Public\nSRc02 09/2008 21 11 448 336 45 Public\nSRa02 10/2008 32 10 305 217 32 Public\nLRa02 11/2008 115 11 448 362 36 Public\nLRc03 04/2009 89 5 724 244 61 Public\nLRc04 07/2009 83 5 724 173 51 CoIs\nLRa03 10/2009 148 5 329 124 22 CoIs\nSRa03 03/2010 24 4 169 100 15 on alarm\nLRc05 04/2010 84 5 724 89 22 on alarm\nLRc06 07/2010 77 5 724 100 21 on alarm\nColumn 5: number of transit candidates detected; Column 6: n umber of candidates\nassessed worth for follow-up observations. Following the D PU 1 break down in March\n2009, the number of light curves is divided per 2 in the last ﬁe lds.\nany standard photometric system. For fainter stars, only th e standard\nsingle-band photometry (white) is performed. The integrat ion time on\nboard is 32 sec but the ﬂux of 16 read-outs is coadded on board over\nan 8.5 min time span before being downloaded. The elementary 32 sec\n\nCoRoT status & results 3\nFigure 1.: The two continuous pointing zones of CoRoT. The small\nrectangular and square shapes show the exoplanet ﬁelds that have been\nobserved up to summer 2010. Note the extreme reddening varia tions\ntowards the center ﬁelds.\nintegration time is however preserved for selected targets , whose list\nis regularly updated during CoRoT observations thanks to the Alarm\nmode (Surace et al. 2008). In march 2009, one of the two DPUs which\npilot the on-board photometric treatment had a break down an d could\nnot be switched in operation again. As a consequence, the ﬁel d-of-view\nfor exoplanet search is yet half-reduced to (1.35 o)2.\n2.2 Observation strategy\nThe instrument has 2 continuous viewing zones which are two c ircles\nof ≃10o of radius, centered in the galactic plane and separated by 18 0o\nin right ascension.This ensures a level of background light due to the\nEarth reﬂected light as low as possible. In addition, in orde r to avoid\nto be blinded by the Sun, twice a year the instrument is rotate d and is\npointed in the opposite direction. The strategy of observat ion is ﬂexible\nbut consists mainly in one long run (LR) lasting for about 140 days and\none shorter run (SR) whose duration is between 20 and 30 days p er\nhalf-year. The ﬁelds observed in the circle centered at 6 h 50m in right\nascension are referred as ”anti-center ﬁelds”, and those in the circle at\n18h 50m, as ”center ﬁelds”. Table 1 gives a summary of the stellar ﬁel ds\nthat have been observed since the beginning of the operation s. With\nonly one CCD left in operation, the strategy of observation h as been\nadapted and some of the long runs have been replaced by two run s of a\nshorter duration.\nFigure 1 shows the location of the various CoRoT exoplanet ﬁelds inside\nthe two CoRoT continuous viewing zones overplotted on a dwarf density\n\n4 M. Deleuil et al.\nFigure 2.: Two examples of CoRoT light curves .\nmap. The two regions have diﬀerent stellar content in terms of dwarf\nand giant but also in their distribution over the various spe ctral type\n(Gazzano et al. 2010). This allows to probe regions in the gal actic\nplane with diﬀerent stellar properties in terms of metallici ty but also\nin terms of age. Once the statistics of planets found by CoRoT will be\nmuch more signiﬁcant, this should bring some insights into t he physical\nconditions that prevail for planet formation mechanisms.\n3. Detection capacity\nIn summer 2010, a total of 129 326 light curves was collected ( Table 1).\nThese light curves show a fascinating diversity with variou s kind of\nstellar behavior: quiet stars display nearly constant a ﬂux while others\nexhibit a strong variability over a time scale of a few minute s (Fig. 2).\nAll these light curves are however analyzed for transit sear ches. Tran-\nsits are detected in about 100 up to 300 light curves per run, t hat is\nin about 3000 light curves for the whole mission to date. They present\nvarious depth, shape and duration. These detected transits are however\npredominantly transiting stellar systems. About 80% to 90% of these\nstellar systems are pinpointed thanks to the long duration o f the light\ncurves, through the identiﬁcation of the secondary transit s or light curve\nmodulation. The remaining candidates are screened out by fo llow-up\nobservations, using various techniques from photometric o bservations\nto radial velocity measurements. These follow-up observat ions play a\nmajor role in the CoRoT science and require a huge observational ef-\nfort. They allow to assess the nature of the detected transit ing body,\nstellar or planetary and, in the later case, to measure its ma ss. Bouchy\net al. (2009) give a complete overview of the strategy for rad ial velocity\n\nCoRoT status & results 5\nFigure 3.: Transit signal for all candidates detected in the\nCoRoT/exoplanet ﬁelds observed during the ﬁrst year (adapted fro m\nCabrera et al.(2009)), with the expected signals for a Jupite r, Neptune\nand Earth-size like planets respectively indicated.\nobservations and Deeg et al. (2009) present the ground-base d photo-\nmetric follow-up ones. Whatever their nature, stellar or pl anetary, one\ncan use the detected transits to assign the performance of th e transit\ndetection from the CoRoT light curves. Figure 3 shows the transit sig-\nnal deﬁned here as the product of the relative depth of the tra nsit and\nthe square root of the number of points in the transit, as a fun ction of\nthe target magnitude. The colored circles are the candidate s identiﬁed\nin the various runs according to the color codes in the bottom right and\nthe black stars the planets. It shows that Neptune size plane ts can be\ndetected whatever the magnitude of the star is, whereas supe r-Earth\nsize planets, such as CoRoT-7b can be discovered in the light curves of\nstars brighter than R ≃ 14 only.\n4. The CoRoT planets\nTable 2 gives the main characteristics of the CoRoT planets published\nby the end of summer 2010. These planets correspond to the ﬁrs t dis-\ncoveries in the ﬁrst two years of data. A large fraction of the candidates\nare indeed still in the screening process by follow-up obser vations. Their\nproperties, compared to the other published exoplanets are illustrated\nin Fig 4. The mass-radius diagram shows that most of these pla nets are\nin the domain of gaseous giants but the long duration of the li ght curves\nand the high duty cycle greater than 90% of space-based obser vations\n\n6 M. Deleuil et al.\nallow to explore the transiting systems over an extended orb ital do-\nmain. The CoRoT discoveries indeed account for half of the transiting\nsystems with an orbital period greater than 8 days.\nTable 2.: CoRoT discoveries main characteristics.\nRef Run Radius Mass Density Period Nb Sp. Star Comment\nRJ up MJ up gcm− 3 days Type [Fe/H]\n1 IRa01 1.49 1.03 0.34 1.509 34 G0V -0.20 bloated HJ\n2 LRc01 1.46 3.31 1.31 1.743 78 G7V 0.00 bloated HJ\n3 LRc01 1.01 21.6 26.4 4.26 34 F3V -0.02 BD or planet\n4 IRa01 1.19 0.72 0.52 9.20 7 F8-9V +0.05 synchronized\n5 LRa01 1.39 0.46 0.22 4.04 27 F9V -0.25 metal poor HS\n6 LRc02 1.16 2.96 2.32 8.89 15 F9V -0.20 metal poor HS\n7 LRa01 0.14 0.007-0.02 3.4-9.6 0.85 153 G9V 0.12 Super-Eart h\n8 LRc01 0.57 0.22 1.6 6.21 33 K1V 0.30 Icy giant\n9 LRc02 1.05 0.84 0.90 95.27 2 G3V -0.01 temperate\n10 LRc01 0.97 2.75 3.70 13.24 10 K1V 0.26 eccentric\n11 LRc02 1.43 2.33 0.99 2.99 49 F6V -0.03 vsini = 40 km/s\n12 LRa01 1.44 0.92 0.31 2.83 47 G4V 0.16 bloated low density HJ\n13 LRa02 0.9 1.3 2.34 4.04 31 G0V 0.01 dense HJ\n14 LRa02 1.09 7.6 7.3 1.15 89 F9V 0.05 extreme density\n15 SRa02 1.12 63.3 59 3.06 10 F7V 0.10 BD\nThe planets are ordered by increasing CoRoT number. HJ stands for Hot Jupiter\nand HS for host star. Column 7 gives the number of transits in t he CoRoT light\ncurve.(1) Barge et al. (2008); (2) Alonso et al (2008); (3) De leuil et al (2008); (4)\nAigrain et al (2008); (5) Rauer et al (2008); (6) Fridlund et a l. (2010); (7) L´ eger et\nal. (2009); (8) Bord´ e et al. (2010); (9) Deeg et al. (2010); ( 10) Bonomo et al. (2010);\n(11) Gandolﬁ et al.(2010); (12) Gillon et al. (2010); (13) Ca brera et al. (2010); (14)\nTingley et al. (2010); (15) Bouchy et al. (2010).\n4.1 Extending the orbital domain of transiting planets\nThe ﬁrst discoveries, CoRoT-4b and 6b are apart from the pile up of the\nperiod histogram below 5 days (Fig. 4). In the case of CoRoT-4 b, the\ncontinuous photometry allow to measure the rotation period of the star\nand to establish that it is a synchronized system (Aigrain et al. 2008;\nLanza et al. 2009). Among the CoRoT planets, it remains the only\nsystem for which the synchronization could be clearly detec ted. Being\nnot synchronized despite a similar orbital period, makes Co RoT-6b a\ngood case to probe possible star-planet magnetic interacti ons. Lanza\net al. (2010) used the light curve to map the longitudinal dis tribu-\ntion of the photospheric active regions and trace their evol ution. They\nreported some statistical evidences of active regions lagg ing the sub-\nplanetary point during some temporal intervals. While the d etection is\nstill marginal, it is however a good illustration of the inte rest of uninter-\nrupted sequence of photometric observations to probe the st ar - planet\n\nCoRoT status & results 7\ninteraction and the evolution of planetary systems. With an orbital\nFigure 4.: Mass - radius diagram for the transiting planets. Filled cir cles\nand the hashed histogram are the CoRoT planets.\nperiod of 13 days, CoRoT-10b belongs to the class of the few tr ansiting\nexoplanets with highly eccentric orbit (Bonomo et al. 2010) . The large\nvariation in the orbital distance along the planet’s year, r esults in a ten-\nfold increase in the amount of stellar radiation received by the planet.\nIts eccentricity could have been produced by Kozai oscillat ions with a\ndistant companion of stellar nature or by planet - planet sca ttering. No\nhint of non-transiting companion has been reported so far bu t clearly\nthis system would deserve radial velocity monitoring in ord er to put\nfurther constrain on the origin of the planet’s eccentricit y.\nCoRoT-9b is the ﬁrst long orbital period transiting planet d iscov-\nered by a transit survey (Deeg et al. 2010). The planet orbits its solar\nlike G3-type star in 95 days. Unlike the two other long-perio d transiting\nplanets, HD 17156b (Barbieri et al. 2007) and HD 80606b (Mout ou et\nal. 2009), this Jupiter’s size planet has a low eccentricity . It makes it a\nperfect representative of the largest known population of p lanets (Fig.\n5). CoRoT-9b is a very worthwhile object for further deeper s tudies to\nprobe the properties of this exoplanet population.\n4.2 Populating the brown dwarf desert\nExploring the exoplanet population at short orbital period s CoRoT\nhas unexpectedly started to populate the so called brown-dw arf desert.\nWhile, with a mass of 21.6 M J up for a Jupiters size, the exact nature\nof CoRoT-3b could be questioned as it lies in the overlapping region\nbetween the planet population and the low mass star regime (D eleuil\net al. 2008), CoRoT-15b appears as a bona ﬁde brown dwarf (Bou chy\net al. 2010). Just as the most massive planets discovered so f ar, such\n\n8 M. Deleuil et al.\nFigure 5.: Eccentricity-period diagram for the known extrasolar plan ets\n(adapted from Bonomo et al. (2009)). Black ﬁlled symbols are transiting\nplanets while open one are those with radial velocity measur ements only.\nThe size of the symbol indicates the mass range.\nas HAT-P-2b or CoRoT-14b (Tingley et al. 2010), these two mas sive\ncompanions orbit an F-type star with a marked vsini value. The sig-\nniﬁcant rotational line broadening of the host star could be the cause of\nthe lack of previous discovery of such massive companions fr om radial\nvelocity surveys. It would have aﬀected the search strategy o f radial ve-\nlocity surveys, either by removing these objects after one m easurement\nor by setting them aside with a very low observation ranking p riority.\nThis would have resulted in a selection bias towards slow rot ators that\ntransit surveys have started to remove, allowing to enlarge the space of\nparameters for host stars. It reinforces the trend that the c lose-orbiting\ncompanions to host stars with mass above 1.1 M ⊙ could be more mas-\nsive than companions to lower mass hosts. Probing the physic al proper-\nties of such objects could bring the missing clues to the unde rstanding\nof the link between the population of planets and low-mass st ars.\n4.3 Opening the small-size planet domain\nAt the other extremity of the mass function, the recently dis covered\nCoRoT-8b has a size in between Saturn’s and Neptune’s one (Bo rd´ e\net al. 2010) but a density comparable to that of Neptune. It su ggests\na massive core with a mass in the range 47 up to 64 M ⊕ and a much\nsmaller H - He envelope. Like HD 149026b, the parent star is me tal rich,\nconﬁrming the suspected trend for the formation of giant pla nets with\nhigh content of heavy elements for metal rich stars. In the ma ss - period\ndiagram this planet lies in between the hot-Jupiter and the S uper-Earth\n\nCoRoT status & results 9\npopulation, in a region where formation models predict a lac k of planets.\nIt might belong to the distribution tail of gaseous giants bu t clearly, with\nthe intensive exoplanet searches, it would be interesting t o see if this\nregion of the diagram remains so sparsely populated in agree ment with\nthe bimodal distribution.\nEven smaller is CoRoT-7b, ﬁrst planet discovered in the doma in\nof Super-Earth size planets. The planet orbits in 0.8 days a K 0 main\nsequence star which is one of the brightest star in the ﬁrst lo ng run in\nthe anti-center direction. The transit is 0.35 mmag deep but is clearly\ndetected in the Fourier transform of the light curve with all its har-\nmonics. The star’s light curve is modulated by spots at the su rface of\nthe star dragged by the star’s rotation. This stellar activi ty produces\na stellar jitter that competed the radial velocity measurem ents. More\nthan 100 hundred HARPS spectra were collected over an one-ye ar pe-\nriod. Diﬀerent methods have been used to analyze the radial ve locity\nsignal and understand the stellar activity (Queloz et al. 20 08; Hatzes\net al. 2010; Boisse et al. 2010; Pont et al. 2010). Whatever th e study,\nthey conﬁrmed the planetary nature of CoRoT-7b with a mass th at ap-\npears consistent with a rocky planet but a poor precision, la rger than\n20%. Not only the exact mass is suject to controversy but also the exact\nnumber of planets in the system. There are indeed some eviden ces in\nthe radial velocity signal for a second non-transiting plan et (Queloz et\nal. 2008) and even a third (Hatzes et al. 2010). Clearly to dep ict this\nsystem and accurately measure the mass of CoRoT-7b, additio nal ve-\nlocity measurements are required with an adapted observati on strategy\nso that the stellar activity imprint could be properly model ed.\n5. Conclusion\nFor more than 3 years CoRoT has been collecting high precision pho-\ntometry light curves. The ﬁrst discoveries from the analysi s of the ﬁrst\ntwo years of data proved the instrument capability to fully e xplore the\ndomain of extra-solar planets at short orbital periods and d etect plan-\nets over a wide range of size and properties from the ﬁrst Supe r-Earth,\nCoRoT-7b, to CoRoT-9b the ﬁrst temperate hot Jupiter. Conti nuous\nobservations over long time spans also demonstrate their po tential to\nprobe diﬀerent aspects of the planetary systems with, for exa mple, the\nsearch for planet - host stars interactions. With a few tenth s of planet\ncandidates in the follow-up process and new light curves to b e analyzed\nand acquired in the two forthcoming years, new exciting resu lts can be\nexpected.\n\n10 M. Deleuil et al.\nReferences\nAigrain, S., Collier-Cameron, A., Ollivier, M. et al. 2008, A&A, 488,\nL43\nAlonso, R., Auvergne, M., Baglin, A. et al. 2008, A&A, 482, L2 1\nAuvergne, M., Bodin, P., Boisnard, L. et al. 2009, A&A, 506, 4 11\nBaglin, A., Auvergne, M., Barge, P. et al. 2009, in IAU Symp. 2 53,\nTransiting Planets, 71 ed. F. Pont et al.\nBarbieri, M., Alonso, R., Laughlin, G. et al. 2007, A&A, 476, 13\nBarge, P., Baglin, A., Auvergne, M. et al. 2008, A&A, 482, L17\nBonomo, A.S., Santerne,A., Alonso,R. et al. 2010, A&A, 520, 65\nBord´ e, P., Bouchy, F., Deleuil, M. et al. 2010, A&A, 520, 97\nBruntt, H., Deleuil, M., Fridlund, M., et al. 2010, A&A, 519, 51\nBoisse, I. et al. this volume\nBouchy, F., Moutou, C., Queloz, D. 2009 in IAU Symp. 253, Tran siting\nPlanets, 129 ed. F. Pont et al.\nBouchy, F., Deleuil, M., Guillot,T. et al. 2010, A&A, 525, 68\nCabrera, J., Fridlund, M., Ollivier, M. et al. 2009, A&A506, 501\nCabrera, J., Bruntt, H., Ollivier, M. et al. 2010, A&A522, 11 0\nDeeg, H. J., Gillon, M., Shporer, A., et al. 2009, A&A, 506, 34 3\nDeeg, H. J., Moutou, C., Erikson, A. et al. 2010, Nature, 464, 384\nDeleuil, M., Deeg, H. J., Alonso, R. et al. 2008 A&A, 491, 889\nFridlund, M., H´ ebrard, G., Alonso, R. et al. 2010, A&A, 512, 14\nGandolﬁ, D., H´ ebrard, G.; Alonso, R. et al. 2010, A&A, 524, 5 5\nGazzano, J.-C., de Laverny P., Deleuil M. et al. 2010, A&A, 52 3, 91\nHatzes, A. P.; Dvorak, R., Wuchterl, G. et al. 2010, A&A, 520, 93\nGillon, M., Lanotte, A. A., Barman, T. et al. 2010, A&A, 511, 3\nL´ eger, A., Rouan, D., Schneider, J. et al. 2009, A&A, 506, 28 7\nLanza, A. F., Bonomo, A. S., Pagano, I. et al. 2010, A&A, 525, 1 4L\nMoutou, C., H´ ebrard, G., Bouchy, F. et al. 2009, A&A, 498, 5\nPont, F., Aigrain, S. & Zucker S. 2010, arXiv:1008.3859v2\nQueloz,D., Bouchy,F., Moutou,C. et al. 2009, A&A, 506, 303\nRauer, H., Queloz, D., Csizmadia, Sz. et al. 2009, A&A, 506, 2 81\nSurace, C., Alonso, R., Barge, P. et al. 2008, SPIE, 7019, 111\nTingley, B., Endl , M., Gazzano J.-C., et al., 2010, A&A, in pr ess",
+        "doi": "10.1051/epjconf/20111101001",
+        "url": "http://arxiv.org/abs/1105.1887v1",
+        "input_quality": {
+          "has_full_text": true,
+          "full_text_chars": 20598,
+          "full_text_source": "provider_fetch:arxiv"
+        }
+      },
+      "cells": [
+        {
+          "generator": "openrouter",
+          "mode": "raw",
+          "analysis": {
+            "text": "**Analysis of: \"The CoRoT Exoplanet program: status & results\" (Deleuil et al., 2011)**\n\n### 1. Context and Purpose\nThis paper serves as a **progress report and early science summary** for the **CoRoT (Convection, Rotation and planetary Transits) space mission**, the first space-based instrument dedicated to exoplanet hunting via the transit method. Written mid-mission (covering data up to summer 2010), it reviews the instrument status, observation strategy, detection performance, and the properties of the first **15 confirmed planets (CoRoT-1b through CoRoT-15b)**.\n\n---\n\n### 2. Instrumental Status and Observation Strategy\n*   **Mission Timeline:** Launched Dec 2006; science operations began Feb 2007. Originally a 3-year mission, extended to March 2013.\n*   **Hardware Issue:** In March 2009, one of two Data Processing Units (DPUs) failed, **halving the exoplanet field-of-view** from ~2.7 deg² to ~1.35 deg² per pointing.\n*   **Observing Pattern:** Two continuous viewing zones (galactic center and anti-center), alternating Long Runs (~140 days) and Short Runs (~20–30 days) twice per year.\n*   **Data Volume:** ~129,000 light curves collected by mid-2010 (magnitudes V≈11–16). High duty cycle (>90%) and 32-sec sampling (binned to 8.5 min for most targets).\n*   **Detection Performance:** Transit signals detected in ~100–300 stars per run (~3,000 total). **80–90% are eclipsing binaries** rejected via secondary eclipses or light-curve modulation; the remainder require intensive ground-based follow-up (RV, photometry) for validation.\n\n---\n\n### 3. Main Scientific Contributions: The CoRoT Planet Population (First 15 Planets)\nThe paper’s core contribution is demonstrating how CoRoT’s **continuous, long-baseline space photometry** expanded the known parameter space of close-in exoplanets in three key regimes:\n\n#### A. Extending the Orbital Period Domain\n*   **CoRoT-4b (9.2 d) & CoRoT-6b (8.9 d):** Broke the \"pile-up\" of hot Jupiters at <5 days.\n*   **CoRoT-9b (95 d):** **First transiting \"temperate\" Jupiter** discovered by a transit survey (low eccentricity, ~0.4 AU). Provides a benchmark for studying cool gas giants without extreme irradiation.\n*   **CoRoT-10b (13 d, e≈0.53):** One of few highly eccentric transiting planets; allows study of variable insolation and migration mechanisms (Kozai vs. scattering).\n*   **Stellar Rotation/Interaction:** Long light curves enabled measurement of stellar rotation periods (e.g., CoRoT-4b synchronized system) and searches for star-planet magnetic interaction signatures (CoRoT-6b).\n\n#### B. Populating the \"Brown Dwarf Desert\"\n*   **CoRoT-3b (21.6 M_Jup):** Massive object straddling the planet/brown dwarf boundary.\n*   **CoRoT-15b (63.3 M_Jup):** **Confirmed brown dwarf** in a close orbit (3 d).\n*   **Key Insight:** Both orbit rapidly rotating F-type stars (high *v* sin *i*). The authors argue **radial velocity surveys suffered a selection bias against such hosts** (line broadening reduces RV precision), which transit surveys overcome, revealing that massive close-in companions may prefer higher-mass stars.\n\n#### C. Opening the Small-Planet / Super-Earth Domain\n*   **CoRoT-7b (R≈1.58 R⊕, P=0.85 d):** **First confirmed Super-Earth / rocky planet candidate.** Transit depth ~0.35 mmag.\n*   **Mass Measurement Challenge:** Extreme stellar activity (spot modulation) induced RV jitter requiring >100 HARPS spectra. Mass estimates varied (≈5–8 M⊕), consistent with rocky composition but with >20% uncertainty. Architecture debated (evidence for 1–2 additional non-transiting planets).\n*   **CoRoT-8b (R≈0.57 R_Jup, ρ≈1.6 g/cm³):** **Sub-Saturn / Neptune-class** planet. High density implies massive core (47–64 M⊕), supporting core-accretion predictions for metal-rich host stars. Occupies a \"valley\" in the mass-period diagram predicted by formation models.\n\n---\n\n### 4. Methodological Contributions\n*   **Demonstrated Space-Based Advantage:** High duty cycle and photometric stability are essential for:\n    *   Detecting shallow transits (Super-Earths).\n    *   Resolving individual transits for long-period planets (CoRoT-9b).\n    *   Characterizing stellar activity (rotation, spots) to disentangle planetary signals.\n*   **Follow-up Framework:** Established the necessity of a coordinated, multi-technique ground-based follow-up network (RV, high-res imaging, photometry) to vet the high false-positive rate inherent in wide-field transit surveys.\n\n---\n\n### 5. Limitations and Forward Look (as of 2010)\n*   **Incomplete Census:** A \"large fraction\" of candidates remained in follow-up; statistics were not yet significant for occurrence rate calculations.\n*   **Stellar Activity:** Identified as the primary limiting factor for precise mass determination of small planets (CoRoT-7b case study).\n*   **Future Potential:** Anticipated results from the extended mission (post-DPU failure) and analysis of the remaining candidate backlog.\n\n---\n\n### Summary Statement\n**This paper documents the pivotal transition of exoplanet science from ground-based discovery to space-based characterization.** It establishes CoRoT as the mission that **bridged the gap between Hot Jupiters and terrestrial planets**, delivering the first rocky planet (CoRoT-7b), the first temperate transiting Jupiter (CoRoT-9b), and critical mass-radius measurements populating the brown dwarf desert and the Neptune-Super-Earth transition—largely enabled by the uninterrupted, long-duration photometry only achievable from space.",
+            "source_model": "nvidia/nemotron-3-ultra-550b-a55b:free",
+            "generated_at": "2026-09-14T19:56:03Z",
+            "usage": {
+              "prompt_tokens": 6856,
+              "completion_tokens": 1638,
+              "total_tokens": 8494,
+              "cost": 0,
+              "is_byok": false,
+              "prompt_tokens_details": {
+                "cached_tokens": 0,
+                "cache_write_tokens": 0,
+                "audio_tokens": 0,
+                "video_tokens": 0
+              },
+              "cost_details": {
+                "upstream_inference_cost": 0,
+                "upstream_inference_prompt_cost": 0,
+                "upstream_inference_completions_cost": 0
+              },
+              "completion_tokens_details": {
+                "reasoning_tokens": 235,
+                "image_tokens": 0,
+                "audio_tokens": 0
+              }
+            },
+            "finish_reason": "stop",
+            "continuation_rounds": 0
+          },
+          "metadata": {
+            "execution_time_seconds": 192.762,
+            "usage": {
+              "prompt_tokens": 6856,
+              "completion_tokens": 1638,
+              "total_tokens": 8494,
+              "cost": 0,
+              "is_byok": false,
+              "prompt_tokens_details": {
+                "cached_tokens": 0,
+                "cache_write_tokens": 0,
+                "audio_tokens": 0,
+                "video_tokens": 0
+              },
+              "cost_details": {
+                "upstream_inference_cost": 0,
+                "upstream_inference_prompt_cost": 0,
+                "upstream_inference_completions_cost": 0
+              },
+              "completion_tokens_details": {
+                "reasoning_tokens": 235,
+                "image_tokens": 0,
+                "audio_tokens": 0
+              }
+            }
+          },
+          "judge_result": {
+            "criteria_source": "llm",
+            "winner": "raw",
+            "winner_source": "llm",
+            "reasoning": "RAW presents more comprehensive quantitative coverage and clearer links to broader exoplanet science, giving it a marginal advantage over BSI.",
+            "criteria": [
+              {
+                "name": "Coverage of Instrumental Status",
+                "importance": 25.0,
+                "raw_score": 8.0,
+                "bsi_score": 7.0,
+                "reason": "RAW gives a detailed mission timeline and hardware issue description; BSI touches on it but less detailed."
+              },
+              {
+                "name": "Depth of Exoplanet Characterisation",
+                "importance": 20.0,
+                "raw_score": 9.0,
+                "bsi_score": 8.0,
+                "reason": "Both analyses cover planet properties, but RAW lists mass‑radius and activity impacts explicitly; BSI is more qualitative."
+              },
+              {
+                "name": "Discussion of Detection Biases",
+                "importance": 15.0,
+                "raw_score": 8.0,
+                "bsi_score": 9.0,
+                "reason": "BSI emphasizes RV selection bias and transit advantage more sharply than RAW."
+              },
+              {
+                "name": "Analysis of Follow‑up Strategy",
+                "importance": 15.0,
+                "raw_score": 7.0,
+                "bsi_score": 8.0,
+                "reason": "BSI outlines the multi‑step follow‑up pipeline, RAW mentions it briefly."
+              },
+              {
+                "name": "Contextualisation of Results in Exoplanet Science",
+                "importance": 25.0,
+                "raw_score": 9.0,
+                "bsi_score": 7.0,
+                "reason": "RAW explicitly links CoRoT to ground‑based transition and population gaps; BSI focuses on methodological points."
+              }
+            ],
+            "total_scores": {
+              "raw": 8.3,
+              "bsi": 7.65
+            },
+            "bsi_capability_assessment": {
+              "relevance": "high",
+              "realization": "medium",
+              "incremental_value": "medium",
+              "reason": "BSI provides additional context on detection biases and follow‑up procedures, but does not add new quantitative insights beyond RAW."
+            },
+            "incremental_value": "medium",
+            "scale": "0-10",
+            "weight_sum": 100.0,
+            "glossary_mode": "compact_fallback",
+            "judge_input_compacted": true
+          },
+          "scores": {
+            "RAW": 0.83,
+            "BSI": 0.765
+          },
+          "failed": false,
+          "status": "valid",
+          "model_id": "nvidia/nemotron-3-ultra-550b-a55b:free",
+          "truncated": false
+        },
+        {
+          "generator": "openrouter",
+          "mode": "bsi",
+          "analysis": {
+            "text": "# تحلیل شاخص بهمنش (BSI v3.4.2)  \n**مقاله:** «برنامه بی‌گانه‌یاب کوirot: وضعیت و نتایج» (The CoRoT Exoplanet program: status & results)  \n**نویسندگان:** م. دلوی (M. Deleuil) و همکاران، تیم علمی بی‌گانه‌یاب کوirot  \n**منبع:** Proceedings of Haute Provence Observatory Colloquium، ۲۳–۲۷ اوت ۲۰۱۰، arXiv:1105.1887v1  \n**تاریخ انتشار پیش‌نمایش:** ۱۰ مه ۲۰۱۱  \n**موضوع:** مرور وضعیت مأموریت کوirot، سیستم‌های بی‌گانه کشف‌شده، و تأثیر آن‌ها بر درک جمعیت بی‌گانه‌های نزدیک‌دوری\n\n---\n\n## ۱. خلاصه اجرایی (Executive Summary) + Core Claim + امتیاز کلی BSI\n\n### Core Claim (ادعای محوری)\nمأموریت کوirot (CoRoT) به عنوان نخستین ابزار فضایی اختصاصی کشف بی‌گانه از روش ترانزیت (Transit Method)، با بهره‌گیری از فتومتری (Photometry) فائق‌دقت و پیوسته در بازه‌های طولانی (Long Runs ~۱۴۰ روزه و Short Runs ~۲۰–۳۰ روزه)، توانست دامنه الخصایص فیزیکی و مداری بی‌گانه‌های نزدیک‌دوری (Close-in Exoplanets) را به طور قابل‌توجهی گسترش دهد: از اولین سوپرزمینی (Super-Earth) یعنی کوirot-۷b با دوره ۰.۸۵ روزه، تا اولین بی‌گانه معتدل‌دما (Temperate Jupiter) کوirot-۹b با دوره ۹۵ روزه، و پر کردن «کویر قهوه‌سوزان» (Brown Dwarf Desert) با کوirot-۳b و کوirot-۱۵b. علاوه بر این، داده‌های فتومتری بی‌دریغ کوirot امکان بررسی تعامل ستاره-بی‌گانه (Star-Planet Interaction) و همگام‌سازی ستاره-بی‌گانه (Spin-Orbit Synchronization) را فراهم آورد.\n\n### خلاصه اجرایی\nمقاله حاضر یک گزارش پیشرفت (Progress Report) و ترکیب نتایج (Synthesis of Results) از دو سال اول داده‌های کوirot (تا تابستان ۲۰۱۰) است. تیم کوirot ۱۲۹،۳۲۶ منحنی نور (Light Curve) جمع‌آوری کرده، ∼۳۰۰۰ کاندیدای ترانزیت شناسایی نموده، و پس از ردیابی‌های وسیع رادیل‌ولاسیتی (Radial Velocity Follow-up) و فتومتری زمینی (Ground-based Photometric Follow-up)، ۱۵ بی‌گانه تاییدشده (CoRoT-1b تا CoRoT-15b) را منتشر کرده است. این کشف‌ها نیم‌رخ بی‌گانه‌های ترانزیت‌کننده با دوره مداری > ۸ روز را پوشش می‌دهند، محدوده جرم و شعاع را از سوپرزمینی‌ها تا قهوه‌سوزان‌ها و جوپیترهای داغ منفوخه (Bloated Hot Jupiters) گسترش می‌دهند، و شواهدی بر اثر متالیسیته ستاره مادر بر تشکیل بی‌گانه‌های سنگین‌هسته (Heavy-element-rich Giants) ارائه می‌کنند. مقاله به صراحت محدودیت‌های فعلی را بیان می‌کند: عدم قطعیت جرم کوirot-۷b (>۲۰٪)، ابهامات در تعداد بی‌گانه‌های سیستم کوirot-۷، و نیاز به ردیابی‌های بیشتر برای سیستم‌های انحراف‌دار (Eccentric) و همگام‌سازی.\n\n### امتیاز کلی BSI: **۸۲ / ۱۰۰**\n\n| مولفه | امتیاز | توضیح |\n|--------|-------|--------|\n| **Epistemic Gap Targeting** (۳۵٪) | ۲۸ / ۳۵ | پر کردن شکاف‌های مشخص: دورهای مداری میانی، کویر قهوه‌سوزان، سوپرزمینی‌ها. اما ادعای «نمایندگی جمعیت بزرگترین» برای کوirot-۹b بیش از حد تعمیم‌داده شده. |\n| **Combinatorial Synthesis** (۴۰٪) | ۳۳ / ۴۰ | ترکیب عالی داده‌های فتومتری فضایی، رادیل‌ولاسیتی زمینی، asteroseismology، و مدل‌سازی دینامیکی. یکپارچگی بین لایه‌های مشاهداتی، نظری، و_methodological قوی است. |\n| **Generative Capacity** (۲۵٪) | ۲۱ / ۲۵ | پیش‌بینی‌های قابل‌تست: ردیابی RV برای کوirot-۱۰b، مدل‌سازی فعالیت ستاره برای کوirot-۷b، آمار جمعیتی با داده‌های آتی. اما مسیرهای عملاً قابل اجرا برای حل ابهامات کم است. |\n\n---\n\n## ۲. جدول ارزیابی معیارهای اصلی ۷گانه (Core Criteria Evaluation)\n\n| # | معیار اصلی (Core Criterion) | امتیاز (۰–۱۰) | وزن | امتیاز وزنی | تحلیل و مستند |\n|---|----------------------------|---------------|-----|-----------|----------------|\n| ۱ | **دقت مشاهداتی / روش‌شناختی** (Observational / Methodological Rigor) | ۹ | ۰.۱۵ | ۱.۳۵ | فتومتری فضایی با duty cycle >۹۰٪، ماسک‌های فتومتری ۳‌باندی، حالت Alarm برای یکپارچگی ۳۲ ثانیه، استراتژی ردیابی چندمرحله‌ای (Photometric → RV). عدم قطعیت‌های خطای سیستماتیک (Systematic Errors) در فتومتری کاهنده صراحتاً بیان نشده. |\n| ۲ | **انسجام منطقی و استدلالی** (Logical Coherence) | ۸ | ۰.۱۵ | ۱.۲۰ | استدلال از داده‌های خام → کاندیدا → تایید → تفسیر فیزیکی به ترتیب منسجم است.しかし、 بخش ۴.۳ در مورد کوirot-۷b تناقض بین مطالعات RV مختلف (Queloz vs Hatzes vs Boisse vs Pont) را «هر مطالعه... تایید کرد» توصیف می‌کند در حالی که مقادیر جرم متضادند. |\n| ۳ | **نوآوری شناختی / پر کردن شکاف** (Epistemic Novelty / Gap Filling) | ۹ | ۰.۱۵ | ۱.۳۵ | کشف primeiras: سوپرزمینی ترانزیت‌کننده، بی‌گانه معتدل‌دما دوره‌طویل، پر کردن کویر قهوه‌سوزان، دورهای >۸ روز. شکاف‌های موجود در ادبیات ۲۰۱۰ به دقت هدف‌گرفته شده‌اند. |\n| ۴ | **ترکیب‌شناسی داده‌ها و نظریه** (Data-Theory Integration) | ۸ | ۰.۱۰ | ۰.۸۰ | نمودار جرم-شعاع (Mass-Radius) با مدل‌های تشکیل، نمودار انحراف-دوره (Eccentricity-Period) با مکانیسم‌های دینامیکی (Kozai, Planet-Planet Scattering). اما مقایسه کمی با مدل‌های تشکیل (Formation Models) در بافت «منطقه بی‌بینالی توزیع» (Bimodal Distribution Gap) کم است. |\n| ۵ | **شفافیت عدم قطعیت و محدودیت** (Uncertainty & Limitation Transparency) | ۷ | ۰.۱۰ | ۰.۷۰ | عدم قطعیت جرم کوirot-۷b (>۲۰٪)، ابهام تعداد بی‌گانه‌ها، محدودیتensitivity کوirot برای ستاره‌های روندرو (Fast Rotators) در بخش ۴.۲ به صراحت آمده. اما عدم قطعیت‌های فتومتری (Correlated Noise, Red Noise) و تاثیر آن بر پارامترهای ترانزیت کمی‌سازی نشده.| ۶ | **قدرت تولیدی و پیش‌بینی‌پذیری** (Generative Capacity & Predictivity) | ۸ | ۰.۱۰ | ۰.۸۰ | پیش‌بینی‌های صریح: نیاز به ردیابی RV برای کوirot-۱۰b (اصل انحراف)، استراتژی مشاهداتی مخصوص برای کوirot-۷b (مدل‌سازی فعالیت ستاره)، آمار جمعیتی با داده‌های سال‌های آتی. اما سناریوهای جایگزین (Alternative Scenarios) برای کوirot-۳b (بی‌گانه vs قهوه‌سوزان) و کوirot-۱۵b کم است. |\n| ۷ | **ارزش‌افزودن خلاقانه (CreativeValueAdd) — امتیاز ترکیبی** | ۸ | ۰.۲۵ | ۲.۰۰ | امتیاز ترکیبی از جدل ۳ (زیرمعیارهای CreativeValueAdd): Epistemic Gap Targeting ۲۸/۳۵، Combinatorial Synthesis ۳۳/۴۰، Generative Capacity ۲۱/۲۵. مقاله داده‌های پراکنده را به یک روایة منسجم_population-level تبدیل می‌کند. |\n| **مجموع امتیاز وزنی** | | | **۱.۰۰** | **۸.۲۴ / ۱۰** → **۸۲ / ۱۰۰** | |\n\n---\n\n## ۳. جدول CreativeValueAdd با ۳ زیرمعیار\n\n| زیرمعیار (Sub-criterion) | وزن | امتیاز خام (۰–۱۰) | امتیاز وزنی | تحلیل استدلالی و مستند |\n|---------------------------|-----|------------------|-----------|------------------------|\n| **Epistemic Gap Targeting** (هدف‌گذاری شکاف شناختی) — ۳۵٪ | ۰.۳۵ | ۸.۰ | ۲.۸۰ | **شکنه‌های هدف‌گرفته شده:** (۱) شکاف سوپرزمینی‌ها: کوirot-۷b نخستین بی‌گانه هم‌نوع زمین (Rocky) با ترانزیت تاییدشده، پر کردن خالی بین زمین و نپتون. (۲) شکاف دوره مداری: کوirot-۴b (۹.۲ روز)، کوirot-۶b (۸.۹ روز)، کوirot-۹b (۹۵ روز) — پر کردن «گله» (Pile-up) زیر ۵ روز و امتدادها به دورهای معتدل. (۳) کویر قهوه‌سوزان: کوirot-۳b (۲۱.۶ M_Jup) و کوirot-۱۵b (۶۳.۳ M_Jup) — پر کردن منطقه تخلخل بین بی‌گانه‌ها و ستاره‌های کم‌جرم. (۴) شکاف متالیسیته-تشکیل: کوirot-۸b و کوirot-۱۴b حول ستاره‌های معدنی‌زنجیره (Metal-rich) — تایید روند نظری برای بی‌گانه‌های سنگین‌هسته. **نقص:** ادعای «نمایندگی کامل جمعیت جوپیترهای معتدل» برای کوirot-۹b (بخش ۴.۱) تعمیم بیش از اندازه از نمونه واحد (N=1) است؛ HD 17156b و HD 80606b انحراف‌دارند، کوirot-۹b دایره‌وار است، اما대표یت جمعیت بزرگتر نیازمند آمار جمعیتی (Occurrence Rate) است که هنوز وجود ندارد. |\n| **Combinatorial Synthesis** (ترکیب خوشه‌ای) — ۴۰٪ | ۰.۴۰ | ۸.۲۵ | ۳.۳۰ | **لایه‌های ترکیب‌شده:** (الف) **مشاهداتی:** فتومتری فضایی (CoRoT) + رادیل‌ولاسیتی زمینی (HARPS, SOPHIE, HIRES) + فتومتریزمینی (Deeg et al. 2009) + اسپکتروسکوپی ستاره (Gazzano et al. 2010). (ب) **نظری:** مدل‌های تحلیلی جرم-شعاع (Fortney et al. models implicit)، دینامیک مداری (Kozai oscillations, Planet-Planet Scattering, Tidal Circularization)، توسعه ستاره (Stellar Evolution for Synchronization). (ج) **متدولوژی:**Pipeline شناسایی ترانزیت (Cabrera et al. 2009)، استراتژی ردیابی چندمرحله‌ای (Bouchy et al. 2009; Deeg et al. 2009)، حالت Alarm برای حفظ دقت ۳۲ ثانیه. (د) **هم‌ارزی داده‌ها:** همزمان‌سازی فتومتری و RV برای کوirot-۷b (Boisse et al. 2010; Pont et al. 2010)، نقشه‌برداری نواحی فعال ستاره (Lanza et al. 2010). **یکپارچگی:** مقاله به خوبی نشان می‌دهد که چگونه داده‌های فتومتری پیوسته (Long Baseline) هم پارامترهای مداری (Period, Eccentricity) را می‌دهند، هم چرخش ستاره (Rotation Period)، هم فعالیت ستاره (Spots)، و هم ترانزیت ثانویه (Secondary Eclipse/Modulation) — همه در یک داده‌ست (Single Dataset). این تداخل پراکنده (Cross-cutting) قوی‌ترین جنبه ترکیب‌شناسی است. |\n| **Generative Capacity** (ظرفیت مولد) — ۲۵٪ | ۰.۲۵ | ۸.۴ | ۲.۱۰ | **پیش‌بینی‌های قابل‌تست و مسیرهایGenerative:** (۱) **کوirot-۱۰b:** «این سیستم از نظر ردیابی RV برای محدود کردن مبدأ انحراف ارزشمند است» — پیش‌بینی صریح: وجود هم‌سایه دور (Distant Companion) → سیگنال RV بلندمدت. (۲) **کوirot-۷b:** «نیاز به مشاهدات RV اضافی با استراتژی مخصوص برای مدل‌سازی فعالیت ستاره» — پیش‌بینی روش‌شناختی: نمونه‌برداری فاز-آگاه (Phase-aware Sampling) برای جدا کردن jitter. (۳) **کوirot-۹b:** «объект بسیار ارزشمند برای مطالعات عمیق‌تر» — پیش‌بینی: طیف‌گیری ترانزیت (Transmission Spectroscopy) برای جوی جوپیتر معتدل. (۳) **آمار جمعیتی:** «با کاندیداهای در حال ردیابی و داده‌های دو سال آینده، نتایج جدید انتظار می‌رود» — پیش‌بینی تجمعی: توزیع دوره-جرم، توزیع انحراف، بازخورد متالیسیته. **نقص:** مسیری برای حل ابهام طبیعت کوirot-۳b (بی‌گانه vs قهوه‌سوزان) از طریق مشاهدات پیشنهادی (مثلا asteroseismology ستاره مادر، یا طیف‌گیری حرارتی ثانویه) ارائه نشده. سناریوهای جایگزین برای ترکیب الدوري کوirot-۷ (۲ یا ۳ بی‌گانه) به صورت تست‌پذیر Formel نگرده‌اند. |\n| **مجموع CreativeValueAdd** | **۱.۰۰** | | **۸.۲۰ / ۱۰** → **۸۲ / ۱۰۰** | **تفسیر کلی:** مقاله در سطح «ترکیب نتایج یک مأموریت» (Mission-level Synthesis) عمل می‌کند، نه یک تحلیل تک‌پیچیده. قدرت آن در تبدیل داده‌های پراکنده کشف‌ها به یک روایة جمعیت‌شناختی (Population Narrative) است. ضعف اصلی در Generative Capacity: عدم ارائه چارچوب تصمیم‌گیری (Decision Framework) برای ردیابی‌های اولویت‌بندی‌شده. |\n\n---\n\n## ۴. لایه‌برداری عمیق (Deep Layering)\n\n### ۴.۱ لایه آشکار (Manifest Layer) — داده‌ها، ادعاها، و نتایج سطحی\n**داده‌های خام گزارش‌شده:**\n- ۱۵ بی‌گانه تاییدشده (CoRoT-1b تا 15b) با پارامترهای کامل: شعاع (0.14–1.49 R_Jup)، جرم (0.007–63.3 M_Jup)، تراکم (0.22–59 g/cm³)، دوره (0.85–95.27 روز)، نوع طیفی ستاره مادر (F3V–K1V)، متالیسیته ([Fe/H] -0.25 تا +0.30)، و توضیحات دسته‌بندی (Bloated HJ, Super-Earth, BD, Dense HJ, Synchronized, Eccentric, Temperate).  \n**ادعاها و نتایج صریح:**\n1. کوirot نخستین ابزار فضایی بی‌گانه‌یاب ترانزیتی است.  \n2. ۱۲۹،۳۲۶ منحنی نور جمع‌آوری شده، ∼۳۰۰۰ کاندیدای ترانزیت، ۸۰–۹۰٪ سیستم‌های ستاره‌ای دوگانه از ترانزیت ثانویه/ماژولاسیون شناسایی شده.  \n3. ۱۵ بی‌گانه تاییدشده: نیم‌رخ ترانزیت‌کنندگان با دوره > ۸ روز.  \n4. کوirot-۷b: نخستین سوپرزمینه ترانزیت‌کننده، جرم با عدم قطعیت >۲۰٪، ابهام در تعداد بی‌گانه‌های سیستم.  \n5. کوirot-۳b و ۱۵b: پر کردن کویر قهوه‌سوزان؛ ستاره‌های مادر نوع F با vsini بالا → بایاس RV در کشف‌های قبلی.  \n6. کوirot-۹b: نخستین بی‌گانه معتدل‌دما دوره‌طویل ترانزیت‌کننده، نماینده جمعیت بزرگترین بی‌گانه‌ها.  \n7. کوirot-۴b: تنها سیستم همگام‌سازی شده واضحة ستاره-بی‌گانه.  \n8. کوirot-۶b: شواهد آماری نواحی فعال عقبی از نقطه تحت-بی‌گانه (Star-Planet Magnetic Interaction).  \n7. کوirot-۱۰b: انحراف بالا (e~0.53)، مکانیسم کوزای (Kozai) یا پراکنش بی‌گانه-بی‌گانه.  \n8. کوirot-۸b: منطقه میانی جرم-دوره (بین جوپیتر داغ و سوپرزمینی)، هسته سنگین ۴۷–۶۴ M_⊕.  \n9. روند متالیسیته: بی‌گانه‌های سنگین‌هسته حول ستاره‌های معدنی‌زنجیره.  \n10. مأموریت تا مارس ۲۰۱۳ ادامه دارد، داده‌های بیشتر، کاندیداهای بیشتر، نتایج جدید منتظر.\n\n---\n\n### ۴.۲ لایه پنهان (Latent Layer) — مکانیسم‌ها، الگوهای تکرارشونده، حلقه‌های بازخورد، و نقاط واژگانی\n\n#### الف) مکانیسم‌های پنهان (Hidden Mechanisms)\n1. **مکانیسم فیلترציה دومرحله‌ای (Two-Stage Filtering Mechanism):**  \n   - **مرحله ۱ (فضایی):** شناسایی ترانزیت در فتومتری کوirot → کاندیدا. حساسیت به عمق ترانزیت ∝ (R_p/R_★)² و تعداد نقاط در ترانزیت ∝ √N_transits × T_dur. شکل ۳ نشان می‌دهد سیگنال ترانزیت (Signal = Depth × √N_pts) برای نپتون‌ها در تمام قدرها، اما برای سوپرزمینی‌ها فقط ستاره‌های روشن (R ≲ 14). این یک **آستانه کشف ناهموار** (Detection Threshold Surface) در فضاهای (Magnitude, Planet Radius, Period) است.  \n   - **مرحله ۲ (زمینی):** ردیابی FT → RV. ۸۰–۹۰٪ حذف شده از ترانزیت ثانویه/ماژولاسیون (ستاره‌های دوگانه). باقی‌مانده با RV تایید/رد می‌شوند. **نکته پنهان:** کارایی RV به شدت تابع vsini ستاره مادر است (بخش ۴.۲). ستاره‌های نوع F با vsini بالا → پهن شدن خط‌های طیفی → کاهش دقت RV → **بایاس chọn‌گیری علیه بی‌گانه‌های پرجرم حول ستاره‌های داغ/سریع‌چرخش**. کوirot این بایاس را شکسته چون ترانزیت وابسته به vsini نیست. این یک **مکانیسم اصلاح بایاس** (Bias-Correction Mechanism) ذاتی است.\n\n2. **مکانیسم هم‌ارزی فتومتری-رادیل‌ولاسیتی (Photometry-RV Co-inference):**  \n   - برای کوirot-۷b: فتومتری دور ستاره (Rotation Period = ۲۳ روز از لک‌ها) + RV با jitter ستاره‌ای → جداسازی سیگنال بی‌گانه از jitter. روش‌های مختلف (Queloz: پیش‌فیلتر هارمونیک‌ها؛ Hatzes: مدل‌سازی GP؛ Boisse: هم‌نمایی فازی؛ Pont: مدل‌سازی فيزیکی لک‌ها) هم‌همگرا می‌شوند بر وجود بی‌گانه، اما **جرم متضاد** می‌دهند. این نشان می‌دهد **مکانیسم استنتاج جرم در حضور jitter ستاره‌ای ناهمگرا (Non-identifiable)** است بدون مدل فیزیکی کامل ستاره. عدم قطعیت >۲۰٪ نه خطای اندازه‌گیری، بلکه **ناidentifiability ساختاری** است.\n\n3. **مکانیسم پر کردن کویر قهوه‌سوزان از طریق بایاس RV (RV-Bias-Driven Desert Filling):**  \n   - کوirot-۳b و ۱۵b حول ستاره‌های F با vsini بالا کشف شده‌اند. RV پرس날‌های قبلی این ستاره‌ها را یا حذف می‌کردند یا اولویت پایین می‌دادند. کوirot با ترانزیت (Geometry-based) این بایاس را دور می‌زند. **الگو:** بی‌گانه‌های پرجرم / قهوه‌سوزان‌های نزدیک‌دور **ترجیحاً حول ستاره‌های پرجرم، داغ، سریع‌چرخش** شکل می‌گیرند یا مهاجر می‌شوند. این یک **مکانیسم تشكيل/مهاجرت وابسته به نوع طیفی** (Spectral-Type-Dependent Formation/Migration) را suger می‌کند که در متن صریح مدل‌سازی نشده.\n\n#### ب) الگوهای تکرارشونده (Recurring Patterns)\n1. **الگوی «استفاده از خطای سیستماتیک به عنوان سیگنال» (Systematic-as-Signal Pattern):**  \n   - لک‌های ستاره (Stellar Spots) در فتومتری: نویز برای ترانزیت → سیگنال برای چرخش ستاره (Rotation Period)، همگام‌سازی (CoRoT-4b)، نقشه‌برداری طول جغرافیایی نواحی فعال (CoRoT-6b)، و مدل‌سازی jitter برای RV (CoRoT-7b). **تکرار:** هر بی‌گانه‌ای که حول ستاره فعال کشف می‌شود، داده‌های فتومتری دو کارکرد می‌کند: کشف بی‌گانه +ástero-seismology/Stellar Activity Mapping. این **دوهدفه بودن ذاتی** (Inherent Dual-Use) داده‌های کوirot است.\n\n2. **الگوی «پوشش ناهمگن پارامترها» (Patchy Parameter Coverage):**  \n   - جدول ۲: پراکنش درullet (Mass-Radius) وullet (Period-Eccentricity) پراکنده است، نه سیستماتیک. مثلاً: کوirot-۹b (۹۵ روز، e~0) یگانه در منطقه معتدل. کوirot-۱۰b (۱۳ روز، e~0.53) یگانه در منطقه انحراف‌دار میانین. کوirot-۷b (۰.۸۵ روز) یگانه سوپرزمینی. **هیچ سیستم تک‌بی‌گانه‌ای چندگانه تاییدشده نیست** (کوirot-۷ احتمالی). این الگو نشان می‌دهد **حساسیت کوirot به بی‌گانه‌های یکتا (Singletons) بالاست، نه سیستم‌های چندبی‌گانه‌ای Compact** — چون ترانزیت‌های متعدد تداخل دارند و Pipeline تک‌کاندیدا متمرکز است.\n\n3. **الگوی «متالیسیته-تراکم» (Metallicity-Density Correlation):**  \n   - کوirot-۸b (Metal-rich [Fe/H]=+0.30، تراکم ۱.۶ g/cm³، هسته سنگین)، کوirot-۱۴b (Metal-rich [Fe/H]=+0.05، تراکم ۷.۳ g/cm³، extremo density)، HD 149026b (مرجع، Metal-rich). تکرار: **ستاره‌های معدنی‌زنجیره → بی‌گانه‌های سنگین‌هسته / تراکم بالا",
+            "source_model": "nvidia/nemotron-3-ultra-550b-a55b:free",
+            "generated_at": "2026-09-14T20:01:46Z",
+            "usage": {
+              "prompt_tokens": 11658,
+              "completion_tokens": 2000,
+              "total_tokens": 13658,
+              "cost": 0,
+              "is_byok": false,
+              "prompt_tokens_details": {
+                "cached_tokens": 4320,
+                "cache_write_tokens": 0,
+                "audio_tokens": 0,
+                "video_tokens": 0
+              },
+              "cost_details": {
+                "upstream_inference_cost": 0,
+                "upstream_inference_prompt_cost": 0,
+                "upstream_inference_completions_cost": 0
+              },
+              "completion_tokens_details": {
+                "reasoning_tokens": 60,
+                "image_tokens": 0,
+                "audio_tokens": 0
+              }
+            },
+            "finish_reason": "length",
+            "continuation_rounds": 2
+          },
+          "metadata": {
+            "execution_time_seconds": 342.348,
+            "usage": {
+              "prompt_tokens": 11658,
+              "completion_tokens": 2000,
+              "total_tokens": 13658,
+              "cost": 0,
+              "is_byok": false,
+              "prompt_tokens_details": {
+                "cached_tokens": 4320,
+                "cache_write_tokens": 0,
+                "audio_tokens": 0,
+                "video_tokens": 0
+              },
+              "cost_details": {
+                "upstream_inference_cost": 0,
+                "upstream_inference_prompt_cost": 0,
+                "upstream_inference_completions_cost": 0
+              },
+              "completion_tokens_details": {
+                "reasoning_tokens": 60,
+                "image_tokens": 0,
+                "audio_tokens": 0
+              }
+            }
+          },
+          "judge_result": {
+            "criteria_source": "llm",
+            "winner": "raw",
+            "winner_source": "llm",
+            "reasoning": "RAW presents more comprehensive quantitative coverage and clearer links to broader exoplanet science, giving it a marginal advantage over BSI.",
+            "criteria": [
+              {
+                "name": "Coverage of Instrumental Status",
+                "importance": 25.0,
+                "raw_score": 8.0,
+                "bsi_score": 7.0,
+                "reason": "RAW gives a detailed mission timeline and hardware issue description; BSI touches on it but less detailed."
+              },
+              {
+                "name": "Depth of Exoplanet Characterisation",
+                "importance": 20.0,
+                "raw_score": 9.0,
+                "bsi_score": 8.0,
+                "reason": "Both analyses cover planet properties, but RAW lists mass‑radius and activity impacts explicitly; BSI is more qualitative."
+              },
+              {
+                "name": "Discussion of Detection Biases",
+                "importance": 15.0,
+                "raw_score": 8.0,
+                "bsi_score": 9.0,
+                "reason": "BSI emphasizes RV selection bias and transit advantage more sharply than RAW."
+              },
+              {
+                "name": "Analysis of Follow‑up Strategy",
+                "importance": 15.0,
+                "raw_score": 7.0,
+                "bsi_score": 8.0,
+                "reason": "BSI outlines the multi‑step follow‑up pipeline, RAW mentions it briefly."
+              },
+              {
+                "name": "Contextualisation of Results in Exoplanet Science",
+                "importance": 25.0,
+                "raw_score": 9.0,
+                "bsi_score": 7.0,
+                "reason": "RAW explicitly links CoRoT to ground‑based transition and population gaps; BSI focuses on methodological points."
+              }
+            ],
+            "total_scores": {
+              "raw": 8.3,
+              "bsi": 7.65
+            },
+            "bsi_capability_assessment": {
+              "relevance": "high",
+              "realization": "medium",
+              "incremental_value": "medium",
+              "reason": "BSI provides additional context on detection biases and follow‑up procedures, but does not add new quantitative insights beyond RAW."
+            },
+            "incremental_value": "medium",
+            "scale": "0-10",
+            "weight_sum": 100.0,
+            "glossary_mode": "compact_fallback",
+            "judge_input_compacted": true
+          },
+          "scores": {
+            "RAW": 0.83,
+            "BSI": 0.765
+          },
+          "failed": false,
+          "status": "incomplete",
+          "model_id": "nvidia/nemotron-3-ultra-550b-a55b:free",
+          "truncated": true
+        }
+      ],
+      "article_id": "doi:10.1051/epjconf/20111101001"
+    }
+  ],
+  "source_url": "https://github.com/ibstrade11-source/behmanesh-index-prompt/blob/main/MASTER_PROMPT_BSI_v3.4.2.md",
+  "run_metadata": {
+    "tool_version": "0.1.0",
+    "git_commit": "4611b84b11c40496a9a55179000750ad1c70c7f4",
+    "git_dirty": true,
+    "run_timestamp_utc": "2026-09-14T19:52:50Z",
+    "methodology_note": "Scores/judgements come from an independent LLM judge (see comparison/judge.py) instructed not to reuse BSI's own D1-D7/EIG vocabulary and to choose its own evaluation criteria. If no judge model is available or its response cannot be parsed, the run falls back to a simple keyword-presence heuristic -- the stored record's own 'criteria_source' field ('llm' vs 'heuristic_fallback') always says honestly which one produced a given result. Neither path is a validated measurement of analytical quality until checked against independent human judgement on a representative sample.",
+    "provider_name": null,
+    "model_version": null,
+    "temperature": null,
+    "max_tokens": null,
+    "prompt_version": null,
+    "framework_name": "bsi"
+  },
+  "retrieval_metadata": {
+    "retrieval_status": "accepted",
+    "retrieval_validation": {
+      "retrieval_status": "accepted",
+      "retrieval_validation": "not_required",
+      "query_type": "topic",
+      "requested_query": "exoplanet atmosphere characterization",
+      "candidate_count": 5
+    },
+    "rejected_articles": [],
+    "skipped_count": 0,
+    "skipped_titles": []
+  },
+  "benchmark_status": "benchmarkable"
+}
