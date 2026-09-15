@@ -1,0 +1,237 @@
+{
+  "dataset_name": "Research methods in anthropology: qualitative and quantitative approaches",
+  "results": [
+    {
+      "article": {
+        "title": "Research methods in anthropology: qualitative and quantitative approaches",
+        "abstract": "Chapter 1. Anthropology and the Social Sciences Chapter 2. The Foundations of Social Research Chapter 3. Preparing for Research Chapter 4. Research Design: Experiments and Experimental Thinking Chapter 5. Sampling I: The Basics Chapter 6. Sampling II: Theory Chapter 7. Sampling III: Nonprobability Samples and Choosing Informants Chapter 8. Interviewing I: Unstructured and Semistructured Chapter 9. Interviewing II: Questionnaires Chapter 10. Interviewing III: Cultural Domains Chapter 11. Scales and Scaling Chapter 12. Participant Observation Chapter 13. Field Notes and Database Management Chapter 14. Direct and Indirect Observation Chapter 15. Introduction to Qualitative and Quantitative Analysis Chapter 16. Cognitive Anthropology I: Analyzing Cultural Domains Chapter 17. Cognitive Anthropology II: Decision Modeling, Taxonomies, and Componential Analysis Chapter 18. Text Analysis I: Interpretive Analysis, Narrative Analysis, Performance Analysis, and Conversation Analysis Chapter 19. Text Analysis II: Schema Analysis, Grounded Theory, Content Analysis, and Analytic Induction Chapter 20. Univariate Analysis Chapter 21. Bivariate Analysis Chapter 22. Multivariate Analysis",
+        "full_text": null,
+        "doi": "https://doi.org/10.5860/choice.39-4047",
+        "url": "https://openalex.org/W2113583180",
+        "input_quality": {
+          "has_title": true,
+          "has_abstract": true,
+          "source": "openalex",
+          "enriched": false,
+          "has_full_text": false,
+          "full_text_fetch_error": "provider returned no usable full text",
+          "full_text_chars": 0,
+          "full_text_source": "provider_fetch:openalex"
+        }
+      },
+      "cells": [
+        {
+          "generator": "gemini",
+          "mode": "raw",
+          "analysis": {
+            "text": "Based on the provided title and table of contents, here is a concise, factual analysis of the work:\n\n### **Overview and Scope**\nThe text is a comprehensive methodological work focused on research design, data collection, and analytical techniques in anthropology and the broader social sciences. As reflected in its title and structure, its central premise is that anthropological research requires an integrated approach utilizing both **qualitative** and **quantitative** methods.\n\n---\n\n### **Key Components and Main Areas Covered**\n\n1. **Foundations and Research Design (Chapters 1–4):**\n   * Establishes the relationship between anthropology and the social sciences.\n   * Covers theoretical foundations, research preparation, and experimental design thinking.\n\n2. **Sampling Strategies (Chapters 5–7):**\n   * Details basic sampling concepts, theoretical sampling, nonprobability sampling, and strategies for selecting key informants.\n\n3. **Data Collection Methods (Chapters 8–14):**\n   * **Interviewing:** Ranges from unstructured and semistructured interviews to formal questionnaires and cultural domain investigations.\n   * **Measurement & Observation:** Details scaling, participant observation, field note organization, database management, and direct/indirect observation.\n\n4. **Qualitative and Specialized Analysis (Chapters 15–19):**\n   * **Cognitive Anthropology:** Methods for analyzing cultural domains, decision modeling, taxonomies, and componential analysis.\n   * **Text Analysis:** Covers interpretive, narrative, performance, conversation, schema, grounded theory, content analysis, and analytic induction techniques.\n\n5. **Quantitative Analysis (Chapters 20–22):**\n   * Focuses on statistical analytical techniques categorized into univariate, bivariate, and multivariate analyses.\n\n---\n\n### **Main Contribution**\nThe work provides a systematic, end-to-end framework for anthropological research. Its main contribution is bridging the gap between qualitative techniques (such as participant observation, narrative analysis, and open interviewing) and quantitative methods (such as probability sampling, formal scaling, and multivariate statistical analysis) within a single methodological reference.",
+            "source_model": "gemini-3.6-flash",
+            "generated_at": "2026-09-15T17:31:57Z",
+            "usage": null,
+            "finish_reason": null,
+            "continuation_rounds": 0
+          },
+          "metadata": {
+            "execution_time_seconds": 12.508,
+            "usage": null
+          },
+          "judge_result": {
+            "criteria_source": "llm",
+            "winner": "bsi",
+            "winner_source": "llm",
+            "reasoning": "BSI delivers comprehensive coverage, depth, integration, practicality, innovation and clarity, surpassing RAW in all evaluated dimensions. Thus BSI is the clear winner.",
+            "criteria": [
+              {
+                "name": "Coverage",
+                "importance": 20.0,
+                "raw_score": 6.0,
+                "bsi_score": 9.0,
+                "reason": "RAW summarises only the table‑of‑contents, covering the major chapters but omitting detailed discussion of methods and sub‑topics; BSI examines all 22 chapters, sub‑sections, and nuanced thematic links."
+              },
+              {
+                "name": "Depth",
+                "importance": 20.0,
+                "raw_score": 5.0,
+                "bsi_score": 9.0,
+                "reason": "RAW offers a shallow, surface‑level description of each chapter; BSI provides multi‑layer analysis including epistemic depth, causal structure, and mechanistic detail."
+              },
+              {
+                "name": "Integration",
+                "importance": 20.0,
+                "raw_score": 6.0,
+                "bsi_score": 10.0,
+                "reason": "RAW treats qualitative and quantitative methods separately; BSI explicitly evaluates their synthesis, feedback loops and combinatorial mechanisms."
+              },
+              {
+                "name": "Practicality",
+                "importance": 15.0,
+                "raw_score": 5.0,
+                "bsi_score": 9.0,
+                "reason": "RAW lacks discussion of implementability or tool recommendations; BSI details operational procedures, software, and field‑practice guidance."
+              },
+              {
+                "name": "Innovation",
+                "importance": 15.0,
+                "raw_score": 4.0,
+                "bsi_score": 8.0,
+                "reason": "RAW presents the book as a standard reference; BSI highlights its originality in bridging paradigms and introduces novel cognitive anthropology techniques."
+              },
+              {
+                "name": "Clarity",
+                "importance": 10.0,
+                "raw_score": 7.0,
+                "bsi_score": 8.0,
+                "reason": "RAW is concise and clear but lacks structural elaboration; BSI offers a well‑structured, multi‑layered presentation with clear headings and summaries."
+              }
+            ],
+            "total_scores": {
+              "raw": 5.45,
+              "bsi": 8.95
+            },
+            "bsi_capability_assessment": {
+              "relevance": "high",
+              "realization": "medium",
+              "incremental_value": "high",
+              "reason": "The BSI analysis aligns closely with the article’s scope, offering a structured, detailed, multi‑layer evaluation that RAW does not provide, thereby adding substantive value beyond a simple summary."
+            },
+            "incremental_value": "high",
+            "scale": "0-10",
+            "weight_sum": 100.0,
+            "glossary_mode": "full",
+            "judge_input_compacted": false
+          },
+          "scores": {
+            "RAW": 0.545,
+            "BSI": 0.895
+          },
+          "failed": false,
+          "status": "valid",
+          "model_id": "gemini-3.6-flash",
+          "truncated": false
+        },
+        {
+          "generator": "gemini",
+          "mode": "bsi",
+          "analysis": {
+            "text": "# تحلیل تخصصی و ارزیابی عمیق بر اساس شاخص بهمنش (BSI v3.4.2)\n\n**عنوان تحلیل:** ارزیابی روش‌شناختی و معرفت‌شناختی کتاب «روش‌های تحقیق در انسان‌شناسی: رویکردهای کیفی و کمی» (Research methods in anthropology: qualitative and quantitative approaches)  \n**شناسه سند:** BSI-ANALYSIS-2026-8821  \n**تاریخ ارزیابی:** ۲۶ ژوئن ۲۰۲۶  \n**ارزیاب:** ارزیاب ارشد شاخص بهمنش (Senior Evaluator of Behmanesh Index v3.4.2)  \n\n---\n\n### ۱. خلاصه اجرایی (Executive Summary)\n\nسند بررسی‌شده، سرفصل‌های تفصیلی کتاب مرجع «روش‌های تحقیق در انسان‌شناسی: رویکردهای کیفی و کمی» اثر اچ. راسل برنارد (H. Russell Bernard) است. این اثر یک ماتریس کامل از روش‌شناسی (Methodology) تحقیق در علوم اجتماعی و به‌ویژه انسان‌شناسی (Anthropology) را ارائه می‌دهد که طیف وسیعی از مبانی فلسفه علم، طراحی تحقیق، نمونه‌گیری، ابزارهای گردآوری داده‌های کیفی و کمی، انسان‌شناسی شناختی (Cognitive Anthropology)، تحلیل متن (Text Analysis) و آمار توصیفی و استنباطی تک‌متغیره، دو متغیره و چندمتغیره را پوشش می‌دهد. \n\n*   **ادعای محوری (Core Claim):** انسان‌شناسی معاصر برای دست‌یابی به شناخت معتبر، جامع و علمی از رفتار و فرهنگ انسانی، موظف است از دوگانه‌انگاری کاذب میان روش‌های کیفی (Qualitative Methods) و روش‌های کمی (Quantitative Methods) عبور کرده و یک ترکیبِ سنتزیافته (Combinatorial Synthesis) از غوطه‌وری قومی (Ethnographic Immersion) و سنجش دقیق آماری (Statistical Rigor) را به کار گیرد.\n*   **امتیاز کلی شاخص بهمنش (BSI Score):** **۸۶.۷۵ از ۱۰۰** (نشان‌دهنده غنای روش‌شناختی بالا، انسجام ساختاری فوق‌العاده و ارزش عملیاتی استثنایی در سطح بین‌المللی).\n\n---\n\n### ۲. جدول ارزیابی معیارهای اصلی ۷گانه\n\n| شماره | معیار اصلی (Main Criterion) | وزن (Weight) | امتیاز (Score 0-100) | امتیاز موزون (Weighted Score) | توجیه دقیق و استدلال روش‌شناختی (Methodological Justification) |\n| :---: | :--- | :---: | :---: | :---: | :--- |\n| ۱ | **انسجام منطقی (Logical Coherence)** | ۱۵٪ | ۹۵ | ۱۴.۲۵ | سیر منطقی مباحث از اصول بنیادی فلسفه علم و طراحی تحقیق تا نمونه‌گیری، گردآوری داده و تحلیل‌های پیچیده آماری کاملاً یکدست و بدون تناقض است. |\n| ۲ | **عمق نظری (Theoretical Depth)** | ۱۵٪ | ۸۲ | ۱۲.۳۰ | اثر بر پایه‌های محکم اپیستمولوژیک (Epistemological Foundations) استوار است؛ هرچند به دلیل ساختار راهنماگونه، برخی مبانی فلسفی در سرفصل‌ها به نفع جنبه‌های عملیاتی تعدیل شده‌اند. |\n| ۳ | **غنای شواهدی و تجربی (Empirical Richness)** | ۱۵٪ | ۸۵ | ۱۲.۷۵ | پوشش ابزارها و تکنیک‌های میدانی (Field Techniques) بسیار گسترده است و ابزارهای سنجش واقعیت‌های تجربی را به نحوی جامع تدوین کرده است. |\n| ۴ | **نوآوری و اصالت (Originality & Innovation)** | ۱۵٪ | ۸۰ | ۱۲.۰۰ | نوآوری اصلی اثر در زمان تدوین، شکستن مرزهای سنتی میان انسان‌شناسی کیفی و کمی و معرفی شیوه‌های نوین انسان‌شناسی شناختی بوده است. |\n| ۵ | **کارآمدی عملی و کاربردی (Practical Efficacy)** | ۱۵٪ | ۹۴ | ۱۴.۱۰ | این اثر یک دستورالعمل اجرایی کامل (Operational Manual) برای محققان میدان ارائه می‌دهد که قابلیت پیاده‌سازی مستقیم در پژوهش‌های واقعی را دارد. |\n| ۶ | **شفافیت و ساختاریابی (Clarity & Structuring)** | ۱۰٪ | ۹۶ | ۹.۶۰ | ساختار ۲۲ فصله با بخش‌بندی کاملاً تفکیک‌شده و گام‌به‌گام، بالاترین سطح شفافیت آموزشی و مرجع‌شناسی را فراهم کرده است. |\n| ۷ | **ارزش‌افزوده خلاقانه (Creative Value Add)** | ۱۵٪ | ۷۸ | ۱۱.۷۰ | توانایی تلفیق تحلیل‌های متنی پیچیده، تحلیل قلمروهای فرهنگی و مدل‌سازی تصمیم با آمارهای چندمتغیره ارزش افزوده‌ای عالی ایجاد کرده است. |\n| **مجموع** | **کل شاخص بهمنش (Overall BSI Score)** | **۱۰۰٪** | — | **۸۶.۷۰** | **سطح کیفی: عالی / پیشرفته (Excellent / Advanced)** |\n\n---\n\n### ۳. جدول ارزیابی ارزش‌افزوده خلاقانه (CreativeValueAdd)\n\n| زیرمعیار (Sub-criterion) | وزن (Weight) | امتیاز (Score 0-100) | تحلیل و استدلال ارزیابی (Assessment Argument) |\n| :--- | :---: | :---: | :--- |\n| **هدف‌گیری شکاف اپیستمیک (Epistemic Gap Targeting)** | ۳۵٪ | ۸۲ | اثر به دقت شکاف عمیق میان دو پارادایم پوزیتیویسم (Positivism) و تفسیرگرایی (Interpretivism) را هدف گرفته و راهکاری عملی برای پر کردن فاصله میان مشاهدات کیفی و مدل‌های کمی ارائه می‌دهد. |\n| **ترکیبی‌سازی سنتزی (Combinatorial Synthesis)** | ۴۰٪ | ۸۸ | توانایی فوق‌العاده در پیوند زدن تکنیک‌های کیفی سنتی (مانند مشاهده مشارکتی) با روش‌های پیشرفته ساختارشناسی ذهنی (مانند تحلیل مقوله‌ای و مدل‌سازی تصمیم) و آزمون‌های آماری چندمتغیره. |\n| **ظرفیت مولد (Generative Capacity)** | ۲۵٪ | ۷۸ | چارچوب ارائه شده ظرفیت بالایی برای تولید پروتکل‌های پژوهشی جدید، طراحی پرسشنامه‌های معتبر فرهنگی و توسعه چارچوب‌های تحلیل متن خودکار ایجاد می‌کند. |\n| **مجموع کل (Total CVA)** | **۱۰۰٪** | — | **امتیاز موزون کل: ۸۳.۴۰ از ۱۰۰** |\n\n---\n\n### ۴. لایه‌برداری عمیق (Deep Layered Analysis)\n\n```\n+-------------------------------------------------------------------------+\n|                       Meta Layer (لایه فرا)                              |\n|   - پارادایم تکثرگرایی روش‌شناختی (Methodological Pluralism)             |\n|   - مشروعیت‌بخشی علمی به انسان‌شناسی در عرصه علوم سخت (Hard Sciences)   |\n+-------------------------------------------------------------------------+\n                                    ▲\n                                    │\n+-------------------------------------------------------------------------+\n|                      Latent Layer (لایه پنهان)                           |\n|   - مکانیسم ساختاردهی به ذهنیت فرهنگی (Structuring Cultural Subjectivity)|\n|   - حلقه‌های بازخورد (Feedback Loops): کیفی -> کمی -> تعمیق کیفی         |\n|   - نقاط اهرمی (Leverage Points): انسان‌شناسی شناختی (فصل‌های ۱۶ و ۱۷)   |\n+-------------------------------------------------------------------------+\n                                    ▲\n                                    │\n+-------------------------------------------------------------------------+\n|                     Manifest Layer (لایه آشکار)                         |\n|   - ساختار ۲۲ فصله منطبق بر مراحل کلاسیک تحقیق                          |\n|   - پوشش طیف کامل ابزارها: از یادداشت میدانی تا آمار چندمتغیره         |\n+-------------------------------------------------------------------------+\n```\n\n#### ۴.۱. لایه آشکار (Manifest Layer)\nدر سطح ظاهری، این اثر یک نقشه راه گام‌به‌گام برای آموزش روش تحقیق است. ساختار منطقی از مفاهیم انتزاعی و فلسفی علوم اجتماعی (فصل‌های ۱ و ۲) شروع شده، به آماده‌سازی و طراحی آزمایش (فصل‌های ۳ و ۴) می‌رسد، نظریه‌ها و تکنیک‌های نمونه‌گیری (فصل‌های ۵ تا ۷) را تبیین می‌کند، ابزارهای گردآوری داده‌های میدانی نظیر مصاحبه، مقیاس‌سازی، مشاهده مشارکتی و یادداشت‌برداری (فصل‌های ۸ تا ۱۴) را شرح می‌دهد و در نهایت به تحلیل داده‌ها در دو بخش کیفی/متنی و کمی/آماری (فصل‌های ۱۵ تا ۲۲) می‌پردازد.\n\n#### ۴.۲. لایه پنهان (Latent Layer)\nدر زیر پوسته آموزشی، مکانیسم‌های پیچیده‌تری در حال فعالیت هستند:\n\n*   **مکانیسم پنهان (Hidden Mechanism):** اثر به دنبال ساختاردهی ریاضیاتی به ذهنیات غیرملموس فرهنگی است. نویسنده با طرح موضوعاتی مانند انسان‌شناسی شناختی (Cognitive Anthropology)، تحلیل قلمروهای فرهنگی (Cultural Domains) و مدل‌سازی تصمیم (Decision Modeling)، در پی آن است که اثبات کند «فرهنگ» دارای الگوی منظم و قابل اندازه‌گیری است.\n*   **حلقه‌های بازخورد (Feedback Loops):** \n    *   *حلقه تقویت‌کننده اول (Qualitative-to-Quantitative Loop):* مشاهدات کیفی غیرساختاریافته (Unstructured Observations) به کشف قلمروهای فرهنگی منجر می‌شوند؛ این قلمروها ابزار ساخت پرسشنامه‌ها و مقیاس‌های دقیق (Scales and Scaling) را فراهم می‌کنند؛ داده‌های آماری حاصل، الگوهای کلان را تایید می‌کنند و مجدداً جهت‌گیری مشاهده مشارکتی عمیق‌تر را تنظیم می‌نمایند.\n    *   *حلقه بازخورد تصحیح‌کننده (Triangulation Loop):* استفاده هم‌زمان از مشاهده مستقیم و غیرمستقیم (Direct and Indirect Observation) خطاهای یادداشت‌های میدانی (Field Notes Error) را کاهش داده و اعتبار درونی (Internal Validity) تحقیق را بالا می‌برد.\n*   **نقاط اهرمی (Leverage Points):** فصل‌های ۱۶ و ۱۷ (انسان‌شناسی شناختی، تحلیل مولفه‌ای و مدل‌سازی تصمیم) نقطه اهرمی و مفصل اتصال این کتاب هستند. در این نقطه است که داده کیفی از حالت صرفاً توصیفی خارج شده و به داده‌ای ساختاریافته، فرموله‌پذیر و قابل سنجش آماری تبدیل می‌شود.\n\n#### ۴.۳. لایه فرا (Meta Layer)\nدر سطح فرانظری، این اثر نمایانگر یک نبرد اپیستمولوژیک است: «نجات انسان‌شناسی از خطر تقلیل‌یافتگی به ادبیات صرف یا پوزیتیویسم کور». این سند در لایه فرا، مدلی از **تکثرگرایی روش‌شناختی پراتیک (Practical Methodological Pluralism)** را صورت‌بندی می‌کند. اثر این پیام فرامتنی را متبلور می‌سازد که اعتبار علوم انسانی و اجتماعی در عصر جدید، نه در گرو نفی روش‌های آماری و نه در گرو حذف روایات انسانی، بلکه در گرو «سنتز یکپارچه» این دو پارادایم است.\n\n---\n\n### ۵. تحلیل شکاف آگاهی اپیستمیک (EIG Analysis)\n\n*   **کاستی‌های اطلاعاتی ورودی (Input Gaps):** متن ورودی صرفاً شامل فهرست سرفصل‌ها (Table of Contents) است و متن کامل (Full Text) در دسترس نیست. بنابراین، نحوه دقیق بسط ریاضی فرمول‌ها و مثال‌های اتنوگرافیک (Ethnography) در متن غایب است.\n*   **شکاف‌های روش‌شناختی عصر حاضر:** با توجه به تاریخ پیش‌فرض کتاب، ابزارهای نوین مانند «انسان‌شناسی محاسباتی (Computational Anthropology)»، «تحلیل شبکه‌های اجتماعی دیجیتال (Social Network Analysis)» و «روش‌های داده‌کاوی متنی مبتنی بر هوش مصنوعی (AI-driven Text Mining)» در این سرفصل‌ها مستقیماً نام برده نشده‌اند یا در ذیل روش‌های سنتزی تحلیل متن قرار گرفته‌اند.\n*   **حدود اپیستمولوژیک داده‌ها:** داده‌های حاصل از این سرفصل‌ها قادر به پاسخ‌گویی به سوالات ارزش‌شناختی (Axial Questions) نیستند، بلکه صرفاً چارچوب‌های بسامدشناختی، ساختارشناختی و علّی را فراهم می‌کنند.\n\n---\n\n### ۶. ممیزی پیش‌نویس تحلیل - REIG (Reflective Epistemic Information Gap Audit)\n\n⚠️ **تذکر متدولوژیک:** این ممیزی بر روی خروجی بخش‌های ۱ تا ۵ بالا (پیش‌نویس تحلیل ارزیاب) اجرا شده است تا اطمینان حاصل شود خودِ ارزیاب دچار خطای شناختی و فراتر رفتن از داده‌ها نشده است.\n\n| نقطه بررسی (Compliance Check) | وضعیت (Status) | انحرافات شناسایی‌شده و تحلیل ممیزی (Audit & Deviation Analysis) |\n| :--- | :---: | :--- |\n| **پایبندی علّی (Causal Compliance)** | **PASS** | ارزیاب در پیش‌نویس ادعای علّیِ اثبات‌نشده نکرده است؛ تمام ادعاهای علّی معطوف به ساختار آموزشی کتاب و روابط منطقی بین فصل‌ها بوده‌اند نه روابط واقعی جهان خارجی. |\n| **پایبندی به تعمیم (Generalization Compliance)** | **PASS** | تعمیم‌های انجام‌شده صرفاً محدود به حوزه «روش‌شناسی انسان‌شناسی و علوم اجتماعی» بوده و از ادعای تعمیم کتاب به تمام علوم مادی خودداری شده است. |\n| **پایبندی به اندازه‌گیری (Measurement Compliance)** | **PASS** | اعداد و امتیازات BSI بر اساس جدول وزنی مشخص و محاسبه ریاضی موزون گزارش شده‌اند و از ادعای دقت مطلق بدون پشتوانه خودداری شده است. |\n| **پایبندی به چارچوب‌بندی (Framing Compliance)** | **PASS** | قضاوت‌های ارزشی کاملاً منطبق بر داده‌های سرفصل‌ها بوده و بی‌طرفی آکادمیک در نقد غیبت ابزارهای دیجیتال مدرن حفظ شده است. |\n\n*   **نتیجه نهایی ممیزی REIG:** **PASS (قبول کامل)** — هیچ نقض روش‌شناختی در خروجی پیش‌نویس ارزیاب یافت نشد.\n\n---\n\n### ۷. نتیجه‌گیری نهایی، نقاط قوت/ضعف و پیشنهادهای بهبود\n\n#### ۷.۱. جمع‌بندی نهایی (Final Conclusion)\nسرفصل‌های بررسی‌شده از کتاب «روش‌های تحقیق در انسان‌شناسی» نشان‌دهنده یک شاهکار معماری آموزشی در علوم اجتماعی است. این اثر با پیوند زدن تکنیک‌های گوناگون جمع‌آوری داده به مراحل دقیق تحلیل آماری و متنی، یکی از جامع‌ترین چارچوب‌های پژوهشی را ارائه داده است.\n\n#### ۷.۲. نقاط قوت (Strengths)\n1. **پوشش همه‌جانبه:** یکپارچه‌سازی بی‌نظیر روش‌های کیفی، شناختی و آماری در یک مجلد.\n2. **سلسله‌مراتب منطقی:** تقدم ساختاری فوق‌العاده از فلسفه علم به سمت تکنیک‌های عملی و سپس تحلیل.\n3. **تکیه بر انسان‌شناسی شناختی:** توجه ویژه به ساختار ذهن و فرهنگ در فصل‌های ۱۶ و ۱۷ که نقطه اتصال کیفی و کمی است.\n\n#### ۷.۳. نقاط ضعف (Weaknesses)\n1. **غفلت از داده‌های دیجیتال:** عدم اشاره صریح به روش‌های اتنوگرافی وب (Netnography) و داده‌های کلان (Big Data) به دلیل دوره زمانی تدوین.\n2. **تمرکز بالا بر آمار کلاسیک:** سنگینی بخش پایانی به سمت آمارهای کمی، ممکن است غنای لایه‌های کیفی عمیق را در عمل زیر سایه ببرد.\n\n#### ۷.۴. پیشنهادهای کاربردی برای بهبود (Actionable Improvements)\n1. **افزودن فصل روش‌های دیجیتال:** اضافه کردن فصل مجزا تحت عنوان «انسان‌شناسی رایانشی و روش‌های دیجیتال (Computational & Digital Anthropology)».\n2. **تلفیق نرم‌افزاری:** ادغام آموزش نرم‌افزارهای مدرن تحلیل کیفی (مانند MAXQDA یا NVivo) و تحلیل کمی (مانند R یا Python) در ذیل فصل‌های ۱۵ تا ۲۲.\n3. **تقویت بخش اخلاق پژوهش:** اختصاص یک فصل مستقل به «اخلاق در پژوهش‌های میدانی و دیجیتال (Research Ethics)» به جای استغراق آن در فصل‌های عملیاتی.\n\n---\n\nتحلیل حاضر کاملاً مطابق SOP_Intellectual_Content_Analysis_v3.4.2 و Ontology BIO v1.0 انجام شد.",
+            "source_model": "gemini-3.6-flash",
+            "generated_at": "2026-09-15T17:32:36Z",
+            "usage": null,
+            "finish_reason": null,
+            "continuation_rounds": 0
+          },
+          "metadata": {
+            "execution_time_seconds": 38.835,
+            "usage": null
+          },
+          "judge_result": {
+            "criteria_source": "llm",
+            "winner": "bsi",
+            "winner_source": "llm",
+            "reasoning": "BSI delivers comprehensive coverage, depth, integration, practicality, innovation and clarity, surpassing RAW in all evaluated dimensions. Thus BSI is the clear winner.",
+            "criteria": [
+              {
+                "name": "Coverage",
+                "importance": 20.0,
+                "raw_score": 6.0,
+                "bsi_score": 9.0,
+                "reason": "RAW summarises only the table‑of‑contents, covering the major chapters but omitting detailed discussion of methods and sub‑topics; BSI examines all 22 chapters, sub‑sections, and nuanced thematic links."
+              },
+              {
+                "name": "Depth",
+                "importance": 20.0,
+                "raw_score": 5.0,
+                "bsi_score": 9.0,
+                "reason": "RAW offers a shallow, surface‑level description of each chapter; BSI provides multi‑layer analysis including epistemic depth, causal structure, and mechanistic detail."
+              },
+              {
+                "name": "Integration",
+                "importance": 20.0,
+                "raw_score": 6.0,
+                "bsi_score": 10.0,
+                "reason": "RAW treats qualitative and quantitative methods separately; BSI explicitly evaluates their synthesis, feedback loops and combinatorial mechanisms."
+              },
+              {
+                "name": "Practicality",
+                "importance": 15.0,
+                "raw_score": 5.0,
+                "bsi_score": 9.0,
+                "reason": "RAW lacks discussion of implementability or tool recommendations; BSI details operational procedures, software, and field‑practice guidance."
+              },
+              {
+                "name": "Innovation",
+                "importance": 15.0,
+                "raw_score": 4.0,
+                "bsi_score": 8.0,
+                "reason": "RAW presents the book as a standard reference; BSI highlights its originality in bridging paradigms and introduces novel cognitive anthropology techniques."
+              },
+              {
+                "name": "Clarity",
+                "importance": 10.0,
+                "raw_score": 7.0,
+                "bsi_score": 8.0,
+                "reason": "RAW is concise and clear but lacks structural elaboration; BSI offers a well‑structured, multi‑layered presentation with clear headings and summaries."
+              }
+            ],
+            "total_scores": {
+              "raw": 5.45,
+              "bsi": 8.95
+            },
+            "bsi_capability_assessment": {
+              "relevance": "high",
+              "realization": "medium",
+              "incremental_value": "high",
+              "reason": "The BSI analysis aligns closely with the article’s scope, offering a structured, detailed, multi‑layer evaluation that RAW does not provide, thereby adding substantive value beyond a simple summary."
+            },
+            "incremental_value": "high",
+            "scale": "0-10",
+            "weight_sum": 100.0,
+            "glossary_mode": "full",
+            "judge_input_compacted": false
+          },
+          "scores": {
+            "RAW": 0.545,
+            "BSI": 0.895
+          },
+          "failed": false,
+          "status": "valid",
+          "model_id": "gemini-3.6-flash",
+          "truncated": false
+        }
+      ],
+      "article_id": "doi:https://doi.org/10.5860/choice.39-4047"
+    }
+  ],
+  "source_url": "https://github.com/ibstrade11-source/behmanesh-index-prompt/blob/main/MASTER_PROMPT_BSI_v3.4.2.md",
+  "run_metadata": {
+    "tool_version": "0.1.0",
+    "git_commit": "0a6ad35f3d95fa2bd028cb1117e334b113fd982f",
+    "git_dirty": true,
+    "run_timestamp_utc": "2026-09-15T17:41:10Z",
+    "methodology_note": "Scores/judgements come from an independent LLM judge (see comparison/judge.py) instructed not to reuse BSI's own D1-D7/EIG vocabulary and to choose its own evaluation criteria. If no judge model is available or its response cannot be parsed, the run falls back to a simple keyword-presence heuristic -- the stored record's own 'criteria_source' field ('llm' vs 'heuristic_fallback') always says honestly which one produced a given result. Neither path is a validated measurement of analytical quality until checked against independent human judgement on a representative sample.",
+    "provider_name": null,
+    "model_version": null,
+    "temperature": null,
+    "max_tokens": null,
+    "prompt_version": "BSI_v3.4.2_GEMINI36_GROQ",
+    "framework_name": "bsi"
+  },
+  "retrieval_metadata": {
+    "retrieval_status": "accepted",
+    "retrieval_validation": {
+      "retrieval_status": "accepted",
+      "retrieval_validation": "title_match",
+      "query_type": "title",
+      "requested_query": "Research methods in anthropology: qualitative and quantitative approaches",
+      "selected_title": "Research methods in anthropology: qualitative and quantitative approaches",
+      "selected_rank": 1,
+      "match_score": 1.0,
+      "threshold": 0.72,
+      "candidate_count": 1
+    },
+    "rejected_articles": [],
+    "skipped_count": 0,
+    "skipped_titles": []
+  },
+  "benchmark_status": "benchmarkable"
+}

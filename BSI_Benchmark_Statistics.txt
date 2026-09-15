@@ -2,16 +2,16 @@
 BSI BENCHMARK — COMPLETE MASTER STATISTICS
 ==============================================================================
 
-JSON files scanned              : 149
-CSV rows generated              : 149
-Valid judge comparisons         : 112
+JSON files scanned              : 151
+CSV rows generated              : 151
+Valid judge comparisons         : 114
 Non-valid / other rows          : 37
 
 SCORE STATISTICS
 ------------------------------------------------------------------------------
-RAW mean                        : 6.659
-BSI mean                        : 7.598
-Mean Δ (BSI − RAW)              : +0.939
+RAW mean                        : 6.647
+BSI mean                        : 7.616
+Mean Δ (BSI − RAW)              : +0.969
 Median Δ                        : +1.350
 RAW minimum                     : 0.750
 RAW maximum                     : 9.400
@@ -20,11 +20,11 @@ BSI maximum                     : 9.220
 
 WIN / TIE STATISTICS
 ------------------------------------------------------------------------------
-BSI wins                        : 87
+BSI wins                        : 89
 RAW wins                        : 23
 Ties                            : 2
-BSI win rate                    : 77.7%
-RAW win rate                    : 20.5%
+BSI win rate                    : 78.1%
+RAW win rate                    : 20.2%
 Tie rate                        : 1.8%
 
 DOMAIN BREAKDOWN
@@ -50,11 +50,11 @@ Research / arXiv             N=  8 RAW=7.19 BSI=8.15 Δ=+0.96 W(B/R/T)=7/1/0
 Robotics                     N=  2 RAW=5.53 BSI=8.15 Δ=+2.62 W(B/R/T)=2/0/0
 Social Science               N=  1 RAW=8.45 BSI=8.80 Δ=+0.35 W(B/R/T)=1/0/0
 Sociology                    N=  1 RAW=1.10 BSI=3.25 Δ=+2.15 W(B/R/T)=1/0/0
-Unknown                      N= 11 RAW=6.77 BSI=7.88 Δ=+1.11 W(B/R/T)=10/1/0
+Unknown                      N= 13 RAW=6.64 BSI=7.99 Δ=+1.35 W(B/R/T)=12/1/0
 
 EVIDENCE STATUS COUNTS
 ------------------------------------------------------------------------------
 ARCHIVED                                 8
 HEURISTIC_JUDGE                          1
 NO_VALID_TOTAL_SCORES                    28
-VALID_JUDGE_COMPARISON                   112
+VALID_JUDGE_COMPARISON                   114

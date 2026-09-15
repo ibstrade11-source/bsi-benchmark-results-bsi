@@ -1,6 +1,8 @@
 ﻿file,run_name,domain,article_title,doi,work_id,analyst,judge,archived,self_compare,score_source,criteria_source,raw,bsi,delta_bsi_minus_raw,winner,evidence_status,status,error
 compare/aerospace_openrouter_groq_limit1.json,aerospace_openrouter_groq_limit1,Unknown,,,,OpenRouter,,no,no,results[0].cells[0].judge_result.total_scores,llm,7.55,8.9,1.35,BSI,VALID_JUDGE_COMPARISON,,
 compare/agriculture_openrouter_groq_judge_final.json,agriculture_openrouter_groq_judge_final,Agriculture,,,,OpenRouter,,no,no,results[0].cells[0].judge_result.total_scores,llm,6.7,6.15,-0.55,RAW,VALID_JUDGE_COMPARISON,,
+compare/anthropology_gemini36_groq_fresh.json,anthropology_gemini36_groq_fresh,Unknown,,,,Gemini,,no,no,results[0].cells[0].judge_result.total_scores,llm,5.45,8.95,3.5,BSI,VALID_JUDGE_COMPARISON,,
+compare/anthropology_gemini36_openrouter_limit1.json,anthropology_gemini36_openrouter_limit1,Unknown,,,,Gemini,,no,no,results[0].cells[0].judge_result.total_scores,llm,6.45,8.3,1.85,BSI,VALID_JUDGE_COMPARISON,,
 compare/anthropology_groq_openrouter_limit1.json,anthropology_groq_openrouter_limit1,Unknown,,,,OpenRouter,,no,no,results[0].cells[0].judge_result.total_scores,llm,6.1,7.85,1.75,BSI,VALID_JUDGE_COMPARISON,,
 compare/arxiv_2406_04710_fulltext_openrouter_groq.json,arxiv_2406_04710_fulltext_openrouter_groq,Research / arXiv,,,,OpenRouter,,no,no,results[0].cells[0].judge_result.total_scores,llm,6.2,7.6,1.4,BSI,VALID_JUDGE_COMPARISON,,
 compare/arxiv_biology_gapgpt_groq_single.json,arxiv_biology_gapgpt_groq_single,Biology,,,,Groq,,no,no,results[0].cells[0].judge_result.total_scores,llm,7.2,8.35,1.15,BSI,VALID_JUDGE_COMPARISON,,

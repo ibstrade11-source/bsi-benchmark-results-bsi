@@ -6,7 +6,7 @@ This report is automatically generated from structured CSV files. Each report bu
 
 | Status | Count |
 |---|---:|
-| VALID | 111 |
+| VALID | 113 |
 | UNJUDGED | 14 |
 | TEST | 6 |
 | ARCHIVED | 18 |
@@ -15,13 +15,13 @@ This report is automatically generated from structured CSV files. Each report bu
 
 | Metric | Value |
 |---|---:|
-| RAW mean | 6.66 |
-| BSI mean | 7.59 |
-| Δ mean (BSI−RAW) | 0.93 |
+| RAW mean | 6.65 |
+| BSI mean | 7.61 |
+| Δ mean (BSI−RAW) | 0.96 |
 | Δ median | 1.35 |
 | Δ min | -7.05 |
 | Δ max | 5.45 |
-| BSI wins | 86 |
+| BSI wins | 88 |
 | RAW wins | 23 |
 | Ties | 2 |
 
@@ -29,17 +29,17 @@ This report is automatically generated from structured CSV files. Each report bu
 
 | Dimension | Level | Count | Percent of VALID |
 |---|---|---:|---:|
-| Relevance | high | 87 | 78.4% |
-| Relevance | medium | 18 | 16.2% |
-| Relevance | low | 5 | 4.5% |
-| Realization | high | 50 | 45.0% |
-| Realization | medium | 46 | 41.4% |
-| Realization | low | 14 | 12.6% |
-| Incremental value | high | 60 | 54.1% |
-| Incremental value | medium | 30 | 27.0% |
-| Incremental value | low | 12 | 10.8% |
+| Relevance | high | 89 | 78.8% |
+| Relevance | medium | 18 | 15.9% |
+| Relevance | low | 5 | 4.4% |
+| Realization | high | 51 | 45.1% |
+| Realization | medium | 47 | 41.6% |
+| Realization | low | 14 | 12.4% |
+| Incremental value | high | 62 | 54.9% |
+| Incremental value | medium | 30 | 26.5% |
+| Incremental value | low | 12 | 10.6% |
 | Incremental value | none | 1 | 0.9% |
-| Incremental value | negative | 7 | 6.3% |
+| Incremental value | negative | 7 | 6.2% |
 
 **Note:** `incremental_value` is the Judge's independent assessment of the incremental value of BSI analysis relative to RAW and is not identical to Δ.
 
@@ -47,9 +47,9 @@ This report is automatically generated from structured CSV files. Each report bu
 
 | Relevance | Realization | Incremental Value | Count |
 |---|---|---|---:|
-| high | high | high | 43 |
+| high | high | high | 44 |
 | high | medium | medium | 18 |
-| high | medium | high | 17 |
+| high | medium | high | 18 |
 | high | high | medium | 7 |
 | medium | low | low | 7 |
 | low | low | negative | 5 |
@@ -109,7 +109,7 @@ This report is automatically generated from structured CSV files. Each report bu
 | American Business, Public Policy, Case-Studies, and Political Theory | 7 | 7.3 | 5.79 | -1.51 | -3.3 | 3 | 4 | 0 |
 | Constrained Urban Airspace Design for Large-Scale Drone-Based Delivery Traffic | 1 | 7.55 | 8.9 | 1.35 | 1.35 | 1 | 0 | 0 |
 | Data-Driven Artificial Intelligence Applications for Sustainable Precision Agriculture | 1 | 6.7 | 6.15 | -0.55 | -0.55 | 0 | 1 | 0 |
-| Research methods in anthropology: qualitative and quantitative approaches | 1 | 6.1 | 7.85 | 1.75 | 1.75 | 1 | 0 | 0 |
+| Research methods in anthropology: qualitative and quantitative approaches | 3 | 6.0 | 8.3667 | 2.3667 | 1.85 | 3 | 0 | 0 |
 | Epistemic justification: internalism vs. externalism, foundations vs. virtues | 3 | 6.9167 | 6.9833 | 0.0667 | 0.05 | 2 | 1 | 0 |
 | The Rediscovery of the Mind | 4 | 5.525 | 6.8625 | 1.3375 | 1.425 | 4 | 0 | 0 |
 
@@ -131,6 +131,7 @@ This report is automatically generated from structured CSV files. Each report bu
 | MS25: Materials Science-Focused Benchmark Data Set for Machine Learning Interatomic Potentials | 4 | 1 | 7.7575 | 7.9225 | 0.165 | 3 | 1 | 0 |
 | Measurement of the B(s) to mu+ mu- branching fraction and search for B0 to mu+ mu- with the CMS Experiment | 1 | 1 | 8.05 | 8.6 | 0.55 | 1 | 0 | 0 |
 | Morescient GAI for Software Engineering | 1 | 1 | 6.2 | 7.6 | 1.4 | 1 | 0 | 0 |
+| Research methods in anthropology: qualitative and quantitative approaches | 2 | 1 | 5.95 | 8.625 | 2.675 | 2 | 0 | 0 |
 | The Algorithmic Caricature: Auditing LLM-Generated Political Discourse Across Crisis Events | 3 | 1 | 7.0133 | 7.6633 | 0.65 | 2 | 1 | 0 |
 | The Rediscovery of the Mind Searle | 1 | 1 | 6.15 | 7.3 | 1.15 | 1 | 0 | 0 |
 | Towards FAIR and federated data ecosystems for interdisciplinary research | 2 | 1 | 5.275 | 6.825 | 1.55 | 2 | 0 | 0 |
@@ -178,6 +179,7 @@ This report is automatically generated from structured CSV files. Each report bu
 | Analyst model | Runs | Unique articles | RAW mean | BSI mean | Δ mean | BSI wins | RAW wins | Ties |
 |---|---:|---:|---:|---:|---:|---:|---:|---:|
 | gemini-3.5-flash | 10 | 5 | 6.905 | 8.723 | 1.818 | 9 | 1 | 0 |
+| gemini-3.6-flash | 2 | 1 | 5.95 | 8.625 | 2.675 | 2 | 0 | 0 |
 | gemini-3.7-flash | 14 | 7 | 5.7836 | 8.3107 | 2.5271 | 13 | 1 | 0 |
 | gpt-4o-mini | 1 | 1 | 7.2 | 8.35 | 1.15 | 1 | 0 | 0 |
 | llama-3.3-70b-versatile | 9 | 8 | 7.1833 | 6.8944 | -0.2889 | 6 | 3 | 0 |
@@ -207,9 +209,10 @@ This report is automatically generated from structured CSV files. Each report bu
 | A Long History: From Universal Language to Artificial Intelligence | 10 | 2.052 | 2.0041 | 6.01 | 1.7399 | 0.3849 | 5.23 | 1.23 | 8 | 2 | 0 | True |
 | Towards FAIR and federated data ecosystems for interdisciplinary research | 2 | 1.55 | 0.05 | 0.1 | 2.075 | 2.025 | 4.15 | 4.05 | 2 | 0 | 0 | False |
 | American Business, Public Policy, Case-Studies, and Political Theory | 7 | -1.51 | 3.1124 | 7.65 | 1.5203 | 1.761 | 3.75 | 4.9 | 3 | 4 | 0 | True |
+| Research methods in anthropology: qualitative and quantitative approaches | 3 | 2.3667 | 0.8024 | 1.75 | 0.4143 | 0.4515 | 1.0 | 1.1 | 3 | 0 | 0 | False |
 | Epistemic justification: internalism vs. externalism, foundations vs. virtues | 3 | 0.0667 | 2.1025 | 5.15 | 0.7318 | 1.489 | 1.6 | 3.55 | 2 | 1 | 0 | True |
 | The Rediscovery of the Mind | 4 | 1.3375 | 0.6712 | 1.8 | 2.883 | 2.3541 | 7.7 | 5.9 | 4 | 0 | 0 | False |
 
 ---
 
-Count VALID: **111** | Article count: **48** | Domain count: **55** | Model count: **7** | Articles with repeated runs for drift analysis: **20
+Count VALID: **113** | Article count: **48** | Domain count: **56** | Model count: **8** | Articles with repeated runs for drift analysis: **21
