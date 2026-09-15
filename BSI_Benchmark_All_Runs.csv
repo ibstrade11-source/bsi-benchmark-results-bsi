@@ -27,6 +27,7 @@ compare/chemistry_gemini_openrouter_limit1.json.archived_20260913T164255Z.json,c
 compare/chemistry_gemini_openrouter_limit1.json.json,chemistry_gemini_openrouter_limit1.json,Chemistry,,,,Gemini,,no,no,,,,,,,NO_VALID_TOTAL_SCORES,,
 compare/chemistry_groq_openrouter_limit1.json,chemistry_groq_openrouter_limit1,Chemistry,,,,OpenRouter,,no,no,results[0].cells[0].judge_result.total_scores,llm,5.1,7.85,2.75,BSI,VALID_JUDGE_COMPARISON,,
 compare/chemistry_openrouter_groq_limit1.json,chemistry_openrouter_groq_limit1,Chemistry,,,,OpenRouter,,no,no,results[0].cells[0].judge_result.total_scores,llm,4.25,8.6,4.35,BSI,VALID_JUDGE_COMPARISON,,
+compare/climate_science_gemini36_groq_limit1.json,climate_science_gemini36_groq_limit1,Unknown,,,,Gemini,,no,no,results[0].cells[0].judge_result.total_scores,llm,6.37,9.16,2.79,BSI,VALID_JUDGE_COMPARISON,,
 compare/cognitive_decision_run1.json,cognitive_decision_run1,Cognitive Science,,,,,,no,no,results[0].cells[0].judge_result.total_scores,llm,6.65,7.4,0.75,BSI,VALID_JUDGE_COMPARISON,,
 compare/ecology_ectotherm_openrouter_groq_limit1.json,ecology_ectotherm_openrouter_groq_limit1,Unknown,,,,OpenRouter,,no,no,results[0].cells[0].judge_result.total_scores,llm,6.55,8.57,2.02,BSI,VALID_JUDGE_COMPARISON,,
 compare/econ_run8.json,econ_run8,Economics,Evaluating the Economic Feasibility of Labor Replacement Through Robotics and Automation in Qatar,10.9790/5933-1604035664,,groq,openrouter,no,no,judge_result.total_scores,llm,6.5,8.3,1.8,BSI,VALID_JUDGE_COMPARISON,,

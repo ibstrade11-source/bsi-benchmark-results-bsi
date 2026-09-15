@@ -6,7 +6,7 @@ This report is automatically generated from structured CSV files. Each report bu
 
 | Status | Count |
 |---|---:|
-| VALID | 113 |
+| VALID | 114 |
 | UNJUDGED | 14 |
 | TEST | 6 |
 | ARCHIVED | 18 |
@@ -16,12 +16,12 @@ This report is automatically generated from structured CSV files. Each report bu
 | Metric | Value |
 |---|---:|
 | RAW mean | 6.65 |
-| BSI mean | 7.61 |
-| Δ mean (BSI−RAW) | 0.96 |
+| BSI mean | 7.62 |
+| Δ mean (BSI−RAW) | 0.98 |
 | Δ median | 1.35 |
 | Δ min | -7.05 |
 | Δ max | 5.45 |
-| BSI wins | 88 |
+| BSI wins | 89 |
 | RAW wins | 23 |
 | Ties | 2 |
 
@@ -29,17 +29,17 @@ This report is automatically generated from structured CSV files. Each report bu
 
 | Dimension | Level | Count | Percent of VALID |
 |---|---|---:|---:|
-| Relevance | high | 89 | 78.8% |
-| Relevance | medium | 18 | 15.9% |
+| Relevance | high | 90 | 78.9% |
+| Relevance | medium | 18 | 15.8% |
 | Relevance | low | 5 | 4.4% |
-| Realization | high | 51 | 45.1% |
-| Realization | medium | 47 | 41.6% |
-| Realization | low | 14 | 12.4% |
-| Incremental value | high | 62 | 54.9% |
-| Incremental value | medium | 30 | 26.5% |
-| Incremental value | low | 12 | 10.6% |
+| Realization | high | 52 | 45.6% |
+| Realization | medium | 47 | 41.2% |
+| Realization | low | 14 | 12.3% |
+| Incremental value | high | 63 | 55.3% |
+| Incremental value | medium | 30 | 26.3% |
+| Incremental value | low | 12 | 10.5% |
 | Incremental value | none | 1 | 0.9% |
-| Incremental value | negative | 7 | 6.2% |
+| Incremental value | negative | 7 | 6.1% |
 
 **Note:** `incremental_value` is the Judge's independent assessment of the incremental value of BSI analysis relative to RAW and is not identical to Δ.
 
@@ -47,7 +47,7 @@ This report is automatically generated from structured CSV files. Each report bu
 
 | Relevance | Realization | Incremental Value | Count |
 |---|---|---|---:|
-| high | high | high | 44 |
+| high | high | high | 45 |
 | high | medium | medium | 18 |
 | high | medium | high | 18 |
 | high | high | medium | 7 |
@@ -68,6 +68,7 @@ This report is automatically generated from structured CSV files. Each report bu
 | Philosophy Enters the Optics Laboratory: Bell's Theorem and its First Experimental Tests (1965-1982) | 11 | 7.2709 | 7.1382 | -0.1327 | 0.27 | 6 | 4 | 1 |
 | The CoRoT Exoplanet program : status & results | 1 | 8.3 | 7.65 | -0.65 | -0.65 | 0 | 1 | 0 |
 | Guest Editorial: Special Topic on Data-enabled Theoretical Chemistry | 1 | 9.4 | 2.35 | -7.05 | -7.05 | 0 | 1 | 0 |
+| Perspectives on the importance of complex systems in understanding ourclimate and climate change -- The Nobel Prize in Physics 2021 | 1 | 6.37 | 9.16 | 2.79 | 2.79 | 1 | 0 | 0 |
 | Presenting a randomized controlled trial | 1 | 6.45 | 8.25 | 1.8 | 1.8 | 1 | 0 | 0 |
 | Quantum decision making by social agents | 1 | 7.2 | 8.55 | 1.35 | 1.35 | 1 | 0 | 0 |
 | Morescient GAI for Software Engineering (Extended Version) | 5 | 6.09 | 7.74 | 1.65 | 1.4 | 5 | 0 | 0 |
@@ -131,6 +132,7 @@ This report is automatically generated from structured CSV files. Each report bu
 | MS25: Materials Science-Focused Benchmark Data Set for Machine Learning Interatomic Potentials | 4 | 1 | 7.7575 | 7.9225 | 0.165 | 3 | 1 | 0 |
 | Measurement of the B(s) to mu+ mu- branching fraction and search for B0 to mu+ mu- with the CMS Experiment | 1 | 1 | 8.05 | 8.6 | 0.55 | 1 | 0 | 0 |
 | Morescient GAI for Software Engineering | 1 | 1 | 6.2 | 7.6 | 1.4 | 1 | 0 | 0 |
+| Perspectives on the importance of complex systems in understanding our climate and climate change -- The Nobel Prize in Physics 2021 | 1 | 1 | 6.37 | 9.16 | 2.79 | 1 | 0 | 0 |
 | Research methods in anthropology: qualitative and quantitative approaches | 2 | 1 | 5.95 | 8.625 | 2.675 | 2 | 0 | 0 |
 | The Algorithmic Caricature: Auditing LLM-Generated Political Discourse Across Crisis Events | 3 | 1 | 7.0133 | 7.6633 | 0.65 | 2 | 1 | 0 |
 | The Rediscovery of the Mind Searle | 1 | 1 | 6.15 | 7.3 | 1.15 | 1 | 0 | 0 |
@@ -179,7 +181,7 @@ This report is automatically generated from structured CSV files. Each report bu
 | Analyst model | Runs | Unique articles | RAW mean | BSI mean | Δ mean | BSI wins | RAW wins | Ties |
 |---|---:|---:|---:|---:|---:|---:|---:|---:|
 | gemini-3.5-flash | 10 | 5 | 6.905 | 8.723 | 1.818 | 9 | 1 | 0 |
-| gemini-3.6-flash | 2 | 1 | 5.95 | 8.625 | 2.675 | 2 | 0 | 0 |
+| gemini-3.6-flash | 3 | 2 | 6.09 | 8.8033 | 2.7133 | 3 | 0 | 0 |
 | gemini-3.7-flash | 14 | 7 | 5.7836 | 8.3107 | 2.5271 | 13 | 1 | 0 |
 | gpt-4o-mini | 1 | 1 | 7.2 | 8.35 | 1.15 | 1 | 0 | 0 |
 | llama-3.3-70b-versatile | 9 | 8 | 7.1833 | 6.8944 | -0.2889 | 6 | 3 | 0 |
@@ -215,4 +217,4 @@ This report is automatically generated from structured CSV files. Each report bu
 
 ---
 
-Count VALID: **113** | Article count: **48** | Domain count: **56** | Model count: **8** | Articles with repeated runs for drift analysis: **21
+Count VALID: **114** | Article count: **49** | Domain count: **57** | Model count: **8** | Articles with repeated runs for drift analysis: **21
