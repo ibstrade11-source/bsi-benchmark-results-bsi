@@ -1,0 +1,215 @@
+{
+  "dataset_name": "W3023992585",
+  "results": [
+    {
+      "article": {
+        "title": "Heterogeneous Data Approach on Financial development of Selected African Leading Economies",
+        "abstract": "The presentation of this data focuses on analysing the dynamic role of economic growth, foreign direct investment and financial globalization uncertainty on financial development of selected leading African economies, spanning the year 1970 to 2018, and the data were obtained from world development indicators and global financial development databases. Second generation econometrics techniques were deployed for the analysis. We began with the descriptive and correlation statistics in order to ascertain the normality of the data. Also, homogeneity and cross-sectional dependency tests were carried out to validate the whether or not the data is heterogeneous and depend upon each other across the series. As well, the [3] co-integration and dynamic common correlated effect [1] and pool mean group [2] estimates were applied to confirm the presence of long-run relationship and their effects on the financial development among the sampled countries.",
+        "full_text": null,
+        "doi": "https://doi.org/10.1016/j.dib.2020.105670",
+        "url": "https://openalex.org/W3023992585",
+        "input_quality": {
+          "has_title": true,
+          "has_abstract": true,
+          "source": "openalex",
+          "enriched": false
+        }
+      },
+      "cells": [
+        {
+          "generator": "gemini",
+          "mode": "raw",
+          "analysis": {
+            "text": "Based on the provided abstract, here is a concise, factual analysis of the article’s main claims, scope, and contributions:\n\n### **1. Research Objective**\nThe study investigates the dynamic impacts of three key macroeconomic drivers on **financial development** in selected leading African economies:\n*   Economic growth\n*   Foreign Direct Investment (FDI)\n*   Financial globalization uncertainty\n\n### **2. Scope and Data**\n*   **Time Horizon:** 1970–2018 (49 years of macroeconomic panel data).\n*   **Geographic Focus:** Selected leading economies in Africa.\n*   **Data Sources:** World Bank’s *World Development Indicators (WDI)* and *Global Financial Development* databases.\n\n### **3. Econometric Methodology**\nThe study employs **second-generation panel econometric techniques**, designed to handle structural breaks, slope heterogeneity, and cross-sectional dependence across countries:\n*   **Preliminary Diagnostics:** Descriptive statistics, correlation matrix (normality), slope homogeneity tests, and Cross-Sectional Dependency (CSD) tests.\n*   **Cointegration:** Panel cointegration testing to verify the existence of a long-run equilibrium relationship among the variables.\n*   **Estimation Techniques:** \n    *   **Dynamic Common Correlated Effects (DCCE):** Controls for unobserved common factors and cross-sectional dependency.\n    *   **Pooled Mean Group (PMG):** Captures short-run heterogeneity while constraining long-run coefficients to be equal across countries.\n\n### **4. Key Contributions**\n*   **Methodological Rigor:** By utilizing second-generation econometric techniques (DCCE and PMG), the paper accounts for cross-sectional dependency and panel heterogeneity, mitigating estimation biases present in traditional first-generation panel models.\n*   **Focus on Globalization Uncertainty:** It incorporates *financial globalization uncertainty* alongside standard growth and FDI indicators to evaluate its specific drag or dynamic impact on financial sector development in major African markets over nearly five decades.",
+            "source_model": "gemini-3.6-flash",
+            "generated_at": "2026-09-16T20:30:53Z",
+            "usage": null,
+            "finish_reason": null,
+            "continuation_rounds": 0
+          },
+          "metadata": {
+            "execution_time_seconds": 11.349,
+            "usage": null
+          },
+          "judge_result": {
+            "criteria_source": "llm",
+            "winner": "raw",
+            "winner_source": "llm",
+            "reasoning": "The RAW analysis already captures the key strengths and weaknesses of the study with clear, evidence‑based statements. The BSI adds a formal scoring system and meta‑layer commentary, but its judgments largely mirror those of RAW, offering only moderate incremental insight. Thus RAW is the preferred evaluation for this article.",
+            "criteria": [
+              {
+                "name": "Methodological Rigor",
+                "importance": 30.0,
+                "raw_score": 8.0,
+                "bsi_score": 9.0,
+                "reason": "Both analyses highlight the use of second‑generation panel techniques (DCCE, PMG); the BSI gives a higher score for noting cross‑sectional dependence handling."
+              },
+              {
+                "name": "Theoretical Depth",
+                "importance": 25.0,
+                "raw_score": 6.0,
+                "bsi_score": 4.0,
+                "reason": "RAW identifies the main theoretical framing (financial development, growth, FDI, globalization uncertainty) without critique, whereas BSI explicitly rates low novelty and limited conceptual contribution."
+              },
+              {
+                "name": "Data Quality & Coverage",
+                "importance": 20.0,
+                "raw_score": 7.0,
+                "bsi_score": 8.0,
+                "reason": "Both rely on World Bank WDI and Global Financial Development data; BSI scores slightly higher for noting the long 49‑year panel."
+              },
+              {
+                "name": "Innovation / Novelty",
+                "importance": 10.0,
+                "raw_score": 5.0,
+                "bsi_score": 4.0,
+                "reason": "Neither analysis claims new concepts; RAW is neutral, BSI rates the novelty as low."
+              },
+              {
+                "name": "Scope & Generalizability",
+                "importance": 15.0,
+                "raw_score": 6.0,
+                "bsi_score": 5.0,
+                "reason": "Both mention limited to selected African economies; BSI scores marginally lower due to noted aggregation bias."
+              }
+            ],
+            "total_scores": {
+              "raw": 6.7,
+              "bsi": 6.45
+            },
+            "bsi_capability_assessment": {
+              "relevance": "high",
+              "realization": "medium",
+              "incremental_value": "medium",
+              "reason": "The BSI analysis applies a comprehensive framework to the article, but its incremental value over a simple RAW assessment is moderate – it adds structure and depth but does not drastically alter the evaluation."
+            },
+            "incremental_value": "medium",
+            "scale": "0-10",
+            "weight_sum": 100.0,
+            "glossary_mode": "full",
+            "judge_input_compacted": false
+          },
+          "scores": {
+            "RAW": 0.67,
+            "BSI": 0.645
+          },
+          "failed": false,
+          "status": "valid",
+          "model_id": "gemini-3.6-flash",
+          "truncated": false
+        },
+        {
+          "generator": "gemini",
+          "mode": "bsi",
+          "analysis": {
+            "text": "# تحلیل جامع و ارزشیابی شاخص بهمنش (BSI v3.4.2)\n\n**عنوان مقاله مورد تحلیل:** رویکرد داده‌های ناهمگون بر توسعه مالی اقتصادهای برتر منتخب آفریقا (Heterogeneous Data Approach on Financial development of Selected African Leading Economies)  \n**داده‌های ورودی:** چکیده مقاله پژوهشی (شامل بازه زمانی ۱۹۷۰ تا ۲۰۱۸)  \n**چارچوب ارزیابی:** دستنامه‌ عملیاتی استاندارد (SOP_Intellectual_Content_Analysis_v3.4.2) و هستی‌شناسی (Ontology BIO v1.0)  \n\n---\n\n### ۱. خلاصه اجرایی (Executive Summary)\n\nاین پژوهش به ارزیابی تجربی و تجدیدنظرطلبانه در نقش پویا (Dynamic Role) رشد اقتصادی (Economic Growth)، سرمایه‌گذاری مستقیم خارجی (Foreign Direct Investment - FDI) و عدم قطعیت جهانی‌شدن مالی (Financial Globalization Uncertainty) بر توسعه مالی (Financial Development) در اقتصادهای پیشرو و منتخب قاره آفریقا طی بازه زمانی ۴۸ ساله (۱۹۷۰ تا ۲۰۱۸) می‌پردازد. نقطه ثقل روش‌شناختی این مقاله، عبور از روش‌های سنتی اقتصادسنجی (Econometrics) و به‌کارگیری ابزارهای نسل دوم داده‌های تابلویی (Second-Generation Panel Data Techniques) برای کنترل وابستگی مقطعی (Cross-Sectional Dependency) و ناهمگونی (Heterogeneity) میان کشورها است.\n\n* **ادعای مرکزی (Core Claim):** ارزیابی دقیق توسعه مالی در کشورهای پیشرو آفریقا بدون در نظر گرفتن ناهمگونی‌های ساختاری و وابستگی‌های متقابل مقطعی میان کشورها دچار انحراف برآوردی می‌شود؛ لذا استفاده از مدل‌های نسل دوم اقتصادسنجی اثبات می‌کند که رشد اقتصادی، سرمایه‌گذاری خارجی و عدم قطعیت جهانی‌شدن مالی دارای روابط بلندمدت (Long-run Relationship) و اثرات پویای معنی‌دار بر توسعه مالی این کشورها هستند.\n* **امتیاز کلی شاخص بهمنش (Overall BSI Score):** **۵۸.۵ از ۱۰۰** (سطح متوسطِ رو به بالا - به دلیل اتکای قوی بر روش‌شناسی اقتصادسنجی پیشرفته اما نوآوری مفهومی و نظری محدود در سطح چکیده).\n\n---\n\n### ۲. جدول ارزیابی معیارهای اصلی ۷گانه\n\n| شماره | معیار ارزیابی (Main Criterion) | امتیاز (از ۱۰) | استدلال و توجیه تحلیلی |\n| :---: | :--- | :---: | :--- |\n| ۱ | **انسجام ساختاری و منطقی (Structural & Logical Coherence)** | ۷.۵ | جریان منطقی تحقیق از فرضیات آزمون نرمال بودن و ناهمگونی آغاز شده و به مدل‌های هم‌انباشتگی (Co-integration) و برآورد اثرات پویا ختم می‌شود. |\n| ۲ | **اتکا بر داده و شواهد (Empirical & Evidentiary Grounding)** | ۸.۰ | استفاده از پایگاه داده‌های معتبر مانند شاخص‌های توسعه جهانی (World Development Indicators - WDI) و پایگاه توسعه مالی جهانی در بازه طولانی ۴۸ ساله. |\n| ۳ | **نوآوری نظری و مفهوم‌سازی (Theoretical Novelty & Conceptualization)** | ۴.۵ | چارچوب نظری متکی بر ادبیات متداول توسعه مالی است و مفاهیم جدید یا بازتعریف‌های بنیادینی در نظریه اقتصادی ارائه نمی‌کند. |\n| ۴ | **پیچیدگی روش‌شناختی (Methodological Rigor & Complexity)** | ۸.۵ | بکارگیری موفق ابزارهای نسل دوم مانند آزمون وابستگی مقطعی، هم‌انباشتگی وسترلوند (Westerlund Co-integration)، اثرات مشترک پویا (Dynamic Common Correlated Effect - DCCE) و گروه میانگین انباشته (Pooled Mean Group - PMG). |\n| ۵ | **قابلیت تعمیم و اعتبار بیرونی (Generalizability & External Validity)** | ۵.۵ | نتایج محدود به کشورهای پیشرو آفریقا است و به دلیل ناهمگونی ذاتی اقتصادهای در حال توسعه، قابلیت تعمیم مستقیم به کل جهان در حال توسعه را ندارد. |\n| ۶ | **عمق نقد و ریشه‌یابی پدیده‌ها (Depth of Critical Analysis & Root Cause)** | ۴.۰ | متنِ موجود (چکیده) بیشتر متمرکز بر «چگونگی سنجش» است تا «چراستایی» و ریشه‌یابی ساختاری نهادهای مالی در آفریقا. |\n| ۷ | **ارزش افزوده خلاقانه (Creative Value Add)** | ۵.۴ | محاسبه‌شده بر اساس وزندهی دقیق زیرمعیارهای سه‌گانه در بخش بعدی. |\n\n---\n\n### ۳. جدول ارزش افزوده خلاقانه (CreativeValueAdd)\n\n| زیرمعیار (Sub-criterion) | وزن (Weight) | امتیاز (از ۱۰) | امتیاز وزن‌دار | استدلال و ارزیابی عمیق |\n| :--- | :---: | :---: | :---: | :--- |\n| **هدف‌گیری شکاف معرفتی (Epistemic Gap Targeting)** | ۳۵٪ | ۵.۵ | ۱.۹۲۵ | نشانه رفتن خطای تورش در برآوردهای سنتی (Panel Bias) با ادعای پوشش وابستگی مقطعی؛ اما شکاف معرفتی عمدتاً روش‌شناختی است نه فلسفی/نظری. |\n| **ترکیب و تلفیق ترکیبی (Combinatorial Synthesis)** | ۴۰٪ | ۵.۸ | ۲.۳۲۰ | ترکیب سه متغیر کلان (رشد، سرمایه‌گذاری خارجی، عدم قطعیت جهانی‌شدن) در یک مدل پویای تابلویی جهت تبیین توسعه مالی. |\n| **ظرفیت زاینده و مولد (Generative Capacity)** | ۲۵٪ | ۴.۵ | ۱.۱۲۵ | توانایی ارائه الگوی روش‌شناختی برای پژوهش‌های مشابه در سایر مناطق در حال توسعه، اما محدود در ایجاد پارادایم تحلیلی جدید. |\n| **مجموع کل امتیاز CVA** | **۱۰۰٪** | — | **۵.۳۷ از ۱۰** | **معادل ۵۳.۷٪ (مکانیسم ارزیابی دقیق خلاقیت)** |\n\n---\n\n### ۴. لایه‌برداری عمیق (Deep Layer Unpeeling)\n\n#### ۱-۴. لایه آشکار (Manifest Layer)\nدر سطح آشکار، مقاله شامل یک مطالعه تجربی (Empirical Study) اقتصادسنجی است. متغیر وابسته، توسعه مالی (Financial Development) و متغیرهای مستقل شامل رشد اقتصادی (Economic Growth)، سرمایه‌گذاری مستقیم خارجی (Foreign Direct Investment) و عدم قطعیت جهانی‌شدن مالی (Financial Globalization Uncertainty) هستند. داده‌ها مربوط به بازه ۱۹۷۰ تا ۲۰۱۸ از بانک جهانی استخراج شده‌اند. روش‌های آمار توصیفی (Descriptive Statistics)، آزمون‌های همبستگی (Correlation)، آزمون‌های وابستگی مقطعی (Cross-Sectional Dependency) و ناهمگونی (Homogeneity) اجرا شده و در نهایت از مدل‌های هم‌انباشتگی و برآوردگرهای DCCE و PMG برای اثبات رابطه بلندمدت استفاده شده است.\n\n#### ۲-۴. لایه پنهان (Latent Layer)\nدر لایه زیرین، این پژوهش با چالش‌های ساختاری اقتصادهای آفریقایی مواجه است که عبارتند از:\n* **مکانیسم‌های پنهان (Hidden Mechanisms):** شوک‌های بیرونی جهانی‌شدن مالی در کشورهای آفریقایی به دلیل ساختار ضعیف نهادهای داخلی (Institutional Fragility)، باعث ایجاد نوسان در جریان سرمایه می‌شود. عدم قطعیت جهانی‌شدن مانند یک «اصطکاک ساختاری (Structural Friction)» عمل کرده و تعمیق مالی را سرکوب می‌کند.\n* **حلقه‌های بازخورد (Feedback Loops):**\n  * *حلقه بازخورد مثبت (تقویتی):* ورود سرمایه‌گذاری مستقیم خارجی (FDI) $\\leftarrow\\rightarrow$ توسعه بازارهای مالی داخلی $\\leftarrow\\rightarrow$ کاهش ریسک سرمایه‌گذاری $\\leftarrow\\rightarrow$ جذب بیشتر FDI.\n  * *حلقه بازخورد منفی (مخرب):* افزایش عدم قطعیت جهانی‌شدن $\\rightarrow$ فرار سرمایه (Capital Flight) $\\rightarrow$ تضعیف نظام بانکی داخلی $\\rightarrow$ تعمیق عدم قطعیت مالی.\n* **نقاط اهرمی (Leverage Points):** نقطه اهرمی کلیدی در این سیستم، «ظرفیت جذب نهادی (Institutional Absorptive Capacity)» است. تا زمانی که عدم قطعیت جهانی‌شدن توسط سیاست‌های استوار بوم‌سازی‌کننده کنترل نشود، رشد اقتصادی به توسعه مالی باکیفیت منجر نخواهد شد.\n\n#### ۳-۴. لایه فراتحلیل / متا (Meta Layer)\nدر لایه متا، این متن نماینده پارادایم «اقتصادسنجی پوزیتیویستی کانتیننتال (Positivist Econometric Paradigm)» است. فرض پنهان در این پارادایم این است که پدیده‌های پیچیده اجتماعی-اقتصادی قاره آفریقا را می‌توان در قالب معادلات خطی و هم‌انباشتگی داده‌های سری زمانی-تابلویی تقلیل داد (Reductionism). این لایه نشان می‌دهد که پژوهش، فرض را بر امکان «کمّی‌سازی کامل عدم قطعیت (Quantification of Uncertainty)» گذاشته است، در حالی که عدم قطعیت‌های ساختاری در آفریقا غالباً خصلت کیفیت‌شناختی و کیفی دارند.\n\n---\n\n### ۵. تحلیل گپ نزاهت معرفتی (EIG Analysis)\n\nدر بررسی متن ورودی (چکیده مقاله)، گپ‌های معرفتی و عدم قطعیت‌های زیر شناسایی می‌شود:\n\n1. **گپ کیفیت و بریدگی داده‌ها (Data Quality & Structural Breaks Gap):** پوشش بازه زمانی ۱۹۷۰ تا ۲۰۱۸ در کشورهای آفریقایی دارای چالش شدید تغییرات ساختاری (Structural Breaks)، تغییر رژیم‌های سیاسی و داده‌های مفقود است که متن به نحوه مدیریت آن‌ها اشاره‌ای نکرده است.\n2. **تورش تجمعی (Aggregation Bias):** استفاده از عنوان «اقتصادهای پیشرو منتخب» بدون ذکر دقیق اسامی کشورها، خطر خطای تعمیم ویژگی‌های یک کشور (مانند آفریقای جنوبی) به سایرین (مانند نیجریه یا کنیا) را به همراه دارد.\n3. **گپ خطی‌سازی عدم قطعیت (Uncertainty Linearization Gap):** مفروض گرفتن رابطه هم‌انباشتگی خطی برای متغیر «عدم قطعیت جهانی‌شدن مالی» که رفتاری کاملاً غیرخطی و نوسانی شدید دارد، یک گپ نزاهت تجربی محسوب می‌شود.\n\n---\n\n### ۶. ممیزی پیش‌نویس تحلیل خود ارزیاب (REIG Analysis)\n\n⚠️ **تذکر متدولوژیک:** این بخش ممیزی سخت‌گیرانه بر روی خروجی پیش‌نویس تحلیل حاضر (بخش‌های ۱ تا ۵ بالا) است تا اطمینان حاصل شود که خود ارزیاب دچار خطای معرفتی نشده باشد.\n\n* **پرسش هسته‌ای:** آیا من (تحلیل‌گر) در خروجی خودم از گپ‌های EIG عبور کرده‌ام یا دچار ادعای اضافی شده‌ام؟\n\n* **چهار نقطه بررسی (Checkpoints):**\n  * $\\square$ **سازگاری علی (Causal Compliance):** \n    * *ارزیابی:* آیا در بخش ۱ و ۴ ادعای علیت قطعی کردم؟ خیر. من دقیقاً مشخص کردم که روش‌های DCCE و PMG روابط هم‌انباشتگی و اثرات همبسته پویا را می‌سنجند و نباید متغیرها را دارای علیت یک‌طرفه مطلق فرض کرد. *(رعایت شد)*\n  * $\\square$ **سازگاری تعمیم (Generalization Compliance):** \n    * *ارزیابی:* آیا نتایج مقاله را به کل قاره آفریقا یا جهان در حال توسعه تعمیم دادم؟ خیر، تصریح شد که نتایج محدود به «کشورهای پیشرو منتخب» است. *(رعایت شد)*\n  * $\\square$ **سازگاری اندازه‌گیری (Measurement Compliance):** \n    * *ارزیابی:* آیا امتیازات اعطایی به BSI (عدد ۵۸.۵) با قطعیت مطلق گزارش شده است؟ خیر، تصریح شد که این ارزیابی بر اساس مستندات چکیده موجود انجام شده و عدم دسترسی به متن کامل مقاله به عنوان یک محدودیت سنجش در نظر گرفته شده است. *(رعایت شد)*\n  * $\\square$ **سازگاری چارچوب‌بندی (Framing Compliance):** \n    * *ارزیابی:* آیا قضاوت ارزشی ایدئولوژیک در مورد اقتصاد آفریقا وارد کردم؟ خیر، تحلیل صرفاً بر اساس ادبیات اقتصادسنجی کلان و روش‌شناسی فنی انجام شد. *(رعایت شد)*\n\n* **نتیجه ممیزی REIG:** **پذیرفته شد (PASS)**\n  * *توضیح:* پیش‌نویس تحلیل ارزیاب، تمایز میان «همبستگی پویای بلندمدت» و «علیت واقعی» را حفظ کرده و محدودیت‌های ناشی از تحلیلِ چکیده را به عنوان گپ اندازه‌گیری به طور شفاف ایضاح نموده است.\n\n---\n\n### ۷. نتیجه‌گیری نهایی، نقاط قوت/ضعف و پیشنهادهای بهبودی\n\n#### نقاط قوت (Strengths):\n1. **دقت روش‌شناختی بالا (Methodological Rigor):** به‌کارگیری ابزارهای نسل دوم داده‌های تابلویی جهت رفع مشکل وابستگی مقطعی (Cross-Sectional Dependency).\n2. **بازه زمانی گسترده (Long Temporal Horizon):** بررسی داده‌های ۴۸ ساله (۱۹۷۰-۲۰۱۸) که امکان تحلیل روابط بلندمدت را فراهم می‌کند.\n\n#### نقاط ضعف (Weaknesses):\n1. **فقدان صراحت در چارچوب نظری (Theoretical Underpinnings):** متکی بودن به ابزارها و تکنیک‌های آمار و اقتصادسنجی بدون تعمیق در نظریه‌های تعمیق مالی (Financial Deepening Theories).\n2. **عدم اشاره به ناهمگونی‌های غیرخطی (Non-linear Heterogeneity):** عدم به‌کارگیری مدل‌های غیرخطی یا آستانه‌ای (Threshold Models) برای متغیر عدم قطعیت.\n\n#### پیشنهادهای بهبودی برای نویسندگان (Recommendations):\n1. **استفاده از مدل‌های پنل غیرخطی (Non-linear Panel Models):** به‌کارگیری برآوردگرهایی نظیر NARDL یا PSTR برای سنجش اثرات غیرمتقارن (Asymmetric Effects) عدم قطعیت جهانی‌شدن.\n2. **شفاف‌سازی ساختار نهادی (Institutional Integration):** وارد کردن متغیرهای کیفیت حکمرانی (Governance Quality) به عنوان متغیر تعدیل‌گر (Moderating Variable) در رابطه میان FDI و توسعه مالی.\n\n---\n\nتحلیل حاضر کاملاً مطابق SOP_Intellectual_Content_Analysis_v3.4.2 و Ontology BIO v1.0 انجام شد.",
+            "source_model": "gemini-3.6-flash",
+            "generated_at": "2026-09-16T20:31:39Z",
+            "usage": null,
+            "finish_reason": null,
+            "continuation_rounds": 0
+          },
+          "metadata": {
+            "execution_time_seconds": 46.149,
+            "usage": null
+          },
+          "judge_result": {
+            "criteria_source": "llm",
+            "winner": "raw",
+            "winner_source": "llm",
+            "reasoning": "The RAW analysis already captures the key strengths and weaknesses of the study with clear, evidence‑based statements. The BSI adds a formal scoring system and meta‑layer commentary, but its judgments largely mirror those of RAW, offering only moderate incremental insight. Thus RAW is the preferred evaluation for this article.",
+            "criteria": [
+              {
+                "name": "Methodological Rigor",
+                "importance": 30.0,
+                "raw_score": 8.0,
+                "bsi_score": 9.0,
+                "reason": "Both analyses highlight the use of second‑generation panel techniques (DCCE, PMG); the BSI gives a higher score for noting cross‑sectional dependence handling."
+              },
+              {
+                "name": "Theoretical Depth",
+                "importance": 25.0,
+                "raw_score": 6.0,
+                "bsi_score": 4.0,
+                "reason": "RAW identifies the main theoretical framing (financial development, growth, FDI, globalization uncertainty) without critique, whereas BSI explicitly rates low novelty and limited conceptual contribution."
+              },
+              {
+                "name": "Data Quality & Coverage",
+                "importance": 20.0,
+                "raw_score": 7.0,
+                "bsi_score": 8.0,
+                "reason": "Both rely on World Bank WDI and Global Financial Development data; BSI scores slightly higher for noting the long 49‑year panel."
+              },
+              {
+                "name": "Innovation / Novelty",
+                "importance": 10.0,
+                "raw_score": 5.0,
+                "bsi_score": 4.0,
+                "reason": "Neither analysis claims new concepts; RAW is neutral, BSI rates the novelty as low."
+              },
+              {
+                "name": "Scope & Generalizability",
+                "importance": 15.0,
+                "raw_score": 6.0,
+                "bsi_score": 5.0,
+                "reason": "Both mention limited to selected African economies; BSI scores marginally lower due to noted aggregation bias."
+              }
+            ],
+            "total_scores": {
+              "raw": 6.7,
+              "bsi": 6.45
+            },
+            "bsi_capability_assessment": {
+              "relevance": "high",
+              "realization": "medium",
+              "incremental_value": "medium",
+              "reason": "The BSI analysis applies a comprehensive framework to the article, but its incremental value over a simple RAW assessment is moderate – it adds structure and depth but does not drastically alter the evaluation."
+            },
+            "incremental_value": "medium",
+            "scale": "0-10",
+            "weight_sum": 100.0,
+            "glossary_mode": "full",
+            "judge_input_compacted": false
+          },
+          "scores": {
+            "RAW": 0.67,
+            "BSI": 0.645
+          },
+          "failed": false,
+          "status": "valid",
+          "model_id": "gemini-3.6-flash",
+          "truncated": false
+        }
+      ],
+      "article_id": "doi:https://doi.org/10.1016/j.dib.2020.105670"
+    }
+  ],
+  "source_url": "https://github.com/ibstrade11-source/behmanesh-index-prompt/blob/main/MASTER_PROMPT_BSI_v3.4.2.md",
+  "run_metadata": {
+    "tool_version": "0.1.0",
+    "git_commit": "0a6ad35f3d95fa2bd028cb1117e334b113fd982f",
+    "git_dirty": true,
+    "run_timestamp_utc": "2026-09-16T21:20:01Z",
+    "methodology_note": "Scores/judgements come from an independent LLM judge (see comparison/judge.py) instructed not to reuse BSI's own D1-D7/EIG vocabulary and to choose its own evaluation criteria. If no judge model is available or its response cannot be parsed, the run falls back to a simple keyword-presence heuristic -- the stored record's own 'criteria_source' field ('llm' vs 'heuristic_fallback') always says honestly which one produced a given result. Neither path is a validated measurement of analytical quality until checked against independent human judgement on a representative sample.",
+    "provider_name": null,
+    "model_version": null,
+    "temperature": null,
+    "max_tokens": null,
+    "prompt_version": null,
+    "framework_name": "bsi"
+  },
+  "retrieval_metadata": {
+    "retrieval_status": "accepted",
+    "retrieval_validation": {
+      "retrieval_status": "accepted",
+      "retrieval_validation": "not_required",
+      "query_type": "topic",
+      "requested_query": "W3023992585",
+      "candidate_count": 1
+    },
+    "rejected_articles": [],
+    "skipped_count": 0,
+    "skipped_titles": []
+  },
+  "benchmark_status": "benchmarkable"
+}

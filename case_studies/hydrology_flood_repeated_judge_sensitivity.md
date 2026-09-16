@@ -189,3 +189,21 @@ The following prior benchmark runs were selected automatically from the canonica
 
 ### Interpretation boundary
 These cross-domain samples are included only to contextualize repeated-run sensitivity. The Hydrology E1/E2 result remains the primary case-specific observation. Winner changes, delta sign changes, or large score variation must not be interpreted as evidence for or against general BSI superiority.
+
+## Economics — Repeated Judge Sensitivity Extension
+
+Article: *Heterogeneous Data Approach on Financial development of Selected African Leading Economies*  
+OpenAlex Work ID: W3023992585  
+DOI: 10.1016/j.dib.2020.105670  
+Input quality: abstract-only  
+Generator: Gemini (existing checkpoint analyses; no new analysis)
+
+Repeated judge results on the same Gemini RAW/BSI analyses:
+
+| Judge run | RAW | BSI | Δ | Winner |
+|---|---:|---:|---:|---|
+| OpenRouter Rejudge 1 | 4.95 | 7.50 | +2.55 | BSI |
+| Groq Rejudge 1 | 6.15 | 6.40 | +0.25 | BSI |
+| Groq Rejudge 2 | 6.70 | 6.45 | -0.25 | RAW |
+
+All three runs used LLM-based judging (`criteria_source=llm`, `winner_source=llm`, `glossary_mode=full`, `judge_input_compacted=False`, `weight_sum=100`). The repeated evaluations show substantial judge sensitivity in both score magnitude and, in the third run, winner direction, while the underlying Gemini analyses remained unchanged.
