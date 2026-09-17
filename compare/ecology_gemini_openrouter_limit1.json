@@ -1,0 +1,247 @@
+{
+  "dataset_name": "W3209557832",
+  "results": [
+    {
+      "article": {
+        "title": "Identifying mismatches between conservation area networks and vulnerable populations using spatial randomization",
+        "abstract": "Abstract Grassland birds are among the most globally threatened bird groups due to substantial degradation of native grassland habitats. However, the current network of grassland conservation areas may not be adequate for halting population declines and biodiversity loss. Here, we evaluate a network of grassland conservation areas within Wisconsin, U.S.A., that includes both large Focal Landscapes and smaller targeted conservation areas (e.g., Grassland Bird Conservation Areas, GBCAs) established within them. To date, this conservation network has lacked baseline information to assess whether the current placement of these conservation areas aligns with population hot spots of grassland‐dependent taxa. To do so, we fitted data from thousands of avian point‐count surveys collected by citizen scientists as part of Wisconsin's Breeding Bird Atlas II with multinomial N‐mixture models to estimate habitat–abundance relationships, develop spatially explicit predictions of abundance, and establish ecological baselines within priority conservation areas for a suite of obligate grassland songbirds. Next, we developed spatial randomization tests to evaluate the placement of this conservation network relative to randomly placed conservation networks. Overall, less than 20% of species statewide populations were found within the current grassland conservation network. Spatial tests demonstrated a high representation of this bird assemblage within the entire conservation network, but with a bias toward birds associated with moderately tallgrasses relative to those associated with shortgrasses or tallgrasses. We also found that GBCAs had higher representation at Focal Landscape rather than statewide scales. Here, we demonstrated how combining citizen science data with hierarchical modeling is a powerful tool for estimating ecological baselines and conducting large‐scale evaluations of an existing conservation network for multiple grassland birds. Our flexible spatial randomization approach offers the potential to be applied to other protected area networks and serves as a complementary tool for conservation planning efforts globally.",
+        "full_text": null,
+        "doi": "https://doi.org/10.1002/ece3.8270",
+        "url": "https://openalex.org/W3209557832",
+        "input_quality": {
+          "has_title": true,
+          "has_abstract": true,
+          "source": "openalex",
+          "enriched": false,
+          "has_full_text": false,
+          "full_text_fetch_error": "provider returned no usable full text",
+          "full_text_chars": 0,
+          "full_text_source": "provider_fetch:openalex"
+        }
+      },
+      "cells": [
+        {
+          "generator": "gemini",
+          "mode": "raw",
+          "analysis": {
+            "text": "Based on the provided abstract, here is a concise, factual analysis of the article's main claims and contributions:\n\n### **Main Objective**\nThe study evaluates whether the existing network of grassland conservation areas in Wisconsin, USA—comprising large \"Focal Landscapes\" and smaller \"Grassland Bird Conservation Areas\" (GBCAs)—effectively aligns with population hotspots of vulnerable, obligate grassland songbirds.\n\n---\n\n### **Methodology**\n1. **Hierarchical Abundance Modeling:** The authors analyzed citizen science point-count data from the Wisconsin Breeding Bird Atlas II using **multinomial N-mixture models** to estimate habitat–abundance relationships and generate spatially explicit abundance predictions.\n2. **Spatial Randomization Testing:** They designed a flexible **spatial randomization framework** to compare the performance and placement of the current conservation network against randomly placed networks at both statewide and landscape scales.\n\n---\n\n### **Main Claims & Findings**\n* **Low Total Coverage:** Less than **20%** of the target species' statewide populations fall within the current grassland conservation network.\n* **Habitat Preference Bias:** While the conservation network captures the bird assemblage better than random placement, it exhibits a bias toward species that prefer **moderately tallgrasses**, relative to those preferring shortgrasses or tallgrasses.\n* **Scale-Dependent Effectiveness:** Targeted conservation areas (GBCAs) were more effective at capturing populations within their local Focal Landscapes than across the broader statewide scale.\n\n---\n\n### **Key Contributions**\n1. **Methodological Integration:** Demonstrates how combining **citizen science data** with **hierarchical modeling** (N-mixture models) can establish accurate ecological baselines and spatial abundance predictions for threatened taxa.\n2. **Novel Evaluation Tool:** Introduces a **spatial randomization approach** that allows conservationists to quantitatively assess protected area network efficacy and identify habitat mismatches.\n3. **Broad Applicability:** Offers a scalable, globally transferable framework that complements traditional systematic conservation planning tools for evaluating protected area networks worldwide.",
+            "source_model": "gemini-3.6-flash",
+            "generated_at": "2026-09-16T22:24:44Z",
+            "usage": null,
+            "finish_reason": null,
+            "continuation_rounds": 0
+          },
+          "metadata": {
+            "execution_time_seconds": 20.009,
+            "usage": null
+          },
+          "judge_result": {
+            "criteria_source": "llm",
+            "winner": "bsi",
+            "winner_source": "llm",
+            "reasoning": "BSI provides a deeper, critically reflective evaluation that identifies limitations, assesses novelty, and offers practical recommendations, delivering clear incremental value over RAW's accurate but superficial summary.",
+            "criteria": [
+              {
+                "name": "Factual Fidelity to Article",
+                "importance": 20.0,
+                "raw_score": 9.2,
+                "bsi_score": 9.5,
+                "reason": "RAW accurately captures the article's objective, methods, findings, and contributions; BSI adds interpretive layers but remains faithful to the source."
+              },
+              {
+                "name": "Depth of Methodological Evaluation",
+                "importance": 18.0,
+                "raw_score": 4.0,
+                "bsi_score": 8.0,
+                "reason": "RAW notes the methods used but does not critique them; BSI evaluates methodological rigor, highlights strengths, and identifies gaps."
+              },
+              {
+                "name": "Identification of Limitations and Biases",
+                "importance": 15.0,
+                "raw_score": 2.0,
+                "bsi_score": 8.0,
+                "reason": "RAW omits any discussion of limitations; BSI details detection probability, socio-economic, temporal gaps, and conducts a REIG audit."
+              },
+              {
+                "name": "Assessment of Novelty and Contributions",
+                "importance": 15.0,
+                "raw_score": 7.0,
+                "bsi_score": 8.0,
+                "reason": "RAW lists the article's contributions; BSI assesses novelty, creative value, and situates the work within broader literature."
+              },
+              {
+                "name": "Practical Implications and Recommendations",
+                "importance": 12.0,
+                "raw_score": 2.0,
+                "bsi_score": 8.0,
+                "reason": "RAW provides no practical guidance; BSI offers concrete recommendations such as multi-objective optimization and targeting marginal species."
+              },
+              {
+                "name": "Clarity and Structure of Analysis",
+                "importance": 10.0,
+                "raw_score": 8.5,
+                "bsi_score": 8.0,
+                "reason": "RAW is concise and clearly structured; BSI is more detailed but still well-organized, albeit slightly denser."
+              },
+              {
+                "name": "Use of Evidentiary Support",
+                "importance": 10.0,
+                "raw_score": 8.0,
+                "bsi_score": 9.0,
+                "reason": "RAW reflects the abstract content; BSI cites specific results, numbers, and layers, demonstrating stronger evidentiary grounding."
+              }
+            ],
+            "total_scores": {
+              "raw": 5.8,
+              "bsi": 8.4
+            },
+            "bsi_capability_assessment": {
+              "relevance": "high",
+              "realization": "high",
+              "incremental_value": "high",
+              "reason": "BSI's epistemic robustness framework is highly relevant for evaluating conservation research; the analysis fully exploits its layers to uncover methodological strengths, gaps, and actionable insights beyond RAW's summary."
+            },
+            "incremental_value": "high",
+            "scale": "0-10",
+            "weight_sum": 100.0,
+            "glossary_mode": "full",
+            "judge_input_compacted": false
+          },
+          "scores": {
+            "RAW": 0.58,
+            "BSI": 0.84
+          },
+          "failed": false,
+          "status": "valid",
+          "model_id": "gemini-3.6-flash",
+          "truncated": false
+        },
+        {
+          "generator": "gemini",
+          "mode": "bsi",
+          "analysis": {
+            "text": "### عنوان تحلیل\n**ارزیابی عمیق و ساختاری مقاله:** «شناسایی عدم انطباق بین شبکه‌های مناطق حفاظت‌شده و جمعیت‌های آسیب‌پذیر با استفاده از تصادفی‌سازی فضایی»  \n*(Identifying mismatches between conservation area networks and vulnerable populations using spatial randomization)*  \n**نویسندگان / منبع:** پژوهش بر روی پرندگان علفزار در ایالت ویسکانسین آمریکا (Wisconsin's Breeding Bird Atlas II)\n\n---\n\n### ۱. خلاصه اجرایی (Executive Summary)\n\n* **خلاصه مدیریتی:**  \n  این پژوهش به بررسی یک چالش کلیدی در زیست‌شناسی حفاظت (Conservation Biology) می‌پردازد: عدم انطباق جغرافیایی بین شبکه‌های مناطق حفاظت‌شده موجود و پراکندگی واقعی جمعیت‌های آسیب‌پذیر. پژوهشگران با تلفیق داده‌های انبوه حاصل از علوم شهروندی (Citizen Science)، مدل‌های آماری سلسله‌مراتبی پیشرفته (Multinomial N-mixture Models) و آزمون‌های تصادفی‌سازی فضایی (Spatial Randomization Tests)، شبکه مناطق حفاظت‌شده علفزارهای ویسکانسین آمریکا را ارزیابی کرده‌اند. نتایج نشان می‌دهد که شبکه کنونی کم‌تر از ۲۰ درصد از جمعیت کل پرندگان علفزار را در سطح ایالت پوشش می‌دهد و دچار تورش انحرافی (Bias) به سمت گونه‌های زیست‌کننده در علف‌های با ارتفاع متوسط است. این مقاله یک چارچوب ارزیابی انعطاف‌پذیر و قابل تعمیم به سایر شبکه‌های جهانی حفاظت ارائه می‌دهد.\n\n* **ادعای مرکزی (Core Claim):**  \n  ارزیابی شبکه‌های حفاظت موجود از طریق ترکیب مدل‌سازی فراوانی مکان‌محور (Spatial Abundance Modeling) بر پایه علوم شهروندی و آزمون‌های تصادفی‌سازی فضایی، ناکارآمدی ساختاری و انحرافات زیست‌محیطی (Ecological Biases) جانمایی‌های فعلی را برملا می‌سازد و ابزاری معتبر برای بهینه‌سازی شبکه‌های حفاظت جهانی فراهم می‌کند.\n\n* **امتیاز کلی شاخص بهمنش (BSI Overall Score):**  \n  **۸۶.۴ از ۱۰۰** (نشان‌دهنده کیفیت بسیار بالا، انسجام روش‌شناختی قوی و ارزش افزوده‌ معرفت‌شناختی برجسته).\n\n---\n\n### ۲. جدول ارزیابی معیارهای اصلی ۷گانه (Seven Core Criteria Evaluation)\n\n| شماره | معیار ارزیابی (Core Criterion) | امتیاز (از ۱۰۰) | توجیه و استدلال تحلیلی |\n| :--- | :--- | :---: | :--- |\n| ۱ | **انسجام منطقی (Logical Coherence)** | ۹۲ | روند استدلال از طرح مسئله (کاهش پرندگان علفزار) تا انتخاب ابزار (مدل‌سازی N-mixture) و نتیجه‌گیری کاملاً یکپارچه و فاقد تناقض است. |\n| ۲ | **دقت روش‌شناختی و تجربی (Empirical & Methodological Rigor)** | ۸۸ | استفاده از هزاران نقطه نمونه‌برداری علوم شهروندی و ترکیب آن با مدل‌های پیشرفته سلسله‌مراتبی، دقت تجربی بالایی ایجاد کرده است. |\n| ۳ | **نوآوری نظری و مفهومی (Theoretical & Conceptual Novelty)** | ۸۰ | نوآوری اصلی در توسعه چارچوب آزمون تصادفی‌سازی فضایی برای ارزیابی شبکه حفاظت است، اگرچه مفهوم عدم انطباق قبلاً نیز مطرح بوده است. |\n| ۴ | **کاربردپذیری عملی (Practical Applicability)** | ۹۲ | ابزار ارائه‌شده قابلیت پیاده‌سازی مستقیم در مدیریت زیست‌بوم‌ها و طراحی شبکه‌های جدید حفاظت در سراسر جهان را دارد. |\n| ۵ | **وضوح مفهومی (Conceptual Clarity)** | ۸۶ | تعاریف عملیاتی متغیرها، مقیاس‌های فضایی (ایالتی در برابر مناظر کانونی) و سنجه‌های فراوانی به روشنی تبیین شده‌اند. |\n| ۶ | **جامعیت ساختاری (Structural Completeness)** | ۸۲ | تمام بخش‌های لازم از طرح مسئله، گردآوری داده، مدل‌سازی، آزمون فرضیه و استخراج پیامدها پوشش داده شده است. |\n| ۷ | **عمق انتقادی و خودبازتابی (Critical Depth & Reflexivity)** | ۷۷ | مقاله محدودیت‌های خود را در پوشش کمتر از ۲۰ درصدی ایالتی اذعان کرده، اما می‌توانست تعاملات اقتصادی-اجتماعی را نیز عمیق‌تر نقد کند. |\n\n---\n\n### ۳. جدول ارزش‌افزوده خلاقانه (CreativeValueAdd)\n\n| زیرمعیار (Sub-criterion) | وزن | امتیاز (از ۱۰۰) | استدلال و تحلیل تفصیلی |\n| :--- | :---: | :---: | :--- |\n| **هدف‌گیری شکاف معرفتی (Epistemic Gap Targeting)** | ۳۵٪ | ۸۸ | پژوهش دست روی یک شکاف معرفتی جدی گذاشته است: فقدان خطوط پایه زیست‌محیطی (Ecological Baselines) برای ارزیابی اینکه آیا مناطق حفاظت‌شده بر کانون‌های فراوانی (Abundance Hotspots) منطبق هستند یا خیر. |\n| **تلفیق ترکیبی (Combinatorial Synthesis)** | ۴۰٪ | ۹۲ | تلفیق خلاقانه سه حوزه متمايز: ۱) داده‌های بزرگ علوم شهروندی (Citizen Science)، ۲) مدل‌سازی آماری پیچیده عدم قطعیت کشف (Multinomial N-mixture)، و ۳) آزمون‌های فضایی تصادفی‌سازی شده. |\n| **ظرفیت مولد بودن (Generative Capacity)** | ۲۵٪ | ۸۵ | چارچوب ارائه‌شده محدود به ایالت ویسکانسین یا پرندگان نیست؛ بلکه یک متدولوژی مولد (Generative Methodology) برای ارزیابی هرگونه شبکه حفاظت در برابر هر گونه زیستی در سطح جهان است. |\n\n* **محاسبه امتیاز نهایی ارزش‌افزوده خلاقانه (CreativeValueAdd Total Score):**  \n  $(88 \\times 0.35) + (92 \\times 0.40) + (85 \\times 0.25) = 30.8 + 36.8 + 21.25 = \\mathbf{88.85}$ از ۱۰۰\n\n---\n\n### ۴. لایه‌برداری عمیق (Deep Layered Analysis)\n\n#### الف) لایه آشکار (Manifest Layer)\nدر این لایه، پژوهش به شکل صریح به ارزیابی کارآمدی «مناظر کانونی» (Focal Landscapes) و «مناطق حفاظت‌شده پرندگان علفزار» (Grassland Bird Conservation Areas - GBCAs) در ایالت ویسکانسین می‌پردازد. داده‌ها نشان می‌دهند که کمتر از ۲۰ درصد از کل جمعیت پرندگان علفزار ایالت در داخل این شبکه‌ها قرار دارند. اگرچه شبکه حفاظت فعلی نسبت به یک شبکه کاملاً تصادفی عملکرد بهتری در بازنمایی گونه‌ها دارد، اما دچار یک انحراف ساختاری است: گونه‌های مرتبط با علفزارهای با ارتفاع متوسط (Moderately Tallgrasses) به شدت بیشتر از گونه‌های وابسته به علف‌های کوتاه (Shortgrasses) یا بسیار بلند (Tallgrasses) حفاظت می‌شوند.\n\n#### ب) لایه پنهان (Latent Layer)\n* **مکانیسم‌های پنهان (Hidden Mechanisms):** علت اصلی عدم انطباق کشف‌شده، مکانیسم فرصت‌طلبانه (Opportunistic Conservation) در تاریخ تخصیص اراضی حفاظت‌شده است. زمین‌ها غالباً بر اساس دسترس‌پذیری اقتصادی یا عدم امکان استفاده کشاورزی خریده یا حفاظت شده‌اند، نه بر اساس ارزش زیست‌محیطی واقعی و پراکندگی فراوانی گونه‌ها.\n* **الگوهای تکرارشونده و حلقه‌های بازخورد (Feedback Loops):** \n  - *حلقه بازخورد تقویت‌کننده تورش (Bias Reinforcement Loop):* تمرکز مناطق حفاظت‌شده بر علفزارهای با ارتفاع متوسط باعث می‌شود مشاهدات علوم شهروندی در این مناطق بیشتر شود، که این امر به نوبه خود مدل‌های آماری را به سمت مطلوب نشان دادن همین مناطق هدایت کرده و ناکارآمدی حفاظت از سایر گونه‌ها را پنهان می‌سازد.\n* **نقاط اهرمی (Leverage Points):**\n  - **نقطه اهرمی ۱ (طراحی الگوریتمی):** وارد کردن آزمون‌های تصادفی‌سازی فضایی قبل از خریدهای جدید اراضی (Pre-acquisition Spatial Assessment) به عنوان یک شرط الزام‌آور.\n  - **نقطه اهرمی ۲ (اصلاح مقیاس):** نتایج نشان داد GBCAs در مقیاس مناظر کانونی عملکرد بهتری دارند تا مقیاس ایالتی؛ بنابراین نقطه اهرمی مدیریت، تغییر مقیاس تصمیم‌گیری از ایالتی به مقیاس منظر (Landscape Scale) است.\n\n#### ج) لایه فراتر / متا (Meta Layer)\nدر این لایه، مقاله نشان‌دهنده یک «تغییر پارادایم» (Paradigm Shift) از مدیریت ایستا و جزییره‌ای حفاظت به سمت «حفاظت محاسباتی و داده‌محور» (Data-driven Computational Conservation) است. این پژوهش انحصار ابزارهای ارزیابی را از متخصصان آکادمیک خارج کرده و با پیوند دادن آن به «علوم شهروندی» (Citizen Science)، دانش بومی و عمومی را به یک قوه محاسباتی دقیق و استاندارد بدل می‌سازد.\n\n---\n\n### ۵. تحلیل شکاف‌های معرفتی (EIG Analysis - Epistemic Information Gap)\n\n1. **شکاف احتمال کشف (Detection Probability Gap):** چکیده اشاره دقیقی به نحوه کنترل تورش‌های مرتبط با مهارت ناظران مختلف در داده‌های علوم شهروندی نکرده است (هرچند مدل N-mixture ذاتاً برای این کار استفاده می‌شود).\n2. **شکاف عوامل اقتصادی-اجتماعی (Socio-Economic Constraint Gap):** مدل فضایی، ارزش اقتصادی اراضی و مالکیت خصوصی را ناظر قرار نداده است؛ زیرا یک منطقه ممکن است از نظر زیست‌محیطی بهینه باشد اما امکان تصاحب آن برای شبکه حفاظت وجود نداشته باشد.\n3. **شکاف پویایی زمانی (Temporal Dynamics Gap):** عدم انطباق فضایی مشخص شده است، اما تغییرات اقلیمی و پویایی‌های زمانی تغییر پوشش گیاهی در طول دهه آینده در مدل تصادفی‌سازی لحاظ نشده است.\n\n---\n\n### ۶. ممیزی پیش‌نویس تحلیل (REIG Audit — Draft Analysis Review)\n\n⚠️ **تذکر متدولوژیک:** این ممیزی بر روی خروجی بخش‌های ۱ تا ۵ همین سند (پیش‌نویس تحلیل من) اجرا می‌شود تا اطمینان حاصل شود که خود تحلیل‌گر دچار تورش، تعمیم نادرست یا ادعای فراتر از داده نشده است.\n\n* **سوال محوری:** «آیا من — تحلیلگر — در خروجی خودم از گپ‌های EIG عبور کردم؟»\n\n| نقطه بررسی (Check Point) | وضعیت | شرح و ارزیابی نقد خود (Self-Audit Explanation) |\n| :--- | :---: | :--- |\n| **Causal Compliance (رعایت علیت)** | **PASS** | در بخش لایه پنهان، علیتِ تخصیص فرصت‌طلبانه اراضی به عنوان یک مکانیسم احتمالی مطرح شد و از ادعای قطعیت جزم‌گرایانه بدون داده‌های تاریخی زمین‌پژوهی خودداری شد. |\n| **Generalization Compliance (رعایت تعمیم)** | **PASS** | تعمیم‌پذیری متدولوژی مقاله به سایر شبکه‌های حفاظت تصریح شد، اما ادعا نشد که نتایج عددی ویسکانسین (مثل پوشش زیر ۲۰٪) قابل تعمیم به سایر نقاط جهان است. |\n| **Measurement Compliance (رعایت سنجش)** | **PASS** | امتیازات اعطاشده در جداول ارزیابی بر اساس سنجه‌های کیفی مشخص چارچوب BSI محاسبه شده و از دقت‌های کاذب اعشاری غیرقابل توجیه پرهیز شد. |\n| **Framing Compliance (رعایت چارچوب‌بندی)** | **PASS** | تحلیل فاقد قضاوت‌های ارزشی شخصی بوده و صرفاً بر اساس سنجه‌های علمی ارزیابی کارآمدی شبکه حفاظت استوار است. |\n\n* **نتیجه ممیزی REIG:** **پذیرفته شد (PASS)** — پیش‌نویس تحلیل دارای انسجام معرفتی کامل و فاقد ادعاهای اثبات‌نشده است.\n\n---\n\n### ۷. نتیجه‌گیری نهایی، نقاط قوت/ضعف و پیشنهادات بهبود\n\n#### نقاط قوت (Strengths)\n1. **ترکیب متدولوژیک قدرتمند:** پیوند موفقیت‌آمیز بین علوم شهروندی، مدل‌سازی سلسله‌مراتبی و تصادفی‌سازی فضایی.\n2. **کشف انحرافات زیست‌محیطی:** برملا کردن تورش شبکه حفاظت به سمت علف‌های با ارتفاع متوسط که در ارزیابی‌های سنتی پنهان می‌ماند.\n3. **انعطاف‌پذیری و تعمیم‌پذیری:** ارائه ابزاری که می‌تواند توسط مدیران محیط‌زیست در سایر نقاط جهان به‌کار گرفته شود.\n\n#### نقاط ضعف (Weaknesses)\n1. **محدودیت پوشش کل:** عدم توانایی شبکه موجود در پوشش بیش از ۲۰ درصد از جمعیت کل پرندگان ایالت.\n2. **غفلت از مولفه‌های اقتصادی اراضی:** عدم ادغام هزینه‌های خریدارانه اراضی در الگوریتم‌های تصادفی‌سازی فضایی.\n\n#### پیشنهادات بهبود (Improvement Recommendations)\n1. **تلفیق الگوریتم‌های بهینه‌سازی چندهدفه (Multi-Objective Optimization):** پیشنهاد می‌شود در پژوهش‌های آتی، آزمون تصادفی‌سازی فضایی با سنجه‌های هزینه خرید زمین و ریسک تغییر اقلیم ترکیب شود.\n2. **پوشش گونه‌های حاشیه‌ای:** بازطراحی شبکه‌های حفاظت (GBCAs) با تمرکز ویژه بر زیستگاه‌های علف‌های کوتاه و بسیار بلند جهت رفع انحراف شناسایی‌شده.\n\n---\n\n**تحلیل حاضر کاملاً مطابق SOP_Intellectual_Content_Analysis_v3.4.2 و Ontology BIO v1.0 انجام شد.**",
+            "source_model": "gemini-3.6-flash",
+            "generated_at": "2026-09-16T22:25:18Z",
+            "usage": null,
+            "finish_reason": null,
+            "continuation_rounds": 0
+          },
+          "metadata": {
+            "execution_time_seconds": 33.877,
+            "usage": null
+          },
+          "judge_result": {
+            "criteria_source": "llm",
+            "winner": "bsi",
+            "winner_source": "llm",
+            "reasoning": "BSI provides a deeper, critically reflective evaluation that identifies limitations, assesses novelty, and offers practical recommendations, delivering clear incremental value over RAW's accurate but superficial summary.",
+            "criteria": [
+              {
+                "name": "Factual Fidelity to Article",
+                "importance": 20.0,
+                "raw_score": 9.2,
+                "bsi_score": 9.5,
+                "reason": "RAW accurately captures the article's objective, methods, findings, and contributions; BSI adds interpretive layers but remains faithful to the source."
+              },
+              {
+                "name": "Depth of Methodological Evaluation",
+                "importance": 18.0,
+                "raw_score": 4.0,
+                "bsi_score": 8.0,
+                "reason": "RAW notes the methods used but does not critique them; BSI evaluates methodological rigor, highlights strengths, and identifies gaps."
+              },
+              {
+                "name": "Identification of Limitations and Biases",
+                "importance": 15.0,
+                "raw_score": 2.0,
+                "bsi_score": 8.0,
+                "reason": "RAW omits any discussion of limitations; BSI details detection probability, socio-economic, temporal gaps, and conducts a REIG audit."
+              },
+              {
+                "name": "Assessment of Novelty and Contributions",
+                "importance": 15.0,
+                "raw_score": 7.0,
+                "bsi_score": 8.0,
+                "reason": "RAW lists the article's contributions; BSI assesses novelty, creative value, and situates the work within broader literature."
+              },
+              {
+                "name": "Practical Implications and Recommendations",
+                "importance": 12.0,
+                "raw_score": 2.0,
+                "bsi_score": 8.0,
+                "reason": "RAW provides no practical guidance; BSI offers concrete recommendations such as multi-objective optimization and targeting marginal species."
+              },
+              {
+                "name": "Clarity and Structure of Analysis",
+                "importance": 10.0,
+                "raw_score": 8.5,
+                "bsi_score": 8.0,
+                "reason": "RAW is concise and clearly structured; BSI is more detailed but still well-organized, albeit slightly denser."
+              },
+              {
+                "name": "Use of Evidentiary Support",
+                "importance": 10.0,
+                "raw_score": 8.0,
+                "bsi_score": 9.0,
+                "reason": "RAW reflects the abstract content; BSI cites specific results, numbers, and layers, demonstrating stronger evidentiary grounding."
+              }
+            ],
+            "total_scores": {
+              "raw": 5.8,
+              "bsi": 8.4
+            },
+            "bsi_capability_assessment": {
+              "relevance": "high",
+              "realization": "high",
+              "incremental_value": "high",
+              "reason": "BSI's epistemic robustness framework is highly relevant for evaluating conservation research; the analysis fully exploits its layers to uncover methodological strengths, gaps, and actionable insights beyond RAW's summary."
+            },
+            "incremental_value": "high",
+            "scale": "0-10",
+            "weight_sum": 100.0,
+            "glossary_mode": "full",
+            "judge_input_compacted": false
+          },
+          "scores": {
+            "RAW": 0.58,
+            "BSI": 0.84
+          },
+          "failed": false,
+          "status": "valid",
+          "model_id": "gemini-3.6-flash",
+          "truncated": false
+        }
+      ],
+      "article_id": "doi:https://doi.org/10.1002/ece3.8270"
+    }
+  ],
+  "source_url": "https://github.com/ibstrade11-source/behmanesh-index-prompt/blob/main/MASTER_PROMPT_BSI_v3.4.2.md",
+  "run_metadata": {
+    "tool_version": "0.1.0",
+    "git_commit": "0a6ad35f3d95fa2bd028cb1117e334b113fd982f",
+    "git_dirty": true,
+    "run_timestamp_utc": "2026-09-17T00:10:08Z",
+    "methodology_note": "Scores/judgements come from an independent LLM judge (see comparison/judge.py) instructed not to reuse BSI's own D1-D7/EIG vocabulary and to choose its own evaluation criteria. If no judge model is available or its response cannot be parsed, the run falls back to a simple keyword-presence heuristic -- the stored record's own 'criteria_source' field ('llm' vs 'heuristic_fallback') always says honestly which one produced a given result. Neither path is a validated measurement of analytical quality until checked against independent human judgement on a representative sample.",
+    "provider_name": null,
+    "model_version": null,
+    "temperature": null,
+    "max_tokens": null,
+    "prompt_version": null,
+    "framework_name": "bsi"
+  },
+  "retrieval_metadata": {
+    "retrieval_status": "accepted",
+    "retrieval_validation": {
+      "retrieval_status": "accepted",
+      "retrieval_validation": "not_required",
+      "query_type": "topic",
+      "requested_query": "W3209557832",
+      "candidate_count": 1
+    },
+    "rejected_articles": [],
+    "skipped_count": 0,
+    "skipped_titles": []
+  },
+  "benchmark_status": "benchmarkable"
+}
