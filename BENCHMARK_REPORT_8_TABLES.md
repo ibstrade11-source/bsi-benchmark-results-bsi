@@ -6,8 +6,8 @@ This report is automatically generated from structured CSV files. Each report bu
 
 | Status | Count |
 |---|---:|
-| VALID | 114 |
-| UNJUDGED | 14 |
+| VALID | 126 |
+| UNJUDGED | 15 |
 | TEST | 6 |
 | ARCHIVED | 18 |
 
@@ -15,31 +15,31 @@ This report is automatically generated from structured CSV files. Each report bu
 
 | Metric | Value |
 |---|---:|
-| RAW mean | 6.65 |
-| BSI mean | 7.62 |
-| Δ mean (BSI−RAW) | 0.98 |
-| Δ median | 1.35 |
+| RAW mean | 6.57 |
+| BSI mean | 7.68 |
+| Δ mean (BSI−RAW) | 1.10 |
+| Δ median | 1.40 |
 | Δ min | -7.05 |
-| Δ max | 5.45 |
-| BSI wins | 89 |
-| RAW wins | 23 |
+| Δ max | 6.25 |
+| BSI wins | 100 |
+| RAW wins | 24 |
 | Ties | 2 |
 
 ## TABLE 3 - BSI CAPABILITY AND INCREMENTAL VALUE
 
 | Dimension | Level | Count | Percent of VALID |
 |---|---|---:|---:|
-| Relevance | high | 90 | 78.9% |
-| Relevance | medium | 18 | 15.8% |
-| Relevance | low | 5 | 4.4% |
-| Realization | high | 52 | 45.6% |
-| Realization | medium | 47 | 41.2% |
-| Realization | low | 14 | 12.3% |
-| Incremental value | high | 63 | 55.3% |
-| Incremental value | medium | 30 | 26.3% |
-| Incremental value | low | 12 | 10.5% |
-| Incremental value | none | 1 | 0.9% |
-| Incremental value | negative | 7 | 6.1% |
+| Relevance | high | 102 | 81.0% |
+| Relevance | medium | 18 | 14.3% |
+| Relevance | low | 5 | 4.0% |
+| Realization | high | 60 | 47.6% |
+| Realization | medium | 51 | 40.5% |
+| Realization | low | 14 | 11.1% |
+| Incremental value | high | 74 | 58.7% |
+| Incremental value | medium | 31 | 24.6% |
+| Incremental value | low | 12 | 9.5% |
+| Incremental value | none | 1 | 0.8% |
+| Incremental value | negative | 7 | 5.6% |
 
 **Note:** `incremental_value` is the Judge's independent assessment of the incremental value of BSI analysis relative to RAW and is not identical to Δ.
 
@@ -47,9 +47,9 @@ This report is automatically generated from structured CSV files. Each report bu
 
 | Relevance | Realization | Incremental Value | Count |
 |---|---|---|---:|
-| high | high | high | 45 |
-| high | medium | medium | 18 |
-| high | medium | high | 18 |
+| high | high | high | 53 |
+| high | medium | high | 21 |
+| high | medium | medium | 19 |
 | high | high | medium | 7 |
 | medium | low | low | 7 |
 | low | low | negative | 5 |
@@ -68,7 +68,7 @@ This report is automatically generated from structured CSV files. Each report bu
 | Philosophy Enters the Optics Laboratory: Bell's Theorem and its First Experimental Tests (1965-1982) | 11 | 7.2709 | 7.1382 | -0.1327 | 0.27 | 6 | 4 | 1 |
 | The CoRoT Exoplanet program : status & results | 1 | 8.3 | 7.65 | -0.65 | -0.65 | 0 | 1 | 0 |
 | Guest Editorial: Special Topic on Data-enabled Theoretical Chemistry | 1 | 9.4 | 2.35 | -7.05 | -7.05 | 0 | 1 | 0 |
-| Perspectives on the importance of complex systems in understanding ourclimate and climate change -- The Nobel Prize in Physics 2021 | 1 | 6.37 | 9.16 | 2.79 | 2.79 | 1 | 0 | 0 |
+| Perspectives on the importance of complex systems in understanding ourclimate and climate change -- The Nobel Prize in Physics 2021 | 2 | 5.96 | 9.005 | 3.045 | 3.045 | 2 | 0 | 0 |
 | Presenting a randomized controlled trial | 1 | 6.45 | 8.25 | 1.8 | 1.8 | 1 | 0 | 0 |
 | Quantum decision making by social agents | 1 | 7.2 | 8.55 | 1.35 | 1.35 | 1 | 0 | 0 |
 | Morescient GAI for Software Engineering (Extended Version) | 5 | 6.09 | 7.74 | 1.65 | 1.4 | 5 | 0 | 0 |
@@ -88,12 +88,16 @@ This report is automatically generated from structured CSV files. Each report bu
 | Oral microbiome signatures predict biological age and host health | 1 | 5.5 | 7.45 | 1.95 | 1.95 | 1 | 0 | 0 |
 | One-Shot Reinforcement Learning for Robot Navigation with Interactive Replay | 2 | 5.525 | 8.15 | 2.625 | 2.625 | 2 | 0 | 0 |
 | The Road to Know-Where: An Object-and-Room Informed Sequential BERT for Indoor Vision-Language Navigation | 2 | 6.675 | 8.695 | 2.02 | 2.02 | 2 | 0 | 0 |
+| Identifying mismatches between conservation area networks and vulnerable populations using spatial randomization | 2 | 6.225 | 8.425 | 2.2 | 2.2 | 2 | 0 | 0 |
 | Predicting the fundamental thermal niche of ectotherms | 1 | 6.55 | 8.57 | 2.02 | 2.02 | 1 | 0 | 0 |
+| Heterogeneous Data Approach on Financial development of Selected African Leading Economies | 4 | 6.35 | 7.175 | 0.825 | 0.5 | 3 | 1 | 0 |
 | Artificial Intelligence (AI): Multidisciplinary perspectives on emerging challenges, opportunities, and agenda for research, practice and policy | 2 | 5.425 | 7.935 | 2.51 | 2.51 | 2 | 0 | 0 |
+| Is criticality a unified setpoint of brain function? | 4 | 5.2125 | 8.725 | 3.5125 | 3.0 | 4 | 0 | 0 |
 | Understanding the role of digital technologies in education: A review | 1 | 1.1 | 3.25 | 2.15 | 2.15 | 1 | 0 | 0 |
 | Climate Change 2014: Mitigation of Climate Change | 1 | 6.25 | 8.25 | 2.0 | 2.0 | 1 | 0 | 0 |
 | The Cognitive Revolution and the Political Psychology of Elite Decision Making | 2 | 6.425 | 7.925 | 1.5 | 1.5 | 2 | 0 | 0 |
 | MS25: Materials Science-Focused Benchmark Data Set for Machine Learning Interatomic Potentials | 4 | 7.7575 | 7.9225 | 0.165 | 0.655 | 3 | 1 | 0 |
+| Qualitative research in counseling psychology: A primer on research paradigms and philosophy of science. | 1 | 6.1 | 8.7 | 2.6 | 2.6 | 1 | 0 | 0 |
 | What large language models know and what people think they know | 3 | 7.5333 | 8.9067 | 1.3733 | 2.27 | 2 | 1 | 0 |
 | Love and knowledge: Emotion in feminist epistemology | 1 | 7.9 | 8.3 | 0.4 | 0.4 | 1 | 0 | 0 |
 | Machine learning & artificial intelligence in the quantum domain: a review of recent progress | 1 | 7.15 | 7.75 | 0.6 | 0.6 | 1 | 0 | 0 |
@@ -118,7 +122,9 @@ This report is automatically generated from structured CSV files. Each report bu
 
 | Domain | Runs | Unique articles | RAW mean | BSI mean | Δ mean | BSI wins | RAW wins | Ties |
 |---|---:|---:|---:|---:|---:|---:|---:|---:|
+| 10.1016/j.neuron.2025.05.020 | 4 | 1 | 5.2125 | 8.725 | 3.5125 | 4 | 0 | 0 |
 | 10.1038/s42256-024-00976-7 | 3 | 1 | 7.5333 | 8.9067 | 1.3733 | 2 | 1 | 0 |
+| 10.1063/5.0090222 | 1 | 1 | 5.55 | 8.85 | 3.3 | 1 | 0 | 0 |
 | 2401.13835 What Large Language Models Know and What People Think They Know | 1 | 1 | 6.8 | 8.79 | 1.99 | 1 | 0 | 0 |
 | 2406.04710 | 1 | 1 | 6.4 | 7.75 | 1.35 | 1 | 0 | 0 |
 | A Long History: From Universal Language to Artificial Intelligence | 11 | 2 | 6.0591 | 8.3427 | 2.2836 | 9 | 2 | 0 |
@@ -138,6 +144,8 @@ This report is automatically generated from structured CSV files. Each report bu
 | The Rediscovery of the Mind Searle | 1 | 1 | 6.15 | 7.3 | 1.15 | 1 | 0 | 0 |
 | Towards FAIR and federated data ecosystems for interdisciplinary research | 2 | 1 | 5.275 | 6.825 | 1.55 | 2 | 0 | 0 |
 | Uniform and Monotone Line Sum Optimization | 1 | 1 | 7.85 | 8.6 | 0.75 | 1 | 0 | 0 |
+| W3023992585 | 4 | 1 | 6.35 | 7.175 | 0.825 | 3 | 1 | 0 |
+| W3209557832 | 2 | 1 | 6.225 | 8.425 | 2.2 | 2 | 0 | 0 |
 | What large language models know and what people think they know | 1 | 1 | 6.55 | 8.6 | 2.05 | 1 | 0 | 0 |
 | anthropology | 1 | 1 | 6.1 | 7.85 | 1.75 | 1 | 0 | 0 |
 | artificial intelligence law legal regulation | 2 | 1 | 7.025 | 6.45 | -0.575 | 0 | 1 | 1 |
@@ -158,6 +166,7 @@ This report is automatically generated from structured CSV files. Each report bu
 | exoplanet atmosphere characterization | 1 | 1 | 8.3 | 7.65 | -0.65 | 0 | 1 | 0 |
 | experimental neuroscience brain | 1 | 1 | 6.2 | 5.6 | -0.6 | 0 | 1 | 0 |
 | flood forecasting deep learning climate change | 1 | 1 | 3.4 | 6.35 | 2.95 | 1 | 0 | 0 |
+| https://doi.org/10.1037/0022-0167.52.2.126 | 1 | 1 | 6.1 | 8.7 | 2.6 | 1 | 0 | 0 |
 | https://doi.org/10.1051/epjconf/20111101001 | 1 | 1 | 5.5 | 7.45 | 1.95 | 1 | 0 | 0 |
 | id:1706.03762 | 1 | 1 | 7.25 | 8.75 | 1.5 | 1 | 0 | 0 |
 | philosophy epistemology | 6 | 1 | 7.1417 | 6.2667 | -0.875 | 3 | 2 | 1 |
@@ -181,7 +190,7 @@ This report is automatically generated from structured CSV files. Each report bu
 | Analyst model | Runs | Unique articles | RAW mean | BSI mean | Δ mean | BSI wins | RAW wins | Ties |
 |---|---:|---:|---:|---:|---:|---:|---:|---:|
 | gemini-3.5-flash | 10 | 5 | 6.905 | 8.723 | 1.818 | 9 | 1 | 0 |
-| gemini-3.6-flash | 3 | 2 | 6.09 | 8.8033 | 2.7133 | 3 | 0 | 0 |
+| gemini-3.6-flash | 15 | 6 | 5.908 | 8.294 | 2.386 | 14 | 1 | 0 |
 | gemini-3.7-flash | 14 | 7 | 5.7836 | 8.3107 | 2.5271 | 13 | 1 | 0 |
 | gpt-4o-mini | 1 | 1 | 7.2 | 8.35 | 1.15 | 1 | 0 | 0 |
 | llama-3.3-70b-versatile | 9 | 8 | 7.1833 | 6.8944 | -0.2889 | 6 | 3 | 0 |
@@ -195,12 +204,16 @@ This report is automatically generated from structured CSV files. Each report bu
 |---|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|
 | Inequality, mobility and the financial accumulation process: A computational economic analysis | 2 | -0.35 | 1.1 | 2.2 | 0.33 | 0.77 | 0.66 | 1.54 | 1 | 1 | 0 | True |
 | Philosophy Enters the Optics Laboratory: Bell's Theorem and its First Experimental Tests (1965-1982) | 11 | -0.1327 | 2.2515 | 8.65 | 0.6624 | 2.3603 | 2.33 | 8.6 | 6 | 4 | 1 | True |
+| Perspectives on the importance of complex systems in understanding ourclimate and climate change -- The Nobel Prize in Physics 2021 | 2 | 3.045 | 0.255 | 0.51 | 0.41 | 0.155 | 0.82 | 0.31 | 2 | 0 | 0 | False |
 | Morescient GAI for Software Engineering (Extended Version) | 5 | 1.65 | 0.4301 | 1.15 | 0.8564 | 0.4893 | 2.5 | 1.35 | 5 | 0 | 0 | False |
 | Cardiovascular Outcomes with GLP-1 Receptor Agonists in Patients with Type 2 Diabetes or Obesity Undergoing Surgical Aortic Valve Replacement | 2 | 0.825 | 1.625 | 3.25 | 0.55 | 1.075 | 1.1 | 2.15 | 1 | 1 | 0 | True |
 | The Algorithmic Caricature: Auditing LLM-Generated Political Discourse Across Crisis Events | 4 | 0.875 | 1.7734 | 4.77 | 0.5024 | 1.3479 | 1.4 | 3.37 | 3 | 1 | 0 | True |
 | One-Shot Reinforcement Learning for Robot Navigation with Interactive Replay | 2 | 2.625 | 0.225 | 0.45 | 0.025 | 0.2 | 0.05 | 0.4 | 2 | 0 | 0 | False |
 | The Road to Know-Where: An Object-and-Room Informed Sequential BERT for Indoor Vision-Language Navigation | 2 | 2.02 | 0.03 | 0.06 | 0.125 | 0.095 | 0.25 | 0.19 | 2 | 0 | 0 | False |
+| Identifying mismatches between conservation area networks and vulnerable populations using spatial randomization | 2 | 2.2 | 0.4 | 0.8 | 0.425 | 0.025 | 0.85 | 0.05 | 2 | 0 | 0 | False |
+| Heterogeneous Data Approach on Financial development of Selected African Leading Economies | 4 | 0.825 | 1.0568 | 2.8 | 0.9598 | 0.8082 | 2.65 | 1.95 | 3 | 1 | 0 | True |
 | Artificial Intelligence (AI): Multidisciplinary perspectives on emerging challenges, opportunities, and agenda for research, practice and policy | 2 | 2.51 | 2.09 | 4.18 | 1.525 | 0.565 | 3.05 | 1.13 | 2 | 0 | 0 | False |
+| Is criticality a unified setpoint of brain function? | 4 | 3.5125 | 1.6998 | 4.45 | 1.7141 | 0.1031 | 4.5 | 0.25 | 4 | 0 | 0 | False |
 | The Cognitive Revolution and the Political Psychology of Elite Decision Making | 2 | 1.5 | 0.75 | 1.5 | 0.225 | 0.525 | 0.45 | 1.05 | 2 | 0 | 0 | False |
 | MS25: Materials Science-Focused Benchmark Data Set for Machine Learning Interatomic Potentials | 4 | 0.165 | 1.4018 | 3.65 | 0.7372 | 1.0054 | 1.63 | 2.64 | 3 | 1 | 0 | True |
 | What large language models know and what people think they know | 3 | 1.3733 | 1.325 | 2.85 | 1.0443 | 0.3013 | 2.35 | 0.72 | 2 | 1 | 0 | True |
@@ -217,4 +230,4 @@ This report is automatically generated from structured CSV files. Each report bu
 
 ---
 
-Count VALID: **114** | Article count: **49** | Domain count: **57** | Model count: **8** | Articles with repeated runs for drift analysis: **21
+Count VALID: **126** | Article count: **53** | Domain count: **62** | Model count: **8** | Articles with repeated runs for drift analysis: **25
