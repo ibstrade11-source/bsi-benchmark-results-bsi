@@ -1,0 +1,140 @@
+{
+  "dataset_name": "MS25: Materials Science-Focused Benchmark Data Set for Machine Learning Interatomic Potentials",
+  "results": [
+    {
+      "article": {
+        "title": "MS25: Materials Science-Focused Benchmark Data Set for Machine Learning Interatomic Potentials",
+        "abstract": "We present MS25, a benchmark data set for evaluating machine learning interatomic potentials (MLIPs) across diverse materials-relevant systems including MgO surfaces, liquid water, zeolites, a catalytic Pt surface reaction, high-entropy alloys (HEAs), and disordered Zr-oxides. Five MLIP architectures (MACE, NequIP, Allegro, MTP, and Torch-ANI) are trained and tested, focusing not only on traditional metrics (energies, forces, and stresses) but also explicitly validating derived physical observables such as lattice constants, volumes, and reaction barriers. We find that most models reach comparable accuracy on standard error metrics across the simple systems, although equivariant MLIPs offer 1.5-2× improvements over nonequivariant MLIPs in energy and force error for structurally complex or compositionally disordered environments such as HEAs and Zr-O systems. Our analysis highlights that low errors in energy and force predictions do not guarantee reliable observables, emphasizing the necessity of explicit validation. We demonstrate limitations in cross-framework transferability, as models trained on one zeolite framework (CHA) fail to reliably generalize to predictions of structurally distinct frameworks (e.g., MFI). Size-extensive tests show some dependence on system size for MgO, resulting from forced periodicity. The HEA and Zr-O data sets are identified as challenging tests for future benchmarks and MLIP model architecture developments as they show significant differentiation in error between MLIP architectures and are still relatively difficult at 1000 training images. Moving forward, we recommend that benchmarking efforts shift their focus from marginal accuracy improvements in energy and force errors toward identifying and understanding model failure modes, rigorously assessing transferability, and evaluating how their errors affect observable predictions. For researchers looking to choose an MLIP architecture, we suggest selecting equivariant MLIP architectures if the complexity of the system is a challenge. For simple materials problems, auxiliary features such as integration with molecular dynamics engines, trade-offs between computational data set generation cost vs MLIP inference speed, and framework integration may play a more important decision factor than small differences in error metrics that are unlikely to matter for production-level research.",
+        "full_text": null,
+        "doi": "https://doi.org/10.1021/acs.jcim.5c01262",
+        "url": "https://openalex.org/W4412789389",
+        "input_quality": {
+          "has_title": true,
+          "has_abstract": true,
+          "source": "openalex",
+          "enriched": false,
+          "has_full_text": false,
+          "full_text_fetch_error": "provider returned no usable full text",
+          "full_text_chars": 0,
+          "full_text_source": "provider_fetch:openalex"
+        }
+      },
+      "cells": [
+        {
+          "generator": "openrouter",
+          "mode": "raw",
+          "analysis": {
+            "text": "**Article Analysis: MS25 Benchmark for Machine Learning Interatomic Potentials (MLIPs)**\n\n**1. Core Contribution**\nThe paper introduces **MS25**, a diverse benchmark dataset designed to evaluate MLIPs across six materials-relevant systems: MgO surfaces, liquid water, zeolites (CHA/MFI), a Pt catalytic reaction, high-entropy alloys (HEAs), and disordered Zr-oxides. It benchmarks five representative architectures—**equivariant** (MACE, NequIP, Allegro) and **non-equivariant** (MTP, Torch-ANI)—moving beyond standard energy/force/stress errors to validate **derived physical observables** (lattice constants, volumes, reaction barriers).\n\n**2. Key Empirical Findings**\n*   **Equivariance Advantage:** Equivariant architectures show **1.5–2× lower energy/force errors** than non-equivariant models on structurally complex or compositionally disordered systems (HEAs, Zr-O). Performance converges on simpler systems.\n*   **Observables ≠ Errors:** Low energy/force errors **do not guarantee** accurate physical observables (e.g., reaction barriers, lattice constants), necessitating explicit validation of target properties.\n*   **Transferability Limits:** Models trained on one zeolite framework (CHA) **fail to generalize** to structurally distinct frameworks (MFI), highlighting poor cross-framework transferability.\n*   **Size-Extensivity Artifacts:** MgO surface tests reveal system-size dependence caused by enforced periodicity in training/evaluation.\n*   **Hard Benchmarks Identified:** HEA and disordered Zr-O datasets remain challenging (high error differentiation between architectures) even at 1,000 training structures, marking them as targets for future method development.\n\n**3. Strategic Recommendations**\n*   **Benchmarking Focus:** Shift from marginal reductions in energy/force RMSE toward **failure mode analysis, transferability rigor, and observable-error propagation**.\n*   **Architecture Selection:**\n    *   **Complex/Disordered Systems:** Use **equivariant architectures** (MACE, NequIP, Allegro).\n    *   **Simple Systems:** Prioritize **engineering factors** (MD engine integration, inference speed, data generation cost, software ecosystem) over negligible error metric differences.\n\n**4. Significance**\nMS25 establishes a standardized, materials-centric evaluation protocol that exposes critical gaps between standard regression metrics and physical reliability, providing concrete evidence for the superiority of equivariant message-passing in disordered environments.",
+            "source_model": "nvidia/nemotron-3-ultra-550b-a55b:free",
+            "generated_at": "2026-09-13T00:37:13Z",
+            "usage": {
+              "prompt_tokens": 516,
+              "completion_tokens": 863,
+              "total_tokens": 1379,
+              "cost": 0,
+              "is_byok": false,
+              "prompt_tokens_details": {
+                "cached_tokens": 0,
+                "cache_write_tokens": 0,
+                "audio_tokens": 0,
+                "video_tokens": 0
+              },
+              "cost_details": {
+                "upstream_inference_cost": 0,
+                "upstream_inference_prompt_cost": 0,
+                "upstream_inference_completions_cost": 0
+              },
+              "completion_tokens_details": {
+                "reasoning_tokens": 321,
+                "image_tokens": 0,
+                "audio_tokens": 0
+              }
+            },
+            "finish_reason": "stop",
+            "continuation_rounds": 0
+          },
+          "metadata": {
+            "execution_time_seconds": 37.557,
+            "usage": {
+              "prompt_tokens": 516,
+              "completion_tokens": 863,
+              "total_tokens": 1379,
+              "cost": 0,
+              "is_byok": false,
+              "prompt_tokens_details": {
+                "cached_tokens": 0,
+                "cache_write_tokens": 0,
+                "audio_tokens": 0,
+                "video_tokens": 0
+              },
+              "cost_details": {
+                "upstream_inference_cost": 0,
+                "upstream_inference_prompt_cost": 0,
+                "upstream_inference_completions_cost": 0
+              },
+              "completion_tokens_details": {
+                "reasoning_tokens": 321,
+                "image_tokens": 0,
+                "audio_tokens": 0
+              }
+            }
+          },
+          "judge_result": null,
+          "scores": {},
+          "failed": false,
+          "status": "valid",
+          "model_id": "nvidia/nemotron-3-ultra-550b-a55b:free",
+          "truncated": false
+        },
+        {
+          "generator": "openrouter",
+          "mode": "bsi",
+          "analysis": null,
+          "metadata": {
+            "error": "OpenRouter response did not contain a non-empty 'choices' array. keys=['id', 'error']; error={'message': 'Upstream error from Nvidia: Service temporarily overloaded', 'code': 502, 'metadata': {'error_type': 'provider_unavailable'}}; body_prefix='\\n         \\n\\n         \\n\\n         \\n{\"id\":\"gen-1789260019-oRT1sZ4wmLYBpvWPgHwd\",\"error\":{\"message\":\"Upstream error from Nvidia: Service temporarily overloaded\",\"code\":502,\"metadata\":{\"error_type\":\"provider_unavailable\"}}}'",
+            "execution_time_seconds": 192.636
+          },
+          "judge_result": null,
+          "scores": {},
+          "failed": true,
+          "status": "failed",
+          "model_id": null,
+          "truncated": false
+        }
+      ],
+      "article_id": "doi:https://doi.org/10.1021/acs.jcim.5c01262"
+    }
+  ],
+  "source_url": "https://github.com/ibstrade11-source/behmanesh-index-prompt/blob/main/MASTER_PROMPT_BSI_v3.4.2.md",
+  "run_metadata": {
+    "tool_version": "0.1.0",
+    "git_commit": "4611b84b11c40496a9a55179000750ad1c70c7f4",
+    "git_dirty": true,
+    "run_timestamp_utc": "2026-09-13T00:36:36Z",
+    "methodology_note": "Scores/judgements come from an independent LLM judge (see comparison/judge.py) instructed not to reuse BSI's own D1-D7/EIG vocabulary and to choose its own evaluation criteria. If no judge model is available or its response cannot be parsed, the run falls back to a simple keyword-presence heuristic -- the stored record's own 'criteria_source' field ('llm' vs 'heuristic_fallback') always says honestly which one produced a given result. Neither path is a validated measurement of analytical quality until checked against independent human judgement on a representative sample.",
+    "provider_name": null,
+    "model_version": null,
+    "temperature": null,
+    "max_tokens": null,
+    "prompt_version": null,
+    "framework_name": "bsi"
+  },
+  "retrieval_metadata": {
+    "retrieval_status": "accepted",
+    "retrieval_validation": {
+      "retrieval_status": "accepted",
+      "retrieval_validation": "title_match",
+      "query_type": "title",
+      "requested_query": "MS25: Materials Science-Focused Benchmark Data Set for Machine Learning Interatomic Potentials",
+      "selected_title": "MS25: Materials Science-Focused Benchmark Data Set for Machine Learning Interatomic Potentials",
+      "selected_rank": 1,
+      "match_score": 1.0,
+      "threshold": 0.72,
+      "candidate_count": 1
+    },
+    "rejected_articles": [],
+    "skipped_count": 0,
+    "skipped_titles": []
+  },
+  "benchmark_status": "benchmarkable"
+}

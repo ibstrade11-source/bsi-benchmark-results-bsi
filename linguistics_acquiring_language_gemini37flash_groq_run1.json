@@ -1,0 +1,85 @@
+{
+  "dataset_name": "10.1016/j.cognition.2024.105771",
+  "results": [
+    {
+      "article": {
+        "title": "Creative minds like ours? Large Language Models and the creative aspect of language use",
+        "abstract": "Descartes famously constructed a language test to determine the existence of other minds. The test made critical observations about how humans use language that purportedly distinguishes them from animals and machines. These observations were carried into the generative (and later biolinguistic) enterprise under what Chomsky in his Cartesian Linguistics, terms the “creative aspect of language use” (CALU). CALU refers to the stimulus-free, unbounded, yet appropriate use of language—a tripartite depiction whose function in biolinguistics is to highlight a species-specific form of intellectual freedom. This paper argues that CALU provides a set of facts that have significant downstream effects on explanatory theory-construction. These include the internalist orientation of linguistics, the invocation of a competence-performance distinction, and the postulation of a generative language faculty that makes possible—but does not explain—CALU. It contrasts the biolinguistic approach to CALU with the recent wave of enthusiasm for the use of Transformer-based Large Language Models (LLMs) as tools, models, or theories of human language, arguing that such uses neglect these fundamental insights to their detriment. It argues that, in the absence of replication, identification, or accounting of CALU, LLMs do not match the explanatory depth of the biolinguistic framework, thereby limiting their theoretical usefulness.",
+        "full_text": null,
+        "doi": "https://doi.org/10.5964/bioling.13507",
+        "url": "https://openalex.org/W4403879881",
+        "input_quality": {
+          "has_title": true,
+          "has_abstract": true,
+          "source": "openalex",
+          "enriched": false,
+          "has_full_text": false,
+          "full_text_fetch_error": "provider returned no usable full text",
+          "full_text_chars": 0,
+          "full_text_source": "provider_fetch:openalex"
+        }
+      },
+      "cells": [
+        {
+          "generator": "gemini",
+          "mode": "raw",
+          "analysis": null,
+          "metadata": {
+            "error": "Gemini HTTP 429: {\n  \"error\": {\n    \"code\": 429,\n    \"message\": \"You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \\n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 20, model: gemini-3.7-flash\\nPlease retry in 24.132179452s.\",\n    \"status\": \"RESOURCE_EXHAUSTED\",\n    \"details\": [\n      {\n        \"@type\": \"type.googleapis.com/google.rpc.Help\",\n        \"links\": [\n          {\n            \"description\": \"Learn more about Gemini API quotas\",\n            \"url\": \"https://ai.google.dev/gemini-api/docs/rate-limits\"\n          }\n        ]\n      },\n      {\n        \"@type\": \"type.googleapis.com/google.rpc.QuotaFailure\",\n        \"violations\": [\n          {\n            \"quotaMetric\": \"generativelanguage.googleapis.com/generate_content_free_tier_requests\",\n            \"quotaId\": \"GenerateRequestsPerDayPerProjectPerModel-FreeTier\",\n            \"quotaDimensions\": {\n              \"location\": \"global\",\n              \"model\": \"gemini-3.7-flash\"\n            },\n            \"quotaValue\": \"20\"\n          }\n        ]\n      },\n      {\n        \"@type\": \"type.googleapis.com/google.rpc.RetryInfo\",\n        \"retryDelay\": \"24s\"\n      }\n    ]\n  }\n}\n",
+            "execution_time_seconds": 5.137
+          },
+          "judge_result": null,
+          "scores": {},
+          "failed": true,
+          "status": "failed",
+          "model_id": null,
+          "truncated": false
+        },
+        {
+          "generator": "gemini",
+          "mode": "bsi",
+          "analysis": null,
+          "metadata": {
+            "error": "Gemini HTTP 503: {\n  \"error\": {\n    \"code\": 503,\n    \"message\": \"This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.\",\n    \"status\": \"UNAVAILABLE\"\n  }\n}\n",
+            "execution_time_seconds": 25.546
+          },
+          "judge_result": null,
+          "scores": {},
+          "failed": true,
+          "status": "failed",
+          "model_id": null,
+          "truncated": false
+        }
+      ],
+      "article_id": "doi:https://doi.org/10.5964/bioling.13507"
+    }
+  ],
+  "source_url": "https://github.com/ibstrade11-source/behmanesh-index-prompt/blob/main/MASTER_PROMPT_BSI_v3.4.2.md",
+  "run_metadata": {
+    "tool_version": "0.1.0",
+    "git_commit": "4611b84b11c40496a9a55179000750ad1c70c7f4",
+    "git_dirty": true,
+    "run_timestamp_utc": "2026-09-11T01:51:30Z",
+    "methodology_note": "Scores/judgements come from an independent LLM judge (see comparison/judge.py) instructed not to reuse BSI's own D1-D7/EIG vocabulary and to choose its own evaluation criteria. If no judge model is available or its response cannot be parsed, the run falls back to a simple keyword-presence heuristic -- the stored record's own 'criteria_source' field ('llm' vs 'heuristic_fallback') always says honestly which one produced a given result. Neither path is a validated measurement of analytical quality until checked against independent human judgement on a representative sample.",
+    "provider_name": null,
+    "model_version": null,
+    "temperature": null,
+    "max_tokens": null,
+    "prompt_version": "v3.4.2",
+    "framework_name": "bsi"
+  },
+  "retrieval_metadata": {
+    "retrieval_status": "accepted",
+    "retrieval_validation": {
+      "retrieval_status": "accepted",
+      "retrieval_validation": "not_required",
+      "query_type": "topic",
+      "requested_query": "10.1016/j.cognition.2024.105771",
+      "candidate_count": 4
+    },
+    "rejected_articles": [],
+    "skipped_count": 0,
+    "skipped_titles": []
+  },
+  "benchmark_status": "benchmarkable"
+}

@@ -1,0 +1,233 @@
+{
+  "dataset_name": "10.1038/nature14474",
+  "results": [
+    {
+      "article": {
+        "title": "The design of the MEG II experiment",
+        "abstract": "The MEG experiment, designed to search for the $${\\mu ^+ \\rightarrow \\hbox {e}^+ \\gamma }$$ decay, completed data-taking in 2013 reaching a sensitivity level of $${5.3\\times 10^{-13}}$$ for the branching ratio. In order to increase the sensitivity reach of the experiment by an order of magnitude to the level of $$6\\times 10^{-14}$$ , a total upgrade, involving substantial changes to the experiment, has been undertaken, known as MEG II. We present both the motivation for the upgrade and a detailed overview of the design of the experiment and of the expected detector performance.",
+        "full_text": null,
+        "doi": "https://doi.org/10.1140/epjc/s10052-018-5845-6",
+        "url": "https://openalex.org/W2962789046",
+        "input_quality": {
+          "has_title": true,
+          "has_abstract": true,
+          "source": "openalex",
+          "enriched": false,
+          "has_full_text": false,
+          "full_text_fetch_error": "provider returned no usable full text",
+          "full_text_chars": 0,
+          "full_text_source": "provider_fetch:openalex"
+        }
+      },
+      "cells": [
+        {
+          "generator": "gemini",
+          "mode": "raw",
+          "analysis": {
+            "text": "Based on the provided abstract and title, here is a concise, factual analysis of the article's main claims and contributions:\n\n---\n\n### **Context & Objective**\n* **Physics Goal:** The article focuses on the search for the charged lepton flavor-violating decay **$\\mu^+ \\rightarrow \\text{e}^+ \\gamma$**, a process forbidden in the standard Model (without neutrino oscillations) and highly sensitive to New Physics scenarios.\n* **Predecessor Baseline:** The original **MEG experiment** concluded data collection in 2013, establishing a branching ratio upper limit/sensitivity reach of **$5.3 \\times 10^{-13}$**.\n\n---\n\n### **Main Claims**\n1. **Order-of-Magnitude Sensitivity Improvement:** The upgraded experiment, **MEG II**, is projected to reach a branching ratio sensitivity of **$6 \\times 10^{-14}$**, improving upon MEG’s sensitivity by approximately a factor of 10.\n2. **Necessity of Full Redesign:** Reaching this level of sensitivity requires higher beam rates and significantly improved detector resolutions, necessitating a comprehensive upgrade across all major detector sub-systems rather than incremental adjustments.\n\n---\n\n### **Key Contributions**\n* **Comprehensive Design Blueprint:** The paper details the overall technical design and architecture of the MEG II experiment.\n* **Motivation and Rationale:** It outlines the physics justification and technical reasoning behind the specific detector modifications and upgrades.\n* **Performance Projections:** It provides simulated and expected detector performance parameters (energy, timing, and angular resolutions, as well as efficiency) required to achieve the $6 \\times 10^{-14}$ sensitivity goal.",
+            "source_model": "gemini-3.7-flash",
+            "generated_at": "2026-09-11T13:15:53Z",
+            "usage": null,
+            "finish_reason": null,
+            "continuation_rounds": 0
+          },
+          "metadata": {
+            "execution_time_seconds": 10.86,
+            "usage": null
+          },
+          "judge_result": {
+            "criteria_source": "llm",
+            "winner": "bsi",
+            "winner_source": "llm",
+            "reasoning": "BSI provides substantive analytical depth absent from RAW: it exposes the core engineering tradeoff (beam rate vs accidental background), identifies leverage points (timing/angular resolution), situates the experiment in the intensity-vs-energy frontier landscape, and flags specific epistemic gaps (parametric, uncertainty, temporal). RAW is clearer but purely descriptive. The framework overhead reduces but does not eliminate BSI's net advantage for a reader seeking critical understanding.",
+            "criteria": [
+              {
+                "name": "Technical Accuracy & Completeness",
+                "importance": 25.0,
+                "raw_score": 6.0,
+                "bsi_score": 7.0,
+                "reason": "RAW captures main claims but omits technical specifics (detector subsystems, calibration). BSI identifies these omissions via EIG analysis but also does not supply them; however, BSI's explicit gap mapping shows better awareness of completeness requirements."
+              },
+              {
+                "name": "Claim-Evidence Mapping",
+                "importance": 20.0,
+                "raw_score": 5.0,
+                "bsi_score": 7.0,
+                "reason": "RAW states the sensitivity goal and asserts a full redesign is needed without linking specific upgrades to specific resolution gains. BSI's latent layer traces the causal chain: beam rate → accidental background → timing/angular resolution → sensitivity, identifying leverage points."
+              },
+              {
+                "name": "Contextualization of Physics Significance",
+                "importance": 15.0,
+                "raw_score": 6.0,
+                "bsi_score": 8.0,
+                "reason": "RAW notes cLFV and New Physics sensitivity briefly. BSI's meta layer explicitly contrasts the High-Intensity Frontier (MEG II) with the High-Energy Frontier (LHC), clarifying the strategic role of rare-decay searches in BSM physics."
+              },
+              {
+                "name": "Critical Assessment of Feasibility",
+                "importance": 15.0,
+                "raw_score": 3.0,
+                "bsi_score": 7.0,
+                "reason": "RAW offers no critical assessment; it reports claims uncritically. BSI's EIG analysis flags three concrete gaps (parametric specs, systematic vs statistical uncertainty breakdown, timeline), and the REIG audit checks causal and generalization compliance."
+              },
+              {
+                "name": "Structural Clarity & Accessibility",
+                "importance": 15.0,
+                "raw_score": 8.0,
+                "bsi_score": 5.0,
+                "reason": "RAW is concise, well-organized, and immediately readable. BSI is verbose, mixes Persian/English, repeats content across multiple tables and layers, and burdens the reader with framework scaffolding (CreativeValueAdd, REIG audit) that adds limited marginal insight."
+              },
+              {
+                "name": "Methodological Insight",
+                "importance": 10.0,
+                "raw_score": 4.0,
+                "bsi_score": 7.0,
+                "reason": "RAW stays at the descriptive level. BSI's latent layer reveals feedback loops (beam intensity ↔ background ↔ resolution ↔ calibration) and leverage points (timing/angular resolution), providing a mechanistic view of the experimental design logic."
+              }
+            ],
+            "total_scores": {
+              "raw": 5.45,
+              "bsi": 6.85
+            },
+            "bsi_capability_assessment": {
+              "relevance": "high",
+              "realization": "medium",
+              "incremental_value": "medium",
+              "reason": "BSI's multi-layer ontology (manifest/latent/meta) is well-matched to experimental design papers where technical claims, hidden tradeoffs, and strategic positioning matter. The analysis applies the framework faithfully but mechanically; the latent/meta insights are valuable but buried in verbose, template-driven output. The self-audit (REIG) is performative. Net incremental value over RAW is positive but reduced by accessibility costs."
+            },
+            "incremental_value": "medium",
+            "scale": "0-10",
+            "weight_sum": 100.0,
+            "glossary_mode": "full",
+            "judge_input_compacted": false
+          },
+          "scores": {
+            "RAW": 0.545,
+            "BSI": 0.685
+          },
+          "failed": false,
+          "status": "valid",
+          "model_id": "gemini-3.7-flash",
+          "truncated": false
+        },
+        {
+          "generator": "gemini",
+          "mode": "bsi",
+          "analysis": {
+            "text": "# تحلیل شاخص بهمنش (BSI v3.4.2)\n\n**عنوان تحلیل:** ارزیابی طراحی و ارتقای آزمایش ام‌ای‌جی ۲ (MEG II) در جستجوی واپاشی نادر میون  \n**مشخصات محتوا:** مقالهٔ علمی در حوزهٔ فیزیک ذرات بنیادی و ابزار دقیق با عنوان «طراحی آزمایش ام‌ای‌جی ۲ (The design of the MEG II experiment)»\n\n---\n\n### ۱. خلاصهٔ اجرایی (Executive Summary)\n* **ادعای بنیادین (Core Claim):** ارتقای جامع و بنیادین زیرساخت‌ها، ردیاب‌ها و سیستم‌های سنجش در آزمایش ام‌ای‌جی ۲ (MEG II)، حساسیت اندازه‌گیری نرخ شاخه‌ای (Branching Ratio) واپاشی نادر لپتونی $\\mu^+ \\rightarrow \\text{e}^+ \\gamma$ را با یک مرتبه بزرگی بهبود، به سطح $6 \\times 10^{-14}$ می‌رساند.\n* **خلاصهٔ ارزیابی:** متن ارائه‌شده یک چکیدهٔ کلاسیک، فشرده و متمرکز بر دستاوردهای مهندسیِ ابزار دقیق در فیزیک انرژی‌های بالا است. این سند فاقد داده‌های خامِ ساختاری در متن چکیده است، اما هدف، منطق بازطراحی و جهش حساسیت را با صراحت تعریف می‌کند.\n* **امتیاز کلی شاخص بهمنش (Overall BSI Score):** **۷۸ / ۱۰۰** (نشان‌دهندهٔ ارزش بالای روش‌شناختی و مهندسی در بستر فیزیک ذرات، با محدودیت‌های ناشی از ماهیت توصیفی چکیده)\n\n---\n\n### ۲. جدول ارزیابی معیارهای اصلی هفت‌گانه\n\n| معیار (Criterion) | امتیاز (از ۱۰۰) | توجیه و استدلال تحلیلی (Analytical Justification) |\n| :--- | :---: | :--- |\n| **۱. وضوح و صراحت ادعا (Claim Clarity)** | ۹۵ | گزارهٔ اصلی بدون ابهام، با اهداف کمی مشخص ($6 \\times 10^{-14}$) و ارجاع مستقیم به نسل قبلی بیان شده است. |\n| **۲. استحکام شواهد و داده‌ها (Evidential Rigor)** | ۷۵ | چکیده بر مبنای داده‌های نسل اول (۲۰۱۳) بنا شده، اما جزئیات تجربی عملکرد ردیاب جدید در قالب پیش‌بینی گزارش شده است. |\n| **۳. عمق مفهومی و نظری (Conceptual Depth)** | ۸۰ | ریشه در نقض پایستگی طعم لپتونی باردار (Charged Lepton Flavour Violation - cLFV) فراتر از مدل استاندارد دارد. |\n| **۴. انسجام منطقی و ساختار (Logical Coherence)** | ۹۰ | ساختار منطقی خطی و بدون تناقض: دستاورد گذشته $\\rightarrow$ محدودیت $\\rightarrow$ ارتقای فنی $\\rightarrow$ دستیابی به حساسیت جدید. |\n| **۵. نوآوری روش‌شناختی (Methodological Novelty)** | ۸۲ | بازطراحی کامل آشکارسازها، هدف‌گیری مرتبه بزرگی جدید در حساسیت با تغییرات عمده در تفکیک زمانی و مکانی. |\n| **۶. ابطال‌پذیری و آزمون‌پذیری (Falsifiability)** | ۹۲ | حد حساسیت تعیین‌شده کاملاً سنجش‌پذیر، تجربی و قابل رد یا اثبات در آزمایشگاه است. |\n| **۷. دامنهٔ تعمیم و کاربرد (Generalization Scope)** | ۵۵ | دامنهٔ کاربرد بسیار متمرکز بر یک کانال واپاشی خاص در فیزیک ذرات بنیادی است و قابل تعمیم مستقیم به حوزه‌های دیگر نیست. |\n\n---\n\n### ۳. جدول ارزش‌افزودهٔ خلاقانه (CreativeValueAdd)\n\n| زیرمعیار (Sub-criterion) | ضریب | امتیاز (از ۱۰۰) | تحلیل تفصیلی (Detailed Analysis) |\n| :--- | :---: | :---: | :--- |\n| **هدف‌گیری شکاف معرفتی (Epistemic Gap Targeting)** | ۳۵٪ | ۸۵ | هدف قرار دادن منطقهٔ کور فیزیک فراتر از مدل استاندارد و کشف پدیده‌هایی با احتمال وقوع کمتر از یک در تریلیون. |\n| **سنتز ترکیبی (Combinatorial Synthesis)** | ۴۰٪ | ۷۸ | ترکیب فناوری‌های نوین ردیابی پوزیترون با حسگرهای فوتونی پیشرفته و سیستم‌های کالیبراسیون برخط. |\n| **ظرفیت زایایی (Generative Capacity)** | ۲۵٪ | ۷۰ | توسعهٔ فناوری‌های حسگری که می‌توانند در سایر آزمایش‌های واپاشی نادر یا تصویربرداری پرتو گاما الگوبرداری شوند. |\n| **نمرهٔ کل ارزش‌افزودهٔ خلاقانه** | **۱۰۰٪** | **۷۸.۴۵** | **سطح: بالا (پیشران مرزهای ابزار دقیق)** |\n\n---\n\n### ۴. لایه‌برداری عمیق (Deep Layering Analysis)\n\n#### الف) لایهٔ آشکار (Manifest Layer)\nگزارشِ گذار از آزمایش ام‌ای‌جی (MEG) با حساسیت $5.3 \\times 10^{-13}$ (پایان در سال ۲۰۱۳) به آزمایش ام‌ای‌جی ۲ (MEG II) با هدف رسیدن به حساسیت $6 \\times 10^{-14}$. تمرکز بر بازطراحی کامل بخش‌های آشکارساز جهت کاهش نوفه (Noise) و افزایش تفکیک‌پذیری.\n\n#### ب) لایهٔ پنهان (Latent Layer)\n* **مکانیسم پنهان (Hidden Mechanism):** تقابل میان نرخ بالای پرتودهی ذرات (Beam Rate) برای تولید آمار بیشتر و چالش تفکیک وقایع واقعی از پیش‌زمینهٔ تصادفی (Accidental Background).\n* **حلقه‌های بازخورد (Feedback Loops):**\n  * *حلقهٔ افزایشی مثبت نوفه:* افزایش شدت باریکه $\\leftarrow$ افزایش رویدادهای همپوشان $\\leftarrow$ نیاز به تفکیک‌پذیری زمانی و مکانی بسیار بالاتر.\n  * *حلقهٔ تعدیل‌کنندهٔ کنترل کیفیت:* پایش مستمر پاسخ حسگرها $\\leftarrow$ کالیبراسیون بلادرنگ $\\leftarrow$ تثبیت رزولوشن و حفظ توان تفکیک سیگنال از پس‌زمینه.\n* **نقاط اهرمی (Leverage Points):** نقطهٔ حساس، تفکیک زاویه‌ای و زمانی میان فوتون گاما و پوزیترون است؛ هر گونه بهبود اندک در زمان‌بندی، کاهش چشمگیر پس‌زمینهٔ تصادفی را به همراه دارد.\n\n#### ج) لایهٔ فراگیر (Meta Layer)\nتلاش برای اثبات فیزیک نوین (New Physics) از طریق رویکرد با شدت بالا (High-Intensity Frontier) در برابر رویکرد با انرژی بالا (High-Energy Frontier نظیر برخورددهنده هادرونی بزرگ - LHC). این رویکرد به جای تولید ذرات فوق‌سنگین مستقیم، به جستجوی انحرافات بسیار نادر در فرآیندهای کوانتومی می‌پردازد.\n\n---\n\n### ۵. تحلیل شکاف اطلاعاتی تجربی (EIG Analysis)\n\n* **شکاف‌های مشاهده‌شده در متن مبدأ:**\n  1. *شکاف پارامتریک:* عدم اشاره به مشخصات فنی اجزا (مانند نوع گاز اتاقک رانش یا حسگرهای سیلیکونی فوتومولتی‌پلایر).\n  2. *شکاف عدم‌قطعیت:* مشخص نشدن سهم خطاهای سیستماتیک در برابر خطاهای آماری در رسیدن به حد $6 \\times 10^{-14}$.\n  3. *شکاف زمانی:* عدم ارائهٔ برنامهٔ زمانی مشخص برای جمع‌آوری داده‌ها تا دستیابی به آمار مورد نیاز.\n\n---\n\n### ۶. ممیزی خودکار تحلیل (REIG — Draft Analysis Audit)\n\nاین بخش ممیزی خروجی بخش‌های ۱ تا ۵ همین سند را بررسی می‌کند تا از عدم عبور ناصحیح تحلیل‌گر از شکاف‌های اطلاعاتی اطمینان حاصل شود:\n\n* **انطباق علّی (Causal Compliance):**\n  * *وضعیت:* **تأیید شد (PASS)**\n  * *توضیح:* افزایش حساسیت مستقیماً به عنوان هدف مهندسی و نتیجهٔ تغییرات ابزار دقیق معرفی شده و هیچ ادعای علّی اثبات‌نشده‌ای در مورد کشف حتمی مادهٔ تاریک یا فیزیک فراتر مطرح نشده است.\n* **انطباق تعمیم (Generalization Compliance):**\n  * *وضعیت:* **تأیید شد (PASS)**\n  * *توضیح:* تحلیل صراحتاً دامنهٔ کاربرد را محدود به کانال واپاشی خاص میون دانسته و از تعمیم بی‌پایه به کل فیزیک ذرات اجتناب کرده است.\n* **انطباق سنجش (Measurement Compliance):**\n  * *وضعیت:* **تأیید شد (PASS)**\n  * *توضیح:* امتیازهای داده‌شده (نظیر ۷۸) در تناسب با ماهیت فشرده و توصیفی چکیده لحاظ شده‌اند و دقت محاسباتی بیشتر از شواهد موجود ادعا نشده است.\n* **انطباق چارچوب‌بندی و ارزش‌گذاری (Framing Compliance):**\n  * *وضعیت:* **تأیید شد (PASS)**\n  * *توضیح:* ارزیابی بدون سوگیری احساسی و صرفاً بر اساس کارایی ساختاری و روش‌شناختی انجام شده است.\n\n**نتیجهٔ نهایی ممیزی:** **پذیرش کامل (PASS)**\n\n---\n\n### ۷. نتیجه‌گیری نهایی و پیشنهادها\n\n* **نقاط قوت:**\n  * شفافیت کامل در مقادیر هدف و مقایسهٔ روشن با نسخهٔ پیشین.\n  * اتکا به منطق ارتقای مرحله‌ای در علوم تجربی پیچیده.\n* **نقاط ضعف:**\n  * عدم تبیین چالش‌های فناورانهٔ مسیر دستیابی به حساسیت یک مرتبه بالاتر در متن چکیده.\n  * وابستگی مطلق به پیش‌بینی‌های مدل‌سازی‌شده بدون گزارش عملکرد اولیه در شرایط واقعی باریکه.\n* **پیشنهاد بهبود برای توسعهٔ متن:**\n  * افزودن خلاصه‌ای از بهینه‌سازی‌های اعمال‌شده روی آشکارساز کالری‌سنج زنون مایع (Liquid Xenon Calorimeter) و اتاقک رانش استوانه‌ای با جرم ناچیز (Ultra-low mass cylindrical drift chamber).\n  * ذکر راهبردهای مقابله با نوسانات پس‌زمینه در شدت‌های پرتودهی بسیار بالا.\n\n---\n\nتحلیل حاضر کاملاً مطابق SOP_Intellectual_Content_Analysis_v3.4.2 و Ontology BIO v1.0 انجام شد.",
+            "source_model": "gemini-3.7-flash",
+            "generated_at": "2026-09-11T13:14:53Z",
+            "usage": null,
+            "finish_reason": null,
+            "continuation_rounds": 0
+          },
+          "metadata": {
+            "execution_time_seconds": 45.671,
+            "usage": null
+          },
+          "judge_result": {
+            "criteria_source": "llm",
+            "winner": "bsi",
+            "winner_source": "llm",
+            "reasoning": "BSI provides substantive analytical depth absent from RAW: it exposes the core engineering tradeoff (beam rate vs accidental background), identifies leverage points (timing/angular resolution), situates the experiment in the intensity-vs-energy frontier landscape, and flags specific epistemic gaps (parametric, uncertainty, temporal). RAW is clearer but purely descriptive. The framework overhead reduces but does not eliminate BSI's net advantage for a reader seeking critical understanding.",
+            "criteria": [
+              {
+                "name": "Technical Accuracy & Completeness",
+                "importance": 25.0,
+                "raw_score": 6.0,
+                "bsi_score": 7.0,
+                "reason": "RAW captures main claims but omits technical specifics (detector subsystems, calibration). BSI identifies these omissions via EIG analysis but also does not supply them; however, BSI's explicit gap mapping shows better awareness of completeness requirements."
+              },
+              {
+                "name": "Claim-Evidence Mapping",
+                "importance": 20.0,
+                "raw_score": 5.0,
+                "bsi_score": 7.0,
+                "reason": "RAW states the sensitivity goal and asserts a full redesign is needed without linking specific upgrades to specific resolution gains. BSI's latent layer traces the causal chain: beam rate → accidental background → timing/angular resolution → sensitivity, identifying leverage points."
+              },
+              {
+                "name": "Contextualization of Physics Significance",
+                "importance": 15.0,
+                "raw_score": 6.0,
+                "bsi_score": 8.0,
+                "reason": "RAW notes cLFV and New Physics sensitivity briefly. BSI's meta layer explicitly contrasts the High-Intensity Frontier (MEG II) with the High-Energy Frontier (LHC), clarifying the strategic role of rare-decay searches in BSM physics."
+              },
+              {
+                "name": "Critical Assessment of Feasibility",
+                "importance": 15.0,
+                "raw_score": 3.0,
+                "bsi_score": 7.0,
+                "reason": "RAW offers no critical assessment; it reports claims uncritically. BSI's EIG analysis flags three concrete gaps (parametric specs, systematic vs statistical uncertainty breakdown, timeline), and the REIG audit checks causal and generalization compliance."
+              },
+              {
+                "name": "Structural Clarity & Accessibility",
+                "importance": 15.0,
+                "raw_score": 8.0,
+                "bsi_score": 5.0,
+                "reason": "RAW is concise, well-organized, and immediately readable. BSI is verbose, mixes Persian/English, repeats content across multiple tables and layers, and burdens the reader with framework scaffolding (CreativeValueAdd, REIG audit) that adds limited marginal insight."
+              },
+              {
+                "name": "Methodological Insight",
+                "importance": 10.0,
+                "raw_score": 4.0,
+                "bsi_score": 7.0,
+                "reason": "RAW stays at the descriptive level. BSI's latent layer reveals feedback loops (beam intensity ↔ background ↔ resolution ↔ calibration) and leverage points (timing/angular resolution), providing a mechanistic view of the experimental design logic."
+              }
+            ],
+            "total_scores": {
+              "raw": 5.45,
+              "bsi": 6.85
+            },
+            "bsi_capability_assessment": {
+              "relevance": "high",
+              "realization": "medium",
+              "incremental_value": "medium",
+              "reason": "BSI's multi-layer ontology (manifest/latent/meta) is well-matched to experimental design papers where technical claims, hidden tradeoffs, and strategic positioning matter. The analysis applies the framework faithfully but mechanically; the latent/meta insights are valuable but buried in verbose, template-driven output. The self-audit (REIG) is performative. Net incremental value over RAW is positive but reduced by accessibility costs."
+            },
+            "incremental_value": "medium",
+            "scale": "0-10",
+            "weight_sum": 100.0,
+            "glossary_mode": "full",
+            "judge_input_compacted": false
+          },
+          "scores": {
+            "RAW": 0.545,
+            "BSI": 0.685
+          },
+          "failed": false,
+          "status": "valid",
+          "model_id": "gemini-3.7-flash",
+          "truncated": false
+        }
+      ],
+      "article_id": "doi:https://doi.org/10.1140/epjc/s10052-018-5845-6"
+    }
+  ],
+  "source_url": "https://github.com/ibstrade11-source/behmanesh-index-prompt/blob/main/MASTER_PROMPT_BSI_v3.4.2.md",
+  "run_metadata": {
+    "tool_version": "0.1.0",
+    "git_commit": "4611b84b11c40496a9a55179000750ad1c70c7f4",
+    "git_dirty": true,
+    "run_timestamp_utc": "2026-09-11T13:15:42Z",
+    "methodology_note": "Scores/judgements come from an independent LLM judge (see comparison/judge.py) instructed not to reuse BSI's own D1-D7/EIG vocabulary and to choose its own evaluation criteria. If no judge model is available or its response cannot be parsed, the run falls back to a simple keyword-presence heuristic -- the stored record's own 'criteria_source' field ('llm' vs 'heuristic_fallback') always says honestly which one produced a given result. Neither path is a validated measurement of analytical quality until checked against independent human judgement on a representative sample.",
+    "provider_name": null,
+    "model_version": null,
+    "temperature": null,
+    "max_tokens": null,
+    "prompt_version": "v3.4.2",
+    "framework_name": "bsi"
+  },
+  "retrieval_metadata": {
+    "retrieval_status": "accepted",
+    "retrieval_validation": {
+      "retrieval_status": "accepted",
+      "retrieval_validation": "not_required",
+      "query_type": "topic",
+      "requested_query": "10.1038/nature14474",
+      "candidate_count": 5
+    },
+    "rejected_articles": [],
+    "skipped_count": 0,
+    "skipped_titles": []
+  },
+  "benchmark_status": "benchmarkable"
+}

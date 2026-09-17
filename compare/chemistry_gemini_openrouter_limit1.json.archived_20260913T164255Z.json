@@ -1,0 +1,87 @@
+{
+  "dataset_name": "chemistry",
+  "results": [
+    {
+      "article": {
+        "title": "CRC Handbook of Chemistry and Physics",
+        "abstract": "Proudly serving the scientific community for over a century, this 95th edition of the CRC Handbook of Chemistry and Physics is an update of a classic reference, mirroring the growth and direction of science. This venerable work continues to be the most accessed and respected scientific reference in the world. An authoritative resource consisting of",
+        "full_text": null,
+        "doi": "https://doi.org/10.1201/b17118",
+        "url": "https://openalex.org/W2132905138",
+        "input_quality": {
+          "has_title": true,
+          "has_abstract": true,
+          "source": "openalex",
+          "enriched": false,
+          "has_full_text": false,
+          "full_text_fetch_error": "provider returned no usable full text",
+          "full_text_chars": 0,
+          "full_text_source": "provider_fetch:openalex"
+        }
+      },
+      "cells": [
+        {
+          "generator": "gemini",
+          "mode": "raw",
+          "analysis": null,
+          "metadata": {
+            "error": "Could not parse Gemini response: 'NoneType' object has no attribute 'body'",
+            "execution_time_seconds": 68.407
+          },
+          "judge_result": null,
+          "scores": {},
+          "failed": true,
+          "status": "failed",
+          "model_id": null,
+          "truncated": false
+        },
+        {
+          "generator": "gemini",
+          "mode": "bsi",
+          "analysis": null,
+          "metadata": {
+            "error": "Could not parse Gemini response: 'NoneType' object has no attribute 'body'",
+            "execution_time_seconds": 91.318
+          },
+          "judge_result": null,
+          "scores": {},
+          "failed": true,
+          "status": "failed",
+          "model_id": null,
+          "truncated": false
+        }
+      ],
+      "article_id": "doi:https://doi.org/10.1201/b17118"
+    }
+  ],
+  "source_url": "https://github.com/ibstrade11-source/behmanesh-index-prompt/blob/main/MASTER_PROMPT_BSI_v3.4.2.md",
+  "run_metadata": {
+    "tool_version": "0.1.0",
+    "git_commit": "4611b84b11c40496a9a55179000750ad1c70c7f4",
+    "git_dirty": true,
+    "run_timestamp_utc": "2026-09-13T16:17:40Z",
+    "methodology_note": "Scores/judgements come from an independent LLM judge (see comparison/judge.py) instructed not to reuse BSI's own D1-D7/EIG vocabulary and to choose its own evaluation criteria. If no judge model is available or its response cannot be parsed, the run falls back to a simple keyword-presence heuristic -- the stored record's own 'criteria_source' field ('llm' vs 'heuristic_fallback') always says honestly which one produced a given result. Neither path is a validated measurement of analytical quality until checked against independent human judgement on a representative sample.",
+    "provider_name": null,
+    "model_version": null,
+    "temperature": null,
+    "max_tokens": null,
+    "prompt_version": null,
+    "framework_name": "bsi"
+  },
+  "retrieval_metadata": {
+    "retrieval_status": "accepted",
+    "retrieval_validation": {
+      "retrieval_status": "accepted",
+      "retrieval_validation": "not_required",
+      "query_type": "topic",
+      "requested_query": "chemistry",
+      "candidate_count": 4
+    },
+    "rejected_articles": [],
+    "skipped_count": 1,
+    "skipped_titles": [
+      "Principles of polymer chemistry"
+    ]
+  },
+  "benchmark_status": "benchmarkable"
+}

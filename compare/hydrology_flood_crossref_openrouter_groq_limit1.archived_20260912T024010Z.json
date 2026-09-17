@@ -1,0 +1,132 @@
+{
+  "dataset_name": "flood forecasting deep learning climate change",
+  "results": [
+    {
+      "article": {
+        "title": "CLIMATE CHANGE FORECASTING USING DEEP LEARNING",
+        "abstract": "Climate change is defined as a long-lasting change in the mean weather patterns found on Earth. These changes are either natural, or human made. Since the 19th century, climate change has been on the rise. This is mostly due to igniting fossil fuels like gas, coal, and oil. These can lead to various problems like food and water scarcity, disease, increased flooding, extreme heat, and economic loss. It can also cause the sea levels to rise, and make oceans warmer and more acidic, and escalate human migration. It is referred to as the most significant threat to health on a global scale by the World Health Organization. Even if the efforts made to reduce future warming is successful, some effects will continue for tens of decades.\nThis paper attempts to forecast climate change based on the changes in temperature across the globe from the 19th century onwards. A deep learning-based time series model is built using Recurrent Neural Networks (RNNs) to forecast the average temperature. This model will attempt to predict future values based on historical data. \nKEYWORDS—Climate change, Deep learning, Recurrent Neural Network",
+        "full_text": null,
+        "doi": "10.36713/epra18552",
+        "url": "https://doi.org/10.36713/epra18552",
+        "input_quality": {
+          "has_title": true,
+          "has_abstract": true,
+          "source": "crossref",
+          "enriched": false
+        }
+      },
+      "cells": [
+        {
+          "generator": "openrouter",
+          "mode": "raw",
+          "analysis": {
+            "text": "**Analysis of \"Climate Change Forecasting Using Deep Learning\"**\n\n**1. Main Claims**\n*   **Problem Significance:** Climate change (driven primarily by fossil fuel combustion since the 19th century) poses severe global risks, including resource scarcity, health threats, sea-level rise, and economic loss, with long-lasting effects even if mitigation succeeds.\n*   **Feasibility of DL Forecasting:** Global average temperature changes since the 19th century can be effectively modeled and forecasted using deep learning architectures.\n*   **Model Suitability:** Recurrent Neural Networks (RNNs) are appropriate for this task due to their inherent capability to handle temporal dependencies in time-series data.\n\n**2. Methodology**\n*   **Data:** Historical global average temperature records spanning the 19th century to present.\n*   **Architecture:** Deep Learning-based time series model utilizing **Recurrent Neural Networks (RNNs)**.\n*   **Approach:** Supervised learning sequence modeling—training on historical sequences to predict future temperature values (autoregressive forecasting).\n\n**3. Contribution**\n*   **Application Contribution:** Applies a specific deep learning architecture (RNN) to the domain of long-term global climate temperature forecasting, moving beyond traditional statistical or physical General Circulation Models (GCMs) for this specific predictive task.\n*   **Predictive Tool:** Provides a data-driven, computational tool for projecting future average temperature trajectories based solely on historical temporal patterns.\n*   **Baseline Establishment:** Establishes a benchmark for deep learning-based global temperature forecasting using century-scale data.\n\n**4. Limitations & Gaps (Inferred from Abstract Only)**\n*   **Univariate Focus:** Appears to model *only* global average temperature as a univariate time series, ignoring exogenous forcings (CO2 concentrations, volcanic activity, solar irradiance) or spatial heterogeneity.\n*   **Architecture Specificity:** Cites generic \"RNNs\" without specifying variant (LSTM, GRU), depth, or hyperparameter optimization.\n*   **Validation Strategy:** No mention of out-of-sample testing periods, hindcasting skill scores, or comparison against baseline methods (e.g., ARIMA, persistence models, CMIP projections).\n*   **Physical Consistency:** Purely data-driven \"black box\" approach offers no guarantee of adherence to physical conservation laws or extrapolation reliability under novel forcing scenarios.\n\n**Summary:** The paper proposes a **univariate time-series forecasting application** using standard RNN architecture on historical global temperature data. Its primary value lies in demonstrating the *application* of deep learning to this specific dataset, though the abstract lacks technical detail regarding model architecture, validation rigor, or comparative performance necessary to assess scientific novelty or predictive reliability.",
+            "source_model": "nvidia/nemotron-3-ultra-550b-a55b:free",
+            "generated_at": "2026-09-12T02:33:36Z",
+            "usage": {
+              "prompt_tokens": 298,
+              "completion_tokens": 607,
+              "total_tokens": 905,
+              "cost": 0,
+              "is_byok": false,
+              "prompt_tokens_details": {
+                "cached_tokens": 0,
+                "cache_write_tokens": 0,
+                "audio_tokens": 0,
+                "video_tokens": 0
+              },
+              "cost_details": {
+                "upstream_inference_cost": 0,
+                "upstream_inference_prompt_cost": 0,
+                "upstream_inference_completions_cost": 0
+              },
+              "completion_tokens_details": {
+                "reasoning_tokens": 56,
+                "image_tokens": 0,
+                "audio_tokens": 0
+              }
+            },
+            "finish_reason": "stop",
+            "continuation_rounds": 0
+          },
+          "metadata": {
+            "execution_time_seconds": 20.746,
+            "usage": {
+              "prompt_tokens": 298,
+              "completion_tokens": 607,
+              "total_tokens": 905,
+              "cost": 0,
+              "is_byok": false,
+              "prompt_tokens_details": {
+                "cached_tokens": 0,
+                "cache_write_tokens": 0,
+                "audio_tokens": 0,
+                "video_tokens": 0
+              },
+              "cost_details": {
+                "upstream_inference_cost": 0,
+                "upstream_inference_prompt_cost": 0,
+                "upstream_inference_completions_cost": 0
+              },
+              "completion_tokens_details": {
+                "reasoning_tokens": 56,
+                "image_tokens": 0,
+                "audio_tokens": 0
+              }
+            }
+          },
+          "judge_result": null,
+          "scores": {},
+          "failed": false,
+          "status": "valid",
+          "model_id": "nvidia/nemotron-3-ultra-550b-a55b:free",
+          "truncated": false
+        },
+        {
+          "generator": "openrouter",
+          "mode": "bsi",
+          "analysis": null,
+          "metadata": {
+            "error": "OpenRouter response did not contain a non-empty 'choices' array. keys=['id', 'error']; error={'message': 'Upstream error from Nvidia: Service temporarily overloaded', 'code': 502, 'metadata': {'error_type': 'provider_unavailable'}}; body_prefix='{\"id\":\"gen-1789180753-qMHEL7ArZatwOotWM4u8\",\"error\":{\"message\":\"Upstream error from Nvidia: Service temporarily overloaded\",\"code\":502,\"metadata\":{\"error_type\":\"provider_unavailable\"}}}'",
+            "execution_time_seconds": 98.261
+          },
+          "judge_result": null,
+          "scores": {},
+          "failed": true,
+          "status": "failed",
+          "model_id": null,
+          "truncated": false
+        }
+      ],
+      "article_id": "doi:10.36713/epra18552"
+    }
+  ],
+  "source_url": "https://github.com/ibstrade11-source/behmanesh-index-prompt/blob/main/MASTER_PROMPT_BSI_v3.4.2.md",
+  "run_metadata": {
+    "tool_version": "0.1.0",
+    "git_commit": "4611b84b11c40496a9a55179000750ad1c70c7f4",
+    "git_dirty": true,
+    "run_timestamp_utc": "2026-09-12T02:37:35Z",
+    "methodology_note": "Scores/judgements come from an independent LLM judge (see comparison/judge.py) instructed not to reuse BSI's own D1-D7/EIG vocabulary and to choose its own evaluation criteria. If no judge model is available or its response cannot be parsed, the run falls back to a simple keyword-presence heuristic -- the stored record's own 'criteria_source' field ('llm' vs 'heuristic_fallback') always says honestly which one produced a given result. Neither path is a validated measurement of analytical quality until checked against independent human judgement on a representative sample.",
+    "provider_name": null,
+    "model_version": null,
+    "temperature": null,
+    "max_tokens": null,
+    "prompt_version": "v3.4.2",
+    "framework_name": "bsi"
+  },
+  "retrieval_metadata": {
+    "retrieval_status": "accepted",
+    "retrieval_validation": {
+      "retrieval_status": "accepted",
+      "retrieval_validation": "not_required",
+      "query_type": "topic",
+      "requested_query": "flood forecasting deep learning climate change",
+      "candidate_count": 5
+    },
+    "rejected_articles": [],
+    "skipped_count": 0,
+    "skipped_titles": []
+  },
+  "benchmark_status": "benchmarkable"
+}

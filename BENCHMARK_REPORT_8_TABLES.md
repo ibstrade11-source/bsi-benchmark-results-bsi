@@ -6,8 +6,8 @@ This report is automatically generated from structured CSV files. Each report bu
 
 | Status | Count |
 |---|---:|
-| VALID | 126 |
-| UNJUDGED | 15 |
+| VALID | 129 |
+| UNJUDGED | 16 |
 | TEST | 6 |
 | ARCHIVED | 18 |
 
@@ -15,13 +15,13 @@ This report is automatically generated from structured CSV files. Each report bu
 
 | Metric | Value |
 |---|---:|
-| RAW mean | 6.57 |
-| BSI mean | 7.68 |
-| Δ mean (BSI−RAW) | 1.10 |
+| RAW mean | 6.55 |
+| BSI mean | 7.70 |
+| Δ mean (BSI−RAW) | 1.15 |
 | Δ median | 1.40 |
 | Δ min | -7.05 |
 | Δ max | 6.25 |
-| BSI wins | 100 |
+| BSI wins | 103 |
 | RAW wins | 24 |
 | Ties | 2 |
 
@@ -29,17 +29,17 @@ This report is automatically generated from structured CSV files. Each report bu
 
 | Dimension | Level | Count | Percent of VALID |
 |---|---|---:|---:|
-| Relevance | high | 102 | 81.0% |
-| Relevance | medium | 18 | 14.3% |
-| Relevance | low | 5 | 4.0% |
-| Realization | high | 60 | 47.6% |
-| Realization | medium | 51 | 40.5% |
-| Realization | low | 14 | 11.1% |
-| Incremental value | high | 74 | 58.7% |
-| Incremental value | medium | 31 | 24.6% |
-| Incremental value | low | 12 | 9.5% |
+| Relevance | high | 105 | 81.4% |
+| Relevance | medium | 18 | 14.0% |
+| Relevance | low | 5 | 3.9% |
+| Realization | high | 62 | 48.1% |
+| Realization | medium | 52 | 40.3% |
+| Realization | low | 14 | 10.9% |
+| Incremental value | high | 77 | 59.7% |
+| Incremental value | medium | 31 | 24.0% |
+| Incremental value | low | 12 | 9.3% |
 | Incremental value | none | 1 | 0.8% |
-| Incremental value | negative | 7 | 5.6% |
+| Incremental value | negative | 7 | 5.4% |
 
 **Note:** `incremental_value` is the Judge's independent assessment of the incremental value of BSI analysis relative to RAW and is not identical to Δ.
 
@@ -47,8 +47,8 @@ This report is automatically generated from structured CSV files. Each report bu
 
 | Relevance | Realization | Incremental Value | Count |
 |---|---|---|---:|
-| high | high | high | 53 |
-| high | medium | high | 21 |
+| high | high | high | 55 |
+| high | medium | high | 22 |
 | high | medium | medium | 19 |
 | high | high | medium | 7 |
 | medium | low | low | 7 |
@@ -92,7 +92,7 @@ This report is automatically generated from structured CSV files. Each report bu
 | Predicting the fundamental thermal niche of ectotherms | 1 | 6.55 | 8.57 | 2.02 | 2.02 | 1 | 0 | 0 |
 | Heterogeneous Data Approach on Financial development of Selected African Leading Economies | 4 | 6.35 | 7.175 | 0.825 | 0.5 | 3 | 1 | 0 |
 | Artificial Intelligence (AI): Multidisciplinary perspectives on emerging challenges, opportunities, and agenda for research, practice and policy | 2 | 5.425 | 7.935 | 2.51 | 2.51 | 2 | 0 | 0 |
-| Is criticality a unified setpoint of brain function? | 4 | 5.2125 | 8.725 | 3.5125 | 3.0 | 4 | 0 | 0 |
+| Is criticality a unified setpoint of brain function? | 5 | 5.26 | 8.8 | 3.54 | 3.55 | 5 | 0 | 0 |
 | Understanding the role of digital technologies in education: A review | 1 | 1.1 | 3.25 | 2.15 | 2.15 | 1 | 0 | 0 |
 | Climate Change 2014: Mitigation of Climate Change | 1 | 6.25 | 8.25 | 2.0 | 2.0 | 1 | 0 | 0 |
 | The Cognitive Revolution and the Political Psychology of Elite Decision Making | 2 | 6.425 | 7.925 | 1.5 | 1.5 | 2 | 0 | 0 |
@@ -114,6 +114,7 @@ This report is automatically generated from structured CSV files. Each report bu
 | American Business, Public Policy, Case-Studies, and Political Theory | 7 | 7.3 | 5.79 | -1.51 | -3.3 | 3 | 4 | 0 |
 | Constrained Urban Airspace Design for Large-Scale Drone-Based Delivery Traffic | 1 | 7.55 | 8.9 | 1.35 | 1.35 | 1 | 0 | 0 |
 | Data-Driven Artificial Intelligence Applications for Sustainable Precision Agriculture | 1 | 6.7 | 6.15 | -0.55 | -0.55 | 0 | 1 | 0 |
+| A Digital Twin Framework for Structural Health Monitoring of Existing Large-Span Bridges | 2 | 5.775 | 8.4 | 2.625 | 2.625 | 2 | 0 | 0 |
 | Research methods in anthropology: qualitative and quantitative approaches | 3 | 6.0 | 8.3667 | 2.3667 | 1.85 | 3 | 0 | 0 |
 | Epistemic justification: internalism vs. externalism, foundations vs. virtues | 3 | 6.9167 | 6.9833 | 0.0667 | 0.05 | 2 | 1 | 0 |
 | The Rediscovery of the Mind | 4 | 5.525 | 6.8625 | 1.3375 | 1.425 | 4 | 0 | 0 |
@@ -122,11 +123,12 @@ This report is automatically generated from structured CSV files. Each report bu
 
 | Domain | Runs | Unique articles | RAW mean | BSI mean | Δ mean | BSI wins | RAW wins | Ties |
 |---|---:|---:|---:|---:|---:|---:|---:|---:|
-| 10.1016/j.neuron.2025.05.020 | 4 | 1 | 5.2125 | 8.725 | 3.5125 | 4 | 0 | 0 |
+| 10.1016/j.neuron.2025.05.020 | 5 | 1 | 5.26 | 8.8 | 3.54 | 5 | 0 | 0 |
 | 10.1038/s42256-024-00976-7 | 3 | 1 | 7.5333 | 8.9067 | 1.3733 | 2 | 1 | 0 |
 | 10.1063/5.0090222 | 1 | 1 | 5.55 | 8.85 | 3.3 | 1 | 0 | 0 |
 | 2401.13835 What Large Language Models Know and What People Think They Know | 1 | 1 | 6.8 | 8.79 | 1.99 | 1 | 0 | 0 |
 | 2406.04710 | 1 | 1 | 6.4 | 7.75 | 1.35 | 1 | 0 | 0 |
+| A Digital Twin Framework for Structural Health Monitoring of Existing Large-Span Bridges | 2 | 1 | 5.775 | 8.4 | 2.625 | 2 | 0 | 0 |
 | A Long History: From Universal Language to Artificial Intelligence | 11 | 2 | 6.0591 | 8.3427 | 2.2836 | 9 | 2 | 0 |
 | Constrained Urban Airspace Design for Large-Scale Drone-Based Delivery Traffic | 1 | 1 | 7.55 | 8.9 | 1.35 | 1 | 0 | 0 |
 | Ecology | 1 | 1 | 6.55 | 8.57 | 2.02 | 1 | 0 | 0 |
@@ -190,7 +192,7 @@ This report is automatically generated from structured CSV files. Each report bu
 | Analyst model | Runs | Unique articles | RAW mean | BSI mean | Δ mean | BSI wins | RAW wins | Ties |
 |---|---:|---:|---:|---:|---:|---:|---:|---:|
 | gemini-3.5-flash | 10 | 5 | 6.905 | 8.723 | 1.818 | 9 | 1 | 0 |
-| gemini-3.6-flash | 15 | 6 | 5.908 | 8.294 | 2.386 | 14 | 1 | 0 |
+| gemini-3.6-flash | 18 | 7 | 5.8678 | 8.3506 | 2.4828 | 17 | 1 | 0 |
 | gemini-3.7-flash | 14 | 7 | 5.7836 | 8.3107 | 2.5271 | 13 | 1 | 0 |
 | gpt-4o-mini | 1 | 1 | 7.2 | 8.35 | 1.15 | 1 | 0 | 0 |
 | llama-3.3-70b-versatile | 9 | 8 | 7.1833 | 6.8944 | -0.2889 | 6 | 3 | 0 |
@@ -213,7 +215,7 @@ This report is automatically generated from structured CSV files. Each report bu
 | Identifying mismatches between conservation area networks and vulnerable populations using spatial randomization | 2 | 2.2 | 0.4 | 0.8 | 0.425 | 0.025 | 0.85 | 0.05 | 2 | 0 | 0 | False |
 | Heterogeneous Data Approach on Financial development of Selected African Leading Economies | 4 | 0.825 | 1.0568 | 2.8 | 0.9598 | 0.8082 | 2.65 | 1.95 | 3 | 1 | 0 | True |
 | Artificial Intelligence (AI): Multidisciplinary perspectives on emerging challenges, opportunities, and agenda for research, practice and policy | 2 | 2.51 | 2.09 | 4.18 | 1.525 | 0.565 | 3.05 | 1.13 | 2 | 0 | 0 | False |
-| Is criticality a unified setpoint of brain function? | 4 | 3.5125 | 1.6998 | 4.45 | 1.7141 | 0.1031 | 4.5 | 0.25 | 4 | 0 | 0 | False |
+| Is criticality a unified setpoint of brain function? | 5 | 3.54 | 1.5213 | 4.45 | 1.536 | 0.1761 | 4.5 | 0.45 | 5 | 0 | 0 | False |
 | The Cognitive Revolution and the Political Psychology of Elite Decision Making | 2 | 1.5 | 0.75 | 1.5 | 0.225 | 0.525 | 0.45 | 1.05 | 2 | 0 | 0 | False |
 | MS25: Materials Science-Focused Benchmark Data Set for Machine Learning Interatomic Potentials | 4 | 0.165 | 1.4018 | 3.65 | 0.7372 | 1.0054 | 1.63 | 2.64 | 3 | 1 | 0 | True |
 | What large language models know and what people think they know | 3 | 1.3733 | 1.325 | 2.85 | 1.0443 | 0.3013 | 2.35 | 0.72 | 2 | 1 | 0 | True |
@@ -224,10 +226,11 @@ This report is automatically generated from structured CSV files. Each report bu
 | A Long History: From Universal Language to Artificial Intelligence | 10 | 2.052 | 2.0041 | 6.01 | 1.7399 | 0.3849 | 5.23 | 1.23 | 8 | 2 | 0 | True |
 | Towards FAIR and federated data ecosystems for interdisciplinary research | 2 | 1.55 | 0.05 | 0.1 | 2.075 | 2.025 | 4.15 | 4.05 | 2 | 0 | 0 | False |
 | American Business, Public Policy, Case-Studies, and Political Theory | 7 | -1.51 | 3.1124 | 7.65 | 1.5203 | 1.761 | 3.75 | 4.9 | 3 | 4 | 0 | True |
+| A Digital Twin Framework for Structural Health Monitoring of Existing Large-Span Bridges | 2 | 2.625 | 0.575 | 1.15 | 0.325 | 0.25 | 0.65 | 0.5 | 2 | 0 | 0 | False |
 | Research methods in anthropology: qualitative and quantitative approaches | 3 | 2.3667 | 0.8024 | 1.75 | 0.4143 | 0.4515 | 1.0 | 1.1 | 3 | 0 | 0 | False |
 | Epistemic justification: internalism vs. externalism, foundations vs. virtues | 3 | 0.0667 | 2.1025 | 5.15 | 0.7318 | 1.489 | 1.6 | 3.55 | 2 | 1 | 0 | True |
 | The Rediscovery of the Mind | 4 | 1.3375 | 0.6712 | 1.8 | 2.883 | 2.3541 | 7.7 | 5.9 | 4 | 0 | 0 | False |
 
 ---
 
-Count VALID: **126** | Article count: **53** | Domain count: **62** | Model count: **8** | Articles with repeated runs for drift analysis: **25
+Count VALID: **129** | Article count: **54** | Domain count: **63** | Model count: **8** | Articles with repeated runs for drift analysis: **26

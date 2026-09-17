@@ -1,0 +1,2038 @@
+                                              What Large Language Models Know and What People
+                                                             Think They Know
+
+                                         Mark Steyvers                                                           mark.steyvers@uci.edu
+                                         Department of Cognitive Sciences, University of California, Irvine
+                                         Heliodoro Tejeda                                                                htejeda@uci.edu
+                                         Department of Cognitive Sciences, University of California, Irvine
+
+
+
+
+arXiv:2401.13835v2 [cs.LG] 13 Feb 2025
+                                         Aakriti Kumar                                                                   aakritk@uci.edu
+                                         Department of Cognitive Sciences, University of California, Irvine
+                                         Catarina Belem                                                                   cbelem@uci.edu
+                                         Department of Computer Science, University of California, Irvine
+                                         Sheer Karny                                                                      skarny@uci.edu
+                                         Department of Cognitive Sciences, University of California, Irvine
+                                         Xinyue Hu                                                                         xhu26@uci.edu
+                                         Department of Cognitive Sciences, University of California, Irvine
+                                         Lukas Mayer                                                                    lwmayer@uci.edu
+                                         Department of Cognitive Sciences, University of California, Irvine
+                                         Padhraic Smyth                                                                smyth@ics.uci.edu
+                                         Department of Computer Science, University of California, Irvine
+
+
+
+
+                                                                                    Abstract
+
+                                             As artificial intelligence systems, particularly large language models (LLMs), become in-
+                                             creasingly integrated into decision-making processes, the ability to trust their outputs is
+                                             crucial. To earn human trust, LLMs must be well calibrated such that they can accurately
+                                             assess and communicate the likelihood of their predictions being correct. Whereas recent
+                                             work has focused on LLMs’ internal confidence, less is understood about how effectively
+                                             they convey uncertainty to users. Here we explore the calibration gap, which refers to
+                                             the difference between human confidence in LLM-generated answers and the models’ ac-
+                                             tual confidence, and the discrimination gap, which reflects how well humans and models
+                                             can distinguish between correct and incorrect answers. Our experiments with multiple-
+                                             choice and short-answer questions reveal that users tend to overestimate the accuracy of
+                                             LLM responses when provided with default explanations. Moreover, longer explanations
+                                             increased user confidence, even when the extra length did not improve answer accuracy.
+                                             By adjusting LLM explanations to better reflect the models’ internal confidence, both the
+                                             calibration gap and the discrimination gap narrowed, significantly improving user percep-
+                                             tion of LLM accuracy. These findings underscore the importance of accurate uncertainty
+                                             communication and highlight the effect of explanation length in influencing user trust in
+                                             artificial-intelligence-assisted decision-making environments.
+
+                                             Keywords: Large Language Models, LLMs, Calibration, Trust, Explanations, User Con-
+                                             fidence
+
+
+                                                                                         1
+     What Large Language Models Know and What People Think They Know
+
+
+
+
+1. Introduction
+Uncertainty communication plays a critical role in decision-making and policy development.
+Uncertainties are often expressed verbally to help stakeholders understand risks and make
+informed choices across a wide range of domains, including climate policy, law, medicine,
+and intelligence forecasting. Psychology research has investigated perceptions of verbally
+expressed uncertainty (e.g., phrases such as “very unlikely”, or “almost certain”) in these
+domains Budescu et al. (2014); Ho et al. (2015); Karelitz et al. (2002); Wallsten et al.
+(2008); O’Brien (1989). Despite their lack of precision in communicating probabilities, ver-
+bal probability phrases provide a simple and effective way to communicate uncertainty in
+natural language contexts. The emergence of large language models (LLMs) introduces
+new complexities in the area of uncertainty communication. These models are increasingly
+integrated into areas such as public health Ali et al. (2023), coding Zambrano et al. (2023),
+and education Whalen et al. (2023). However, the question of how effectively LLMs com-
+municate uncertainty is unexplored. As the primary mode of communication with LLMs is
+through natural language, it is critical to understand if LLMs are able to accurately convey
+through verbal means what they know or do not know.
+    Recent research raises doubts about the reliability of the information that LLMs gener-
+ate. One notable issue is the possibility of generating responses that, while convincing, may
+be inaccurate or nonsensical Jo (2023); Huang et al. (2023). The unreliability of LLMs has
+led developers of LLMs to caution against uncritical acceptance of model outputs OpenAI
+(2022b), suggesting that it is not always clear when the models are or are not confident in
+the knowledge communicated to the user.
+    At the same time, recent research has also indicated that LLMs have the ability, to a
+certain degree, to accurately discern their own knowledge boundaries. LLMs in particular
+can exhibit a reasonable level of calibration for multiple-choice questions such that the prob-
+ability the model assigns to a selected answer tracks with the probability that this answer
+is correct Achiam et al. (2023); Kadavath et al. (2022); Srivastava et al. (2023). In addi-
+tion, recent studies show that LLMs can distinguish between answerable and unanswerable
+questions Yin et al. (2023); Kadavath et al. (2022) and the internal state of an LLM can
+distinguish between truthful statements and lies Azaria and Mitchell (2023) and truthful
+statements and confabulations Farquhar et al. (2024). These findings suggest that LLMs
+may possess an internal mechanism that is reflective of self-knowledge.
+    In the specific context of question-answering, an LLM’s “model confidence” is typically
+equated to the probability assigned by the LLM to the selected answer relative to other
+possible answers (e.g., Jiang et al. (2021); Hendrycks et al. (2021)). However, from the
+perspective of a human interacting with the LLM, this internal model confidence is not
+usually displayed to human users as part of LLM output. Instead, in current practice,
+humans rely solely on the language produced by the LLM in order to assess LLM confidence.
+To contrast with model confidence, in this paper we use the term “human confidence” to
+refer to a human’s assessment (expressed as a probability) of how likely it is that the LLM’s
+answer is correct based only on the language produced by the LLM without any knowledge
+of the LLM’s internal model confidence.
+    Surprisingly, studies focused on investigating human confidence in LLM outputs are
+lacking. In this paper, we take a step in addressing this issue and investigate what we term
+
+                                              2
+     What Large Language Models Know and What People Think They Know
+
+
+
+
+“the calibration gap”, namely the difference in the reliability of LLM model confidence and
+human confidence. In effect, the calibration gap represents the gap between an LLM’s own
+internal confidence of what it knows and human perception of this confidence. In addition,
+we investigate “the discrimination gap”, which relates to the difference in the ability to
+discriminate between likely correct and incorrect answers. Any discrimination gap shows
+that whatever internal LLM representation is used to tell the difference between likely
+correct and incorrect answers is not conveyed effectively to humans. We address two specific
+research questions in this context. First, how large are the calibration and discrimination
+gaps? i.e., is there a significant gap between LLM model confidence and human confidence
+in terms of how each assesses the true accuracy of the LLM? Second, can the calibration
+and discrimination gaps be reduced? Can the quality of human confidence in an LLM be
+improved by adapting the textual output of the LLM to internal model confidence? These
+questions have important implications for the design of reliable LLM assistants. By aligning
+the LLM’s internal confidence with human perception of this confidence, we can bridge the
+gap between what LLMs know and what people think they know, which is crucial for the
+development of effective and trustworthy assistants
+    Our contributions in this context are twofold. First, we present a set of experimen-
+tal studies and dataset that directly captures human assessment of LLM confidence in a
+question-answering context, providing insight into human perceptions of LLM textual re-
+sponses. Second, we test and suggest ways of generating LLM responses that improve the
+calibration quality of human confidence relative to the LLM assistant’s model confidence
+and the LLM’s true accuracy.
+
+1.1 Large Language Models
+We use three publicly available LLMs in our studies: GPT-3.5 OpenAI (2022a), PaLM2
+Anil et al. (2023), and GPT-4o. We apply the GPT-3.5 and PaLM2 models to a subset
+of multiple-choice questions from the Massive Multitask Language Understanding (MMLU)
+dataset, a comprehensive dataset that contains multiple-choice questions from various knowl-
+edge domains, such as STEM, humanities, social sciences, and more Hendrycks et al. (2021).
+We apply the GPT-4o model to a subset of short-answer questions from the Trivia QA data
+set Joshi et al. (2017). For each multiple-choice and short-answer question, we assess model
+confidence by computing the token likelihoods (see Methods for details). This method for
+reading out model confidence allows for a direct computation of the relative probabilities of
+different possible answers in multiple-choice questions Jiang et al. (2021); Kadavath et al.
+(2022); Xiao et al. (2022); Hendrycks et al. (2021); Achiam et al. (2023) and the probabil-
+ity that the answer to an open-ended question is correct Kadavath et al. (2022); Farquhar
+et al. (2024). We investigate the relationship between model confidence and accuracy to
+determine whether the LLM is reasonably well-calibrated, independent of the LLM’s ability
+to elicit well-calibrated confidence from humans who use the LLM.
+
+2. Methodology
+We designed behavioral experiments to evaluate human perceptions of LLM confidence.
+In these experiments, participants estimate the probability that the LLM’s answer to a
+multiple-choice or short-answer question is correct based on the explanation that the LLM
+
+                                             3
+      What Large Language Models Know and What People Think They Know
+
+
+
+
+                                                              Large language model (LLM)
+    Multiple choice question                                                                                                     Human confidence
+                                              Model confidence                         Model explanation                        What is the probability
+    Question: The significance of                                                                                               that the LLM answer is
+    Frere's discovery was that what he                                            The answer is [C] because Frere's             correct?
+    found was located:                        A      0.13
+    Choose from the following options:        B               0.40
+                                                                                  discovery of stone tools in the                                 95%
+                                                                                  Somme Valley of France was
+    A. beneath the remains of (...)                                               significant because it was in a
+    B. on the surface, above the (...)        C                   0.46
+                                                                                  region of Africa (...) possibility of
+    C. in a region of Africa where (...)      D     0.01                          human habitation in Africa much
+    D. on top of the ruins of (...)                                               earlier than previously thought.
+    Please answer this question.
+    Answer A, B, C, or D. The answer
+    is:
+
+
+
+
+                                                                Model                       Model explanation
+       Short answer question               Model                                                                                What is the probability
+                                           answer             confidence                   I am not entirely sure that the      that the LLM answer is
+                                                                                           answer is dove, as symbols of        correct?
+
+    Question: Which bird is the             Dove           TRUE      0.18
+                                                                                           happiness can vary across
+                                                                                           cultures. While doves are often
+                                                                                                                                                  75%
+    international symbol for happiness?                 FALSE                   0.82       associated with peace and love,
+                                                                                           which can contribute to feelings
+                                                                                           of happiness, there are other
+                                                                                           birds like robins or canaries that
+                                                                                           might also be seen as symbols
+                                                                                           of joy in different traditions. …
+
+
+
+
+                                           Question: Which bird is the
+                                           international symbol for happiness?
+                                           Proposed answer: Dove
+                                           Is the proposed answer:
+                                           A) True or B) False.
+                                           The answer is:
+
+
+
+
+Figure 1: Overview of the evaluation methodology for assessing the calibration gap between
+model confidence and human confidence in the model. The multiple choice questions (top),
+the approach works as follows: (1) prompt the LLM with a question to obtain the model’s
+internal confidence for each answer choice; (2) select the most likely answer and prompt the
+model a second time to generate an explanation for the given answer; (3) obtain the human
+confidence by showing users the question and the LLM’s explanation and asking users to
+indicate the probability that the model is correct. In this toy example the model confidence
+for the multiple choice question is 0.46 for answer C, whereas the human confidence is 0.95.
+For short-answer questions, the approach is similar except that internal model confidence
+is obtained by an additional step where the LLM is prompted to evaluate whether the
+previously provided answer to the question is true or false Kadavath et al. (2022). In the
+short-answer question example, the LLM model explanation was modified with uncertainty
+language to convey the low model confidence (0.18). For the two toy examples, the correct
+answers are “A” and “blue bird”.
+
+
+provided (see Figure 1). Participants are not provided any direct access to the LLM’s nu-
+merical model confidence, allowing us to make inferences about participants’ perceptions of
+the confidence of the LLM based on model explanations alone. In addition, for the multiple-
+choice questions part of the experiment only, with the assistance of the LLM, participants
+provided answers to the questions. Previous research has demonstrated that the MMLU
+multiple-choice questions are difficult for participants who lack domain expertise, resulting
+in near-chance accuracy Hendrycks et al. (2021). We anticipate that these questions will be
+difficult to answer without the assistance of the LLM because the majority of the partici-
+
+                                                                            4
+     What Large Language Models Know and What People Think They Know
+
+
+
+
+pants in our experiments lack domain expertise, and their perception of the explanation’s
+content will influence their evaluation more than their own knowledge.
+    We conducted two experiments each involving the three types of LLMs and two types of
+questions (see Table 1 for an overview). Experiment 1 assesses human perceptions of LLM
+accuracy using the LLM’s default explanations for either multiple-choice or short-answer
+questions. The results from this experiment allow us to address the first research question
+regarding the size of the calibration and discrimination gap between model and human
+confidence. Experiment 2 manipulates the prompts to produce three levels of uncertainty
+language (low, medium, and high confidence) and three levels of explanation length, re-
+sulting in nine different types of explanations presented to participants. The prompts are
+designed to include uncertainty language corresponding to model confidence at the start of
+the explanation. Table 6 illustrates explanations from a particular multiple-choice question
+used in the experiments (see Supplementary Table 2 for the full model explanations). The
+results from this experiment serve two purposes. First, we establish that human confidence
+varies with the uncertainty language and the length of the explanation. Next, we use the
+results from Experiment 2 to answer the second research question, which is to understand
+how the calibration and discrimination gap can be reduced by aligning the uncertainty lan-
+guage with model confidence—showing a low/medium/high confidence explanation when
+the model has low/medium/high confidence. The Supplementary Information (“Experiment
+3”) reports the results from an additional experiment with a different prompting approach
+that alters the default explanations from Experiment 1. We use the two metrics to assess
+the relationship between human and model confidence and model accuracy. See Section 2.4
+Metrics for details.
+
+2.1 Question data sets
+
+MMLU dataset for multiple choice questions. The MMLU dataset is a compre-
+hensive multitask dataset that contains multiple-choice questions from various knowledge
+domains, such as STEM, humanities, social sciences, and more Hendrycks et al. (2021).
+In total, there are 14042 test set questions from 57 categories curated by undergraduate
+and graduate students from freely available online resources such as the GRE and USMLE.
+These questions range in difficulty from high-school to the professional level. The MMLU
+dataset is widely employed to measure a text model’s multitask accuracy, as it challenges
+models on their real-world text understanding beyond mere linguistic comprehension, thus
+making it a robust benchmark for model evaluation Hendrycks et al. (2021); Hoffmann
+et al. (2022); Rae et al. (2021). For this research, we sampled a subset of 350 questions
+from a range of model confidence levels in 10 select categories from the full dataset to
+comprehensively evaluate people’s assessment of LLM model confidence.
+
+Trivia QA dataset for short answer questions. Trivia QA is a data set of trivia
+questions that can be answered in short answers Joshi et al. (2017). Similar to methodol-
+ogy by Farquhar et al. (2024), contextual information was excluded to make the question
+answering more challenging for LLMs and more suitable for our behavioral experiments.
+For this research, we assessed model confidence for 5000 questions from the original 650K
+dataset before selecting a final sample of 336 questions from a range of model confidence
+
+                                             5
+     What Large Language Models Know and What People Think They Know
+
+
+
+
+levels. The final set of questions was categorized into 7 different topics (culture & society,
+entertainment, geography, history, politics, science & technology and sports).
+
+2.2 Assessing model confidence and creating question subsets
+Several approaches have been developed to elicit confidence in LLMs and to assess the
+degree to which the elicited confidence scores are calibrated (see Geng et al. (2023) for
+an overview). In this research, we use an approach commonly used to access internal
+model information based on token likelihoods, allowing for direct computation of relative
+probabilities of different possible answers in multiple-choice questions Jiang et al. (2021);
+Kadavath et al. (2022); Xiao et al. (2022); Hendrycks et al. (2021); Achiam et al. (2023). In
+addition, the token-likelihood approach can be extended to short-answer questions such that
+the token-likelihood reflects the model confidence that the LLM answer is correct Kadavath
+et al. (2022).
+    Methods that do not require access to internal model representations have used prompt-
+ing strategies designed to elicit verbal expressions of uncertainty Xiong et al. (2024); Zhou
+et al. (2023). Confidence is expressed in natural language as numeric strings (e.g., “80%”)
+Lin et al. (2022); Xiong et al. (2024) or more qualitative expressions of confidence (e.g., “I
+am not confident the answer is X”). Prompts can be designed to emphasize step-by-step
+reasoning about the correctness of individual steps and clarify the space of possible answers
+lead to better calibration than simple prompts that simply ask for a confidence rating Xiong
+et al. (2024). For short-form question answering, prompting strategies can lead to calibrated
+confidence levels Tian et al. (2023). However, prompting approaches have been found to be
+less accurate compared to methods that read out model confidence Xiong et al. (2024).
+
+Multiple choice questions. For the multiple choice questions, we followed the pro-
+cedures based on reading out the internal token likelihoods as described in the GPT-4
+Technical Report Achiam et al. (2023). We used a zero-shot prompting approach, in which
+the model was only prompted with the target question and its associated answer options
+(Extended Data Figure 1). We first assessed the LLM model confidence of GPT-3.5 and
+PaLM2 language models to 14042 MMLU multiple-choice questions. This allowed us to
+then select questions with (somewhat) evenly distributed confidence levels. We read out
+the log-probabilities for the top 5 tokens completed by the model using the APIs for the
+GPT3.5 (gpt-3.5-turbo-instruct) and the PaLM2 (text-bison@002) models. The tem-
+perature parameter was set to 0. The answer was considered complete if the tokens included
+the single letters A, B, C, and D. The log scores were then converted and normalized to
+probabilities across the four answer options (so that the sum of the scores equaled one).
+In this research, internal uncertainties, referred to in this paper as “model confidence”,
+were represented by these probabilities in all experiments, a common technique in calibra-
+tion assessment with LLMs Jiang et al. (2021); Kadavath et al. (2022); Xiao et al. (2022);
+Hendrycks et al. (2021); Achiam et al. (2023).
+    Based on the model confidence levels of each LLM for all MMLU questions, we created
+a subset separately for each LLM. In total, 35 questions were sampled for each of 10 topics,
+for a total of 350 questions. For each topic, the 35 questions were sampled to approximately
+create a uniform distribution over model confidence using the confidence bins: 0.2-0.4, 0.4-
+0.6, 0.6-0.8, and 0.8-1.0. However, due to the small number of questions that lead to model
+
+                                              6
+     What Large Language Models Know and What People Think They Know
+
+
+
+
+confidence in the lowest confidence bin, fewer questions were sampled for the 0.2-0.4 confi-
+dence range. Supplementary Figure 1 shows the distribution over model confidence levels
+for the entire MMLU dataset as well as the question subset sampled for our study. Model
+accuracy across the 350 questions is 55% and 50% for GPT-3.5 and PaLM2, respectively.
+
+Short-answer questions. For the short-answer questions, we used a procedure based
+on the “pTrue” method Kadavath et al. (2022) to assess internal model confidence. All
+experiments with short-answer questions were performed with the API for the GPT-4o
+model (gpt-4o-mini) with the temperature parameter set to 0.7 (similar to Kadavath
+et al. (2022) and Farquhar et al. (2024)). The model was first prompted to generate the
+answer to each of the 5000 trivia questions in the sample. To ensure that the model response
+was restricted to short answers, we used a 10-shot prompting approach where the prompt
+contained the target question preceded by a random sample of 10 trivia question with the
+reference answers. Median answer length was 2 words.
+    To assess model confidence for short-answer questions, as shown in Figure 1 (bottom
+panel), we prompted the model with the question, the proposed answer, and asked it to
+determine whether the proposed answer is true or false (see Extended Data Figure 1 for
+an example of the exact prompt). The log scores for the true and false answer options
+were then converted and normalized to probabilities across the two answer options. Model
+confidence in our experiments corresponds to the probability for the true answer option.
+    For the behavioral experiments, we created a subset of 336 questions to ensure a uni-
+form distribution across four confidence bins: 0-0.25, 0.25-0.50, 0.50-0.75, and 0.75-1.0.
+Supplementary Figures 1 and 2 show the distribution of model confidence levels for the
+5000 sample and the 336 subset used in our behavioral experiments. Model accuracy across
+the 336 questions is 63%.
+    We used both automatic and human scoring methods to assess model accuracy. For the
+5000 question sample, we prompted an LLM (GPT-4o) to determine whether the reference
+answer from the Trivia QA had the same meaning as the LLM answer within the context of
+the question. For the 336 question sample, we additionally applied human scoring. For 97%
+of questions, automatic and human scoring agreed. Model accuracy for the 336 question
+subset was based on human evaluation.
+
+2.3 Behavioral Experiments
+This section describes the methodology we used for our behavioral experiments. Exper-
+iment 1 presented default explanations from LLMs to participants, whereas Experiment
+2 presented explanations that were altered by different types of uncertainty language and
+overall length (see Table 1 for an overview of all experiments). Within each experiment,
+across different groups of participants, we varied the type of question as well as the type
+of LLM. Experiments 1a and 2a used explanations from GPT-3.5 for the MMLU multiple
+questions. Experiments 1b and 2b used explanations from PaLM2 for the MMLU multiple
+questions. Finally, Experiments 1c and 2c used explanations from GPT-4o for the Trivia
+QA short-answer questions. The Supplementary Information (“Experiment 3”) describes
+the results from an additional Experiment 3, which was conducted to verify that our results
+generalize to different ways to vary the type of uncertainty language in the explanations.
+
+                                             7
+      What Large Language Models Know and What People Think They Know
+
+
+
+
+                            Table 1: Overview of experiments.
+
+ Experiment    Question Type      LLM         Explanation Type         Number of Participants
+ 1a            Multiple Choice    GPT-3.5     Default explanations     41
+ 1b            Multiple Choice    PaLM2       Default explanations     39
+ 1c            Short Answer       GPT-4o      Default explanations     42
+ 2a            Multiple Choice    GPT-3.5     Modified explanations    60
+ 2b            Multiple Choice    PaLM2       Modified explanations    60
+ 2c            Short Answer       GPT-4o      Modified explanations    59
+
+
+2.3.1 Participants
+A total of 301 participants completed the study across Experiments 1 and 2 (Table 1 shows
+the breakdown by experiment). Participants were native English speakers residing in the
+United States, recruited through Prolific (www.prolific.com). Demographic data was ob-
+tained for 284 participants. There were 146 female and 138 Male participants. The median
+age was 34 (age range from 18 to 79). The University of California, Irvine Institutional
+Review Board (IRB) approved the experimental protocol. Participants who completed
+Experiments 1a, 1b, 2a, or 2b were paid $8 USD for their participation. Participants in
+Experiments 1c and 2c required less time to complete the study and were paid $5. The
+payments across experiments corresponded to a rate of approximately $12/hr. Prior to
+the experiment, participants were given detailed instructions outlining the experimental
+procedure as well as how to understand and interact with the user interface. Participants
+were asked to sign an integrity pledge after reading all of the instructions, stating that
+they would complete the experiment to the best of their abilities. After submitting their
+integrity pledge, participants were granted access to the experiment.
+
+2.3.2 Experimental Procedure
+Across all experiments, participants were randomly assigned 40 questions (from the pool
+of 350 multiple-choice questions or the pool of 336 short-answer questions). The questions
+were sampled to balance across model confidence bins ensuring that all participants were
+exposed to questions at all levels of difficulty.
+    Furthermore, in Experiments 2a, 2b, and 2c, we balanced the types of explanation styles
+across questions so that each question was presented approximately the same number of
+times with each style. It should be noted that for each subject, each question was presented
+only once, and each question received only one explanation style. The counterbalancing,
+on the other hand, ensured that the same question had (roughly) an equal number of
+observations for each explanation style (across participants).
+    For the multiple choice questions, the participant’s task was divided into two phases for
+each question (Extended Data Figure 2). In the first stage, participants had to provide a
+probability estimate that the LLM’s answer was correct. In the second phase, participants
+had to answer the question with the assistance of the LLM. Participants were instructed
+to use their own knowledge as well as the LLM’s response when making their own answer
+
+                                             8
+      What Large Language Models Know and What People Think They Know
+
+
+
+
+selection for this phase. For the short-answer questions, participants only had to provide a
+probability estimate that the LLM’s answer was correct. They were instructed not to look
+up the answer. For the short-answer questions, the question answering phase was omitted
+to avoid participants from looking up the answers.
+    At the end of the experiments, we administered a brief survey in which participants
+self-assessed their knowledge of topics associated with the multiple choice and short answer
+questions. Participants were asked to estimate the expected accuracy for each topic if they
+were presented with questions similar to those they encountered during the experiment.
+
+2.3.3 Creating explanation styles with varying degrees of uncertainty
+This section describes how we constructed prompts to elicit explanations with varying levels
+of uncertainty language in the experiments. Table 6 contains examples of explanations from
+the two experiments and styles. For additional details on the exact prompts used, see PT
+3.
+Table 2: Example explanations for the answer by GPT-3.5 to a multiple-choice question
+used in Experiments 1a and 2a. The particular question is: A moving 1.5 kg cart collides
+with and sticks to a 0.5 kg cart which was initially at rest. Immediately after the collision,
+the carts each have the same              as each other. Choose from the following options:
+A) Velocity B) Kinetic energy C) Mass D) Linear momentum. The correct answer is A.
+
+ Prompt Style                         Explanation
+
+ Experiment 1a
+ Baseline                             The answer is [A] Velocity. This is because in an inelastic collision, the two objects involved
+                                      will stick together and move with a common velocity after the collision. [. . .] In this case, the
+                                      initial momentum of the 1.5-kg cart is transferred to the combined mass of the two carts after
+                                      the collision, resulting in the same velocity for both carts. Therefore, the correct answer is [A]
+                                      Velocity.
+
+ Experiment 2a
+ Low Confidence & Long                I am not completely sure that the answer is [A] because velocity is a vector quantity that includes
+                                      both magnitude and direction. In this scenario, the carts may have the same magnitude of velocity,
+                                      but they may not necessarily have the same direction. Therefore, I am not completely convinced
+                                      that the answer is [A]. [. . .] In this case, the carts would indeed have the same velocity as each
+                                      other.
+
+ Medium Confidence & Long             I am somewhat sure that the answer is [A] because velocity is a vector quantity that takes into
+                                      account both the speed and direction of an object’s motion. In this scenario, the two carts
+                                      are colliding and sticking together, [. . .] Therefore, I am somewhat sure that the answer is [A]
+                                      because the velocity of the two carts will be the same after the collision due to the conservation
+                                      of momentum principle.
+
+ High Confidence & Long               I am sure that the answer is [A] because velocity is a vector quantity that describes the speed and
+                                      direction of an object’s motion. In this scenario, the two carts are colliding and sticking together,
+                                      meaning they will have the same final velocity after the collision. [. . .] This is also supported by
+                                      the fact that the carts have different masses, so their kinetic energies and linear momenta will not
+                                      be the same. Thus, the correct answer is [A] velocity.
+
+ Low Confidence & Short               I am not sure that the answer is [A] because the carts may have different velocities before and
+                                      after the collision due to the conservation of momentum.
+
+ Medium Confidence & Short            I am somewhat sure that the answer is [A] because velocity is a vector quantity that takes into
+                                      account both the speed and direction of an object’s motion. In this scenario, the carts will have
+                                      the same velocity after the collision because they are stuck together and moving in the same
+                                      direction.
+
+ High Confidence & Short              I am sure that the answer is [A] because velocity is a vector quantity that is conserved in collisions,
+                                      meaning that the final velocity of the two carts will be the same.
+
+ Low Confidence & Uncertainty Only    I am not sure that the answer is [A].
+
+ Medium Confidence & Uncertainty      I am somewhat sure that the answer is [A].
+ Only
+
+ High Confidence & Uncertainty Only   I am sure that the answer is [A].
+
+
+
+
+                                                              9
+     What Large Language Models Know and What People Think They Know
+
+
+
+
+Experiment 1: baseline explanations. To generate the baseline explanations for Ex-
+periment 1, we used a simple prompt that asked for an explanation, which would also repeat
+the answer.
+Experiment 2: modified explanations. In Experiment 2, explanations were manipu-
+lated in terms of the level of confidence expressed in the answer as well as the length of the
+answer. In total, the experiment included nine types of explanations (three levels of uncer-
+tainty x three levels of length). The three levels of confidence (low, medium, and high) were
+generated by prompts that instructed the LLM to “mention you are not sure/somewhat
+sure/sure” in the explanations respectively. The prompts elicited responses in which the
+beginning of each explanation indicated the level of uncertainty (e.g., “I am not sure the
+answer is [B] because” for the low confidence prompt). Note that expressions of uncertainty
+were not limited to the start of the explanation. Answers often contained additional ex-
+planations for why the LLM lacked confidence (e.g., “further research may be required to
+confirm this,” “it is not possible to definitively state that...”). Experiment 2 also varied
+the length of the explanation across three levels: long, short, and uncertainty only. The
+long explanations were generated by not including any instruction regarding the length of
+the answer. The short explanations were generated by adding an instruction to use as few
+words as possible in the explanation. The uncertainty only explanation were generated by
+removing the rationale for the answer and included only the expression of uncertainty and
+the answer (e.g., “I am not sure the answer is [B]”).
+    For Experiment 2, the median lengths of the long and short explanations were: 115
+and 34 words (GPT-3.5, Multiple Choice), 64 and 24 words (PaLM2, Multiple Choice) and
+95 and 24 words (GPT-4o, Short-Answer). In comparison, the uncertainty only responses
+contained a median of 9 words across all variants of Experiment.
+
+2.4 Metrics
+To investigate the relationship between the accuracy of answers to the multiple-choice and
+short-answer questions and the confidence (either human confidence or model confidence)
+associated with them, we utilize a range of metrics to evaluate this association. The primary
+focus is on understanding how well confidence levels correlate with the correctness of an-
+swers. To achieve this, we use both Expected Calibration Error (ECE) and the Area under
+the Curve (AUC) metric. These metrics assess the extent of overconfidence in predictions
+as well as the diagnostic effectiveness of confidence scores in distinguishing between correct
+and incorrect answers Xiong et al. (2024); Tian et al. (2023); Jiang et al. (2021); Kadavath
+et al. (2022); Xiao et al. (2022). The use of AUC in this context parallels various metrics in
+psychology for metacognitive discrimination or sensitivity, which similarly aim to evaluate
+the effectiveness of confidence scores in distinguishing between correct and incorrect answers
+Fleming and Lau (2014). In addition, in the Supplementary Information (“Overconfidence
+Error”), we also show results for the additional metric of Overconfidence Error (OE).
+
+2.4.1 Expected Calibration Error (ECE)
+We evaluate miscalibration using the Expected Calibration Error (ECE), as detailed in Guo
+et al. (2017); Naeini et al. (2015). ECE is calculated by averaging the absolute differences
+between accuracy and confidence across M equal-width probability bins:
+
+                                             10
+     What Large Language Models Know and What People Think They Know
+
+
+
+
+                                   M
+                                   X |Bm |
+                          ECE =              |conf (Bm ) − acc(Bm )|                       (1)
+                                        N
+                                  m=1
+
+    where N represents the total sample count, Bm the mth confidence bin, and acc(Bm )
+and conf (Bm ) denote the accuracy and average confidence for samples in the mth bin.
+ECE does not account for the direction of deviations between accuracy and confidence per
+bin respectively, so a nonzero ECE can indicate a mix of over- and underconfidence While
+recent work Kumar et al. (2019); Gruber and Buettner (2022) has shown that ECE can
+under-estimate the true calibration error, the potential for under-estimation should not be
+a significant issue given that we are interested in analyzing differences in ECE rather than
+unbiased estimates of the error itself.
+
+2.4.2 Area under the Curve (AUC)
+The AUC metric is employed to assess the diagnostic ability of confidence scores in distin-
+guishing between correct and incorrect answers. Utilizing the Mann-Whitney U statistic
+approach, the AUC represents the probability that a randomly chosen correct answer has
+a higher confidence score compared to a randomly chosen incorrect answer:
+                                                Npos Nneg
+                                     1      X X
+                          AUC =                 I(Ci > Cj )                                (2)
+                                Npos × Nneg
+                                                   i=1 j=1
+
+    In this equation, Npos and Nneg denote the counts of correct (positive) and incorrect
+(negative) answers, respectively. Ci and Cj represent the confidence scores of the ith and
+jth correct and incorrect answers, respectively. I is an indicator function, which equals
+1 if Ci > Cj and 0 otherwise. This method evaluates each pair of correct and incorrect
+answers to determine if the confidence score for the correct answer surpasses that of the
+incorrect one. The AUC is then the fraction of these pairs satisfying this criterion, measuring
+the capability of confidence scores to differentiate between correct and incorrect responses,
+with AUC values ranging from 0.5 (indicating no better than chance discrimination) to 1
+(signifying perfect discrimination).
+
+2.5 Statistical Analysis
+To assess statistical significance, we utilize Bayes factors (BF s) to determine the extent to
+which the observed data adjust our belief in the alternative and null hypotheses. Values of 3
+< BF < 10 and BF > 10 indicate moderate and strong evidence against the null hypothesis,
+respectively. Similarly, values of 1/10 < BF < 1/3 and BF < 1/10 indicate moderate and
+strong evidence in favor of the null hypothesis, respectively. We report Bayes factors for
+Bayesian t-tests using the default priors as recommended by Rouder et al. (2012).
+
+3. Results
+We start by examining the results from Experiment 1 and compare human and model
+confidence in the case where LLMs generate default explanations for participants. We
+present the results for two different metrics: 1) Expected Calibration Error (ECE), which
+
+                                              11
+       What Large Language Models Know and What People Think They Know
+
+
+
+
+assesses the degree to which confidence scores from the model or the human reflect the true
+accuracy of the LLM, and 2) Area Under the Curve (AUC), which assesses the degree to
+which confidence scores discriminate between correct and incorrect responses (see Methods
+for details). The findings indicate that there is a significant gap, as measured by calibration
+and discrimination, between what LLMs know and what humans believe they know based
+on default explanations.
+
+                          Calibration Error
+
+
+
+          GPT-3.5
+            GPT-3.5                                               (n=41)
+   Multiple Choice
+                                                                  (n=60)        Model Confidence
+
+
+
+
+            PaLM2                                                              Human Confidence
+             PaLM2                                                (n=39)
+   Multiple Choice
+                                                                  (n=60)         Baseline Explanations
+
+                                                                                 Modified Explanations
+
+         GPT-4o
+           GPT-4o                                                 (n=42)
+    Short Answer
+                                                                  (n=59)
+
+
+                      0   0.1         0.2     0.3
+                                ECE
+
+
+
+Figure 2: Calibration error and discrimination for model confidence and human confidence
+across the behavioral experiments and LLMs. Calibration error is assessed by ECE (lower
+is better) while discrimination is assessed by AUC (higher is better). Vertical dashed lines
+represent the calibration and discrimination gap between model confidence and human con-
+fidence for unmodified explanations (Experiments 1a, 1b, and 1c). For human confidence,
+data points represent the AUC values computed separately for each participant (n shown
+in figure), and error bars represent the 95% confidence interval of the mean across partici-
+pants. Because of data sparsity, the ECE values were computed at the group level.
+
+
+3.0.1 Calibration gap
+Figure 2, left panel, shows the ECE for both model and human confidence. The results
+show a calibration gap; across the different types of LLMs and types of questions (multiple
+choice and short answer), the ECE metric is much lower for model confidence (in gray)
+than for human confidence with baseline explanations (in green). This gap demonstrates
+that standard explanations provided by the LLM do not enable participants to judge the
+likelihood of correctness of the LLM’s answers, leading to a misalignment between perceived
+accuracy and actual LLM accuracy.
+    Figure 3 expands on the calibration results in Figure 2 to show detailed calibration
+results for each LLM and each experimental condition. The diagrams show how well model
+confidence (left column) and human confidence (right two columns) are calibrated. The
+ideal calibration (i.e., ECE=0) would yield results along the diagonal. For multiple-choice
+questions, both LLMs have a tendency to be overconfident, resulting in calibration lines
+below the diagonal. For the short-answer questions, the LLM is somewhat underconfident.
+Comparing the LLM to the human calibration in Experiment 1 (middle column), the re-
+
+                                                    12
+     What Large Language Models Know and What People Think They Know
+
+
+
+
+sults show that for the multiple choice questions, human miscalibration is primarily due to
+overconfidence, indicating that people generally believe that LLMs are more accurate than
+they actually are. The histograms (inset panels) demonstrate that a significant portion of
+the calibration error is due to participants’ propensity to produce high confidence scores,
+even though the model accuracy for the associated questions is much lower than expected
+based on confidence.
+
+3.0.2 Discrimination gap
+
+Participants are not very good, relative to the LLM, at discriminating between which an-
+swers are likely correct or incorrect based on the default explanation. We assess discrimina-
+tion using the AUC metric applied to the human confidence ratings. Figure 2, right panel,
+shows the AUC for both model and human confidence. The results show a gap between
+how well model and human confidence discriminate between correct and incorrect answers.
+The LLM model confidence discriminates between correct and incorrect answers well above
+chance (GPT-3.5 AUC=.751, PaLM2 AUC=0.746 for the multiple choice questions and
+GPT-4o AUC=0.781 for the short-answer questions). In contrast, participants who view
+the default explanations in Experiment 1 were only slightly better than random guessing
+(AUC=0.589 and AUC=0.602 for the multiple choice explanations by GPT-3.5 and PaLM2
+respectively and AUC=0.592 for the short-answer explanations by GPT-4o). Therefore,
+default explanations lead to a discrimination gap as well.
+
+3.1 Explanation style and length affect human confidence
+
+Experiment 2 evaluates how human confidence is affected by the degree of uncertainty
+expressed in LLM explanations (across three levels of confidence) as well as the overall
+length of the LLM explanation (across three levels of length).
+    Figure 4 shows that the type of uncertainty language used in the explanations has a
+strong influence on human confidence regardless of the type of LLM that produced the
+explanation or the type of question. Low confidence explanations (“I am not sure”) pro-
+duced significantly lower human confidence than medium confidence explanations (“I am
+somewhat sure”); BF > 100 across Experiments 2a, 2b and 2c. Similarly, medium con-
+fidence explanations produced lower human confidence than high confidence explanations;
+BF > 100 across Experiments 2a, 2b, and 2c. The Supplementary Information (“Human
+Confidence Agreement”) shows an analysis of the reliability of the confidence ratings across
+participants.
+    In addition, the length of the explanations also affected the human confidence in the
+LLM answers. Long explanations led to significantly higher confidence than the short
+explanations (BF = 25 with data combined across Experiments 2a, 2b and 2c) and short
+explanations led to significantly higher confidence than the responses that only contained
+the uncertainty expression (BF > 100 with data combined across Experiments 2a, 2b, and
+2c). The additional information presented in longer explanations did not enable participants
+to better discriminate between likely correct and incorrect answers for longer explanations.
+Across Experiments 2a, 2b, and 2c, the mean participant AUC is 0.54 and 0.57 for long and
+uncertainty-only explanations, respectively (BF = .23). Therefore, the length of the answer
+
+                                             13
+                    What Large Language Models Know and What People Think They Know
+
+
+
+
+                                                                Human Calibration
+                           Model Calibration   Default Explanations       Modified Explanations
+                          Model Calibration
+                    1
+                         ECE=0.104
+                   0.8
+
+                   0.6                                                                              GPT-3.5
+
+                   0.4                                                                            Multiple Choice
+
+                   0.2
+                                                                                                    Questions
+
+                    0
+                                                           p                            p
+                    1
+                         ECE=0.154             ECE=0.291                    ECE=0.225
+                   0.8
+
+                   0.6                                                                                PaLM2
+
+                   0.4                                                                            Multiple Choice
+
+                   0.2                                                                              Questions
+
+                    0
+
+
+
+
+  Model Accuracy
+                                                                                                    GPT-4o
+
+                                                                                                  Short Answer
+
+                                                                                                   Questions
+
+
+
+
+Figure 3: Calibration diagrams for model confidence and human confidence across Experi-
+ments 1 and 2. The top and middle rows show results for multiple-choice questions with the
+GPT-3.5 and PaLM2 models, respectively. The bottom row shows results for short-answer
+questions with the GPT-4o model. The histograms at the bottom of each plot show the
+proportion of observations in each confidence bin (values are scaled by 30% for visual clar-
+ity). Shaded regions represent the 95% confidence interval of the mean computed across
+participants and questions.
+
+
+
+
+led to an increase in human confidence without any corresponding change in sensitivity to
+discriminating between correct and incorrect answers.
+
+                                                               14
+                           What Large Language Models Know and What People Think They Know
+
+
+
+
+                                       Experiment 2a                                   Experiment 2b                                      Experiment 2c
+                                 Multiple Choice Questions                        Multiple Choice Questions                           Short Answer Questions
+                                          GPT-3.5                                           PaLM2                                             GPT-4o
+
+
+                      1                                               1                                               1
+
+                     0.9                                             0.9                                             0.9
+
+                     0.8                                             0.8                                             0.8
+
+                     0.7                                             0.7                                             0.7
+
+
+
+
+  Human Confidence
+                     0.6                                             0.6                                             0.6
+                                                                                                                                                                      Explanation Length
+                     0.5                                             0.5                                             0.5                                                Long
+
+                     0.4                                             0.4                                             0.4                                                Short
+
+                     0.3                                             0.3                                             0.3                                                Uncertainty Only
+
+                     0.2                                             0.2                                             0.2
+
+                     0.1                                             0.1                                             0.1
+
+                      0                                               0                                               0
+                            not sure    somewhat sure        sure          not sure     somewhat sure         sure         not sure       somewhat sure        sure
+                                       Explanation Style                               Explanation Style                                 Explanation Style
+
+
+
+
+Figure 4: Mean human confidence across LLM explanation styles varying in uncertainty
+language and length. Data are presented as mean values of participant confidence in Ex-
+periments 2a (n=60), 2b (n=60), and 2c (n=59). For reference, dashed lines show the
+average human confidence for the baseline explanations in Experiment 1a, 1b, and 1c. Er-
+ror bars represent the 95% confidence interval of the mean across participants.
+
+
+    The results confirm that people can appropriately interpret verbal cues about uncer-
+tainty and that manipulating the length of the explanation can directly impact human
+confidence.
+
+3.2 Reducing the calibration and discrimination gap
+Having established in Experiment 2 that the uncertainty language in the LLM explana-
+tion can modify human confidence, we now evaluate whether linking the type of uncer-
+tainty language to the LLM model confidence (i.e., showing a low/medium/high confidence
+explanation when model confidence is low/medium/high) can reduce the calibration and
+discrimination gap.
+
+3.2.1 Selecting explanations based on model confidence
+We simulated the effect of aligning the explanation style to model confidence by a simple
+decision rule. With this rule, we select the type of explanation s ∈ {low confidence, medium
+confidence, high confidence} based on the LLM model confidence score p:
+                                                                   
+                                                                   low confidence
+                                                                                     if p ≤ θ1
+                                                                s = medium confidence if θ1 < p ≤ θ2                                                                                       (3)
+                                                                   
+                                                                    high confidence   if θ2 < p
+                                                                   
+
+The parameters θ1 and θ2 determine the ranges where low, medium, and high confidence
+explanations are chosen. The application of this rule to a given parameter setting leads to a
+participant’s estimates being filtered out if the explanation style used for a specific question
+does not match the selected style. This allowed us to simulate the effect of participants
+receiving different types of explanations based on model confidence (i.e., lower confidence
+
+                                                                                                     15
+     What Large Language Models Know and What People Think They Know
+
+
+
+
+explanations for low model confidence and high confidence explanations for high model
+confidence). The Supplementary Information (“Optimization Procedure”) provides details
+on the optimization procedure and also a demonstration that the results are not particularly
+sensitive to the parameter settings.
+
+3.2.2 Calibration and Discrimination Results
+
+Figure 2 shows the calibration and discrimination results when the selection rule is applied
+to the results from Experiment 2. The results in Figure 2 (left panel, red bars) show
+that the calibration gap has narrowed substantially. While there is still generally a higher
+calibration error for human confidence relative to model confidence, the calibration gap
+has decreased for all three LLMs relative to the baseline explanations in Experiment 1.
+Furthermore, Figure 2 (right panel) shows that the discrimination gap (as measured by
+AUC) has also been narrowed relative to the baseline explanations across LLMs and question
+types (BF > 100, BF = 6.48, and BF > 100 for Experiments 2a, 2b, and 2c, respectively).
+Therefore, the results show that selecting the type of explanation based on LLM model
+confidence improves both calibration and discrimination performance, as human confidence
+in the LLM becomes more closely aligned with the LLM’s actual accuracy.
+
+3.3 Accuracy
+
+3.3.1 Participants lack specialized knowledge
+
+For the experiments with multiple choice questions (1a, 1b, 2a, and 2b), participants pro-
+vided their own answer after seeing the answer from the LLM. This allowed us to analyze
+whether participants have any independent knowledge from the LLM that allowed them to
+improve on LLM accuracy. In experiments 1a and 2a with GPT-3.5, participants’ average
+answer accuracy was 51%, closely aligning with LLM’s 52% accuracy rate. Similarly, for
+the multiple choice experiments 1b and 2b with PaLM2, average participant accuracy was
+45%, similar to the 47% accuracy rate for the LLM. In the majority (82%) of responses
+across all multiple choice experiments, participants selected the response that agreed with
+the LLM’s explanation.
+    When participants chose to alter the answer, the average accuracy was 33% which is
+lower than the LLM’s accuracy of 39% for these particular questions. These findings suggest
+limited success in participants’ ability to accurately answer the questions independent of the
+LLM’s explanation. This is consistent with findings from Hendrycks et al. (2021), showing
+that Mechanical Turk workers without specialized knowledge (akin to our participant pool)
+scored 35% accuracy on similar questions.
+    When we applied the selection rule and the explanation type was aligned with model
+confidence, human decision accuracy in Experiments 2a and 2b did not improve for the
+selected questions (even though discrimination and calibration improved). This shows that
+accurate uncertainty communication by the LLM allowed participants to recognize when
+the LLM was providing a likely correct or incorrect answer, but the lack of accurate human
+knowledge independent from the LLM prevented participants from improving on the LLM
+answer.
+
+                                             16
+     What Large Language Models Know and What People Think They Know
+
+
+
+
+3.3.2 Self-assessed expertise does not affect performance
+At the end of the experiment, participants estimated the performance they would achieve on
+similar questions for each of the 10 topics in the sample of MMLU questions. The median of
+these self-assessed expertise estimates did not substantially vary between topics: from 30%
+(e.g., high school physics) to 45% (e.g., high school world history). Examining the impact of
+perceived expertise on accuracy estimation, we divided participants into two groups based
+on whether their self-rated expertise was above or below 50% separately for each of the 10
+topics. For the experiments with GPT-3.5, the higher expertise groups generally had better
+discrimination (AUC 0.600 vs. AUC 0.579), but there was no evidence that this difference
+was significant (BF < 1). In addition, the calibration error was comparable between the two
+groups (ECE =.289 vs. .292). Similarly, no effect of expertise was found for the experiments
+with PaLM2. Therefore, participants who considered themselves more knowledgeable about
+a topic were not more adept at estimating the LLM’s performance in that area.
+
+4. Discussion
+Our research focused on bridging the gap between what an LLM knows and what users
+perceive it knows. This gap is critical, especially as reliance on LLMs for decision-making
+across various domains is rapidly increasing.
+    Research on LLMs has begun to address these challenges, with a focus on improving
+uncertainty communication and the quality of explanations. Several studies have explored
+LLM confidence in answering multiple-choice questions, focusing on how well the models’
+self-reported confidence aligns with their actual accuracy Kadavath et al. (2022); Achiam
+et al. (2023); Hendrycks et al. (2021); Xiong et al. (2024) and whether users can accurately
+assess the reliability of the explanations provided Tanneru et al. (2024). The work by Zhou
+et al. (2024) investigates how users respond to verbal phrases of uncertainty in a simulated
+trivia task but does not employ actual LLM outputs. Overall, there has been little research
+examining user confidence in LLM output. Our work uses actual LLM outputs and its
+confidence in an attempt to quantify the calibration and discrimination gap. As a result,
+we directly address the issue of miscommunication of uncertainty from LLMs to humans.
+    Our results showed that users consistently overestimated how accurate LLM outputs
+were, especially when they relied on the models’ default explanations. This was true for
+three different LLMs and two different types of questions (multiple choice and short an-
+swer). This tendency toward overconfidence in LLM capabilities is a significant concern,
+particularly in scenarios where critical decisions rely on LLM-generated information. The
+inability of users to discern the reliability of LLM responses not only undermines the util-
+ity of these models but also poses risks in situations where user understanding of model
+accuracy is critical.
+    In addition, the results also showed a length bias where longer explanations led to higher
+human confidence levels even though they did not contain any additional information to help
+users to better discriminate between likely correct and incorrect answers. This suggests that
+users were processing the explanations at a shallow level, relying on simple textual cues such
+as overall length to predict LLM accuracy. This result is consistent with studies in social
+psychology and communication research which suggest that longer answers or explanations
+may be perceived as more persuasive or credible, even when they do not contain more
+
+                                             17
+     What Large Language Models Know and What People Think They Know
+
+
+
+
+meaningful information Petty and Cacioppo (1984); Oppenheimer (2006). This length bias
+has also been found in domains such as peer reviews, where longer reviews are perceived as
+more persuasive and informative even if the information content remains the same Goldberg
+et al. (2023).
+    Although default LLM explanations do not enable users to perceive what the models
+truly know, this research shows that a simple approach based on tailored explanations can
+bridge this perception gap. This was achieved by altering the prompts used to generate
+explanations based on model confidence, allowing for better control over how uncertainty
+was expressed in the responses. Specifically, we designed these prompts to induce varying
+degrees of certainty in the explanations, ranging from expressions of low confidence (e.g., ”I
+am not sure the answer is [B] because”) to high confidence (e.g., ”I am confident the answer
+is [B] because”). By modifying the language of the LLM’s responses to better reflect model
+confidence, users showed improved calibration in their assessment of the LLM’s reliability
+and were better able to discriminate between correct and incorrect answers. This improve-
+ment underscores the importance of transparent communication from LLMs, suggesting a
+need for researchers to investigate how model explanations affect user perception.
+    One limitation of the current study is the focus on a specific type of question involving
+a small number of response alternatives (multiple choice) and short-answers to open-ended
+questions. The extent to which these results apply to longer open-ended questions remains
+an open question. Further research could investigate the applicability of our findings across
+a broader range of scenarios. Another limitation of this study is that our approach to
+modifying the prompt based on internal uncertainty required the LLM to be prompted
+twice: once to read out the answer and model confidence, and again to produce an expla-
+nation modified by the model confidence. Future research could investigate how to produce
+confidence-modified explanations in a single step.
+    Another important area for future research is to understand the fundamental causes
+of the miscommunication of uncertainty. Why do LLMs generate calibrated model confi-
+dences while also producing explanations that are not consistent with those confidences?
+One hypothesis is that current LLMs are aligned to human preferences using reinforcement
+learning from human feedback (RLHF, Ouyang et al. (2022), which produces some built-in
+biases. In these RLHF procedures, various types of explanations are presented to human
+participants, who can then choose their preferred explanations. LLMs are then fine-tuned
+based on human preference data, making them more likely to produce explanations that
+people prefer. While RLHF encourages human-aligned output, it inevitably reproduces any
+human preference biases. For example, people prefer detailed and generally longer expla-
+nations Bower et al. (2024); Saito et al. (2023). As a result, LLMs trained on these human
+preferences may produce explanations that are overly convincing, potentially misleading
+users about the reliability of the information.
+    An alternative hypothesis to the production of overconfident explanations lies in the
+autoregressive nature of well-established LLMs. In particular, we conjecture that after
+committing to an answer (encoded as a sequence of tokens), the model will generate a
+sequence of tokens (explanation) that maximizes the likelihood of the previous answer, ef-
+fectively resulting in an assertive answer. A similar hypothesis was also presented in Azaria
+and Mitchell (2023). Interestingly, the possibility that the LLM’s choice of a particular an-
+swer inflates the rationale for that answer resembles the phenomenon of choice-supportive
+
+                                             18
+     What Large Language Models Know and What People Think They Know
+
+
+
+
+biases in psychology Mather et al. (2000). After making a decision, people tend to overesti-
+mate the desirability of the chosen option while underestimating the desirability of rejected
+alternatives. This can make them feel more confident in their decision than they were when
+they first made it.
+    Our work shares some parallels with prior studies on the human perception and evalu-
+ation of AI-generated explanations in the domain of machine learning classifiers (see Rong
+et al. (2023) for an overview). These studies frequently employ feature highlighting to ex-
+plain what areas of the image Smith-Renner et al. (2020) or what fragments of documents
+Feng and Boyd-Graber (2019) can support the suggested classification. Studies have found
+mixed evidence for the effectiveness of these types of AI explanations in human decision-
+making Steyvers and Kumar (2023); Bansal et al. (2021); Buçinca et al. (2021); Wang and
+Yin (2022). These results highlight the challenge of ensuring that AI-generated explana-
+tions align with human expectations and allow humans to distinguish between correct and
+incorrect answers.
+    In conclusion, our research highlights the critical role of clear and accurate commu-
+nication in the interaction between users and LLMs. Enhancing the alignment between
+model confidence and the user’s perception of model confidence can lead to more responsi-
+ble and trustworthy use of LLMs, particularly in areas where the accuracy of AI-generated
+information is critical.
+
+Data Availability
+All behavioral data as well as data produced by the Large Language Models used in this
+study are publicly available from the following OSF repository: https://osf.io/y7pr6/
+
+Code Availability
+The code used for data analysis and extracting LLM model confidence is available from the
+following OSF repository: https://osf.io/y7pr6/
+
+
+Acknowledgments
+
+This research was supported by NSF under award 1900644 (P.S., and M.S.)
+
+
+
+
+                                             19
+     What Large Language Models Know and What People Think They Know
+
+
+
+
+References
+Josh Achiam, Steven Adler, Sandhini Agarwal, Lama Ahmad, Ilge Akkaya, Florencia Leoni
+  Aleman, Diogo Almeida, Janko Altenschmidt, Sam Altman, Shyamal Anadkat, et al.
+  Gpt-4 technical report. arXiv preprint arXiv:2303.08774, 2023.
+
+Stephen R Ali, Thomas D Dobbs, Hayley A Hutchings, and Iain S Whitaker. Using chatgpt
+  to write patient clinic letters. The Lancet Digital Health, 5(4):e179–e181, 2023.
+
+Rohan Anil, Andrew M. Dai, Orhan Firat, Melvin Johnson, Dmitry Lepikhin, Alexan-
+  dre Passos, Siamak Shakeri, Emanuel Taropa, Paige Bailey, Zhifeng Chen, Eric Chu,
+  Jonathan H. Clark, Laurent El Shafey, Yanping Huang, Kathy Meier-Hellstern, Gaurav
+  Mishra, Erica Moreira, Mark Omernick, Kevin Robinson, et al. Palm 2 technical report,
+  2023.
+
+Amos Azaria and Tom Mitchell. The internal state of an LLM knows when it’s lying. In
+ Findings of the Association for Computational Linguistics: EMNLP 2023, pages 967–976,
+ 2023.
+
+Gagan Bansal, Tongshuang Wu, Joyce Zhou, Raymond Fok, Besmira Nushi, Ece Kamar,
+ Marco Tulio Ribeiro, and Daniel Weld. Does the whole exceed its parts? the effect of
+ ai explanations on complementary team performance. In Proceedings of the 2021 CHI
+ Conference on Human Factors in Computing Systems, pages 1–16, 2021.
+
+Alexander H Bower, Nicole Han, Ansh Soni, Miguel P Eckstein, and Mark Steyvers. How ex-
+  perts and novices judge other people’s knowledgeability from language use. Psychonomic
+  Bulletin & Review, pages 1–11, 2024.
+
+Zana Buçinca, Maja Barbara Malaya, and Krzysztof Z Gajos. To trust or to think: Cognitive
+  forcing functions can reduce overreliance on ai in ai-assisted decision-making. Proceedings
+  of the ACM on Human-Computer Interaction, 5(CSCW1):1–21, 2021.
+
+David V Budescu, Han-Hui Por, and Michael Broomell, Stephen B andSmithson. The in-
+  terpretation of IPCC probabilistic statements around the world. Nature Climate Change,
+  4(6):508–512, 2014.
+
+Sebastian Farquhar, Jannik Kossen, Lorenz Kuhn, and Yarin Gal. Detecting hallucinations
+  in large language models using semantic entropy. Nature, 630(8017):625–630, 2024.
+
+Shi Feng and Jordan Boyd-Graber. What can ai do for me? evaluating machine learning
+  interpretations in cooperative play. In Proceedings of the 24th International Conference
+  on Intelligent User Interfaces, pages 229–239, 2019.
+
+Stephen M Fleming and Hakwan C Lau. How to measure metacognition. Frontiers in
+  Human Neuroscience, 8:443, 2014.
+
+Jiahui Geng, Fengyu Cai, Yuxia Wang, Heinz Koeppl, Preslav Nakov, and Iryna Gurevych.
+  A survey of language model confidence estimation and calibration. arXiv preprint
+  arXiv:2311.08298, 2023.
+
+                                             20
+     What Large Language Models Know and What People Think They Know
+
+
+
+
+Alexander Goldberg, Ivan Stelmakh, Kyunghyun Cho, Alice Oh, Alekh Agarwal, Danielle
+  Belgrave, and Nihar B Shah. Peer reviews of peer reviews: A randomized controlled trial
+  and other experiments. arXiv preprint arXiv:2311.09497, 2023.
+
+Sebastian Gruber and Florian Buettner. Better uncertainty calibration via proper scores
+  for classification and beyond. Advances in Neural Information Processing Systems, 35:
+  8618–8632, 2022.
+
+Chuan Guo, Geoff Pleiss, Yu Sun, and Kilian Q. Weinberger. On calibration of modern
+  neural networks. In Doina Precup and Yee Whye Teh, editors, Proceedings of the 34th
+  International Conference on Machine Learning, volume 70 of Proceedings of Machine
+  Learning Research, pages 1321–1330. PMLR, 06–11 Aug 2017.
+
+Dan Hendrycks, Collin Burns, Steven Basart, Andy Zou, Mantas Mazeika, Dawn Song, and
+ Jacob Steinhardt. Measuring massive multitask language understanding. Proceedings of
+ the International Conference on Learning Representations (ICLR), 2021.
+
+Emily H Ho, David V Budescu, Mandeep K Dhami, and David R Mandel. Improving the
+ communication of uncertainty in climate science and intelligence analysis. Behavioral
+ Science Policy, 1(2):43–55, 2015.
+
+Jordan Hoffmann, Sebastian Borgeaud, Arthur Mensch, Elena Buchatskaya, Trevor Cai,
+  Eliza Rutherford, Diego de Las Casas, Lisa Anne Hendricks, Johannes Welbl, Aidan
+  Clark, et al. Training compute-optimal large language models. arXiv preprint
+  arXiv:2203.15556, 2022.
+
+Lei Huang, Weijiang Yu, Weitao Ma, Weihong Zhong, Zhangyin Feng, Haotian Wang, Qian-
+  glong Chen, Weihua Peng, Xiaocheng Feng, Bing Qin, et al. A survey on hallucination
+  in large language models: Principles, taxonomy, challenges, and open questions. arXiv
+  preprint arXiv:2311.05232, 2023.
+
+Zhengbao Jiang, Jun Araki, Haibo Ding, and Graham Neubig. How can we know when
+  language models know? on the calibration of language models for question answering.
+  Transactions of the Association for Computational Linguistics, 9:962–977, 2021.
+
+A Jo. The promise and peril of generative ai. Nature, 614(1):214–216, 2023.
+
+Mandar Joshi, Eunsol Choi, Daniel S Weld, and Luke Zettlemoyer. Triviaqa: A large scale
+ distantly supervised challenge dataset for reading comprehension. In Proceedings of the
+ 55th Annual Meeting of the Association for Computational Linguistics (Volume 1: Long
+ Papers), pages 1601–1611, 2017.
+
+Saurav Kadavath, Tom Conerly, Amanda Askell, Tom Henighan, Dawn Drain, Ethan Perez,
+  Nicholas Schiefer, Zac Hatfield-Dodds, Nova DasSarma, Eli Tran-Johnson, et al. Lan-
+  guage models (mostly) know what they know. arXiv preprint arXiv:2207.05221, 2022.
+
+Tzur M. Karelitz, Mandeep K. Dhami, David V. Budescu, and Thomas S. Wallsten. Toward
+  a universal translator of verbal probabilities. Proceedings of the Fifteenth International
+  Florida Artificial Intelligence Research Society Conference, pages 498–502, 2002.
+
+                                            21
+     What Large Language Models Know and What People Think They Know
+
+
+
+
+Ananya Kumar, Percy S Liang, and Tengyu Ma. Verified uncertainty calibration. Advances
+ in Neural Information Processing Systems, 32, 2019.
+
+Stephanie Lin, Jacob Hilton, and Owain Evans. Teaching models to express their uncer-
+  tainty in words. Transactions on Machine Learning Research, 2022. ISSN 2835-8856.
+  URL https://openreview.net/forum?id=8s8K2UZGTZ.
+
+Mara Mather, Eldar Shafir, and Marcia K Johnson. Misremembrance of options past:
+ Source monitoring and choice. Psychological Science, 11(2):132–138, 2000.
+
+Mahdi Pakdaman Naeini, Gregory Cooper, and Milos Hauskrecht. Obtaining well calibrated
+ probabilities using bayesian binning. In Proceedings of the AAAI Conference on Artificial
+ Intelligence, volume 29, 2015.
+
+Bernie J O’Brien. Words or numbers? the evaluation of probability expressions in general
+  practice. The Journal of the Royal College of General Practitioners, 39(320):98–100,
+  1989.
+
+OpenAI. Gpt-3.5, Nov 2022a. URL https://platform.openai.com/docs/models/
+ gpt-3-5. Accessed: [Nov 24, 2023].
+
+OpenAI. Introducing chatgpt, Nov 2022b. URL https://openai.com/blog/chatgpt. Ac-
+ cessed: [Nov 24, 2023].
+
+Daniel M Oppenheimer. Consequences of erudite vernacular utilized irrespective of ne-
+ cessity: Problems with using long words needlessly. Applied Cognitive Psychology: The
+ Official Journal of the Society for Applied Research in Memory and Cognition, 20(2):
+ 139–156, 2006.
+
+Long Ouyang, Jeffrey Wu, Xu Jiang, Diogo Almeida, Carroll Wainwright, Pamela Mishkin,
+  Chong Zhang, Sandhini Agarwal, Katarina Slama, Alex Ray, et al. Training language
+  models to follow instructions with human feedback. Advances in Neural Information
+  Processing Systems, 35:27730–27744, 2022.
+
+Richard E Petty and John T Cacioppo. The effects of involvement on responses to argument
+  quantity and quality: Central and peripheral routes to persuasion. Journal of personality
+  and social psychology, 46(1):69, 1984.
+
+Jack W Rae, Sebastian Borgeaud, Trevor Cai, Katie Millican, Jordan Hoffmann, Francis
+  Song, John Aslanides, Sarah Henderson, Roman Ring, Susannah Young, et al. Scaling
+  language models: Methods, analysis & insights from training gopher. arXiv preprint
+  arXiv:2112.11446, 2021.
+
+Yao Rong, Tobias Leemann, Thai-Trang Nguyen, Lisa Fiedler, Peizhu Qian, Vaibhav Un-
+  helkar, Tina Seidel, Gjergji Kasneci, and Enkelejda Kasneci. Towards human-centered
+  explainable ai: A survey of user studies for model explanations. IEEE Transactions on
+  Pattern Analysis and Machine Intelligence, pages 1–20, 2023. doi: 10.1109/TPAMI.2023.
+  3331846.
+
+                                            22
+     What Large Language Models Know and What People Think They Know
+
+
+
+
+Jeffrey N Rouder, Richard D Morey, Paul L Speckman, and Jordan M Province. Default
+  bayes factors for anova designs. Journal of Mathematical Psychology, 56(5):356–374, 2012.
+
+Keita Saito, Akifumi Wachi, Koki Wataoka, and Youhei Akimoto. Verbosity bias in prefer-
+ ence labeling by large language models. arXiv preprint arXiv:2310.10076, 2023.
+
+Alison Smith-Renner, Ron Fan, Melissa Birchfield, Tongshuang Wu, Jordan Boyd-Graber,
+  Daniel S. Weld, and Leah Findlater. No explainability without accountability: An em-
+  pirical study of explanations and feedback in interactive ml. In Proceedings of the 2020
+  CHI Conference on Human Factors in Computing Systems, CHI ’20, page 1–13, New
+  York, NY, USA, 2020. Association for Computing Machinery. ISBN 9781450367080. doi:
+  10.1145/3313831.3376624. URL https://doi.org/10.1145/3313831.3376624.
+
+Aarohi Srivastava, Abhinav Rastogi, Abhishek Rao, Abu Awal Md Shoeb, Abubakar Abid,
+ Adam Fisch, Adam R Brown, Adam Santoro, Aditya Gupta, Adrià Garriga-Alonso, et al.
+ Beyond the imitation game: Quantifying and extrapolating the capabilities of language
+ models. Transactions on Machine Learning Research, 2023. ISSN 2835-8856. URL
+ https://openreview.net/forum?id=uyTL5Bvosj.
+
+Mark Steyvers and Aakriti Kumar. Three challenges for ai-assisted decision-making.
+ Perspectives on Psychological Science, 2023. ISSN 1745-6924.      doi: 10.1177/
+ 17456916231181102.
+
+Sree Harsha Tanneru, Chirag Agarwal, and Himabindu Lakkaraju. Quantifying uncertainty
+  in natural language explanations of large language models. In International Conference
+  on Artificial Intelligence and Statistics, pages 1072–1080. PMLR, 2024.
+
+Sunil Thulasidasan, Gopinath Chennupati, Jeff A Bilmes, Tanmoy Bhattacharya, and Sarah
+  Michalak. On mixup training: Improved calibration and predictive uncertainty for deep
+  neural networks. Advances in Neural Information Processing Systems, 32, 2019.
+
+Katherine Tian, Eric Mitchell, Allan Zhou, Archit Sharma, Rafael Rafailov, Huaxiu Yao,
+ Chelsea Finn, and Christopher Manning. Just ask for calibration: Strategies for elic-
+ iting calibrated confidence scores from language models fine-tuned with human feed-
+ back. In Proceedings of the 2023 Conference on Empirical Methods in Natural Language
+ Processing, pages 5433–5442, Singapore, 2023. Association for Computational Linguis-
+ tics. doi: 10.18653/v1/2023.emnlp-main.330. URL https://aclanthology.org/2023.
+ emnlp-main.330.
+
+Thomas S. Wallsten, Yaron Shlomi, and Hisuchi Ting. Exploring intelligence analysts’
+ selection and interpretation of probability terms. Final Report for Research Contract
+ ‘Expressing Probability in Intelligence Analysis, 2008.
+
+Xinru Wang and Ming Yin. Effects of explanations in ai-assisted decision making: Principles
+  and comparisons. ACM Transactions on Interactive Intelligent Systems, 12(4):1–36, 2022.
+
+Jeromie Whalen, Chrystalla Mouza, et al. Chatgpt: Challenges, opportunities, and implica-
+  tions for teacher education. Contemporary Issues in Technology and Teacher Education,
+  23(1):1–23, 2023.
+
+                                            23
+     What Large Language Models Know and What People Think They Know
+
+
+
+
+Yuxin Xiao, Paul Pu Liang, Umang Bhatt, Willie Neiswanger, Ruslan Salakhutdinov, and
+  Louis-Philippe Morency. Uncertainty quantification with pre-trained language models: A
+  large-scale empirical analysis. In Findings of the Association for Computational Linguis-
+  tics: EMNLP 2022, pages 7273–7284, 2022.
+
+Miao Xiong, Zhiyuan Hu, Xinyang Lu, YIFEI LI, Jie Fu, Junxian He, and Bryan Hooi.
+ Can LLMs express their uncertainty? an empirical evaluation of confidence elicitation
+ in LLMs. In The Twelfth International Conference on Learning Representations, 2024.
+ URL https://openreview.net/forum?id=gjeQKFxFpZ.
+
+Zhangyue Yin, Qiushi Sun, Qipeng Guo, Jiawen Wu, Xipeng Qiu, and Xuanjing Huang. Do
+  large language models know what they don’t know? In Findings of the Association for
+  Computational Linguistics: ACL 2023, pages 8653–8665. Association for Computational
+  Linguistics, 2023.
+
+Andres Felipe Zambrano, Xiner Liu, Amanda Barany, Ryan S Baker, Juhan Kim, and Nidhi
+ Nasiar. From ncoder to chatgpt: From automated coding to refining human coding. In
+ International Conference on Quantitative Ethnography, pages 470–485. Springer, 2023.
+
+Kaitlyn Zhou, Dan Jurafsky, and Tatsunori Hashimoto. Navigating the grey area: How
+ expressions of uncertainty and overconfidence affect language models. In Proceedings of
+ the 2023 Conference on Empirical Methods in Natural Language Processing, pages 5506–
+ 5524, Singapore, 2023. Association for Computational Linguistics. doi: 10.18653/v1/
+ 2023.emnlp-main.335. URL https://aclanthology.org/2023.emnlp-main.335.
+
+Kaitlyn Zhou, Jena Hwang, Xiang Ren, and Maarten Sap. Relying on the unreliable:
+ The impact of language models’ reluctance to express uncertainty. pages 3623–3643.
+ Association for Computational Linguistics, 2024. doi: 10.18653/v1/2024.acl-long.198.
+ URL https://aclanthology.org/2024.acl-long.198.
+
+
+
+
+                                            24
+      What Large Language Models Know and What People Think They Know
+
+
+
+
+Appendix A. Additional Experiment Results
+A.1 Demographic Information by Experiment
+
+Table 3: Breakdown of demographic information by experiment. Note that Sex was not
+reported by all participants.
+
+ Experiment     #Participants      #Male    #Female     Median Age     Min Age    Max Age
+ 1a             41                 18       20          35             21         71
+ 1b             39                 21       18          36             21         69
+ 1c             42                 18       19          32             18         69
+ 2a             60                 31       28          35             18         79
+ 2b             60                 28       32          36             19         62
+ 2c             59                 22       29          33             18         74
+
+
+
+A.2 Experiment 3
+We conducted an additional experiment that used a different prompting method to modify
+the uncertainty language expressed in explanations for multiple choice questions. In this
+approach, we gave the LLM the baseline explanation from Experiments 1a and 1b in the
+prompt and instructed the LLM to “rewrite the explanation as if you are not sure/somewhat
+sure/sure” for each of the three confidence levels. In contrast to the prompts for Experiments
+2, this prompt leads to less stereotyped expressions of uncertainty within each response.
+This experiment allowed us to investigate whether the results generalize across different
+approaches to express uncertainty in the explanations.
+    In Experiment 3a and 3b, we used GPT-3.5 and PaLM2 respectively to generate the
+explanations mirroring the experiments 2a and 2b. The methodology was the same as
+in Experiment 2a and 2b except that we did not include a length manipulation. The
+experiment was conducted with 81 participants (40 in Experiment 3a, 41 in Experiment
+3b).
+    The results of Experiment 3 are shown in Supplementary Table 4 along with the results
+from Experiment 1 and 2. The pattern of results is the same as in Experiments 2a and
+2b. Human confidence exhibited smaller calibration error (ECE) and larger discrimination
+(AUC) relative to the baseline results in Experiments 1a and 1b. These results show that
+the experimental results from 2a and 2b generalize to different prompts to elicit uncertainty.
+
+A.3 Overconfidence Error
+Supplementary Table 4 also includes results for an additional performance metric, the Over-
+confidence Error (OE). The metric is an adaptation of the ECE formula, specifically focusing
+on cases of overconfidence Thulasidasan et al. (2019):
+
+                       M
+                       X     |Bm |
+                OE =               [conf (Bm ) × max(0, conf (Bm ) − acc(Bm ))]           (4)
+                              N
+                       m=1
+
+
+                                                 25
+                     What Large Language Models Know and What People Think They Know
+
+
+
+
+Table 4: Expected Calibration error (ECE), Overconfidence Error (OE), and Area under
+the Curve (AUC) of model and human confidence across experiments.
+
+ LLM                             Confidence Score                                                                                                    ECE            OE        AUC
+ GPT-3.5
+                                 model confidence                                                                                                    .104           .064      .751
+                                 human confidence: experiment 1a, default explanations                                                               .264           .220      .589
+                                 human confidence: experiment 2a, modified explanations                                                              .150           .107      .694
+                                 human confidence: experiment 3a, modified explanations                                                              .158           .127      .678
+ PaLM2
+                                 model confidence                                                                                                    .154           .098      .746
+                                 human confidence: experiment 1b, default explanations                                                               .291           .229      .602
+                                 human confidence: experiment 2b, modified explanations                                                              .225           .168      .652
+                                 human confidence: experiment 3b, modified explanations                                                              .195           .155      .689
+ GPT-4o
+                                 model confidence                                                                                                    .141           .008      .781
+                                 human confidence: experiment 1c, default explanations                                                               .165           .084      .593
+                                 human confidence: experiment 2c, modified explanations                                                              .111           .008      .689
+
+
+
+    This penalizes predictions by the weight of the confidence but only when confidence
+exceeds accuracy. The results show that human confidence for default explanations leads to
+the largest overconfidence error and that the model confidence modified explanations lowers
+the overconfidence error.
+
+                                       GPT-3.5                                                    PaLM2                                              GPT-4o Trivia QA
+
+                1    ECE=0.115                                             1    ECE=0.193                                           1    ECE=0.096
+               0.9                                                        0.9                                                      0.9
+
+               0.8                                                        0.8                                                      0.8
+
+               0.7                                                        0.7                                                      0.7
+
+
+
+    Accuracy                                                   Accuracy                                                 Accuracy
+               0.6                                                        0.6                                                      0.6
+
+               0.5                                                        0.5                                                      0.5
+
+               0.4                                                        0.4                                                      0.4
+
+               0.3                                                        0.3                                                      0.3
+
+               0.2                                                        0.2                                                      0.2
+
+               0.1                                                        0.1                                                      0.1
+
+                0                                                          0                                                        0
+                 0        0.2    0.4        0.6   0.8   1                   0        0.2    0.4      0.6   0.8   1                   0        0.2    0.4      0.6       0.8    1
+         4000                                                       2000
+                                                                                                                             4000
+
+         3000                                                       1500                                                     3000
+
+ Count   2000                                               Count   1000                                             Count   2000
+
+         1000                                                         500                                                    1000
+
+                0                                                          0                                                        0
+                 0        0.2    0.4        0.6   0.8   1                   0        0.2    0.4      0.6   0.8   1                   0        0.2    0.4      0.6       0.8    1
+                                   Confidence                                                 Confidence                                                Confidence
+
+
+Figure 5: Calibration diagrams for the full set of MMLU questions for GPT-3.5 and PaLM2
+(left and middle panel) and the 5000 question sample of the Trivia QA data set using the
+GPT-4o model (right panel).
+
+
+
+                                                                                              26
+               What Large Language Models Know and What People Think They Know
+
+
+
+
+A.4 Human Confidence Agreement
+For Experiment 2, we analyzed the degree to which there is agreement in the confidence
+ratings across participants. We assessed agreement with the mean correlation between any
+pair of participants. Because there were few cases where any pair of participants were
+rating the LLM response for the same question at the same level of uncertainty language
+at the same level of length, we conducted the analysis at the level of the experimental
+manipulations. With this approach, each participant was characterized with 9 confidence
+ratings corresponding to the mean rating for each of 3 uncertainty levels x 3 length levels.
+At this aggregate level, mean participant-to-participant correlation was 0.550, 0.547, and
+0.336 for Experiments 2a, 2b, and 2c respectively. This shows that there was moderate
+agreement in human confidence about the differences in levels of uncertainty and length.
+                         GPT-3.5 (MMLU)                                   PaLM2 (MMLU)                                GPT-4o (Trivia QA)
+              1 ECE=0.104                                      1 ECE=0.154                                     1 ECE=0.141
+
+
+             0.8                                              0.8                                             0.8
+
+
+
+  Accuracy                                         Accuracy                                        Accuracy
+             0.6                                              0.6                                             0.6
+
+
+             0.4                                              0.4                                             0.4
+
+
+             0.2                                              0.2                                             0.2
+
+
+              0                                                0                                               0
+               0   0.2     0.4   0.6    0.8   1                 0   0.2    0.4   0.6    0.8   1                 0   0.2   0.4   0.6    0.8   1
+         100                                              100                                             100
+
+
+ Count       50                                   Count       50                                  Count       50
+
+
+              0                                                0                                               0
+               0   0.2     0.4   0.6    0.8   1                 0   0.2    0.4   0.6    0.8   1                 0   0.2   0.4   0.6    0.8   1
+                           Confidence                                      Confidence                                     Confidence
+
+Figure 6: Calibration diagrams for the subsets of questions used for the behavioral exper-
+iments. Left and middle panels show the calibration for the GPT-3.5 and PaLM2 models
+for the MMLU multiple choice questions. The right panel shows the calibration for the
+GPT-4o model for the Trivia QA questions. Note that the lower count of multiple choice
+questions in the lowest confidence bin is due to the sparsity of questions in that confidence
+bin.
+
+
+
+
+                                                                            27
+     What Large Language Models Know and What People Think They Know
+
+
+
+
+Appendix B. Additional Model Confidence Results
+Supplementary Figure 5 shows the calibration diagrams for the full set of 14,042 test ques-
+tions from the MMLU dataset and the 5000 questions from the Trivia QA dataset. For
+comparison, Supplementary Figure 6 shows the calibration diagrams for the subset of 350
+multiple choice and 336 short-answer questions used for the behavioral experiments.
+MMLU multiple choice questions. For GPT-3.5, the accuracy across all 14,042 ques-
+tions is 63% with an AUC of 0.78. When computing model confidence, 8.7% of the answers
+were incomplete and were removed from consideration. For PaLM2, the accuracy is 51%
+with an AUC of 0.73. Furthermore, we confirmed that we could replicate the GPT-4 Tech-
+nical Report’s Achiam et al. (2023) five-shot results. Five-shot prompting with GPT-3.5
+(detailed in Appendix 8 of the report) resulted in 71% accuracy (compared to 70% reported
+in Supplementary Table 2 of the report). The zero-shot approach is the focus of this paper.
+The zero-shot approach simplifies the construction of explanations, and our goal is not to
+maximize language model accuracy.
+Trivia QA short answer questions. For GPT-4o, the accuracy across the 5000 question
+sample is 85% with an AUC of 0.85. For the 336 question subset used for the behavioral
+experiments, accuracy is 63% with an AUC of 0.78. The lower accuracy is caused by the
+uniform sampling across confidence bins that results in an over-representation of questions
+with lower confidence for which the model is also less accurate.
+
+
+
+
+                                            28
+                 What Large Language Models Know and What People Think They Know
+
+
+
+
+Appendix C. Optimization Procedure
+As discussed in the main text, we applied a selection rule to link the level of confidence,
+s ∈ {low confidence, medium confidence, high confidence}, in the explanation to model
+confidence p:              
+                           low confidence
+                                                 if p ≤ θ1
+                      s = medium confidence if θ1 < p ≤ θ2                              (5)
+                           
+                            high confidence       if θ2 < p
+                           
+
+The parameters θ1 and θ2 determine the ranges where low, medium, and high confidence
+explanations are chosen. The application of this rule to a given parameter setting leads
+to any participant estimates being filtered out if the explanation style used for a specific
+question does not match the selected style. To apply the selection rule, we ignored the
+variations in length in Experiment 2. Therefore, for both Experiment 2 and 3, the selection
+rule considered a choice of one of three explanation styles for each question (i.e., low,
+medium, and high confidence explanations).
+                                    Experiment 2a                                                                             Experiment 2b                                                                                         Experiment 2c
+                                          AUC                                                                                       AUC                                                                                                   AUC
+                                                                                                                                                                                        0.05 0.64 0.64 0.65 0.65 0.66 0.66 0.66 0.65 0.66 0.66 0.65 0.65 0.65 0.66 0.66 0.66 0.66 0.66
+    0.25   0.57 0.58 0.63 0.63 0.63 0.64 0.65 0.64 0.65 0.64 0.63 0.63 0.62 0.60              0.25   0.54 0.54 0.58 0.58 0.58 0.59 0.60 0.60 0.60 0.59 0.59 0.59 0.57 0.54
+                                                                                                                                                                                                                                                                                             0.685
+                                                                                                                                                                                         0.1        0.66 0.66 0.66 0.67 0.67 0.66 0.66 0.66 0.66 0.66 0.66 0.66 0.67 0.67 0.67 0.66 0.67
+     0.3        0.58 0.63 0.63 0.64 0.64 0.65 0.65 0.65 0.65 0.64 0.63 0.62 0.60   0.68        0.3        0.54 0.58 0.59 0.58 0.59 0.60 0.60 0.61 0.60 0.59 0.59 0.57 0.54   0.64       0.15             0.66 0.66 0.66 0.66 0.66 0.65 0.66 0.67 0.67 0.66 0.67 0.67 0.67 0.67 0.67 0.67
+                                                                                                                                                                                                                                                                                             0.68
+    0.35             0.62 0.62 0.62 0.63 0.64 0.63 0.63 0.63 0.62 0.61 0.61 0.59              0.35             0.59 0.60 0.59 0.60 0.61 0.62 0.62 0.61 0.61 0.60 0.59 0.56               0.2                   0.66 0.67 0.66 0.66 0.66 0.66 0.66 0.67 0.66 0.67 0.67 0.67 0.67 0.67 0.68
+
+
+     0.4                  0.64 0.65 0.65 0.66 0.64 0.65 0.65 0.65 0.65 0.65 0.63               0.4                  0.61 0.62 0.62 0.63 0.64 0.65 0.64 0.64 0.64 0.63 0.60              0.25                         0.67 0.67 0.67 0.66 0.66 0.67 0.67 0.67 0.67 0.68 0.68 0.68 0.68 0.68   0.675
+                                                                                   0.66                                                                                      0.62
+                                                                                                                                                                                         0.3                              0.66 0.66 0.65 0.66 0.66 0.67 0.66 0.67 0.68 0.68 0.68 0.67 0.68
+    0.45                       0.65 0.65 0.66 0.65 0.67 0.67 0.67 0.66 0.66 0.65              0.45                       0.62 0.63 0.63 0.65 0.65 0.64 0.64 0.64 0.62 0.60
+                                                                                                                                                                                        0.35                                   0.66 0.64 0.66 0.66 0.66 0.65 0.66 0.67 0.67 0.67 0.67 0.67   0.67
+     0.5                            0.66 0.68 0.67 0.68 0.68 0.68 0.68 0.67 0.66               0.5                            0.62 0.63 0.64 0.65 0.64 0.64 0.64 0.63 0.61
+                                                                                                                                                                                         0.4                                        0.65 0.66 0.67 0.67 0.66 0.67 0.68 0.68 0.68 0.67 0.68
+                                                                                   0.64                                                                                      0.6                                                                                                             0.665
+1
+    0.55                                 0.68 0.67 0.69 0.69 0.69 0.68 0.68 0.67
+                                                                                          1
+                                                                                              0.55                                 0.62 0.64 0.65 0.63 0.64 0.64 0.62 0.60          1   0.45                                             0.67 0.68 0.69 0.68 0.68 0.68 0.68 0.68 0.68 0.69
+
+
+     0.6                                      0.66 0.68 0.69 0.69 0.68 0.68 0.67               0.6                                      0.62 0.63 0.62 0.62 0.62 0.61 0.60               0.5                                                  0.68 0.69 0.68 0.68 0.69 0.69 0.69 0.68 0.69
+                                                                                                                                                                                                                                                                                             0.66
+                                                                                   0.62                                                                                      0.58       0.55                                                       0.68 0.68 0.68 0.68 0.68 0.68 0.68 0.69
+    0.65                                           0.69 0.69 0.69 0.69 0.68 0.68              0.65                                           0.62 0.60 0.61 0.61 0.60 0.59
+                                                                                                                                                                                         0.6                                                            0.67 0.67 0.67 0.67 0.67 0.67 0.67   0.655
+     0.7                                                0.67 0.67 0.67 0.66 0.66               0.7                                                0.59 0.60 0.60 0.59 0.58              0.65                                                                 0.68 0.68 0.68 0.68 0.67 0.68
+                                                                                   0.6                                                                                                                                                                                                       0.65
+    0.75                                                     0.64 0.65 0.64 0.64              0.75                                                     0.61 0.61 0.59 0.58   0.56        0.7                                                                      0.66 0.66 0.66 0.66 0.67
+
+                                                                                                                                                                                        0.75                                                                           0.66 0.66 0.66 0.67
+                                                                                                                                                                                                                                                                                             0.645
+     0.8                                                          0.64 0.63 0.63               0.8                                                          0.60 0.58 0.57
+                                                                                   0.58                                                                                                  0.8                                                                                0.66 0.66 0.67
+    0.85                                                               0.64 0.63              0.85                                                               0.58 0.57   0.54
+                                                                                                                                                                                        0.85                                                                                     0.66 0.67   0.64
+     0.9                                                                    0.62               0.9                                                                    0.58               0.9                                                                                          0.67
+
+
+           3
+           0.   35    4
+                     0.   45    5
+                               0.   55    6
+                                         0.   65    7
+                                                   0.   75    8
+                                                             0.   85    9
+                                                                       0.   95                       3
+                                                                                                     0.   35    4
+                                                                                                               0.   45    5
+                                                                                                                         0.   55    6
+                                                                                                                                   0.   65    7
+                                                                                                                                             0.   75    8
+                                                                                                                                                       0.   85    9
+                                                                                                                                                                 0.   95                       1
+                                                                                                                                                                                               0.   15   2
+                                                                                                                                                                                                         0.    25    3
+                                                                                                                                                                                                                     0.   35   4
+                                                                                                                                                                                                                               0.   45   5
+                                                                                                                                                                                                                                         0.   55    6
+                                                                                                                                                                                                                                                   0.   65    7
+                                                                                                                                                                                                                                                             0.   75    8
+                                                                                                                                                                                                                                                                       0.   85    9
+                                                                                                                                                                                                                                                                                 0.   95
+                0.        0.        0.        0.        0.        0.        0.                            0.        0.        0.        0.        0.        0.        0.                            0.        0.          0.        0.        0.        0.        0.        0.        0.
+
+                                              2                                                                                         2                                                                                                     2
+
+
+
+
+                                          ECE                                                                                       ECE                                                                                                   ECE
+    0.25 0.32 0.31 0.28 0.27 0.26 0.27 0.27 0.26 0.25 0.24 0.24 0.23 0.23 0.22                0.25 0.34 0.34 0.32 0.32 0.31 0.30 0.29 0.28 0.28 0.28 0.27 0.27 0.26 0.25     0.34       0.05 0.14 0.14 0.14 0.14 0.13 0.13 0.12 0.12 0.11 0.11 0.11 0.12 0.12 0.12 0.12 0.12 0.12 0.12
+                                                                                   0.3                                                                                                   0.1        0.14 0.14 0.14 0.13 0.12 0.12 0.12 0.11 0.11 0.11 0.11 0.12 0.11 0.11 0.11 0.11 0.11
+     0.3        0.30 0.28 0.27 0.26 0.27 0.26 0.26 0.25 0.24 0.23 0.23 0.22 0.22               0.3        0.34 0.32 0.32 0.31 0.30 0.29 0.28 0.28 0.28 0.27 0.27 0.26 0.25   0.32       0.15             0.14 0.14 0.13 0.13 0.13 0.12 0.12 0.11 0.11 0.11 0.12 0.11 0.11 0.11 0.12 0.11     0.135
+    0.35             0.27 0.26 0.25 0.26 0.25 0.25 0.24 0.23 0.23 0.22 0.22 0.21   0.28       0.35             0.31 0.30 0.29 0.29 0.28 0.27 0.27 0.27 0.26 0.25 0.25 0.24               0.2                   0.14 0.13 0.13 0.12 0.12 0.12 0.11 0.11 0.11 0.12 0.11 0.11 0.11 0.11 0.11
+                                                                                                                                                                             0.3
+     0.4                  0.23 0.22 0.23 0.22 0.22 0.21 0.20 0.19 0.19 0.18 0.18               0.4                  0.27 0.26 0.25 0.24 0.24 0.24 0.24 0.23 0.22 0.22 0.20              0.25                         0.13 0.13 0.12 0.12 0.12 0.11 0.11 0.11 0.12 0.11 0.11 0.11 0.11 0.11
+                                                                                   0.26                                                                                                                                                                                                      0.13
+                                                                                                                                                                             0.28        0.3                              0.13 0.12 0.12 0.12 0.11 0.11 0.11 0.12 0.11 0.11 0.11 0.11 0.11
+    0.45                       0.21 0.21 0.21 0.21 0.19 0.18 0.18 0.17 0.17 0.16              0.45                       0.26 0.26 0.25 0.24 0.24 0.24 0.23 0.22 0.22 0.21
+                                                                                                                                                                                        0.35                                   0.13 0.12 0.12 0.11 0.12 0.12 0.12 0.12 0.12 0.12 0.12 0.12
+                                                                                   0.24
+     0.5                            0.21 0.21 0.21 0.19 0.18 0.18 0.17 0.17 0.16               0.5                            0.24 0.23 0.23 0.22 0.23 0.22 0.21 0.21 0.19
+                                                                                                                                                                             0.26        0.4                                        0.12 0.12 0.11 0.11 0.12 0.12 0.12 0.12 0.12 0.12 0.12   0.125
+
+1
+    0.55                                 0.20 0.20 0.18 0.17 0.17 0.16 0.16 0.15   0.22   1
+                                                                                              0.55                                 0.22 0.22 0.22 0.22 0.21 0.20 0.20 0.19
+                                                                                                                                                                                    1   0.45                                             0.12 0.11 0.11 0.12 0.12 0.12 0.12 0.12 0.12 0.12
+                                                                                                                                                                             0.24
+     0.6                                      0.19 0.17 0.16 0.16 0.15 0.15 0.14               0.6                                      0.22 0.22 0.22 0.21 0.21 0.20 0.19               0.5                                                  0.11 0.11 0.12 0.12 0.12 0.12 0.12 0.12 0.12
+
+                                                                                   0.2                                                                                                                                                                                                       0.12
+                                                                                                                                                                                        0.55                                                       0.12 0.12 0.13 0.12 0.12 0.12 0.12 0.12
+    0.65                                           0.16 0.15 0.15 0.14 0.14 0.13              0.65                                           0.21 0.21 0.20 0.20 0.19 0.18   0.22
+                                                                                                                                                                                         0.6                                                            0.12 0.13 0.13 0.13 0.13 0.13 0.12
+     0.7                                                0.16 0.15 0.15 0.14 0.14   0.18        0.7                                                0.20 0.19 0.19 0.18 0.17
+                                                                                                                                                                             0.2        0.65                                                                 0.13 0.12 0.12 0.12 0.12 0.12
+                                                                                                                                                                                                                                                                                             0.115
+    0.75                                                     0.16 0.15 0.15 0.14              0.75                                                     0.18 0.18 0.18 0.16               0.7                                                                      0.12 0.12 0.12 0.13 0.12
+                                                                                   0.16
+                                                                                                                                                                             0.18       0.75                                                                           0.13 0.13 0.14 0.13
+     0.8                                                          0.15 0.15 0.15               0.8                                                          0.19 0.18 0.17
+                                                                                                                                                                                                                                                                                             0.11
+                                                                                   0.14                                                                                                  0.8                                                                                0.13 0.14 0.13
+    0.85                                                               0.15 0.15              0.85                                                               0.17 0.16   0.16
+                                                                                                                                                                                        0.85                                                                                     0.14 0.13
+
+     0.9                                                                    0.15               0.9                                                                    0.15               0.9                                                                                          0.13
+
+           3
+           0.   35    4
+                     0.   45    5
+                               0.   55    6
+                                         0.   65    7
+                                                   0.   75    8
+                                                             0.   85    9
+                                                                       0.   95                       3
+                                                                                                     0.   35    4
+                                                                                                               0.   45    5
+                                                                                                                         0.   55    6
+                                                                                                                                   0.   65    7
+                                                                                                                                             0.   75    8
+                                                                                                                                                       0.   85    9
+                                                                                                                                                                 0.   95                       1
+                                                                                                                                                                                               0.   15   2
+                                                                                                                                                                                                         0.   0.      0.
+                                                                                                                                                                                                                     0.
+                                                                                                                                                                                                                      0.
+                                                                                                                                                                                                                     0.35
+                                                                                                                                                                                                                      0. 3
+                                                                                                                                                                                                                         4
+                                                                                                                                                                                                                        45
+                0.        0.        0.        0.        0.        0.        0.                            0.        0.        0.        0.        0.        0.        0.                            0.          25   0.
+                                                                                                                                                                                                                      0.
+                                                                                                                                                                                                                     0.
+                                                                                                                                                                                                                      0.
+                                                                                                                                                                                                                     0.
+                                                                                                                                                                                                                      0.
+                                                                                                                                                                                                                     0.
+                                                                                                                                                                                                                      0.
+                                                                                                                                                                                                                     0.
+                                                                                                                                                                                                                         5
+                                                                                                                                                                                                                        55
+                                                                                                                                                                                                                         6
+                                                                                                                                                                                                                        65
+                                                                                                                                                                                                                         7
+                                                                                                                                                                                                                        75
+                                                                                                                                                                                                                         8
+                                                                                                                                                                                                                        85
+                                                                                                                                                                                                                         9
+                                                                                                                                                                                                                        95
+
+                                              2                                                                                         2                                                                                                     2
+
+
+
+
+Figure 7: Sensitivity analysis for Experiments 2a, 2b and 2c. Results show the effect of
+different thresholds (θ1 , θ2 ) to select explanation styles. Top and bottom panels show the
+resulting AUC and ECE that relate the human confidence to the actual accuracy of the
+LLM.
+
+   The parameters θ1 and θ2 were chosen to optimize a combination of the ECE and
+AUC score (weighting the ECE by 33% relative to AUC). The optimization was performed
+separately for each experiment and LLM. For the multiple choice experiments 2a and 2b,
+the parameters were optimized using a basic grid search with values ranging from 0.25 to
+
+                                                                                                                                        29
+     What Large Language Models Know and What People Think They Know
+
+
+
+
+1, with the constraint that θ1 < θ2 . For the short-answer experiment 2c, the parameters
+ranged from 0 to 1, with the constraint that θ1 < θ2 . For Experiment 2a (GPT-3.5),
+the optimized parameters were θ1 = 0.65 and θ2 = 0.75, while Experiment 2b’s (PaLM2)
+optimized parameters were θ1 = 0.50 and θ2 = 0.70. For Experiment 2c (GPT-4o), the
+optimized parameters were θ1 = 0.50 and θ2 = 0.60.
+
+C.1 Sensitivity Analysis
+The calibration and discrimination results are not overly sensitive to parameter changes.
+The resulting AUC and ECE outcomes for each parameter setting are shown in Supplemen-
+tary Figures 7 and 8. For example, for GPT-3.5, Experiment 2a yields mean AUC and ECE
+values of 0.649 and 0.203 across all parameter settings, which are higher than the results
+of Experiment 1. Furthermore, there is moderate evidence (BF>3) for an improved AUC
+across 52% of parameter combinations.
+                                                Experiment 3: GPT                                                                         Experiment 3: PALM
+                                                          AUC                                                                                       AUC
+                    0.25 0.55 0.56 0.57 0.58 0.60 0.61 0.63 0.60 0.61 0.60 0.59 0.59 0.59 0.59                0.25 0.55 0.58 0.67 0.67 0.66 0.66 0.67 0.66 0.63 0.62 0.63 0.61 0.60 0.59
+                                                                                                                                                                                             0.68
+                                                                                                   0.66
+                     0.3        0.56 0.57 0.59 0.61 0.61 0.63 0.60 0.61 0.60 0.59 0.59 0.59 0.59               0.3        0.58 0.67 0.67 0.67 0.67 0.67 0.66 0.64 0.63 0.63 0.62 0.61 0.59
+
+                    0.35             0.56 0.58 0.60 0.61 0.62 0.60 0.60 0.60 0.58 0.59 0.58 0.59              0.35             0.66 0.66 0.65 0.65 0.66 0.65 0.62 0.62 0.63 0.61 0.60 0.58   0.66
+                                                                                                   0.64
+                     0.4                  0.61 0.62 0.63 0.64 0.61 0.62 0.62 0.61 0.62 0.61 0.62               0.4                  0.67 0.65 0.64 0.66 0.65 0.63 0.63 0.64 0.63 0.62 0.61
+
+                    0.45                       0.62 0.63 0.64 0.61 0.63 0.62 0.61 0.62 0.62 0.62              0.45                       0.65 0.64 0.65 0.65 0.63 0.63 0.64 0.63 0.62 0.61   0.64
+
+                     0.5                            0.63 0.65 0.62 0.64 0.63 0.62 0.63 0.63 0.63   0.62        0.5                            0.66 0.67 0.67 0.65 0.65 0.66 0.65 0.64 0.62
+
+                    0.55                                 0.64 0.62 0.63 0.63 0.62 0.62 0.62 0.63              0.55                                 0.67 0.67 0.65 0.65 0.65 0.63 0.62 0.61   0.62
+                1                                                                                         1
+                     0.6                                      0.61 0.63 0.63 0.61 0.62 0.62 0.63   0.6         0.6                                      0.67 0.66 0.66 0.65 0.64 0.62 0.62
+                                                                                                                                                                                             0.6
+                    0.65                                           0.67 0.66 0.65 0.66 0.66 0.67              0.65                                           0.68 0.69 0.68 0.66 0.65 0.65
+
+                     0.7                                                0.64 0.63 0.65 0.65 0.65   0.58        0.7                                                0.69 0.68 0.67 0.66 0.66
+                                                                                                                                                                                             0.58
+                    0.75                                                     0.65 0.66 0.66 0.67              0.75                                                     0.66 0.65 0.64 0.63
+
+                     0.8                                                          0.65 0.66 0.66   0.56        0.8                                                          0.65 0.63 0.63
+                                                                                                                                                                                             0.56
+                    0.85                                                               0.65 0.65              0.85                                                               0.62 0.61
+
+                     0.9                                                                    0.64               0.9                                                                    0.63
+
+                           3
+                           0.   35    4
+                                     0.   45    5
+                                               0.   55    6
+                                                         0.   65    7
+                                                                   0.   75    8
+                                                                             0.   85    9
+                                                                                       0.   95                       3
+                                                                                                                     0.   35    4
+                                                                                                                               0.   45    5
+                                                                                                                                         0.   55    6
+                                                                                                                                                   0.   65    7
+                                                                                                                                                             0.   75    8
+                                                                                                                                                                       0.   85    9
+                                                                                                                                                                                 0.   95
+                                0.        0.        0.        0.        0.        0.        0.                            0.        0.        0.        0.        0.        0.        0.
+
+                                                              2                                                                                         2
+
+
+
+
+                                                          ECE                                                                                       ECE
+                                                                                                                                                                                             0.38
+                    0.25 0.33 0.32 0.29 0.29 0.27 0.27 0.27 0.27 0.27 0.27 0.27 0.26 0.25 0.24     0.32       0.25 0.38 0.37 0.34 0.33 0.31 0.30 0.29 0.28 0.27 0.27 0.26 0.24 0.24 0.23
+
+                     0.3        0.31 0.29 0.29 0.27 0.27 0.26 0.27 0.27 0.27 0.26 0.26 0.25 0.24               0.3        0.37 0.34 0.33 0.31 0.30 0.29 0.28 0.27 0.27 0.26 0.24 0.24 0.23   0.36
+                                                                                                   0.3
+                    0.35             0.29 0.28 0.26 0.26 0.25 0.26 0.26 0.26 0.26 0.25 0.24 0.23              0.35             0.33 0.32 0.31 0.30 0.29 0.28 0.27 0.26 0.25 0.24 0.23 0.22   0.34
+
+                     0.4                  0.27 0.25 0.25 0.24 0.25 0.24 0.24 0.24 0.23 0.22 0.22   0.28        0.4                  0.29 0.28 0.27 0.26 0.25 0.24 0.23 0.22 0.21 0.20 0.19   0.32
+                    0.45                       0.25 0.24 0.24 0.24 0.24 0.24 0.23 0.23 0.22 0.21              0.45                       0.28 0.27 0.26 0.25 0.24 0.23 0.22 0.21 0.20 0.19
+                                                                                                   0.26                                                                                      0.3
+                     0.5                            0.24 0.23 0.24 0.24 0.23 0.23 0.22 0.21 0.20               0.5                            0.27 0.26 0.25 0.25 0.24 0.23 0.21 0.21 0.20
+                                                                                                                                                                                             0.28
+                    0.55                                 0.23 0.23 0.23 0.22 0.22 0.21 0.20 0.20   0.24       0.55                                 0.25 0.25 0.24 0.23 0.22 0.21 0.20 0.19
+                1                                                                                         1
+                                                                                                                                                                                             0.26
+                     0.6                                      0.23 0.23 0.22 0.22 0.21 0.20 0.20               0.6                                      0.24 0.23 0.22 0.21 0.20 0.19 0.18
+                                                                                                   0.22
+                    0.65                                           0.20 0.19 0.19 0.18 0.17 0.17              0.65                                           0.22 0.21 0.20 0.19 0.18 0.17   0.24
+
+                     0.7                                                0.19 0.19 0.18 0.17 0.16   0.2         0.7                                                0.21 0.20 0.18 0.18 0.17   0.22
+
+                    0.75                                                     0.19 0.18 0.17 0.16              0.75                                                     0.20 0.18 0.18 0.17
+                                                                                                                                                                                             0.2
+                                                                                                   0.18
+                     0.8                                                          0.18 0.16 0.16               0.8                                                          0.18 0.17 0.17
+                                                                                                                                                                                             0.18
+                    0.85                                                               0.17 0.16   0.16       0.85                                                               0.18 0.18
+
+                     0.9                                                                    0.16               0.9                                                                    0.17
+
+                           3
+                           0.   35    4
+                                     0.   45    5
+                                               0.   55    6
+                                                         0.   65    7
+                                                                   0.   75    8
+                                                                             0.   85    9
+                                                                                       0.   95                       3
+                                                                                                                     0.   35    4
+                                                                                                                               0.   45    5
+                                                                                                                                         0.   55    6
+                                                                                                                                                   0.   65    7
+                                                                                                                                                             0.   75    8
+                                                                                                                                                                       0.   85    9
+                                                                                                                                                                                 0.   95
+                                0.        0.        0.        0.        0.        0.        0.                            0.        0.        0.        0.        0.        0.        0.
+
+                                                              2                                                                                         2
+
+
+
+
+Figure 8: Sensitivity analysis for Experiment 3. Results show the effect of different thresh-
+olds (θ1 , θ2 ) to select explanation styles. Top and bottom panels show the resulting AUC
+and ECE that relate the human confidence to the actual accuracy of the LLM.
+
+
+
+
+                                                                                                    30
+      What Large Language Models Know and What People Think They Know
+
+
+
+
+Appendix D. Additional Information about Prompts and Explanations
+Supplementary Table 5 shows examples of the prompt styles used for Experiments 2 and 3.
+Supplementary Table 6 shows examples of all explanations for a particular multiple choice
+question used in Experiment 2a.
+
+                          Table 5: Prompt styles across Experiments 1, 2, and 3
+
+ Prompt Style                  Prompt
+
+ Experiment 1
+ Baseline                      Problem: [question] Choose from the following options: [A] Option A [B] Option B [C] Option C [D]
+                               Option D. The answer you give is: [answer]. Provide an explanation for the answer you gave. In your
+                               explanation, you must include the answer.
+
+ Experiment 2
+ Low Confidence & Long         Problem: [question] Choose from the following options: [A] Option A [B] Option B [C] Option C [D]
+                               Option D. The answer you give is [answer]. Write an explanation why you are not sure that the answer is
+                               [answer]. In your explanation, mention that you are not sure and include the answer. Start with ’I am’:”
+ Medium Confidence & Long      Problem: [question] Choose from the following options: [A] Option A [B] Option B [C] Option C [D]
+                               Option D. The answer you give is [answer]. Write an explanation why you somewhat sure that the answer
+                               is [answer]. In your explanation, mention that you are somewhat sure and include the answer. Start with
+                               ’I am’:
+ High Confidence & Long        Problem: [question] Choose from the following options: [A] Option A [B] Option B [C] Option C [D]
+                               Option D. The answer you give is [answer]. Write an explanation why you are sure that the answer is
+                               [answer]. In your explanation, mention that you are sure and include the answer. Start with ’I am’:
+ Low Confidence & Short        Problem: [question] Choose from the following options: [A] Option A [B] Option B [C] Option C [D]
+                               Option D. The answer you give is [answer]. Write a very short explanation why you are not sure that the
+                               answer is [answer]. In your explanation, mention that you are not sure and include the answer. Use as
+                               few words as possible. Start with ’I am’:
+ Medium Confidence & Short     Problem: [question] Choose from the following options: [A] Option A [B] Option B [C] Option C [D]
+                               Option D. The answer you give is [answer]. Write a very short explanation why you somewhat sure that
+                               the answer is [answer]. In your explanation, mention that you are somewhat sure and include the answer.
+                               Use as few words as possible. Start with ’I am’:
+ High Confidence & Short       Problem: [question] Choose from the following options: [A] Option A [B] Option B [C] Option C [D]
+                               Option D. The answer you give is [answer]. Write a very short explanation why you are sure that the
+                               answer is [answer]. In your explanation, mention that you are sure and include the answer. Use as few
+                               words as possible. Start with ’I am’:
+
+ Experiment 3
+ Low Confidence                Problem: [question] Choose from the following options: [A] Option A [B] Option B [C] Option C [D]
+                               Option D. The answer you give is: [answer]. The explanation you give is: [baseline explanation]. Rewrite
+                               the explanation as if you are not sure and ensure that you include language or phrases that conveys your
+                               complete lack of confidence. In your explanation, you must include the answer:
+ Medium Confidence             Problem: [question] Choose from the following options: [A] Option A [B] Option B [C] Option C [D]
+                               Option D. The answer you give is: [answer]. The explanation you give is: [baseline explanation]. Rewrite
+                               the explanation as if you are somewhat sure and ensure that you include language or phrases that conveys
+                               your lack of confidence. In your explanation, you must include the answer
+ High Confidence               Problem: [question] Choose from the following options: [A] Option A [B] Option B [C] Option C [D]
+                               Option D. The answer you give is: [answer]. The explanation you give is: [baseline explanation]. Rewrite
+                               the explanation as if you are very sure and ensure that you include language or phrases that conveys your
+                               confidence. In your explanation, you must include the answer:
+
+
+
+
+                                                             31
+      What Large Language Models Know and What People Think They Know
+
+
+
+
+Table 6: Example explanations given by GPT-3.5 for a multiple choice question in Exper-
+iments 1a and 2a. The particular question (correct answer is A) is: A moving 1.5 kg cart
+collides with and sticks to a 0.5 kg cart which was initially at rest. Immediately after the
+collision, the carts each have the same            as each other. Choose from the following
+options: A) Velocity B) Kinetic energy C) Mass D) Linear momentum.
+
+ Prompt Style                         Explanation
+
+ Experiment 1
+ Baseline                             The answer is [A] Velocity. This is because in an inelastic collision, the two objects involved will stick
+                                      together and move with a common velocity after the collision. This means that the velocity of the two
+                                      carts after the collision will be the same, as they are now moving together as one combined object. This
+                                      is in accordance with the law of conservation of momentum, which states that the total momentum of
+                                      a system remains constant in the absence of external forces. In this case, the initial momentum of the
+                                      1.5-kg cart is transferred to the combined mass of the two carts after the collision, resulting in the same
+                                      velocity for both carts. Therefore, the correct answer is [A] Velocity.
+
+ Experiment 2
+ Low Confidence & Long                I am not completely sure that the answer is [A] because velocity is a vector quantity that includes both
+                                      magnitude and direction. In this scenario, the carts may have the same magnitude of velocity, but they
+                                      may not necessarily have the same direction. Therefore, I am not completely convinced that the answer is
+                                      [A]. However, based on the information given, it is most likely that the answer is [A] because the problem
+                                      states that the carts ”collide and stick” which implies that they move together in the same direction after
+                                      the collision. In this case, the carts would indeed have the same velocity as each other.
+ Medium Confidence & Long             I am somewhat sure that the answer is [A] because velocity is a vector quantity that takes into account
+                                      both the speed and direction of an object’s motion. In this scenario, the two carts are colliding and
+                                      sticking together, so they will have the same velocity after the collision. This is because the two carts will
+                                      move together in the same direction and at the same speed. Additionally, the conservation of momentum
+                                      principle states that the total momentum of a system remains constant unless acted upon by an external
+                                      force. In this case, the two carts are the only objects involved in the collision, so their total momentum
+                                      before and after the collision must be the same. This means that the velocity of the two carts after the
+                                      collision must be the same in order to maintain the same total momentum. Therefore, I am somewhat
+                                      sure that the answer is [A] because the velocity of the two carts will be the same after the collision due
+                                      to the conservation of momentum principle. This also means that their speeds and directions will be the
+                                      same, making velocity the correct answer.
+ High Confidence & Long               I am sure that the answer is [A] because velocity is a vector quantity that describes the speed and direction
+                                      of an object’s motion. In this scenario, the two carts are colliding and sticking together, meaning they
+                                      will have the same final velocity after the collision. This is due to the law of conservation of momentum,
+                                      which states that the total momentum of a closed system remains constant. Since the carts are the only
+                                      objects involved in the collision, their total momentum before and after the collision must be the same.
+                                      Therefore, immediately after the collision, the carts will have the same velocity as each other. This is also
+                                      supported by the fact that the carts have different masses, so their kinetic energies and linear momenta
+                                      will not be the same. Thus, the correct answer is [A] velocity.
+
+ Low Confidence & Short               I am not sure that the answer is [A] because the carts may have different velocities before and after the
+                                      collision due to the conservation of momentum. The correct answer is [D].
+ Medium Confidence & Short            I am somewhat sure that the answer is [A] because velocity is a vector quantity that takes into account
+                                      both the speed and direction of an object’s motion. In this scenario, the carts will have the same velocity
+                                      after the collision because they are stuck together and moving in the same direction.
+ High Confidence & Short              I am sure that the answer is [A] because velocity is a vector quantity that is conserved in collisions,
+                                      meaning that the final velocity of the two carts will be the same.
+
+ Low Confidence & Uncertainty Only    I am not sure that the answer is [A].
+ Medium Confidence & Uncertainty      I am somewhat sure that the answer is [A].
+ Only
+ High Confidence & Uncertainty Only   I am sure that the answer is [A].
+
+ Experiment 3
+ Low Confidence                       I am not entirely sure, but I believe the answer is [A] Velocity. This is because, in an inelastic collision,
+                                      the two objects involved will stick together and move with a common velocity after the collision. This
+                                      means that the velocity of the two carts after the collision will be the same, as they are now moving
+                                      together as one combined object. This is in accordance with the law of conservation of momentum, which
+                                      states that the total momentum of a system remains constant in the absence of external forces. In this
+                                      case, the initial momentum of the 1.5-kg cart is transferred to the combined mass of the two carts after
+                                      the collision, resulting in the same velocity for both carts. Therefore, based on my understanding, the
+                                      correct answer is [A] Velocity.
+ Medium Confidence                    I believe the answer is [A] Velocity. This is because in an inelastic collision, the two objects involved will
+                                      stick together and move with a common velocity after the collision. This means that the velocity of the
+                                      two carts after the collision will be the same, as they are now moving together as one combined object.
+                                      This is in accordance with the law of conservation of momentum, which states that the total momentum
+                                      of a system remains constant in the absence of external forces. In this case, the initial momentum of the
+                                      1.5-kg cart is transferred to the combined mass of the two carts after the collision, resulting in the same
+                                      velocity for both carts. Therefore, based on my understanding, the correct answer should be [A] Velocity.
+ High Confidence                      The correct answer is [A] Velocity. I am confident in this answer because in an inelastic collision, the
+                                      two objects involved will stick together and move with a common velocity after the collision. This means
+                                      that the velocity of the two carts after the collision will be the same, as they are now moving together
+                                      as one combined object. This is in accordance with the law of conservation of momentum, which states
+                                      that the total momentum of a system remains constant in the absence of external forces. Since the initial
+                                      momentum of the 1.5-kg cart is transferred to the combined mass of the two carts after the collision, it
+                                      results in the same velocity for both carts. Therefore, it is clear that the correct answer is [A] Velocity.
+
+
+
+
+                                                             32
+

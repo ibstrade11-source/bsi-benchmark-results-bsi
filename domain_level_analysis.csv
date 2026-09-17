@@ -1,9 +1,10 @@
 domain,runs,unique_articles,raw_mean,bsi_mean,delta_mean,delta_median,delta_sd,delta_min,delta_max,bsi_wins,raw_wins,ties
-10.1016/j.neuron.2025.05.020,4,1,5.2125,8.725,3.5125,3.0,1.6998,1.799999999999999,6.25,4,0,0
+10.1016/j.neuron.2025.05.020,5,1,5.26,8.8,3.54,3.55,1.5213,1.799999999999999,6.25,5,0,0
 10.1038/s42256-024-00976-7,3,1,7.5333,8.9067,1.3733,2.27,1.325,-0.5,2.3499999999999996,2,1,0
 10.1063/5.0090222,1,1,5.55,8.85,3.3,3.3,0,3.3,3.3,1,0,0
 2401.13835 What Large Language Models Know and What People Think They Know,1,1,6.8,8.79,1.99,1.99,0,1.9899999999999993,1.9899999999999993,1,0,0
 2406.04710,1,1,6.4,7.75,1.35,1.35,0,1.3499999999999996,1.3499999999999996,1,0,0
+A Digital Twin Framework for Structural Health Monitoring of Existing Large-Span Bridges,2,1,5.775,8.4,2.625,2.625,0.575,2.0500000000000007,3.2,2,0,0
 A Long History: From Universal Language to Artificial Intelligence,11,2,6.0591,8.3427,2.2836,2.36,2.0464,-0.5599999999999996,5.45,9,2,0
 Constrained Urban Airspace Design for Large-Scale Drone-Based Delivery Traffic,1,1,7.55,8.9,1.35,1.35,0,1.3500000000000005,1.3500000000000005,1,0,0
 Ecology,1,1,6.55,8.57,2.02,2.02,0,2.0200000000000005,2.0200000000000005,1,0,0

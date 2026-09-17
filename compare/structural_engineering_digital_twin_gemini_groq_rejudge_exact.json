@@ -1,0 +1,253 @@
+{
+  "dataset_name": "A Digital Twin Framework for Structural Health Monitoring of Existing Large-Span Bridges",
+  "results": [
+    {
+      "article": {
+        "title": "A Digital Twin Framework for Structural Health Monitoring of Existing Large-Span Bridges",
+        "abstract": "Large-span bridges are critical components of transportation networks. Environmental variability, material degradation, and cumulative fatigue continuously affect their long-term performance. Digital Twin (DT) technology has emerged as a promising paradigm for integrating sensing, modeling, and data analytics. Most existing DT implementations in civil infrastructure rely on dense sensor networks, assume near-complete observability, and primarily serve as passive visualization or diagnostic tools, limiting their scalability and practical applicability. This paper proposes a DT framework specifically designed for the monitoring and management of existing large-span bridges under sparse sensing conditions. The framework adopts an information-centric perspective in which limited physical measurements are complemented by full-field state reconstruction through the integration of physics-based modeling, data-driven learning, and uncertainty-aware inference. A synchronized reference configuration, termed State 0, is introduced as the initial basis for tracking structural changes over time, while allowing conditional re-baselining through a Dynamic State 0 (DS0) when verified reassessment justifies it. On this basis, the proposed DT is formulated as an adaptive and decision-oriented cyber-physical system that supports optimization-based recommendations for sensing, inspection, and maintenance planning.",
+        "full_text": null,
+        "doi": "https://doi.org/10.3390/s26113293",
+        "url": "https://openalex.org/W7162131809",
+        "input_quality": {
+          "has_title": true,
+          "has_abstract": true,
+          "source": "openalex",
+          "enriched": false,
+          "has_full_text": false,
+          "full_text_fetch_error": "provider returned no usable full text",
+          "full_text_chars": 0,
+          "full_text_source": "provider_fetch:openalex"
+        }
+      },
+      "cells": [
+        {
+          "generator": "gemini",
+          "mode": "raw",
+          "analysis": {
+            "text": "Here is a concise, factual analysis of the paper's main claims and contributions based on the provided abstract.\n\n---\n\n### **Problem Addressed**\nExisting Digital Twin (DT) implementations for civil infrastructure typically require dense sensor networks, assume full observability, and function mainly as passive visualization tools. This limits their scalability, cost-effectiveness, and real-world applicability for existing, aging large-span bridges.\n\n---\n\n### **Main Claims**\n1. **Effective Monitoring Under Sparse Sensing:** A DT framework can accurately track structural health even with limited sensor data by using hybrid data integration to perform full-field state reconstruction.\n2. **Adaptive Baseline Tracking:** Structural changes over time are better managed by establishing an initial synchronized baseline (**State 0**) combined with a conditional re-baselining mechanism (**Dynamic State 0 / DS0**).\n3. **Shift from Passive to Decision-Oriented Systems:** DTs should evolve from static monitoring tools into active cyber-physical systems that directly drive decision-making and optimization.\n\n---\n\n### **Key Contributions**\n* **Sparse-Sensing DT Framework:** Developed a DT architecture explicitly designed for existing large-span bridges where dense instrumentation is unfeasible.\n* **Hybrid Full-Field Reconstruction:** Combined physics-based modeling, data-driven learning, and uncertainty-aware inference to infer structural behavior in unmonitored zones.\n* **Dynamic Re-baselining Paradigm (State 0 / DS0):** Introduced a structured approach for initializing structural baselines and updating them dynamically under verified reassessments.\n* **Actionable Cyber-Physical Integration:** Created an adaptive framework capable of generating optimization-based recommendations for future sensing, inspection schedules, and maintenance planning.",
+            "source_model": "gemini-3.6-flash",
+            "generated_at": "2026-09-17T19:03:42Z",
+            "usage": null,
+            "finish_reason": null,
+            "continuation_rounds": 0
+          },
+          "metadata": {
+            "execution_time_seconds": 47.332,
+            "usage": null
+          },
+          "judge_result": {
+            "criteria_source": "llm",
+            "winner": "bsi",
+            "winner_source": "llm",
+            "reasoning": "The BSI analysis provides a far richer multi‑layer epistemic evaluation, uncovering hidden mechanisms, assessing logical coherence, and highlighting critical gaps, resulting in higher weighted scores across most criteria and delivering high incremental epistemic value over the concise raw summary.",
+            "criteria": [
+              {
+                "name": "Methodological Rigor",
+                "importance": 20.0,
+                "raw_score": 6.0,
+                "bsi_score": 8.0,
+                "reason": "The raw analysis notes a hybrid physics‑data approach but provides no detail on validation; the BSI analysis describes the combined physics‑based, data‑driven, uncertainty‑aware inference and cites methodological strengths."
+              },
+              {
+                "name": "Novelty & Originality",
+                "importance": 15.0,
+                "raw_score": 7.0,
+                "bsi_score": 9.0,
+                "reason": "Both analyses recognize the Dynamic State 0 concept as novel, but the BSI review evaluates its paradigm shift more comprehensively."
+              },
+              {
+                "name": "Practical Utility",
+                "importance": 25.0,
+                "raw_score": 7.0,
+                "bsi_score": 9.0,
+                "reason": "The raw summary highlights cost‑effective monitoring for large bridges; the BSI review adds concrete implications for maintenance planning and decision‑oriented cyber‑physical integration."
+              },
+              {
+                "name": "Evidence & Empirical Support",
+                "importance": 10.0,
+                "raw_score": 4.0,
+                "bsi_score": 6.0,
+                "reason": "The abstract provides no quantitative results; the BSI analysis notes the lack of explicit numerical validation but acknowledges the framework’s internal consistency."
+              },
+              {
+                "name": "Clarity & Structural Coherence",
+                "importance": 10.0,
+                "raw_score": 7.0,
+                "bsi_score": 8.0,
+                "reason": "Both presentations are clear, but the BSI analysis offers a more detailed layered breakdown, improving coherence."
+              },
+              {
+                "name": "Depth of Explanation (Mechanistic & Predictive)",
+                "importance": 15.0,
+                "raw_score": 5.0,
+                "bsi_score": 8.0,
+                "reason": "The raw analysis mentions hybrid reconstruction without explaining mechanisms; the BSI review details information‑compensation mechanisms and feedback loops."
+              },
+              {
+                "name": "Implementation Feasibility & Operational Gaps",
+                "importance": 5.0,
+                "raw_score": 5.0,
+                "bsi_score": 7.0,
+                "reason": "Both note gaps (e.g., DS0 trigger criteria); the BSI analysis explicitly lists operationalization gaps, giving a clearer picture of feasibility."
+              }
+            ],
+            "total_scores": {
+              "raw": 6.1,
+              "bsi": 8.15
+            },
+            "bsi_capability_assessment": {
+              "relevance": "high",
+              "realization": "medium",
+              "incremental_value": "high",
+              "reason": "The BSI analysis adds substantial epistemic depth—identifying latent mechanisms, causal loops, and epistemic gaps—beyond the factual summary of the raw analysis, though the framework’s full realization is limited by lack of empirical detail in the source abstract."
+            },
+            "incremental_value": "high",
+            "scale": "0-10",
+            "weight_sum": 100.0,
+            "glossary_mode": "full",
+            "judge_input_compacted": false,
+            "judge_model": "openai/gpt-oss-120b"
+          },
+          "scores": {
+            "RAW": 0.61,
+            "BSI": 0.815
+          },
+          "failed": false,
+          "status": "valid",
+          "model_id": "gemini-3.6-flash",
+          "truncated": false
+        },
+        {
+          "generator": "gemini",
+          "mode": "bsi",
+          "analysis": {
+            "text": "# تحلیل تخصصی و ارزیابی عمیق بر اساس شاخص بهمنش (BSI v3.4.2)\n\n**عنوان تحلیل:** ارزیابی روش‌شناختی و معرفت‌شناختی چارچوب دوقلوی دیجیتال برای پایش سلامت سازه‌ای پل‌های بزرگ‌دهانه  \n**مشخصات مقاله target:**  \n*   **عنوان مقاله:** A Digital Twin Framework for Structural Health Monitoring of Existing Large-Span Bridges  \n*   **حوزه تخصصی:** پایش سلامت سازه (Structural Health Monitoring)، دوقلوی دیجیتال (Digital Twin)، سنجش پراکنده (Sparse Sensing)، سیستم‌های سایبر-فیزیکی (Cyber-Physical Systems)  \n\n---\n\n## ۱. خلاصه اجرایی (Executive Summary)\n\n### ادعای محوری (Core Claim)\nپیاده‌سازی‌های موجود دوقلوی دیجیتال (Digital Twin) در زیرساخت‌های عمرانی، متکی بر شبکه‌های حسگر متراکم (Dense Sensor Networks) و فرض مشاهده‌پذیری شبه‌کامل (Near-Complete Observability) هستند که منجر به ابزارهای تصویرسازی غیرفعال (Passive Visualization) با قابلیت مقیاس‌پذیری پایین می‌شوند. مقاله حاضر چارچوبی نوین، اطلاعات‌محور (Information-Centric) و تصمیم‌محور (Decision-Oriented) برای دوقلوی دیجیتال پل‌های بزرگ‌دهانه ارائه می‌دهد که در شرایط سنجش پراکنده (Sparse Sensing) و با تلفیق مدل‌سازی مبتنی بر فیزیک (Physics-Based Modeling)، یادگیری داده‌محور (Data-Driven Learning) و استنتاج آگاه از عدم‌قطعیت (Uncertainty-Aware Inference)، بازسازی کامل میدان حالت (Full-Field State Reconstruction) را محقق می‌سازد. نقطه عطف این ادعا، معرفی «حالت صفر پویا (Dynamic State 0 - DS0)» برای بازتنظیم مشروط خط پایه (Re-baselining) سازه است.\n\n### زمینه و خلاصه‌ی تحلیلی\nاین مقاله دست بر روی یکی از مهم‌ترین چالش‌های عملیاتی در پایش سلامت سازه‌های حیاتی می‌گذارد: «گرانی و غیرعملی بودن نصب حسگر در تمامی نقاط پل‌های بزرگ‌دهانه». با تغییر پارادایم از «داده‌گرایی محض (Pure Data-Centrism)» به «ارزش اطلاعات (Value of Information)»، نویسندگان توانسته‌اند بین مدل‌های ریاضی سنگین و داده‌های محدود و ناقص فیزیکی، یک پل ارتباطی سازگار ایجاد کنند.\n\n### امتیاز کلی BSI\n*   **امتیاز نهایی:** **۸۸.۵ از ۱۰۰** (نشان‌دهنده کیفیت بسیار بالا، ساختاریافتگی عمیق و ارزش‌افزوده مفاهیم در سطح عالی)\n\n---\n\n## ۲. جدول ارزیابی معیارهای اصلی ۷گانه (BSI Core Criteria)\n\n| شماره | معیار ارزیابی | امتیاز (از ۱۰) | تحلیل و استدلال |\n| :---: | :--- | :---: | :--- |\n| ۱ | **انسجام منطقی (Logical Coherence)** | ۹.۰ | جریان استدلال از صورت‌بندی مسئله (محدودیت سنجش متراکم) تا ارائه حل (استنتاج آگاه از عدم‌قطعیت) کاملاً پیوسته و بدون تناقض است. |\n| ۲ | **صلابت روش‌شناختی (Methodological Rigor)** | ۸.۵ | ترکیب سنتز فیزیک-داده و لحاظ نمودن عدم‌قطعیت (Uncertainty)، پایه ریاضی و مفهومی قوی به روش می‌بخشد؛ هرچند صحه‌گذاری عددی در متن چکیده پنهان است. |\n| ۳ | **نوآوری و اصالت (Novelty & Originality)** | ۹.۰ | معرفی مفهوم «حالت صفر پویا (Dynamic State 0)» تحولی مهم در حل مسئله‌ی افت کارایی سازه در طول زمان و تغییرات محیطی ایجاد می‌کند. |\n| ۴ | **کاربردپذیری عملی (Practical Utility)** | ۹.۵ | حل مستقیم مسئله هزینه‌های هنگفت سنجش متراکم و تبدیل دوقلوی دیجیتال از ابزار نمایش صرف به ابزار پیشنهاددهنده نگهداری (Maintenance Planning). |\n| ۵ | **وضوح و ساختار (Clarity & Structure)** | ۸.۵ | تعاریف شفاف، اصطلاحات دقیق و تعمیم مفاهیم پیچیده به ساختاری جامع منطبق بر سیستم‌های سایبر-فیزیکی (Cyber-Physical Systems). |\n| ۶ | **عمق و دامنه (Scope & Depth)** | ۸.۵ | نگاه هم‌زمان به فرآیند پایش، عدم‌قطعیت‌ها، بازسازی حالت و فرآیندهای تصمیم‌گیری سایبر-فیزیکی، عمق مفاهیم را ارتقا داده است. |\n| ۷ | **خودآگاهی انتقادی (Critical Self-Awareness)** | Mala ۸.۰ | اذعان شفاف به چالش‌های عدم مشاهده‌پذیری کامل و متکی بودن سیستم به ارزیابی‌های مجدد تاییدشده (Verified Reassessment). |\n\n---\n\n## ۳. جدول ارزش‌افزوده خلاقانه (CreativeValueAdd)\n\n| زیرمعیار | وزن | امتیاز (از ۱۰۰) | دلیل و استدلال ارزیابی |\n| :--- | :---: | :---: | :--- |\n| **هدف‌گیری شکاف معرفتی (Epistemic Gap Targeting)** | ۳۵٪ | ۹۲ | هدف قرار دادن شکاف موجود میان «پایش نظری متکی بر داده کامل» و «واقعیت عملیاتیِ سنجش محدود و ناقص» در پل‌های واقعی. |\n| **سنتز ترکیبی (Combinatorial Synthesis)** | ۴۰٪ | ۹۰ | تلفیق خلاقانه سه‌گانه: ۱) مدل‌سازی فیزیک‌محور، ۲) یادگیری داده‌محور، و ۳) مفهوم پویای خط پایه (Dynamic State 0) در قالب یک سیستم تصمیم‌یار. |\n| **ظرفیت مولد (Generative Capacity)** | ۲۵٪ | ۸۵ | توانایی بازولید این چارچوب برای سایر سازه‌های زیرساختی مانند سدها، توربین‌های بادی و تونل‌ها که با محدودیت نصب حسگر مواجه هستند. |\n\n**امتیاز کل ارزش‌افزوده خلاقانه (CreativeValueAdd Score):**\n$$\\text{Total Score} = (92 \\times 0.35) + (90 \\times 0.40) + (85 \\times 0.25) = 32.2 + 36.0 + 21.25 = \\mathbf{89.45 \\text{ out of } 100}$$\n\n---\n\n## ۴. لایه‌برداری عمیق (Deep Layering Analysis)\n\n### لایه آشکار (Manifest Layer)\nدر لایه سطحی، مقاله یک چارچوب دوقلوی دیجیتال (Digital Twin Framework) برای پایش سلامت سازه‌ای (Structural Health Monitoring - SHM) پل‌های بزرگ‌دهانه ارائه می‌دهد. این سیستم بر سه ستون استوار است:\n۱. پذیرش سنجش پراکنده (Sparse Sensing) به عنوان یک ضرورت اجرایی.  \n۲. بازسازی کامل میدان حالت (Full-Field State Reconstruction) با ترکیب فیزیک و داده.  \n۳. استفاده از «حالت صفر (State 0)» و «حالت صفر پویا (Dynamic State 0 - DS0)» به عنوان مرجع مقایسه تغییرات سازه در طول زمان.  \n۴. تبدیل دوقلوی دیجیتال از یک ابزار منفعل تصویرسازی به یک سیستم فعال سایبر-فیزیکی (Cyber-Physical System) برای بهینه‌سازی بازرسی و نگهداری.\n\n### لایه پنهان (Latent Layer)\nدر لایه عمیق‌تر، مکانیسم‌ها و الگوهای زیر در جریان هستند:\n\n*   **مکانیسم جبران اطلاعاتی (Information Compensation Mechanism):** وقتی داده‌های فیزیکی کاهش می‌یابند (سنجش پراکنده)، سیستم مجبور است «کمبود حسگر» را با «دانش پیشین فیزیک‌محور (Physics-Based Prior Knowledge)» و «استنتاج آماری (Statistical Inference)» جبران کند.\n*   **چرخه‌های بازخورد (Feedback Loops):**\n    *   *چرخه بازخورد مثبت (تصحیح خط پایه):* تغییرات واقعی سازه $\\rightarrow$ شناسایی انحراف از حالت صفر (State 0) $\\rightarrow$ ارزیابی مجدد $\\rightarrow$ به‌روزرسانی به حالت صفر پویا (Dynamic State 0) $\\rightarrow$ جلوگیری از هشدار کاذب (False Alarms).\n    *   *چرخه بازخورد تصمیم‌گیری:* استنتاج حالت سازه $\\rightarrow$ محاسبه عدم‌قطعیت $\\rightarrow$ پیشنهاد بهینه‌سازی محل حسگرها یا برنامه نگهداری $\\rightarrow$ تغییر در عملکرد فیزیکی پل.\n*   **نقاط اهرمی (Leverage Points):** نقطه اهرمی اصلی در این سیستم، «معیار ماشه‌چکان (Trigger Criteria) برای اعمال DS0» است. اگر این بازتنظیم خط پایه خیلی زود انجام شود، آسیب واقعی سازه کتمان می‌شود؛ اگر خیلی دیر انجام شود، تغییرات ناشی از سن‌زدگی طبیعی یا عوامل محیطی به عنوان آسیب تلقی می‌گردند.\n\n```\n[حسگرهای پراکنده] ──(+)──> [استنتاج آگاه از عدم‌قطعیت] ──> [بازسازی حالت کامل]\n       ▲                                                          │\n       │                                                          ▼\n[تطبیق حسگرها] <──(پیشنهاد)── [سیستم تصمیم‌یار] <──(ارزیابی)── [مقایسه با DS0]\n```\n\n### لایه فرامتن (Meta Layer)\nاز نظر معرفت‌شناختی (Epistemological)، این طرح یک **تغییر پارادایم از واقع‌گرایی خام (Naive Realism) به خردگرایی احتمالی (Probabilistic Rationalism)** در مهندسی عمران است. دیدگاه‌های سنتی فرض می‌کردند که تنها با «مشاهده مستقیم و متراکم» می‌توان به حقیقتِ سلامت سازه پی برد. اما این چارچوب می‌پذیرد که «مشاهده همیشه ناقص است» و حقیقت سازه‌ای، یک بازسازی احتمالی در ذهنِ محاسباتیِ دوقلوی دیجیتال است. همچنین مفهوم «Dynamic State 0» اصالتِ «ثبات مطلق مرجع» را زیر سؤال می‌برد و آن را به یک امر «پویا و تکاملی» تبدیل می‌کند.\n\n---\n\n## ۵. تحلیل شکاف معرفتی-اطلاعاتی (EIG Analysis)\n\nدر این بخش، شکاف‌های معرفتی ناظر بر محتوای ورودی شناسایی می‌شوند:\n\n۱. **شکاف عملیاتی‌سازی DS0 (Operationalization Gap):** الگوریتم دقیق یا حد آستانه‌ای (Threshold) که مشخص کند چه زمانی سیستم مجاز به جهش از State 0 به Dynamic State 0 است، در سطح چکیده نامشخص است. عدم شفافیت در این شرط می‌تواند مرز بین «افت کارایی طبیعی (Degradation)» و «آسیب ساختاری (Structural Damage)» را تار کند.\n۲. **حسگرپذیری بهینه در مقابل پراکندگی (Observability vs. Sparsity Gap):** چقدر پراکنده؟ حداقل تراکم حسگرها برای تضمین همگرایی (Convergence) مدل بازسازی کامل میدان چقدر است؟\n۳. **بار محاسباتی زمان واقعی (Real-time Computational Burden):** ترکیب مدل‌سازی فیزیکی (مانند اجزای محدود محدودسازی شده) با استنتاج آگاه از عدم‌قطعیت، بار محاسباتی سنگینی ایجاد می‌کند که ممکن است با «هم‌گام‌سازی پویای (Synchronization)» دوقلوی دیجیتال در تعارض باشد.\n\n---\n\n## ۶. ممیزی پیش‌نویس تحلیل (REIG - Draft Analysis Audit)\n\n⚠️ **تذکر روش‌شناختی:** این بخش ارزیابیِ متقاطع و سخت‌گیرانه خودِ تحلیل بالا (بخش‌های ۱ تا ۵) است تا اطمینان حاصل شود که ارزیاب دچار تورم ادعا، قضاوت شتاب‌زده یا تعمیم غیرمجاز نشده است.\n\n*   **پرسش محوری:** آیا من (تحلیل‌گر) در خروجی خودم از گپ‌های EIG عبور کرده‌ام و ادعایی فراتر از داده‌های ورودی مطرح کرده‌ام؟\n\n### بررسی نقاط چهارگانه:\n*   [x] **پیروی از علیت (Causal Compliance):**\n    *   *ارزیابی:* آیا در Draft علیت بی‌موردی نسبت داده شد؟\n    *   *نتیجه:* **PASS**. تمام ادعاهای مربوط به عملکرد DS0 و بهبود نگهداری، به عنوان «مزایای ساختاری چارچوب پیشنهادی» مطرح شده‌اند نه نتایج اثبات‌شده تجربی، زیرا متن ورودی صرفاً یک مقاله چارچوبی (Framework Paper) است.\n*   [x] **پیروی از تعمیم (Generalization Compliance):**\n    *   *ارزیابی:* آیا نتایج به همه سازه‌ها تعمیم بی‌جا داده شده است؟\n    *   *نتیجه:* **PASS**. تاکید شد که این چارچوب مخصوص «پل‌های بزرگ‌دهانه با سنجش پراکنده» است و تعمیم آن به سایر زیرساخت‌ها در بخش ارزش‌افزوده خلاقانه صرفاً به عنوان «ظرفیت مولد بالقوه» یاد شده است.\n*   [x] **پیروی از اندازه‌گیری (Measurement Compliance):**\n    *   *ارزیابی:* آیا امتیازات داده شده با دقت واقع‌بینانه سازگار است؟\n    *   *نتیجه:* **PASS**. امتیاز ۸۸.۵ بر اساس تحلیل ساختار مفهومی چکیده داده شده است. با توجه به عدم دسترسی به متن کامل برای ارزیابی عددی دقیق، در بخش EIG و نقاط ضعف به این محدودیت اشاره شد.\n*   [x] **پیروی از قاب‌بندی (Framing Compliance):**\n    *   *ارزیابی:* آیا قضاوت ارزشی یا جانبداری غیرعلمی صورت گرفته است؟\n    *   *نتیجه:* **PASS**. لحن ارزیابی کاملاً بی‌طرفانه و مبتنی بر استاندارد BSI است.\n\n**نتیجه کلی ممیزی REIG:** **PASS** (بدون هیچ‌گونه نقض در ادعاهای علّی، تعمیم، اندازه‌گیری و قاب‌بندی).\n\n---\n\n## ۷. نتیجه‌گیری نهایی + نقاط قوت و ضعف + پیشنهادهای بهبود\n\n### نتیجه‌گیری نهایی\nمقاله مورد بررسی با دست گذاشتن بر چالش کلیدی «سنجش پراکنده» و حل آن از طریق «بازسازی حالت فیزیک-داده» و «حالت صفر پویا (DS0)»، یک گام بلند در منطقی‌سازی و عملیاتی کردن دوقلوهای دیجیتال در مهندسی عمران برمی‌دارد. این مقاله دوقلوی دیجیتال را از یک «نمایشگر زیبای سه بعدی» به یک «سیستم سایبر-فیزیکی خردمند و تصمیم‌ساز» ارتقا می‌دهد.\n\n### نقاط قوت اصلی\n۱. **طرح مفهوم Dynamic State 0:** حل مسئله منطقی انحراف خط پایه سازه در طول زمان بر اثر عوامل محیطی.  \n۲. **رویکرد اطلاعات‌محور:** عدم وابستگی مطلق به شبکه‌های حسگر گران‌قیمت و متراکم.  \n۳. **دیدگاه سایبر-فیزیکی بسته‌حلقه:** پیوند مستقیم بین پایش سازه و بهینه‌سازی تصمیمات نگهداری (Maintenance Planning).\n\n### نقاط ضعف اصلی\n۱. **عدم ارزیابی تجربی روشن در متن چکیده:** عدم ارائه معیارهای عددی (Quantifiable Metrics) جهت اثبات میزان کاهش خطا در بازسازی میدان حالت.  \n۲. **پیچیدگی شرط بازتنظیم (Re-baselining Criteria):** خطر تداخل میان پاسخ‌های دینامیکی ناشی از تخریب سازه و تغییرات ناشی از شرایط محیطی در فرآیند DS0.\n\n### پیشنهادهای کاربردی برای ارتقای طرح\n۱. **تعریف صریح شاخص‌های آمارشناختی:** ارائه یک الگوریتم شفاف مبتنی بر صافی کالمن (Kalman Filter) یا استنتاج بیزی (Bayesian Inference) برای تعیین لحظه دقیق جهش به DS0.  \n۲. **ارزیابی پایداری در برابر نویز (Noise Robustness Testing):** سنجش عملکرد مدل در شرایطی که حسگرهای پراکنده موجود خود دارای نویز شدید یا قطعی موقت باشند.  \n۳. **توسعه سناریوهای بازسازی لرزه‌ای:** آزمون قابلیت DS0 در مواجهه با رویدادهای حدی ناگهانی مانند زلزله که خط پایه سازه را جابه‌جا می‌کنند.\n\n---\n\nتحلیل حاضر کاملاً مطابق SOP_Intellectual_Content_Analysis_v3.4.2 و Ontology BIO v1.0 انجام شد.",
+            "source_model": "gemini-3.6-flash",
+            "generated_at": "2026-09-17T19:05:02Z",
+            "usage": null,
+            "finish_reason": null,
+            "continuation_rounds": 0
+          },
+          "metadata": {
+            "execution_time_seconds": 79.937,
+            "usage": null
+          },
+          "judge_result": {
+            "criteria_source": "llm",
+            "winner": "bsi",
+            "winner_source": "llm",
+            "reasoning": "The BSI analysis provides a far richer multi‑layer epistemic evaluation, uncovering hidden mechanisms, assessing logical coherence, and highlighting critical gaps, resulting in higher weighted scores across most criteria and delivering high incremental epistemic value over the concise raw summary.",
+            "criteria": [
+              {
+                "name": "Methodological Rigor",
+                "importance": 20.0,
+                "raw_score": 6.0,
+                "bsi_score": 8.0,
+                "reason": "The raw analysis notes a hybrid physics‑data approach but provides no detail on validation; the BSI analysis describes the combined physics‑based, data‑driven, uncertainty‑aware inference and cites methodological strengths."
+              },
+              {
+                "name": "Novelty & Originality",
+                "importance": 15.0,
+                "raw_score": 7.0,
+                "bsi_score": 9.0,
+                "reason": "Both analyses recognize the Dynamic State 0 concept as novel, but the BSI review evaluates its paradigm shift more comprehensively."
+              },
+              {
+                "name": "Practical Utility",
+                "importance": 25.0,
+                "raw_score": 7.0,
+                "bsi_score": 9.0,
+                "reason": "The raw summary highlights cost‑effective monitoring for large bridges; the BSI review adds concrete implications for maintenance planning and decision‑oriented cyber‑physical integration."
+              },
+              {
+                "name": "Evidence & Empirical Support",
+                "importance": 10.0,
+                "raw_score": 4.0,
+                "bsi_score": 6.0,
+                "reason": "The abstract provides no quantitative results; the BSI analysis notes the lack of explicit numerical validation but acknowledges the framework’s internal consistency."
+              },
+              {
+                "name": "Clarity & Structural Coherence",
+                "importance": 10.0,
+                "raw_score": 7.0,
+                "bsi_score": 8.0,
+                "reason": "Both presentations are clear, but the BSI analysis offers a more detailed layered breakdown, improving coherence."
+              },
+              {
+                "name": "Depth of Explanation (Mechanistic & Predictive)",
+                "importance": 15.0,
+                "raw_score": 5.0,
+                "bsi_score": 8.0,
+                "reason": "The raw analysis mentions hybrid reconstruction without explaining mechanisms; the BSI review details information‑compensation mechanisms and feedback loops."
+              },
+              {
+                "name": "Implementation Feasibility & Operational Gaps",
+                "importance": 5.0,
+                "raw_score": 5.0,
+                "bsi_score": 7.0,
+                "reason": "Both note gaps (e.g., DS0 trigger criteria); the BSI analysis explicitly lists operationalization gaps, giving a clearer picture of feasibility."
+              }
+            ],
+            "total_scores": {
+              "raw": 6.1,
+              "bsi": 8.15
+            },
+            "bsi_capability_assessment": {
+              "relevance": "high",
+              "realization": "medium",
+              "incremental_value": "high",
+              "reason": "The BSI analysis adds substantial epistemic depth—identifying latent mechanisms, causal loops, and epistemic gaps—beyond the factual summary of the raw analysis, though the framework’s full realization is limited by lack of empirical detail in the source abstract."
+            },
+            "incremental_value": "high",
+            "scale": "0-10",
+            "weight_sum": 100.0,
+            "glossary_mode": "full",
+            "judge_input_compacted": false,
+            "judge_model": "openai/gpt-oss-120b"
+          },
+          "scores": {
+            "RAW": 0.61,
+            "BSI": 0.815
+          },
+          "failed": false,
+          "status": "valid",
+          "model_id": "gemini-3.6-flash",
+          "truncated": false
+        }
+      ],
+      "article_id": "doi:https://doi.org/10.3390/s26113293"
+    }
+  ],
+  "source_url": "https://github.com/ibstrade11-source/behmanesh-index-prompt/blob/main/MASTER_PROMPT_BSI_v3.4.2.md",
+  "run_metadata": {
+    "tool_version": "0.1.0",
+    "git_commit": "93d8b355820d76cd69255dd5396635e8d4616744",
+    "git_dirty": true,
+    "run_timestamp_utc": "2026-09-17T19:31:46Z",
+    "methodology_note": "Scores/judgements come from an independent LLM judge (see comparison/judge.py) instructed not to reuse BSI's own D1-D7/EIG vocabulary and to choose its own evaluation criteria. If no judge model is available or its response cannot be parsed, the run falls back to a simple keyword-presence heuristic -- the stored record's own 'criteria_source' field ('llm' vs 'heuristic_fallback') always says honestly which one produced a given result. Neither path is a validated measurement of analytical quality until checked against independent human judgement on a representative sample.",
+    "provider_name": null,
+    "model_version": null,
+    "temperature": null,
+    "max_tokens": null,
+    "prompt_version": null,
+    "framework_name": "bsi"
+  },
+  "retrieval_metadata": {
+    "retrieval_status": "accepted",
+    "retrieval_validation": {
+      "retrieval_status": "accepted",
+      "retrieval_validation": "title_match",
+      "query_type": "title",
+      "requested_query": "A Digital Twin Framework for Structural Health Monitoring of Existing Large-Span Bridges",
+      "selected_title": "A Digital Twin Framework for Structural Health Monitoring of Existing Large-Span Bridges",
+      "selected_rank": 1,
+      "match_score": 1.0,
+      "threshold": 0.72,
+      "candidate_count": 1
+    },
+    "rejected_articles": [],
+    "skipped_count": 0,
+    "skipped_titles": []
+  },
+  "benchmark_status": "benchmarkable"
+}

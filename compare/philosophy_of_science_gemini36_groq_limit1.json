@@ -1,0 +1,223 @@
+{
+  "dataset_name": "philosophy of science",
+  "results": [
+    {
+      "article": {
+        "title": "Qualitative research in counseling psychology: A primer on research paradigms and philosophy of science.",
+        "abstract": "This article presents an overview of philosophy of science and research paradigms. The philosophy of science parameters of ontology, epistemology, axiology, rhetorical structure, and methodology are discussed across the research paradigms of positivism, postpositivism, constructivism-interpretivism, and the critical-ideological perspective. Counseling researchers are urged to locate their inquiry approaches within identifiable research paradigms, and examples of “locating ” 2 popular inquiry approaches— consensual qualitative research and grounded theory—are provided. Examples of how counseling research would proceed from varying paradigms are explored, and a call is made for expanding the training students receive in philosophy of science and qualitative approaches to inquiry. In my view, North American psychology generally, and coun-seling psychology specifically, is in the midst of a gradual para-digm shift from a primary reliance on quantitative methods to a more balanced reliance on quantitative and qualitative methods. Writing from Canada, O’Neill (2002) noted that a paradigm shift is underway in which “qualitative research may (and perhaps should) replace the hegemony of quantitative methods in psychol-",
+        "full_text": null,
+        "doi": "https://doi.org/10.1037/0022-0167.52.2.126",
+        "url": "https://openalex.org/W1977334056",
+        "input_quality": {
+          "has_title": true,
+          "has_abstract": true,
+          "source": "openalex",
+          "enriched": false,
+          "has_full_text": false,
+          "full_text_fetch_error": "provider returned no usable full text",
+          "full_text_chars": 0,
+          "full_text_source": "provider_fetch:openalex"
+        }
+      },
+      "cells": [
+        {
+          "generator": "gemini",
+          "mode": "raw",
+          "analysis": {
+            "text": "Based on the provided title, abstract, and text snippet, here is a concise, factual analysis of the article's main claims and key contributions:\n\n### **Main Claims**\n* **Ongoing Paradigm Shift:** Psychology—and counseling psychology in North America specifically—is undergoing a gradual paradigm shift away from a primary reliance on quantitative methods toward a more balanced use of both quantitative and qualitative approaches.\n* **Need for Paradigm Grounding:** Counseling researchers should explicitly locate their qualitative inquiry within identifiable research paradigms and philosophy of science frameworks.\n* **Educational Reform Needed:** Training programs for counseling psychology students must be expanded to include deeper instruction in the philosophy of science and qualitative research methodologies.\n\n### **Key Contributions**\n* **Conceptual Framework/Primer:** Maps out five key parameters of the philosophy of science—**ontology, epistemology, axiology, rhetorical structure, and methodology**—across four major research paradigms:\n  1. Positivism\n  2. Postpositivism\n  3. Constructivism-interpretivism\n  4. Critical-ideological perspective\n* **Practical Demonstration:** Demonstrates how to position specific qualitative approaches within these paradigms, using **Consensual Qualitative Research (CQR)** and **Grounded Theory** as concrete examples.\n* **Methodological Guidance:** Illustrates how the execution of counseling research varies depending on the specific research paradigm selected by the investigator.",
+            "source_model": "gemini-3.6-flash",
+            "generated_at": "2026-09-15T20:19:25Z",
+            "usage": null,
+            "finish_reason": null,
+            "continuation_rounds": 0
+          },
+          "metadata": {
+            "execution_time_seconds": 1065.033,
+            "usage": null
+          },
+          "judge_result": {
+            "criteria_source": "heuristic_fallback",
+            "winner": "bsi",
+            "winner_source": "heuristic_fallback",
+            "reasoning": "No LLM judge was available or its response could not be parsed -- this result is from a fixed keyword-presence heuristic, not an independent LLM judgement. Treat it as a placeholder, not a real evaluation.",
+            "criteria": [
+              {
+                "name": "structural_layers",
+                "importance": 30,
+                "raw_score": 0,
+                "bsi_score": 10,
+                "reason": "Presence of analytical layers"
+              },
+              {
+                "name": "epistemic_separation",
+                "importance": 20,
+                "raw_score": 10,
+                "bsi_score": 0,
+                "reason": "Fact / inference / speculation separation"
+              },
+              {
+                "name": "uncertainty_awareness",
+                "importance": 20,
+                "raw_score": 2,
+                "bsi_score": 2,
+                "reason": "Recognition of uncertainty"
+              },
+              {
+                "name": "evidence_grounding",
+                "importance": 15,
+                "raw_score": 6,
+                "bsi_score": 8,
+                "reason": "Grounding in evidence"
+              },
+              {
+                "name": "analysis_depth",
+                "importance": 15,
+                "raw_score": 10,
+                "bsi_score": 10,
+                "reason": "Analytical coverage"
+              }
+            ],
+            "total_scores": {
+              "raw": 4.8,
+              "bsi": 6.1
+            },
+            "bsi_capability_assessment": {
+              "relevance": "low",
+              "realization": "low",
+              "incremental_value": "none",
+              "reason": "Heuristic fallback cannot validly assess BSI capability relevance, realization, or incremental value."
+            },
+            "incremental_value": "none",
+            "scale": "0-10",
+            "weight_sum": 100,
+            "judge_error": "ProviderUnavailable('Groq HTTP 403: {\"error\":{\"message\":\"Access denied. Please check your network settings.\"}}')",
+            "judge_failure_stage": "llm_compare"
+          },
+          "scores": {
+            "RAW": 0.48,
+            "BSI": 0.61
+          },
+          "failed": false,
+          "status": "valid",
+          "model_id": "gemini-3.6-flash",
+          "truncated": false
+        },
+        {
+          "generator": "gemini",
+          "mode": "bsi",
+          "analysis": {
+            "text": "# گزارش ارزیابی عمیق شاخص بهمنش (BSI Evaluation Report v3.4.2)\n\n**عنوان تحلیل:** ارزیابی روش‌شناختی و معرفت‌شناختی مقاله «پژوهش کیفی در روان‌شناسی مشاوره: راهنمای مقدماتی پارادایم‌های پژوهش و فلسفه علم»  \n**مشخصات محتوای ورودی:**  \n* **عنوان مقاله:** Qualitative research in counseling psychology: A primer on research paradigms and philosophy of science  \n* **حوزه موضوعی:** فلسفه علم (Philosophy of Science)، پارادایم‌های پژوهشی (Research Paradigms)، روان‌شناسی مشاوره (Counseling Psychology)، روش‌شناسی کیفی (Qualitative Methodology)  \n* **مبنای روش‌شناختی ارزیابی:** چارچوب شاخص بهمنش (Behmanesh Index v3.4.2) و آنتولوژی (Ontology BIO v1.0)\n\n---\n\n## ۱. خلاصه اجرایی (Executive Summary)\n\nمقاله مورد ارزیابی، یک اثر ساختاریافته و راهبردی در حوزه روش‌شناسی روان‌شناسی مشاوره است که با هدف گذار از تک‌صدایی و سیطره مطلق روش‌های کمّی (Quantitative Hegemony) به سمت کثرت‌گرایی روش‌شناختی (Methodological Pluralism) نگاشته شده است. نویسنده با واسازی فلسفه علم به پنج پارامتر بنیادین — هستی‌شناسی (Ontology)، معرفت‌شناسی (Epistemology)، ارزش‌شناسی (Axiology)، ساختار بلاغی/زبانی (Rhetorical Structure) و روش‌شناسی (Methodology) — و ترسیم آن‌ها در چهار پارادایم اصلی (اثبات‌گرایی، پس‌اثبات‌گرایی، ساخت‌گرایی-تفسیرگرایی و دیدگاه انتقادی-ایدئولوژیک)، چارچوبی جامع برای تمایز و جانمایی پژوهش‌های کیفی ارائه می‌دهد.\n\n### ادعای مرکزی (Core Claim)\nروان‌شناسی مشاوره در آمریکای شمالی در میان یک گذار پارادایمی (Paradigm Shift) تدریجی قرار دارد؛ گذاری که طی آن باید تسلط تک‌بعدی روش‌های کمّی جای خود را به اتکای متوازن بر روش‌های کمّی و کیفی بدهد. تحقق موفقیت‌آمیز این گذار نیازمند ارتقای آموزش فلسفه علم و جانمایی صریح پژوهش‌ها در پارادایم‌های مربوطه (مانند پژوهش کیفی اجماعی و نظریه داده‌بنیاد) است.\n\n### امتیاز کلی شاخص بهمنش (Overall BSI Score)\n**امتیاز نهایی:** **۸.۶۸ از ۱۰** (معادل **۸۶.۸ از ۱۰۰**) — ارزیابی‌شده در سطح «عالی و دارای اثرگذاری راهبردی (Strategic Impact)».\n\n---\n\n## ۲. جدول ارزیابی معیارهای اصلی ۷گانه\n\n| شماره | معیار ارزیابی (Main Criterion) | امتیاز (از ۱۰) | وزن معیار | استدلال و ارزیابی فنی |\n| :---: | :--- | :---: | :---: | :--- |\n| **۱** | **انسجام منطقی (Logical Coherence)** | ۹.۰ | ۱۵٪ | نقد ساختاریافته نسبت به سیطره کمّی‌گرایی و برپایی زنجیره منطقی میان فلسفه علم و ابزارهای پژوهشی. |\n| **۲** | **اتقان نظری/مفهومی (Theoretical Rigor)** | ۸.۸ | ۲۰٪ | تفکیک دقیق ۵ مؤلفه فلسفی در ۴ پارادایم بزرگ علمی بدون خلط مباحث معرفتی. |\n| **۳** | **اصالت و نوآوری (Originality & Innovation)** | ۸.۰ | ۱۵٪ | اگرچه مفاهیم پارادایمی قبلاً مطرح شده‌اند، بومی‌سازی و طبقه‌بندی آن در روان‌شناسی مشاوره نوآورانه است. |\n| **۴** | **کاربردپذیری عملی (Practical Applicability)** | ۸.۵ | ۱۵٪ | ارائه نمونه‌های عملی ملموس مانند «پژوهش کیفی اجماعی (CQR)» و «نظریه داده‌بنیاد (Grounded Theory)». |\n| **۵** | **عمق روش‌شناختی (Methodological Depth)** | ۸.۷ | ۱۵٪ | تبیین نگاشت ماتریسی پارادایم‌ها بر مؤلفه‌های فلسفه علم با جزئیات بالا. |\n| **۶** | **شفافیت ساختاری (Structural Clarity)** | ۹.۲ | ۱۰٪ | ساختاریافتگی دقیق، متن منطقی و صورت‌بندی استاندارد مفاهیم. |\n| **۷** | **تناسب زمینه‌ای (Contextual Relevance)** | ۹.۰ | ۱۰٪ | پاسخ مستقیم به بحران روش‌شناختی و نیاز آموزش تحصیلات تکمیلی در روان‌شناسی. |\n\n**میانگین وزنی معیارهای اصلی:** **۸.۷۵ از ۱۰**\n\n---\n\n## ۳. جدول ارزش افزوده خلاقانه (CreativeValueAdd)\n\nمعیار `CreativeValueAdd` نشان‌دهنده میزان خلق دانش جدید، شیوه‌ی مواجهه با شکاف‌های معرفتی و توان تولیدی مقاله است:\n\n| زیرمعیار (Sub-criterion) | وزن | امتیاز (از ۱۰۰) | استدلال و تحلیلی ترکیبی |\n| :--- | :---: | :---: | :--- |\n| **هدف‌گیری شکاف معرفتی (Epistemic Gap Targeting)** | ۳۵٪ | ۸۴ | مقاله با هوشمندی، «ضعف در آموزش فلسفه علم» میان دانشجویان و پژوهشگران روان‌شناسی را به عنوان شکاف اصلی نشانه رفته است. |\n| **ترکیب و سنتز نوآورانه (Combinatorial Synthesis)** | ۴۰٪ | ۸۸ | تلفیق ماتریسی ۵ مؤلفه فلسفی با ۴ پارادایم علمی و ربط دادن آن به روش‌های خاص (نظیر CQR) یک سنتز مفاهیمی بسیار قوی ایجاد کرده است. |\n| **ظرفیت مولد بودن (Generative Capacity)** | ۲۵٪ | ۸۲ | قدرت بالایی در جهت‌دهی به سرفصل‌های آموزشی دانشگاه‌ها و هدایت پژوهش‌های آینده به سوی کثرت‌گرایی روش‌شناختی دارد. |\n\n**امتیاز کل ارزش افزوده خلاقانه (CreativeValueAdd Score):**\n$$(84 \\times 0.35) + (88 \\times 0.40) + (82 \\times 0.25) = 29.4 + 35.2 + 20.5 = \\mathbf{85.1 \\text{ از } 100}$$\n\n---\n\n## ۴. لایه‌برداری عمیق (Deep Layering Analysis)\n\n### لایه آشکار (Manifest Layer)\nدر این لایه، متن به صورت مستقیم مفاهیم فلسفه علم را باز می‌کند. نویسنده پنج ضلع فلسفه علم شامل هستی‌شناسی (ماهیت واقعیت)، معرفت‌شناسی (رابطه پژوهشگر و شناخته‌شده)، ارزش‌شناسی (نقش ارزش‌ها در پژوهش)، ساختار بلاغی (زبان و لحن گزارش) و روش‌شناسی (فرایند پژوهش) را تشریح می‌کند. سپس این ابعاد را در چهار پارادایم اثبات‌گرایی (Positivism)، پس‌اثبات‌گرایی (Postpositivism)، ساخت‌گرایی-تفسیرگرایی (Constructivism-Interpretivism) و انتقادی-ایدئولوژیک (Critical-Ideological) تطبیق می‌دهد و نشان می‌دهد که روش‌هایی مانند «پژوهش کیفی اجماعی (Consensual Qualitative Research)» و «نظریه داده‌بنیاد (Grounded Theory)» چگونه در این پارادایم‌ها قرار می‌گیرند.\n\n### لایه پنهان (Latent Layer)\nدر لایه زیرین، متن در حال بازتوزیع قدرت معرفتی (Epistemic Power) در ساختار آکادمیک روان‌شناسی است. \n\n* **مکانیسم‌های پنهان (Hidden Mechanisms):** متن با مشروعیت‌بخشی به پژوهش کیفی، در صدد شکستن انحصار روش‌های کمّی و پوزیتیویستی است که سال‌ها معیارهای جزم‌اندیشانه‌ای برای «علمی بودن» تعیین کرده بودند.\n* **الگوهای تکرارشونده (Recurring Patterns):** تلاش برای بازتعریف «اعتبار علمی (Scientific Rigor)»؛ متن نشان می‌دهد که اعتبار علمی صرفاً معادل آزمون‌های آماری کمّی نیست، بلکه انطباق دقیق روش با پارادایم فلسفی پشتیبان، خود بالاترین سطح اتقان علمی است.\n* **حلقه‌های بازخورد (Feedback Loops):**\n  * *حلقه تقویت‌کننده (Reinforcing Loop - R1):* افزایش آموزش فلسفه علم به دانشجویان $\\leftarrow$ افزایش تولید مقالات کیفی اصیل $\\leftarrow$ ارتقای اعتبار مجلات کیفی $\\leftarrow$ پذیرش بیشتر پارادایم‌های غیرپوزیتیویستی در دانشگاه‌ها.\n  * *حلقه تعادل‌بخش (Balancing Loop - B1):* مقاومت نهادی ساختارهای سنتی (پیروان پوزیتیویسم) در برابر تغییر سرفصل‌های آموزشی و معیارهای داوری مجلات، که سرعت گذار پارادایمی را کند می‌کند.\n* **نقاط اهرمی (Leverages Points):** اصلاح «سرفصل‌های آموزشی مقاطع تکمیلی (Graduate Curriculum Reform)»؛ نویسنده درست دست روی نقطه‌ای گذاشته است که تغییر در آن می‌تواند تمامی کارکرد سیستم پژوهشی روان‌شناسی را در طول یک نسل تغییر دهد.\n\n```\n[آموزش فلسفه علم در دانشگاه‌ها] (نقطه اهرمی)\n         │\n         ▼\n[درک درست پارادایم‌ها توسط پژوهشگران]\n         │\n         ▼\n[تولید پژوهش‌های کیفی باکیفیت و اصیل] ──(حلقه تقویت R1)──┐\n         ▲                                           │\n         └───────────────────────────────────────────┘\n```\n\n### لایه فرامتن (Meta Layer)\nدر لایه فرامتن، این اثر یک بیانیه جامعه‌شناختی درباره «فلسفه قدرت و دانش» است. متن به ما یادآوری می‌کند که انتخاب یک روش پژوهش، هرگز یک تصمیم صرفاً تکنسینی یا ابزاری نیست، بلکه یک تعهد ایدئولوژیک و هستی‌شناختی است. مقاله، جامعه روان‌شناسی مشاوره را متوجه این واقعیت می‌سازد که اصرار بر تک‌روش‌شناسی کمّی، نوعی «کوری معرفت‌شناختی (Epistemic Blindness)» ایجاد کرده که پیچیدگی‌های انسانی، فرهنگی و زیسته‌شده‌ی مراجعان مشاوره را نادیده می‌گیرد.\n\n---\n\n## ۵. تحلیل شکاف آگاهی معرفتی (EIG Analysis)\n\nتحلیل EIG (Epistemic Information Gap) بر روی متن ورودی نشان‌دهنده نقاط خالی و شکاف‌های دانش در چکیده و متن ارائه شده است:\n\n1. **شکاف مرزبندی پارادایم‌ها:** چکیده مشخص نمی‌سازد که آیا پارادایم‌های معرفی‌شده دارای مرزهای صلب هستند یا امکان «ترکیب پارادایمی (Paradigm Intersecting)» در روش‌های مختلط وجود دارد.\n2. **شکاف بومی‌سازی فلسفی:** عدم اشاره به معرفت‌شناسی‌های غیرغربی یا بومی (Indigenous Epistemologies) در روان‌شناسی مشاوره که خارج از چارچوب سنتی چهارگانه قرار می‌گیرند.\n3. **شکاف ارزیابی عملی:** فقدان معیارهای عینی برای سنجش واقعی تغییر پارادایم در نرخ پذیرش مقالات کیفی در مجلات اصلی روان‌شناسی مشاوره.\n\n---\n\n## ۶. ممیزی پیش‌نویس تحلیل (REIG — Draft Analysis Audit)\n\n⚠️ **تذکر متدولوژیک:** این ممیزی مستقیماً بر روی خروجی بخش‌های ۱ تا ۵ همین سند (Draft Analysis پیش‌نویس ارزیاب) اجرا می‌شود تا اطمینان حاصل شود که خودِ ارزیاب دچار مغالطات معرفتی نشده است.\n\n**پرسش محوری:** «آیا من — ارزیاب — در خروجی خودم از گپ‌های EIG عبور کردم و دچار ادعاهای بدون استناد شدم؟»\n\n### نقاط بررسی چهارگانه (Four Compliance Checks):\n\n* **□ انطباق علّی (Causal Compliance):**\n  * *وضعیت:* **PASS (قبول)**\n  * *توضیح:* ارزیاب ادعا نکرده که آموزش فلسفه علم «حتماً و به صورت علّی» باعث بهبود کیفیت مشاوره می‌شود، بلکه بیان شده این امر «بستر متدولوژیک» را تقویت می‌کند (رعایت تمایز علت و همبستگی).\n\n* **□ انطباق تعمیم (Generalization Compliance):**\n  * *وضعیت:* **PASS (قبول)**\n  * *توضیح:* ارزیاب تحلیل را دقیقاً محدود به روان‌شناسی مشاوره و جغرافیای مطرح‌شده در متن (آمریکای شمالی/کانادا) نگه داشته و آن را به تمام شاخه‌های علوم انسانی تعمیم نداده است.\n\n* **□ انطباق اندازه‌گیری (Measurement Compliance):**\n  * *وضعیت:* **PASS (قبول)**\n  * *توضیح:* امتیازهای اعطاشده (مانند ۸.۶۸ یا ۸۵.۱) حاصل ارزیابی ماتریسی بر اساس وزنی‌های SOP v3.4.2 هستند و به عنوان قطعیات مطلق ریاضی بازنمایی نشده‌اند، بلکه سنجه‌های کیفی-کمی‌شده منطقی هستند.\n\n* **□ انطباق چارچوب‌بندی (Framing Compliance):**\n  * *وضعیت:* **PASS (قبول)**\n  * *توضیح:* ارزیاب از قضاوت‌های ارزشی شخصی یا تعصب نسبت به روش‌های کمّی یا کیفی خودداری کرده و بی‌طرفی علمی را در نقد متن حفظ نموده است.\n\n**نتیجه نهایی ممیزی REIG:** **PASS (پذیرفته شد — بدون نقض متدولوژیک)**\n\n---\n\n## ۷. نتیجه‌گیری نهایی، نقاط قوت/ضعف و پیشنهادهای بهبود\n\n### نتیجه‌گیری نهایی\nمقاله مورد بررسی، یک متن مرجع و فوق‌العاده تاثیرگذار در حوزه فلسفه علم کاربردی برای روان‌شناسی مشاوره است. این مقاله توانسته است مباحث پیچیده و انتزاعی فلسفی را به زبان کاربردی برای پژوهشگران کیفی ترجمه کند و بستر مناسبی برای مشروعیت‌بخشی به روش‌های غیرکمّی فراهم سازد.\n\n### نقاط قوت اصلی (Strengths)\n1. **ساختاربندی عالی مفاهیم:** ماتریس کردن پارادایم‌ها در برابر ابعاد فلسفه علم (هستی‌شناسی تا روش‌شناسی).\n2. **پاسخ به یک نیاز واقعی:** هدف قرار دادن درستِ ضعف آموزشی در برنامه‌های درسی تحصیلات تکمیلی.\n3. **تطبیق عملی:** ارائه نمونه‌های مشخص پژوهشی مانند پژوهش کیفی اجماعی (CQR) و نظریه داده‌بنیاد.\n\n### نقاط ضعف اصلی (Weaknesses)\n1. **عدم پرداختن به روش‌های مختلط (Mixed Methods):** تمرکز قطبی‌شده بر دوگانه کمّی/کیفی بدون تبیین کامل نحوه تلفیق پارادایم‌ها.\n2. **محدودیت به پارادایم‌های سنتی غربی:** نادیده گرفتن معرفت‌شناسی‌های بومی، پست‌مدرن و فمینیستی متأخر در متن چکیده.\n\n### پیشنهادهای کاربردی برای بهبود (Improvement Suggestions)\n1. **توسعه مدل به روش‌های مختلط:** افزودن یک لایه تحلیل در خصوص چگونگی جمع‌پذیری هستی‌شناختی در پژوهش‌های ترکیبی.\n2. **گنجاندن راهنمای عملی تدوین برنامه‌های درسی:** ارائه یک کورس‌پلن (Course Plan) پیشنهادی برای درس فلسفه علم در مقطع دکتری روان‌شناسی.\n3. **به‌روزرسانی پارادایمی:** اضافه کردن پارادایم‌های نوظهور مانند «پست‌ساختارگرایی (Post-structuralism)» و «معرفت‌شناسی‌های بومی (Indigenous Epistemologies)».\n\n---\n\nتحلیل حاضر کاملاً مطابق SOP_Intellectual_Content_Analysis_v3.4.2 و Ontology BIO v1.0 انجام شد.",
+            "source_model": "gemini-3.6-flash",
+            "generated_at": "2026-09-15T20:20:27Z",
+            "usage": null,
+            "finish_reason": null,
+            "continuation_rounds": 0
+          },
+          "metadata": {
+            "execution_time_seconds": 61.162,
+            "usage": null
+          },
+          "judge_result": {
+            "criteria_source": "heuristic_fallback",
+            "winner": "bsi",
+            "winner_source": "heuristic_fallback",
+            "reasoning": "No LLM judge was available or its response could not be parsed -- this result is from a fixed keyword-presence heuristic, not an independent LLM judgement. Treat it as a placeholder, not a real evaluation.",
+            "criteria": [
+              {
+                "name": "structural_layers",
+                "importance": 30,
+                "raw_score": 0,
+                "bsi_score": 10,
+                "reason": "Presence of analytical layers"
+              },
+              {
+                "name": "epistemic_separation",
+                "importance": 20,
+                "raw_score": 10,
+                "bsi_score": 0,
+                "reason": "Fact / inference / speculation separation"
+              },
+              {
+                "name": "uncertainty_awareness",
+                "importance": 20,
+                "raw_score": 2,
+                "bsi_score": 2,
+                "reason": "Recognition of uncertainty"
+              },
+              {
+                "name": "evidence_grounding",
+                "importance": 15,
+                "raw_score": 6,
+                "bsi_score": 8,
+                "reason": "Grounding in evidence"
+              },
+              {
+                "name": "analysis_depth",
+                "importance": 15,
+                "raw_score": 10,
+                "bsi_score": 10,
+                "reason": "Analytical coverage"
+              }
+            ],
+            "total_scores": {
+              "raw": 4.8,
+              "bsi": 6.1
+            },
+            "bsi_capability_assessment": {
+              "relevance": "low",
+              "realization": "low",
+              "incremental_value": "none",
+              "reason": "Heuristic fallback cannot validly assess BSI capability relevance, realization, or incremental value."
+            },
+            "incremental_value": "none",
+            "scale": "0-10",
+            "weight_sum": 100,
+            "judge_error": "ProviderUnavailable('Groq HTTP 403: {\"error\":{\"message\":\"Access denied. Please check your network settings.\"}}')",
+            "judge_failure_stage": "llm_compare"
+          },
+          "scores": {
+            "RAW": 0.48,
+            "BSI": 0.61
+          },
+          "failed": false,
+          "status": "incomplete",
+          "model_id": "gemini-3.6-flash",
+          "truncated": false
+        }
+      ],
+      "article_id": "doi:https://doi.org/10.1037/0022-0167.52.2.126"
+    }
+  ],
+  "source_url": "https://github.com/ibstrade11-source/behmanesh-index-prompt/blob/main/MASTER_PROMPT_BSI_v3.4.2.md",
+  "run_metadata": {
+    "tool_version": "0.1.0",
+    "git_commit": "0a6ad35f3d95fa2bd028cb1117e334b113fd982f",
+    "git_dirty": true,
+    "run_timestamp_utc": "2026-09-15T23:34:23Z",
+    "methodology_note": "Scores/judgements come from an independent LLM judge (see comparison/judge.py) instructed not to reuse BSI's own D1-D7/EIG vocabulary and to choose its own evaluation criteria. If no judge model is available or its response cannot be parsed, the run falls back to a simple keyword-presence heuristic -- the stored record's own 'criteria_source' field ('llm' vs 'heuristic_fallback') always says honestly which one produced a given result. Neither path is a validated measurement of analytical quality until checked against independent human judgement on a representative sample.",
+    "provider_name": null,
+    "model_version": null,
+    "temperature": null,
+    "max_tokens": null,
+    "prompt_version": "BSI_v3.4.2_GEMINI36_GROQ_PHILOSOPHY_LIMIT1",
+    "framework_name": "bsi"
+  },
+  "retrieval_metadata": {
+    "retrieval_status": "accepted",
+    "retrieval_validation": {
+      "retrieval_status": "accepted",
+      "retrieval_validation": "not_required",
+      "query_type": "topic",
+      "requested_query": "philosophy of science",
+      "candidate_count": 2
+    },
+    "rejected_articles": [],
+    "skipped_count": 3,
+    "skipped_titles": [
+      "Minnesota studies in the philosophy of science",
+      "Logic, Methodology and Philosophy of Science.",
+      "Aspects of Scientific Explanation and Other Essays in the Philosophy of Science."
+    ]
+  },
+  "benchmark_status": "benchmarkable"
+}

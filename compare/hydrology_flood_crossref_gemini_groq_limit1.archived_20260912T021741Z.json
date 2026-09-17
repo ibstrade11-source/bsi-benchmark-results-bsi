@@ -1,0 +1,88 @@
+{
+  "dataset_name": "flood forecasting deep learning climate change",
+  "results": [
+    {
+      "article": {
+        "title": "CLIMATE CHANGE FORECASTING USING DEEP LEARNING",
+        "abstract": "Climate change is defined as a long-lasting change in the mean weather patterns found on Earth. These changes are either natural, or human made. Since the 19th century, climate change has been on the rise. This is mostly due to igniting fossil fuels like gas, coal, and oil. These can lead to various problems like food and water scarcity, disease, increased flooding, extreme heat, and economic loss. It can also cause the sea levels to rise, and make oceans warmer and more acidic, and escalate human migration. It is referred to as the most significant threat to health on a global scale by the World Health Organization. Even if the efforts made to reduce future warming is successful, some effects will continue for tens of decades.\nThis paper attempts to forecast climate change based on the changes in temperature across the globe from the 19th century onwards. A deep learning-based time series model is built using Recurrent Neural Networks (RNNs) to forecast the average temperature. This model will attempt to predict future values based on historical data. \nKEYWORDS—Climate change, Deep learning, Recurrent Neural Network",
+        "full_text": null,
+        "doi": "10.36713/epra18552",
+        "url": "https://doi.org/10.36713/epra18552",
+        "input_quality": {
+          "has_title": true,
+          "has_abstract": true,
+          "source": "crossref",
+          "enriched": false
+        }
+      },
+      "cells": [
+        {
+          "generator": "gemini",
+          "mode": "raw",
+          "analysis": {
+            "text": "Based on the provided abstract and title, here is a concise, factual analysis of the article's main claims and core contribution:\n\n### **Main Contribution**\n* **Application of Deep Learning to Climate Forecasting:** The paper presents a time-series forecasting approach to predict global average temperatures using **Recurrent Neural Networks (RNNs)** trained on historical temperature data dating back to the 19th century.\n\n---\n\n### **Main Claims**\n1. **Critical Global Impact of Climate Change:** The authors emphasize that climate change—accelerated since the 19th century primarily by the burning of fossil fuels—poses severe risks, including resource scarcity, sea-level rise, economic disruption, and major threats to global health.\n2. **Long-Term Persistence:** The paper notes that even with active mitigation strategies, certain effects of global warming are projected to persist for decades, emphasizing the need for reliable predictive models.\n3. **Suitability of Sequential Deep Learning Models:** The study posits that RNN-based deep learning architectures are effective tools for modeling historical sequential/time-series data to forecast future temperature trajectories.\n\n*(Note: Specific numerical results, dataset details, and comparative performance metrics are not included in the provided abstract.)*",
+            "source_model": "gemini-3.7-flash",
+            "generated_at": "2026-09-12T02:13:38Z",
+            "usage": null,
+            "finish_reason": null,
+            "continuation_rounds": 0
+          },
+          "metadata": {
+            "execution_time_seconds": 10.919,
+            "usage": null
+          },
+          "judge_result": null,
+          "scores": {},
+          "failed": false,
+          "status": "valid",
+          "model_id": "gemini-3.7-flash",
+          "truncated": false
+        },
+        {
+          "generator": "gemini",
+          "mode": "bsi",
+          "analysis": null,
+          "metadata": {
+            "error": "Gemini HTTP 429: {\n  \"error\": {\n    \"code\": 429,\n    \"message\": \"You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \\n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 20, model: gemini-3.7-flash\\nPlease retry in 15.54906176s.\",\n    \"status\": \"RESOURCE_EXHAUSTED\",\n    \"details\": [\n      {\n        \"@type\": \"type.googleapis.com/google.rpc.Help\",\n        \"links\": [\n          {\n            \"description\": \"Learn more about Gemini API quotas\",\n            \"url\": \"https://ai.google.dev/gemini-api/docs/rate-limits\"\n          }\n        ]\n      },\n      {\n        \"@type\": \"type.googleapis.com/google.rpc.QuotaFailure\",\n        \"violations\": [\n          {\n            \"quotaMetric\": \"generativelanguage.googleapis.com/generate_content_free_tier_requests\",\n            \"quotaId\": \"GenerateRequestsPerDayPerProjectPerModel-FreeTier\",\n            \"quotaDimensions\": {\n              \"model\": \"gemini-3.7-flash\",\n              \"location\": \"global\"\n            },\n            \"quotaValue\": \"20\"\n          }\n        ]\n      },\n      {\n        \"@type\": \"type.googleapis.com/google.rpc.RetryInfo\",\n        \"retryDelay\": \"15s\"\n      }\n    ]\n  }\n}\n",
+            "execution_time_seconds": 5.108
+          },
+          "judge_result": null,
+          "scores": {},
+          "failed": true,
+          "status": "failed",
+          "model_id": null,
+          "truncated": false
+        }
+      ],
+      "article_id": "doi:10.36713/epra18552"
+    }
+  ],
+  "source_url": "https://github.com/ibstrade11-source/behmanesh-index-prompt/blob/main/MASTER_PROMPT_BSI_v3.4.2.md",
+  "run_metadata": {
+    "tool_version": "0.1.0",
+    "git_commit": "4611b84b11c40496a9a55179000750ad1c70c7f4",
+    "git_dirty": true,
+    "run_timestamp_utc": "2026-09-12T02:13:27Z",
+    "methodology_note": "Scores/judgements come from an independent LLM judge (see comparison/judge.py) instructed not to reuse BSI's own D1-D7/EIG vocabulary and to choose its own evaluation criteria. If no judge model is available or its response cannot be parsed, the run falls back to a simple keyword-presence heuristic -- the stored record's own 'criteria_source' field ('llm' vs 'heuristic_fallback') always says honestly which one produced a given result. Neither path is a validated measurement of analytical quality until checked against independent human judgement on a representative sample.",
+    "provider_name": null,
+    "model_version": null,
+    "temperature": null,
+    "max_tokens": null,
+    "prompt_version": "v3.4.2",
+    "framework_name": "bsi"
+  },
+  "retrieval_metadata": {
+    "retrieval_status": "accepted",
+    "retrieval_validation": {
+      "retrieval_status": "accepted",
+      "retrieval_validation": "not_required",
+      "query_type": "topic",
+      "requested_query": "flood forecasting deep learning climate change",
+      "candidate_count": 5
+    },
+    "rejected_articles": [],
+    "skipped_count": 0,
+    "skipped_titles": []
+  },
+  "benchmark_status": "benchmarkable"
+}

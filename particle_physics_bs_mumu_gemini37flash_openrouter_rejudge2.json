@@ -1,0 +1,92 @@
+{
+  "dataset_name": "10.1038/nature14474",
+  "results": [
+    {
+      "article": {
+        "title": "The design of the MEG II experiment",
+        "abstract": "The MEG experiment, designed to search for the $${\\mu ^+ \\rightarrow \\hbox {e}^+ \\gamma }$$ decay, completed data-taking in 2013 reaching a sensitivity level of $${5.3\\times 10^{-13}}$$ for the branching ratio. In order to increase the sensitivity reach of the experiment by an order of magnitude to the level of $$6\\times 10^{-14}$$ , a total upgrade, involving substantial changes to the experiment, has been undertaken, known as MEG II. We present both the motivation for the upgrade and a detailed overview of the design of the experiment and of the expected detector performance.",
+        "full_text": null,
+        "doi": "https://doi.org/10.1140/epjc/s10052-018-5845-6",
+        "url": "https://openalex.org/W2962789046",
+        "input_quality": {
+          "has_title": true,
+          "has_abstract": true,
+          "source": "openalex",
+          "enriched": false,
+          "has_full_text": false,
+          "full_text_fetch_error": "provider returned no usable full text",
+          "full_text_chars": 0,
+          "full_text_source": "provider_fetch:openalex"
+        }
+      },
+      "cells": [
+        {
+          "generator": "gemini",
+          "mode": "raw",
+          "analysis": {
+            "text": "Based on the provided title and abstract, here is a concise, factual analysis of the article:\n\n### **Context & Objective**\nThe article focuses on **MEG II**, the upgraded successor to the original MEG experiment at the Paul Scherrer Institute. The experiment searches for the charged lepton flavor-violating decay **$\\mu^+ \\rightarrow e^+ \\gamma$**, a process heavily suppressed in the Standard Model whose observation would provide clear evidence of new physics.\n\n---\n\n### **Main Claims**\n1. **Prior Baseline**: The original MEG experiment concluded data collection in 2013, achieving a branching ratio sensitivity limit of **$5.3 \\times 10^{-13}$**.\n2. **Target Sensitivity**: The MEG II upgrade is designed to improve experimental sensitivity by roughly an order of magnitude, targeting a branching ratio limit of **$6 \\times 10^{-14}$**.\n3. **Feasibility via Redesign**: Achieving this sensitivity requires a substantial, comprehensive overhaul of the detector systems rather than incremental changes.\n\n---\n\n### **Primary Contribution**\nThe paper serves as the comprehensive **design and technical overview** for the MEG II experiment. Specifically, it provides:\n* The **physics motivation** driving the upgrade.\n* A detailed description of the **architectural and detector redesigns** across the experimental setup.\n* Quantitative projections of the **expected detector performance** necessary to reach the tenfold sensitivity improvement.",
+            "source_model": "gemini-3.7-flash",
+            "generated_at": "2026-09-11T13:22:31Z",
+            "usage": null,
+            "finish_reason": null,
+            "continuation_rounds": 0
+          },
+          "metadata": {
+            "execution_time_seconds": 8.097,
+            "usage": null
+          },
+          "judge_result": null,
+          "scores": {},
+          "failed": false,
+          "status": "valid",
+          "model_id": "gemini-3.7-flash",
+          "truncated": false
+        },
+        {
+          "generator": "gemini",
+          "mode": "bsi",
+          "analysis": null,
+          "metadata": {
+            "error": "Gemini HTTP 503: {\n  \"error\": {\n    \"code\": 503,\n    \"message\": \"This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.\",\n    \"status\": \"UNAVAILABLE\"\n  }\n}\n",
+            "execution_time_seconds": 27.991
+          },
+          "judge_result": null,
+          "scores": {},
+          "failed": true,
+          "status": "failed",
+          "model_id": null,
+          "truncated": false
+        }
+      ],
+      "article_id": "doi:https://doi.org/10.1140/epjc/s10052-018-5845-6"
+    }
+  ],
+  "source_url": "https://github.com/ibstrade11-source/behmanesh-index-prompt/blob/main/MASTER_PROMPT_BSI_v3.4.2.md",
+  "run_metadata": {
+    "tool_version": "0.1.0",
+    "git_commit": "4611b84b11c40496a9a55179000750ad1c70c7f4",
+    "git_dirty": true,
+    "run_timestamp_utc": "2026-09-11T13:22:23Z",
+    "methodology_note": "Scores/judgements come from an independent LLM judge (see comparison/judge.py) instructed not to reuse BSI's own D1-D7/EIG vocabulary and to choose its own evaluation criteria. If no judge model is available or its response cannot be parsed, the run falls back to a simple keyword-presence heuristic -- the stored record's own 'criteria_source' field ('llm' vs 'heuristic_fallback') always says honestly which one produced a given result. Neither path is a validated measurement of analytical quality until checked against independent human judgement on a representative sample.",
+    "provider_name": null,
+    "model_version": null,
+    "temperature": null,
+    "max_tokens": null,
+    "prompt_version": "v3.4.2",
+    "framework_name": "bsi"
+  },
+  "retrieval_metadata": {
+    "retrieval_status": "accepted",
+    "retrieval_validation": {
+      "retrieval_status": "accepted",
+      "retrieval_validation": "not_required",
+      "query_type": "topic",
+      "requested_query": "10.1038/nature14474",
+      "candidate_count": 5
+    },
+    "rejected_articles": [],
+    "skipped_count": 0,
+    "skipped_titles": []
+  },
+  "benchmark_status": "benchmarkable"
+}
