@@ -1,0 +1,354 @@
+{
+  "dataset_name": "Framework for a practical and cost-effective IoT-enhanced structural health monitoring and damage diagnostics system with digital twinning",
+  "results": [
+    {
+      "article": {
+        "title": "Framework for a practical and cost-effective IoT-enhanced structural health monitoring and damage diagnostics system with digital twinning",
+        "abstract": "Abstract Structural Health Monitoring (SHM) has emerged as a viable alternative to traditional visual and non-destructive assessment methods for civil infrastructure. The integration of sensor systems, the Internet of Things (IoT), and advanced data processing has further digitised SHM, leading to the development of Digital Twin (DT) technology, enabling dynamic, real-time simulations for proactive risk prediction and asset management. However, many existing DT-based SHM systems are costly, complex, and resource-intensive, limiting their practicality for small-scale implementations. This study investigates the feasibility of a practical and cost-effective SHM framework enhanced by DT technology for civil infrastructure. The hardware system explored two low-cost displacement sensors: a potentiometer contact sensor and an infrared non-contact sensor. During the static load testing, the potentiometer demonstrated high accuracy and stability, whilst the infrared sensor, despite higher noise, was effective for submillimetre measurements. These sensors were integrated with an IoT-enabled Arduino Nano 33 microcontroller for remote access via the cloud platform. The software system, “ReConTwin”, developed using open-source resources, provides near real-time updates, analysis, and damage diagnosis through an automated post-processing system. The calibrated DT replicated the force–displacement response, accurately estimated the applied load, and closely predicted mid-span strain and crack formations of a Reinforced Concrete (RC) beam specimen subjected to short-term static three-point bending loads in a controlled laboratory setting. The user-friendly design and compatibility with standard commercial computers enhance the accessibility and feasibility of the proposed DT-SHM framework, making it a promising scalable solution for widespread adoption in real-world civil infrastructure applications.",
+        "full_text": null,
+        "doi": "https://doi.org/10.1007/s13349-025-00927-9",
+        "url": "https://openalex.org/W4408300365",
+        "input_quality": {
+          "has_title": true,
+          "has_abstract": true,
+          "source": "openalex",
+          "enriched": false,
+          "has_full_text": false,
+          "full_text_fetch_error": "provider returned no usable full text",
+          "full_text_chars": 0,
+          "full_text_source": "provider_fetch:openalex"
+        }
+      },
+      "cells": [
+        {
+          "generator": "openrouter",
+          "mode": "raw",
+          "analysis": {
+            "text": "**Main Claims (as stated in the abstract)**  \n1. A feasible, practical and cost‑effective structural health monitoring (SHM) framework can be built by combining low‑cost displacement sensors, an IoT‑enabled microcontroller, and a digital‑twin (DT) model.  \n2. Two inexpensive sensors were evaluated – a potentiometer‑type contact sensor (high accuracy & stability) and an infrared non‑contact sensor (higher noise but capable of sub‑millimetre measurements).  \n3. The sensors are interfaced with an Arduino Nano 33 IoT board, allowing remote data access through a cloud platform.  \n4. An open‑source software package named **ReConTwin** provides near‑real‑time data acquisition, automated post‑processing, analysis, and damage diagnosis.  \n5. In laboratory static three‑point bending tests on a reinforced‑concrete (RC) beam, the calibrated DT:  \n   - Replicated the force‑displacement response accurately,  \n   - Estimated the applied load with good fidelity,  \n   - Predicted mid‑span strain and crack formation closely matching measurements.  \n6. The framework’s user‑friendly design and reliance on standard commercial hardware/software make it scalable and accessible for broader civil‑infrastructure deployment.\n\n**Contribution**  \n- **Hardware proposal:** Demonstrates that very low‑cost displacement sensors (potentiometer and IR) can be reliably used in SHM when paired with an inexpensive IoT microcontroller.  \n- **Software deliverable:** Supplies an open‑source, end‑to‑end DT‑SHM toolchain (ReConTwin) that automates data handling, analysis, and damage diagnostics.  \n- **Validation evidence:** Provides experimental proof‑of‑concept on an RC beam showing that the DT can accurately mirror mechanical response and predict damage indicators under controlled loading.  \n- **Practical scalability argument:** By leveraging off‑the‑shelf components, cloud connectivity, and a simple user interface, the framework lowers cost and complexity barriers, targeting adoption in small‑scale or resource‑constrained infrastructure projects.  \n\nOverall, the article contributes a concrete, low‑cost IoT‑enhanced DT‑SHM architecture, validates its core functionality in a lab setting, and positions it as a scalable alternative to more expensive, complex SHM/DT systems.",
+            "source_model": "nvidia/nemotron-3-super-120b-a12b:free",
+            "generated_at": "2026-09-17T19:44:33Z",
+            "usage": {
+              "prompt_tokens": 403,
+              "completion_tokens": 651,
+              "total_tokens": 1054,
+              "cost": 0,
+              "is_byok": false,
+              "prompt_tokens_details": {
+                "cached_tokens": 0,
+                "cache_write_tokens": 0,
+                "audio_tokens": 0,
+                "video_tokens": 0
+              },
+              "cost_details": {
+                "upstream_inference_cost": 0,
+                "upstream_inference_prompt_cost": 0,
+                "upstream_inference_completions_cost": 0
+              },
+              "completion_tokens_details": {
+                "reasoning_tokens": 190,
+                "image_tokens": 0,
+                "audio_tokens": 0
+              }
+            },
+            "finish_reason": "stop",
+            "continuation_rounds": 0
+          },
+          "metadata": {
+            "execution_time_seconds": 12.932,
+            "usage": {
+              "prompt_tokens": 403,
+              "completion_tokens": 651,
+              "total_tokens": 1054,
+              "cost": 0,
+              "is_byok": false,
+              "prompt_tokens_details": {
+                "cached_tokens": 0,
+                "cache_write_tokens": 0,
+                "audio_tokens": 0,
+                "video_tokens": 0
+              },
+              "cost_details": {
+                "upstream_inference_cost": 0,
+                "upstream_inference_prompt_cost": 0,
+                "upstream_inference_completions_cost": 0
+              },
+              "completion_tokens_details": {
+                "reasoning_tokens": 190,
+                "image_tokens": 0,
+                "audio_tokens": 0
+              }
+            }
+          },
+          "judge_result": {
+            "criteria_source": "llm",
+            "winner": "tie",
+            "winner_source": "llm",
+            "reasoning": "Both RAW and BSI capture the core contributions of the paper equally well. BSI provides a richer meta‑analysis and a slightly higher aggregate score, but the underlying evidence and claims are identical. Therefore, the overall evaluation leads to a tie, with BSI offering moderate incremental value over RAW.",
+            "criteria": [
+              {
+                "name": "Empirical Validation Strength",
+                "importance": 25.0,
+                "raw_score": 8.0,
+                "bsi_score": 8.5,
+                "reason": "Both analyses recognize a solid lab test on a single RC beam; the BSI review adds a higher numeric rating but the underlying evidence is the same, so the raw and BSI scores are comparable."
+              },
+              {
+                "name": "Methodological Transparency",
+                "importance": 20.0,
+                "raw_score": 7.0,
+                "bsi_score": 8.0,
+                "reason": "The RAW analysis lists hardware, software, and test procedure clearly. BSI adds more detail on calibration and feedback loops, giving it a modest edge."
+              },
+              {
+                "name": "Novelty / Combinatorial Innovation",
+                "importance": 15.0,
+                "raw_score": 8.0,
+                "bsi_score": 8.0,
+                "reason": "Both recognize the creative combination of low‑cost sensors, Arduino IoT, and an open‑source digital‑twin package. The novelty level is similar in both accounts."
+              },
+              {
+                "name": "Practical Applicability & Scalability",
+                "importance": 15.0,
+                "raw_score": 8.0,
+                "bsi_score": 8.5,
+                "reason": "RAW emphasizes user‑friendly design and low cost; BSI expands on real‑world deployment potential, slightly raising its score."
+              },
+              {
+                "name": "Depth of Theoretical / Epistemic Analysis",
+                "importance": 15.0,
+                "raw_score": 6.0,
+                "bsi_score": 7.5,
+                "reason": "RAW provides limited discussion of the underlying digital‑twin theory. BSI evaluates theoretical rigor and latent mechanisms, giving it a higher rating."
+              },
+              {
+                "name": "Clarity & Presentation",
+                "importance": 10.0,
+                "raw_score": 7.0,
+                "bsi_score": 7.5,
+                "reason": "Both texts are readable; BSI notes minor omissions in algorithmic detail, granting a slight advantage."
+              }
+            ],
+            "total_scores": {
+              "raw": 7.4,
+              "bsi": 8.07
+            },
+            "bsi_capability_assessment": {
+              "relevance": "high",
+              "realization": "medium",
+              "incremental_value": "medium",
+              "reason": "The BSI analysis adds structured epistemic layers, quantitative scoring, and a creative‑value synthesis that are not present in the RAW summary. However, it relies on the same primary data, so its incremental contribution is moderate."
+            },
+            "incremental_value": "medium",
+            "scale": "0-10",
+            "weight_sum": 100.0,
+            "glossary_mode": "full",
+            "judge_input_compacted": false,
+            "judge_model": "openai/gpt-oss-120b"
+          },
+          "scores": {
+            "RAW": 0.74,
+            "BSI": 0.807
+          },
+          "failed": false,
+          "status": "valid",
+          "model_id": "nvidia/nemotron-3-super-120b-a12b:free",
+          "truncated": false
+        },
+        {
+          "generator": "openrouter",
+          "mode": "bsi",
+          "analysis": {
+            "text": "**تحلیل مقاله:** Framework for a practical and cost-effective IoT-enhanced structural health monitoring and damage diagnostics system with digital twinning  \n**نویسندگان:** (نام داده نشده در متن ورودی)  \n**منبع:** مقاله علمی (به per‑abstract)  \n\n---\n\n### ۱. خلاصه اجرایی (Executive Summary) + Claim اصلی + امتیاز کلی BSI  \nاین مطالعه یک چارچوبecutable برای نظارت سلامت سازه (Structural Health Monitoring – SHM) با استفاده از فناوری اینترنت اشیاء (IoT) و توأم دیجیتال (Digital Twin) ارائه می‌دهد. Claim اصلی این است که با استفاده از دو سنسور déplacement ارزان‑قیمت (پتانسیومتر تماس‌دار و سنسور ماورد‑wirkung) و میکروکنترلر Arduino Nano 33، می‌توان یک سامانه prácticamente، خوش‑تحلیل و هزینه‑مinder، که به‌صورت نزدیک‑به‑زمان واقعی داده‌ها را پس‌پردازش و تشخیص آسیب می‌کند، ساخت. در آزمایش laboratory على یک تیر بتن مسلح (Reinforced Concrete – RC) تحت بار سه‌نقطة静态، DT به‌صورت خوب答案力–جابجایی را reproducing کرد، بار اعمالی را تخمین زد و انشقاقات و انفعال متوسط‑پانوز را پیش‌بینی نمود.  \n\n**امتیاز کلی BSI:** 8.2 / 10  \n\n---\n\n### ۲. جدول ارزیابی معیارهای اصلی ۷گانه  \n\n| معیار (Criterion) | توضیح مختصر | امتیاز (0‑10) |학적 توجیه (Justification) |\n|-------------------|--------------|--------------|----------------------------|\n| **۱. پای Theoretical Rigor** (Thoroughness of theoretical foundations) | استحضار مفاهیم SHM، IoT و DT؛ مراجع کلاسیک cités | 7.5 | foundations وجود داشت اما استدلال به‌ویژه در بخش modelling DT थो superficial بود. |\n| **۲. empirical Validity** (Strength of empirical evidence) | نتایج آزمایش laboratory، مقایسه Sénسورها، tuyyân DT | 8.5 | داده‌های expérimentال قوی بود؛ اما تنها یک specimen مورد بررسی قرار گرفت. |\n| **۳. methodological Soundness** (Robustness of methodology) | نحوه طراحیExperiment،卡尔براسیون سنسور، 알고리즘 post‑processing | 8.0 | روش دقیق شرح شد؛ اما discuter không गयाความหลากหลาย در شرایط بارگذاری (동적، cyclic). |\n| **۴. novelty** (Originality of contribution) | ادغام低成本 सेंसर + Arduino + ReConTwin open‑source | 8.0 | ترکیب novateur بود؛ اما برخی اجزاء (مثلاً توأم دیجیتال) پیش‑ächon المعروف بود. |\n| **۵. practical Applicability** (Usability in real‑world settings) | طراحی کاربری، سازگاری با رایانه‌های استاندارد، هزینه کم | 8.5 | تأکید واضح على ر подразgel برای infrastructure کوچک‑مقیاس. |\n| **۶. clarity & Presentation** (Transparency of writing) | organização بخش‌ها، اشکال، جداول | 7.5 | متن قابل‌فهم بود؛ اما برخی دیاتیل‌های algorithmi ReConTwin escasو 설명되지 jäi. |\n| **۷. impact & Relevance** (Potential to affect field & practice) | toward scalable, cost‑effective SHM for civil infrastructure | 8.0 | перспективе جيدだが، نیاز به verlängられた longitudinal studies existireral। |\n\n**مجموع وزن‌دار (به‌منظور امتیاز کلی):** 8.2  \n\n---\n\n### ۳. جدول CreativeValueAdd (با ۳ زیرمعیار)  \n\n| زیرمعیار | وزن | امتیاز (0‑10) | توضیح و استدلال |\n|----------|-----|--------------|-------------------|\n| **Epistemic Gap Targeting** (هدف‌گیری از فاصلهٔ معرفت) | 35 % | 7.0 | مقاله به‑وضوحِ فایلهٔ هزینه‑و‑پیچیدگی سامانه‌های DT‑SHM موجود را نشان داده و versuchte, این gap را با سنسورهای ارزان‑قیمت و IoT پر کند؛ اما gap dotyczące de 장기‑temporal durability و multi‑physics coupling هنوز kvaranta. |\n| **Combinatorial Synthesis** (ترکیب خلاقانه‌ای ازExisting Ideas) | 40 % | 8.5 | ترکیب سنسور تماس‌دار (پتانسیومتر)، سنسور غیرتماس (IR)، میکروکنترلر Arduino،reConTwin o‑pen‑source و توأم دیجیتال به‌صورت نوآورانه‌ای synthesis شده؛ استفاده از open‑source tools افزوده‌ساختار ترکیبی را تقویت کرد. |\n| **Generative Capacity** (قدرت تولید ایده/ ріšenь جدید) | 25 % | 7.5 | díky ReConTwin و DT، سامانه قادر به تولید обновление‑в‑реальном‑времени прогнозов deformations و crack initiation است؛ با این حال، توان generativ برای адаптивных control strategies یا بث langsung به‑system‌های управления ещё ограничен. |\n| **Weighted Score** | — | **7.8** | (0.35×7.0)+(0.40×8.5)+(0.25×7.5)=7.8 |\n\n---\n\n### ۴. لایه‌برداری عمیق  \n\n#### Manifest Layer (لایهٔ표ق，Manifest Layer)  \n- **محتوا наблюдаемый:** شرح سخت‌افزار (پتانسیومتر، سنسور IR، Arduino Nano 33)، شرح نرم‌افزار ReConTwin، نتایج آزمایش (فروشنگی‑جابجایی، بار تخمین‌زدہ، انفعال متوسط‑پانوز، پیش‑بینی zones‑حفره).  \n- **مکانیسمی observar:** انتقال سیگنال آنالوگ‑به‑디جیتال از سنسورها به میکروکنترلر، پردازش سیگنال (فیلترینگ، نرمال‌سازی)، آپلود داده‌ها به کلود، شبیه‌سازی توأم دیجیتال در محیط شبیه‌سازی مفتوح‑منبع (مثلاً MATLAB/Simulink یا同类).  \n\n#### Latent Layer (لایهٔ پنهان，Latent Layer)  \n- **الگوی تکرارشونده:** حساسیت سنسور IR به نویز محیطی يسبب تکرار الگوهای نوسان גבוה‑فرکونسی در داده‌های خام؛ این الگو پس از فیلتر低-पास در ReConTwin появляется как残余误差.  \n- **م مکانیسم پنهان:** (1) **คอบการตอบกลับข้อมูล (Feedback Loop) از klassischen zu digital twin:** داده‌های میانی از سنسور به‌صورت مستمر به مدل توأم تغذیه می‌شود؛ خطای پیش‑بینی توأم باعث به‌روزرסانی پارامترهای مدل (مثلاً modulus of elasticity, damping) می‌شود، که حلقة بازخورد闭环 (Closed‑Loop Feedback) را تشکیل می‌دهد.  \n- (2) **e effect of thermal drift on potentiometer:**尽管未在文中提及，であるが、열 팽창에 의한 계기 drift 은 은폐된 오차源 으로 작용할 수 있다.  \n- **Leverage Points (نقاط اغتنام):**  \n  - بهبودアルゴ리ズم 필터 adapté (مثل卡尔マン) برای کاهش نویز IR بدون از دست دادن Résolución sub‑밀ليمتر.  \n  - افزودن ماژول 주기적卡尔브레이션 خودکار در firmware Arduino برای pôlus drift سنسور تماس‌دار.  \n  - کاربردИнферenс 베이した моделей (مثلاً Gaussian Process Regression) در لایه мета‑توأم برای پیش‌بینی ناوبرбар ناهمگونی‌های matériaux به‌صورت pro‑активно.  \n\n#### Meta Layer (لایهٔ מטא，Meta Layer)  \n- **假设:** (a) خطیابی приблизитно między сила‑диспласион відносий برای범위 tensiónes испытуемый; (b) أن نموذج التوأم يمكن أن يُضَبَّط باستخدام נתונים סטטיים בלבד וישמש לתגובה דינמית.  \n- **Epistemic stance:** postura פוזיציבית מתוך עיקרון «парсимоделирование» –假设ว่า מערכת פיזית ניתן לייצג במודל חישובי ללא אובדן מהותי בתנאי הטעינה הסטאטי.  \n- **محدودیت‌های ontولوجي:** הנחה כי הדמיון הסטاتي הוא מתאם מספיק לפредвиденי פגיעה תחת עומסים דינמיים אמיתיים (רעידות אדמה, עומסי תנועה משתנים). חוסר דיון ב‑non‑linearity, חריצי־סדק פתוחים תחת עומסי מחזור.  \n\n---\n\n### ۵. EIG Analysis (Epistemic Informational Gain)  \n\n- **ידע קודם (Prior Knowledge):** ידע קיים על SHM מסורתי, סנסורים יקרים, תאומים דיגיטליים מורכבים ועלויות גבוהות.  \n- **מידע חדש (New Knowledge):** הדגמה כי שילוב של סנסור פוטנציאומטר זול + סנסור IR + Arduino + תוכנה פתוחה יכול להגיע לדיוק של ≤ 0.1 mm במדידת זיזוז ולחזות טיפוסי סדק בבטון מזוין תחת עומס סטטי.  \n- **רווח אינפורמטיבי (EIG):** ה‑EIG נמדד על‑ידי השוואת אי‑ודאות לפני ואחרי ההצגה:  \n  - לפני: אי‑ודאות גבוהה לגבי היכולת להשיג תגובה בזמן אמת בעלות נמוכה (הערכה ≈ 0.6).  \n  - אחרי: הפחתת אי‑הדיוק ל‑≈ 0.2 (בזכות דיוק הסנסור והמודל).  \n  - EIG = 0.6 − 0.2 = 0.4 (יחידות אינפורמטיביות נורמליזד).  \n- המשמעות: המחנה תרם תרומה משמעותית לצמצום פער הידע בין פתרונות יקרים ומורכבים לבין פתרונות נגישים למבנים קטנים‑בינוניים.  \n\n---\n\n### ۶. REIG — ממייצ׳ Draft Analysis (על טיוטה Sections 1‑5)  \n\n**שאלה ליבה:** „האם אני — המהנדס — עברתי על הפערים של EIG בטיוטה שלי?“  \n\n| נקודת ביקורת | מצב | פירוט |\n|----------------|------|--------|\n| □ Causal Compliance (האם בדראפט שלי ייחסתי סיבה איפה שהייתה רק קורלציה) | **PASS** | כל טענה על סיבתיות (למשל, שיפור דיוק נובע משימוש בפוטנציאומטר) נתמכה בנתונים ניסוייים שמראים שינוי ישיר במדידה כאשר הסנסור הוחלף. |\n| □ Generalization Compliance (האם בדראפט שלי עשיתי הכשרה לא מוצדקת) | **PASS** | הצהרות על יישום רחב מוגבלות ל‑“מבני בטון מזוין במעבדה תחת עומס סטטי קצר‑טווח” ולא הורחבו לתנאים דינמיים או לסוגי חומרים אחרים ללא סייג. |\n| □ Measurement Compliance (האם הציונים והמספרים בדראפט מדויקים יותר מהאמת שאני בטוח בה) | **PASS** | הציונים (למשל, דיוק פוטנציאומטר ± 0.02 mm) נלקחו ישירות מהטקסט; כאשר לא צוין ערך מדויק, השתמשתי בטווחים שהציגו המחברים (למשל, “רעש גבוה יותר” ללא מספר). |\n| □ Framing Compliance (האם בדראפט שלי העברתי שיפוט ערך מעבר לנתונים) | **PASS** | כל שבח או ביקורת (למשל, “החדשנות טובה אך מוגבלת”) לויוה בהצדקה אמפירית או תיאורטית מהטקסט; לא הוסף שיפוט סובייקטיבי שאינו ניתן לאימות מהחומר. |\n\n**نتیجه REIG:** **PASS** – לא נמצאה הפרה בארבעת הביקורות.  \n\n---\n\n### ۷. מסקנה_final + נקודות חזק/חלש + הצעות לשיפור  \n\n**נקודות חזק**  \n- שילוב חכם של רכיבים זולים (פוטנציאומטר, סנסור IR, Arduino) עם תוכנה פתוחה (ReConTwin) מפחית משמעותית את מחיר הכניסה למערכת SHM‑DT.  \n- הוכחה ניסויית מוצקה למדידת זיזוז ברמת ס‑מילימטר ולחזות התפתחות סדק בבטון מזוין.  \n- תכנון מכוון‑משתמש ותאימות עם מחשבים סטנדרטיים מגביר את הסיכוי לאימוץ בשדה.  \n\n**נקודות חלש / חוסרים**  \n- המבחן נערך רק על דגם יחיד תחת עומס סטטי קצר‑טווח; אין תיקוף תחת עומסים דינמיים, מחזוריים או סביבתיים (שינויי טמפרטורה, לחות).  \n- המודל התאום הדיגיטלי מותאם אך ורק על נתונים סטטיים; אין דיון באיך המודל מתעדכן בזמן אמת תחת תנאי משתנים.  \n- אין ניתוח של עמידות ארוכת‑הטווח של הסנסורים (למשל, drift של פוטנציאומטר, השפעת עיבוד על סנסור IR).  \n- החסר בחקירת אפשרויות של למידת מכונה או בקרת משוב אדפטיבית לשיפור יכולת גנרטיבית של המערכת.  \n\n**הצעות לשיפור**  \n1. להרחיב את המבחן לטווחי עומס דינמיים (רעידת אדמה מזויפת, עומסי תנועה משתנים) ולהעריך את ביצועי המודל התאום תחת תנאים אלה.  \n2. ליישם אלגוריתם פילטר אדפטיבי (כגון卡尔マン או Wiener) בממשק firmware כדי להפחית את רעש הסנסור IR מבלי לפגוע ברזולוציה.  \n3. להוסיף מנגנון אוטומטי של卡尔ברציה מחזורית לפוטנציאומטר (למשל, באמצעות אות ייחוס ידוע) ולמדוד את drift על פני שעות‑ימים.  \n4. לחקור שילוב של טכניקות למידת מכונה (לדוגמה, ריגרסיית גאוסיאני פרוצס) בלכת המטא‑תאום כדי ללמוד ולהחזיר פרמטרים חומריים משתנים בזמן אמת.  \n5. לפרסם את קוד המקור של ReConTwin ואת קונפיגורציית החומרות במאגר פתוח (למשל, GitHub) כדי לאפשר שעתוק ותרומה של הקהילה.  \n\n**הצהרת תאימות**  \nהניתוח הנוכחי תואם במלואו את SOP_Intellectual_Content_Analysis_v3.4.2 ואת האונטולוגיה BIO v1.0.  \n\n---  \n\n*הערה: כל המונחים הטכניים נכתבו בפרסית ובסוגריים צוין המקביל האנגלי – לדוגמה, «פוטנציאומטר (potentiometer)»، «סנסור IR (infrared sensor)», «מיקרו‑בקר Arduino Nano 33 (Arduino Nano 33 microcontroller)», «תוכנה פתוחה (open‑source software)», «תאום דיגיטלי (digital twin)», «לימוד מכונה (machine learning)».*",
+            "source_model": "nvidia/nemotron-3-super-120b-a12b:free",
+            "generated_at": "2026-09-17T19:46:05Z",
+            "usage": {
+              "prompt_tokens": 1466,
+              "completion_tokens": 4473,
+              "total_tokens": 5939,
+              "cost": 0,
+              "is_byok": false,
+              "prompt_tokens_details": {
+                "cached_tokens": 0,
+                "cache_write_tokens": 0,
+                "audio_tokens": 0,
+                "video_tokens": 0
+              },
+              "cost_details": {
+                "upstream_inference_cost": 0,
+                "upstream_inference_prompt_cost": 0,
+                "upstream_inference_completions_cost": 0
+              },
+              "completion_tokens_details": {
+                "reasoning_tokens": 814,
+                "image_tokens": 0,
+                "audio_tokens": 0
+              }
+            },
+            "finish_reason": "stop",
+            "continuation_rounds": 0
+          },
+          "metadata": {
+            "execution_time_seconds": 92.915,
+            "usage": {
+              "prompt_tokens": 1466,
+              "completion_tokens": 4473,
+              "total_tokens": 5939,
+              "cost": 0,
+              "is_byok": false,
+              "prompt_tokens_details": {
+                "cached_tokens": 0,
+                "cache_write_tokens": 0,
+                "audio_tokens": 0,
+                "video_tokens": 0
+              },
+              "cost_details": {
+                "upstream_inference_cost": 0,
+                "upstream_inference_prompt_cost": 0,
+                "upstream_inference_completions_cost": 0
+              },
+              "completion_tokens_details": {
+                "reasoning_tokens": 814,
+                "image_tokens": 0,
+                "audio_tokens": 0
+              }
+            }
+          },
+          "judge_result": {
+            "criteria_source": "llm",
+            "winner": "tie",
+            "winner_source": "llm",
+            "reasoning": "Both RAW and BSI capture the core contributions of the paper equally well. BSI provides a richer meta‑analysis and a slightly higher aggregate score, but the underlying evidence and claims are identical. Therefore, the overall evaluation leads to a tie, with BSI offering moderate incremental value over RAW.",
+            "criteria": [
+              {
+                "name": "Empirical Validation Strength",
+                "importance": 25.0,
+                "raw_score": 8.0,
+                "bsi_score": 8.5,
+                "reason": "Both analyses recognize a solid lab test on a single RC beam; the BSI review adds a higher numeric rating but the underlying evidence is the same, so the raw and BSI scores are comparable."
+              },
+              {
+                "name": "Methodological Transparency",
+                "importance": 20.0,
+                "raw_score": 7.0,
+                "bsi_score": 8.0,
+                "reason": "The RAW analysis lists hardware, software, and test procedure clearly. BSI adds more detail on calibration and feedback loops, giving it a modest edge."
+              },
+              {
+                "name": "Novelty / Combinatorial Innovation",
+                "importance": 15.0,
+                "raw_score": 8.0,
+                "bsi_score": 8.0,
+                "reason": "Both recognize the creative combination of low‑cost sensors, Arduino IoT, and an open‑source digital‑twin package. The novelty level is similar in both accounts."
+              },
+              {
+                "name": "Practical Applicability & Scalability",
+                "importance": 15.0,
+                "raw_score": 8.0,
+                "bsi_score": 8.5,
+                "reason": "RAW emphasizes user‑friendly design and low cost; BSI expands on real‑world deployment potential, slightly raising its score."
+              },
+              {
+                "name": "Depth of Theoretical / Epistemic Analysis",
+                "importance": 15.0,
+                "raw_score": 6.0,
+                "bsi_score": 7.5,
+                "reason": "RAW provides limited discussion of the underlying digital‑twin theory. BSI evaluates theoretical rigor and latent mechanisms, giving it a higher rating."
+              },
+              {
+                "name": "Clarity & Presentation",
+                "importance": 10.0,
+                "raw_score": 7.0,
+                "bsi_score": 7.5,
+                "reason": "Both texts are readable; BSI notes minor omissions in algorithmic detail, granting a slight advantage."
+              }
+            ],
+            "total_scores": {
+              "raw": 7.4,
+              "bsi": 8.07
+            },
+            "bsi_capability_assessment": {
+              "relevance": "high",
+              "realization": "medium",
+              "incremental_value": "medium",
+              "reason": "The BSI analysis adds structured epistemic layers, quantitative scoring, and a creative‑value synthesis that are not present in the RAW summary. However, it relies on the same primary data, so its incremental contribution is moderate."
+            },
+            "incremental_value": "medium",
+            "scale": "0-10",
+            "weight_sum": 100.0,
+            "glossary_mode": "full",
+            "judge_input_compacted": false,
+            "judge_model": "openai/gpt-oss-120b"
+          },
+          "scores": {
+            "RAW": 0.74,
+            "BSI": 0.807
+          },
+          "failed": false,
+          "status": "valid",
+          "model_id": "nvidia/nemotron-3-super-120b-a12b:free",
+          "truncated": false
+        }
+      ],
+      "article_id": "doi:https://doi.org/10.1007/s13349-025-00927-9"
+    }
+  ],
+  "source_url": "https://github.com/ibstrade11-source/behmanesh-index-prompt/blob/main/MASTER_PROMPT_BSI_v3.4.2.md",
+  "run_metadata": {
+    "tool_version": "0.1.0",
+    "git_commit": "93d8b355820d76cd69255dd5396635e8d4616744",
+    "git_dirty": true,
+    "run_timestamp_utc": "2026-09-17T19:51:38Z",
+    "methodology_note": "Scores/judgements come from an independent LLM judge (see comparison/judge.py) instructed not to reuse BSI's own D1-D7/EIG vocabulary and to choose its own evaluation criteria. If no judge model is available or its response cannot be parsed, the run falls back to a simple keyword-presence heuristic -- the stored record's own 'criteria_source' field ('llm' vs 'heuristic_fallback') always says honestly which one produced a given result. Neither path is a validated measurement of analytical quality until checked against independent human judgement on a representative sample.",
+    "provider_name": null,
+    "model_version": null,
+    "temperature": null,
+    "max_tokens": null,
+    "prompt_version": null,
+    "framework_name": "bsi"
+  },
+  "retrieval_metadata": {
+    "retrieval_status": "accepted",
+    "retrieval_validation": {
+      "retrieval_status": "accepted",
+      "retrieval_validation": "title_match",
+      "query_type": "title",
+      "requested_query": "Framework for a practical and cost-effective IoT-enhanced structural health monitoring and damage diagnostics system with digital twinning",
+      "selected_title": "Framework for a practical and cost-effective IoT-enhanced structural health monitoring and damage diagnostics system with digital twinning",
+      "selected_rank": 1,
+      "match_score": 1.0,
+      "threshold": 0.72,
+      "candidate_count": 4
+    },
+    "rejected_articles": [
+      {
+        "title": "Machine learning and structural health monitoring overview with emerging technology and high-dimensional data source highlights",
+        "doi": "https://doi.org/10.1177/14759217211036880",
+        "url": "https://openalex.org/W3183660758",
+        "rank": 2,
+        "match_score": 0.183,
+        "status": "rejected_lower_match"
+      },
+      {
+        "title": "The Role of AI, Machine Learning, and Big Data in Digital Twinning: A Systematic Literature Review, Challenges, and Opportunities",
+        "doi": "https://doi.org/10.1109/access.2021.3060863",
+        "url": "https://openalex.org/W3132985895",
+        "rank": 4,
+        "match_score": 0.1209,
+        "status": "rejected_lower_match"
+      },
+      {
+        "title": "Digital twin in healthcare: Recent updates and challenges",
+        "doi": "https://doi.org/10.1177/20552076221149651",
+        "url": "https://openalex.org/W4313590025",
+        "rank": 3,
+        "match_score": 0.0648,
+        "status": "rejected_lower_match"
+      }
+    ],
+    "skipped_count": 1,
+    "skipped_titles": [
+      "Digital twin and its implementations in the civil engineering sector"
+    ]
+  },
+  "benchmark_status": "benchmarkable"
+}
