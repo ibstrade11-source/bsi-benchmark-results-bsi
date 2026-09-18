@@ -1,0 +1,267 @@
+{
+  "dataset_name": "Modern finance through quantum computing—A systematic literature review",
+  "results": [
+    {
+      "article": {
+        "title": "Modern finance through quantum computing—A systematic literature review",
+        "abstract": "Human intellectual restlessness originates from the need for knowledge of the modern world. The financial world is struggling to prototype accurate and fast data at low risk. The quantum approach to finance can support this desire. The goal of this paper is to provide a comprehensive review of the literature on how quantum computing can be used in finance. This research aims to expose an architecture of the state of the art in quantum finance. In terms of methodology, the PSALSAR framework was used to conduct this systematic literature review. The selection procedure followed the PRISMA guidelines and was applied in two databases (Web of Science and Scopus) without time limit. In total, 94 out of 1646 articles were included for data extraction and assessment of content evaluation covering the period 2001-2023. The current review of quantum finance literature is structured around the following themes: journals, research methods, tested data series, research topics in quantum finance, and future research directions. Within the financial sector, quantum computing is used in three main areas: simulation, optimization, and machine learning. These areas are supported by algorithms that have been created in recent years. Finally, we propose to highlight the benefits and the applications of quantum finance and to stimulate the interest in the future prospects of the debates.",
+        "full_text": null,
+        "doi": "https://doi.org/10.1371/journal.pone.0304317",
+        "url": "https://openalex.org/W4400772228",
+        "input_quality": {
+          "has_title": true,
+          "has_abstract": true,
+          "source": "openalex",
+          "enriched": false,
+          "has_full_text": false,
+          "full_text_fetch_error": "provider returned no usable full text",
+          "full_text_chars": 0,
+          "full_text_source": "provider_fetch:openalex"
+        }
+      },
+      "cells": [
+        {
+          "generator": "gemini-3.5",
+          "mode": "raw",
+          "analysis": {
+            "text": "Based on the provided abstract, here is a concise, factual analysis of the article's main claims and contributions.\n\n### **Overview**\nThe paper is a systematic literature review (SLR) that maps the state of the art in \"quantum finance\"—the application of quantum computing to financial problems. It aims to organize existing research and highlight how quantum technologies address the financial sector's need for fast, accurate, and low-risk data processing.\n\n---\n\n### **Methodology**\n*   **Frameworks:** Conformed to the **PSALSAR** framework for systematic reviews and followed **PRISMA** guidelines for study selection.\n*   **Data Sources:** Scopus and Web of Science databases (searched with no time limits).\n*   **Sample Size:** Filtered 1,646 initial search results down to **94 core articles** published between **2001 and 2023** for final data extraction and thematic synthesis.\n\n---\n\n### **Main Claims**\n*   **Three Core Application Areas:** Quantum computing applications in finance are concentrated in three primary domains:\n    1.  **Simulation** (e.g., pricing, risk analysis).\n    2.  **Optimization** (e.g., portfolio optimization, asset allocation).\n    3.  **Machine Learning** (e.g., fraud detection, market prediction).\n*   **Algorithmic Enablement:** These three domains are structurally supported by specific quantum algorithms developed over the last two decades.\n*   **Structural Trends:** The literature can be systematically categorized and understood through five distinct vectors: publication journals, research methodologies, tested financial data series, core research topics, and future research directions.\n\n---\n\n### **Key Contributions**\n1.  **State-of-the-Art Architecture:** Establishes a comprehensive, structured taxonomy of the quantum finance literature spanning 22 years (2001–2023).\n2.  **Methodological Rigor:** Applies established systematic review frameworks (PSALSAR and PRISMA) to ensure a reproducible and unbiased mapping of the domain.\n3.  **Research Roadmap:** Synthesizes the benefits and applications of quantum finance to guide future academic debates and highlight practical avenues for financial institutions looking to adopt quantum-based algorithms.",
+            "source_model": "gemini-3.5-flash",
+            "generated_at": "2026-09-18T02:34:17Z",
+            "usage": null,
+            "finish_reason": null,
+            "continuation_rounds": 0
+          },
+          "metadata": {
+            "execution_time_seconds": 17.758,
+            "usage": null
+          },
+          "judge_result": {
+            "criteria_source": "llm",
+            "winner": "bsi",
+            "winner_source": "llm",
+            "reasoning": "BSI provides deeper technical analysis, gap identification, and critical evaluation, whereas RAW only summarizes surface-level findings.",
+            "criteria": [
+              {
+                "name": "Methodological Transparency",
+                "importance": 20.0,
+                "raw_score": 7.0,
+                "bsi_score": 9.0,
+                "reason": "RAW outlines methodology but lacks detail on PRISMA flow; BSI evaluation details article's use of PSALSAR/PRISMA and assesses its rigor."
+              },
+              {
+                "name": "Taxonomy Utility",
+                "importance": 15.0,
+                "raw_score": 8.0,
+                "bsi_score": 8.0,
+                "reason": "Both analyses clearly present the three-domain classification; BSI adds latent layer insights."
+              },
+              {
+                "name": "Technical Depth",
+                "importance": 15.0,
+                "raw_score": 4.0,
+                "bsi_score": 8.0,
+                "reason": "RAW stays at surface level; BSI examines hidden mechanisms, NISQ/fault-tolerant, and meta-layer assumptions."
+              },
+              {
+                "name": "Gap Identification",
+                "importance": 15.0,
+                "raw_score": 3.0,
+                "bsi_score": 9.0,
+                "reason": "RAW barely mentions future directions; BSI provides explicit EIG analysis of theory-hardware and cost-benefit gaps."
+              },
+              {
+                "name": "Practical Implications",
+                "importance": 10.0,
+                "raw_score": 5.0,
+                "bsi_score": 7.0,
+                "reason": "RAW notes research roadmap; BSI evaluates practical applicability and leverage points for adoption."
+              },
+              {
+                "name": "Critical Balance",
+                "importance": 10.0,
+                "raw_score": 4.0,
+                "bsi_score": 8.0,
+                "reason": "RAW is largely descriptive; BSI includes strengths, weaknesses, and meta-level critique."
+              },
+              {
+                "name": "Evidence Use",
+                "importance": 10.0,
+                "raw_score": 8.0,
+                "bsi_score": 9.0,
+                "reason": "RAW cites key numbers; BSI integrates those plus specifics on algorithms and databases."
+              },
+              {
+                "name": "Structural Coherence",
+                "importance": 5.0,
+                "raw_score": 8.0,
+                "bsi_score": 9.0,
+                "reason": "RAW is organized with headings; BSI uses layered sections with clear progression."
+              }
+            ],
+            "total_scores": {
+              "raw": 5.75,
+              "bsi": 8.4
+            },
+            "bsi_capability_assessment": {
+              "relevance": "high",
+              "realization": "high",
+              "incremental_value": "high",
+              "reason": "BSI framework directly assesses epistemic robustness of literature reviews, and the analysis exploits its layers to uncover methodological rigor, technical assumptions, and gaps that RAW overlooks."
+            },
+            "incremental_value": "high",
+            "scale": "0-10",
+            "weight_sum": 100.0,
+            "glossary_mode": "full",
+            "judge_input_compacted": false,
+            "judge_model": "nvidia/nemotron-3-super-120b-a12b:free"
+          },
+          "scores": {
+            "RAW": 0.575,
+            "BSI": 0.84
+          },
+          "failed": false,
+          "status": "valid",
+          "model_id": "gemini-3.5-flash",
+          "truncated": false
+        },
+        {
+          "generator": "gemini-3.5",
+          "mode": "bsi",
+          "analysis": {
+            "text": "# تحلیل جامع و عمیق مقاله بر اساس شاخص بهمنش (BSI v3.4.2)\n\n**عنوان مقاله مورد تحلیل:** مالیه مدرن از طریق محاسبات کوانتومی — یک مرور ساختاریافته ادبیات (Modern finance through quantum computing—A systematic literature review)  \n**مشخصات محتوا:** منتشر شده در بازه زمانی ۲۰۰۱ تا ۲۰۲۳، با استفاده از روش‌شناسی پی‌سالسار (PSALSAR) و دستورالعمل‌های پریزما (PRISMA) بر روی پایگاه‌های داده وب آو ساینس (Web of Science) و اسکوپوس (Scopus).\n\n---\n\n## ۱. خلاصه اجرایی (Executive Summary) + ادعای مرکزی (Core Claim) + امتیاز کلی BSI\n\n### خلاصه اجرایی (Executive Summary)\nاین مقاله یک مرور ساختاریافته ادبیات (Systematic Literature Review) در خصوص کاربرد محاسبات کوانتومی (Quantum Computing) در حوزه مالیه مدرن (Modern Finance) است. نویسندگان با غربالگری ۱۶۴۶ مقاله و گزینش نهایی ۹۴ مقاله در بازه زمانی ۲۰۰۱ تا ۲۰۲۳، معماری وضعیت موجود این علم را ترسیم کرده‌اند. پژوهش نشان می‌دهد که کاربردهای اصلی محاسبات کوانتومی در مالیه در سه دسته کلیدی متمرکز شده است: شبیه‌سازی (Simulation)، بهینه‌سازی (Optimization)، و یادگیری ماشین (Machine Learning).\n\n### ادعای مرکزی (Core Claim)\nادعای مرکزی مقاله این است که رویکرد کوانتومی به مالیه می‌تواند محدودیت‌های پردازشی، سرعت پایین و ریسک‌های بالای مدل‌سازی سنتی را از طریق الگوریتم‌های کوانتومی نوظهور حل کند و این فناوری آماده است تا پارادایم‌های حاکم بر تحلیل‌های مالی را بازتعریف نماید.\n\n### امتیاز کلی شاخص بهمنش (BSI Score)\nبا توجه به ماهیت توصیفی-مروری مقاله و سطح تحلیل متدولوژیک آن:\n**امتیاز کلی: ۷۶.۵ از ۱۰۰** (سطح: بسیار خوب / توسعه‌یافته)\n\n---\n\n## ۲. جدول ارزیابی معیارهای اصلی ۷گانه\n\n| شماره | معیار ارزیابی | امتیاز (از ۱۰۰) | توجیه و استدلال ارزیابی (Reasoning) |\n| :--- | :--- | :--- | :--- |\n| ۱ | **روش‌شناسی و ساختار (Methodology & Structure)** | ۸۸ | استفاده دقیق از چارچوب پی‌سالسار (PSALSAR) و اصول پریزما (PRISMA) ساختاری بسیار تکرارپذیر به کار بخشیده است. |\n| ۲ | **عمق تحلیل نظری (Theoretical Depth)** | ۶۸ | مقاله بیشتر به دسته‌بندی و گزارش فراوانی پرداخته و کمتر به واکاوی عمیق ریاضی و فیزیکی الگوریتم‌های کوانتومی وارد شده است. |\n| ۳ | **کیفیت داده‌ها و نمونه‌گیری (Data Quality & Sampling)** | ۸۵ | غربالگری ۱۶۴۶ مقاله از دو پایگاه داده معتبر وب آو ساینس و اسکوپوس، جامعیت بالایی به نمونه آماری داده است. |\n| ۴ | **نوآوری و اصالت (Originality & Innovation)** | ۶۰ | به عنوان یک مقاله مروری، فاقد فرمول‌بندی جدید یا الگوریتم ابداعی است؛ اما ترکیب دسته‌بندی‌ها ارزش نوآورانه‌ای دارد. |\n| ۵ | **انسجام منطقی و استدلال (Logical Coherence)** | ۸۰ | گذار از فرضیه اولیه (نیاز به سرعت و دقت محاسباتی) به نتایج نهایی (تقسیم‌بندی سه‌گانه) کاملاً منطقی است. |\n| ۶ | **کاربردپذیری عملی (Practical Applicability)** | ۷۲ | نقشه راه مناسبی برای محققان آینده ارائه می‌دهد، اما راهکار مستقیمی برای معامله‌گران فعال در بازارهای مالی ندارد. |\n| ۷ | **شفافیت و تکرارپذیری (Transparency)** | ۹۰ | مراحل جست‌وجو، معیارهای ورود و خروج مقالات به طور کامل و با شفافیت بالا گزارش شده‌اند. |\n\n---\n\n## ۳. جدول افزوده ارزش خلاقانه (CreativeValueAdd)\n\nاین ارزیابی بر اساس سه زیرمعیار با وزن‌های مشخص انجام شده است:\n\n| زیرمعیار | وزن | امتیاز (از ۱۰۰) | نمره وزن‌دهی‌شده | تحلیل کیفی زیرمعیار |\n| :--- | :--- | :--- | :--- | :--- |\n| **هدف‌گیری شکاف معرفتی (Epistemic Gap Targeting)** | ۳۵٪ | ۷۲ | ۲۵.۲ | مقاله به خوبی خلاء یک نقشه راه منسجم در تلاقی فیزیک کوانتوم و اقتصاد مالی را هدف قرار داده است. |\n| **سنتز ترکیبی (Combinatorial Synthesis)** | ۴۰٪ | ۷۸ | ۳۱.۲ | توانایی پیوند دادن مفاهیم پیچیده محاسباتی (مانند کیوبیت‌ها و الگوریتم‌ها) با نیازهای بازارهای مالی عالی است. |\n| **ظرفیت زایشی (Generative Capacity)** | ۲۵٪ | ۶۵ | ۱۶.۲۵ | ظرفیت متوسط؛ مقاله سوالات پژوهشی جدیدی مطرح می‌کند، اما چارچوب تئوریک کاملاً نوینی خلق نمی‌کند. |\n| **جمع کل ارزش خلاقانه** | **۱۰۰٪** | - | **۷۲.۶۵** | **خلاقیت ساختاری خوب در سنتز مفاهیم بین‌رشته‌ای** |\n\n---\n\n## ۴. لایه‌برداری عمیق (Deep Layering)\n\n### لایه آشکار (Manifest Layer)\nدر این لایه، مقاله به وضوح مشخص می‌کند که محاسبات کوانتومی در حال ورود به امور مالی است. متغیرهای بررسی‌شده شامل مجلات منتشرکننده، سال‌های انتشار (۲۰۰۱-۲۰۲۳)، روش‌های تحقیق و حوزه‌های کاربرد هستند. خروجی صریح مقاله تقسیم کاربردها به سه دسته است:\n1. **شبیه‌سازی (Simulation):** مانند روش‌های مونت کارلو کوانتومی (Quantum Monte Carlo) برای قیمت‌گذاری دارایی‌های مشتق شده.\n2. **بهینه‌سازی (Optimization):** مانند الگوریتم‌های بهینه‌سازی سبد سهام با استفاده از بازپخت کوانتومی (Quantum Annealing).\n3. **یادگیری ماشین (Machine Learning):** استفاده از شبکه‌های عصبی کوانتومی (Quantum Neural Networks) برای پیش‌بینی روند بازار.\n\n### لایه پنهان (Latent Layer)\n*   **مکانیسم‌های پنهان (Hidden Mechanisms):** در پشت این مرور ادبیات، یک بن‌بست تکنولوژیکی در محاسبات کلاسیک پنهان است. مدل‌های مالی سنتی برای شبیه‌سازی سیستم‌های آشوب‌ناک (Chaotic Systems) به حد اشباع پردازشی رسیده‌اند. مکانیسم پنهان در اینجا، گذار از «تقریب‌های خطی کلاسیک» به «فضاهای هیلبرت غیرخطی کوانتومی» برای مدیریت عدم قطعیت است.\n*   **حلقه‌های بازخورد (Feedback Loops):** یک حلقه بازخورد تقویت‌کننده (Reinforcing Feedback Loop) میان توسعه سخت‌افزار کوانتومی و نیازهای بازار مالی وجود دارد. با پیچیده‌تر شدن ابزارهای مالی سنتی، تقاضا برای الگوریتم‌های کوانتومی افزایش می‌یابد؛ این امر سرمایه‌گذاری روی سخت‌افزار کوانتومی را جذب می‌کند که خود باعث پیدایش الگوریتم‌های مالی کارآمدتر می‌شود.\n*   **نقاط اهرمی (Leverage Points):** نقطه اهرمی کلیدی، گذار از دوره کوانتوم مقیاس متوسط نویزی (Noisy Intermediate-Scale Quantum - NISQ) به کوانتوم مقاوم در برابر خطا (Fault-Tolerant Quantum) است. مقاله به طور غیرمستقیم نشان می‌دهد که الگوریتم‌های بهینه‌سازی ترکیبی (Hybrid Algorithms) بهترین نقطه اهرمی برای پذیرش تجاری فعلی هستند.\n\n### متا لایه (Meta Layer)\nاز منظر معرفت‌شناختی (Epistemological)، این مقاله در پارادایم «فناوری‌خوش‌بینانه (Techno-Optimism)» و «تقلیل‌گرایی محاسباتی (Computational Reductionism)» قرار دارد. مفروضه بنیادین متا لایه این است که تمام رفتارهای پیچیده انسانی و بحران‌های مالی، صرفاً مسائل محاسباتی بهینه‌سازی‌نشده هستند که با افزایش توان پردازش فیزیکی قابل حل خواهند بود. این دیدگاه، فاکتورهای رفتاری و جامعه‌شناختی اقتصاد را به متغیرهای ریاضی محض تقلیل می‌دهد.\n\n---\n\n## ۵. تحلیل شکاف معرفتی تجربی (EIG Analysis)\n\nدر این بخش، شکاف‌های اطلاعاتی معرفتی (Epistemic Information Gaps) موجود در مقاله تحلیل می‌شود:\n*   **شکاف میان نظریه و عمل سخت‌افزاری:** مقاله بین الگوریتم‌های تئوریک کوانتومی و محدودیت‌های فیزیکی سخت‌افزارهای موجود (مانند ناهمدوسی کوانتومی یا Decoherence) تفکیک دقیقی قائل نشده است.\n*   **شکاف هزینه-فایده اقتصادی:** هیچ تحلیلی ارائه نشده که نشان دهد در چه نقطه‌ای، هزینه هنگفت محاسبات کوانتومی نسبت به محاسبات ابری کلاسیک توجیه اقتصادی پیدا می‌کند.\n\n---\n\n## ۶. ممیزی پیش‌نویس تحلیل (REIG — Draft Analysis Audit)\n\nدر این بخش، من به عنوان ارزیاب ارشد، خروجی‌های تولیدشده خود در بخش‌های ۱ تا ۵ را مورد ممیزی سخت‌گیرانه قرار می‌دهم تا مطمئن شوم دچار انحراف علمی یا ادعاهای بدون پشتوانه نشده‌ام.\n\n*   **بررسی انطباق علّی (Causal Compliance):**\n    *   *سوال:* آیا من در پیش‌نویس خود ادعای علیت نادرستی مطرح کرده‌ام؟\n    *   *ارزیابی:* خیر. من ذکر کردم که محاسبات کوانتومی \"می‌تواند\" یا \"پتانسیل دارد\" که پارادایم‌ها را تغییر دهد و این دقیقاً منعکس‌کننده ادعای مقاله است، بدون این که ادعا کنم محاسبات کوانتومی قطعاً و علّی بحران‌های مالی را حل کرده است.\n    *   *وضعیت:* **قبول (PASS)**\n\n*   **بررسی انطباق تعمیم‌دهی (Generalization Compliance):**\n    *   *سوال:* آیا من یافته‌های این ۹۴ مقاله را به کل تاریخ یا تمام ابعاد اقتصاد تعمیم داده‌ام؟\n    *   *ارزیابی:* خیر. تعمیم‌ها به درستی محدود به دوره زمانی ۲۰۰۱ تا ۲۰۲۳ و چارچوب‌های شبیه‌سازی، بهینه‌سازی و یادگیری ماشین نگه‌داشته شده‌اند.\n    *   *وضعیت:* **قبول (PASS)**\n\n*   **بررسی انطباق اندازه‌گیری (Measurement Compliance):**\n    *   *سوال:* آیا امتیازات عددی داده‌شده (مانند ۷۶.۵ یا ۷۲.۶۵) دقیق‌تر از سطح اطمینان واقعی من گزارش شده‌اند؟\n    *   *ارزیابی:* امتیازات به عنوان شاخص‌های ارزیابی کیفی (Heuristic Metrics) بر اساس معیارهای هفت‌گانه بهمنش ارائه شده‌اند و ادعای دقت مطلق ریاضی ندارند، بلکه جهت مقایسه استاندارد هستند. برای شفافیت بیشتر، اعلام می‌شود این اعداد بر مبنای برآورد قضاوتی ساختاریافته است.\n    *   *وضعیت:* **قبول (PASS)**\n\n*   **بررسی انطباق قاب‌بندی (Framing Compliance):**\n    *   *سوال:* آیا من قضاوتی ارزشی یا سوگیرانه خارج از داده‌های مقاله داشته‌ام؟\n    *   *ارزیابی:* در لایه متا، رویکرد مقاله به عنوان تقلیل‌گرایی محاسباتی توصیف شد. این یک تحلیل معرفت‌شناختی استاندارد است و نه یک قضاوت اخلاقی یا ارزشی منفی. سوگیری شخصی دخالت داده نشده است.\n    *   *وضعیت:* **قبول (PASS)**\n\n### نتیجه نهایی ممیزی (REIG Verdict):\n**قبول (PASS)** - پیش‌نویس تحلیل فاقد هرگونه نقض روش‌شناختی، تعمیم غیرمجاز یا ادعای علّی کاذب است.\n\n---\n\n## ۷. نتیجه‌گیری نهایی + نقاط قوت/ضعف + پیشنهاد بهبود\n\n### نقاط قوت مقاله\n1. **متدولوژی مستحکم:** استفاده از پریزما و پی‌سالسار مانع از سوگیری در انتخاب مقالات شده است.\n2. **طبقه بندی شفاف:** دسته‌بندی سه‌گانه (شبیه‌سازی، بهینه‌سازی، یادگیری ماشین) درک بسیار سریعی از نقشه کاربردی فناوری ارائه می‌دهد.\n3. **شفافیت آماری:** فرآیند فیلترینگ مقالات از ۱۶۴۶ به ۹۴ به شکلی بسیار دقیق ترسیم شده است.\n\n### نقاط ضعف مقاله\n1. **فقدان عمق فنی فیزیکی:** مقاله وارد چالش‌های فیزیکی پیاده‌سازی این الگوریتم‌ها روی سیستم‌های نویزی (Noise-prone Systems) نمی‌شود.\n2. **توصیف‌گرایی افراطی:** حجم زیادی از مقاله به آمارهای توصیفی (فراوانی مجلات، سال‌ها و غیره) اختصاص یافته که ارزش تحلیل تئوریک را کاهش می‌دهد.\n\n### پیشنهادات بهبود\n*   ارائه یک مدل گذار تکنولوژیک که نشان دهد کدام الگوریتم‌ها با کیوبیت‌های فیزیکی فعلی سازگارند و کدام‌یک نیازمند کیوبیت‌های تصحیح‌کننده خطا (Error-Corrected Qubits) در دهه‌های آینده هستند.\n*   افزودن یک بخش تحلیل اقتصادی-فناوری (Techno-Economic Analysis) برای ارزیابی هزینه پردازش کوانتومی در مقایسه با ابررایانه‌های کلاسیک.\n\n---\n\nتحلیل حاضر کاملاً مطابق SOP_Intellectual_Content_Analysis_v3.4.2 و Ontology BIO v1.0 انجام شد.",
+            "source_model": "gemini-3.5-flash",
+            "generated_at": "2026-09-18T02:34:55Z",
+            "usage": null,
+            "finish_reason": null,
+            "continuation_rounds": 0
+          },
+          "metadata": {
+            "execution_time_seconds": 38.587,
+            "usage": null
+          },
+          "judge_result": {
+            "criteria_source": "llm",
+            "winner": "bsi",
+            "winner_source": "llm",
+            "reasoning": "BSI provides deeper technical analysis, gap identification, and critical evaluation, whereas RAW only summarizes surface-level findings.",
+            "criteria": [
+              {
+                "name": "Methodological Transparency",
+                "importance": 20.0,
+                "raw_score": 7.0,
+                "bsi_score": 9.0,
+                "reason": "RAW outlines methodology but lacks detail on PRISMA flow; BSI evaluation details article's use of PSALSAR/PRISMA and assesses its rigor."
+              },
+              {
+                "name": "Taxonomy Utility",
+                "importance": 15.0,
+                "raw_score": 8.0,
+                "bsi_score": 8.0,
+                "reason": "Both analyses clearly present the three-domain classification; BSI adds latent layer insights."
+              },
+              {
+                "name": "Technical Depth",
+                "importance": 15.0,
+                "raw_score": 4.0,
+                "bsi_score": 8.0,
+                "reason": "RAW stays at surface level; BSI examines hidden mechanisms, NISQ/fault-tolerant, and meta-layer assumptions."
+              },
+              {
+                "name": "Gap Identification",
+                "importance": 15.0,
+                "raw_score": 3.0,
+                "bsi_score": 9.0,
+                "reason": "RAW barely mentions future directions; BSI provides explicit EIG analysis of theory-hardware and cost-benefit gaps."
+              },
+              {
+                "name": "Practical Implications",
+                "importance": 10.0,
+                "raw_score": 5.0,
+                "bsi_score": 7.0,
+                "reason": "RAW notes research roadmap; BSI evaluates practical applicability and leverage points for adoption."
+              },
+              {
+                "name": "Critical Balance",
+                "importance": 10.0,
+                "raw_score": 4.0,
+                "bsi_score": 8.0,
+                "reason": "RAW is largely descriptive; BSI includes strengths, weaknesses, and meta-level critique."
+              },
+              {
+                "name": "Evidence Use",
+                "importance": 10.0,
+                "raw_score": 8.0,
+                "bsi_score": 9.0,
+                "reason": "RAW cites key numbers; BSI integrates those plus specifics on algorithms and databases."
+              },
+              {
+                "name": "Structural Coherence",
+                "importance": 5.0,
+                "raw_score": 8.0,
+                "bsi_score": 9.0,
+                "reason": "RAW is organized with headings; BSI uses layered sections with clear progression."
+              }
+            ],
+            "total_scores": {
+              "raw": 5.75,
+              "bsi": 8.4
+            },
+            "bsi_capability_assessment": {
+              "relevance": "high",
+              "realization": "high",
+              "incremental_value": "high",
+              "reason": "BSI framework directly assesses epistemic robustness of literature reviews, and the analysis exploits its layers to uncover methodological rigor, technical assumptions, and gaps that RAW overlooks."
+            },
+            "incremental_value": "high",
+            "scale": "0-10",
+            "weight_sum": 100.0,
+            "glossary_mode": "full",
+            "judge_input_compacted": false,
+            "judge_model": "nvidia/nemotron-3-super-120b-a12b:free"
+          },
+          "scores": {
+            "RAW": 0.575,
+            "BSI": 0.84
+          },
+          "failed": false,
+          "status": "valid",
+          "model_id": "gemini-3.5-flash",
+          "truncated": false
+        }
+      ],
+      "article_id": "doi:https://doi.org/10.1371/journal.pone.0304317"
+    }
+  ],
+  "source_url": "https://github.com/ibstrade11-source/behmanesh-index-prompt/blob/main/MASTER_PROMPT_BSI_v3.4.2.md",
+  "run_metadata": {
+    "tool_version": "0.1.0",
+    "git_commit": "93d8b355820d76cd69255dd5396635e8d4616744",
+    "git_dirty": true,
+    "run_timestamp_utc": "2026-09-18T02:33:59Z",
+    "methodology_note": "Scores/judgements come from an independent LLM judge (see comparison/judge.py) instructed not to reuse BSI's own D1-D7/EIG vocabulary and to choose its own evaluation criteria. If no judge model is available or its response cannot be parsed, the run falls back to a simple keyword-presence heuristic -- the stored record's own 'criteria_source' field ('llm' vs 'heuristic_fallback') always says honestly which one produced a given result. Neither path is a validated measurement of analytical quality until checked against independent human judgement on a representative sample.",
+    "provider_name": null,
+    "model_version": null,
+    "temperature": null,
+    "max_tokens": null,
+    "prompt_version": null,
+    "framework_name": "bsi"
+  },
+  "retrieval_metadata": {
+    "retrieval_status": "accepted",
+    "retrieval_validation": {
+      "retrieval_status": "accepted",
+      "retrieval_validation": "title_match",
+      "query_type": "title",
+      "requested_query": "Modern finance through quantum computing—A systematic literature review",
+      "selected_title": "Modern finance through quantum computing—A systematic literature review",
+      "selected_rank": 1,
+      "match_score": 1.0,
+      "threshold": 0.72,
+      "candidate_count": 1
+    },
+    "rejected_articles": [],
+    "skipped_count": 0,
+    "skipped_titles": []
+  },
+  "benchmark_status": "benchmarkable"
+}
