@@ -58,6 +58,47 @@ repeated-run sensitivity case requiring further matched evaluation.
 | E4 |  |  |  |  |  |  |  |  |  |  |  |
 | E5 |  |  |  |  |  |  |  |  |  |  |  |
 
+## Geophysics — Repeated Judge Sensitivity Extension
+
+**Topic:** Integrated structural analysis for geothermal exploration  
+**Analyst:** Gemini  
+**Judge:** Groq independent LLM judge  
+**Input:** Same saved checkpoint analyses; no new analysis generation
+
+### Repeated Judge Results
+
+| Judge run | Source file | RAW | BSI | Δ (BSI-RAW) | Winner | Criteria source |
+|---|---|---:|---:|---:|---|---|
+| Rejudge 1 | `compare/geophysics_gemini_groq_rejudge1.json` | 6.55 | 6.20 | -0.35 | RAW | llm |
+| Rejudge 2 | `compare/geophysics_gemini_groq_rejudge2.json` | 6.70 | 7.50 | +0.80 | BSI | llm |
+| Rejudge 3 | `compare/geophysics_gemini_groq_rejudge3.json` | 6.40 | 7.60 | +1.20 | BSI | llm |
+
+### Repeated-Run Observation
+
+Across the three independent Groq judge evaluations:
+
+- Delta range: **-0.35 → +1.20**
+- Mean BSI-minus-RAW delta: **+0.55**
+- RAW wins: **1**
+- BSI wins: **2**
+- Ties: **0**
+
+The three evaluations use the same saved Gemini RAW/BSI analyses, so this extension records variation attributable to repeated judging rather than regeneration of the underlying analyses.
+
+### Evidence Log
+
+The benchmark result files are preserved unchanged in `compare/`:
+
+- `compare/geophysics_gemini_groq_rejudge1.json`
+- `compare/geophysics_gemini_groq_rejudge2.json`
+- `compare/geophysics_gemini_groq_rejudge3.json`
+
+Scores in this case study are extracted from the stored judge results and are not manually overwritten.
+
+### Interpretation Boundary
+
+This Geophysics extension is a methodological repeated-judge sensitivity record. It should not be interpreted as evidence of general BSI superiority. The purpose is to document how the same saved analyses behave under repeated independent Groq judging and to separate judge/run variance from changes in the underlying analyses.
+
 ## Interpretation Boundary
 
 A repeated-run winner must not be interpreted as proof of general BSI
