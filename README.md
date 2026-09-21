@@ -1,153 +1,194 @@
-# bsi-benchmark-results-bsi
+bsi-benchmark-results-bsi
 
-## فارسی
+Registered benchmark results for Behmanesh Structural Index (BSI)
 
-مخزن ذخیرهٔ نتایج بنچمارک برای چارچوب **BSI**، جدا از مخزن سورس ابزار (`bsi-benchmark`). این مخزن فقط نتایج ثبت‌شده و گزارش‌های تحلیل تجمیعی آن‌ها را نگه می‌دارد؛ هیچ کد منبع ابزار اینجا قرار ندارد.
+Developed by Mohammadali Behmanesh (محمدعلی بهمنش).
 
-هر چارچوبی که با ابزار `bsi-benchmark` سنجیده شود، مخزن نتایج مستقل خودش را دارد؛ این مخزن مخصوص چارچوب BSI است.
+This repository is the public results repository for benchmark experiments conducted with:
 
-### ساختار
+BSI — Behmanesh Structural Index / شاخص ساختاری بهمنش
 
-```
-compare/                              نتایج معتبر compare-cli (هر رکورد: یک جفت .json + .md)
-self_compare/                         رکوردهای معتبر self-compare (همان جفت json+md)
+It is intentionally separated from the benchmark source repository.
+
+Purpose
+
+This repository stores registered benchmark evidence and aggregate reports produced from that evidence.
+
+It does not contain the source code of the benchmark tool.
+
+The benchmark infrastructure is maintained separately in:
+
+"BEHMANESH-Mohammadali/bsi-benchmark"
+
+The BSI framework and prompt definitions are maintained separately in:
+
+"BEHMANESH-Mohammadali/behmanesh-index-prompt"
+
+Canonical identity
+
+Author / creator: Mohammadali Behmanesh
+فارسی: محمدعلی بهمنش
+
+GitHub: "@BEHMANESH-Mohammadali"
+
+X: "@behmanesham"
+
+Primary framework: Behmanesh Structural Index (BSI)
+
+The canonical GitHub profile connecting the author, framework, benchmark implementation, and benchmark evidence is:
+
+"BEHMANESH-Mohammadali/BEHMANESH-Mohammadali"
+
+Repository structure
+
+compare/
+    Registered compare-cli benchmark records
+    Each registered record normally contains JSON + Markdown
+
+self_compare/
+    Registered self-compare records
+
 scripts/
-    rebuild_csvs.py                       تولید ۸ گزارش CSV زیر از روی compare/
-    generate_report.py, build_report.sh   تولید گزارش نهایی ۸‌جدولی از روی همان CSVها
-BENCHMARK_REPORT_8_TABLES.md          گزارش خوانا و یکجا (۸ جدول)، خروجی generate_report.py
-*.csv                                  ۸ فایل گزارش تجمیعی خام
-```
+    rebuild_csvs.py
+    generate_report.py
+    build_report.sh
 
-نتایج مستقیماً و دستی اینجا اضافه نمی‌شوند؛ همه از مخزن سورس، پس از اعتبارسنجی توسط `validate_and_curate_result.py`، ثبت و push می‌شوند. برای فرمان‌های اجرای بنچمارک و ثبت نتیجه، به README مخزن سورس (`bsi-benchmark`) مراجعه کن.
+BENCHMARK_REPORT_8_TABLES.md
+    Human-readable aggregate report
 
-### گزارش‌های CSV
+*.csv
+    Aggregate benchmark tables
 
-هر ۸ فایل مستقیماً از پیمایش `compare/*.json` توسط `scripts/rebuild_csvs.py` ساخته می‌شوند؛ به `self_compare/` کاری ندارند.
+Registration principle
 
-**بازسازی بعد از ثبت نتایج تازه:**
+Results are not intended to be manually edited into the aggregate tables.
 
-    cd ~/bsi-benchmark-results-bsi
-    python scripts/rebuild_csvs.py
+The normal workflow is:
 
-**دسته‌بندی وضعیت (`status`):**
+bsi-benchmark
+      ↓
+validation / curation
+      ↓
+registered result
+      ↓
+compare/
+      ↓
+CSV reconstruction
+      ↓
+aggregate reports
 
-| وضعیت | معیار تشخیص |
-|---|---|
-| `TEST` | نام فایل حاوی الگوهایی مثل `smoke_test`, `mock`, `nemotron_test`, `mobile_test` است |
-| `ARCHIVED` | نام فایل حاوی `archived` است |
-| `UNJUDGED` | `benchmark_status` صریحاً `not_benchmarkable` است، یا `judge_result` معتبر ندارد |
-| `VALID` | نه TEST نه ARCHIVED، و حداقل یک `judge_result` واقعی دارد |
+The benchmark source repository contains the validation and curation workflow.
 
-> این منطق مستقل از اعتبارسنجی `validate_and_curate_result.py` در مخزن سورس است (آنجا `criteria_source == "llm"` هم شرط صریح است، اینجا نه). یک فایل ممکن است در `compare/` باشد ولی اینجا `TEST` یا `ARCHIVED` طبقه‌بندی شود — این عمدی است؛ دو ابزار دو زاویهٔ متفاوت از فیلتر را پیاده می‌کنند.
+Status classification
 
-**فایل‌ها:**
+Registered records may be classified as:
 
-| فایل | سطح هر ردیف | فیلدهای کلیدی |
-|---|---|---|
-| `benchmark_aggregate_scientific.csv` | هر فایل JSON در `compare/`، بدون فیلتر (VALID + TEST + ARCHIVED + UNJUDGED) | `file, status, article_title, doi, article_id, domain, analyst_model, generator, mode, judge_model, criteria_source, winner, raw_score, bsi_score, delta, relevance, realization, incremental_value, full_text` |
-| `benchmark_aggregate_full.csv` | فقط رکوردهای غیر-UNJUDGED | زیرمجموعهٔ ستون‌های بالا + `status` |
-| `benchmark_aggregate.csv` | همان زیرمجموعهٔ `full`، بدون ستون `status` | نمای سادهٔ تاریخی |
-| `article_level_analysis.csv` | هر مقالهٔ یکتا (DOI/article_id/عنوان) در میان رکوردهای VALID | `runs, raw_mean, bsi_mean, delta_mean, delta_median, delta_sd, delta_min, delta_max, bsi_wins, raw_wins, ties` |
-| `domain_level_analysis.csv` | هر حوزه/دامنه | همان آمار بالا + `unique_articles` |
-| `model_level_analysis.csv` | هر مدل تحلیل‌گر (`analyst_model`) | همان آمار بالا |
-| `drift_repeatability_analysis.csv` | فقط مقالاتی با بیش از یک اجرای VALID | `delta_sd, delta_range, raw_sd, bsi_sd, raw_range, bsi_range, winner_switch` |
-| `incremental_value_analysis.csv` | هر ترکیب یکتای (relevance, realization, incremental_value) در میان رکوردهای VALID | `relevance, realization, incremental_value, count, percent_of_valid` |
+Status| Meaning
+"VALID"| Eligible benchmark result with a real judge result
+"UNJUDGED"| No valid independent judge result
+"TEST"| Test/smoke-test record
+"ARCHIVED"| Historical or explicitly archived record
 
-### گزارش نهایی (`BENCHMARK_REPORT_8_TABLES.md`)
+A record being physically present in "compare/" does not by itself imply that it is valid benchmark evidence.
 
-با اجرای زیر، همان ۸ گزارش CSV به یک فایل Markdown خوانا (۸ جدول) تبدیل می‌شود:
+Aggregate CSV reports
 
-    python scripts/generate_report.py
+The repository maintains eight aggregate reports.
 
-اسکریپت یک بررسی داخلی دارد که اگر هر یک از ۸ جدول ساخته نشود، با خطا متوقف می‌شود — یعنی وجود فایل خروجی خودش تضمینی است که هر ۸ جدول با داده‌های واقعی ساخته شده‌اند.
+"benchmark_aggregate_scientific.csv"
 
-### فرمان پیشنهادی — بازسازی کامل با یک دستور
+All scanned compare records, including status information.
 
-به‌جای اجرای جداگانهٔ `rebuild_csvs.py` و `generate_report.py`، بعد از هر ثبت نتیجهٔ تازه فقط این را بزن؛ هر دو مرحله را پشت‌سرهم و به‌ترتیب درست اجرا می‌کند:
+"benchmark_aggregate_full.csv"
 
-    cd ~/bsi-benchmark-results-bsi
-    bash scripts/build_report.sh
+Non-UNJUDGED records with benchmark metadata and scores.
 
-خروجی موفق چیزی شبیه این است:
+"benchmark_aggregate.csv"
 
-    ===== BUILD REPORT COMPLETE =====
-    REPORT: /path/to/bsi-benchmark-results-bsi/BENCHMARK_REPORT_8_TABLES.md
+Historical simplified aggregate view.
 
-اگر خطایی در میانهٔ راه رخ دهد (مثلاً یکی از ۸ جدول ساخته نشود)، اسکریپت به‌خاطر `set -e` بلافاصله متوقف می‌شود و پیام «BUILD REPORT COMPLETE» چاپ نمی‌شود — یعنی دیدن این پیام یعنی هم ۸ CSV و هم گزارش نهایی با موفقیت و از روی داده‌های واقعی بازسازی شده‌اند.
+"article_level_analysis.csv"
 
----
+Article-level aggregation across valid runs.
 
-## English
+"domain_level_analysis.csv"
 
-Results-storage repository for the **BSI** framework, kept separate from the `bsi-benchmark` tool's source repository. This repository holds only registered benchmark results and their aggregate analysis reports — no tool source code lives here.
+Aggregation by research domain.
 
-Every framework benchmarked with the `bsi-benchmark` tool gets its own independent results repository; this one is specific to the BSI framework.
+"model_level_analysis.csv"
 
-### Structure
+Aggregation by analyst model.
 
-```
-compare/                              Valid compare-cli results (each record: a .json + .md pair)
-self_compare/                         Valid self-compare records (same json+md pairing)
-scripts/
-    rebuild_csvs.py                       Generates the 8 CSV reports below from compare/
-    generate_report.py, build_report.sh   Builds the final 8-table report from those CSVs
-BENCHMARK_REPORT_8_TABLES.md          Single readable report (8 tables), output of generate_report.py
-*.csv                                  8 raw aggregate report files
-```
+"drift_repeatability_analysis.csv"
 
-Results are never added here manually. Everything is registered and pushed from the source repository after validation by `validate_and_curate_result.py`. For benchmark-run and result-registration commands, see the source repo's (`bsi-benchmark`) README.
+Analysis of repeated valid runs for the same article.
 
-### CSV reports
+"incremental_value_analysis.csv"
 
-All 8 files are built directly from scanning `compare/*.json` via `scripts/rebuild_csvs.py`; `self_compare/` is not included.
+Distribution of recorded relevance, realization, and incremental-value combinations.
 
-**Rebuilding after registering new results:**
+Rebuilding the reports
 
-    cd ~/bsi-benchmark-results-bsi
-    python scripts/rebuild_csvs.py
+After registering new results:
 
-**Status classification:**
+cd ~/bsi-benchmark-results-bsi
+bash scripts/build_report.sh
 
-| Status | Determined when |
-|---|---|
-| `TEST` | Filename matches patterns like `smoke_test`, `mock`, `nemotron_test`, `mobile_test` |
-| `ARCHIVED` | Filename contains `archived` |
-| `UNJUDGED` | `benchmark_status` is explicitly `not_benchmarkable`, or no valid `judge_result` is present |
-| `VALID` | Neither TEST nor ARCHIVED, and contains a real `judge_result` |
+This runs the CSV reconstruction and final report generation in sequence.
 
-> This logic is independent from `validate_and_curate_result.py`'s validation in the source repo (which also explicitly requires `criteria_source == "llm"`). A file can sit in `compare/` yet be classified `TEST` or `ARCHIVED` here — that's intentional; the two tools apply different filtering lenses.
+The final report is:
 
-**Files:**
+BENCHMARK_REPORT_8_TABLES.md
 
-| File | Row granularity | Key fields |
-|---|---|---|
-| `benchmark_aggregate_scientific.csv` | Every JSON file in `compare/`, unfiltered (VALID + TEST + ARCHIVED + UNJUDGED) | `file, status, article_title, doi, article_id, domain, analyst_model, generator, mode, judge_model, criteria_source, winner, raw_score, bsi_score, delta, relevance, realization, incremental_value, full_text` |
-| `benchmark_aggregate_full.csv` | Non-UNJUDGED records only | Subset of the above columns + `status` |
-| `benchmark_aggregate.csv` | Same `full` subset, without the `status` column | Simplified historical view |
-| `article_level_analysis.csv` | Each unique article (DOI/article_id/title) among VALID records | `runs, raw_mean, bsi_mean, delta_mean, delta_median, delta_sd, delta_min, delta_max, bsi_wins, raw_wins, ties` |
-| `domain_level_analysis.csv` | Each domain | Same stats + `unique_articles` |
-| `model_level_analysis.csv` | Each analyst model (`analyst_model`) | Same stats |
-| `drift_repeatability_analysis.csv` | Only articles with more than one VALID run | `delta_sd, delta_range, raw_sd, bsi_sd, raw_range, bsi_range, winner_switch` |
-| `incremental_value_analysis.csv` | Each unique (relevance, realization, incremental_value) combination among VALID records | `relevance, realization, incremental_value, count, percent_of_valid` |
+Evidence and provenance
 
-### Final report (`BENCHMARK_REPORT_8_TABLES.md`)
+The repository preserves benchmark metadata needed to interpret results, including:
 
-Turns the same 8 CSV reports into one readable Markdown file (8 tables):
+- article title
+- DOI / article identifier
+- domain
+- analyst model
+- generator
+- analysis mode
+- judge model
+- judging criteria source
+- RAW score
+- BSI score
+- delta
+- full-text availability
+- benchmark status
 
-    python scripts/generate_report.py
+The purpose is to keep aggregate numbers connected to their underlying experimental records.
 
-The script runs an internal check and fails loudly if any of the 8 tables can't be built — so the mere existence of the output file guarantees all 8 tables were generated from real data.
+Full-text availability
 
-### Recommended command — full rebuild in one step
+Input quality matters.
 
-Instead of running `rebuild_csvs.py` and `generate_report.py` separately, after registering new results just run this — it runs both steps in the correct order:
+An analysis performed using a full article is not treated as methodologically identical to one performed using only a title or insufficient article content.
 
-    cd ~/bsi-benchmark-results-bsi
-    bash scripts/build_report.sh
+Records should therefore preserve whether full text was actually available.
 
-A successful run ends with:
+Related repositories
 
-    ===== BUILD REPORT COMPLETE =====
-    REPORT: /path/to/bsi-benchmark-results-bsi/BENCHMARK_REPORT_8_TABLES.md
+Benchmark infrastructure
 
-If anything fails along the way (e.g. one of the 8 tables can't be built), the script stops immediately (`set -e`) and this completion message is never printed — so seeing it is confirmation that both the 8 CSVs and the final report were successfully rebuilt from real data.
+"BEHMANESH-Mohammadali/bsi-benchmark"
+
+BSI framework and prompt definitions
+
+"BEHMANESH-Mohammadali/behmanesh-index-prompt"
+
+Canonical GitHub profile
+
+"BEHMANESH-Mohammadali/BEHMANESH-Mohammadali"
+
+Author
+
+Mohammadali Behmanesh / محمدعلی بهمنش
+
+Behmanesh Structural Index (BSI)
+شاخص ساختاری بهمنش
+
+License
+
+MIT
